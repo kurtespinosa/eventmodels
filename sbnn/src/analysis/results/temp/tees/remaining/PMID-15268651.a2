@@ -1,0 +1,31 @@
+T23	Planned_process 26 35	treatment
+T24	Breakdown 117 129	degeneration
+T25	Breakdown 360 371	destruction
+T26	Blood_vessel_development 381 391	angiogenic
+T27	Negative_regulation 392 402	properties
+T28	Planned_process 432 441	treatment
+T29	Breakdown 537 549	degeneration
+T30	Binding 838 846	affinity
+T31	Positive_regulation 945 952	results
+T32	Breakdown 979 985	damage
+T33	Development 999 1008	formation
+T34	Planned_process 1092 1106	administration
+T35	Planned_process 1358 1372	administration
+T36	Planned_process 1451 1454	use
+T37	Planned_process 1768 1777	treatment
+E1	Planned_process:T23 Instrument:T1 Theme:T2
+E2	Breakdown:T24 Theme:T3
+E3	Breakdown:T25 Theme:T4
+E4	Blood_vessel_development:T26
+E5	Negative_regulation:T27 Theme:E4
+E6	Planned_process:T28 Theme:T5
+E7	Breakdown:T29 Theme:T6
+E8	Binding:T30 Theme:T9 Theme2:T10
+E9	Positive_regulation:T31 Theme:E10
+E10	Breakdown:T32 Theme:T11
+E11	Development:T33 Theme:T12
+E12	Planned_process:T34 Instrument:T14
+E13	Planned_process:T35 Instrument:T17
+E14	Planned_process:T36 Instrument:T19 Theme:T18
+E15	Planned_process:T37 Instrument:T22
+E16	Positive_regulation:T31 Theme:E11

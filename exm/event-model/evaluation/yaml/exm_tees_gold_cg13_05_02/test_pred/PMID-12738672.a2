@@ -1,0 +1,105 @@
+TR65	Negative_regulation 621 630	decreased
+TR66	Cell_death 656 665	apoptotic
+TR67	Negative_regulation 681 690	prevented
+TR68	Breakdown 699 710	degradation
+TR69	Catabolism 699 710	degradation
+TR70	Positive_regulation 739 747	mediated
+TR47	Cell_death 4 13	apoptotic
+TR48	Negative_regulation 14 20	effect
+TR57	Localization 434 445	deprivation
+TR58	Positive_regulation 446 453	induced
+TR59	Cell_death 454 463	apoptosis
+TR60	Cell_death 503 512	apoptotic
+TR61	Breakdown 542 551	condensed
+TR62	Breakdown 564 575	degradation
+TR63	Catabolism 564 575	degradation
+TR64	Positive_regulation 581 591	activation
+TR71	Cell_death 788 797	apoptotic
+TR72	Negative_regulation 798 804	effect
+TR73	Negative_regulation 858 868	attenuated
+TR74	Positive_regulation 879 889	activation
+TR85	Negative_regulation 1159 1167	Blocking
+TR86	Positive_regulation 1172 1182	activation
+TR87	Negative_regulation 1310 1318	impaired
+TR88	Positive_regulation 1352 1359	promote
+TR89	Death 1365 1373	survival
+TR49	Binding 49 56	Binding
+TR50	Positive_regulation 148 154	induce
+TR51	Regulation 220 231	responsible
+TR52	Blood_vessel_development 276 288	angiogenesis
+TR53	Metastasis 296 306	metastasis
+TR54	Blood_vessel_development 312 322	restenosis
+TR81	Positive_regulation 1024 1031	induced
+TR82	Death 1037 1045	survival
+TR83	Positive_regulation 1066 1076	activation
+TR84	Negative_regulation 1092 1101	inhibited
+TR90	Binding 1396 1403	binding
+TR91	Negative_regulation 1419 1429	protection
+TR92	Cell_death 1438 1447	apoptosis
+TR93	Positive_regulation 1448 1455	induced
+TR94	Positive_regulation 1504 1514	activation
+TR95	Pathway 1533 1540	pathway
+TR96	Pathway 1578 1585	pathway
+TR55	Regulation 398 404	effect
+TR56	Cell_death 417 426	apoptosis
+TR75	Positive_regulation 897 904	induced
+TR76	Cell_death 909 918	apoptotic
+TR77	Negative_regulation 919 925	effect
+TR78	Positive_regulation 930 939	dependent
+TR79	Catabolism 947 958	proteolytic
+TR80	Regulation 979 990	independent
+E1	Cell_death:TR66 
+E2	Positive_regulation:TR70 Theme:T22
+E3	Breakdown:TR68 Theme:T20
+E4	Negative_regulation:TR67 Cause:T18 Theme:E3
+E5	Cell_death:TR47 
+E6	Negative_regulation:TR48 Cause:T1 Theme:E5
+E7	Cell_death:TR60 
+E8	Breakdown:TR61 Theme:T15
+E9	Breakdown:TR61 Theme:T14
+E10	Positive_regulation:TR64 Theme:T17
+E11	Cell_death:TR59 Theme:T12
+E12	Breakdown:TR62 Theme:T16
+E13	Positive_regulation:TR58 Theme:E11
+E14	Cell_death:TR71 
+E15	Positive_regulation:TR74 Theme:T25
+E16	Negative_regulation:TR72 Theme:E14 Cause:T23
+E17	Negative_regulation:TR73 Theme:E15 Cause:T24
+E18	Positive_regulation:TR86 Theme:T35 Cause:T39
+E19	Positive_regulation:TR86 Theme:T35
+E20	Positive_regulation:TR86 Theme:T36 Cause:T39
+E21	Positive_regulation:TR86 Theme:T36
+E22	Death:TR89 Theme:T41
+E23	Negative_regulation:TR85 Theme:E18
+E24	Negative_regulation:TR85 Theme:E19
+E25	Negative_regulation:TR85 Theme:E20
+E26	Negative_regulation:TR85 Theme:E21
+E27	Positive_regulation:TR88 Theme:E22 Cause:T40
+E28	Positive_regulation:TR88 Theme:E22
+E29	Negative_regulation:TR87 Cause:E23 Theme:T40
+E30	Negative_regulation:TR87 Cause:E24 Theme:T40
+E31	Negative_regulation:TR87 Cause:E25 Theme:T40
+E32	Negative_regulation:TR87 Cause:E26 Theme:T40
+E33	Negative_regulation:TR87 Theme:T40 Cause:T39
+E34	Blood_vessel_development:TR52 
+E35	Metastasis:TR53 Theme:T9
+E36	Blood_vessel_development:TR54 
+E37	Death:TR82 Theme:T31
+E38	Positive_regulation:TR83 Theme:T32
+E39	Positive_regulation:TR81 Theme:E37 Cause:T30
+E40	Positive_regulation:TR81 Theme:E37
+E41	Negative_regulation:TR84 Cause:T34 Theme:E37
+E42	Pathway:TR96 Participant:T46
+E43	Cell_death:TR92 
+E44	Negative_regulation:TR91 Theme:E43
+E45	Positive_regulation:TR93 Theme:E43
+E46	Cell_death:TR56 
+E47	Regulation:TR55 Cause:T10 Theme:E46
+E48	Cell_death:TR76 
+E49	Catabolism:TR79 Theme:T27
+E50	Negative_regulation:TR77 Theme:E48
+E51	Positive_regulation:TR75 Cause:T26 Theme:E50
+E52	Positive_regulation:TR78 Theme:E50 Cause:T27
+E53	Positive_regulation:TR78 Cause:T27 Theme:E49
+E54	Regulation:TR80 Theme:E50 Cause:T28
+E55	Regulation:TR80 Theme:E50 Cause:T29

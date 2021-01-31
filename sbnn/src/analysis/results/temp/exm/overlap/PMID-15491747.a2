@@ -1,0 +1,47 @@
+T37	Gene_expression 0 10	Expression
+T38	Carcinogenesis 94 108	carcinogenesis
+T39	Negative_regulation 176 186	suppressor
+T40	Regulation 201 206	plays
+T41	Carcinogenesis 245 265	carcinogenic process
+T42	Gene_expression 335 345	expression
+T43	Gene_expression 445 455	expression
+T44	Gene_expression 621 631	expression
+T45	Planned_process 693 705	transfection
+T46	Gene_expression 782 791	expressed
+T47	Negative_regulation 864 871	silence
+T48	Gene_expression 876 886	expression
+T49	Negative_regulation 942 946	lost
+T50	Gene_expression 958 968	expression
+T51	Gene_expression 983 993	expression
+T52	Positive_regulation 1046 1053	induced
+T53	Cell_death 1054 1063	apoptosis
+T54	Pathway 1183 1192	signaling
+T55	Regulation 1197 1203	commit
+T56	Cell_proliferation 1281 1294	proliferating
+T57	Negative_regulation 1334 1343	silencing
+T58	Gene_expression 1351 1361	expression
+T59	Positive_regulation 1366 1376	contribute
+T60	Negative_regulation 1384 1390	escape
+T61	Regulation 1430 1439	regulated
+T62	Death 1440 1457	apoptotic program
+T63	Positive_regulation 1467 1476	promoting
+T64	Carcinogenesis 1477 1497	malignant phenotypes
+E3	Negative_regulation:T39 Theme:T7 Cause:T6
+E4	Regulation:T40 Theme:T8 Cause:T6
+E5	Carcinogenesis:T41
+E8	Gene_expression:T44 Theme:T18
+E9	Planned_process:T45 Instrument:T18
+E18	Pathway:T54 Participant:T31 Participant2:T30
+E19	Regulation:T55 Cause:E18 Theme:T32
+E20	Cell_proliferation:T56 Theme:T32
+E21	Negative_regulation:T57 Theme:E22
+E22	Gene_expression:T58 Theme:T34
+E23	Positive_regulation:T59 Cause:E21 Theme:E24
+E24	Negative_regulation:T60 Theme:E26
+E25	Regulation:T61 Cause:T36 Theme:E26
+E26	Death:T62 Theme:T35
+E27	Positive_regulation:T63 Theme:E28 Cause:E24
+E28	Carcinogenesis:T64
+E30	Regulation:T40 Theme:E5 Cause:T6
+E33	Gene_expression:T44 Theme:T17
+E34	Planned_process:T45 Instrument:T17

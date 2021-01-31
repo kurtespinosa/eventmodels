@@ -1,0 +1,47 @@
+T54	Gene_expression 948 959	expressions
+T56	Gene_expression 1304 1315	expressions
+T53	Planned_process 794 802	resected
+T45	Blood_vessel_development 417 429	Angiogenesis
+T46	Positive_regulation 435 443	critical
+T47	Growth 467 473	growth
+T48	Metastasis 478 488	metastasis
+T42	Regulation 333 340	control
+T43	Cell_proliferation 349 362	proliferation
+T44	Cell_death 364 373	apoptosis
+T58	Regulation 321 325	role
+T49	Blood_vessel_development 586 596	angiogenic
+T50	Blood_vessel_development 630 642	angiogenesis
+T51	Regulation 643 652	regulator
+T52	Gene_expression 721 732	expressions
+T38	Gene_expression 32 42	expression
+T39	Gene_expression 82 92	expression
+T40	Planned_process 96 104	resected
+T55	Gene_expression 1244 1254	expression
+T41	Mutation 248 257	mutations
+T57	Mutation 171 182	alterations
+E1	Gene_expression:T56 Theme:T32 Theme:T31
+E2	Gene_expression:T56 Theme:T32
+E3	Gene_expression:T56 Theme:T31
+E4	Planned_process:T53 Theme:T19 Theme2:T18
+E5	Blood_vessel_development:T45 
+E6	Growth:T47 Theme:T10
+E7	Metastasis:T48 Theme:T10
+E8	Positive_regulation:T46 Cause:E5 Theme:E7
+E9	Positive_regulation:T46 Cause:E5 Theme:E6
+E10	Cell_death:T44 Theme:T9
+E11	Cell_death:T44 
+E12	Cell_proliferation:T43 Theme:T9
+E13	Regulation:T42 Cause:T8 Theme:E12
+E14	Regulation:T42 Cause:T8 Theme:E10
+E15	Regulation:T42 Cause:T8 Theme:E11
+E16	Regulation:T58 Cause:T8 Theme:E10
+E17	Regulation:T58 Cause:T8 Theme:E11
+E18	Blood_vessel_development:T50 AtLoc:T13
+E19	Blood_vessel_development:T49 
+E20	Gene_expression:T52 Theme:T15 Theme:T14
+E21	Gene_expression:T52 Theme:T15
+E22	Gene_expression:T52 Theme:T14
+E23	Gene_expression:T39 Theme:T2
+E24	Gene_expression:T38 Theme:T1
+E25	Planned_process:T40 Theme:T3
+E26	Gene_expression:T55 Theme:T29 Theme:T30

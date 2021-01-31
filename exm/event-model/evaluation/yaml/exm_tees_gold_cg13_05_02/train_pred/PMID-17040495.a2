@@ -1,0 +1,20 @@
+TR18	Negative_regulation 249 257	impaired
+TR19	Blood_vessel_development 258 270	angiogenesis
+TR20	Positive_regulation 288 295	improve
+TR21	Blood_vessel_development 296 308	angiogenesis
+TR22	Positive_regulation 677 685	promotes
+TR23	Blood_vessel_development 686 698	angiogenesis
+TR24	Development 722 731	formation
+TR15	Positive_regulation 78 89	accelerated
+TR16	Blood_vessel_development 90 102	angiogenesis
+TR17	Development 126 135	formation
+TR25	Positive_regulation 519 526	promote
+E1	Blood_vessel_development:TR21 
+E2	Blood_vessel_development:TR19 
+E3	Positive_regulation:TR20 Theme:E1
+E4	Negative_regulation:TR18 Theme:E2
+E5	Development:TR24 Theme:T14
+E6	Development:TR17 Theme:T4
+E7	Blood_vessel_development:TR16 
+E8	Positive_regulation:TR15 Cause:T2 Theme:E7
+E9	Positive_regulation:TR25 Cause:T9 Theme:T10

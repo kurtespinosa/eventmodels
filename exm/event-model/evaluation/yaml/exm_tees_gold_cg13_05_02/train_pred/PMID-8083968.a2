@@ -1,0 +1,19 @@
+TR32	Infection 679 687	infected
+TR33	Infection 720 733	postinfection
+TR34	Infection 769 782	postinfection
+TR30	Positive_regulation 456 467	reactivated
+TR31	Planned_process 471 480	treatment
+TR36	Negative_regulation 591 600	decreased
+TR35	Translation 932 945	translational
+TR28	Cell_transformation 422 433	transformed
+TR29	Positive_regulation 422 433	transformed
+TR26	Cell_transformation 324 335	transformed
+TR27	Positive_regulation 324 335	transformed
+E1	Infection:TR32 Theme:T16
+E2	Infection:TR33 Theme:T16
+E3	Infection:TR34 Theme:T16
+E4	Translation:TR35 Theme:T19
+E5	Cell_transformation:TR28 Theme:T11
+E6	Positive_regulation:TR29 Cause:T10 Theme:E5
+E7	Cell_transformation:TR26 Theme:T9
+E8	Positive_regulation:TR27 Cause:T8 Theme:E7

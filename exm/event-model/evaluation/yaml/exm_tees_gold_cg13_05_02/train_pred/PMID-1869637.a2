@@ -1,0 +1,53 @@
+TR56	Planned_process 881 889	passages
+TR57	Planned_process 921 928	culture
+TR58	Planned_process 938 946	grafting
+TR69	Positive_regulation 790 799	dependent
+TR70	Positive_regulation 847 856	dependent
+TR60	Death 1470 1477	survive
+TR61	Planned_process 1523 1535	implantation
+TR62	Gene_expression 1552 1562	synthesize
+TR49	Planned_process 260 268	isolated
+TR50	Planned_process 365 373	grafting
+TR68	Cell_proliferation 292 302	maintained
+TR59	Blood_vessel_development 1256 1268	vascularized
+TR64	Blood_vessel_development 1876 1888	angiogenesis
+TR65	Planned_process 1974 1981	grafted
+TR72	Binding 1767 1779	interactions
+TR73	Localization 1802 1811	migration
+TR74	Localization 1840 1852	infiltration
+TR55	Planned_process 598 610	implantation
+TR51	Planned_process 456 464	cultured
+TR52	Cell_proliferation 499 510	proliferate
+TR53	Binding 560 567	contact
+TR54	Negative_regulation 568 577	inhibited
+TR48	Planned_process 0 22	Intracerebral grafting
+TR66	Planned_process 14 22	grafting
+TR67	Planned_process 26 34	cultured
+TR71	Localization 1206 1213	present
+TR63	Development 1720 1727	produce
+E1	Planned_process:TR57 Theme:T21
+E2	Positive_regulation:TR69 Theme:T19
+E3	Planned_process:TR56 Theme:T21
+E4	Planned_process:TR58 Instrument:T21
+E5	Death:TR60 Theme:T36
+E6	Gene_expression:TR62 Theme:T39 Theme:T38
+E7	Gene_expression:TR62 Theme:T39
+E8	Gene_expression:TR62 Theme:T38
+E9	Planned_process:TR61 Theme:T37 Instrument:T36
+E10	Planned_process:TR61 Instrument:T36
+E11	Cell_proliferation:TR68 Theme:T9
+E12	Cell_proliferation:TR68 Theme:T7
+E13	Planned_process:TR49 Theme:T7
+E14	Blood_vessel_development:TR59 AtLoc:T30
+E15	Blood_vessel_development:TR64 
+E16	Localization:TR74 Theme:T44
+E17	Planned_process:TR65 Theme:T47 Instrument:T45
+E18	Planned_process:TR55 Instrument:T17 Theme:T16
+E19	Planned_process:TR51 Theme:T14
+E20	Cell_proliferation:TR52 Theme:T14
+E21	Planned_process:TR67 Theme:T1
+E22	Planned_process:TR66 Instrument:T1
+E23	Planned_process:TR48 Instrument:T1 Theme:T3
+E24	Localization:TR71 Theme:T28
+E25	Localization:TR71 Theme:T27
+E26	Development:TR63 Theme:T42

@@ -1,0 +1,89 @@
+T30	Regulation 1 8	Altered
+T31	Gene_expression 9 19	expression
+T32	Mutation 37 40	LOH
+T33	DNA_domain_or_region 48 73	epigenetic microsatellite
+T72	DNA_domain_or_region 59 73	microsatellite
+T54	Transcription 1092 1101	expressed
+T55	Translation 1092 1101	expressed
+T49	Mutation 717 720	LOH
+T50	DNA_domain_or_region 724 731	D10S541
+T51	DNA_domain_or_region 733 740	D10S583
+T52	DNA_domain_or_region 745 753	D10S1687
+T39	Mutation 304 307	LOH
+T40	DNA_domain_or_region 311 337	epigenetic microsatellites
+T75	DNA_domain_or_region 322 337	microsatellites
+T56	Transcription 1234 1249	mRNA expression
+T57	Mutation 1254 1257	LOH
+T58	DNA_domain_or_region 1261 1276	microsatellites
+T77	Transcription 1239 1249	expression
+T59	Translation 1314 1332	protein expression
+T60	Transcription 1353 1368	mRNA expression
+T78	Gene_expression 1322 1332	expression
+T79	Translation 1322 1332	expression
+T80	Transcription 1358 1368	expression
+T64	Negative_regulation 1529 1543	Down-regulated
+T65	Gene_expression 1544 1554	expression
+T66	Mutation 1650 1653	LOH
+T67	DNA_domain_or_region 1661 1687	epigenetic microsatellites
+T81	DNA_domain_or_region 1672 1687	microsatellites
+T53	Transcription 837 852	mRNA expression
+T76	Transcription 842 852	expression
+T44	Transcription 605 615	expression
+T45	Translation 605 615	expression
+T46	Metastasis 656 666	metastasis
+T47	Mutation 670 673	LOH
+T48	DNA_domain_or_region 677 692	microsatellites
+T68	Regulation 1761 1768	altered
+T69	Regulation 1779 1790	contributes
+T70	Carcinogenesis 1794 1807	tumorigenesis
+T71	Development 1812 1823	progression
+T82	Mutation 1761 1768	altered
+T41	Translation 431 441	Expression
+T42	Transcription 431 441	Expression
+T43	Positive_regulation 515 524	evaluated
+T61	Transcription 1385 1395	expression
+T62	Translation 1385 1395	expression
+T63	Metastasis 1463 1473	metastasis
+T34	Gene_expression 128 138	expression
+T35	Mutation 151 179	loss of heterozygosity (LOH)
+T36	DNA_domain_or_region 187 212	epigenetic microsatellite
+T37	Regulation 252 257	roles
+T38	Development 261 272	progression
+T73	Mutation 175 178	LOH
+T74	DNA_domain_or_region 198 212	microsatellite
+E1	Mutation:T32 AtLoc:T2 Theme:T1
+E2	Mutation:T32 AtLoc:T2
+E3	Mutation:T32 Theme:T1
+E4	Gene_expression:T31 Theme:T1
+E5	Regulation:T30 Theme:E4
+E6	Translation:T55 Theme:T17
+E7	Transcription:T54 Theme:T17
+E8	Mutation:T39 AtLoc:T7 Theme:T6
+E9	Transcription:T77 Theme:T20
+E10	Gene_expression:T78 Theme:T22
+E11	Transcription:T60 Theme:T22
+E12	Translation:T59 Theme:T22
+E13	Transcription:T80 Theme:T22
+E14	Translation:T79 Theme:T22
+E15	Mutation:T66 Theme:T26 AtLoc:T27
+E16	Gene_expression:T65 Theme:T26
+E17	Negative_regulation:T64 Theme:E16
+E18	Transcription:T53 Theme:T14
+E19	Transcription:T76 Theme:T14
+E20	Mutation:T47 Theme:T11
+E21	Transcription:T44 Theme:T11
+E22	Metastasis:T46 ToLoc:T12
+E23	Development:T71 Theme:T29
+E24	Mutation:T82 Theme:T28
+E25	Regulation:T68 Theme:T28
+E26	Carcinogenesis:T70 Theme:T29
+E27	Translation:T41 Theme:T8
+E28	Transcription:T42 Theme:T8
+E29	Positive_regulation:T43 Theme:E28
+E30	Positive_regulation:T43 Theme:E27
+E31	Metastasis:T63 ToLoc:T24 Theme:T25
+E32	Translation:T62 Theme:T23
+E33	Transcription:T61 Theme:T23
+E34	Development:T38 Theme:T5
+E35	Gene_expression:T34 Theme:T3
+E36	Regulation:T37 Theme:E34

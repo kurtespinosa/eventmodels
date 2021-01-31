@@ -1,0 +1,28 @@
+TR41	Regulation 124 135	alterations
+TR42	Breakdown 243 255	degeneration
+TR43	Planned_process 303 314	angiography
+TR50	Planned_process 901 912	angiography
+TR51	Blood_vessel_development 1004 1016	vasculopathy
+TR52	Blood_vessel_development 1125 1144	neovascularizations
+TR53	Localization 1206 1214	presence
+TR54	Blood_vessel_development 1228 1246	neovascularization
+TR56	Planned_process 1514 1525	angiography
+TR39	Dissociation 55 65	detachment
+TR40	Breakdown 89 101	degeneration
+TR44	Breakdown 531 544	abnormalities
+TR45	Blood_vessel_development 595 607	vascularized
+TR46	Blood_vessel_development 630 645	nonvascularized
+TR47	Localization 748 756	presence
+TR48	Breakdown 775 785	detachment
+TR49	Dissociation 775 785	detachment
+E1	Regulation:TR41 Theme:T4
+E2	Breakdown:TR42 Theme:T7
+E3	Planned_process:TR50 Instrument:T24
+E4	Blood_vessel_development:TR51 AtLoc:T25
+E5	Blood_vessel_development:TR52 AtLoc:T28
+E6	Blood_vessel_development:TR54 AtLoc:T29
+E7	Breakdown:TR40 Theme:T3
+E8	Breakdown:TR48 Theme:T21
+E9	Breakdown:TR44 Theme:T15
+E10	Blood_vessel_development:TR45 
+E11	Blood_vessel_development:TR46 

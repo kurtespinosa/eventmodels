@@ -1,0 +1,91 @@
+T51	Negative_regulation 40 46	blocks
+T52	Positive_regulation 54 61	induced
+T53	Blood_vessel_development 317 327	angiogenic
+T54	Negative_regulation 490 496	impede
+T55	Growth 503 509	growth
+T56	Pathway 647 656	signaling
+T57	Negative_regulation 703 710	prevent
+T58	Positive_regulation 718 725	induced
+T59	Blood_vessel_development 726 738	angiogenesis
+T60	Growth 757 763	growth
+T61	Regulation 773 780	effects
+T62	Regulation 821 829	mediated
+T63	Negative_regulation 1133 1142	inhibited
+T64	Positive_regulation 1150 1157	induced
+T65	Phosphorylation 1158 1173	phosphorylation
+T66	Positive_regulation 1200 1207	induced
+T67	Phosphorylation 1208 1223	phosphorylation
+T68	Negative_regulation 1361 1368	blocked
+T69	Positive_regulation 1380 1387	induced
+T70	Positive_regulation 1399 1406	induced
+T71	Cell_proliferation 1407 1420	proliferation
+T72	Death 1422 1430	survival
+T73	Localization 1436 1445	migration
+T74	Negative_regulation 1528 1537	prevented
+T75	Blood_vessel_development 1538 1550	angiogenesis
+T76	Positive_regulation 1573 1580	induced
+T77	Gene_expression 1591 1601	expressing
+T78	Gene_expression 1617 1627	expressing
+T79	Negative_regulation 1685 1692	blocked
+T80	Blood_vessel_development 1693 1705	angiogenesis
+T81	Gene_expression 1752 1762	expressing
+T82	Gene_expression 1843 1853	expressing
+T83	Negative_regulation 1913 1923	preventing
+T84	Development 1930 1941	progression
+T85	Negative_regulation 1955 1965	inhibiting
+T86	Blood_vessel_development 1987 1999	angiogenesis
+T87	Negative_regulation 2027 2037	inhibiting
+E4	Negative_regulation:T54 Theme:E5 Cause:T7
+E7	Negative_regulation:T57 Cause:T9 Theme:E9
+E8	Positive_regulation:T58 Cause:T13 Theme:E9
+E13	Negative_regulation:T63 Cause:T25 Theme:E15
+E14	Positive_regulation:T64 Cause:T26 Theme:E15
+E16	Positive_regulation:T66 Cause:T28 Theme:E17
+E18	Negative_regulation:T68 Cause:T30 Theme:E21
+E19	Positive_regulation:T69 Cause:T31 Theme:E21
+E20	Positive_regulation:T70 Cause:T32 Theme:E21
+E24	Negative_regulation:T74 Cause:T35 Theme:E25
+E26	Positive_regulation:T76 Theme:E25 Cause:T38
+E29	Negative_regulation:T79 Cause:T39 Theme:E30
+E33	Negative_regulation:T83 Theme:E34 Cause:E35
+E38	Negative_regulation:T57 Cause:T10 Theme:E9
+E39	Negative_regulation:T57 Cause:T11 Theme:E9
+E40	Negative_regulation:T57 Cause:T9 Theme:E10
+E41	Negative_regulation:T57 Cause:T10 Theme:E10
+E42	Negative_regulation:T57 Cause:T11 Theme:E10
+E43	Negative_regulation:T63 Cause:T25 Theme:E17
+E44	Negative_regulation:T68 Cause:T30 Theme:E22
+E45	Negative_regulation:T68 Cause:T30 Theme:E23
+E46	Negative_regulation:T68 Cause:T30 Theme:E61
+E47	Negative_regulation:T68 Cause:T30 Theme:E60
+E48	Negative_regulation:T68 Cause:T30 Theme:E59
+E49	Positive_regulation:T69 Cause:T31 Theme:E22
+E50	Positive_regulation:T69 Cause:T31 Theme:E23
+E51	Positive_regulation:T69 Cause:T31 Theme:E61
+E52	Positive_regulation:T69 Cause:T31 Theme:E60
+E53	Positive_regulation:T69 Cause:T31 Theme:E59
+E54	Positive_regulation:T70 Cause:T32 Theme:E22
+E55	Positive_regulation:T70 Cause:T32 Theme:E23
+E56	Positive_regulation:T70 Cause:T32 Theme:E61
+E57	Positive_regulation:T70 Cause:T32 Theme:E60
+E58	Positive_regulation:T70 Cause:T32 Theme:E59
+E63	Negative_regulation:T83 Theme:E34 Cause:E65
+E64	Negative_regulation:T83 Theme:E34 Cause:E37
+E65	Negative_regulation:T85 Cause:T47 Theme:E36
+E25	Blood_vessel_development:T75
+E17	Phosphorylation:T67 Theme:T29
+E61	Localization:T73 Theme:T34
+E5	Growth:T55 Theme:T8
+E30	Blood_vessel_development:T80
+E23	Localization:T73 Theme:T33
+E37	Negative_regulation:T87 Theme:T50
+E36	Blood_vessel_development:T86
+E21	Cell_proliferation:T71 Theme:T33
+E15	Phosphorylation:T65 Theme:T27
+E35	Negative_regulation:T85 Cause:T47 Theme:T49
+E9	Blood_vessel_development:T59
+E10	Growth:T60 Theme:T14
+E59	Cell_proliferation:T71 Theme:T34
+E22	Death:T72 Theme:T33
+E60	Death:T72 Theme:T34
+E34	Development:T84 Theme:T48

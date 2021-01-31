@@ -1,0 +1,62 @@
+TR42	Negative_regulation 6 16	inhibition
+TR43	Blood_vessel_development 51 63	angiogenesis
+TR44	Positive_regulation 129 138	dependent
+TR45	Negative_regulation 145 155	inhibition
+TR46	Negative_regulation 227 234	inhibit
+TR47	Blood_vessel_development 235 247	angiogenesis
+TR48	Positive_regulation 253 258	cause
+TR49	Breakdown 268 274	injury
+TR73	Positive_regulation 189 197	activate
+TR69	Positive_regulation 1285 1294	activated
+TR70	Regulation 1405 1412	mediate
+TR71	Blood_vessel_development 1427 1439	angiogenetic
+TR72	Regulation 1440 1446	effect
+TR78	Negative_regulation 1440 1446	effect
+TR50	Gene_expression 389 399	production
+TR74	Negative_regulation 322 332	inhibition
+TR75	Binding 352 364	interactions
+TR65	Regulation 959 966	require
+TR66	Binding 984 991	contact
+TR67	Binding 1020 1031	interaction
+TR68	Positive_regulation 1040 1049	activated
+TR57	Negative_regulation 704 710	arrest
+TR58	Negative_regulation 748 755	inhibit
+TR59	Blood_vessel_development 765 777	angiogenesis
+TR60	Negative_regulation 779 798	negatively modulate
+TR61	Gene_expression 803 813	production
+TR62	Binding 870 876	adhere
+TR63	Positive_regulation 896 907	up-regulate
+TR64	Gene_expression 926 936	expression
+TR76	Localization 680 687	release
+TR77	Regulation 790 798	modulate
+TR51	Positive_regulation 532 541	activates
+TR52	Blood_vessel_development 550 560	angiogenic
+TR53	Negative_regulation 561 568	program
+TR54	Positive_regulation 578 587	activated
+TR55	Positive_regulation 608 617	activated
+TR56	Positive_regulation 638 647	activated
+E1	Blood_vessel_development:TR43 
+E2	Negative_regulation:TR42 Cause:T1 Theme:T2
+E3	Negative_regulation:TR42 Cause:T1 Theme:E1
+E4	Negative_regulation:TR45 Theme:T6
+E5	Breakdown:TR49 Theme:T9
+E6	Positive_regulation:TR44 Theme:E4 Cause:T5
+E7	Positive_regulation:TR48 Cause:T7 Theme:E5
+E8	Blood_vessel_development:TR47 
+E9	Negative_regulation:TR46 Cause:T7 Theme:E8
+E10	Blood_vessel_development:TR71 
+E11	Regulation:TR72 Cause:T41 Theme:E10
+E12	Regulation:TR70 Theme:E11
+E13	Gene_expression:TR50 Theme:T11
+E14	Gene_expression:TR61 Theme:T22
+E15	Gene_expression:TR64 Theme:T25 Theme:T26
+E16	Gene_expression:TR64 Theme:T25
+E17	Gene_expression:TR64 Theme:T26
+E18	Blood_vessel_development:TR59 
+E19	Positive_regulation:TR63 Theme:E15
+E20	Positive_regulation:TR63 Theme:E16
+E21	Positive_regulation:TR63 Theme:E17
+E22	Negative_regulation:TR58 Theme:E18
+E23	Blood_vessel_development:TR52 
+E24	Negative_regulation:TR53 Theme:E23
+E25	Positive_regulation:TR51 Cause:T12 Theme:E24

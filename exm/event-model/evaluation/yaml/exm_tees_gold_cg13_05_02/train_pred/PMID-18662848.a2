@@ -1,0 +1,73 @@
+TR63	Regulation 1261 1285	played an important role
+TR64	Cell_proliferation 1298 1311	proliferation
+TR65	Localization 1318 1327	migration
+TR66	Localization 1332 1340	invasion
+TR80	Regulation 1281 1285	role
+TR81	Positive_regulation 1341 1350	dependent
+TR55	Positive_regulation 988 998	upregulate
+TR56	Gene_expression 1003 1013	expression
+TR57	Positive_regulation 1110 1116	induce
+TR58	Cell_death 1117 1126	apoptosis
+TR59	Negative_regulation 1131 1139	decrease
+TR60	Localization 1145 1154	migration
+TR61	Localization 1156 1164	invasion
+TR62	Cell_proliferation 1169 1182	proliferation
+TR77	Mutation 958 967	wild-type
+TR78	Mutation 972 978	mutant
+TR79	Mutation 1056 1065	wild-type
+TR38	Planned_process 74 86	transfection
+TR72	Negative_regulation 0 8	Reversal
+TR73	Mutation 92 101	wild-type
+TR43	Positive_regulation 431 443	upregulation
+TR44	Planned_process 460 472	transfection
+TR45	Negative_regulation 521 528	inhibit
+TR46	Cell_proliferation 529 535	growth
+TR47	Localization 540 549	migration
+TR48	Planned_process 588 600	gene therapy
+TR74	Planned_process 593 600	therapy
+TR67	Positive_regulation 1380 1388	Enhanced
+TR68	Gene_expression 1389 1399	expression
+TR69	Planned_process 1416 1424	transfer
+TR70	Planned_process 1502 1514	transfection
+TR71	Planned_process 1600 1624	therapeutic intervention
+TR82	Mutation 1544 1553	wild-type
+TR83	Planned_process 1612 1624	intervention
+TR49	Planned_process 691 702	transfected
+TR50	Regulation 757 764	effects
+TR51	Cell_death 773 782	apoptosis
+TR52	Cell_proliferation 789 802	proliferation
+TR53	Localization 809 818	migration
+TR54	Localization 828 836	invasion
+TR75	Mutation 629 638	Wild-type
+TR76	Protein_domain_or_region 665 670	C124A
+TR39	Negative_regulation 307 314	inhibit
+TR40	Cell_proliferation 320 333	proliferation
+TR41	Localization 335 344	migration
+TR42	Localization 349 357	invasion
+E1	Localization:TR66 Theme:T32
+E2	Localization:TR65 Theme:T32
+E3	Cell_proliferation:TR64 Theme:T31
+E4	Regulation:TR63 Theme:E3 Cause:T30
+E5	Regulation:TR63 Theme:E2 Cause:T30
+E6	Regulation:TR63 Theme:E1 Cause:T30
+E7	Localization:TR60 Theme:T28
+E8	Gene_expression:TR56 Theme:T24
+E9	Cell_proliferation:TR62 Theme:T28
+E10	Cell_death:TR58 
+E11	Positive_regulation:TR57 Theme:E10 Cause:T25
+E12	Positive_regulation:TR55 Cause:T23 Theme:E8
+E13	Negative_regulation:TR72 Theme:T1
+E14	Cell_proliferation:TR46 Theme:T13
+E15	Mutation:TR82 Theme:T36
+E16	Planned_process:TR69 Instrument:T33
+E17	Planned_process:TR71 Theme:T37
+E18	Planned_process:TR83 Theme:T37
+E19	Gene_expression:TR68 Theme:T33
+E20	Positive_regulation:TR67 Theme:E19
+E21	Cell_proliferation:TR52 Theme:T19
+E22	Localization:TR54 Theme:T21
+E23	Cell_death:TR51 Theme:T18
+E24	Planned_process:TR49 Theme:T17
+E25	Localization:TR42 Theme:T9
+E26	Localization:TR42 Theme:T10
+E27	Cell_proliferation:TR40 Theme:T9

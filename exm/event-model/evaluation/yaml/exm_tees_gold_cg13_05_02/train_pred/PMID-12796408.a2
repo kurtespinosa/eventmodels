@@ -1,0 +1,47 @@
+TR60	Planned_process 1418 1425	treated
+TR61	Metastasis 1523 1533	metastases
+TR62	Positive_regulation 1642 1653	efficacious
+TR63	Negative_regulation 1657 1665	reducing
+TR64	Metastasis 1666 1676	metastases
+TR49	Planned_process 333 340	therapy
+TR50	Mutation 346 372	NH(2)-terminally truncated
+TR51	Positive_regulation 414 425	efficacious
+TR52	Negative_regulation 430 439	reduction
+TR53	Growth 449 455	growth
+TR54	Negative_regulation 464 474	inhibition
+TR55	Metastasis 478 488	metastases
+TR68	Mutation 363 372	truncated
+TR46	Negative_regulation 21 29	inhibits
+TR47	Growth 36 42	growth
+TR48	Metastasis 47 57	metastasis
+TR65	Regulation 247 257	implicated
+TR66	Carcinogenesis 261 275	tumorigenicity
+TR67	Metastasis 280 290	metastasis
+TR57	Planned_process 786 795	implanted
+TR58	Planned_process 856 863	treated
+TR70	Development 803 810	derived
+TR59	Localization 1248 1257	localized
+TR56	Planned_process 623 639	enzyme digestion
+TR69	Planned_process 630 639	digestion
+E1	Planned_process:TR60 Theme:T35 Instrument:T36
+E2	Metastasis:TR61 ToLoc:T39
+E3	Metastasis:TR64 
+E4	Negative_regulation:TR63 Theme:E3
+E5	Negative_regulation:TR63 Theme:T41
+E6	Positive_regulation:TR62 Cause:T40 Theme:E4
+E7	Positive_regulation:TR62 Cause:T40 Theme:E5
+E8	Metastasis:TR55 Theme:T11
+E9	Growth:TR53 Theme:T11
+E10	Mutation:TR50 Theme:T9
+E11	Planned_process:TR49 Instrument:T10
+E12	Growth:TR47 Theme:T2
+E13	Metastasis:TR48 Theme:T2
+E14	Negative_regulation:TR46 Cause:T1 Theme:E13
+E15	Negative_regulation:TR46 Cause:T1 Theme:E12
+E16	Metastasis:TR67 Theme:T8
+E17	Carcinogenesis:TR66 Theme:T8
+E18	Regulation:TR65 Cause:T7 Theme:E16
+E19	Regulation:TR65 Cause:T7 Theme:E17
+E20	Planned_process:TR57 Instrument:T20 Theme:T19
+E21	Development:TR70 Theme:T20
+E22	Planned_process:TR69 Instrument:T16

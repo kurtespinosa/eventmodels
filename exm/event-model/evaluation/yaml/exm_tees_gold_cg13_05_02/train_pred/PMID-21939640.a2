@@ -1,0 +1,42 @@
+TR59	Gene_expression 787 797	expression
+TR60	Regulation 855 864	unchanged
+TR61	Localization 872 879	absence
+TR51	Mutation 361 369	ablation
+TR52	Negative_regulation 370 379	decreased
+TR53	Gene_expression 399 409	expression
+TR54	Gene_expression 448 458	expression
+TR55	Positive_regulation 471 480	increased
+TR45	Regulation 83 106	plays an important role
+TR65	Regulation 102 106	role
+TR62	Regulation 959 963	role
+TR63	Carcinogenesis 1008 1021	tumorigenesis
+TR64	Localization 1048 1056	presence
+TR46	Regulation 140 144	role
+TR47	Carcinogenesis 169 182	tumorigenesis
+TR67	Negative_regulation 575 583	restored
+TR68	Regulation 619 625	effect
+TR48	Mutation 232 240	ablation
+TR49	Negative_regulation 265 273	inhibits
+TR50	Carcinogenesis 297 310	tumorigenesis
+TR66	Negative_regulation 232 240	ablation
+TR56	Gene_expression 661 670	deficient
+TR57	Negative_regulation 708 716	decrease
+TR58	Localization 732 744	infiltration
+TR42	Gene_expression 7 17	deficiency
+TR43	Negative_regulation 18 26	inhibits
+TR44	Carcinogenesis 44 57	tumorigenesis
+E1	Gene_expression:TR59 Theme:T32
+E2	Localization:TR61 Theme:T36
+E3	Regulation:TR60 Theme:E2 Cause:E1
+E4	Mutation:TR51 Theme:T14
+E5	Regulation:TR45 Theme:T6 Cause:T5
+E6	Localization:TR64 Theme:T41
+E7	Carcinogenesis:TR47 AtLoc:T8
+E8	Regulation:TR46 Cause:T7 Theme:E7
+E9	Mutation:TR48 Theme:T9
+E10	Gene_expression:TR56 Theme:T27
+E11	Localization:TR58 Theme:T30
+E12	Negative_regulation:TR57 Theme:E11
+E13	Carcinogenesis:TR44 AtLoc:T2
+E14	Gene_expression:TR42 Theme:T1
+E15	Negative_regulation:TR43 Theme:E13 Cause:E14

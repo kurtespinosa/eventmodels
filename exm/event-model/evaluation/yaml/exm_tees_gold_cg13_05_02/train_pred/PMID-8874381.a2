@@ -1,0 +1,31 @@
+TR54	Planned_process 1350 1361	transfected
+TR39	Localization 193 201	secreted
+TR48	Blood_vessel_development 1441 1451	angiogenic
+TR49	Positive_regulation 1545 1556	stimulating
+TR50	Development 1575 1586	development
+TR55	Planned_process 1395 1403	transfer
+TR37	Positive_regulation 93 103	stimulates
+TR38	Development 115 126	development
+TR40	Planned_process 341 353	gene therapy
+TR41	Positive_regulation 357 366	stimulate
+TR42	Development 385 396	development
+TR51	Planned_process 346 353	therapy
+TR43	Planned_process 708 719	transfected
+TR44	Planned_process 731 757	site-specific transfection
+TR45	Positive_regulation 768 776	resulted
+TR46	Development 808 819	development
+TR52	Planned_process 745 757	transfection
+TR53	Positive_regulation 780 789	augmented
+TR47	Blood_vessel_development 1149 1161	angiogenesis
+E1	Planned_process:TR54 Theme:T33
+E2	Development:TR50 Theme:T36
+E3	Blood_vessel_development:TR48 
+E4	Positive_regulation:TR49 Theme:E2
+E5	Development:TR38 Theme:T3
+E6	Positive_regulation:TR37 Cause:T2 Theme:E5
+E7	Development:TR42 Theme:T10
+E8	Planned_process:TR40 Instrument:T8
+E9	Planned_process:TR44 Instrument:T21
+E10	Planned_process:TR43 Instrument:T20
+E11	Development:TR46 Theme:T22
+E12	Blood_vessel_development:TR47 

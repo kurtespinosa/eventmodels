@@ -1,0 +1,67 @@
+TR37	Gene_expression 0 10	Expression
+TR38	Regulation 67 78	implication
+TR39	Carcinogenesis 94 108	carcinogenesis
+TR43	Gene_expression 445 455	expression
+TR51	Gene_expression 958 968	expression
+TR40	Regulation 201 206	plays
+TR41	Carcinogenesis 245 257	carcinogenic
+TR57	Regulation 1077 1084	changes
+TR58	Localization 1106 1114	presence
+TR44	Regulation 583 590	effects
+TR45	Gene_expression 621 631	expression
+TR46	Gene_expression 675 685	expression
+TR59	Pathway 1183 1192	signaling
+TR60	Cell_proliferation 1281 1294	proliferating
+TR52	Negative_regulation 970 978	Restored
+TR53	Gene_expression 983 993	expression
+TR54	Localization 1026 1033	absence
+TR55	Positive_regulation 1046 1053	induced
+TR56	Cell_death 1054 1063	apoptosis
+TR47	Cell_proliferation 742 755	proliferative
+TR48	Gene_expression 782 791	expressed
+TR49	Negative_regulation 864 871	silence
+TR50	Gene_expression 876 886	expression
+TR42	Gene_expression 335 345	expression
+TR61	Negative_regulation 1334 1343	silencing
+TR62	Gene_expression 1351 1361	expression
+TR63	Regulation 1366 1376	contribute
+TR64	Regulation 1430 1439	regulated
+TR65	Cell_death 1440 1449	apoptotic
+TR66	Positive_regulation 1467 1476	promoting
+E1	Gene_expression:TR37 Theme:T2 Theme:T1
+E2	Gene_expression:TR37 Theme:T2
+E3	Gene_expression:TR37 Theme:T1
+E4	Carcinogenesis:TR39 AtLoc:T5
+E5	Regulation:TR38 Theme:E4
+E6	Gene_expression:TR43 Theme:T14 Theme:T13
+E7	Gene_expression:TR43 Theme:T14
+E8	Gene_expression:TR43 Theme:T13
+E9	Gene_expression:TR51 Theme:T25
+E10	Carcinogenesis:TR41 AtLoc:T8
+E11	Regulation:TR40 Theme:T8 Cause:T6
+E12	Regulation:TR40 Cause:T6 Theme:E10
+E13	Localization:TR58 Theme:T29
+E14	Regulation:TR57 Theme:E13
+E15	Gene_expression:TR45 Theme:T17 Theme:T18
+E16	Gene_expression:TR45 Theme:T17
+E17	Gene_expression:TR45 Theme:T18
+E18	Gene_expression:TR46 Theme:T17 Theme:T18
+E19	Gene_expression:TR46 Theme:T17
+E20	Gene_expression:TR46 Theme:T18
+E21	Gene_expression:TR53 Theme:T26
+E22	Cell_death:TR56 Theme:T27
+E23	Localization:TR54 Theme:T28
+E24	Negative_regulation:TR52 Theme:E21
+E25	Positive_regulation:TR55 Cause:E21 Theme:E22
+E26	Gene_expression:TR50 Theme:T23
+E27	Gene_expression:TR48 Theme:T20 Theme:T21
+E28	Gene_expression:TR48 Theme:T20
+E29	Gene_expression:TR48 Theme:T21
+E30	Negative_regulation:TR49 Theme:E26
+E31	Gene_expression:TR42 Theme:T9 Theme:T10
+E32	Gene_expression:TR42 Theme:T9
+E33	Gene_expression:TR42 Theme:T10
+E34	Gene_expression:TR62 Theme:T34
+E35	Cell_death:TR65 Theme:T35
+E36	Negative_regulation:TR61 Theme:E34
+E37	Regulation:TR64 Cause:T36 Theme:E35

@@ -1,0 +1,74 @@
+TR48	Regulation 491 498	effects
+TR54	Negative_regulation 943 952	inhibited
+TR55	Cell_proliferation 968 981	proliferation
+TR45	Planned_process 233 242	extracted
+TR56	Binding 1013 1021	adhesion
+TR57	Localization 1026 1034	invasion
+TR58	Negative_regulation 1071 1080	inhibited
+TR59	Planned_process 1086 1093	treated
+TR46	Negative_regulation 317 323	effect
+TR47	Regulation 419 425	effect
+TR70	Negative_regulation 419 425	effect
+TR51	Binding 701 708	binding
+TR39	Negative_regulation 9 17	inhibits
+TR40	Metastasis 18 28	metastatic
+TR41	Positive_regulation 29 40	progression
+TR42	Regulation 63 70	through
+TR43	Negative_regulation 71 82	suppression
+TR44	Pathway 137 155	signaling pathways
+TR69	Pathway 147 155	pathways
+TR60	Negative_regulation 1165 1174	decreased
+TR61	Gene_expression 1190 1200	expression
+TR62	Binding 1226 1233	binding
+TR49	Planned_process 573 580	treated
+TR63	Negative_regulation 1288 1296	inhibits
+TR64	Binding 1301 1309	adhesion
+TR65	Localization 1314 1322	invasion
+TR66	Negative_regulation 1346 1361	down-regulating
+TR67	Gene_expression 1374 1384	expression
+TR68	Positive_regulation 1409 1419	activation
+TR50	Localization 651 659	invasion
+TR52	Regulation 848 854	effect
+TR53	Gene_expression 874 884	expression
+E1	Regulation:TR48 Cause:T11 Theme:T13
+E2	Cell_proliferation:TR55 Theme:T26
+E3	Negative_regulation:TR54 Theme:T26 Cause:T25
+E4	Negative_regulation:TR54 Theme:E2 Cause:T25
+E5	Binding:TR56 Theme:T27
+E6	Regulation:TR47 Theme:T10
+E7	Negative_regulation:TR46 Theme:T8
+E8	Negative_regulation:TR70 Theme:T10
+E9	Pathway:TR44 Participant:T4
+E10	Pathway:TR69 Participant:T4
+E11	Metastasis:TR40 Theme:T2
+E12	Negative_regulation:TR43 Cause:E9 Theme:T3
+E13	Regulation:TR42 Cause:T1 Theme:E12
+E14	Regulation:TR42 Cause:T1 Theme:T3
+E15	Regulation:TR42 Theme:E12 Cause:E10
+E16	Regulation:TR42 Theme:T3 Cause:E10
+E17	Planned_process:TR49 Theme:T14 Instrument:T15
+E18	Gene_expression:TR67 Theme:T35 Theme:T36
+E19	Gene_expression:TR67 Theme:T35
+E20	Gene_expression:TR67 Theme:T36
+E21	Positive_regulation:TR68 Theme:T36
+E22	Binding:TR64 Theme:T34
+E23	Negative_regulation:TR66 Theme:E18 Cause:T33
+E24	Negative_regulation:TR66 Theme:E19 Cause:T33
+E25	Negative_regulation:TR66 Theme:E20 Cause:T33
+E26	Negative_regulation:TR66 Cause:T33 Theme:E21
+E27	Negative_regulation:TR66 Cause:T33 Theme:T35
+E28	Localization:TR65 Theme:T34
+E29	Negative_regulation:TR63 Theme:E22 Cause:E23
+E30	Negative_regulation:TR63 Theme:E22 Cause:E24
+E31	Negative_regulation:TR63 Theme:E22 Cause:E25
+E32	Negative_regulation:TR63 Theme:E22 Cause:E26
+E33	Negative_regulation:TR63 Theme:E22 Cause:E27
+E34	Negative_regulation:TR63 Cause:E23 Theme:E28
+E35	Negative_regulation:TR63 Cause:E24 Theme:E28
+E36	Negative_regulation:TR63 Cause:E25 Theme:E28
+E37	Negative_regulation:TR63 Cause:E26 Theme:E28
+E38	Negative_regulation:TR63 Cause:E27 Theme:E28
+E39	Localization:TR50 Theme:T17
+E40	Gene_expression:TR53 Theme:T24
+E41	Regulation:TR52 Theme:T24 Cause:T23
+E42	Regulation:TR52 Cause:T23 Theme:E40

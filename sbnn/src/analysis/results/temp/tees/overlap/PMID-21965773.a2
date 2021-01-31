@@ -1,0 +1,70 @@
+T57	Gene_expression 0 10	Expression
+T58	Metastasis 129 139	metastases
+T59	Metastasis 186 196	metastasis
+T60	Metabolism 309 321	metabolizing
+T61	Positive_regulation 309 321	metabolizing
+T62	Regulation 338 346	involved
+T63	Regulation 354 365	sensitivity
+T64	Planned_process 433 442	treatment
+T65	Gene_expression 508 518	expression
+T66	Regulation 574 579	roles
+T67	Planned_process 612 620	treating
+T68	Metastasis 693 705	metastasizes
+T69	Death 770 778	survival
+T70	Gene_expression 838 848	expression
+T71	Metastasis 886 896	metastases
+T72	Binding 952 963	interaction
+T73	Metastasis 1021 1031	metastasis
+T74	Metastasis 1109 1119	metastasis
+T75	Metastasis 1157 1167	metastasis
+T76	Gene_expression 1274 1284	expression
+T77	Gene_expression 1353 1366	overexpressed
+T78	Positive_regulation 1353 1366	overexpressed
+T79	Gene_expression 1428 1429	i
+T80	Metastasis 1494 1504	metastasis
+T81	Gene_expression 1548 1558	expression
+T82	Regulation 1581 1590	correlate
+T83	Metastasis 1625 1635	metastasis
+T84	Metastasis 1705 1715	metastases
+T85	Gene_expression 1722 1732	expression
+T86	Negative_regulation 1751 1758	reduced
+T87	Metastasis 1773 1783	metastases
+T88	Metastasis 1872 1882	metastasis
+T89	Planned_process 1930 1937	therapy
+T90	Metastasis 1941 1951	metastatic
+E4	Metabolism:T60 Theme:T10
+E5	Positive_regulation:T61 Theme:E4 Cause:T6
+E6	Regulation:T62 Theme:E7 Cause:T6
+E7	Regulation:T63 Cause:T14 Theme:T12
+E9	Gene_expression:T65 Theme:T6
+E10	Regulation:T66 Theme:T18 Cause:T8
+E11	Planned_process:T67 Instrument:T18 Theme:T19
+E12	Metastasis:T68 Theme:T20 ToLoc:T22
+E14	Gene_expression:T70 Theme:T24
+E16	Binding:T72 Theme:T24 Theme2:T28
+E33	Planned_process:T89 Theme:T56
+E34	Metastasis:T90 Theme:T56
+E36	Metabolism:T60 Theme:T11
+E38	Positive_regulation:T61 Theme:E4 Cause:T7
+E39	Positive_regulation:T61 Theme:E36 Cause:T6
+E40	Positive_regulation:T61 Theme:E36 Cause:T7
+E41	Positive_regulation:T61 Theme:E4 Cause:T8
+E42	Positive_regulation:T61 Theme:E4 Cause:T9
+E43	Positive_regulation:T61 Theme:E36 Cause:T8
+E44	Positive_regulation:T61 Theme:E36 Cause:T9
+E45	Regulation:T62 Theme:E7 Cause:T7
+E46	Regulation:T62 Theme:E7 Cause:T8
+E47	Regulation:T62 Theme:E7 Cause:T9
+E48	Gene_expression:T65 Theme:T7
+E49	Gene_expression:T65 Theme:T8
+E50	Gene_expression:T65 Theme:T9
+E51	Regulation:T66 Theme:T18 Cause:T9
+E52	Regulation:T66 Theme:T18 Cause:T6
+E53	Regulation:T66 Theme:T18 Cause:T7
+E54	Metastasis:T68 Theme:T21 ToLoc:T22
+E55	Gene_expression:T70 Theme:T25
+E56	Binding:T72 Theme:T24 Theme2:T29
+E57	Binding:T72 Theme:T24 Theme2:T30
+E58	Binding:T72 Theme:T25 Theme2:T28
+E59	Binding:T72 Theme:T25 Theme2:T29
+E60	Binding:T72 Theme:T25 Theme2:T30

@@ -1,0 +1,30 @@
+T30	Planned_process 570 578	infusion
+T31	Planned_process 671 680	injection
+T35	Breakdown 547 553	damage
+T36	Negative_regulation 652 661	inhibited
+T27	Death 280 285	death
+T28	Negative_regulation 384 393	inhibited
+T29	Planned_process 411 419	injected
+T32	Regulation 742 750	mediator
+T33	Breakdown 786 792	damage
+T34	Death 903 908	death
+T24	Gene_expression 118 127	synthesis
+T25	Positive_regulation 144 154	stimulated
+T26	Blood_vessel_development 236 254	neovascularization
+T22	Negative_regulation 34 42	inhibits
+T23	Breakdown 78 84	damage
+E1	Planned_process:T30 Instrument:T16
+E2	Death:T27 Theme:T8
+E3	Negative_regulation:T28 Theme:E2
+E4	Breakdown:T33 Theme:T19
+E5	Death:T34 Theme:T21
+E6	Regulation:T32 Cause:T18 Theme:E4
+E7	Gene_expression:T24 Theme:T4 Theme:T5
+E8	Gene_expression:T24 Theme:T4
+E9	Gene_expression:T24 Theme:T5
+E10	Blood_vessel_development:T26 
+E11	Positive_regulation:T25 Theme:E7
+E12	Positive_regulation:T25 Theme:E8
+E13	Positive_regulation:T25 Theme:E9
+E14	Breakdown:T23 Theme:T2
+E15	Negative_regulation:T22 Theme:E14 Cause:T1

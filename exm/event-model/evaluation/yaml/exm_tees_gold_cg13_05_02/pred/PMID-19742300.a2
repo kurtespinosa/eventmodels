@@ -1,0 +1,63 @@
+T61	Planned_process 786 794	isolated
+T65	Negative_regulation 1340 1349	decreased
+T66	Regulation 1417 1433	showed no change
+T67	Positive_regulation 1455 1467	up-regulated
+T77	Regulation 1427 1433	change
+T84	Negative_regulation 2275 2288	Counteracting
+T85	Breakdown 2374 2385	dysfunction
+T63	Positive_regulation 1165 1175	activation
+T64	Blood_vessel_development 1223 1235	angiogenesis
+T62	Planned_process 875 882	treated
+T72	Positive_regulation 1928 1945	beneficial effect
+T73	Regulation 2066 2070	role
+T74	Regulation 2092 2103	alterations
+T69	Positive_regulation 1640 1648	improved
+T70	Blood_vessel_development 1655 1670	vascularization
+T79	Negative_regulation 1672 1679	reduced
+T68	Planned_process 1495 1504	treatment
+T78	Negative_regulation 1612 1626	down-regulated
+T59	Blood_vessel_development 587 602	vascularization
+T60	Planned_process 622 631	treatment
+T57	Breakdown 198 209	dysfunction
+T54	Positive_regulation 18 28	activation
+T55	Negative_regulation 69 76	reduced
+T56	Planned_process 87 96	treatment
+T58	Positive_regulation 391 401	activation
+T71	Positive_regulation 1829 1839	activation
+T80	Protein_domain_or_region 1715 1739	CONCLUSIONS/SIGNIFICANCE
+T81	Positive_regulation 1760 1769	increased
+T82	Transcription 1775 1785	expression
+T75	Regulation 2125 2132	altered
+T76	Regulation 2157 2163	affect
+T83	Breakdown 2251 2262	dysfunction
+E1	Planned_process:T61 Theme:T15
+E2	Positive_regulation:T67 Theme:T28
+E3	Positive_regulation:T67 Theme:T29
+E4	Positive_regulation:T67 Theme:T26
+E5	Positive_regulation:T67 Theme:T27
+E6	Regulation:T66 Theme:T28
+E7	Negative_regulation:T65 Theme:T26
+E8	Negative_regulation:T65 Theme:T27
+E9	Negative_regulation:T84 Theme:T52
+E10	Breakdown:T85 Theme:T53
+E11	Positive_regulation:T63 Theme:T24
+E12	Blood_vessel_development:T64 
+E13	Positive_regulation:T72 Cause:T41 Theme:T43
+E14	Positive_regulation:T72 Cause:T41 Theme:T42
+E15	Regulation:T74 Theme:T47
+E16	Regulation:T73 Theme:E15 Cause:T45
+E17	Blood_vessel_development:T70 AtLoc:T37
+E18	Blood_vessel_development:T70 
+E19	Positive_regulation:T69 Cause:T36 Theme:E17
+E20	Positive_regulation:T69 Cause:T36 Theme:E18
+E21	Planned_process:T68 Instrument:T32 Theme:T33
+E22	Planned_process:T68 Instrument:T32
+E23	Blood_vessel_development:T59 AtLoc:T12
+E24	Breakdown:T57 Theme:T4
+E25	Positive_regulation:T54 Theme:T1
+E26	Positive_regulation:T58 Theme:T8
+E27	Positive_regulation:T71 Theme:T40
+E28	Regulation:T75 Theme:T48
+E29	Breakdown:T83 Theme:T50
+E30	Regulation:T76 Cause:E28 Theme:T49
+E31	Regulation:T76 Theme:T49

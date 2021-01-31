@@ -1,0 +1,58 @@
+T40	Planned_process 315 327	unchallenged
+T41	Positive_regulation 366 373	induced
+T42	Development 391 404	morphogenesis
+T36	Blood_vessel_development 74 86	angiogenesis
+T61	Regulation 6 10	role
+T54	Negative_regulation 1076 1086	interfered
+T55	Blood_vessel_development 1092 1104	angiogenesis
+T56	Negative_regulation 1127 1137	inhibiting
+T57	Development 1138 1147	sprouting
+T59	Regulation 1619 1631	central role
+T60	Blood_vessel_development 1691 1703	angiogenesis
+T72	Regulation 1627 1631	role
+T39	Blood_vessel_development 298 310	angiogenesis
+T63	Protein_domain_or_region 279 285	domain
+T37	Regulation 122 138	plays a key role
+T38	Blood_vessel_development 142 154	angiogenesis
+T62	Regulation 134 138	role
+T71	Localization 1507 1514	absence
+T48	Positive_regulation 708 714	caused
+T49	Death 735 756	cytoskeletal collapse
+T50	Negative_regulation 789 796	delayed
+T66	Remodeling 735 747	cytoskeletal
+T67	Death 748 756	collapse
+T58	Planned_process 1376 1385	knockdown
+T69	Positive_regulation 1345 1352	induced
+T70	Negative_regulation 1376 1385	knockdown
+T51	Gene_expression 922 932	expressing
+T52	Regulation 969 976	control
+T53	DNA_domain_or_region 1030 1038	promoter
+T45	Binding 596 601	bound
+T46	Planned_process 614 621	labeled
+T47	Negative_regulation 670 679	inhibited
+T65	Binding 645 656	interaction
+E1	Development:T42 Theme:T5
+E2	Development:T42 Theme:T7
+E3	Planned_process:T40 Theme:T5
+E4	Positive_regulation:T41 Theme:E1 Cause:T6
+E5	Positive_regulation:T41 Theme:E2 Cause:T6
+E6	Blood_vessel_development:T36 
+E7	Development:T57 Theme:T27
+E8	Blood_vessel_development:T55 
+E9	Negative_regulation:T56 Cause:T26 Theme:E7
+E10	Negative_regulation:T54 Cause:E9 Theme:E8
+E11	Blood_vessel_development:T60 
+E12	Regulation:T59 Cause:T35 Theme:E11
+E13	Blood_vessel_development:T39 
+E14	Blood_vessel_development:T38 
+E15	Regulation:T37 Cause:T2 Theme:E14
+E16	Localization:T71 Theme:T34
+E17	Negative_regulation:T50 Theme:T20 Cause:T17
+E18	Remodeling:T66 Theme:T19
+E19	Death:T67 Theme:T19
+E20	Death:T49 Theme:T19
+E21	Positive_regulation:T48 Theme:E20 Cause:T17
+E22	Negative_regulation:T70 Theme:T32
+E23	Planned_process:T58 Theme:T32
+E24	Gene_expression:T51 Theme:T24
+E25	Regulation:T52 Theme:E24 Cause:T25

@@ -1,0 +1,54 @@
+T33	Positive_regulation 120 130	Activation
+T34	Positive_regulation 157 164	induces
+T35	Regulation 176 183	changes
+T36	Regulation 242 248	affect
+T43	Negative_regulation 827 837	inhibition
+T44	Negative_regulation 905 915	inhibition
+T50	Negative_regulation 850 859	inhibited
+T45	Regulation 1042 1049	changes
+T46	Phosphorylation 1057 1071	phosphorylated
+T47	Phosphorylation 1076 1093	nonphosphorylated
+T48	Negative_regulation 1185 1195	inhibition
+T37	Blood_vessel_development 347 359	angiogenesis
+T38	Localization 366 375	migration
+T49	Development 334 343	sprouting
+T40	Positive_regulation 618 626	activate
+T41	Regulation 752 760	controls
+T42	Blood_vessel_development 761 773	angiogenesis
+T39	Regulation 454 465	responsible
+T30	Regulation 0 10	Regulation
+T31	Blood_vessel_development 36 48	angiogenesis
+T32	Localization 55 64	migration
+T51	Regulation 1268 1272	role
+T52	Regulation 1365 1376	maintenance
+E1	Positive_regulation:T33 Theme:T4
+E2	Positive_regulation:T33 Theme:T5
+E3	Regulation:T35 Theme:T6
+E4	Regulation:T36 Cause:E3 Theme:T7
+E5	Positive_regulation:T34 Cause:E1 Theme:E3
+E6	Positive_regulation:T34 Cause:E2 Theme:E3
+E7	Negative_regulation:T44 Theme:T20
+E8	Negative_regulation:T44 Theme:T19
+E9	Negative_regulation:T43 Theme:T19
+E10	Negative_regulation:T48 Cause:T26 Theme:T22
+E11	Negative_regulation:T48 Cause:T26 Theme:T25
+E12	Phosphorylation:T46 Theme:T22
+E13	Phosphorylation:T47 Theme:T22
+E14	Regulation:T45 Cause:T21 Theme:E12
+E15	Regulation:T45 Cause:T21 Theme:E13
+E16	Blood_vessel_development:T37 
+E17	Localization:T38 Theme:T8
+E18	Blood_vessel_development:T42 
+E19	Positive_regulation:T40 Theme:T13 Cause:T11
+E20	Positive_regulation:T40 Theme:T13 Cause:T12
+E21	Regulation:T39 Theme:T10
+E22	Localization:T32 Theme:T2
+E23	Blood_vessel_development:T31 Theme:T1
+E24	Blood_vessel_development:T31 AtLoc:T1
+E25	Blood_vessel_development:T31 
+E26	Regulation:T30 Cause:T3 Theme:E23
+E27	Regulation:T30 Cause:T3 Theme:E24
+E28	Regulation:T30 Cause:T3 Theme:E25
+E29	Regulation:T30 Cause:T3 Theme:E22
+E30	Regulation:T51 Theme:T28 Cause:T27
+E31	Regulation:T52 Theme:T29

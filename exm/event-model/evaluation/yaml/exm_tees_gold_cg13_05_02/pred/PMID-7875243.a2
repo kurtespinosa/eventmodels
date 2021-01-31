@@ -1,0 +1,65 @@
+T49	Cell_death 68 77	Apoptosis
+T50	Death 95 100	death
+T51	Regulation 102 111	regulates
+T57	Positive_regulation 480 489	dependent
+T58	Breakdown 611 621	fragmented
+T59	Localization 705 712	absence
+T60	Breakdown 777 787	fragmented
+T61	Cell_death 835 844	apoptotic
+T62	Breakdown 987 997	fragmented
+T63	Planned_process 1007 1016	incubated
+T68	Localization 1292 1299	present
+T69	Localization 1320 1327	absence
+T70	Cell_death 1347 1356	apoptosis
+T71	Negative_regulation 1361 1370	inhibited
+T47	Regulation 0 10	Modulation
+T48	Cell_death 14 23	apoptosis
+T64	Planned_process 1063 1071	addition
+T65	Negative_regulation 1135 1145	inhibiting
+T66	Positive_regulation 1146 1156	increasing
+T67	Breakdown 1182 1192	fragmented
+T82	Negative_regulation 1055 1062	Delayed
+T83	Negative_regulation 1114 1120	rescue
+T76	Planned_process 1520 1528	addition
+T72	Localization 1392 1400	presence
+T73	Cell_death 1419 1428	apoptosis
+T74	Positive_regulation 1433 1441	enhanced
+T75	Planned_process 1447 1455	addition
+T77	Positive_regulation 1590 1599	enhancing
+T78	Negative_regulation 1603 1613	inhibiting
+T79	Cell_death 1614 1623	apoptosis
+T52	Regulation 206 214	modulate
+T53	Cell_death 215 224	apoptosis
+T54	Regulation 315 323	altering
+T55	Cell_death 324 333	apoptosis
+T56	Positive_regulation 351 361	stimulated
+T80	Synthesis 301 310	synthesis
+T81	Cell_proliferation 366 375	quiescent
+E1	Death:T50 Theme:T4
+E2	Cell_death:T49 
+E3	Regulation:T51 Theme:T5 Cause:E2
+E4	Breakdown:T58 Theme:T17
+E5	Localization:T59 Theme:T19
+E6	Breakdown:T60 Theme:T22
+E7	Cell_death:T61 
+E8	Breakdown:T62 Theme:T24
+E9	Cell_death:T70 
+E10	Negative_regulation:T71 Theme:E9
+E11	Localization:T69 Theme:T37 Theme:T38
+E12	Cell_death:T48 Theme:T2
+E13	Regulation:T47 Cause:T3 Theme:E12
+E14	Negative_regulation:T83 Theme:T31
+E15	Planned_process:T64 Theme:T31 Instrument:T29 Instrument:T30
+E16	Planned_process:T76 Instrument:T43
+E17	Localization:T72 Theme:T39 Theme:T40
+E18	Localization:T72 Theme:T39
+E19	Localization:T72 Theme:T40
+E20	Cell_death:T73 
+E21	Cell_death:T79 Theme:T44
+E22	Negative_regulation:T78 Theme:E21
+E23	Positive_regulation:T77 Cause:E22 Theme:E21
+E24	Cell_death:T53 Theme:T9
+E25	Positive_regulation:T56 Theme:T10
+E26	Cell_proliferation:T81 Theme:T10
+E27	Regulation:T52 Cause:T7 Theme:E24
+E28	Regulation:T52 Theme:E24 Cause:T6

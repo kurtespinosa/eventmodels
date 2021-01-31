@@ -1,0 +1,34 @@
+T68	Regulation 316 324	interact
+T69	Mutation 362 369	mutated
+T82	Binding 1343 1351	interact
+T73	Phosphorylation 701 716	phosphorylation
+T74	Positive_regulation 786 795	increased
+T75	Positive_regulation 844 853	increased
+T78	Mutation 1036 1045	mutations
+T79	Positive_regulation 1125 1136	stimulation
+T80	Cell_proliferation 1165 1178	proliferation
+T81	Growth 1190 1196	growth
+T66	Gene_expression 104 111	lacking
+T67	Development 183 190	develop
+T70	Development 537 544	develop
+T71	Positive_regulation 558 569	accelerated
+T72	Positive_regulation 587 596	increased
+T65	Negative_regulation 53 61	suppress
+T76	Mutation 924 928	lost
+T77	Mutation 972 980	retained
+E1	Mutation:T69 AtLoc:T20 Theme:T18
+E2	Mutation:T69 AtLoc:T20
+E3	Phosphorylation:T73 Theme:T37
+E4	Phosphorylation:T73 Theme:T38
+E5	Positive_regulation:T75 Theme:E3
+E6	Positive_regulation:T75 Theme:E4
+E7	Positive_regulation:T74 Theme:E3
+E8	Positive_regulation:T74 Theme:E4
+E9	Cell_proliferation:T80 Theme:T58
+E10	Growth:T81 Theme:T59
+E11	Development:T67 Theme:T12
+E12	Development:T67 Theme:T15
+E13	Development:T67 Theme:T14
+E14	Development:T70 Theme:T30
+E15	Positive_regulation:T71 Theme:E14
+E16	Positive_regulation:T72 Theme:E14

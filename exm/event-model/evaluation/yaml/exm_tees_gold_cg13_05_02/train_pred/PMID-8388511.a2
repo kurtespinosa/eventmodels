@@ -1,0 +1,52 @@
+TR53	Transcription 504 513	expressed
+TR54	Transcription 561 571	expression
+TR55	Positive_regulation 576 586	stimulated
+TR56	Planned_process 590 600	incubation
+TR48	Localization 127 135	released
+TR49	Cell_transformation 141 152	transformed
+TR50	Regulation 362 368	effect
+TR51	Localization 404 414	chemotaxis
+TR52	Gene_expression 431 441	expression
+TR61	Positive_regulation 1016 1023	causing
+TR62	Localization 1052 1058	uptake
+TR63	Cell_transformation 1192 1203	transformed
+TR64	Positive_regulation 1192 1203	transformed
+TR65	Cell_division 1026 1034	doubling
+TR66	Planned_process 1079 1086	starved
+TR57	Cell_transformation 830 843	Untransformed
+TR58	Cell_transformation 856 867	transformed
+TR59	Positive_regulation 856 867	transformed
+TR60	Localization 897 905	migrated
+TR47	Cell_transformation 0 14	Transformation
+TR67	Regulation 1260 1264	role
+TR68	Regulation 1284 1292	involved
+TR69	Localization 1298 1308	chemotaxis
+TR70	Metastasis 1313 1323	metastasis
+TR71	Positive_regulation 1349 1360	stimulation
+E1	Transcription:TR53 Theme:T17
+E2	Transcription:TR53 Theme:T16
+E3	Planned_process:TR56 Theme:T20 Instrument:T21 Instrument:T22
+E4	Transcription:TR54 Theme:T17
+E5	Transcription:TR54 Theme:T16
+E6	Positive_regulation:TR55 Theme:E4 Cause:E3
+E7	Positive_regulation:TR55 Theme:E5 Cause:E3
+E8	Cell_transformation:TR49 Theme:T9
+E9	Cell_transformation:TR49 Theme:T8
+E10	Localization:TR51 Theme:T15
+E11	Localization:TR51 Theme:T14
+E12	Gene_expression:TR52 Theme:T12 Theme:T13
+E13	Gene_expression:TR52 Theme:T12
+E14	Gene_expression:TR52 Theme:T13
+E15	Cell_transformation:TR63 Theme:T43
+E16	Localization:TR62 Theme:T36 ToLoc:T38
+E17	Positive_regulation:TR64 Cause:T42 Theme:E15
+E18	Cell_transformation:TR57 Theme:T28
+E19	Localization:TR60 Theme:T32 Theme:T31
+E20	Localization:TR60 Theme:T32
+E21	Localization:TR60 Theme:T28
+E22	Localization:TR60 Theme:T29
+E23	Localization:TR60 Theme:T31
+E24	Cell_transformation:TR58 Theme:T29
+E25	Positive_regulation:TR59 Theme:E24 Cause:T30
+E26	Positive_regulation:TR59 Theme:E24
+E27	Metastasis:TR70 

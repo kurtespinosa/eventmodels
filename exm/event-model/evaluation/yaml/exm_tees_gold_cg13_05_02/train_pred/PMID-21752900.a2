@@ -1,0 +1,43 @@
+TR52	Negative_regulation 1144 1151	reduced
+TR53	Gene_expression 1180 1190	expression
+TR44	Infection 466 474	infected
+TR45	Positive_regulation 497 509	upregulation
+TR46	Regulation 637 647	contribute
+TR47	Cell_transformation 658 672	transformation
+TR60	Regulation 1870 1879	cooperate
+TR61	Cell_transformation 1883 1892	transform
+TR48	Positive_regulation 736 744	enhanced
+TR49	Gene_expression 750 760	expression
+TR54	Regulation 1306 1318	contribution
+TR55	Cell_transformation 1344 1358	transformation
+TR50	Negative_regulation 855 862	reduced
+TR51	Gene_expression 867 877	expression
+TR63	Mutation 831 839	deletion
+TR37	Regulation 54 63	cooperate
+TR38	Cell_transformation 67 76	transform
+TR39	Cell_transformation 118 128	transforms
+TR40	Positive_regulation 118 128	transforms
+TR41	Gene_expression 155 165	expression
+TR56	Positive_regulation 1391 1410	potentiating effect
+TR57	Gene_expression 1441 1450	synthesis
+TR42	Negative_regulation 400 407	reduced
+TR43	Cell_transformation 419 428	transform
+TR62	Carcinogenesis 317 326	oncogenic
+TR58	Positive_regulation 1584 1600	enhancing effect
+TR59	Regulation 1610 1616	result
+E1	Infection:TR44 Theme:T13
+E2	Positive_regulation:TR45 Theme:T14
+E3	Cell_transformation:TR47 Theme:T16
+E4	Regulation:TR46 Cause:T15 Theme:E3
+E5	Cell_transformation:TR61 Theme:T36
+E6	Regulation:TR60 Theme:E5
+E7	Gene_expression:TR49 Theme:T19
+E8	Positive_regulation:TR48 Theme:E7
+E9	Mutation:TR63 Theme:T20
+E10	Cell_transformation:TR38 Theme:T2
+E11	Gene_expression:TR41 Theme:T6 Theme:T7 Theme:T8
+E12	Gene_expression:TR57 Theme:T33
+E13	Positive_regulation:TR56 Theme:E12 Cause:T32
+E14	Carcinogenesis:TR62 
+E15	Cell_transformation:TR43 Theme:T12
+E16	Negative_regulation:TR42 Cause:T10 Theme:E15

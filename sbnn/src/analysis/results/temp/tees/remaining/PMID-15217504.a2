@@ -1,0 +1,43 @@
+T23	Positive_regulation 12 19	Induced
+T24	Blood_vessel_development 20 32	angiogenesis
+T25	Planned_process 39 46	surgery
+T26	Planned_process 143 155	chemotherapy
+T27	Planned_process 228 248	surgical extirpation
+T28	Planned_process 414 421	surgery
+T29	Planned_process 426 435	untreated
+T30	Positive_regulation 474 485	stimulation
+T31	Blood_vessel_development 489 501	angiogenesis
+T32	Planned_process 706 718	chemotherapy
+T33	Positive_regulation 875 880	burst
+T34	Blood_vessel_development 884 896	angiogenesis
+T35	Planned_process 938 945	surgery
+T36	Planned_process 1140 1152	chemotherapy
+T37	Positive_regulation 1317 1328	Stimulation
+T38	Planned_process 1373 1380	removal
+T39	Blood_vessel_development 1516 1527	angioactive
+T40	Blood_vessel_development 1590 1602	angiogenesis
+T41	Blood_vessel_development 1746 1756	angiogenic
+T42	Planned_process 1793 1798	treat
+T43	Planned_process 1991 2003	chemotherapy
+E1	Positive_regulation:T23 Theme:E2
+E2	Blood_vessel_development:T24
+E3	Planned_process:T25 Theme:T2
+E4	Planned_process:T26 Theme:T3
+E5	Planned_process:T27 Theme:T4
+E6	Planned_process:T28 Theme:T6
+E7	Planned_process:T29 Theme:T6
+M1	Negation E7
+E8	Positive_regulation:T30 Theme:E9
+E9	Blood_vessel_development:T31 AtLoc:T7
+E10	Planned_process:T32 Theme:T9
+E11	Positive_regulation:T33 Theme:E12
+E12	Blood_vessel_development:T34 AtLoc:T10
+E13	Planned_process:T35 Theme:T11
+E14	Planned_process:T36 Theme:T12
+E15	Positive_regulation:T37 Theme:T15 Cause:E16
+E16	Planned_process:T38 Theme:T16
+E17	Blood_vessel_development:T39
+E18	Blood_vessel_development:T40
+E19	Blood_vessel_development:T41
+E20	Planned_process:T42 Theme:T18
+E21	Planned_process:T43 Theme:T22

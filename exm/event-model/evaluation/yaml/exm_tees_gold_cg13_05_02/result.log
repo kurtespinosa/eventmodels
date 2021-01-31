@@ -1,0 +1,43 @@
+DESCRIPTION:
+USE_FILTER:True
+VERBOSE:False
+IS_EMO:True
+TASK:TUNE
+EVALUATION_SCRIPT:../event-model/evaluation/evaluation-CG-modified.py
+INTERPRETER:python3 
+DATASET:CG13
+EXCLUDE_TRAIN:OrderedDict([('PMID-20124444', ['Class-3 semaphorins , semaphorin-3B ( SEMA3B ) and semaphorin-3F ( SEMA3F )'])])
+MODEL:/Users/kurt/Desktop/teesmodels/baseline/exm_cg13.model
+STARTING_EPOCH_FOR_OUTPUT:5
+ROOT_OUTPUT_COPY_FOLDER:../../
+EPOCH_OUTPUT_FOLDER:EPOCH_OUTPUT_FOLDER/
+TRAIN_DIR:../../dataset/tees/CG13/train/
+TEST_DIR:../../dataset/tees/CG13/dev/
+EMBEDDING_PATH:../../embedding/PubMed-shuffle-win-2.txt
+TRAIN_NER:../../dataset/tees/CG13/traingoldpred/
+TRAIN_REL:../../dataset/tees/CG13/traingoldpred/
+TEST_NER:../../dataset/tees/devrelationpreds/CG13-devel/devrels/
+TEST_REL:../../dataset/tees/devrelationpreds/CG13-devel/devrels/
+BATCH_SIZE:20
+MAX_EPOCH:100
+PATIENCE:5
+GENERALISATION:0
+UNK_MIN_FREQUENCY:1
+UNK_ASSIGNMENT_PROBABILITY:0.2
+INCLUDE_MENTION:False
+PARTIAL_ARGUMENT_MATCHING:False
+THRESHOLD:0.5
+REPLACE_TYPE:False
+DIM_EMBED:200
+DIM_EVENT:100
+DIM_BILSTM:50
+DIM_TRIG_TYPE:20
+DIM_ROLE_TYPE:10
+DIM_ARG_TYPE:20
+DIM_IO:2
+DROPOUT:0.5
+EVENTS_WITH_NUMBERED_ROLES:['Binding', 'Planned_process', 'Pathway']
+SPECIAL_ENTITIES:['Protein_domain_or_region', 'DNA_domain_or_region']
+OUTPUT_FOLDER:yaml/exm_tees_gold_cg13_05_02
+There are 384 intersentence events in the train gold identified.There are 100 intersentence events in the test gold identified.There are 4117 intersentence relations in the train.There are 15 intersentence relations in the test.There are 0 unk tokens in the train.There are 3724 unk tokens in the test.There are 0 TR event arguments and 0 intersentence events in the train.There are 0 TR event arguments and 0 intersentence events in the test.Epoch		Tr_Prec		Tr_Rec		Tr_F		Ts_Prec		Ts_Rec		Ts_F
+01		67.2100		50.7400		57.8300		55.8700		45.1400		49.9300

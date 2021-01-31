@@ -1,0 +1,22 @@
+T48	Metastasis 1074 1084	metastatic
+T51	Planned_process 1337 1349	Pretreatment
+T45	Metastasis 355 365	metastatic
+T53	Metastasis 491 501	metastatic
+T54	Death 511 519	survival
+T42	Regulation 270 277	mediate
+T43	Negative_regulation 278 288	regression
+T44	Positive_regulation 292 303	progression
+T52	Development 292 303	progression
+T49	Positive_regulation 1177 1185	elevated
+T50	Metastasis 1261 1271	metastases
+T47	Metastasis 877 887	metastatic
+T46	Metastasis 630 640	metastases
+E1	Metastasis:T48 
+E2	Planned_process:T51 Instrument:T41
+E3	Metastasis:T45 
+E4	Metastasis:T53 
+E5	Development:T52 Theme:T12
+E6	Negative_regulation:T43 Theme:T12
+E7	Metastasis:T50 ToLoc:T37 Theme:T39
+E8	Metastasis:T50 Theme:T39 ToLoc:T38
+E9	Metastasis:T47 

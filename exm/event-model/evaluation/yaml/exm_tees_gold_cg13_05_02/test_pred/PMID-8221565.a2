@@ -1,0 +1,32 @@
+TR74	Positive_regulation 1553 1562	Increased
+TR75	Gene_expression 1591 1601	expression
+TR76	Regulation 1606 1616	contribute
+TR77	Positive_regulation 1624 1633	increased
+TR78	Localization 1634 1640	uptake
+TR65	Gene_expression 260 270	expression
+TR69	Gene_expression 1115 1124	expressed
+TR70	Gene_expression 1260 1268	positive
+TR71	Dissociation 1269 1276	granule
+TR72	Gene_expression 1386 1395	expressed
+TR63	Metabolism 158 168	metabolism
+TR64	Localization 199 204	entry
+TR73	Gene_expression 1434 1444	expression
+TR67	Gene_expression 737 745	positive
+TR61	Gene_expression 0 14	Overexpression
+TR62	Positive_regulation 0 14	Overexpression
+E1	Localization:TR78 ToLoc:T60 Theme:T59
+E2	Localization:TR78 ToLoc:T60 Theme:T58
+E3	Regulation:TR76 Theme:E1
+E4	Regulation:TR76 Theme:E2
+E5	Positive_regulation:TR77 Theme:E1
+E6	Positive_regulation:TR77 Theme:E2
+E7	Gene_expression:TR69 Theme:T42
+E8	Dissociation:TR71 Theme:T45
+E9	Gene_expression:TR70 Theme:T45
+E10	Gene_expression:TR72 Theme:T51 Theme:T52
+E11	Gene_expression:TR72 Theme:T51
+E12	Gene_expression:TR72 Theme:T52
+E13	Metabolism:TR63 Theme:T6
+E14	Localization:TR64 Theme:T7
+E15	Gene_expression:TR73 Theme:T54
+E16	Gene_expression:TR67 Theme:T32

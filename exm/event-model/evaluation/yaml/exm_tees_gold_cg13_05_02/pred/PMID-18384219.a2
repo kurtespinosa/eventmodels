@@ -1,0 +1,37 @@
+T41	Metastasis 452 462	metastatic
+T49	Negative_regulation 1625 1640	down-regulation
+T50	Metastasis 1683 1693	metastasis
+T42	Cell_differentiation 823 839	undifferentiated
+T43	Planned_process 853 861	embedded
+T54	Gene_expression 792 802	expression
+T45	Positive_regulation 1269 1281	up-regulated
+T46	Negative_regulation 1351 1365	down-regulated
+T44	Cell_differentiation 1109 1125	undifferentiated
+T56	Gene_expression 1048 1058	expression
+T40	Negative_regulation 84 99	down-regulation
+T51	Negative_regulation 1818 1833	down-regulation
+T52	Positive_regulation 1837 1846	important
+T53	Development 1854 1863	formation
+T47	Planned_process 1404 1413	processed
+T48	Gene_expression 1457 1467	expression
+E1	Metastasis:T41 
+E2	Metastasis:T50 ToLoc:T35
+E3	Negative_regulation:T49 Theme:T34
+E4	Cell_differentiation:T42 Theme:T16
+E5	Positive_regulation:T45 Theme:T22
+E6	Negative_regulation:T46 Theme:T26
+E7	Negative_regulation:T46 Theme:T24
+E8	Negative_regulation:T46 Theme:T25
+E9	Negative_regulation:T46 Theme:T23
+E10	Cell_differentiation:T44 Theme:T20
+E11	Negative_regulation:T40 Theme:T4
+E12	Negative_regulation:T40 Theme:T3
+E13	Negative_regulation:T51 Theme:T37
+E14	Negative_regulation:T51 Theme:T38
+E15	Development:T53 Theme:T39
+E16	Positive_regulation:T52 Cause:E13 Theme:E15
+E17	Positive_regulation:T52 Cause:E14 Theme:E15
+E18	Planned_process:T47 Theme:T27
+E19	Gene_expression:T48 Theme:T28 Theme:T29
+E20	Gene_expression:T48 Theme:T28
+E21	Gene_expression:T48 Theme:T29

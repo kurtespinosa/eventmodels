@@ -1,0 +1,66 @@
+TR48	Positive_regulation 386 395	increases
+TR64	Positive_regulation 1223 1231	mediated
+TR65	Localization 1239 1246	release
+TR66	Positive_regulation 1278 1288	activation
+TR67	Pathway 1305 1314	signaling
+TR43	Positive_regulation 15 22	induces
+TR44	Localization 58 65	release
+TR45	Pathway 92 99	pathway
+TR49	Positive_regulation 479 486	promote
+TR50	Gene_expression 491 501	expression
+TR58	Positive_regulation 986 993	induced
+TR59	Localization 1001 1010	secretion
+TR60	Positive_regulation 1011 1019	resulted
+TR61	Negative_regulation 1027 1037	inhibition
+TR62	Localization 1058 1067	migration
+TR63	Development 1086 1095	formation
+TR51	Planned_process 546 554	infusion
+TR52	Positive_regulation 579 588	increases
+TR53	Regulation 675 684	regulator
+TR54	Localization 695 704	secretion
+TR68	Regulation 1389 1393	role
+TR69	Gene_expression 1415 1425	expression
+TR70	Positive_regulation 1473 1481	elevated
+TR71	Positive_regulation 1519 1525	caused
+TR72	Pathway 1576 1582	system
+TR55	Positive_regulation 734 744	stimulated
+TR56	Gene_expression 752 762	production
+TR57	Planned_process 832 840	cultured
+TR46	Breakdown 135 146	dysfunction
+TR47	Positive_regulation 182 191	increased
+E1	Positive_regulation:TR48 Cause:T10 Theme:T11
+E2	Positive_regulation:TR48 Cause:T9 Theme:T11
+E3	Positive_regulation:TR48 Theme:T11
+E4	Positive_regulation:TR66 Theme:T35
+E5	Localization:TR65 Theme:T34
+E6	Positive_regulation:TR64 Cause:T33 Theme:E5
+E7	Positive_regulation:TR64 Theme:E5
+E8	Localization:TR44 Theme:T2
+E9	Pathway:TR45 Participant:T3
+E10	Positive_regulation:TR43 Cause:T1 Theme:E8
+E11	Positive_regulation:TR43 Theme:E8
+E12	Gene_expression:TR50 Theme:T13
+E13	Positive_regulation:TR49 Theme:E12 Cause:T12
+E14	Localization:TR59 Theme:T27
+E15	Development:TR63 Theme:T29
+E16	Localization:TR62 Theme:T28
+E17	Negative_regulation:TR61 Theme:E16
+E18	Negative_regulation:TR61 Theme:E15
+E19	Positive_regulation:TR58 Cause:T26 Theme:E14
+E20	Positive_regulation:TR58 Theme:E14
+E21	Planned_process:TR51 Instrument:T14
+E22	Localization:TR54 Theme:T18
+E23	Positive_regulation:TR52 Theme:T15 Cause:E21
+E24	Positive_regulation:TR52 Theme:T15
+E25	Regulation:TR53 Theme:E22 Cause:T17
+E26	Regulation:TR53 Theme:E22
+E27	Gene_expression:TR69 Theme:T37
+E28	Positive_regulation:TR70 Theme:T40
+E29	Regulation:TR68 Cause:T36 Theme:E27
+E30	Planned_process:TR57 Theme:T22
+E31	Gene_expression:TR56 Theme:T20
+E32	Positive_regulation:TR55 Cause:T19 Theme:E31
+E33	Positive_regulation:TR55 Theme:E31
+E34	Positive_regulation:TR47 Theme:T6
+E35	Positive_regulation:TR47 Theme:T5
+E36	Breakdown:TR46 Theme:T4

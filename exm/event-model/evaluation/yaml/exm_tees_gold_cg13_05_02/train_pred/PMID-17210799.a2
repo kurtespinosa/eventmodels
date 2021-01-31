@@ -1,0 +1,106 @@
+TR87	Positive_regulation 1491 1500	increased
+TR88	Phosphorylation 1505 1520	phosphorylation
+TR89	Negative_regulation 1677 1687	suppressed
+TR90	Regulation 1719 1726	changes
+TR107	Negative_regulation 1590 1599	inhibitor
+TR108	Cell_proliferation 1692 1705	proliferative
+TR67	Positive_regulation 380 389	increases
+TR68	Cell_proliferation 412 425	proliferation
+TR69	Regulation 488 495	effects
+TR75	Positive_regulation 871 880	increased
+TR76	Phosphorylation 881 896	phosphorylation
+TR64	Synthesis 207 213	formed
+TR65	Positive_regulation 306 313	induces
+TR66	Blood_vessel_development 314 324	angiogenic
+TR101	Metabolism 221 240	omega-hydroxylation
+TR98	Regulation 2003 2011	involved
+TR99	Regulation 2019 2029	regulation
+TR100	Blood_vessel_development 2055 2067	angiogenesis
+TR81	Planned_process 1178 1192	administration
+TR82	Regulation 1242 1248	effect
+TR103	Cell_proliferation 1256 1269	proliferative
+TR70	Positive_regulation 644 654	stimulated
+TR71	Cell_proliferation 658 671	proliferation
+TR60	Positive_regulation 0 10	Activation
+TR61	Regulation 81 89	mediates
+TR62	Positive_regulation 122 129	induced
+TR63	Cell_proliferation 147 160	proliferation
+TR77	Negative_regulation 972 981	inhibited
+TR91	Positive_regulation 1803 1813	stimulates
+TR92	Synthesis 1825 1834	formation
+TR93	Positive_regulation 1902 1912	activating
+TR94	Positive_regulation 1927 1936	enhancing
+TR95	Gene_expression 1942 1951	synthesis
+TR96	Regulation 1957 1963	drives
+TR97	Cell_proliferation 1967 1980	proliferation
+TR109	Metabolism 1825 1834	formation
+TR110	Regulation 1867 1876	sensitive
+TR78	Negative_regulation 1075 1084	inhibited
+TR79	Positive_regulation 1094 1103	increases
+TR80	Gene_expression 1112 1122	expression
+TR102	Cell_proliferation 1131 1144	proliferative
+TR83	Positive_regulation 1320 1329	increased
+TR84	Synthesis 1341 1350	formation
+TR85	Planned_process 1398 1406	staining
+TR86	Negative_regulation 1436 1445	inhibited
+TR104	Metabolism 1341 1350	formation
+TR105	Positive_regulation 1370 1378	increase
+TR106	Positive_regulation 1423 1431	increase
+TR72	Positive_regulation 742 751	increased
+TR73	Gene_expression 757 767	expression
+TR74	Localization 772 779	release
+E1	Negative_regulation:TR107 Cause:T48 Theme:T46
+E2	Negative_regulation:TR107 Theme:T46 Cause:T47
+E3	Regulation:TR90 Theme:T49
+E4	Phosphorylation:TR88 Theme:T43
+E5	Phosphorylation:TR88 Theme:T44
+E6	Positive_regulation:TR87 Theme:E4 Cause:T42
+E7	Positive_regulation:TR87 Theme:E5 Cause:T42
+E8	Negative_regulation:TR89 Cause:T48 Theme:E3
+E9	Negative_regulation:TR89 Cause:T48 Theme:T50
+E10	Negative_regulation:TR89 Theme:E3 Cause:T47
+E11	Negative_regulation:TR89 Cause:T47 Theme:T50
+E12	Regulation:TR69 Cause:T16 Theme:T11
+E13	Regulation:TR69 Cause:T16 Theme:T20
+E14	Regulation:TR69 Cause:T16 Theme:T12
+E15	Regulation:TR69 Cause:T16 Theme:T19
+E16	Regulation:TR69 Cause:T15 Theme:T11
+E17	Regulation:TR69 Cause:T15 Theme:T20
+E18	Regulation:TR69 Cause:T15 Theme:T12
+E19	Regulation:TR69 Cause:T15 Theme:T19
+E20	Phosphorylation:TR76 Theme:T26
+E21	Positive_regulation:TR75 Theme:E20
+E22	Blood_vessel_development:TR66 
+E23	Metabolism:TR101 Theme:T5
+E24	Metabolism:TR101 Theme:T7
+E25	Synthesis:TR64 Theme:T6
+E26	Synthesis:TR64 Theme:T5
+E27	Positive_regulation:TR65 Cause:T6 Theme:E22
+E28	Positive_regulation:TR65 Theme:E22 Cause:T5
+E29	Blood_vessel_development:TR100 
+E30	Planned_process:TR81 Instrument:T34
+E31	Regulation:TR82 Cause:E30 Theme:T35
+E32	Cell_proliferation:TR71 Theme:T23
+E33	Positive_regulation:TR70 Cause:T21 Theme:E32
+E34	Positive_regulation:TR70 Theme:E32 Cause:T22
+E35	Cell_proliferation:TR63 Theme:T4
+E36	Positive_regulation:TR60 Cause:T2 Theme:T1
+E37	Positive_regulation:TR62 Cause:T3 Theme:E35
+E38	Regulation:TR61 Cause:E36 Theme:E35
+E39	Negative_regulation:TR77 Theme:T27
+E40	Regulation:TR110 Theme:T54 Cause:T53
+E41	Synthesis:TR92 Theme:T52
+E42	Gene_expression:TR95 Theme:T56
+E43	Cell_proliferation:TR97 Theme:T57
+E44	Positive_regulation:TR94 Theme:E42
+E45	Regulation:TR96 Cause:E42 Theme:E43
+E46	Positive_regulation:TR91 Cause:T51 Theme:E41
+E47	Metabolism:TR109 Theme:T52
+E48	Positive_regulation:TR93 Theme:E44
+E49	Positive_regulation:TR93 Theme:T55
+E50	Gene_expression:TR80 Theme:T31
+E51	Metabolism:TR104 Theme:T37
+E52	Localization:TR74 Theme:T24
+E53	Gene_expression:TR73 Theme:T24
+E54	Positive_regulation:TR72 Theme:E52
+E55	Positive_regulation:TR72 Theme:E53

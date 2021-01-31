@@ -1,0 +1,24 @@
+TR35	Positive_regulation 413 421	elevated
+TR36	Regulation 479 491	perturbation
+TR33	Blood_vessel_development 117 132	neoangiogenesis
+TR34	Breakdown 216 227	dysfunction
+TR31	Positive_regulation 80 89	dependent
+TR32	Blood_vessel_development 93 108	neoangiogenesis
+TR41	Breakdown 768 779	dysfunction
+TR39	Regulation 659 681	have an important role
+TR40	Blood_vessel_development 691 705	vasculogenesis
+TR42	Regulation 677 681	role
+TR37	Positive_regulation 579 587	increase
+TR38	Breakdown 616 622	damage
+E1	Regulation:TR36 Theme:T10
+E2	Blood_vessel_development:TR33 AtLoc:T4
+E3	Breakdown:TR34 Theme:T5
+E4	Blood_vessel_development:TR32 
+E5	Positive_regulation:TR31 Cause:E4 Theme:E4
+E6	Positive_regulation:TR31 Cause:E4 Theme:T3
+E7	Breakdown:TR41 Theme:T17
+E8	Blood_vessel_development:TR40 AtLoc:T16
+E9	Regulation:TR39 Theme:E8 Cause:T15
+E10	Positive_regulation:TR37 Theme:T12
+E11	Positive_regulation:TR37 Theme:T13
+E12	Breakdown:TR38 Theme:T14

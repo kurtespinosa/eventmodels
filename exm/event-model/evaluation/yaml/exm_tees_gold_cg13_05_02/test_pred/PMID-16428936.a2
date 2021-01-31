@@ -1,0 +1,58 @@
+TR52	Negative_regulation 912 922	disruption
+TR53	Localization 948 955	release
+TR54	Regulation 975 986	involvement
+TR55	Cell_death 1011 1020	apoptotic
+TR56	Pathway 1031 1038	pathway
+TR38	Negative_regulation 0 8	Decrease
+TR39	Positive_regulation 27 35	enhances
+TR40	Regulation 48 59	sensitivity
+TR49	Positive_regulation 629 637	increase
+TR41	Cell_proliferation 177 190	proliferation
+TR42	Cell_differentiation 192 207	differentiation
+TR43	Cell_death 212 221	apoptosis
+TR50	Cell_death 723 732	apoptosis
+TR51	Catabolism 813 821	cleavage
+TR69	Negative_regulation 1458 1472	downregulation
+TR45	Regulation 367 371	role
+TR46	Regulation 396 407	sensitivity
+TR47	Mutation 466 475	wild-type
+TR48	Planned_process 479 490	transfected
+TR60	Negative_regulation 1138 1146	decrease
+TR61	Gene_expression 1156 1166	expression
+TR62	Positive_regulation 1167 1175	enhanced
+TR63	Positive_regulation 1197 1207	triggering
+TR64	Cell_death 1216 1225	apoptosis
+TR65	Positive_regulation 1234 1243	induction
+TR66	Pathway 1261 1268	pathway
+TR57	Cell_death 1053 1062	apoptosis
+TR58	Negative_regulation 1090 1098	decrease
+TR59	Positive_regulation 1109 1117	increase
+TR67	Positive_regulation 1282 1291	induction
+TR68	Planned_process 1433 1442	treatment
+TR44	Regulation 267 271	role
+E1	Localization:TR53 Theme:T27
+E2	Cell_death:TR55 
+E3	Negative_regulation:TR38 Theme:T1
+E4	Regulation:TR40 Cause:T3 Theme:T2
+E5	Positive_regulation:TR39 Cause:E3 Theme:E4
+E6	Positive_regulation:TR49 Theme:T20
+E7	Cell_proliferation:TR41 Theme:T5
+E8	Cell_death:TR43 Theme:T5
+E9	Cell_differentiation:TR42 
+E10	Cell_death:TR50 Theme:T22
+E11	Catabolism:TR51 Theme:T24
+E12	Negative_regulation:TR69 Theme:T37
+E13	Regulation:TR46 Cause:T11 Theme:T10
+E14	Regulation:TR46 Cause:T12 Theme:T10
+E15	Regulation:TR45 Theme:E13 Cause:T9
+E16	Regulation:TR45 Theme:E14 Cause:T9
+E17	Gene_expression:TR61 Theme:T31
+E18	Cell_death:TR64 
+E19	Negative_regulation:TR60 Theme:E17
+E20	Positive_regulation:TR59 Theme:T30
+E21	Cell_death:TR57 
+E22	Negative_regulation:TR58 Theme:T29
+E23	Positive_regulation:TR67 Theme:T33
+E24	Planned_process:TR68 Theme:T34 Instrument:T36
+E25	Regulation:TR44 Theme:T8 Cause:T6
+E26	Regulation:TR44 Theme:T7 Cause:T6

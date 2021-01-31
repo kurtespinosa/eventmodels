@@ -1,0 +1,95 @@
+TR74	Negative_regulation 1067 1079	inactivation
+TR75	Metastasis 1097 1107	metastasis
+TR76	Mutation 1157 1165	mutation
+TR77	Transcription 1185 1198	transcription
+TR96	Metastasis 2231 2241	metastasis
+TR97	Negative_regulation 2242 2252	suppressor
+TR98	Gene_expression 2322 2332	expression
+TR70	Transcription 720 751	messenger RNA (mRNA) expression
+TR71	Positive_regulation 755 764	increased
+TR72	Metastasis 820 830	metastatic
+TR102	Transcription 741 751	expression
+TR103	Translation 741 751	expression
+TR73	Mutation 944 960	allelic deletion
+TR104	Mutation 952 960	deletion
+TR78	Transcription 1341 1369	transcript (mRNA) expression
+TR79	Mutation 1390 1399	mutations
+TR80	Negative_regulation 1411 1421	inactivate
+TR81	Negative_regulation 1432 1442	suppressor
+TR105	Transcription 1359 1369	expression
+TR57	Positive_regulation 0 9	Increased
+TR58	Transcription 30 54	messenger RNA expression
+TR59	Mutation 70 79	mutations
+TR60	Metastasis 116 126	metastatic
+TR101	Transcription 44 54	expression
+TR87	Positive_regulation 1690 1699	Increases
+TR88	Transcription 1709 1713	mRNA
+TR89	Metastasis 1765 1775	metastatic
+TR99	Metastasis 2386 2396	metastasis
+TR100	Negative_regulation 2397 2408	suppression
+TR94	Mutation 2082 2098	allelic deletion
+TR95	Metastasis 2115 2125	metastatic
+TR109	Mutation 2090 2098	deletion
+TR61	Negative_regulation 172 182	suppresses
+TR62	Metastasis 187 197	metastatic
+TR63	Negative_regulation 244 251	reduced
+TR64	Gene_expression 257 267	expression
+TR65	Positive_regulation 284 293	increased
+TR66	Metastasis 319 329	metastases
+TR67	Mutation 480 488	deletion
+TR82	Transcription 1465 1473	detected
+TR68	Negative_regulation 620 631	suppression
+TR69	Metastasis 651 661	metastasis
+TR90	Mutation 1859 1876	allelic deletions
+TR91	Regulation 1972 1979	mediate
+TR92	Metastasis 1980 1990	metastasis
+TR93	Negative_regulation 1991 2002	suppression
+TR108	Mutation 1867 1876	deletions
+TR83	Transcription 1515 1525	Expression
+TR84	Positive_regulation 1542 1551	increased
+TR85	Transcription 1582 1592	expression
+TR86	Positive_regulation 1613 1621	elevated
+TR106	Translation 1515 1525	Expression
+TR107	Translation 1582 1592	expression
+E1	Mutation:TR76 
+E2	Transcription:TR77 Theme:T26
+E3	Transcription:TR77 Theme:T27
+E4	Metastasis:TR96 
+E5	Gene_expression:TR98 Theme:T53
+E6	Negative_regulation:TR97 Cause:T50 Theme:E4
+E7	Transcription:TR102 Theme:T19
+E8	Translation:TR103 Theme:T19
+E9	Transcription:TR70 Theme:T19
+E10	Positive_regulation:TR71 Theme:E9
+E11	Mutation:TR73 Theme:T21 AtLoc:T23
+E12	Mutation:TR104 Theme:T21 AtLoc:T23
+E13	Transcription:TR78 Theme:T31
+E14	Transcription:TR78 Theme:T33
+E15	Transcription:TR105 Theme:T31
+E16	Transcription:TR105 Theme:T33
+E17	Transcription:TR101 Theme:T2
+E18	Transcription:TR101 Theme:T1
+E19	Metastasis:TR60 Theme:T3
+E20	Transcription:TR58 Theme:T2
+E21	Transcription:TR58 Theme:T1
+E22	Metastasis:TR89 Theme:T42
+E23	Metastasis:TR99 
+E24	Negative_regulation:TR100 Theme:E23 Cause:T55
+E25	Mutation:TR94 Theme:T48
+E26	Metastasis:TR95 Theme:T49
+E27	Mutation:TR109 Theme:T48
+E28	Metastasis:TR66 Theme:T10 ToLoc:T8
+E29	Metastasis:TR62 
+E30	Gene_expression:TR64 Theme:T7
+E31	Negative_regulation:TR63 Theme:E30
+E32	Positive_regulation:TR65 Theme:E28
+E33	Negative_regulation:TR61 Theme:E29 Cause:T5
+E34	Mutation:TR67 Theme:T15 AtLoc:T16
+E35	Transcription:TR82 Theme:T35
+E36	Transcription:TR82 Theme:T36
+E37	Metastasis:TR69 Theme:T18
+E38	Negative_regulation:TR68 Theme:E37 Cause:T17
+E39	Transcription:TR83 Theme:T37
+E40	Translation:TR106 Theme:T37
+E41	Translation:TR107 Theme:T39
+E42	Positive_regulation:TR84 Theme:E39

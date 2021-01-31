@@ -1,0 +1,64 @@
+TR50	Localization 362 370	invasion
+TR51	Localization 384 392	invasion
+TR52	Regulation 422 432	controlled
+TR48	Cell_transformation 9 23	transformation
+TR72	Localization 38 46	invasive
+TR73	Positive_regulation 59 66	results
+TR58	Cell_transformation 1097 1109	immortalized
+TR70	Positive_regulation 2126 2136	upregulate
+TR71	Positive_regulation 2189 2201	upregulation
+TR81	Negative_regulation 2065 2071	action
+TR82	Positive_regulation 2181 2188	induced
+TR61	Cell_proliferation 1465 1483	hyperproliferative
+TR62	Localization 1488 1501	hyperinvasive
+TR63	Carcinogenesis 1681 1696	non-tumorigenic
+TR49	Localization 196 204	Invasion
+TR57	Planned_process 983 994	transformed
+TR77	Positive_regulation 983 994	transformed
+TR53	Carcinogenesis 571 585	nontumorigenic
+TR54	Development 735 746	progression
+TR75	Positive_regulation 608 614	induce
+TR59	Cell_proliferation 1230 1243	proliferative
+TR60	Localization 1248 1256	invasive
+TR78	Regulation 1215 1226	alterations
+TR79	Localization 1285 1293	invasion
+TR80	Regulation 1349 1356	changes
+TR64	Negative_regulation 1805 1812	reduced
+TR65	Gene_expression 1813 1823	expression
+TR66	Gene_expression 1931 1941	expression
+TR67	Negative_regulation 1955 1962	reduced
+TR68	Regulation 1986 1998	contributing
+TR69	Localization 2008 2025	hyperinvasiveness
+TR55	Planned_process 795 805	introduced
+TR56	Planned_process 872 883	established
+TR76	Localization 842 850	invasive
+E1	Localization:TR50 Theme:T9
+E2	Localization:TR51 Theme:T10 ToLoc:T11
+E3	Localization:TR51 Theme:T10
+E4	Regulation:TR52 Theme:E2 Cause:T12
+E5	Regulation:TR52 Theme:E3 Cause:T12
+E6	Localization:TR72 Theme:T3
+E7	Cell_transformation:TR48 Theme:T3
+E8	Cell_transformation:TR58 Theme:T29
+E9	Positive_regulation:TR71 Theme:T47 Cause:T46
+E10	Positive_regulation:TR70 Theme:T45 Cause:T43
+E11	Positive_regulation:TR70 Theme:T44 Cause:T43
+E12	Localization:TR62 Theme:T32
+E13	Localization:TR62 Theme:T31
+E14	Cell_proliferation:TR61 Theme:T32
+E15	Cell_proliferation:TR61 Theme:T31
+E16	Carcinogenesis:TR63 AtLoc:T35
+E17	Localization:TR49 ToLoc:T5 Theme:T7
+E18	Localization:TR49 Theme:T7
+E19	Planned_process:TR57 Instrument:T25 Theme:T26
+E20	Planned_process:TR57 Instrument:T25
+E21	Positive_regulation:TR77 Theme:T26 Cause:T25
+E22	Carcinogenesis:TR53 
+E23	Development:TR54 Theme:T15
+E24	Regulation:TR78 Theme:T30
+E25	Gene_expression:TR65 Theme:T38
+E26	Localization:TR69 Theme:T37
+E27	Regulation:TR68 Theme:E26 Cause:T37
+E28	Negative_regulation:TR64 Theme:E25
+E29	Planned_process:TR56 Theme:T22 Theme2:T21
+E30	Localization:TR76 Theme:T22

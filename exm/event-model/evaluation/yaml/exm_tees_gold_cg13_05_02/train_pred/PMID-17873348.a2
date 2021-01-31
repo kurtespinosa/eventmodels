@@ -1,0 +1,38 @@
+TR47	Positive_regulation 442 452	activation
+TR48	Pathway 460 469	signaling
+TR49	Positive_regulation 470 477	induces
+TR50	Regulation 534 540	exerts
+TR51	Positive_regulation 587 597	activation
+TR52	Pathway 623 631	pathways
+TR67	Carcinogenesis 545 554	oncogenic
+TR57	Cell_transformation 971 985	transformation
+TR43	Cell_differentiation 131 146	differentiation
+TR44	Cell_differentiation 197 211	differentiated
+TR45	Pathway 252 261	signaling
+TR46	Regulation 287 297	regulating
+TR66	Regulation 279 283	role
+TR65	Pathway 4 13	signaling
+TR58	Cell_differentiation 1000 1014	differentiated
+TR59	Cell_transformation 1033 1044	transformed
+TR60	Cell_differentiation 1136 1150	differentiated
+TR61	Cell_transformation 1189 1203	transformation
+TR53	Positive_regulation 671 679	mediated
+TR54	Planned_process 680 692	introduction
+TR55	Cell_transformation 820 829	transform
+TR56	Positive_regulation 820 829	transform
+TR62	Planned_process 1313 1319	target
+TR63	Cell_transformation 1417 1431	transformation
+TR64	Cell_differentiation 1459 1473	differentiated
+E1	Pathway:TR48 Participant:T16
+E2	Carcinogenesis:TR67 
+E3	Positive_regulation:TR47 Theme:E1
+E4	Pathway:TR45 Participant:T11
+E5	Pathway:TR65 Participant:T1
+E6	Cell_transformation:TR59 Theme:T35
+E7	Cell_transformation:TR61 Theme:T37
+E8	Cell_differentiation:TR58 Theme:T35
+E9	Planned_process:TR54 Theme:T26
+E10	Positive_regulation:TR53 Theme:E9 Cause:T25
+E11	Cell_transformation:TR63 
+E12	Planned_process:TR62 Theme:T40
+E13	Cell_differentiation:TR64 Theme:T42

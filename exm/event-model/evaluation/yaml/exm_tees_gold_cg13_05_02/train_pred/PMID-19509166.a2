@@ -1,0 +1,56 @@
+TR48	Positive_regulation 910 923	Up-regulation
+TR43	Regulation 211 233	play an essential role
+TR44	Binding 273 285	interactions
+TR45	Carcinogenesis 290 303	tumorigenesis
+TR65	Regulation 229 233	role
+TR49	Cell_proliferation 1399 1405	growth
+TR50	Localization 1407 1416	migration
+TR51	Localization 1422 1430	invasion
+TR67	Positive_regulation 1375 1382	promote
+TR52	Positive_regulation 1689 1696	promote
+TR53	Development 1704 1715	development
+TR54	Development 1720 1731	progression
+TR55	Positive_regulation 1740 1751	stimulation
+TR56	Cell_proliferation 1767 1780	proliferation
+TR57	Positive_regulation 1782 1791	induction
+TR58	Blood_vessel_development 1795 1807	angiogenesis
+TR59	Negative_regulation 1809 1819	inhibition
+TR60	Binding 1828 1836	adhesion
+TR61	Positive_regulation 1838 1849	enhancement
+TR62	Localization 1858 1866	mobility
+TR63	Positive_regulation 1872 1881	promotion
+TR64	Development 1912 1922	transition
+TR46	Cell_proliferation 841 854	proliferation
+TR47	Remodeling 877 887	remodeling
+TR41	Development 103 114	development
+TR42	Development 119 130	progression
+TR66	Regulation 366 370	role
+E1	Carcinogenesis:TR45 AtLoc:T8
+E2	Localization:TR50 Theme:T30
+E3	Localization:TR51 Theme:T30
+E4	Cell_proliferation:TR49 Theme:T30
+E5	Positive_regulation:TR67 Theme:E3
+E6	Binding:TR60 Theme:T37
+E7	Development:TR64 Theme:T39
+E8	Development:TR64 Theme:T40
+E9	Development:TR53 Theme:T35
+E10	Cell_proliferation:TR56 Theme:T36
+E11	Blood_vessel_development:TR58 
+E12	Localization:TR62 Theme:T37
+E13	Localization:TR62 Theme:T38
+E14	Positive_regulation:TR57 Theme:E11
+E15	Positive_regulation:TR61 Theme:E12
+E16	Positive_regulation:TR61 Theme:E13
+E17	Positive_regulation:TR63 Theme:E7
+E18	Positive_regulation:TR63 Theme:E8
+E19	Positive_regulation:TR55 Theme:T35
+E20	Positive_regulation:TR55 Theme:E10
+E21	Negative_regulation:TR59 Theme:E6
+E22	Remodeling:TR47 Theme:T17
+E23	Remodeling:TR47 Theme:T16
+E24	Cell_proliferation:TR46 Theme:T16
+E25	Development:TR41 Theme:T4
+E26	Development:TR41 Theme:T3
+E27	Development:TR42 Theme:T4
+E28	Development:TR42 Theme:T3
+E29	Regulation:TR66 Cause:T9 Theme:T10

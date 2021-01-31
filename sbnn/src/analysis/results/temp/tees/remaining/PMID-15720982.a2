@@ -1,0 +1,25 @@
+T25	Planned_process 68 77	treatment
+T26	Planned_process 402 409	therapy
+T27	Planned_process 505 514	underwent
+T28	Planned_process 575 583	abrasion
+T29	Planned_process 609 620	application
+T30	Planned_process 740 747	treated
+T31	Planned_process 788 795	therapy
+T32	Planned_process 847 856	treatment
+T33	Blood_vessel_development 1391 1403	angiogenesis
+T34	Planned_process 1620 1627	therapy
+T35	Planned_process 1731 1738	therapy
+E1	Planned_process:T25 Instrument:T2
+E2	Planned_process:T26 Instrument:T5
+E3	Planned_process:T27 Theme:T8
+E4	Planned_process:T28 Theme:T9
+E5	Planned_process:T29 Instrument:T10
+E6	Planned_process:T30 Instrument:T12
+E7	Planned_process:T31 Instrument:T13
+E8	Planned_process:T32 Instrument:T15 Instrument2:T14
+E9	Blood_vessel_development:T33
+E10	Planned_process:T34 Instrument:T20
+E11	Planned_process:T35 Instrument:T23
+E12	Planned_process:T25 Instrument:T1
+E13	Planned_process:T26 Instrument:T6
+E14	Planned_process:T26 Instrument:T4

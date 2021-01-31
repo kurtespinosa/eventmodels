@@ -1,0 +1,25 @@
+TR38	Development 1260 1270	progressed
+TR31	Planned_process 357 364	treated
+TR32	Blood_vessel_development 529 532	CNV
+TR28	Blood_vessel_development 208 226	neovascularization
+TR29	Blood_vessel_development 228 231	CNV
+TR30	Planned_process 233 240	treated
+TR34	Planned_process 749 756	treated
+TR35	Localization 819 827	Presence
+TR36	Blood_vessel_development 841 844	CNV
+TR37	Blood_vessel_development 1063 1066	CNV
+TR33	Blood_vessel_development 556 559	CNV
+TR25	Blood_vessel_development 51 69	neovascularization
+TR26	Planned_process 70 77	treated
+TR27	Planned_process 96 103	therapy
+E1	Development:TR38 Theme:T20
+E2	Planned_process:TR31 Theme:T6
+E3	Blood_vessel_development:TR32 AtLoc:T8
+E4	Blood_vessel_development:TR28 AtLoc:T3
+E5	Blood_vessel_development:TR29 
+E6	Planned_process:TR34 Theme:T14
+E7	Blood_vessel_development:TR36 
+E8	Blood_vessel_development:TR37 AtLoc:T19
+E9	Blood_vessel_development:TR33 AtLoc:T9
+E10	Planned_process:TR27 Instrument:T2
+E11	Blood_vessel_development:TR25 AtLoc:T1

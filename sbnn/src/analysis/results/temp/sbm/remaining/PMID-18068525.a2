@@ -1,0 +1,12 @@
+T24	Metastasis 54 64	metastasis
+T25	Positive_regulation 297 306	increased
+T26	Metastasis 692 702	metastasis
+T27	Metastasis 919 929	metastasis
+T28	Cell_death 1137 1150	death pathway
+T29	Metastasis 1382 1392	metastasis
+E1	Metastasis:T24 ToLoc:T2 Theme:T3
+E2	Positive_regulation:T25 Theme:T7
+E3	Metastasis:T26 ToLoc:T12
+E4	Metastasis:T27 ToLoc:T15
+E5	Cell_death:T28
+E6	Metastasis:T29 ToLoc:T21 Theme:T22

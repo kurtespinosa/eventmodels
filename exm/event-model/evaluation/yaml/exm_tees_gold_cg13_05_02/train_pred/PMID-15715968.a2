@@ -1,0 +1,31 @@
+TR42	Blood_vessel_development 1321 1333	angiogenesis
+TR35	Negative_regulation 933 942	inhibited
+TR45	Negative_regulation 924 932	potently
+TR26	Gene_expression 0 10	Expression
+TR31	Regulation 353 369	plays a key role
+TR32	Positive_regulation 378 385	induced
+TR33	Blood_vessel_development 386 398	angiogenesis
+TR43	Regulation 365 369	role
+TR36	Planned_process 988 997	Treatment
+TR37	Negative_regulation 1030 1037	blocked
+TR38	Positive_regulation 1043 1050	induced
+TR39	Phosphorylation 1051 1066	phosphorylation
+TR40	Negative_regulation 1136 1146	suppressed
+TR41	Development 1158 1167	formation
+TR27	Regulation 217 220	act
+TR28	Positive_regulation 230 237	induced
+TR29	Blood_vessel_development 238 250	angiogenesis
+TR30	Binding 254 261	binding
+TR34	Gene_expression 409 418	expressed
+TR44	Gene_expression 495 505	expression
+E1	Blood_vessel_development:TR42 
+E2	Negative_regulation:TR35 Theme:T17 Cause:T16
+E3	Gene_expression:TR26 Theme:T2
+E4	Blood_vessel_development:TR33 
+E5	Positive_regulation:TR32 Cause:T11 Theme:E4
+E6	Development:TR41 Theme:T23
+E7	Negative_regulation:TR40 Cause:T22 Theme:E6
+E8	Blood_vessel_development:TR29 
+E9	Positive_regulation:TR28 Theme:E8 Cause:T6
+E10	Gene_expression:TR44 Theme:T12
+E11	Gene_expression:TR34 Theme:T12

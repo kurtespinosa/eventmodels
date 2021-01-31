@@ -1,0 +1,18 @@
+TR37	Localization 471 480	secreting
+TR38	Gene_expression 521 530	expressed
+TR39	Development 638 649	development
+TR31	Positive_regulation 21 32	facilitates
+TR32	Cell_transformation 45 59	transformation
+TR33	Localization 94 103	secreting
+TR40	Mutation 651 664	Rearrangement
+TR41	Regulation 739 743	role
+TR34	Carcinogenesis 151 162	tumorigenic
+TR35	Positive_regulation 163 172	potential
+TR36	Gene_expression 216 226	expressing
+E1	Development:TR39 Theme:T25
+E2	Localization:TR33 FromLoc:T4 Theme:T3
+E3	Mutation:TR40 Theme:T26 AtLoc:T27
+E4	Gene_expression:TR36 Theme:T9
+E5	Carcinogenesis:TR34 AtLoc:T6
+E6	Positive_regulation:TR35 Cause:T7 Theme:E5
+E7	Positive_regulation:TR35 Cause:T7 Theme:T9

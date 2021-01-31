@@ -1,0 +1,71 @@
+TR60	Planned_process 2515 2524	treatment
+TR40	Planned_process 153 161	treating
+TR41	Blood_vessel_development 172 190	neovascularization
+TR42	Blood_vessel_development 192 195	CNV
+TR43	Regulation 197 207	associated
+TR44	Breakdown 233 245	degeneration
+TR54	Blood_vessel_development 1524 1527	CNV
+TR55	Planned_process 1548 1554	closed
+TR64	Regulation 1670 1676	change
+TR47	Blood_vessel_development 761 764	CNV
+TR61	Positive_regulation 713 722	enhancing
+TR36	Planned_process 11 20	treatment
+TR37	Blood_vessel_development 34 52	neovascularization
+TR38	Regulation 68 78	associated
+TR39	Breakdown 104 116	degeneration
+TR45	Planned_process 370 386	photocoagulating
+TR46	Blood_vessel_development 387 390	CNV
+TR62	Localization 830 838	delivery
+TR57	Positive_regulation 2093 2101	enhanced
+TR58	Planned_process 2102 2118	photocoagulation
+TR59	Blood_vessel_development 2122 2125	CNV
+TR48	Planned_process 1060 1068	injected
+TR49	Localization 1105 1113	observed
+TR63	Localization 1117 1122	enter
+TR56	Planned_process 1706 1713	closure
+TR65	Localization 1751 1759	presence
+TR50	Blood_vessel_development 1386 1389	CNV
+TR51	Positive_regulation 1422 1431	requiring
+TR52	Planned_process 1432 1441	treatment
+TR53	Blood_vessel_development 1445 1448	CNV
+E1	Planned_process:TR60 Theme:T35
+E2	Breakdown:TR44 Theme:T5
+E3	Blood_vessel_development:TR41 AtLoc:T4
+E4	Blood_vessel_development:TR42 
+E5	Regulation:TR43 Cause:E3 Theme:E2
+E6	Planned_process:TR40 Theme:E3
+E7	Regulation:TR64 Theme:T24
+E8	Blood_vessel_development:TR54 Theme:T22
+E9	Blood_vessel_development:TR47 Theme:T11
+E10	Blood_vessel_development:TR47 Theme:T10
+E11	Blood_vessel_development:TR47 
+E12	Positive_regulation:TR61 Theme:T10
+E13	Blood_vessel_development:TR37 Theme:T2 AtLoc:T1
+E14	Blood_vessel_development:TR37 Theme:T2
+E15	Blood_vessel_development:TR37 AtLoc:T1
+E16	Blood_vessel_development:TR37 
+E17	Breakdown:TR39 Theme:T3
+E18	Planned_process:TR36 Theme:T2
+E19	Planned_process:TR36 Theme:E13
+E20	Planned_process:TR36 Theme:E14
+E21	Planned_process:TR36 Theme:E15
+E22	Planned_process:TR36 Theme:E16
+E23	Planned_process:TR45 Theme:T6
+E24	Blood_vessel_development:TR46 Theme:T6
+E25	Blood_vessel_development:TR46 
+E26	Localization:TR62 Theme:T12
+E27	Blood_vessel_development:TR59 Theme:T31
+E28	Planned_process:TR58 Theme:T31
+E29	Positive_regulation:TR57 Theme:E28 Cause:T30
+E30	Localization:TR63 Theme:T17 ToLoc:T18
+E31	Planned_process:TR48 Instrument:T17
+E32	Localization:TR49 Theme:T17 ToLoc:T18
+E33	Planned_process:TR56 Theme:T25
+E34	Localization:TR65 Theme:T26 AtLoc:T27
+E35	Blood_vessel_development:TR50 Theme:T19
+E36	Blood_vessel_development:TR53 
+E37	Planned_process:TR52 Theme:T19
+E38	Planned_process:TR52 Theme:E36
+E39	Positive_regulation:TR51 Theme:T20 Cause:E37
+E40	Positive_regulation:TR51 Theme:T20 Cause:E38
+E41	Positive_regulation:TR51 Theme:T20

@@ -1,0 +1,57 @@
+T48	Metastasis 5 15	metastasis
+T49	Negative_regulation 16 23	effects
+T50	Negative_regulation 72 82	inhibition
+T51	Negative_regulation 109 123	downregulation
+T52	Pathway 149 156	signals
+T53	Regulation 479 485	effect
+T54	Negative_regulation 615 625	inhibition
+T55	Metastasis 663 673	metastasis
+T56	Negative_regulation 825 843	inhibitory effects
+T57	Localization 856 865	migration
+T58	Gene_expression 871 881	expression
+T59	Negative_regulation 910 919	inhibited
+T60	Negative_regulation 965 983	suppressive effect
+T61	Regulation 1007 1014	involve
+T62	Negative_regulation 1019 1029	inhibition
+T63	Regulation 1071 1079	involved
+T64	Metastasis 1083 1093	metastasis
+T65	Negative_regulation 1214 1223	inhibited
+T66	Planned_process 1342 1351	treatment
+T67	Negative_regulation 1423 1433	prevention
+T68	Planned_process 1438 1447	treatment
+T69	Metastasis 1466 1476	metastasis
+E2	Negative_regulation:T49 Cause:T1 Theme:E1
+E3	Negative_regulation:T50 Cause:E2 Theme:T3
+E4	Negative_regulation:T51 Cause:E2 Theme:E5
+E6	Regulation:T53 Theme:E7 Cause:T13
+E7	Negative_regulation:T54 Theme:E8
+E9	Negative_regulation:T56 Cause:T24 Theme:E10
+E12	Negative_regulation:T59 Cause:T29 Theme:E11
+E14	Regulation:T61 Theme:E15 Cause:E13
+E16	Regulation:T63 Theme:E17 Cause:T35
+E20	Negative_regulation:T67 Cause:T46 Theme:E22
+E23	Regulation:T53 Theme:E7 Cause:T14
+E24	Regulation:T53 Theme:E7 Cause:T15
+E25	Regulation:T53 Theme:E7 Cause:T16
+E26	Regulation:T53 Theme:E7 Cause:T17
+E27	Regulation:T53 Theme:E7 Cause:T18
+E28	Regulation:T53 Theme:E7 Cause:T11
+E30	Negative_regulation:T59 Cause:T29 Theme:E29
+E32	Regulation:T61 Theme:E15 Cause:E31
+E33	Regulation:T63 Theme:E17 Cause:T36
+E34	Regulation:T63 Theme:E17 Cause:T37
+E35	Regulation:T63 Theme:E17 Cause:T38
+E36	Regulation:T63 Theme:E17 Cause:T39
+E37	Regulation:T63 Theme:E17 Cause:T40
+E38	Regulation:T63 Theme:E17 Cause:T41
+E17	Metastasis:T64
+E5	Pathway:T52 Participant:T4 Participant2:T5 Participant3:T6
+E1	Metastasis:T48
+E29	Gene_expression:T58 Theme:T27
+E31	Negative_regulation:T60 Cause:T30 Theme:T32
+E15	Negative_regulation:T62 Theme:T33
+E11	Gene_expression:T58 Theme:T26
+E8	Metastasis:T55
+E10	Localization:T57 Theme:T25
+E13	Negative_regulation:T60 Cause:T30 Theme:T31
+E22	Metastasis:T69 Theme:T47

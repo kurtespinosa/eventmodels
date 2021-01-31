@@ -1,0 +1,40 @@
+T29	Localization 335 343	invasive
+T31	Gene_expression 774 784	expression
+T32	Localization 835 843	invasive
+T28	Regulation 218 246	having an important function
+T44	Regulation 238 246	function
+T30	Localization 642 650	invasive
+T35	Metastasis 1160 1170	metastasis
+T36	Gene_expression 1215 1225	expression
+T37	Metastasis 1247 1257	metastasis
+T33	Gene_expression 903 913	expression
+T38	Gene_expression 1353 1363	expression
+T39	Death 1473 1481	survival
+T25	Regulation 0 4	Role
+T26	Localization 34 42	invasive
+T27	Gene_expression 66 76	expression
+T42	Localization 1713 1721	invasive
+T43	Cell_proliferation 1722 1728	growth
+T40	Metastasis 1565 1575	metastasis
+T41	Metastasis 1629 1639	metastasis
+T34	Gene_expression 1057 1067	expression
+E1	Localization:T29 Theme:T6
+E2	Localization:T32 Theme:T13
+E3	Gene_expression:T31 Theme:T11
+E4	Regulation:T44 Theme:T5
+E5	Localization:T30 Theme:T8
+E6	Gene_expression:T36 Theme:T16
+E7	Metastasis:T37 
+E8	Metastasis:T35 
+E9	Gene_expression:T33 Theme:T14
+E10	Death:T39 Theme:T17
+E11	Gene_expression:T38 Theme:T18
+E12	Gene_expression:T27 Theme:T4
+E13	Localization:T26 Theme:T2
+E14	Regulation:T25 Cause:T1 Theme:T2
+E15	Regulation:T25 Cause:T1 Theme:E13
+E16	Cell_proliferation:T43 Theme:T22
+E17	Localization:T42 Theme:T22
+E18	Metastasis:T41 
+E19	Metastasis:T40 ToLoc:T21
+E20	Gene_expression:T34 Theme:T15

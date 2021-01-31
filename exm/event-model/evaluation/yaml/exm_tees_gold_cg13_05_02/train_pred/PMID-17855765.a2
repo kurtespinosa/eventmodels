@@ -1,0 +1,30 @@
+TR38	Positive_regulation 61 68	induced
+TR39	Metastasis 76 86	metastatic
+TR53	Negative_regulation 37 44	removal
+TR46	Localization 1189 1195	enters
+TR47	Positive_regulation 1240 1249	undergoes
+TR48	Metabolism 1250 1260	metabolism
+TR49	Regulation 1291 1301	unaffected
+TR50	Metastasis 1311 1321	metastasis
+TR51	Localization 1350 1358	delivery
+TR52	Planned_process 1421 1433	preparations
+TR40	Metastasis 229 239	metastatic
+TR41	Planned_process 301 322	intraportal injection
+TR54	Planned_process 313 322	injection
+TR42	Positive_regulation 543 552	induction
+TR43	Positive_regulation 700 709	Increased
+TR44	Regulation 875 884	unchanged
+TR45	Negative_regulation 933 942	decreased
+E1	Negative_regulation:TR53 Theme:T1
+E2	Metastasis:TR39 ToLoc:T4
+E3	Positive_regulation:TR38 Cause:T3 Theme:E2
+E4	Metastasis:TR50 ToLoc:T37
+E5	Metastasis:TR50 ToLoc:T34
+E6	Planned_process:TR52 Theme:T37
+E7	Localization:TR51 Theme:T31 ToLoc:T37
+E8	Regulation:TR49 Theme:T31 Cause:E4
+E9	Regulation:TR49 Theme:T31 Cause:E5
+E10	Metabolism:TR48 Theme:T31
+E11	Metastasis:TR40 Theme:T6
+E12	Planned_process:TR54 Instrument:T8 Theme:T7
+E13	Positive_regulation:TR42 Theme:T11

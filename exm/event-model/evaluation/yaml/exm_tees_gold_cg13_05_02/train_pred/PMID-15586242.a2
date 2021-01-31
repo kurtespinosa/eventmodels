@@ -1,0 +1,43 @@
+TR31	Blood_vessel_development 755 765	angiogenic
+TR32	Planned_process 787 798	constructed
+TR33	DNA_domain_or_region 811 814	HRE
+TR34	DNA_domain_or_region 818 821	HRE
+TR35	Planned_process 837 843	linked
+TR36	DNA_domain_or_region 891 899	promoter
+TR37	DNA_domain_or_region 903 906	HRE
+TR25	Binding 374 379	binds
+TR26	DNA_domain_or_region 383 410	hypoxia-responsive elements
+TR27	DNA_domain_or_region 412 415	HRE
+TR28	Blood_vessel_development 487 499	angiogenesis
+TR29	Positive_regulation 505 514	initiates
+TR30	Transcription 526 536	expression
+TR47	DNA_domain_or_region 402 410	elements
+TR38	Localization 959 967	secreted
+TR39	Negative_regulation 986 995	inhibited
+TR40	Development 1001 1010	formation
+TR41	Localization 1015 1024	migration
+TR42	DNA_domain_or_region 1111 1114	HRE
+TR43	Negative_regulation 1154 1169	down-regulating
+TR44	Blood_vessel_development 1176 1188	angiogenesis
+TR21	DNA_domain_or_region 0 26	Hypoxia-responsive element
+TR22	Regulation 27 35	mediated
+TR23	Blood_vessel_development 73 83	angiogenic
+TR24	Negative_regulation 84 92	activity
+TR45	DNA_domain_or_region 19 26	element
+TR46	Positive_regulation 222 231	increased
+E1	Blood_vessel_development:TR31 
+E2	Blood_vessel_development:TR28 
+E3	Transcription:TR30 Theme:T6
+E4	Positive_regulation:TR29 Theme:E3 Cause:T5
+E5	Localization:TR41 Theme:T17
+E6	Localization:TR38 Theme:T15
+E7	Development:TR40 Theme:T17
+E8	Development:TR40 Theme:T16
+E9	Negative_regulation:TR39 Theme:E7 Cause:T15
+E10	Negative_regulation:TR39 Theme:E8 Cause:T15
+E11	Negative_regulation:TR39 Cause:T15 Theme:E5
+E12	Blood_vessel_development:TR44 AtLoc:T20
+E13	Negative_regulation:TR43 Theme:E12
+E14	Regulation:TR22 Theme:T1
+E15	Blood_vessel_development:TR23 
+E16	Negative_regulation:TR24 Theme:E15

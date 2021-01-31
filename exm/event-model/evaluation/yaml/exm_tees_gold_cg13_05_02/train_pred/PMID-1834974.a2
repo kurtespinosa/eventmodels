@@ -1,0 +1,18 @@
+TR25	Transcription 932 941	expressed
+TR26	Pathway 1038 1055	signaling network
+TR27	Regulation 1072 1079	control
+TR28	Cell_proliferation 1088 1101	proliferation
+TR29	Cell_differentiation 1106 1121	differentiation
+TR31	Pathway 1048 1055	network
+TR30	Carcinogenesis 47 56	oncogenic
+TR24	Transcription 725 736	transcribed
+TR21	Cell_transformation 86 98	transforming
+TR22	Carcinogenesis 113 127	tumorigenicity
+TR23	Planned_process 153 164	transfected
+E1	Transcription:TR25 Theme:T17
+E2	Cell_proliferation:TR28 Theme:T20
+E3	Cell_differentiation:TR29 Theme:T20
+E4	Carcinogenesis:TR30 
+E5	Transcription:TR24 Theme:T9
+E6	Planned_process:TR23 Theme:T2 Instrument:T3
+E7	Carcinogenesis:TR22 

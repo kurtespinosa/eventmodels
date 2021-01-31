@@ -1,0 +1,50 @@
+T42	Gene_expression 6 20	overexpression
+T43	Positive_regulation 21 29	promotes
+T44	Growth 36 42	growth
+T45	Blood_vessel_development 47 59	angiogenesis
+T46	Negative_regulation 68 78	inhibition
+T47	Pathway 114 123	signaling
+T48	Pathway 300 309	signaling
+T49	Binding 318 329	interaction
+T50	Gene_expression 365 375	expression
+T51	Negative_regulation 469 479	disruption
+T52	Pathway 492 501	signaling
+T53	Positive_regulation 591 602	accelerated
+T54	Growth 609 615	growth
+T55	Positive_regulation 624 633	induction
+T56	Blood_vessel_development 643 655	angiogenesis
+T57	Negative_regulation 659 668	decreased
+T58	Gene_expression 669 679	expression
+T59	Blood_vessel_development 692 702	angiogenic
+T60	Gene_expression 831 845	Overexpression
+T61	Negative_regulation 855 864	inhibited
+T62	Pathway 874 883	signaling
+T63	Gene_expression 925 939	overexpression
+T64	Growth 982 988	growth
+T65	Gene_expression 1080 1090	expressing
+T66	Positive_regulation 1185 1194	increased
+T67	Blood_vessel_development 1195 1207	angiogenesis
+T68	Planned_process 1211 1222	xenografted
+T69	Gene_expression 1230 1240	expressing
+T70	Positive_regulation 1275 1284	Induction
+T71	Negative_regulation 1315 1325	attenuated
+T72	Transcription 1349 1359	expression
+T73	Negative_regulation 1378 1387	decreased
+T74	Gene_expression 1398 1408	expressing
+T75	Gene_expression 1458 1472	overexpression
+T76	Positive_regulation 1473 1481	promotes
+T77	Growth 1486 1492	growth
+T78	Positive_regulation 1535 1544	induction
+T79	Blood_vessel_development 1548 1560	angiogenesis
+E1	Gene_expression:T42 Theme:T1
+E2	Positive_regulation:T43 Cause:E5 Theme:E3
+E3	Growth:T44 Theme:T2
+E4	Blood_vessel_development:T45 AtLoc:T4
+E5	Negative_regulation:T46 Cause:E1 Theme:E6
+E6	Pathway:T47 Participant:T3
+E8	Binding:T49 Theme:T7 Theme2:T5
+E26	Blood_vessel_development:T67 AtLoc:T31
+E27	Planned_process:T68 Instrument:T31
+E39	Positive_regulation:T43 Cause:E5 Theme:E4
+E40	Binding:T49 Theme:T8 Theme2:T5
+E41	Binding:T49 Theme:T9 Theme2:T5

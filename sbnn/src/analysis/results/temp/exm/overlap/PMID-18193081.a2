@@ -1,0 +1,39 @@
+T27	Positive_regulation 6 14	augments
+T28	Death 15 20	death
+T29	Negative_regulation 25 35	attenuates
+T30	Regulation 47 54	effects
+T31	Cell_death 120 132	proapoptotic
+T32	Regulation 133 142	functions
+T33	Cell_death 199 208	apoptotic
+T34	Negative_regulation 209 219	mechanisms
+T35	Cell_death 284 296	proapoptotic
+T36	Regulation 297 304	effects
+T37	Positive_regulation 332 341	activated
+T38	Gene_expression 461 471	expression
+T39	Cell_death 508 517	apoptotic
+T40	Gene_expression 534 547	overexpressed
+T41	Positive_regulation 534 547	overexpressed
+T42	Negative_regulation 588 597	protected
+T43	Death 615 620	death
+T44	Glycolysis 834 844	glycolytic
+T45	Negative_regulation 859 869	attenuated
+T46	Cell_death 878 887	apoptotic
+T47	Negative_regulation 888 894	effect
+T48	Negative_regulation 948 959	antagonized
+T49	Cell_proliferation 964 970	growth
+T50	Negative_regulation 971 982	suppressive
+T51	Regulation 1128 1137	functions
+E1	Positive_regulation:T27 Cause:T1 Theme:E2
+E2	Death:T28 Theme:T3
+E3	Negative_regulation:T29 Cause:T1 Theme:E4
+E4	Regulation:T30 Cause:T2 Theme:T3
+E12	Gene_expression:T38 Theme:T11
+E14	Gene_expression:T40 Theme:T11
+E22	Negative_regulation:T48 Theme:E24 Cause:T20
+E23	Cell_proliferation:T49 Theme:T22
+E24	Negative_regulation:T50 Cause:T21 Theme:E23
+E26	Gene_expression:T38 Theme:T12
+E27	Gene_expression:T38 Theme:T13
+E28	Gene_expression:T40 Theme:T12
+E29	Gene_expression:T40 Theme:T13
+E32	Negative_regulation:T48 Theme:E24 Cause:T24

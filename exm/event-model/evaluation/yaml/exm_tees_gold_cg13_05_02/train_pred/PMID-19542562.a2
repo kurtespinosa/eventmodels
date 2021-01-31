@@ -1,0 +1,72 @@
+TR48	Regulation 188 195	respond
+TR49	Positive_regulation 268 278	activation
+TR50	Blood_vessel_development 282 294	angiogenesis
+TR81	Regulation 1799 1809	controlled
+TR82	Positive_regulation 1810 1820	activation
+TR83	Blood_vessel_development 1904 1914	angiogenic
+TR51	Blood_vessel_development 362 380	Neovascularization
+TR52	Positive_regulation 428 437	induction
+TR53	Blood_vessel_development 441 451	angiogenic
+TR54	Positive_regulation 529 537	critical
+TR55	Development 551 562	development
+TR56	Remodeling 567 573	repair
+TR70	Negative_regulation 1328 1338	Inhibition
+TR71	Negative_regulation 1351 1358	reduced
+TR72	Binding 1384 1395	recruitment
+TR73	Positive_regulation 1440 1449	induction
+TR74	Positive_regulation 1501 1509	enhanced
+TR75	DNA_domain_or_region 1532 1540	promoter
+TR86	Localization 1384 1395	recruitment
+TR57	Positive_regulation 634 643	induction
+TR58	Regulation 702 710	mediated
+TR59	Remodeling 717 727	remodeling
+TR60	Pathway 786 795	signaling
+TR61	Regulation 796 804	controls
+TR62	Regulation 842 845	via
+TR63	Binding 850 861	interaction
+TR64	DNA_domain_or_region 984 992	promoter
+TR76	Positive_regulation 1584 1591	induced
+TR77	Gene_expression 1602 1612	expression
+TR78	Regulation 1625 1635	associated
+TR79	Localization 1649 1661	localization
+TR80	Acetylation 1729 1739	acetylated
+TR87	DNA_domain_or_region 1699 1707	promoter
+TR67	Positive_regulation 1211 1218	induced
+TR68	Positive_regulation 1223 1231	mediated
+TR69	Acetylation 1232 1243	acetylation
+TR85	Binding 1275 1282	binding
+TR65	Positive_regulation 1038 1048	stimulated
+TR66	Negative_regulation 1081 1091	inhibition
+TR84	Negative_regulation 1012 1021	abolished
+TR45	Regulation 11 21	regulation
+TR46	Blood_vessel_development 32 42	angiogenic
+TR47	Positive_regulation 66 74	requires
+E1	Blood_vessel_development:TR50 
+E2	Positive_regulation:TR49 Theme:E1
+E3	Regulation:TR48 Theme:T5 Cause:E2
+E4	Positive_regulation:TR82 Theme:T43
+E5	Positive_regulation:TR82 Theme:T42
+E6	Positive_regulation:TR82 Theme:T44
+E7	Blood_vessel_development:TR83 
+E8	Regulation:TR81 Theme:E4
+E9	Regulation:TR81 Theme:E5
+E10	Regulation:TR81 Theme:E6
+E11	Positive_regulation:TR52 Theme:T7
+E12	Blood_vessel_development:TR53 Theme:T7
+E13	Remodeling:TR56 Theme:T7
+E14	Development:TR55 Theme:T7
+E15	Positive_regulation:TR54 Theme:E14 Cause:T6
+E16	Positive_regulation:TR54 Cause:T6 Theme:E13
+E17	Localization:TR86 Theme:T30
+E18	Negative_regulation:TR70 Theme:T28
+E19	Negative_regulation:TR70 Theme:T30
+E20	Positive_regulation:TR57 Theme:T8
+E21	Remodeling:TR59 Theme:T10
+E22	Acetylation:TR80 Theme:T41
+E23	Gene_expression:TR77 Theme:T37 Theme:T38
+E24	Gene_expression:TR77 Theme:T37
+E25	Gene_expression:TR77 Theme:T38
+E26	Positive_regulation:TR76 Theme:E23
+E27	Positive_regulation:TR76 Theme:E24
+E28	Negative_regulation:TR66 Theme:T22
+E29	Blood_vessel_development:TR46 

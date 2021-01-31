@@ -1,0 +1,37 @@
+TR28	Glycolysis 20 30	glycolysis
+TR29	Positive_regulation 31 42	stimulation
+TR30	Glycolysis 106 116	Glycolysis
+TR31	Positive_regulation 168 176	enhanced
+TR38	Regulation 488 494	effect
+TR39	Glycolysis 498 508	glycolysis
+TR40	Planned_process 606 611	added
+TR32	Positive_regulation 255 263	enhanced
+TR33	Glycolysis 264 274	glycolysis
+TR34	Regulation 286 295	sensitive
+TR35	Regulation 320 329	sensitive
+TR36	Negative_regulation 372 380	released
+TR37	Regulation 385 392	control
+TR46	Localization 372 380	released
+TR41	Regulation 671 680	sensitive
+TR42	Synthesis 689 699	production
+TR43	Catabolism 720 730	hydrolysis
+TR44	Positive_regulation 720 730	hydrolysis
+TR45	Negative_regulation 789 798	decreased
+E1	Glycolysis:TR28 
+E2	Positive_regulation:TR29 Theme:E1
+E3	Glycolysis:TR30 
+E4	Positive_regulation:TR31 Theme:E3 Cause:T6
+E5	Positive_regulation:TR31 Theme:E3 Cause:T5
+E6	Glycolysis:TR39 
+E7	Planned_process:TR40 Instrument:T18 Theme:T16
+E8	Regulation:TR38 Theme:E6 Cause:T14
+E9	Glycolysis:TR33 
+E10	Positive_regulation:TR32 Theme:E9
+E11	Regulation:TR35 Cause:T9 Theme:E9
+E12	Regulation:TR34 Cause:T8 Theme:E9
+E13	Negative_regulation:TR45 Theme:T25 Cause:T24
+E14	Negative_regulation:TR45 Theme:T25
+E15	Catabolism:TR43 Theme:T22
+E16	Synthesis:TR42 Theme:T21
+E17	Positive_regulation:TR44 Cause:T23 Theme:E15
+E18	Regulation:TR41 Theme:E16 Cause:T20

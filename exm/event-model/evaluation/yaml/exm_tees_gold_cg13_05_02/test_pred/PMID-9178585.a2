@@ -1,0 +1,37 @@
+TR46	Positive_regulation 825 834	Increased
+TR47	Negative_regulation 874 883	decreased
+TR48	Death 884 892	survival
+TR44	Pathway 346 352	system
+TR50	Death 1337 1345	survival
+TR45	Death 729 737	survival
+TR39	Positive_regulation 84 93	Increased
+TR40	Positive_regulation 143 152	increased
+TR41	Negative_regulation 211 220	decreased
+TR42	Negative_regulation 247 256	decreased
+TR43	Death 265 273	survival
+TR51	Death 1470 1478	survival
+TR52	Positive_regulation 1497 1506	increased
+TR53	Negative_regulation 1553 1562	decreased
+TR54	Death 1563 1571	survival
+TR49	Metastasis 1068 1078	metastases
+TR38	Regulation 0 7	Changes
+E1	Death:TR48 Theme:T24
+E2	Death:TR48 Theme:T25
+E3	Positive_regulation:TR46 Theme:T23
+E4	Negative_regulation:TR47 Theme:E1
+E5	Negative_regulation:TR47 Theme:E2
+E6	Pathway:TR44 Participant:T6
+E7	Death:TR50 Theme:T31
+E8	Death:TR45 Theme:T19
+E9	Positive_regulation:TR39 Theme:T4
+E10	Positive_regulation:TR39 Theme:T3
+E11	Positive_regulation:TR40 Theme:T4
+E12	Positive_regulation:TR40 Theme:T3
+E13	Death:TR51 Theme:T34
+E14	Positive_regulation:TR52 Theme:T35
+E15	Death:TR54 Theme:T37
+E16	Death:TR54 Theme:T36
+E17	Negative_regulation:TR53 Theme:E15
+E18	Negative_regulation:TR53 Theme:E16
+E19	Metastasis:TR49 ToLoc:T27
+E20	Regulation:TR38 Theme:T1

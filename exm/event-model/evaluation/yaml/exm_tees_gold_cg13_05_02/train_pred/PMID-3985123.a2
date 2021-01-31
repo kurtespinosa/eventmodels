@@ -1,0 +1,21 @@
+TR27	Positive_regulation 595 602	enhance
+TR28	Cell_proliferation 614 627	proliferation
+TR33	Binding 530 541	interaction
+TR26	Localization 403 409	reside
+TR24	Positive_regulation 179 186	enhance
+TR25	Growth 202 215	proliferation
+TR22	Positive_regulation 36 47	enhancement
+TR23	Growth 57 70	proliferation
+TR29	Regulation 731 739	mediated
+TR30	Regulation 768 772	role
+TR31	Blood_vessel_development 790 802	angiogenesis
+TR32	Growth 825 838	proliferation
+TR34	Positive_regulation 731 739	mediated
+E1	Localization:TR26 Theme:T13 AtLoc:T12
+E2	Growth:TR25 Theme:T6
+E3	Positive_regulation:TR24 Cause:T4 Theme:E2
+E4	Growth:TR23 Theme:T3
+E5	Positive_regulation:TR22 Theme:E4
+E6	Growth:TR32 Theme:T21
+E7	Positive_regulation:TR34 Cause:T18 Theme:T19
+E8	Regulation:TR29 Cause:T18 Theme:T19

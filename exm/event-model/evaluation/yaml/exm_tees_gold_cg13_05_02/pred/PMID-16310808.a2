@@ -1,0 +1,106 @@
+T54	Blood_vessel_development 604 616	angiogenesis
+T55	Negative_regulation 643 660	inhibitory action
+T58	Regulation 840 846	effect
+T59	Localization 870 879	secretion
+T60	Localization 881 895	cell migration
+T61	Binding 897 905	adhesion
+T62	Development 930 939	formation
+T88	Localization 886 895	migration
+T42	Blood_vessel_development 140 152	Angiogenesis
+T43	Development 171 180	formation
+T44	Regulation 216 225	regulated
+T45	Blood_vessel_development 233 243	angiogenic
+T46	Positive_regulation 261 270	stimulate
+T47	Localization 292 299	migrate
+T48	Cell_proliferation 301 312	proliferate
+T49	Cell_differentiation 317 330	differentiate
+T50	Development 334 338	form
+T63	Negative_regulation 1045 1054	inhibited
+T64	Localization 1060 1069	secretion
+T65	Negative_regulation 1089 1098	decreased
+T66	Development 1113 1119	formed
+T67	Positive_regulation 1140 1149	increased
+T68	Binding 1155 1163	adhesion
+T74	Regulation 1385 1391	change
+T75	Cell_proliferation 1397 1410	proliferation
+T76	Blood_vessel_development 1456 1466	angiogenic
+T77	Negative_regulation 1467 1473	action
+T78	Positive_regulation 1492 1495	due
+T79	Negative_regulation 1506 1523	inhibitory action
+T80	Localization 1532 1541	secretion
+T81	Development 1568 1577	formation
+T82	Regulation 1606 1615	influence
+T83	Localization 1635 1644	migration
+T84	Binding 1649 1657	adhesion
+T89	Negative_regulation 1517 1523	action
+T37	Regulation 22 31	affecting
+T38	Localization 37 46	secretion
+T39	Localization 48 62	cell migration
+T40	Binding 64 72	adhesion
+T41	Development 92 101	formation
+T85	Regulation 0 6	Effect
+T86	Localization 53 62	migration
+T51	Development 386 397	development
+T52	Remodeling 415 425	remodeling
+T53	Development 508 517	formation
+T87	Positive_regulation 367 376	Excessive
+T56	Regulation 732 741	influence
+T57	Blood_vessel_development 781 793	angiogenesis
+T69	Planned_process 1177 1191	Administration
+T70	Positive_regulation 1243 1252	increased
+T71	Localization 1258 1267	migration
+T72	Negative_regulation 1292 1301	decreased
+T73	Localization 1307 1316	migration
+E1	Blood_vessel_development:T54 
+E2	Negative_regulation:T55 Theme:E1 Cause:T13
+E3	Negative_regulation:T55 Theme:E1 Cause:T14
+E4	Localization:T60 Theme:T17
+E5	Localization:T60 Theme:T21
+E6	Development:T62 Theme:T19
+E7	Binding:T61 Theme:T21
+E8	Localization:T88 Theme:T18
+E9	Cell_proliferation:T48 Theme:T8
+E10	Development:T43 Theme:T7
+E11	Blood_vessel_development:T42 
+E12	Development:T50 Theme:T9
+E13	Cell_differentiation:T49 Theme:T8
+E14	Regulation:T44 Theme:E11
+E15	Regulation:T44 Theme:T7
+E16	Development:T66 Theme:T24
+E17	Negative_regulation:T65 Cause:T22 Theme:E16
+E18	Negative_regulation:T65 Cause:T22 Theme:T23
+E19	Cell_proliferation:T75 Theme:T31
+E20	Regulation:T74 Theme:E19 Cause:T30
+E21	Blood_vessel_development:T76 
+E22	Development:T81 Theme:T35
+E23	Localization:T83 Theme:T36
+E24	Localization:T80 Theme:T34
+E25	Binding:T84 Theme:T36
+E26	Regulation:T82 Theme:E25 Cause:T33
+E27	Regulation:T82 Cause:T33 Theme:E23
+E28	Negative_regulation:T89 Theme:E22
+E29	Negative_regulation:T89 Theme:E24
+E30	Negative_regulation:T79 Theme:E22
+E31	Negative_regulation:T79 Theme:E24
+E32	Negative_regulation:T77 Cause:T33 Theme:E21
+E33	Positive_regulation:T78 Cause:E30 Theme:E32
+E34	Positive_regulation:T78 Cause:E31 Theme:E32
+E35	Positive_regulation:T78 Theme:E32 Cause:T33
+E36	Localization:T86 Theme:T3
+E37	Binding:T40 Theme:T6
+E38	Development:T41 Theme:T4
+E39	Development:T41 Theme:T6
+E40	Localization:T39 Theme:T6
+E41	Localization:T39 Theme:T2
+E42	Development:T51 Theme:T10
+E43	Remodeling:T52 Theme:T11
+E44	Development:T53 Theme:T12
+E45	Development:T53 Theme:T10
+E46	Positive_regulation:T87 Theme:E44
+E47	Positive_regulation:T87 Theme:E45
+E48	Blood_vessel_development:T57 
+E49	Regulation:T56 Theme:E48 Cause:T15
+E50	Localization:T73 Theme:T29
+E51	Planned_process:T69 Instrument:T27
+E52	Negative_regulation:T72 Theme:T28 Cause:E51
+E53	Negative_regulation:T72 Theme:E50 Cause:E51

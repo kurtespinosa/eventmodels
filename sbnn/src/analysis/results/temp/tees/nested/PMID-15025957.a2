@@ -1,0 +1,20 @@
+T34	Gene_expression 21 31	expression
+T35	Metastasis 118 128	metastasis
+T36	Metastasis 310 320	metastasis
+T37	Gene_expression 378 388	expression
+T38	Metastasis 421 431	metastasis
+T39	Gene_expression 647 657	expression
+T40	Gene_expression 768 778	expression
+T41	Gene_expression 804 814	expression
+T42	Metastasis 839 849	metastasis
+T43	Metastasis 887 897	metastasis
+T44	Gene_expression 967 977	expression
+T45	Gene_expression 1083 1093	expression
+T46	Localization 1181 1188	secrete
+T47	Regulation 1222 1239	play a major role
+T48	Blood_vessel_development 1265 1280	neoangiogenesis
+T49	Metastasis 1295 1305	metastasis
+E14	Regulation:T47 Cause:T31 Theme:E15
+E18	Regulation:T47 Cause:T31 Theme:E16
+E15	Blood_vessel_development:T48 AtLoc:T32
+E16	Metastasis:T49 ToLoc:T33

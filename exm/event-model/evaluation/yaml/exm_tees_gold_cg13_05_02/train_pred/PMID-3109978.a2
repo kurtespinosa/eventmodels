@@ -1,0 +1,38 @@
+TR23	Binding 73 78	binds
+TR40	Positive_regulation 187 195	activate
+TR37	Cell_transformation 1178 1192	transformation
+TR38	Positive_regulation 1178 1192	transformation
+TR39	Mutation 1210 1228	gene amplification
+TR45	Cell_proliferation 1074 1080	growth
+TR46	Negative_regulation 1090 1100	abrogation
+TR47	Cell_proliferation 1152 1158	growth
+TR48	Mutation 1215 1228	amplification
+TR32	Phosphorylation 768 783	Phosphorylation
+TR33	Positive_regulation 768 783	Phosphorylation
+TR34	Negative_regulation 814 823	decreases
+TR35	Binding 842 849	binding
+TR36	Regulation 942 952	regulation
+TR44	Positive_regulation 858 868	stimulated
+TR24	Mutation 286 295	amplified
+TR25	Gene_expression 300 314	over-expressed
+TR41	Positive_regulation 356 365	increased
+TR26	Gene_expression 476 485	Synthesis
+TR27	Catabolism 490 501	degradation
+TR28	Regulation 526 535	regulated
+TR29	Phosphorylation 575 590	phosphorylation
+TR30	Regulation 591 600	regulates
+TR31	Phosphorylation 650 670	self-phosphorylation
+TR42	Positive_regulation 729 736	enhance
+TR43	Phosphorylation 737 752	phosphorylation
+E1	Mutation:TR48 Theme:T20 AtLoc:T22
+E2	Mutation:TR39 Theme:T20 AtLoc:T22
+E3	Regulation:TR36 Cause:T18 Theme:T13
+E4	Regulation:TR36 Cause:T18 Theme:T16
+E5	Mutation:TR24 AtLoc:T8 Theme:T6
+E6	Gene_expression:TR25 Theme:T6
+E7	Catabolism:TR27 Theme:T10
+E8	Gene_expression:TR26 Theme:T10
+E9	Phosphorylation:TR29 Theme:T10
+E10	Regulation:TR28 Theme:E7
+E11	Regulation:TR28 Theme:E8
+E12	Regulation:TR30 Theme:T10 Cause:E9

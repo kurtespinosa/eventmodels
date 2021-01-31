@@ -1,0 +1,25 @@
+T32	Catabolism 8 18	catabolism
+T33	Metabolism 241 251	metabolize
+T34	Gene_expression 372 382	expression
+T35	Planned_process 828 839	transfected
+T36	Positive_regulation 877 886	activates
+T37	DNA_domain_or_region 910 918	promoter
+T38	Localization 972 980	presence
+T39	Mutation 1128 1143	nested deletion
+T40	DNA_domain_or_region 1187 1195	promoter
+T41	Positive_regulation 1602 1612	activation
+T42	Glycolysis 1689 1699	glycolytic
+T43	Cell_proliferation 1774 1780	growth
+T44	Death 1785 1793	survival
+E1	Catabolism:T32 Theme:T1
+E2	Metabolism:T33 Theme:T5
+E3	Gene_expression:T34 Theme:T9
+E4	Planned_process:T35 Theme:T18
+E5	Positive_regulation:T36 Cause:T18 Theme:T19 Site:T37
+E6	Localization:T38 Theme:T20 AtLoc:T18
+E7	Mutation:T39 Theme:T23 Site:T40
+E8	Positive_regulation:T41 Cause:T27 Theme:T28
+E9	Glycolysis:T42
+E10	Cell_proliferation:T43 Theme:T30
+E11	Death:T44 Theme:T30
+M1	Negation E11

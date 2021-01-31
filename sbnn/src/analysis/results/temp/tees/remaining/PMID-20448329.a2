@@ -1,0 +1,85 @@
+T54	Mutation 0 4	Loss
+T55	Mutation 203 212	Mutations
+T56	Mutation 251 257	losses
+T57	Regulation 321 325	role
+T58	Carcinogenesis 351 365	carcinogenesis
+T59	Regulation 392 396	role
+T60	Mutation 438 460	loss of heterozygosity
+T61	Mutation 462 465	LOH
+T62	Planned_process 613 624	xenografted
+T63	Mutation 971 993	Loss of heterozygosity
+T64	Regulation 1038 1048	correlated
+T65	Gene_expression 1062 1072	expression
+T66	Gene_expression 1089 1099	expression
+T67	Mutation 1174 1183	mutations
+T68	Gene_expression 1199 1203	loss
+T69	Regulation 1280 1291	correlation
+T70	Gene_expression 1319 1329	expression
+T71	Positive_regulation 1334 1346	upregulation
+T72	Gene_expression 1369 1373	Loss
+T73	Regulation 1399 1410	play a role
+T74	Carcinogenesis 1449 1463	carcinogenesis
+T75	Gene_expression 1475 1489	overexpression
+T76	Positive_regulation 1475 1489	overexpression
+T77	Positive_regulation 1509 1518	important
+T78	Gene_expression 1555 1559	loss
+E1	Mutation:T54
+E2	Mutation:T55 AtLoc:T9
+E3	Mutation:T56 AtLoc:T10
+E4	Regulation:T57 Cause:T12 Theme:E5
+M1	Speculation E4
+E5	Carcinogenesis:T58 AtLoc:T14
+E6	Regulation:T59 Cause:T15 Theme:T17
+M2	Speculation E6
+E7	Mutation:T60
+E8	Mutation:T61
+E9	Planned_process:T62 Theme:T21
+E10	Mutation:T63 Theme:T35 AtLoc:T37
+E11	Regulation:T64 Theme:E12 Cause:E10
+E12	Gene_expression:T65 Theme:T36
+M3	Negation E12
+E13	Gene_expression:T66 Theme:T36
+M4	Negation E13
+E14	Mutation:T67 Theme:T41
+E15	Gene_expression:T68 Theme:T42
+M5	Negation E15
+E16	Regulation:T69 Cause:E18 Theme:E17
+E17	Gene_expression:T70 Theme:T45
+M6	Negation E17
+E18	Positive_regulation:T71 Theme:T46
+E19	Gene_expression:T72 Theme:T47
+M7	Negation E19
+E20	Regulation:T73 Cause:E19 Theme:E21
+E21	Carcinogenesis:T74 AtLoc:T50
+E22	Gene_expression:T75 Theme:T51
+E23	Positive_regulation:T76 Theme:E22
+E24	Positive_regulation:T77 Theme:E25 Cause:E22
+E25	Gene_expression:T78 Theme:T53
+M8	Negation E25
+E26	Regulation:T57 Cause:T13 Theme:E5
+M9	Speculation E26
+E27	Regulation:T59 Cause:T16 Theme:T17
+M10	Speculation E27
+E28	Mutation:T63 Theme:T36 AtLoc:T37
+E31	Regulation:T64 Theme:E12 Cause:E28
+E32	Regulation:T64 Theme:E35 Cause:E10
+E33	Regulation:T64 Theme:E35 Cause:E28
+E35	Gene_expression:T65 Theme:T35
+M11	Negation E35
+E37	Gene_expression:T66 Theme:T35
+M12	Negation E37
+E38	Mutation:T67 Theme:T40
+E39	Gene_expression:T68 Theme:T43
+M13	Negation E39
+E40	Regulation:T69 Cause:E18 Theme:E41
+E41	Gene_expression:T70 Theme:T44
+M14	Negation E41
+E42	Gene_expression:T72 Theme:T48
+M15	Negation E42
+E43	Regulation:T73 Cause:E42 Theme:E21
+E44	Regulation:T73 Cause:E19 Theme:E46
+E45	Regulation:T73 Cause:E42 Theme:E46
+E46	Carcinogenesis:T74 AtLoc:T49
+E47	Positive_regulation:T77 Theme:E48 Cause:E22
+E48	Gene_expression:T78 Theme:T52
+M16	Negation E48

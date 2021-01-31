@@ -1,0 +1,44 @@
+TR40	Phosphorylation 240 255	phosphorylation
+TR41	Glycolysis 277 287	glycolysis
+TR42	Regulation 353 379	play a key regulatory role
+TR51	Negative_regulation 321 329	limiting
+TR52	Regulation 375 379	role
+TR43	Phosphorylation 546 561	phosphorylating
+TR44	Phosphorylation 634 649	phosphorylating
+TR34	Transcription 0 10	Expression
+TR50	Transcription 1443 1450	express
+TR54	Gene_expression 1443 1450	express
+TR48	Transcription 1166 1173	express
+TR35	Positive_regulation 101 109	elevated
+TR36	Glycolysis 110 120	glycolytic
+TR37	Cell_proliferation 140 153	proliferating
+TR38	Regulation 160 165	alter
+TR39	Gene_expression 170 180	expression
+TR49	Transcription 1282 1291	expressed
+TR53	Gene_expression 1282 1291	expressed
+TR45	Positive_regulation 777 786	induction
+TR46	Positive_regulation 791 805	overexpression
+TR47	Transcription 791 805	overexpression
+E1	Negative_regulation:TR51 Cause:T7 Theme:T8
+E2	Negative_regulation:TR51 Theme:T8 Cause:T6
+E3	Glycolysis:TR41 
+E4	Phosphorylation:TR40 Theme:T5
+E5	Regulation:TR42 Cause:T7 Theme:E3
+E6	Regulation:TR42 Cause:T6 Theme:E3
+E7	Phosphorylation:TR44 Theme:T12
+E8	Phosphorylation:TR44 Theme:T14
+E9	Phosphorylation:TR43 Theme:T12
+E10	Transcription:TR34 Theme:T1
+E11	Transcription:TR50 Theme:T33
+E12	Gene_expression:TR54 Theme:T33
+E13	Transcription:TR48 Theme:T24
+E14	Cell_proliferation:TR37 Theme:T3
+E15	Gene_expression:TR39 Theme:T4
+E16	Glycolysis:TR36 
+E17	Positive_regulation:TR35 Theme:E16
+E18	Regulation:TR38 Theme:E15
+E19	Gene_expression:TR53 Theme:T25
+E20	Transcription:TR49 Theme:T25
+E21	Positive_regulation:TR45 Theme:T16
+E22	Transcription:TR47 Theme:T16
+E23	Positive_regulation:TR46 Theme:E22

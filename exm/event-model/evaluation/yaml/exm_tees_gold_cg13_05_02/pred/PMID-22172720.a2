@@ -1,0 +1,40 @@
+T40	Regulation 384 394	modulating
+T41	Mutation 486 490	loss
+T42	Mutation 507 515	mutation
+T43	Metastasis 584 594	metastasis
+T38	Pathway 270 279	signaling
+T39	Regulation 294 306	dysregulated
+T31	Pathway 13 22	signaling
+T32	Regulation 23 31	controls
+T33	Metastasis 32 42	metastasis
+T34	Positive_regulation 51 60	activated
+T35	Mutation 66 75	deficient
+T50	Gene_expression 66 75	deficient
+T48	Pathway 906 915	signaling
+T49	Metastasis 921 931	metastasis
+T53	Negative_regulation 932 941	regulator
+T36	Metastasis 136 146	metastasis
+T37	Regulation 179 187	regulate
+T47	Metastasis 769 779	metastatic
+T44	Regulation 640 648	altering
+T45	Metastasis 649 659	metastasis
+T46	Pathway 751 760	signaling
+T51	Regulation 681 688	control
+T52	Regulation 715 723	regulate
+E1	Mutation:T41 Theme:T12
+E2	Mutation:T41 Theme:T8
+E3	Mutation:T42 Theme:T12 Site:T14
+E4	Mutation:T42 Site:T14 Theme:T13
+E5	Regulation:T40 Theme:T8
+E6	Pathway:T38 Participant:T6
+E7	Mutation:T35 Theme:T3 AtLoc:T4
+E8	Metastasis:T33 Theme:T4
+E9	Positive_regulation:T34 Cause:T2 Theme:T4
+E10	Pathway:T31 Participant:T1
+E11	Gene_expression:T50 Theme:T3
+E12	Regulation:T32 Theme:E8 Cause:E10
+E13	Metastasis:T49 
+E14	Metastasis:T36 
+E15	Regulation:T37 Theme:E14
+E16	Metastasis:T47 Theme:T25
+E17	Regulation:T52 Theme:T21

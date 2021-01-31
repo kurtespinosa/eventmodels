@@ -1,0 +1,14 @@
+GE09
+export PATH=$PATH:../event-model/evaluation/ge09
+
+perl generate-task-specific-a2-file.pl -t 1 /Users/kurt/Desktop/dataset/tees/GE09/dev/*.a2
+perl generate-task-specific-a2-file.pl -t 1 /Users/kurt/Desktop/sbm/event-model/evaluation/sbm_tees_gold_ge09_01/pred/*.a2
+perl prepare-eval.pl -g /Users/kurt/Desktop/dataset/tees/GE09/dev /Users/kurt/Desktop/sbm/event-model/evaluation/sbm_tees_gold_ge09_01/pred/ /Users/kurt/Desktop/sbm/event-model/evaluation/sbm_tees_gold_ge09_01/predeval
+perl a2-evaluate.pl -g /Users/kurt/Desktop/dataset/tees/GE09/dev /Users/kurt/Desktop/sbm/event-model/evaluation/sbm_tees_gold_ge09_01/predeval/*.t1
+
+GE11
+perl a2-evaluate.pl -g /Users/kurt/Desktop/dataset/tees/GE11/dev /Users/kurt/Desktop/sbm/event-model/evaluation/sbm_tees_gold_ge11_01/pred/*.a2
+
+GE13
+perl a2-normalize.pl -g /Users/kurt/Desktop/dataset/tees/GE13/dev -o /Users/kurt/Desktop/sbm/event-model/evaluation/sbm_tees_gold_ge13_01/prednew /Users/kurt/Desktop/sbm/event-model/evaluation/sbm_tees_gold_ge13_01/pred/*.a2
+perl a2-evaluate.pl -g /Users/kurt/Desktop/dataset/tees/GE13/dev /Users/kurt/Desktop/sbm/event-model/evaluation/sbm_tees_gold_ge13_01/prednew/*.a2

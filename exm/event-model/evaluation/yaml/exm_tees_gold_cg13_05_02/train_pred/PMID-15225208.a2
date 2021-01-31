@@ -1,0 +1,44 @@
+TR43	Gene_expression 1580 1587	present
+TR44	Positive_regulation 1591 1599	elevated
+TR45	Blood_vessel_development 1640 1652	angiogenesis
+TR46	Regulation 1709 1732	play a significant role
+TR53	Regulation 1728 1732	role
+TR36	Positive_regulation 819 828	increased
+TR37	Negative_regulation 893 902	decreased
+TR42	Positive_regulation 1487 1496	increased
+TR47	Gene_expression 1744 1754	expression
+TR48	Regulation 1818 1822	role
+TR49	Remodeling 1847 1857	remodeling
+TR32	Remodeling 223 231	turnover
+TR50	Catabolism 182 193	Proteolytic
+TR51	Positive_regulation 206 214	required
+TR40	Negative_regulation 1331 1341	decreasing
+TR41	Positive_regulation 1383 1392	increased
+TR38	Gene_expression 1058 1068	expression
+TR39	Positive_regulation 1088 1096	elevated
+TR33	Breakdown 325 331	cleave
+TR34	Positive_regulation 325 331	cleave
+TR35	Regulation 436 446	regulating
+TR52	Catabolism 325 331	cleave
+E1	Gene_expression:TR43 Theme:T25
+E2	Blood_vessel_development:TR45 
+E3	Positive_regulation:TR44 Theme:E1
+E4	Regulation:TR46 Theme:T25 Cause:T27
+E5	Regulation:TR46 Cause:T27 Theme:E2
+E6	Positive_regulation:TR36 Theme:T18
+E7	Negative_regulation:TR37 Theme:T18
+E8	Positive_regulation:TR42 Theme:T24
+E9	Gene_expression:TR47 Theme:T28 Theme:T29
+E10	Gene_expression:TR47 Theme:T28
+E11	Gene_expression:TR47 Theme:T29
+E12	Remodeling:TR49 Theme:T31
+E13	Regulation:TR48 Theme:E12 Cause:T28
+E14	Regulation:TR48 Theme:E12 Cause:T29
+E15	Remodeling:TR32 Theme:T7
+E16	Positive_regulation:TR41 Theme:T22
+E17	Negative_regulation:TR40 Theme:T22
+E18	Gene_expression:TR38 Theme:T19
+E19	Positive_regulation:TR39 Theme:E18
+E20	Breakdown:TR33 Theme:T10
+E21	Regulation:TR35 Cause:T11 Theme:T10
+E22	Positive_regulation:TR34 Cause:T9 Theme:E20

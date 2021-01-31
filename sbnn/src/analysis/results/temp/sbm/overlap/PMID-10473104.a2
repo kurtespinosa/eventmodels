@@ -1,0 +1,47 @@
+T37	Negative_regulation 24 31	inhibit
+T38	Blood_vessel_development 36 48	angiogenesis
+T39	Positive_regulation 49 56	induced
+T40	Planned_process 280 285	treat
+T41	Planned_process 324 336	chemotherapy
+T42	Negative_regulation 427 444	inhibitory effect
+T43	Positive_regulation 471 478	induced
+T44	Blood_vessel_development 479 491	angiogenesis
+T45	Blood_vessel_development 526 538	angiogenesis
+T46	Positive_regulation 542 549	induced
+T47	Planned_process 553 565	implantation
+T48	Blood_vessel_development 648 660	angiogenesis
+T49	Negative_regulation 661 678	inhibitory effect
+T50	Negative_regulation 738 747	effective
+T51	Regulation 834 845	ineffective
+T52	Negative_regulation 853 863	inhibition
+T53	Blood_vessel_development 867 879	angiogenesis
+T54	Blood_vessel_development 1001 1013	angiogenesis
+T55	Negative_regulation 1014 1031	inhibitory effect
+T56	Positive_regulation 1040 1049	amplified
+T57	Planned_process 1073 1085	administered
+T58	Planned_process 1203 1217	administration
+T59	Blood_vessel_development 1324 1336	angiogenesis
+T60	Negative_regulation 1337 1354	inhibitory effect
+E1	Negative_regulation:T37 Theme:E2 Cause:T1
+E2	Blood_vessel_development:T38
+E3	Positive_regulation:T39 Cause:T3 Theme:E2
+E4	Planned_process:T40 Instrument:T6 Theme:T12
+E5	Planned_process:T41 Theme:T12
+E6	Negative_regulation:T42 Theme:E8 Cause:T13
+E7	Positive_regulation:T43 Cause:T14 Theme:E8
+E8	Blood_vessel_development:T44
+E12	Blood_vessel_development:T48
+E13	Negative_regulation:T49 Cause:T17 Theme:E12
+E14	Negative_regulation:T50 Theme:E12 Cause:T20
+E18	Blood_vessel_development:T54
+E19	Negative_regulation:T55 Theme:E18 Cause:T25
+E20	Positive_regulation:T56 Theme:T25
+E21	Planned_process:T57 Instrument:T25
+E23	Blood_vessel_development:T59
+E24	Negative_regulation:T60 Theme:E23 Cause:T30
+E25	Negative_regulation:T50 Theme:E12 Cause:T18
+E26	Negative_regulation:T50 Theme:E12 Cause:T19
+E27	Negative_regulation:T55 Theme:E18 Cause:T24
+E28	Positive_regulation:T56 Theme:T24
+E29	Planned_process:T57 Instrument:T24
+E30	Negative_regulation:T60 Theme:E23 Cause:T31

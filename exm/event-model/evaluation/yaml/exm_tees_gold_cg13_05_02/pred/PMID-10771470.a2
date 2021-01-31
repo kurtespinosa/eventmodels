@@ -1,0 +1,63 @@
+T46	Blood_vessel_development 1229 1241	angiogenesis
+T47	Positive_regulation 1312 1320	dictated
+T54	Development 1388 1399	development
+T33	Blood_vessel_development 614 626	angiogenesis
+T34	Growth 739 746	resting
+T35	Growth 767 773	growth
+T23	Growth 12 18	growth
+T24	Regulation 31 41	associated
+T25	Blood_vessel_development 47 59	angiogenesis
+T26	Development 90 101	development
+T27	Blood_vessel_development 103 115	angiogenesis
+T28	Growth 127 133	growth
+T29	Development 301 308	cycling
+T30	Regulation 312 322	associated
+T31	Blood_vessel_development 424 434	angiogenic
+T32	Blood_vessel_development 498 508	angiogenic
+T52	Development 354 363	perfusion
+T53	Negative_regulation 435 445	properties
+T36	Cell_proliferation 902 915	proliferating
+T37	Development 975 982	cycling
+T38	Regulation 1013 1023	associated
+T39	Blood_vessel_development 1041 1053	angiogenesis
+T40	Negative_regulation 1064 1074	inhibiting
+T41	Blood_vessel_development 1075 1087	angiogenesis
+T42	Planned_process 1119 1130	application
+T43	Negative_regulation 1158 1165	retards
+T44	Positive_regulation 1181 1188	induced
+T45	Development 1196 1207	development
+T48	Regulation 1408 1418	associated
+T49	Blood_vessel_development 1419 1431	angiogenesis
+T50	Blood_vessel_development 1513 1525	angiogenesis
+T51	Blood_vessel_development 1596 1606	angiogenic
+E1	Blood_vessel_development:T46 AtLoc:T20
+E2	Development:T54 Theme:T21
+E3	Positive_regulation:T47 Cause:T21 Theme:E1
+E4	Blood_vessel_development:T33 
+E5	Growth:T35 Theme:T11
+E6	Growth:T34 Theme:T11
+E7	Growth:T23 Theme:T1
+E8	Blood_vessel_development:T25 
+E9	Regulation:T24 Theme:E8 Cause:E7
+E10	Blood_vessel_development:T27 AtLoc:T5
+E11	Blood_vessel_development:T27 Theme:T3
+E12	Blood_vessel_development:T27 
+E13	Development:T26 Theme:T2
+E14	Growth:T28 Theme:T3
+E15	Development:T52 Theme:T7
+E16	Blood_vessel_development:T32 
+E17	Blood_vessel_development:T31 AtLoc:T8
+E18	Blood_vessel_development:T31 
+E19	Negative_regulation:T53 Theme:E17
+E20	Negative_regulation:T53 Theme:E18
+E21	Development:T29 Theme:T6
+E22	Regulation:T30 Theme:E21
+E23	Development:T45 Theme:T17
+E24	Cell_proliferation:T36 Theme:T12
+E25	Development:T37 Theme:T12
+E26	Development:T37 Theme:T13
+E27	Planned_process:T42 Instrument:T16 Theme:T15
+E28	Blood_vessel_development:T50 AtLoc:T22
+E29	Blood_vessel_development:T51 AtLoc:T22
+E30	Blood_vessel_development:T49 
+E31	Regulation:T48 Theme:E30

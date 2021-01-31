@@ -1,0 +1,55 @@
+T35	Metastasis 7 17	metastasis
+T61	Planned_process 608 615	excised
+T53	Positive_regulation 1095 1103	elevated
+T54	Localization 1127 1137	deposition
+T55	Planned_process 1187 1199	chemotherapy
+T45	Development 489 498	formation
+T46	Negative_regulation 519 528	prevented
+T47	Localization 535 543	invasion
+T48	Metastasis 548 558	metastasis
+T60	Development 559 568	formation
+T49	Localization 874 885	disappeared
+T62	Negative_regulation 874 885	disappeared
+T40	Negative_regulation 289 298	decreased
+T41	Growth 317 323	growth
+T42	Metastasis 338 348	metastasis
+T43	Positive_regulation 402 411	increased
+T44	Metastasis 426 436	metastatic
+T58	Negative_regulation 249 259	inhibition
+T59	Positive_regulation 362 372	activation
+T64	Positive_regulation 1237 1246	increased
+T37	Regulation 153 157	role
+T38	Growth 177 183	growth
+T39	Metastasis 188 198	metastasis
+T50	Regulation 962 974	plays a role
+T51	Localization 984 992	invasion
+T52	Metastasis 997 1007	metastasis
+T63	Regulation 970 974	role
+T36	Metastasis 49 66	Metastatic spread
+T56	Metastasis 49 59	Metastatic
+T57	Positive_regulation 112 122	activation
+E1	Metastasis:T35 Theme:T1
+E2	Planned_process:T61 Theme:T12
+E3	Positive_regulation:T53 Theme:T26
+E4	Planned_process:T55 Theme:T29
+E5	Localization:T54 ToLoc:T28 Theme:T27
+E6	Development:T45 Theme:T8
+E7	Localization:T47 Theme:T9
+E8	Metastasis:T48 Theme:T9
+E9	Negative_regulation:T46 Cause:E6 Theme:E8
+E10	Negative_regulation:T46 Cause:E6 Theme:E7
+E11	Negative_regulation:T62 Theme:T19
+E12	Negative_regulation:T62 Theme:T18
+E13	Metastasis:T44 Theme:T5 ToLoc:T7
+E14	Metastasis:T44 Theme:T5 ToLoc:T6
+E15	Growth:T41 Theme:T5
+E16	Positive_regulation:T43 Theme:T5
+E17	Positive_regulation:T64 Theme:T32
+E18	Metastasis:T39 Theme:T3
+E19	Growth:T38 Theme:T3
+E20	Localization:T51 Theme:T23
+E21	Metastasis:T52 Theme:T23
+E22	Regulation:T50 Theme:E21 Cause:T22
+E23	Regulation:T50 Theme:E20 Cause:T22
+E24	Metastasis:T56 Theme:T2
+E25	Metastasis:T36 Theme:T2

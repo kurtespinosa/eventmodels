@@ -1,0 +1,28 @@
+TR20	Positive_regulation 468 476	required
+TR21	Localization 486 495	migration
+TR22	Localization 500 508	invasion
+TR23	Regulation 516 526	contribute
+TR24	Binding 564 582	adhesive processes
+TR32	Binding 564 572	adhesive
+TR25	Positive_regulation 651 661	initiation
+TR26	Pathway 665 693	signal transduction pathways
+TR27	Regulation 718 727	influence
+TR28	Blood_vessel_development 750 762	angiogenesis
+TR29	Development 801 812	progression
+TR30	Metastasis 813 823	metastasis
+TR33	Pathway 685 693	pathways
+TR34	Remodeling 784 790	repair
+TR19	Gene_expression 270 281	coexpressed
+TR18	Localization 150 161	colocalized
+TR31	Pathway 223 229	system
+E1	Binding:TR24 Theme:T12
+E2	Localization:TR22 Theme:T11
+E3	Binding:TR32 Theme:T12
+E4	Regulation:TR23 Cause:T10 Theme:T11
+E5	Regulation:TR23 Cause:T10 Theme:E1
+E6	Localization:TR21 Theme:T11
+E7	Positive_regulation:TR20 Theme:E6
+E8	Positive_regulation:TR20 Theme:E2
+E9	Development:TR29 Theme:T16
+E10	Blood_vessel_development:TR28 
+E11	Metastasis:TR30 Theme:T16

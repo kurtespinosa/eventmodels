@@ -1,0 +1,53 @@
+TR62	Negative_regulation 471 479	inhibits
+TR63	Development 491 502	development
+TR53	Gene_expression 0 10	Expression
+TR54	Metastasis 68 78	metastasis
+TR55	Breakdown 86 97	destruction
+TR56	Positive_regulation 170 179	stimulate
+TR57	Development 184 193	formation
+TR58	Positive_regulation 198 208	activation
+TR59	Metastasis 232 242	metastatic
+TR79	Regulation 111 119	mediated
+TR76	Binding 1344 1356	interactions
+TR77	Regulation 1456 1466	modulating
+TR78	Gene_expression 1473 1483	expression
+TR84	Positive_regulation 1413 1419	induce
+TR70	Transcription 1140 1147	express
+TR68	Planned_process 952 962	co-culture
+TR69	Positive_regulation 1018 1025	induced
+TR81	Positive_regulation 1029 1037	increase
+TR64	Positive_regulation 549 556	induced
+TR65	Cell_differentiation 557 575	osteoclastogenesis
+TR66	Planned_process 642 653	co-cultured
+TR71	Planned_process 1169 1179	co-culture
+TR72	Positive_regulation 1237 1244	induced
+TR73	Transcription 1251 1266	mRNA expression
+TR74	Negative_regulation 1271 1280	decreased
+TR75	Transcription 1285 1300	mRNA expression
+TR82	Transcription 1256 1266	expression
+TR83	Transcription 1290 1300	expression
+TR60	Positive_regulation 373 383	stimulates
+TR61	Cell_differentiation 395 410	differentiation
+TR67	Transcription 895 906	expressions
+TR80	Translation 895 906	expressions
+E1	Development:TR63 Theme:T18
+E2	Metastasis:TR54 Theme:T3 ToLoc:T4
+E3	Metastasis:TR59 Theme:T9
+E4	Metastasis:TR59 Theme:T10
+E5	Breakdown:TR55 Theme:T5
+E6	Positive_regulation:TR58 Theme:T9
+E7	Development:TR57 Theme:T9
+E8	Gene_expression:TR78 Theme:T52
+E9	Transcription:TR70 Theme:T43
+E10	Positive_regulation:TR81 Theme:T40
+E11	Planned_process:TR71 Theme:T44 Theme2:T46
+E12	Planned_process:TR71 Theme:T44 Theme2:T45
+E13	Planned_process:TR71 Theme:T46 Theme2:T45
+E14	Transcription:TR73 Theme:T47
+E15	Transcription:TR82 Theme:T47
+E16	Transcription:TR83 Theme:T48
+E17	Positive_regulation:TR72 Cause:E11 Theme:E14
+E18	Positive_regulation:TR72 Cause:E12 Theme:E14
+E19	Positive_regulation:TR72 Cause:E13 Theme:E14
+E20	Transcription:TR67 Theme:T34
+E21	Transcription:TR67 Theme:T35

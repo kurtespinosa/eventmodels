@@ -1,0 +1,15 @@
+TR36	Negative_regulation 1288 1298	inhibition
+TR37	Phosphorylation 1306 1321	phosphorylation
+TR33	Planned_process 211 221	incubation
+TR32	Cell_transformation 85 99	transformation
+TR35	Phosphorylation 1127 1141	phosphorylated
+TR34	Phosphorylation 866 881	phosphorylation
+TR38	Phosphorylation 1613 1628	phosphorylation
+TR39	Cell_transformation 1703 1714	transformed
+TR40	Phosphorylation 1739 1753	phosphorylated
+E1	Phosphorylation:TR37 Theme:T23
+E2	Planned_process:TR33 Instrument:T7
+E3	Phosphorylation:TR35 Theme:T22
+E4	Phosphorylation:TR34 Theme:T21
+E5	Cell_transformation:TR39 Theme:T30
+E6	Phosphorylation:TR40 Theme:T27

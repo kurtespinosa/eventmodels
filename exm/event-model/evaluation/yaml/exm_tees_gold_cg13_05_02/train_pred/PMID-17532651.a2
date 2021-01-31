@@ -1,0 +1,21 @@
+TR17	Blood_vessel_development 938 950	angiogenesis
+TR18	Positive_regulation 954 961	promote
+TR19	Development 973 982	formation
+TR20	Positive_regulation 987 994	enhance
+TR21	Blood_vessel_development 995 1012	collateralisation
+TR15	Death 566 574	necrosis
+TR24	Cell_death 566 574	necrosis
+TR16	Planned_process 721 728	treated
+TR22	Blood_vessel_development 1131 1143	angiogenesis
+TR23	Planned_process 1201 1218	randomised trials
+TR25	Planned_process 1212 1218	trials
+E1	Blood_vessel_development:TR21 
+E2	Blood_vessel_development:TR17 
+E3	Positive_regulation:TR20 Cause:E2 Theme:E1
+E4	Development:TR19 Theme:T11
+E5	Positive_regulation:TR18 Theme:E4 Cause:E2
+E6	Cell_death:TR24 
+E7	Death:TR15 Theme:T8
+E8	Planned_process:TR23 Theme:T13
+E9	Blood_vessel_development:TR22 
+E10	Planned_process:TR25 Theme:T13

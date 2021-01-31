@@ -1,0 +1,27 @@
+TR18	Blood_vessel_development 101 113	angiogenesis
+TR20	Negative_regulation 635 643	inhibits
+TR21	Binding 669 680	interaction
+TR19	Binding 374 385	interaction
+TR29	Blood_vessel_development 998 1016	neovascularization
+TR30	Binding 465 473	affinity
+TR31	Negative_regulation 612 622	inhibition
+TR22	Negative_regulation 753 761	inhibits
+TR23	Cell_proliferation 800 813	proliferation
+TR24	Localization 815 824	migration
+TR25	Binding 826 834	adhesion
+TR26	Development 852 861	formation
+TR27	Positive_regulation 872 879	induced
+TR28	Blood_vessel_development 880 898	neovascularization
+E1	Blood_vessel_development:TR18 
+E2	Blood_vessel_development:TR29 
+E3	Cell_proliferation:TR23 Theme:T12
+E4	Development:TR26 Theme:T12
+E5	Development:TR26 Theme:T13
+E6	Binding:TR25 Theme:T12
+E7	Blood_vessel_development:TR28 Theme:T13 AtLoc:T16
+E8	Blood_vessel_development:TR28 Theme:T13
+E9	Blood_vessel_development:TR28 AtLoc:T16
+E10	Positive_regulation:TR27 Theme:T12 Cause:T14
+E11	Positive_regulation:TR27 Theme:E7 Cause:T14
+E12	Positive_regulation:TR27 Theme:E8 Cause:T14
+E13	Positive_regulation:TR27 Theme:E9 Cause:T14

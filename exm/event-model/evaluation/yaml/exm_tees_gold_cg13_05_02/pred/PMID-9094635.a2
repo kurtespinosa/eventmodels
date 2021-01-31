@@ -1,0 +1,103 @@
+T68	Binding 725 732	binding
+T69	Regulation 747 756	cooperate
+T70	Cell_transformation 769 783	transformation
+T99	Negative_regulation 652 661	abrogates
+T100	Negative_regulation 708 717	defective
+T54	Positive_regulation 303 312	stimulate
+T55	Synthesis 317 326	synthesis
+T56	Cell_proliferation 336 349	proliferation
+T57	Positive_regulation 370 375	cause
+T58	Death 387 392	death
+T59	Positive_regulation 400 409	dependent
+T60	Regulation 418 429	independent
+T61	Cell_death 430 439	apoptosis
+T72	Planned_process 963 973	Conversion
+T73	Negative_regulation 1017 1024	reduced
+T74	Cell_transformation 1025 1037	transforming
+T75	Binding 1100 1108	interact
+T76	Negative_regulation 1152 1161	defective
+T77	Negative_regulation 1166 1177	suppression
+T78	Cell_transformation 1185 1200	transactivation
+T79	Positive_regulation 1185 1200	transactivation
+T102	Mutation 1065 1071	mutant
+T81	Negative_regulation 1361 1366	block
+T82	Positive_regulation 1371 1378	induced
+T83	Positive_regulation 1383 1392	dependent
+T84	Cell_death 1393 1402	apoptosis
+T85	Infection 1418 1426	infected
+T86	Phosphorylation 1494 1509	phosphorylation
+T87	Breakdown 1541 1554	fragmentation
+T88	Death 1582 1587	death
+T103	Mutation 1325 1334	wild-type
+T62	Cell_transformation 498 512	transformation
+T63	Negative_regulation 519 526	protect
+T64	Positive_regulation 539 548	dependent
+T65	Cell_death 549 558	apoptosis
+T66	Binding 562 569	binding
+T67	Negative_regulation 577 589	inactivating
+T98	Regulation 465 469	role
+T46	Regulation 0 10	Regulation
+T47	Positive_regulation 18 27	dependent
+T48	Cell_death 28 37	apoptosis
+T49	Cell_transformation 76 90	transformation
+T50	Positive_regulation 76 90	transformation
+T51	Phosphorylation 94 109	phosphorylation
+T97	Negative_regulation 55 65	repression
+T89	Planned_process 1723 1729	fusion
+T90	Gene_expression 1776 1783	absence
+T104	Negative_regulation 1663 1673	repression
+T105	Binding 1748 1755	binding
+T106	Localization 1776 1783	absence
+T71	Phosphorylation 811 826	phosphorylation
+T101	Protein_domain_or_region 850 858	terminus
+T91	Negative_regulation 1886 1896	inhibition
+T92	Positive_regulation 1904 1913	dependent
+T93	Cell_death 1914 1923	apoptosis
+T94	Regulation 2021 2030	regulated
+T95	Phosphorylation 2034 2049	phosphorylation
+T96	Protein_domain_or_region 2057 2073	carboxy terminus
+T107	Transcription 1942 1957	transcriptional
+T108	Negative_regulation 1958 1968	repression
+T109	Protein_domain_or_region 2065 2073	terminus
+T52	Positive_regulation 262 268	induce
+T53	Cell_transformation 274 288	transformation
+E1	Cell_proliferation:T56 Theme:T12
+E2	Death:T58 Theme:T13
+E3	Synthesis:T55 Theme:T11
+E4	Positive_regulation:T54 Cause:T10 Theme:E3
+E5	Positive_regulation:T54 Cause:T10 Theme:E1
+E6	Mutation:T102 Theme:T28
+E7	Cell_transformation:T74 
+E8	Cell_transformation:T78 
+E9	Positive_regulation:T79 Theme:E8 Cause:T30
+E10	Negative_regulation:T77 Theme:T30
+E11	Negative_regulation:T77 Theme:E8
+E12	Negative_regulation:T76 Theme:E10 Cause:T28
+E13	Negative_regulation:T76 Theme:E11 Cause:T28
+E14	Phosphorylation:T86 Theme:T32 Site:T37
+E15	Phosphorylation:T86 Theme:T32
+E16	Infection:T85 Theme:T35 Participant:T36
+E17	Death:T88 Theme:T39
+E18	Breakdown:T87 Theme:T38
+E19	Cell_death:T84 
+E20	Positive_regulation:T83 Theme:E19 Cause:T34
+E21	Positive_regulation:T82 Theme:E19 Cause:T33
+E22	Positive_regulation:T82 Cause:T33 Theme:E20
+E23	Negative_regulation:T81 Theme:E19 Cause:T32
+E24	Negative_regulation:T81 Cause:T32 Theme:E21
+E25	Negative_regulation:T81 Cause:T32 Theme:E22
+E26	Negative_regulation:T67 Cause:T16 Theme:T18
+E27	Cell_death:T48 
+E28	Cell_transformation:T49 Theme:T2
+E29	Positive_regulation:T47 Cause:T1 Theme:E27
+E30	Gene_expression:T90 Theme:T43
+E31	Localization:T106 Theme:T43
+E32	Phosphorylation:T71 Site:T24 Theme:T23
+E33	Phosphorylation:T71 Site:T25 Theme:T23
+E34	Phosphorylation:T71 Theme:T23
+E35	Transcription:T107 Theme:T45
+E36	Phosphorylation:T95 Theme:T45
+E37	Cell_death:T93 
+E38	Regulation:T94 Theme:E36
+E39	Positive_regulation:T92 Theme:E37 Cause:T44
+E40	Negative_regulation:T91 Theme:E37

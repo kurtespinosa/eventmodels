@@ -1,0 +1,59 @@
+T49	Localization 804 810	spread
+T50	Remodeling 898 910	organization
+T64	Positive_regulation 859 867	increase
+T51	Negative_regulation 976 983	reduced
+T52	Localization 984 992	motility
+T56	Pathway 1193 1202	signaling
+T57	Regulation 1215 1223	involved
+T58	Death 1230 1238	survival
+T59	Regulation 1268 1276	controls
+T60	Localization 1277 1286	migration
+T53	Negative_regulation 1077 1084	reduced
+T54	Gene_expression 1085 1095	expression
+T55	Localization 1138 1147	migration
+T65	Negative_regulation 1034 1043	decreased
+T38	Localization 265 274	migration
+T61	Positive_regulation 357 365	initiate
+T32	Pathway 10 19	signaling
+T33	Regulation 20 29	modulates
+T34	Localization 47 56	migration
+T39	Gene_expression 452 462	deficiency
+T40	Positive_regulation 475 482	results
+T41	Negative_regulation 494 501	defects
+T42	Regulation 544 550	impact
+T43	Pathway 568 585	signaling pathway
+T44	Localization 592 601	migration
+T62	Pathway 578 585	pathway
+T35	Development 89 98	formation
+T36	Positive_regulation 143 151	requires
+T37	Remodeling 171 184	restructuring
+E1	Remodeling:T50 Theme:T24
+E2	Localization:T49 Theme:T21
+E3	Positive_regulation:T64 Theme:T22
+E4	Localization:T52 Theme:T25
+E5	Negative_regulation:T51 Theme:E4
+E6	Pathway:T56 Participant:T29
+E7	Localization:T60 Theme:T31
+E8	Death:T58 Theme:T30
+E9	Regulation:T57 Theme:E8 Cause:E6
+E10	Regulation:T59 Theme:T31 Cause:E6
+E11	Regulation:T59 Cause:E6 Theme:E7
+E12	Localization:T55 Theme:T28
+E13	Negative_regulation:T65 Theme:T26
+E14	Gene_expression:T54 Theme:T27
+E15	Negative_regulation:T53 Theme:E14
+E16	Localization:T38 Theme:T9
+E17	Localization:T34 Theme:T3
+E18	Localization:T44 Theme:T17
+E19	Gene_expression:T39 Theme:T11
+E20	Pathway:T62 Participant:T15 Participant2:T16
+E21	Pathway:T43 Participant:T15 Participant2:T16
+E22	Regulation:T42 Cause:E21 Theme:E18
+E23	Development:T35 Theme:T5
+E24	Remodeling:T37 Theme:T6
+E25	Remodeling:T37 Theme:T7
+E26	Remodeling:T37 Theme:T8
+E27	Positive_regulation:T36 Cause:E23 Theme:E23
+E28	Positive_regulation:T36 Cause:E24 Theme:E23
+E29	Positive_regulation:T36 Cause:E25 Theme:E23
+E30	Positive_regulation:T36 Cause:E26 Theme:E23

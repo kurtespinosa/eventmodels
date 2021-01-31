@@ -1,0 +1,64 @@
+TR61	Development 718 725	derived
+TR62	Gene_expression 743 753	expressing
+TR63	Positive_regulation 798 806	enhanced
+TR64	Blood_vessel_development 807 819	angiogenesis
+TR65	Growth 840 846	growth
+TR72	Gene_expression 1240 1250	expressing
+TR66	Blood_vessel_development 863 875	angiogenesis
+TR67	Planned_process 919 928	treatment
+TR68	Negative_regulation 986 993	inhibit
+TR69	Growth 1007 1013	growth
+TR70	Positive_regulation 1014 1021	induced
+TR71	Gene_expression 1053 1063	expressing
+TR47	Regulation 0 6	Impact
+TR48	Gene_expression 26 36	expression
+TR56	Planned_process 560 569	treatment
+TR57	Regulation 577 583	effect
+TR58	Death 614 622	survival
+TR59	Negative_regulation 666 673	reduced
+TR60	Localization 691 700	migration
+TR50	Regulation 166 172	impact
+TR51	Gene_expression 181 191	expression
+TR52	Gene_expression 404 414	expressing
+TR53	Planned_process 443 454	established
+TR54	Regulation 465 473	response
+TR55	Planned_process 511 518	culture
+TR73	Negative_regulation 1310 1315	model
+TR74	Planned_process 1363 1370	therapy
+TR75	Negative_regulation 1383 1395	counteracted
+TR76	Growth 1428 1434	growth
+TR77	Positive_regulation 1435 1444	resulting
+TR78	Gene_expression 1455 1470	over-expressing
+TR49	Blood_vessel_development 126 138	angiogenesis
+E1	Gene_expression:TR62 Theme:T29
+E2	Development:TR61 Theme:T27
+E3	Blood_vessel_development:TR64 
+E4	Positive_regulation:TR63 Theme:E3
+E5	Gene_expression:TR72 Theme:T38
+E6	Planned_process:TR67 Instrument:T31
+E7	Blood_vessel_development:TR66 AtLoc:T30
+E8	Gene_expression:TR71 Theme:T33
+E9	Growth:TR69 Theme:T32
+E10	Negative_regulation:TR68 Theme:E9 Cause:E6
+E11	Positive_regulation:TR70 Theme:E9 Cause:T34
+E12	Positive_regulation:TR70 Theme:E9
+E13	Gene_expression:TR48 Theme:T2
+E14	Planned_process:TR56 Instrument:T23
+E15	Localization:TR60 Theme:T26
+E16	Death:TR58 Theme:T24
+E17	Death:TR58 Theme:T25
+E18	Negative_regulation:TR59 Cause:E14 Theme:E15
+E19	Gene_expression:TR51 Theme:T8
+E20	Regulation:TR50 Theme:T9 Cause:T11
+E21	Regulation:TR50 Theme:T9 Cause:E19
+E22	Gene_expression:TR52 Theme:T19
+E23	Planned_process:TR53 Theme:T18
+E24	Planned_process:TR55 Theme:T21
+E25	Regulation:TR54 Theme:T22 Cause:T20
+E26	Negative_regulation:TR73 Theme:T40
+E27	Growth:TR76 Theme:T42
+E28	Gene_expression:TR78 Theme:T43
+E29	Planned_process:TR74 Instrument:T41
+E30	Negative_regulation:TR75 Cause:E29 Theme:E27
+E31	Positive_regulation:TR77 Theme:E27
+E32	Blood_vessel_development:TR49 AtLoc:T7

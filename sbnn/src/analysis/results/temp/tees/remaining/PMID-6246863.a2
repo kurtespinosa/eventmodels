@@ -1,0 +1,17 @@
+T13	Planned_process 131 143	inoculations
+T14	Planned_process 324 335	inoculation
+T15	Cell_death 427 438	necrotizing
+T16	Blood_vessel_development 454 472	neovascularization
+T17	Development 487 496	developed
+T18	Development 561 570	developed
+T19	Blood_vessel_development 728 746	neovascularization
+T20	Cell_death 752 763	necrotizing
+E1	Planned_process:T13 Theme:T1 Instrument:T2
+E2	Planned_process:T14 Instrument:T6
+E3	Cell_death:T15
+E4	Blood_vessel_development:T16 AtLoc:T9
+E5	Development:T17 Theme:T9
+E6	Development:T18 Theme:T11
+E7	Blood_vessel_development:T19 AtLoc:T12
+E8	Cell_death:T20
+E9	Planned_process:T13 Theme:T1 Instrument:T3

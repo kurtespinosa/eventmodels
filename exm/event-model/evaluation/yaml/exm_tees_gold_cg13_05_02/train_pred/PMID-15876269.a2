@@ -1,0 +1,18 @@
+TR29	Planned_process 1171 1178	treated
+TR30	Planned_process 1218 1227	treatment
+TR27	Planned_process 867 874	treated
+TR26	Planned_process 731 739	treating
+TR31	Planned_process 1302 1306	used
+TR21	Blood_vessel_development 210 222	angiogenesis
+TR28	Planned_process 993 1002	treatment
+TR25	Planned_process 615 624	treatment
+TR22	Blood_vessel_development 332 342	angiogenic
+TR23	Negative_regulation 357 367	properties
+TR24	Regulation 379 385	affect
+E1	Planned_process:TR30 Instrument:T17
+E2	Planned_process:TR29 Instrument:T17 Theme:T16
+E3	Planned_process:TR27 Instrument:T12 Theme:T11
+E4	Blood_vessel_development:TR21 
+E5	Planned_process:TR28 Theme:T15 Instrument:T14
+E6	Regulation:TR24 Theme:T5
+E7	Blood_vessel_development:TR22 

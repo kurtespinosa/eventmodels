@@ -1,0 +1,80 @@
+TR91	Negative_regulation 2006 2021	down-regulation
+TR92	Positive_regulation 2104 2114	activation
+TR112	Catabolism 2085 2093	cleavage
+TR113	Positive_regulation 2085 2093	cleavage
+TR69	Planned_process 736 748	administered
+TR70	Regulation 775 781	effect
+TR87	Negative_regulation 1854 1863	decreased
+TR88	Planned_process 1893 1902	treatment
+TR89	Localization 1907 1918	disappeared
+TR90	Planned_process 1951 1958	treated
+TR111	Negative_regulation 1907 1918	disappeared
+TR63	Positive_regulation 14 22	mediated
+TR64	Cell_proliferation 28 34	growth
+TR65	Negative_regulation 35 45	inhibition
+TR66	Pathway 59 64	cycle
+TR67	Negative_regulation 65 71	arrest
+TR68	Cell_death 77 86	apoptosis
+TR107	Regulation 14 22	mediated
+TR93	Negative_regulation 2153 2161	protects
+TR94	Cell_death 2173 2182	apoptosis
+TR95	Binding 2219 2224	binds
+TR96	Negative_regulation 2243 2253	preventing
+TR97	Positive_regulation 2258 2268	activation
+TR98	Negative_regulation 2279 2289	inhibiting
+TR99	Pathway 2294 2311	apoptotic cascade
+TR114	Negative_regulation 2186 2195	arresting
+TR115	Pathway 2304 2311	cascade
+TR74	Regulation 1162 1169	effects
+TR100	Negative_regulation 2324 2339	down-regulation
+TR101	Regulation 2370 2381	alterations
+TR102	Negative_regulation 2478 2486	inhibits
+TR103	Cell_proliferation 2498 2504	growth
+TR104	Positive_regulation 2509 2516	induces
+TR105	Death 2532 2537	death
+TR106	Regulation 2699 2709	management
+TR83	Positive_regulation 1610 1623	up-regulation
+TR84	Regulation 1740 1748	involved
+TR85	Positive_regulation 1762 1771	induction
+TR86	Cell_death 1775 1784	apoptosis
+TR110	Regulation 1638 1645	altered
+TR71	Positive_regulation 966 975	dependent
+TR72	Negative_regulation 976 986	inhibition
+TR73	Cell_proliferation 995 1001	growth
+TR75	Cell_proliferation 1291 1297	growth
+TR76	Negative_regulation 1298 1308	inhibition
+TR77	Positive_regulation 1397 1406	induction
+TR78	Pathway 1415 1420	cycle
+TR79	Negative_regulation 1421 1427	arrest
+TR80	Negative_regulation 1477 1492	down-regulation
+TR81	Dephosphorylation 1520 1537	dephosphorylation
+TR82	Planned_process 1563 1570	treated
+TR109	Phosphorylation 1520 1537	dephosphorylation
+E1	Positive_regulation:TR92 Theme:T50
+E2	Negative_regulation:TR91 Theme:T48
+E3	Planned_process:TR69 Instrument:T19
+E4	Regulation:TR70 Theme:T20 Cause:E3
+E5	Negative_regulation:TR111 Theme:T44
+E6	Negative_regulation:TR87 Theme:T44
+E7	Localization:TR89 Theme:T44
+E8	Cell_proliferation:TR64 Theme:T2
+E9	Negative_regulation:TR65 Theme:E8
+E10	Negative_regulation:TR65 Theme:T2
+E11	Cell_death:TR68 
+E12	Positive_regulation:TR97 Theme:T51
+E13	Cell_death:TR94 Theme:T52
+E14	Regulation:TR74 Theme:T29 Cause:T28
+E15	Negative_regulation:TR100 Theme:T54
+E16	Death:TR105 Theme:T59
+E17	Positive_regulation:TR104 Cause:T57 Theme:E16
+E18	Cell_proliferation:TR103 Theme:T58
+E19	Negative_regulation:TR102 Cause:T57 Theme:E18
+E20	Regulation:TR106 Theme:T61
+E21	Positive_regulation:TR83 Theme:T39
+E22	Cell_death:TR86 
+E23	Positive_regulation:TR85 Theme:E22
+E24	Regulation:TR84 Theme:E23
+E25	Cell_proliferation:TR73 Theme:T24
+E26	Cell_proliferation:TR75 Theme:T30
+E27	Negative_regulation:TR76 Theme:E26
+E28	Phosphorylation:TR109 Theme:T36

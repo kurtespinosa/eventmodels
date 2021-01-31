@@ -1,0 +1,25 @@
+T29	Planned_process 1022 1030	treating
+T21	Pathway 190 196	system
+T22	Positive_regulation 232 241	initiated
+T23	Blood_vessel_development 242 254	angiogenesis
+T24	Blood_vessel_development 283 295	angiogenesis
+T27	Blood_vessel_development 606 616	angiogenic
+T28	Pathway 703 709	system
+T30	Planned_process 1091 1098	therapy
+T31	Planned_process 1138 1147	therapies
+T33	Positive_regulation 1103 1111	enhanced
+T20	Blood_vessel_development 80 92	Angiogenesis
+T25	Planned_process 355 364	therapies
+T26	Negative_regulation 401 409	efficacy
+T18	Blood_vessel_development 10 22	angiogenesis
+T19	Planned_process 48 57	treatment
+T32	Regulation 0 9	Targeting
+E1	Blood_vessel_development:T24 
+E2	Blood_vessel_development:T27 
+E3	Pathway:T28 Participant:T8
+E4	Planned_process:T30 Instrument:T15
+E5	Planned_process:T31 Instrument:T15 Theme:T16
+E6	Blood_vessel_development:T20 
+E7	Planned_process:T25 Instrument:T5
+E8	Blood_vessel_development:T18 
+E9	Planned_process:T19 Instrument:T1

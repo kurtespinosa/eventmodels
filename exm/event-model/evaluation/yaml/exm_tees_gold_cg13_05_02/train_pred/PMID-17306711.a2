@@ -1,0 +1,52 @@
+TR48	Cell_death 1544 1553	apoptotic
+TR58	Gene_expression 1525 1534	expressed
+TR42	Cell_death 785 794	apoptotic
+TR43	Cell_death 802 811	apoptotic
+TR55	Growth 2030 2043	proliferation
+TR49	Positive_regulation 1671 1683	upregulation
+TR50	Development 1743 1752	formation
+TR33	Negative_regulation 0 8	Impaired
+TR34	Cell_death 9 18	apoptosis
+TR35	Regulation 53 63	associated
+TR36	Growth 77 90	proliferation
+TR51	Negative_regulation 1886 1894	impaired
+TR52	Cell_death 1912 1921	apoptosis
+TR53	Pathway 1926 1949	antiapoptotic signaling
+TR54	Cell_death 1930 1939	apoptotic
+TR59	Cell_death 1926 1939	antiapoptotic
+TR60	Pathway 1940 1949	signaling
+TR37	Negative_regulation 546 553	failure
+TR38	Cell_death 574 583	apoptosis
+TR39	Positive_regulation 590 594	lead
+TR40	Growth 606 619	proliferation
+TR41	Blood_vessel_development 717 729	angiogenesis
+TR45	Cell_death 1159 1168	apoptotic
+TR46	Gene_expression 1194 1203	expressed
+TR56	Development 388 395	develop
+TR57	Remodeling 489 495	repair
+TR47	Growth 1358 1371	proliferation
+TR44	Blood_vessel_development 1105 1120	neoangiogenesis
+E1	Cell_death:TR48 
+E2	Cell_death:TR43 
+E3	Cell_death:TR42 
+E4	Growth:TR55 Theme:T30
+E5	Development:TR50 Theme:T26
+E6	Positive_regulation:TR49 Theme:E5
+E7	Positive_regulation:TR49 Theme:T25
+E8	Growth:TR36 Theme:T2
+E9	Cell_death:TR34 Theme:T1
+E10	Negative_regulation:TR33 Theme:E9
+E11	Regulation:TR35 Cause:E10 Theme:E8
+E12	Cell_death:TR59 
+E13	Cell_death:TR54 
+E14	Cell_death:TR38 Theme:T10
+E15	Growth:TR40 Theme:T10
+E16	Growth:TR40 Theme:T11
+E17	Negative_regulation:TR37 Theme:E14
+E18	Positive_regulation:TR39 Cause:E17 Theme:E15
+E19	Positive_regulation:TR39 Cause:E17 Theme:E16
+E20	Cell_death:TR45 
+E21	Gene_expression:TR46 Theme:T20
+E22	Development:TR56 Theme:T9
+E23	Growth:TR47 Theme:T23
+E24	Blood_vessel_development:TR44 

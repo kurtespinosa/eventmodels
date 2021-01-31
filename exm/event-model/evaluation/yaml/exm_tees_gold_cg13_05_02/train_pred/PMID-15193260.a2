@@ -1,0 +1,59 @@
+TR34	Binding 215 226	interaction
+TR35	Regulation 227 250	plays an essential role
+TR36	Death 259 267	survival
+TR37	Positive_regulation 275 282	depends
+TR38	Phosphorylation 293 308	phosphorylation
+TR39	Positive_regulation 293 308	phosphorylation
+TR55	Regulation 246 250	role
+TR43	Positive_regulation 445 460	Phosphorylation
+TR44	Negative_regulation 477 485	prevents
+TR45	Binding 494 505	interacting
+TR46	Negative_regulation 515 527	inactivation
+TR57	Phosphorylation 445 460	Phosphorylation
+TR58	Cell_death 541 554	antiapoptotic
+TR40	Binding 332 342	associates
+TR41	Phosphorylation 415 429	phosphorylates
+TR42	Positive_regulation 415 429	phosphorylates
+TR56	Cell_death 380 392	proapoptotic
+TR51	Regulation 746 756	regulation
+TR52	Death 765 773	survival
+TR53	Binding 797 808	interaction
+TR54	Regulation 872 880	regulate
+TR32	Binding 47 58	interacting
+TR33	Positive_regulation 70 78	promotes
+TR47	Gene_expression 564 578	Overexpression
+TR48	Positive_regulation 564 578	Overexpression
+TR49	Positive_regulation 616 624	promotes
+TR59	Protein_domain_or_region 605 608	Ala
+TR60	Mutation 609 615	mutant
+TR61	Negative_regulation 635 645	properties
+TR50	Positive_regulation 692 700	elevated
+E1	Death:TR36 Theme:T10
+E2	Phosphorylation:TR38 Theme:T12 Site:T13
+E3	Phosphorylation:TR38 Theme:T12
+E4	Phosphorylation:TR38 Site:T13 Theme:T11
+E5	Phosphorylation:TR38 Theme:T11
+E6	Positive_regulation:TR39 Cause:T11 Theme:E2
+E7	Positive_regulation:TR39 Cause:T11 Theme:E3
+E8	Positive_regulation:TR39 Cause:T11 Theme:E4
+E9	Positive_regulation:TR39 Cause:T11 Theme:E5
+E10	Positive_regulation:TR37 Cause:E2 Theme:E1
+E11	Positive_regulation:TR37 Cause:E3 Theme:E1
+E12	Positive_regulation:TR37 Cause:E4 Theme:E1
+E13	Positive_regulation:TR37 Cause:E5 Theme:E1
+E14	Phosphorylation:TR57 Theme:T17
+E15	Negative_regulation:TR46 Theme:T19
+E16	Cell_death:TR58 
+E17	Positive_regulation:TR43 Theme:E14 Cause:T18
+E18	Cell_death:TR56 
+E19	Phosphorylation:TR41 Theme:T15
+E20	Phosphorylation:TR41 Theme:T14
+E21	Phosphorylation:TR41 Theme:T16
+E22	Positive_regulation:TR42 Theme:E19 Cause:T14
+E23	Positive_regulation:TR42 Theme:E20 Cause:T14
+E24	Positive_regulation:TR42 Theme:E21 Cause:T14
+E25	Death:TR52 Theme:T28
+E26	Regulation:TR54 Theme:T31
+E27	Positive_regulation:TR33 Cause:T1 Theme:T3
+E28	Negative_regulation:TR61 Theme:T23
+E29	Positive_regulation:TR50 Theme:T25

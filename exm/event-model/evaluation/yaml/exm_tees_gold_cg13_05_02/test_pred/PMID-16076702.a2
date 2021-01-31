@@ -1,0 +1,44 @@
+TR69	Positive_regulation 1297 1305	increase
+TR53	Blood_vessel_development 208 220	angiogenesis
+TR54	Regulation 257 268	controlling
+TR55	Growth 276 282	growth
+TR56	Binding 288 297	interacts
+TR57	Negative_regulation 355 363	inhibits
+TR58	Positive_regulation 364 375	stimulation
+TR59	Blood_vessel_development 379 391	angiogenesis
+TR62	Gene_expression 636 646	expression
+TR67	Positive_regulation 1202 1211	increased
+TR68	Gene_expression 1236 1246	expression
+TR63	Gene_expression 867 877	expression
+TR64	Negative_regulation 1048 1057	decreased
+TR70	Gene_expression 1382 1391	expressed
+TR65	Transcription 1140 1150	expression
+TR66	Translation 1140 1150	expression
+TR71	Gene_expression 1477 1487	expression
+TR72	Positive_regulation 1488 1497	increases
+TR60	Gene_expression 440 449	expressed
+TR61	Gene_expression 552 558	absent
+TR51	Transcription 90 100	expression
+TR52	Translation 90 100	expression
+E1	Positive_regulation:TR69 Theme:T45
+E2	Blood_vessel_development:TR53 
+E3	Growth:TR55 Theme:T7
+E4	Regulation:TR54 Theme:E3 Cause:T6
+E5	Regulation:TR54 Theme:E3
+E6	Blood_vessel_development:TR59 
+E7	Binding:TR56 Theme:T8
+E8	Positive_regulation:TR58 Theme:E6
+E9	Negative_regulation:TR57 Theme:E8 Cause:E7
+E10	Positive_regulation:TR67 Theme:T42
+E11	Gene_expression:TR68 Theme:T43
+E12	Negative_regulation:TR64 Theme:T37
+E13	Gene_expression:TR70 Theme:T46
+E14	Transcription:TR65 Theme:T41
+E15	Transcription:TR65 Theme:T40
+E16	Gene_expression:TR71 Theme:T50
+E17	Positive_regulation:TR72 Theme:E16
+E18	Gene_expression:TR60 Theme:T9
+E19	Gene_expression:TR61 Theme:T9
+E20	Transcription:TR51 Theme:T2
+E21	Transcription:TR51 Theme:T1
+E22	Transcription:TR51 Theme:T3

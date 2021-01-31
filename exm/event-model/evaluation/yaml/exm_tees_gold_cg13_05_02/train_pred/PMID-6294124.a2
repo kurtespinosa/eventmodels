@@ -1,0 +1,32 @@
+TR31	Cell_transformation 127 138	transformed
+TR32	Positive_regulation 127 138	transformed
+TR33	Infection 380 388	infected
+TR34	Mutation 411 422	ts mutation
+TR41	Localization 167 174	release
+TR42	Positive_regulation 219 226	enhance
+TR43	Mutation 414 422	mutation
+TR37	Negative_regulation 808 815	compete
+TR38	Binding 834 841	binding
+TR39	Gene_expression 928 934	devoid
+TR40	Positive_regulation 975 986	potentiated
+TR45	Negative_regulation 975 986	potentiated
+TR35	Infection 473 483	uninfected
+TR36	Gene_expression 529 539	expression
+TR28	Cell_transformation 6 17	transformed
+TR29	Positive_regulation 6 17	transformed
+TR30	Localization 40 47	release
+E1	Infection:TR33 Theme:T11 Participant:T12
+E2	Infection:TR33 Theme:T10 Participant:T12
+E3	Cell_transformation:TR31 Theme:T6
+E4	Cell_transformation:TR31 Theme:T5
+E5	Positive_regulation:TR32 Cause:T7 Theme:E3
+E6	Positive_regulation:TR32 Cause:T7 Theme:E4
+E7	Positive_regulation:TR32 Cause:T8 Theme:E3
+E8	Positive_regulation:TR32 Cause:T8 Theme:E4
+E9	Gene_expression:TR39 Theme:T26
+E10	Positive_regulation:TR40 Theme:T25 Cause:T27
+E11	Infection:TR35 Theme:T14
+E12	Gene_expression:TR36 Theme:T15
+E13	Localization:TR30 FromLoc:T1 Theme:T3
+E14	Cell_transformation:TR28 Theme:T1
+E15	Positive_regulation:TR29 Cause:T2 Theme:E14

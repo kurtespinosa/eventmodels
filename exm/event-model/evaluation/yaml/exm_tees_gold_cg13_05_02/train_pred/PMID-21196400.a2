@@ -1,0 +1,46 @@
+TR22	Regulation 41 45	role
+TR23	Localization 56 64	invasion
+TR24	Metastasis 69 79	metastasis
+TR31	Metastasis 431 441	metastasis
+TR32	Negative_regulation 442 452	suppressor
+TR33	Binding 499 508	interacts
+TR34	Regulation 535 543	regulate
+TR25	Metastasis 140 150	metastasis
+TR26	Negative_regulation 151 161	suppressor
+TR27	Metastasis 173 183	metastatic
+TR35	Regulation 604 612	involved
+TR36	Pathway 624 641	signaling pathway
+TR37	Development 649 659	developing
+TR45	Pathway 634 641	pathway
+TR38	Regulation 804 818	important role
+TR39	Carcinogenesis 835 849	carcinogenesis
+TR40	Metastasis 854 864	metastasis
+TR46	Regulation 814 818	role
+TR47	Development 822 833	development
+TR41	Regulation 1079 1083	role
+TR42	Metastasis 1094 1104	metastasis
+TR43	Carcinogenesis 1106 1120	carcinogenesis
+TR44	Development 1126 1137	development
+TR28	Negative_regulation 218 233	down-regulation
+TR29	Positive_regulation 255 261	caused
+TR30	DNA_methylation 269 280	methylation
+E1	Localization:TR23 Theme:T2
+E2	Metastasis:TR24 Theme:T2
+E3	Regulation:TR22 Cause:T1 Theme:E2
+E4	Regulation:TR22 Cause:T1 Theme:E1
+E5	Binding:TR33 Theme:T9
+E6	Metastasis:TR31 
+E7	Negative_regulation:TR32 Theme:E6 Cause:T9
+E8	Regulation:TR34 Cause:E5 Theme:T10
+E9	Metastasis:TR27 
+E10	Metastasis:TR25 
+E11	Negative_regulation:TR26 Cause:T3 Theme:E10
+E12	Negative_regulation:TR26 Cause:T4 Theme:E10
+E13	Development:TR37 Theme:T13
+E14	Carcinogenesis:TR39 
+E15	Metastasis:TR40 
+E16	Development:TR44 Theme:T20
+E17	Carcinogenesis:TR43 Theme:T20
+E18	DNA_methylation:TR30 Theme:T7
+E19	Negative_regulation:TR28 Theme:T6
+E20	Positive_regulation:TR29 Theme:E19 Cause:E18

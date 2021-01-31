@@ -1,0 +1,73 @@
+T40	Blood_vessel_development 367 377	angiogenic
+T41	Positive_regulation 387 397	stimulates
+T42	Cell_proliferation 415 428	proliferation
+T43	Positive_regulation 433 440	induces
+T44	Blood_vessel_development 445 457	angiogenesis
+T36	Blood_vessel_development 81 93	angiogenesis
+T37	Remodeling 112 122	remodeling
+T64	Regulation 63 70	targets
+T51	Localization 746 754	presence
+T52	Positive_regulation 790 798	promotes
+T53	Remodeling 837 847	remodeling
+T54	Cell_proliferation 869 882	proliferation
+T55	Localization 887 896	migration
+T56	Positive_regulation 923 933	stimulates
+T57	Development 934 943	sprouting
+T65	Positive_regulation 805 813	increase
+T38	Blood_vessel_development 131 143	angiogenesis
+T39	Remodeling 162 172	remodeling
+T62	Binding 1264 1276	interactions
+T63	Blood_vessel_development 1396 1406	angiogenic
+T58	Regulation 995 1035	play complementary and coordinated roles
+T59	Blood_vessel_development 1046 1058	angiogenesis
+T60	Remodeling 1077 1087	remodeling
+T61	Negative_regulation 1134 1144	reversible
+T66	Regulation 1030 1035	roles
+T45	Positive_regulation 624 630	induce
+T46	Localization 635 644	migration
+T47	Development 649 658	sprouting
+T48	Gene_expression 685 697	coexpression
+T49	Positive_regulation 716 724	enhanced
+T50	Blood_vessel_development 725 737	angiogenesis
+E1	Blood_vessel_development:T44 
+E2	Blood_vessel_development:T40 
+E3	Positive_regulation:T43 Cause:T8 Theme:T10
+E4	Positive_regulation:T43 Cause:T8 Theme:E1
+E5	Positive_regulation:T43 Cause:T9 Theme:T10
+E6	Positive_regulation:T43 Cause:T9 Theme:E1
+E7	Cell_proliferation:T42 Theme:T10
+E8	Positive_regulation:T41 Cause:T8 Theme:E7
+E9	Positive_regulation:T41 Theme:E7 Cause:T9
+E10	Blood_vessel_development:T36 AtLoc:T4
+E11	Remodeling:T37 Theme:T5
+E12	Regulation:T64 Cause:T1 Theme:E11
+E13	Localization:T51 Theme:T18
+E14	Development:T57 Theme:T22
+E15	Development:T57 Theme:T23
+E16	Localization:T55 Theme:T22
+E17	Localization:T55 Theme:T21
+E18	Cell_proliferation:T54 Theme:T22
+E19	Positive_regulation:T56 Theme:E14 Cause:T19
+E20	Positive_regulation:T56 Theme:E15 Cause:T19
+E21	Positive_regulation:T56 Theme:T22 Cause:T19
+E22	Positive_regulation:T65 Theme:T20
+E23	Positive_regulation:T65 Theme:E14
+E24	Positive_regulation:T65 Theme:E15
+E25	Positive_regulation:T65 Theme:E16
+E26	Positive_regulation:T65 Theme:E17
+E27	Positive_regulation:T65 Theme:E19
+E28	Positive_regulation:T65 Theme:E20
+E29	Positive_regulation:T65 Theme:E21
+E30	Remodeling:T53 Theme:T21
+E31	Positive_regulation:T52 Theme:E16 Cause:T19
+E32	Positive_regulation:T52 Theme:E17 Cause:T19
+E33	Positive_regulation:T52 Theme:E30 Cause:T19
+E34	Positive_regulation:T52 Theme:T18 Cause:T19
+E35	Positive_regulation:T52 Theme:T20 Cause:T19
+E36	Positive_regulation:T52 Theme:E18 Cause:T19
+E37	Remodeling:T39 Theme:T7
+E38	Blood_vessel_development:T38 AtLoc:T6
+E39	Blood_vessel_development:T59 AtLoc:T27
+E40	Remodeling:T60 Theme:T28
+E41	Development:T47 Theme:T15
+E42	Positive_regulation:T45 Theme:E41 Cause:T14

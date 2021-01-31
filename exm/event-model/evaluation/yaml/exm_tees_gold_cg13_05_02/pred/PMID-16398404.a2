@@ -1,0 +1,47 @@
+T54	Gene_expression 1055 1065	expression
+T49	Gene_expression 429 439	expression
+T50	Cell_death 599 608	apoptosis
+T63	Regulation 1560 1570	regulation
+T68	Regulation 1627 1637	contribute
+T55	Gene_expression 1223 1233	expression
+T56	Metastasis 1374 1384	metastases
+T57	Cell_proliferation 1398 1411	proliferation
+T47	Regulation 17 27	regulation
+T64	Regulation 113 123	contribute
+T51	Localization 833 838	found
+T48	Localization 324 329	found
+T58	Regulation 1418 1427	regulates
+T59	Blood_vessel_development 1428 1440	angiogenesis
+T60	Positive_regulation 1458 1469	fundamental
+T61	Growth 1500 1506	growth
+T62	Metastasis 1511 1535	metastatic dissemination
+T66	Metastasis 1511 1521	metastatic
+T67	Metastasis 1522 1535	dissemination
+T52	Cell_differentiation 897 911	differentiated
+T53	Growth 961 974	proliferation
+T65	Cell_proliferation 961 974	proliferation
+E1	Cell_death:T50 
+E2	Gene_expression:T49 Theme:T13
+E3	Regulation:T63 Cause:T42 Theme:T44
+E4	Regulation:T63 Theme:T44 Cause:T43
+E5	Regulation:T68 Theme:T46
+E6	Gene_expression:T55 Theme:T34
+E7	Cell_proliferation:T57 Theme:T39
+E8	Metastasis:T56 ToLoc:T38
+E9	Localization:T51 AtLoc:T21 Theme:T19
+E10	Localization:T51 Theme:T19
+E11	Localization:T48 Theme:T6 Theme:T7
+E12	Localization:T48 Theme:T6 AtLoc:T12
+E13	Localization:T48 Theme:T7 AtLoc:T12
+E14	Metastasis:T66 
+E15	Growth:T61 Theme:T41
+E16	Blood_vessel_development:T59 
+E17	Metastasis:T67 Theme:T41
+E18	Metastasis:T62 Theme:T41
+E19	Positive_regulation:T60 Theme:E18 Cause:T40
+E20	Positive_regulation:T60 Theme:E18 Cause:E16
+E21	Positive_regulation:T60 Theme:E15 Cause:T40
+E22	Positive_regulation:T60 Theme:E15 Cause:E16
+E23	Regulation:T58 Theme:E16 Cause:T40
+E24	Cell_differentiation:T52 AtLoc:T22
+E25	Growth:T53 Theme:T24

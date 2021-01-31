@@ -1,0 +1,39 @@
+T71	Blood_vessel_development 67 85	neovascularization
+T72	Development 91 100	formation
+T73	Positive_regulation 137 144	depends
+T74	Binding 152 163	interaction
+T75	Development 265 276	development
+T76	Gene_expression 374 383	expressed
+T77	Carcinogenesis 426 439	tumorigenesis
+T78	Gene_expression 551 561	expression
+T79	Negative_regulation 674 684	preventing
+T80	Development 699 708	formation
+T81	Negative_regulation 724 733	inhibited
+T82	Localization 734 743	migration
+T83	Localization 896 903	present
+T84	Planned_process 992 1002	Transgenic
+T85	Gene_expression 1022 1029	express
+T86	Growth 1099 1105	growth
+T87	Growth 1186 1191	grown
+T88	Planned_process 1212 1222	transgenic
+T89	Gene_expression 1240 1250	expression
+T90	Gene_expression 1279 1289	expressing
+T91	Gene_expression 1322 1330	positive
+T92	Gene_expression 1429 1439	expression
+T93	Gene_expression 1500 1509	expressed
+T94	Blood_vessel_development 1548 1560	angiogenesis
+T95	Development 1588 1599	development
+T96	Planned_process 1720 1729	targeting
+T97	Negative_regulation 1745 1754	interfere
+T98	Growth 1773 1779	growth
+T99	Development 1793 1804	development
+E3	Positive_regulation:T73 Cause:E4 Theme:E2
+E9	Negative_regulation:T79 Cause:T24 Theme:E10
+E11	Negative_regulation:T81 Theme:E12 Cause:T24
+E27	Negative_regulation:T97 Cause:E26 Theme:E28
+E12	Localization:T82 Theme:T25
+E4	Binding:T74 Theme:T8 Theme2:T9
+E26	Planned_process:T96 Theme:T68
+E10	Development:T80 Theme:T26
+E28	Growth:T98 Theme:T69
+E2	Development:T72 Theme:T7

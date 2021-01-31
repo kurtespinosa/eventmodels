@@ -1,0 +1,76 @@
+T46	Positive_regulation 22 30	elevates
+T47	Infection 69 77	infected
+T48	Cell_transformation 174 188	transformation
+T49	Infection 260 268	infected
+T50	Binding 377 385	interact
+T51	Infection 437 446	infection
+T52	Regulation 470 478	modulate
+T53	Positive_regulation 531 539	elevates
+T54	Gene_expression 553 559	levels
+T55	Infection 594 602	infected
+T56	Positive_regulation 620 629	induction
+T57	Positive_regulation 633 641	elevated
+T58	Gene_expression 646 652	levels
+T59	Positive_regulation 749 758	induction
+T60	Positive_regulation 762 770	elevated
+T61	Gene_expression 775 781	levels
+T62	Positive_regulation 867 876	induction
+T63	Positive_regulation 880 888	elevated
+T64	Gene_expression 893 899	levels
+T65	Pathway 947 967	multiplication cycle
+T66	Infection 973 986	postinfection
+T67	Infection 1023 1036	postinfection
+T68	Synthesis 1066 1075	synthesis
+T69	Positive_regulation 1080 1089	initiated
+T70	Regulation 1146 1157	responsible
+T71	Positive_regulation 1162 1171	elevating
+T72	Gene_expression 1176 1182	levels
+T73	Infection 1186 1194	infected
+T74	Gene_expression 1208 1218	expression
+T75	Positive_regulation 1267 1275	resulted
+T76	Positive_regulation 1279 1288	elevation
+T77	Gene_expression 1296 1302	levels
+T78	Planned_process 1306 1317	transfected
+T79	Positive_regulation 1365 1374	increased
+T80	Gene_expression 1379 1385	levels
+T81	Positive_regulation 1386 1392	caused
+T82	Infection 1404 1412	infected
+E1	Positive_regulation:T46 Theme:T3
+E2	Infection:T47 Theme:T4
+E3	Cell_transformation:T48 Theme:T9
+E4	Infection:T49 Theme:T11
+E5	Binding:T50 Theme:T17
+E6	Infection:T51 Theme:T18 Participant:T19
+E7	Regulation:T52 Theme:T21
+E8	Positive_regulation:T53 Theme:E9 Cause:T22
+E9	Gene_expression:T54 Theme:T24
+E10	Infection:T55 Theme:T25
+E11	Positive_regulation:T56 Theme:E12
+E12	Positive_regulation:T57 Theme:E13
+E13	Gene_expression:T58 Theme:T26
+E14	Positive_regulation:T59 Theme:E15
+E15	Positive_regulation:T60 Theme:E16
+E16	Gene_expression:T61 Theme:T27
+E17	Positive_regulation:T62 Theme:E18
+E18	Positive_regulation:T63 Theme:E19
+E19	Gene_expression:T64 Theme:T29
+E20	Pathway:T65
+E21	Infection:T66 Participant:T30
+E22	Infection:T67 Participant:T30
+E23	Synthesis:T68 Theme:T32
+E24	Positive_regulation:T69 Theme:E23
+E25	Regulation:T70 Cause:T34 Theme:E26
+E26	Positive_regulation:T71 Theme:E27
+E27	Gene_expression:T72 Theme:T35
+E28	Infection:T73 Theme:T36 Participant:T33
+E29	Gene_expression:T74 Theme:T38
+E30	Positive_regulation:T75 Theme:E31 Cause:E38
+E31	Positive_regulation:T76 Theme:E32
+E32	Gene_expression:T77 Theme:T40
+E33	Planned_process:T78 Theme:T42
+E34	Positive_regulation:T79 Theme:E35
+E35	Gene_expression:T80 Theme:T43
+E36	Positive_regulation:T81 Cause:E37 Theme:E34
+E37	Infection:T82 Participant:T44 Theme:T45
+E38	Gene_expression:T74 Theme:T39
+E39	Positive_regulation:T75 Theme:E31 Cause:E29

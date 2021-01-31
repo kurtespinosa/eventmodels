@@ -1,0 +1,71 @@
+TR55	Positive_regulation 1119 1128	triggered
+TR56	Blood_vessel_development 1129 1141	angiogenesis
+TR57	Negative_regulation 1150 1157	blocked
+TR58	Planned_process 1172 1181	injection
+TR59	Planned_process 1197 1211	administration
+TR60	Positive_regulation 1248 1255	induced
+TR43	Negative_regulation 461 471	inhibiting
+TR44	Regulation 519 528	effective
+TR45	Localization 593 604	recruitment
+TR42	Cell_proliferation 393 406	proliferation
+TR36	Negative_regulation 11 17	blocks
+TR37	Positive_regulation 29 39	activation
+TR38	Localization 71 79	motility
+TR39	Localization 84 95	recruitment
+TR40	Positive_regulation 124 133	triggered
+TR41	Blood_vessel_development 134 146	angiogenesis
+TR46	Negative_regulation 807 814	inhibit
+TR47	Localization 848 858	chemotaxis
+TR48	Localization 863 876	chemoinvasion
+TR49	Negative_regulation 937 944	reduced
+TR50	Gene_expression 945 955	expression
+TR51	Positive_regulation 1009 1019	stimulated
+TR52	Negative_regulation 1036 1041	block
+TR53	Positive_regulation 1048 1057	triggered
+TR54	Positive_regulation 1058 1068	activation
+TR64	Regulation 679 688	affecting
+TR65	Gene_expression 741 751	expression
+TR61	Planned_process 1288 1297	treatment
+TR62	Negative_regulation 1307 1314	reduces
+TR63	Localization 1325 1336	recruitment
+TR66	Positive_regulation 1341 1349	enhances
+TR67	Positive_regulation 1386 1393	induced
+TR68	Negative_regulation 1428 1436	reducing
+E1	Localization:TR45 Theme:T16
+E2	Negative_regulation:TR43 Theme:T14 Cause:T15
+E3	Negative_regulation:TR43 Theme:T13 Cause:T15
+E4	Regulation:TR44 Cause:T15 Theme:E1
+E5	Regulation:TR44 Cause:T15 Theme:T16
+E6	Cell_proliferation:TR42 Theme:T10
+E7	Cell_proliferation:TR42 Theme:T11
+E8	Localization:TR39 Theme:T2
+E9	Localization:TR39 Theme:T3
+E10	Blood_vessel_development:TR41 
+E11	Localization:TR38 Theme:T2
+E12	Positive_regulation:TR37 Cause:T2 Theme:E11
+E13	Positive_regulation:TR37 Cause:T2 Theme:T3
+E14	Positive_regulation:TR37 Cause:T2 Theme:E8
+E15	Positive_regulation:TR37 Cause:T2 Theme:E9
+E16	Positive_regulation:TR40 Theme:E10
+E17	Negative_regulation:TR36 Theme:E11 Cause:T1
+E18	Negative_regulation:TR36 Cause:T1 Theme:E8
+E19	Negative_regulation:TR36 Cause:T1 Theme:E9
+E20	Negative_regulation:TR36 Cause:T1 Theme:E10
+E21	Negative_regulation:TR36 Cause:T1 Theme:E12
+E22	Negative_regulation:TR36 Cause:T1 Theme:E13
+E23	Negative_regulation:TR36 Cause:T1 Theme:E14
+E24	Negative_regulation:TR36 Cause:T1 Theme:E15
+E25	Localization:TR48 Theme:T19
+E26	Negative_regulation:TR52 Theme:T24 Cause:T23
+E27	Negative_regulation:TR52 Cause:T23 Theme:T26
+E28	Positive_regulation:TR54 Theme:T26 Cause:T25
+E29	Positive_regulation:TR54 Theme:T26
+E30	Positive_regulation:TR51 Theme:T22 Cause:T23
+E31	Positive_regulation:TR51 Theme:T24 Cause:T23
+E32	Gene_expression:TR50 Theme:T22
+E33	Positive_regulation:TR53 Theme:E28 Cause:T25
+E34	Positive_regulation:TR53 Theme:E29 Cause:T25
+E35	Negative_regulation:TR49 Theme:E32 Cause:T24
+E36	Localization:TR63 Theme:T32
+E37	Planned_process:TR61 Instrument:T31
+E38	Negative_regulation:TR62 Theme:E36 Cause:E37

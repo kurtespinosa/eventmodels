@@ -1,0 +1,118 @@
+T85	Protein_domain_or_region 1180 1198	C-terminal segment
+T86	Protein_domain_or_region 1247 1255	T251-708
+T87	Regulation 1262 1272	sensitized
+T88	Positive_regulation 1287 1294	induced
+T89	Cell_death 1295 1304	apoptosis
+T126	Protein_domain_or_region 1191 1198	segment
+T71	Gene_expression 695 705	expression
+T72	Positive_regulation 731 739	rendered
+T73	Positive_regulation 787 794	induced
+T74	Cell_death 795 804	apoptosis
+T80	Binding 1056 1063	binding
+T124	Positive_regulation 968 976	mediated
+T104	Planned_process 1699 1708	Treatment
+T105	Gene_expression 1723 1733	expressing
+T106	Positive_regulation 1804 1813	increased
+T107	Gene_expression 1814 1824	expression
+T108	Regulation 1836 1846	responsive
+T109	Cell_death 1858 1867	apoptosis
+T110	Gene_expression 1917 1921	null
+T111	Gene_expression 1928 1938	expressing
+T112	Positive_regulation 1979 1986	induced
+T113	Cell_death 1987 1996	apoptosis
+T130	Protein_domain_or_region 1771 1778	segment
+T131	Positive_regulation 1792 1800	resulted
+T132	Positive_regulation 1891 1900	dependent
+T133	Regulation 1961 1970	resistant
+T93	Positive_regulation 1439 1451	introduction
+T94	Mutation 1455 1464	mutations
+T95	Protein_domain_or_region 1484 1492	J domain
+T96	Positive_regulation 1493 1501	resulted
+T97	Mutation 1505 1513	mutation
+T98	Negative_regulation 1536 1546	inhibition
+T99	Cell_death 1550 1559	apoptosis
+T128	Protein_domain_or_region 1486 1492	domain
+T114	Regulation 2018 2026	involved
+T115	Positive_regulation 2030 2041	sensitizing
+T116	Positive_regulation 2057 2066	dependent
+T117	Cell_death 2067 2076	apoptosis
+T118	Binding 2125 2129	bind
+T119	Negative_regulation 2134 2144	inactivate
+T134	Transcription 2149 2164	transcriptional
+T68	Regulation 583 591	modulate
+T69	Cell_death 592 601	apoptosis
+T70	Planned_process 611 618	treated
+T58	Positive_regulation 183 193	sufficient
+T59	Cell_transformation 197 206	transform
+T60	Development 229 235	induce
+T120	Positive_regulation 229 235	induce
+T100	Protein_domain_or_region 1645 1653	J domain
+T101	Positive_regulation 1657 1665	required
+T102	Positive_regulation 1669 1678	sensitize
+T103	Cell_death 1688 1697	apoptosis
+T129	Protein_domain_or_region 1647 1653	domain
+T61	Cell_transformation 268 282	Transformation
+T62	Positive_regulation 312 320	requires
+T63	Cell_proliferation 337 343	growth
+T64	Negative_regulation 344 350	arrest
+T65	Negative_regulation 385 393	blocking
+T66	Death 399 404	death
+T67	Positive_regulation 427 436	activated
+T121	Positive_regulation 354 365	stimulating
+T122	Cell_proliferation 458 476	hyperproliferation
+T81	Protein_domain_or_region 1068 1086	N-terminal segment
+T82	Protein_domain_or_region 1135 1141	T1-127
+T83	Positive_regulation 1147 1157	sufficient
+T84	Positive_regulation 1161 1170	sensitize
+T125	Protein_domain_or_region 1079 1086	segment
+T75	Binding 828 835	binding
+T76	Negative_regulation 904 911	prevent
+T77	Death 917 922	death
+T78	Positive_regulation 923 930	induced
+T79	Breakdown 942 950	damaging
+T123	Positive_regulation 890 900	sufficient
+T56	Positive_regulation 71 80	sensitize
+T57	Cell_death 90 99	apoptosis
+E1	Cell_death:T89 Theme:T36
+E2	Regulation:T87 Theme:E1 Cause:T34
+E3	Positive_regulation:T88 Theme:E1 Cause:T37
+E4	Cell_death:T74 Theme:T20
+E5	Cell_death:T74 Theme:T19
+E6	Cell_death:T74 
+E7	Positive_regulation:T73 Theme:E4 Cause:T21
+E8	Positive_regulation:T73 Theme:E5 Cause:T21
+E9	Positive_regulation:T73 Theme:E6 Cause:T21
+E10	Regulation:T108 Cause:T45 Theme:T46
+E11	Gene_expression:T111 Theme:T50
+E12	Cell_death:T109 
+E13	Gene_expression:T110 Theme:T48
+E14	Gene_expression:T105 Theme:T44
+E15	Cell_death:T113 
+E16	Planned_process:T104 Theme:T42
+E17	Positive_regulation:T112 Cause:T51 Theme:E15
+E18	Positive_regulation:T112 Cause:T51 Theme:T50
+E19	Gene_expression:T107 Theme:T46
+E20	Cell_death:T99 
+E21	Negative_regulation:T98 Theme:E20
+E22	Transcription:T134 Theme:T55
+E23	Negative_regulation:T119 Cause:T54 Theme:T55
+E24	Negative_regulation:T119 Cause:T54 Theme:T54
+E25	Positive_regulation:T116 Cause:T53 Theme:T52
+E26	Cell_transformation:T59 Theme:T8
+E27	Development:T60 Theme:T9
+E28	Positive_regulation:T120 Theme:T9
+E29	Cell_death:T103 Theme:T41
+E30	Positive_regulation:T102 Theme:E29
+E31	Positive_regulation:T101 Theme:E30
+E32	Death:T66 Theme:T12
+E33	Cell_transformation:T61 Theme:T10
+E34	Positive_regulation:T84 Theme:T33
+E35	Positive_regulation:T83 Theme:E34 Cause:T31
+E36	Breakdown:T79 Theme:T26
+E37	Death:T77 Theme:T25
+E38	Positive_regulation:T123 Theme:E37
+E39	Positive_regulation:T123 Theme:E36
+E40	Negative_regulation:T76 Theme:E37
+E41	Positive_regulation:T78 Theme:E37
+E42	Cell_death:T57 Theme:T4
+E43	Positive_regulation:T56 Cause:T2 Theme:E42

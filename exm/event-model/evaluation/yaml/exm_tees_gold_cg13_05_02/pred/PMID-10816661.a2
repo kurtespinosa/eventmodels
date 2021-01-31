@@ -1,0 +1,60 @@
+T52	Positive_regulation 631 640	activates
+T53	Planned_process 683 695	coincubation
+T54	Negative_regulation 743 754	suppression
+T73	Positive_regulation 732 739	results
+T74	Positive_regulation 762 772	activation
+T70	Regulation 1545 1580	have important regulatory functions
+T71	Blood_vessel_development 1636 1648	angiogenesis
+T78	Regulation 1520 1527	effects
+T79	Regulation 1571 1580	functions
+T45	Regulation 37 46	modulates
+T46	Positive_regulation 47 57	activation
+T47	Localization 85 94	secretion
+T55	Positive_regulation 789 796	induces
+T56	Positive_regulation 797 807	activation
+T57	Regulation 835 843	modulate
+T58	Binding 848 855	binding
+T59	Positive_regulation 859 872	costimulation
+T50	Regulation 361 371	modulation
+T51	Regulation 433 455	play an important role
+T72	Regulation 451 455	role
+T48	Regulation 207 215	mediator
+T49	Cell_proliferation 260 267	growing
+T68	Regulation 1390 1397	effects
+T69	Positive_regulation 1405 1415	activation
+T76	Regulation 1456 1464	regulate
+T77	Localization 1475 1484	secretion
+T60	Regulation 935 946	controlling
+T61	Transcription 968 981	transcription
+T62	Planned_process 1006 1013	treated
+T63	Planned_process 1164 1176	coincubation
+T64	Positive_regulation 1192 1195	led
+T65	Negative_regulation 1206 1220	downregulation
+T66	Localization 1229 1238	secretion
+T67	Planned_process 1284 1293	treatment
+T75	Regulation 1148 1154	effect
+E1	Blood_vessel_development:T71 
+E2	Regulation:T79 Theme:T43
+E3	Regulation:T78 Cause:T42 Theme:T43
+E4	Regulation:T78 Cause:T42 Theme:E2
+E5	Regulation:T70 Cause:T42 Theme:E1
+E6	Regulation:T70 Cause:T42 Theme:T43
+E7	Localization:T47 Theme:T4 FromLoc:T6
+E8	Positive_regulation:T46 Theme:T2
+E9	Positive_regulation:T46 Theme:T3
+E10	Regulation:T45 Cause:T1 Theme:E8
+E11	Regulation:T45 Cause:T1 Theme:E9
+E12	Regulation:T45 Cause:T1 Theme:E7
+E13	Positive_regulation:T59 Theme:T23
+E14	Positive_regulation:T56 Cause:T21 Theme:T22
+E15	Positive_regulation:T55 Cause:T21 Theme:E14
+E16	Regulation:T50 Theme:T12 Cause:T10
+E17	Regulation:T50 Cause:T10 Theme:T11
+E18	Regulation:T48 Cause:T7 Theme:T9
+E19	Regulation:T48 Cause:T8 Theme:T9
+E20	Cell_proliferation:T49 Theme:T9
+E21	Positive_regulation:T69 Theme:T39
+E22	Positive_regulation:T69 Theme:T38
+E23	Regulation:T68 Theme:E21 Cause:T37
+E24	Regulation:T68 Theme:E22 Cause:T37
+E25	Planned_process:T67 Instrument:T36

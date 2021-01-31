@@ -1,0 +1,68 @@
+T69	Planned_process 1198 1209	transfected
+T70	Negative_regulation 1243 1251	impaired
+T71	Binding 1252 1263	interaction
+T72	Localization 1285 1293	invasive
+T73	Negative_regulation 1302 1310	impaired
+T74	Binding 1311 1318	binding
+T60	Regulation 943 949	affect
+T61	Binding 954 962	adhesion
+T62	Negative_regulation 1015 1022	reduced
+T63	Binding 1029 1039	attachment
+T78	Regulation 1743 1753	modulation
+T79	Planned_process 1810 1819	treatment
+T47	Positive_regulation 125 133	elevated
+T48	Regulation 190 200	contribute
+T49	Development 211 222	progression
+T45	Localization 30 38	invasive
+T46	Localization 43 52	migratory
+T75	Positive_regulation 1524 1534	co-operate
+T76	Binding 1593 1603	attachment
+T77	Dissociation 1623 1633	detachment
+T86	Regulation 1524 1534	co-operate
+T87	Positive_regulation 1576 1588	facilitating
+T81	Catabolism 1385 1396	proteolysis
+T82	Ubiquitination 1385 1396	proteolysis
+T83	Regulation 1423 1427	role
+T84	Regulation 1456 1460	role
+T85	Catabolism 1464 1475	proteolysis
+T50	Negative_regulation 400 409	inhibited
+T51	Localization 414 422	invasive
+T52	Localization 427 436	migratory
+T55	Localization 667 675	invasive
+T56	Gene_expression 722 729	express
+T57	Planned_process 798 810	transfection
+T58	Localization 848 856	invasive
+T59	Negative_regulation 884 894	attenuated
+T53	Localization 546 554	Invasion
+T54	Negative_regulation 602 612	attenuated
+T64	Planned_process 1041 1049	Addition
+T65	Negative_regulation 1079 1088	prevented
+T66	Binding 1101 1109	adhesion
+T67	Positive_regulation 1128 1136	promoted
+T68	Dissociation 1142 1152	detachment
+E1	Localization:T72 Theme:T34
+E2	Localization:T72 Theme:T36
+E3	Planned_process:T69 Theme:T34 Instrument:T35
+E4	Planned_process:T79 Theme:T44
+E5	Regulation:T78 Theme:T43
+E6	Positive_regulation:T47 Theme:T4
+E7	Positive_regulation:T47 Theme:T5
+E8	Development:T49 Theme:T6
+E9	Regulation:T48 Theme:E8 Cause:T4
+E10	Regulation:T48 Theme:E8 Cause:T5
+E11	Localization:T45 Theme:T3
+E12	Localization:T46 Theme:T3
+E13	Binding:T76 Theme:T41
+E14	Dissociation:T77 Theme:T41
+E15	Positive_regulation:T75 Theme:E14 Cause:T40
+E16	Positive_regulation:T75 Theme:E14 Cause:T39
+E17	Localization:T52 Theme:T10
+E18	Localization:T51 Theme:T10
+E19	Negative_regulation:T50 Theme:E17
+E20	Negative_regulation:T50 Theme:E18
+E21	Gene_expression:T56 Theme:T21
+E22	Localization:T55 Theme:T20
+E23	Localization:T58 Theme:T25
+E24	Localization:T53 Theme:T16
+E25	Negative_regulation:T54 Theme:E24
+E26	Planned_process:T64 Instrument:T30

@@ -1,0 +1,114 @@
+TR87	Binding 1393 1400	binding
+TR88	DNA_domain_or_region 1415 1423	promoter
+TR60	Gene_expression 415 429	overexpression
+TR61	Positive_regulation 415 429	overexpression
+TR62	Metastasis 457 467	metastasis
+TR55	Gene_expression 144 158	overexpression
+TR56	Positive_regulation 144 158	overexpression
+TR57	Metastasis 175 185	metastasis
+TR81	Negative_regulation 1066 1077	Attenuating
+TR82	Gene_expression 1089 1099	expression
+TR83	Negative_regulation 1109 1120	constrained
+TR84	Localization 1141 1149	motility
+TR78	Positive_regulation 949 956	induced
+TR79	Translation 988 1006	protein expression
+TR80	Transcription 996 1006	expression
+TR102	Translation 996 1006	expression
+TR95	Gene_expression 1627 1641	overexpression
+TR96	Positive_regulation 1627 1641	overexpression
+TR97	Positive_regulation 1645 1654	promoting
+TR98	Metastasis 1661 1671	metastasis
+TR99	Positive_regulation 1681 1693	up-regulated
+TR100	Positive_regulation 1767 1777	facilitate
+TR101	Localization 1783 1791	motility
+TR107	Regulation 1699 1708	modulates
+TR74	Positive_regulation 808 820	up-regulated
+TR75	Localization 843 852	secretion
+TR76	Negative_regulation 857 871	down-regulated
+TR77	Localization 912 921	secretion
+TR70	Negative_regulation 643 654	Suppressing
+TR71	Gene_expression 660 670	expression
+TR72	Negative_regulation 680 689	decreased
+TR73	Localization 695 703	motility
+TR85	Positive_regulation 1201 1208	induced
+TR86	Gene_expression 1223 1233	expression
+TR103	Positive_regulation 1167 1176	activated
+TR104	Regulation 1269 1272	act
+TR105	DNA_domain_or_region 1313 1321	promoter
+TR63	Gene_expression 493 507	overexpression
+TR64	Positive_regulation 493 507	overexpression
+TR65	Positive_regulation 552 561	increased
+TR66	Localization 576 585	migration
+TR67	Localization 590 598	invasion
+TR68	Positive_regulation 603 611	promoted
+TR69	Metastasis 631 641	metastasis
+TR51	Gene_expression 5 19	overexpression
+TR52	Positive_regulation 5 19	overexpression
+TR53	Positive_regulation 20 28	promotes
+TR54	Metastasis 40 50	metastasis
+TR58	Gene_expression 282 296	overexpression
+TR59	Positive_regulation 282 296	overexpression
+TR89	Positive_regulation 1430 1437	induced
+TR90	Positive_regulation 1449 1464	transactivation
+TR91	Gene_expression 1469 1479	expression
+TR92	Positive_regulation 1485 1493	mediated
+TR93	Negative_regulation 1529 1539	suppressed
+TR94	Planned_process 1549 1567	RNAi cotranfection
+TR106	Regulation 1485 1493	mediated
+E1	Gene_expression:TR60 Theme:T13
+E2	Metastasis:TR62 ToLoc:T14
+E3	Positive_regulation:TR61 Theme:E1
+E4	Metastasis:TR57 Theme:T8
+E5	Gene_expression:TR55 Theme:T6 Theme:T7
+E6	Gene_expression:TR55 Theme:T6
+E7	Gene_expression:TR55 Theme:T7
+E8	Gene_expression:TR82 Theme:T33
+E9	Localization:TR84 Theme:T34
+E10	Negative_regulation:TR81 Theme:E8
+E11	Negative_regulation:TR83 Cause:E10 Theme:T35
+E12	Negative_regulation:TR83 Cause:E10 Theme:E9
+E13	Transcription:TR80 Theme:T32
+E14	Transcription:TR80 Theme:T31
+E15	Localization:TR101 Theme:T50
+E16	Localization:TR101 Theme:T49
+E17	Gene_expression:TR95 Theme:T47
+E18	Positive_regulation:TR100 Cause:T49 Theme:T48
+E19	Positive_regulation:TR100 Cause:T49 Theme:E15
+E20	Positive_regulation:TR100 Cause:T49 Theme:E16
+E21	Positive_regulation:TR96 Theme:E17
+E22	Localization:TR75 Theme:T26 Theme:T27
+E23	Localization:TR75 Theme:T26
+E24	Localization:TR75 Theme:T27
+E25	Localization:TR77 Theme:T29
+E26	Negative_regulation:TR76 Theme:E25 Cause:T25
+E27	Positive_regulation:TR74 Theme:E22 Cause:T25
+E28	Positive_regulation:TR74 Theme:E23 Cause:T25
+E29	Positive_regulation:TR74 Theme:E24 Cause:T25
+E30	Gene_expression:TR71 Theme:T20
+E31	Localization:TR73 Theme:T22
+E32	Localization:TR73 Theme:T24
+E33	Localization:TR73 Theme:T21
+E34	Negative_regulation:TR70 Theme:E30
+E35	Negative_regulation:TR72 Cause:E30 Theme:E31
+E36	Negative_regulation:TR72 Cause:E30 Theme:E32
+E37	Negative_regulation:TR72 Cause:E30 Theme:E33
+E38	Negative_regulation:TR72 Theme:E31 Cause:E34
+E39	Negative_regulation:TR72 Theme:E32 Cause:E34
+E40	Negative_regulation:TR72 Theme:E33 Cause:E34
+E41	Gene_expression:TR86 Theme:T37
+E42	Positive_regulation:TR85 Cause:T36 Theme:E41
+E43	Localization:TR67 Theme:T18
+E44	Gene_expression:TR63 Theme:T15
+E45	Localization:TR66 Theme:T18
+E46	Metastasis:TR69 ToLoc:T19
+E47	Gene_expression:TR51 Theme:T1
+E48	Metastasis:TR54 Theme:T4 ToLoc:T2
+E49	Metastasis:TR54 Theme:T4
+E50	Metastasis:TR54 ToLoc:T2
+E51	Positive_regulation:TR52 Theme:E47
+E52	Positive_regulation:TR53 Theme:E48 Cause:E47
+E53	Positive_regulation:TR53 Theme:E49 Cause:E47
+E54	Positive_regulation:TR53 Theme:E50 Cause:E47
+E55	Gene_expression:TR58 Theme:T9
+E56	Positive_regulation:TR59 Theme:E55
+E57	Positive_regulation:TR90 Theme:T44

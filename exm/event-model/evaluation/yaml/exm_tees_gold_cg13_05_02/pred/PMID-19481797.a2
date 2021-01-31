@@ -1,0 +1,72 @@
+T62	Localization 910 918	delivery
+T63	Localization 1185 1193	delivery
+T77	Development 1098 1107	perfusion
+T42	Positive_regulation 85 94	Promoting
+T43	Blood_vessel_development 95 107	angiogenesis
+T44	Localization 112 120	delivery
+T45	Blood_vessel_development 176 186	angiogenic
+T46	Development 284 296	regeneration
+T67	Positive_regulation 1575 1582	promote
+T68	Blood_vessel_development 1583 1595	angiogenesis
+T69	Regulation 1599 1610	controlling
+T70	Pathway 1611 1626	Notch signaling
+T71	Planned_process 1659 1664	treat
+T72	Negative_regulation 1693 1701	diminish
+T73	Blood_vessel_development 1702 1712	angiogenic
+T79	Pathway 1617 1626	signaling
+T64	Planned_process 1235 1244	injection
+T78	Positive_regulation 1369 1378	important
+T47	Pathway 333 342	signaling
+T48	Regulation 346 355	modulated
+T49	Pathway 369 386	signaling pathway
+T50	Negative_regulation 411 421	inhibiting
+T51	Pathway 428 437	signaling
+T52	Positive_regulation 442 449	enhance
+T53	Blood_vessel_development 459 477	neovascularization
+T54	Regulation 495 509	responsiveness
+T55	Blood_vessel_development 540 550	angiogenic
+T75	Pathway 379 386	pathway
+T76	Regulation 482 490	altering
+T65	Localization 1402 1410	delivery
+T66	Positive_regulation 1501 1513	introduction
+T56	Planned_process 687 696	Treatment
+T57	Planned_process 700 708	cultured
+T58	Positive_regulation 773 782	increased
+T59	Localization 788 797	migration
+T60	Development 809 818	formation
+T61	Positive_regulation 839 850	stimulation
+T38	Positive_regulation 0 9	Promoting
+T39	Blood_vessel_development 10 22	angiogenesis
+T40	Regulation 27 39	manipulation
+T41	Pathway 68 83	notch signaling
+T74	Pathway 74 83	signaling
+E1	Localization:T44 Theme:T4 Theme:T3
+E2	Localization:T44 Theme:T4
+E3	Localization:T44 Theme:T3
+E4	Blood_vessel_development:T43 
+E5	Blood_vessel_development:T45 
+E6	Development:T46 Theme:T6
+E7	Positive_regulation:T42 Cause:E1 Theme:E4
+E8	Positive_regulation:T42 Cause:E2 Theme:E4
+E9	Positive_regulation:T42 Cause:E3 Theme:E4
+E10	Blood_vessel_development:T73 
+E11	Blood_vessel_development:T68 
+E12	Pathway:T79 Participant:T36
+E13	Negative_regulation:T72 Theme:E10
+E14	Pathway:T47 Participant:T7
+E15	Blood_vessel_development:T53 
+E16	Regulation:T54 Theme:T10
+E17	Pathway:T51 Participant:T9
+E18	Pathway:T75 Participant:T8
+E19	Pathway:T49 Participant:T8
+E20	Negative_regulation:T50 Theme:E17
+E21	Positive_regulation:T52 Cause:E20 Theme:E15
+E22	Positive_regulation:T66 Theme:T35
+E23	Localization:T65 Theme:T34
+E24	Planned_process:T56 Theme:T15 Instrument:T16
+E25	Development:T60 Theme:T19
+E26	Development:T60 Theme:T18
+E27	Positive_regulation:T61 Theme:T20 Cause:E24
+E28	Positive_regulation:T61 Theme:T19 Cause:E24
+E29	Blood_vessel_development:T39 
+E30	Pathway:T74 Participant:T2

@@ -1,0 +1,14 @@
+T33	Planned_process 27 34	therapy
+T34	Cell_proliferation 105 118	proliferation
+T35	Regulation 313 326	have activity
+T36	Planned_process 453 463	pretreated
+T37	Planned_process 490 497	treated
+T38	Planned_process 620 632	chemotherapy
+T39	Planned_process 637 646	radiation
+T40	Planned_process 790 797	started
+T41	Planned_process 863 871	received
+T42	Planned_process 922 927	given
+T43	Planned_process 994 1001	treated
+T44	Death 1428 1432	died
+T45	Planned_process 1450 1462	discontinued
+T46	Planned_process 1645 1655	pretreated

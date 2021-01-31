@@ -1,0 +1,37 @@
+TR66	Mutation 1174 1183	mutations
+TR69	Regulation 1406 1410	role
+TR70	Carcinogenesis 1449 1463	carcinogenesis
+TR71	Gene_expression 1475 1489	overexpression
+TR72	Positive_regulation 1475 1489	overexpression
+TR73	Carcinogenesis 1519 1528	oncogenic
+TR74	Negative_regulation 1555 1559	loss
+TR63	Mutation 979 993	heterozygosity
+TR64	Gene_expression 1062 1072	expression
+TR59	Regulation 392 396	role
+TR60	Mutation 462 465	LOH
+TR61	Mutation 506 519	amplification
+TR62	DNA_domain_or_region 521 525	MLPA
+TR55	Mutation 203 212	Mutations
+TR56	Mutation 251 257	losses
+TR57	Regulation 321 325	role
+TR58	Carcinogenesis 351 365	carcinogenesis
+TR54	Negative_regulation 0 4	Loss
+TR67	Gene_expression 1319 1329	expression
+TR68	Positive_regulation 1334 1346	upregulation
+E1	Gene_expression:TR71 Theme:T51
+E2	Carcinogenesis:TR73 
+E3	Negative_regulation:TR74 Theme:T53
+E4	Negative_regulation:TR74 Theme:T52
+E5	Positive_regulation:TR72 Theme:E1
+E6	Gene_expression:TR64 Theme:T35 Theme:T36
+E7	Gene_expression:TR64 Theme:T35
+E8	Gene_expression:TR64 Theme:T36
+E9	Regulation:TR59 Theme:T17 Cause:T16
+E10	Regulation:TR59 Theme:T17 Cause:T15
+E11	Carcinogenesis:TR58 AtLoc:T14
+E12	Negative_regulation:TR54 Theme:T2
+E13	Negative_regulation:TR54 Theme:T1
+E14	Gene_expression:TR67 Theme:T44 Theme:T45
+E15	Gene_expression:TR67 Theme:T44
+E16	Gene_expression:TR67 Theme:T45
+E17	Positive_regulation:TR68 Theme:T46

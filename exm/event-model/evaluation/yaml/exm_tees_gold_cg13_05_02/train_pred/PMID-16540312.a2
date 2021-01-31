@@ -1,0 +1,76 @@
+TR47	Negative_regulation 191 208	effective against
+TR80	Negative_regulation 191 200	effective
+TR74	Negative_regulation 1706 1713	effects
+TR75	Positive_regulation 1742 1750	inducing
+TR76	Cell_death 1751 1760	apoptosis
+TR77	Regulation 1802 1810	targeted
+TR78	Regulation 1823 1832	sensitise
+TR79	Regulation 1844 1853	resistant
+TR83	Positive_regulation 1823 1832	sensitise
+TR44	Negative_regulation 0 10	Inhibition
+TR45	Positive_regulation 68 77	increases
+TR46	Regulation 78 94	chemosensitivity
+TR53	Pathway 697 702	cycle
+TR54	Positive_regulation 703 714	progression
+TR57	Regulation 974 985	sensitivity
+TR65	Planned_process 1415 1428	Pre-treatment
+TR66	Negative_regulation 1444 1453	inhibited
+TR67	Positive_regulation 1454 1464	activation
+TR68	Pathway 1473 1483	signalling
+TR69	Positive_regulation 1502 1510	enhanced
+TR70	Regulation 1515 1526	sensitivity
+TR71	Positive_regulation 1559 1569	increasing
+TR72	Death 1585 1590	death
+TR55	Cell_death 770 779	Apoptosis
+TR56	Breakdown 808 821	fragmentation
+TR48	Regulation 307 314	effects
+TR49	Pathway 347 374	survival-signalling pathway
+TR81	Pathway 367 374	pathway
+TR58	Positive_regulation 1077 1084	induced
+TR59	Cell_death 1085 1094	apoptosis
+TR82	Negative_regulation 1140 1146	arrest
+TR73	Positive_regulation 1651 1661	activation
+TR62	Positive_regulation 1353 1360	induced
+TR63	Positive_regulation 1365 1375	activation
+TR64	Regulation 1400 1406	target
+TR50	Regulation 478 484	effect
+TR51	Planned_process 579 586	treated
+TR52	Regulation 646 657	sensitivity
+TR60	Negative_regulation 1187 1200	downregulated
+TR61	Phosphorylation 1205 1220	phosphorylation
+E1	Negative_regulation:TR80 Theme:T8 Cause:T6
+E2	Negative_regulation:TR80 Theme:T7 Cause:T6
+E3	Negative_regulation:TR47 Theme:T8 Cause:T6
+E4	Negative_regulation:TR47 Theme:T7 Cause:T6
+E5	Regulation:TR78 Theme:T43 Cause:T40
+E6	Cell_death:TR76 
+E7	Regulation:TR77 Cause:T40 Theme:T41
+E8	Regulation:TR79 Cause:T42 Theme:T43
+E9	Positive_regulation:TR75 Cause:T37 Theme:E6
+E10	Negative_regulation:TR74 Cause:E9 Theme:T38
+E11	Negative_regulation:TR74 Theme:T38 Cause:T37
+E12	Negative_regulation:TR44 Cause:T3 Theme:T2
+E13	Negative_regulation:TR44 Cause:T3 Theme:T1
+E14	Regulation:TR46 Theme:T4 Cause:T5
+E15	Positive_regulation:TR45 Cause:E12 Theme:E14
+E16	Positive_regulation:TR45 Cause:E13 Theme:E14
+E17	Pathway:TR53 Theme:T16
+E18	Positive_regulation:TR54 Theme:E17
+E19	Regulation:TR57 Theme:T20 Cause:T19
+E20	Regulation:TR57 Theme:T18 Cause:T19
+E21	Death:TR72 Theme:T35
+E22	Planned_process:TR65 Instrument:T31
+E23	Regulation:TR70 Cause:T34 Theme:T33
+E24	Positive_regulation:TR71 Theme:E21 Cause:E22
+E25	Breakdown:TR56 Theme:T17
+E26	Cell_death:TR59 Theme:T21
+E27	Positive_regulation:TR58 Theme:E26 Cause:T22
+E28	Positive_regulation:TR58 Theme:T21 Cause:T22
+E29	Positive_regulation:TR73 Theme:T36
+E30	Positive_regulation:TR63 Theme:T29
+E31	Positive_regulation:TR62 Theme:E30 Cause:T28
+E32	Regulation:TR64 Theme:E30 Cause:T30
+E33	Regulation:TR50 Theme:T12 Cause:T10
+E34	Regulation:TR52 Theme:T14 Cause:T15
+E35	Phosphorylation:TR61 Theme:T24
+E36	Negative_regulation:TR60 Theme:E35 Cause:T23

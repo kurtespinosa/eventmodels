@@ -1,0 +1,156 @@
+pmid3: PMID-3872182
+pmid3: PMID-12172105
+pmid3: PMID-21965773
+pmid3: PMID-18559522
+pmid3: PMID-7841024
+pmid3: PMID-1675427
+pmid3: PMID-20143445
+pmid3: PMID-12082607
+pmid3: PMID-10473104
+pmid3: PMID-19620774
+pmid3: PMID-20554717
+pmid3: PMID-11896602
+pmid3: PMID-19771137
+pmid3: PMID-9087293
+pmid3: PMID-6188401
+pmid3: PMID-1629581
+pmid3: PMID-18671639
+pmid3: PMID-20606040
+pmid3: PMID-15268651
+pmid3: PMID-20678472
+pmid3: PMID-18046085
+pmid3: PMID-15300069
+pmid3: PMID-7515692
+pmid3: PMID-15250585
+pmid3: PMID-22235331
+pmid3: PMID-19648108
+pmid3: PMID-17390340
+pmid3: PMID-17158338
+pmid3: PMID-20958264
+pmid3: PMID-16963846
+pmid3: PMID-8799827
+pmid3: PMID-15491747
+pmid3: PMID-18165897
+pmid3: PMID-16007688
+pmid3: PMID-18021292
+pmid3: PMID-7665251
+pmid3: PMID-17129360
+pmid3: PMID-16081543
+pmid3: PMID-6246863
+pmid3: PMID-8221565
+pmid3: PMID-17170138
+pmid3: PMID-21536653
+pmid3: PMID-16428936
+pmid3: PMID-16076702
+pmid3: PMID-19528456
+pmid3: PMID-12475948
+pmid3: PMID-2752538
+pmid3: PMID-12210482
+pmid3: PMID-14984432
+pmid3: PMID-21775419
+pmid3: PMID-19594546
+pmid3: PMID-20597862
+pmid3: PMID-15720982
+pmid3: PMID-16098727
+pmid3: PMID-18193081
+pmid3: PMID-21315571
+pmid3: PMID-16116175
+pmid3: PMID-11557773
+pmid3: PMID-11306510
+pmid3: PMID-6321955
+pmid3: PMID-19338980
+pmid3: PMID-19738068
+pmid3: PMID-20448329
+pmid3: PMID-2681013
+pmid3: PMID-15217504
+pmid3: PMID-3287150
+pmid3: PMID-18824876
+pmid3: PMID-12738672
+pmid3: PMID-8157709
+pmid3: PMID-9178585
+pmid3: PMID-1331932
+pmid3: PMID-7904970
+pmid3: PMID-20600540
+pmid3: PMID-7654002
+pmid3: PMID-19625706
+pmid3: PMID-18761022
+pmid3: PMID-11027431
+pmid3: PMID-21807601
+pmid3: PMID-15025957
+pmid3: PMID-21963494
+pmid3: PMID-12567143
+pmid3: PMID-8895545
+pmid3: PMID-7829228
+pmid3: PMID-19139005
+pmid3: PMID-7966592
+pmid3: PMID-19706677
+pmid3: PMID-8314345
+pmid3: PMID-2751363
+pmid3: PMID-16951238
+pmid3: PMID-17624581
+pmid3: PMID-9924929
+pmid3: PMID-20006731
+pmid3: PMID-18068525
+pmid3: PMID-18841154
+pmid3: PMID-15967832
+pmid3: PMID-18667841
+pmid3: PMID-19637472
+pmid3: PMID-20821256
+pmid3: PMID-7543819
+pmid3: PMID-11133803
+------------------------------------------------------------------------------------
+      Event Class         gold (match)   answer (match)   recall    prec.   fscore
+------------------------------------------------------------------------------------
+      Development           74 (   63)       92 (   63)    85.14    68.48    75.90
+ Blood_vessel_developm     166 (  142)      174 (  142)    85.54    81.61    83.53
+         Growth             43 (   38)       39 (   38)    88.37    97.44    92.68
+         Death              42 (   18)       31 (   18)    42.86    58.06    49.32
+       Cell_death           69 (   52)       70 (   52)    75.36    74.29    74.82
+   Cell_proliferation       44 (   38)       46 (   38)    86.36    82.61    84.44
+     Cell_division           1 (    0)        0 (    0)     0.00     0.00     0.00
+  Cell_differentiation      24 (   12)       18 (   12)    50.00    66.67    57.14
+       Remodeling            4 (    3)        6 (    3)    75.00    50.00    60.00
+      Reproduction           0 (    0)        0 (    0)   100.00   100.00   100.00
+   =[ANATOMY-TOTAL]=       467 (  366)      476 (  366)    78.37    76.89    77.62
+        Mutation            59 (    4)       19 (    4)     6.78    21.05    10.26
+     Carcinogenesis         46 (   32)       51 (   32)    69.57    62.75    65.98
+  Cell_transformation       56 (   36)       48 (   36)    64.29    75.00    69.23
+       Breakdown            27 (   17)       26 (   17)    62.96    65.38    64.15
+       Metastasis           86 (   65)       96 (   65)    75.58    67.71    71.43
+       Infection            13 (    6)       11 (    6)    46.15    54.55    50.00
+    =[PATHOL-TOTAL]=       287 (  160)      251 (  160)    55.75    63.75    59.48
+       Metabolism           14 (   10)       16 (   10)    71.43    62.50    66.67
+       Synthesis            10 (    6)        7 (    6)    60.00    85.71    70.59
+       Catabolism           13 (    4)        9 (    4)    30.77    44.44    36.36
+       Glycolysis           10 (    6)       11 (    6)    60.00    54.55    57.14
+ Amino_acid_catabolism       1 (    0)        0 (    0)     0.00     0.00     0.00
+    Gene_expression        279 (  176)      230 (  176)    63.08    76.52    69.16
+     Transcription          18 (   12)       20 (   12)    66.67    60.00    63.16
+      Translation            2 (    0)        2 (    0)     0.00     0.00     0.00
+   Protein_processing        4 (    2)        4 (    2)    50.00    50.00    50.00
+      Acetylation            1 (    0)        1 (    0)     0.00     0.00     0.00
+     Glycosylation           0 (    0)        0 (    0)   100.00   100.00   100.00
+    Phosphorylation         33 (   27)       38 (   27)    81.82    71.05    76.06
+     Ubiquitination          3 (    2)        3 (    2)    66.67    66.67    66.67
+   Dephosphorylation         4 (    0)        0 (    0)     0.00     0.00     0.00
+    DNA_methylation          3 (    1)        3 (    1)    33.33    33.33    33.33
+   DNA_demethylation         0 (    0)        0 (    0)   100.00   100.00   100.00
+        Pathway             79 (   20)       94 (   20)    25.32    21.28    23.12
+   =[MOLECUL-TOTAL]=       474 (  266)      438 (  266)    56.12    60.73    58.33
+        Binding             97 (   21)       30 (   21)    21.65    70.00    33.07
+      Dissociation           1 (    0)        2 (    0)     0.00     0.00     0.00
+      Localization         140 (   66)      109 (   66)    47.14    60.55    53.01
+   =[GENERAL-TOTAL]=       238 (   87)      141 (   87)    36.55    61.70    45.91
+       Regulation          342 (   67)      189 (   67)    19.59    35.45    25.24
+  Positive_regulation      735 (  248)      623 (  248)    33.74    39.81    36.52
+  Negative_regulation      387 (  174)      334 (  174)    44.96    52.10    48.27
+     =[REG-TOTAL]=        1464 (  489)     1146 (  489)    33.40    42.67    37.47
+    Planned_process        287 (   84)      147 (   84)    29.27    57.14    38.71
+   ===[SUB-TOTAL]===      3217 ( 1452)     2599 ( 1452)    45.14    55.87    49.93
+------------------------------------------------------------------------------------
+        Negation           118 (    0)        0 (    0)     0.00     0.00     0.00
+      Speculation          116 (    0)        0 (    0)     0.00     0.00     0.00
+    ==[MOD-TOTAL]==        234 (    0)        0 (    0)     0.00     0.00     0.00
+------------------------------------------------------------------------------------
+    ====[TOTAL]====       3451 ( 1452)     2599 ( 1452)    42.07    55.87    48.00
+------------------------------------------------------------------------------------

@@ -1,0 +1,58 @@
+T63	Binding 644 650	linked
+T64	Gene_expression 670 679	expressed
+T65	Binding 734 739	binds
+T52	Negative_regulation 259 265	brakes
+T53	Cell_proliferation 274 280	growth
+T54	Localization 282 291	migration
+T55	Death 301 309	survival
+T56	Carcinogenesis 365 375	initiation
+T57	Development 380 391	progression
+T78	Development 365 375	initiation
+T76	Negative_regulation 1349 1353	loss
+T51	Cell_transformation 77 91	transformation
+T58	Regulation 475 483	involved
+T59	Positive_regulation 536 547	progression
+T60	Regulation 556 563	effects
+T61	Growth 580 586	growth
+T62	Localization 596 605	migration
+T79	Development 496 507	pathfinding
+T80	Development 536 547	progression
+T49	Negative_regulation 40 44	lost
+T50	Metastasis 61 71	metastasis
+T77	Gene_expression 40 44	lost
+T75	Gene_expression 1157 1167	expression
+T71	Regulation 969 976	targets
+T72	Pathway 990 999	signaling
+T73	Binding 1101 1109	adhesion
+T74	Localization 1114 1123	migration
+T66	Positive_regulation 851 861	stimulates
+T67	Remodeling 875 889	reorganization
+T68	Positive_regulation 912 921	resulting
+T69	Binding 925 933	adhesion
+T70	Development 947 956	formation
+E1	Development:T57 Theme:T10
+E2	Death:T55 Theme:T9
+E3	Death:T55 Theme:T8
+E4	Carcinogenesis:T56 Theme:T10
+E5	Localization:T54 Theme:T8
+E6	Development:T78 Theme:T10
+E7	Cell_proliferation:T53 Theme:T8
+E8	Negative_regulation:T76 Theme:T43
+E9	Growth:T61 Theme:T16
+E10	Positive_regulation:T59 Theme:T15
+E11	Localization:T62 Theme:T17
+E12	Development:T80 Theme:T15
+E13	Development:T79 Theme:T14
+E14	Gene_expression:T77 Theme:T2 Theme:T1
+E15	Gene_expression:T77 Theme:T2
+E16	Gene_expression:T77 Theme:T1
+E17	Negative_regulation:T49 Theme:T2
+E18	Gene_expression:T75 Theme:T40
+E19	Binding:T73 Theme:T39
+E20	Localization:T74 Theme:T39
+E21	Remodeling:T67 Theme:T30
+E22	Binding:T69 Theme:T32
+E23	Development:T70 Theme:T33
+E24	Positive_regulation:T66 Theme:E21 Cause:T29
+E25	Positive_regulation:T68 Cause:E24 Theme:E22
+E26	Positive_regulation:T68 Cause:E24 Theme:E23

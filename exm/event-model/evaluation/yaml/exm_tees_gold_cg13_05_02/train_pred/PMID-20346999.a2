@@ -1,0 +1,89 @@
+TR40	Planned_process 219 228	treatment
+TR62	Planned_process 1367 1376	treatment
+TR63	Negative_regulation 1394 1401	reduced
+TR64	Positive_regulation 1446 1451	raise
+TR65	Death 1469 1473	dead
+TR48	Planned_process 849 859	incubation
+TR49	Planned_process 964 974	incubation
+TR50	Planned_process 1004 1012	exposure
+TR82	Regulation 889 896	effects
+TR51	Planned_process 1054 1063	treatment
+TR52	Positive_regulation 1081 1089	resulted
+TR53	Negative_regulation 1110 1118	decrease
+TR54	Death 1122 1128	viable
+TR55	Positive_regulation 1151 1159	increase
+TR56	Cell_death 1163 1172	apoptosis
+TR57	Planned_process 1211 1221	incubation
+TR58	Positive_regulation 1222 1228	led to
+TR59	Phosphorylation 1229 1244	phosphorylation
+TR60	Positive_regulation 1267 1276	induction
+TR61	Positive_regulation 1299 1307	increase
+TR83	Positive_regulation 1222 1225	led
+TR84	Cell_death 1311 1323	proapoptotic
+TR66	Planned_process 1498 1507	treatment
+TR67	Positive_regulation 1534 1542	resulted
+TR68	Pathway 1551 1556	cycle
+TR69	Negative_regulation 1557 1563	arrest
+TR70	Phosphorylation 1611 1626	phosphorylation
+TR71	Positive_regulation 1631 1641	activation
+TR72	Positive_regulation 1653 1661	enhanced
+TR73	Gene_expression 1662 1672	expression
+TR46	Planned_process 714 723	incubated
+TR47	Planned_process 815 824	treatment
+TR43	Regulation 497 504	effects
+TR44	Positive_regulation 633 640	induced
+TR45	Cell_death 641 650	apoptosis
+TR41	Positive_regulation 337 347	activation
+TR42	Cell_death 355 372	apoptotic pathway
+TR80	Pathway 365 372	pathway
+TR81	Negative_regulation 398 406	impaired
+TR74	Positive_regulation 1731 1737	induce
+TR75	Death 1743 1748	death
+TR76	Cell_death 1752 1761	apoptosis
+TR77	Planned_process 1790 1799	treatment
+TR78	Regulation 1853 1861	response
+TR79	Planned_process 1892 1900	exposure
+TR36	Regulation 25 32	effects
+TR37	Cell_death 51 63	cytotoxicity
+TR38	Positive_regulation 51 63	cytotoxicity
+TR39	Death 95 100	death
+E1	Planned_process:TR40 Instrument:T6 Theme:T7
+E2	Planned_process:TR62 Instrument:T25
+E3	Negative_regulation:TR63 Cause:E2 Theme:T26
+E4	Planned_process:TR48 Instrument:T16
+E5	Planned_process:TR49 Instrument:T17
+E6	Planned_process:TR51 Instrument:T18
+E7	Cell_death:TR56 
+E8	Death:TR54 Theme:T19
+E9	Planned_process:TR57 Instrument:T20
+E10	Positive_regulation:TR60 Theme:T21
+E11	Positive_regulation:TR60 Theme:T23
+E12	Positive_regulation:TR61 Theme:T24
+E13	Positive_regulation:TR61 Theme:T23
+E14	Phosphorylation:TR59 Site:T22 Theme:T21
+E15	Phosphorylation:TR59 Theme:T21
+E16	Cell_death:TR84 
+E17	Positive_regulation:TR71 Theme:T30
+E18	Planned_process:TR66 Instrument:T28
+E19	Gene_expression:TR73 Theme:T31
+E20	Positive_regulation:TR72 Theme:E19
+E21	Planned_process:TR47 Theme:T13 Instrument:T15
+E22	Planned_process:TR46 Theme:T13 Instrument:T14
+E23	Cell_death:TR45 
+E24	Regulation:TR43 Cause:T10 Theme:T11
+E25	Positive_regulation:TR44 Cause:T12 Theme:E23
+E26	Cell_death:TR42 
+E27	Positive_regulation:TR41 Theme:E26
+E28	Cell_death:TR76 Theme:T33
+E29	Planned_process:TR79 Instrument:T35
+E30	Planned_process:TR77 Instrument:T32
+E31	Death:TR75 Theme:T33
+E32	Regulation:TR78 Theme:T34 Cause:E29
+E33	Positive_regulation:TR74 Cause:T32 Theme:E31
+E34	Cell_death:TR37 
+E35	Death:TR39 Theme:T3
+E36	Positive_regulation:TR38 Theme:T3
+E37	Positive_regulation:TR38 Theme:E34
+E38	Regulation:TR36 Cause:T1 Theme:E36
+E39	Regulation:TR36 Cause:T1 Theme:E37
+E40	Regulation:TR36 Cause:T1 Theme:E34

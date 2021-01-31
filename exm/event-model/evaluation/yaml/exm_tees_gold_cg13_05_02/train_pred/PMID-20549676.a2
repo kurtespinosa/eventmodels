@@ -1,0 +1,48 @@
+TR29	Carcinogenesis 475 490	lymphomagenesis
+TR30	Positive_regulation 492 501	induction
+TR31	Gene_expression 527 537	expression
+TR32	Breakdown 586 596	shortening
+TR33	Positive_regulation 689 697	activate
+TR49	Cell_transformation 657 669	transforming
+TR47	Planned_process 1409 1418	targeting
+TR24	Regulation 203 214	maintaining
+TR25	Negative_regulation 317 323	silent
+TR26	Gene_expression 379 389	expression
+TR27	Cell_differentiation 433 448	differentiation
+TR28	Positive_regulation 449 459	activation
+TR48	Carcinogenesis 68 83	lymphomagenesis
+TR34	Positive_regulation 764 774	activation
+TR35	Carcinogenesis 818 833	lymphomagenetic
+TR36	Positive_regulation 855 865	activation
+TR37	Positive_regulation 929 938	increased
+TR38	Cell_proliferation 950 956	growth
+TR39	Positive_regulation 998 1007	increased
+TR40	Cell_transformation 1008 1020	transforming
+TR41	Positive_regulation 1100 1111	progressive
+TR42	Breakdown 1112 1122	shortening
+TR43	Positive_regulation 1137 1144	leading
+TR44	Mutation 1148 1167	genetic instability
+TR45	Positive_regulation 1174 1180	favors
+TR46	Positive_regulation 1194 1204	activation
+TR50	Negative_regulation 1112 1122	shortening
+TR51	Mutation 1156 1167	instability
+E1	Breakdown:TR32 Theme:T12
+E2	Positive_regulation:TR33 Theme:T13
+E3	Cell_transformation:TR49 
+E4	Carcinogenesis:TR29 
+E5	Planned_process:TR47 Theme:T23
+E6	Regulation:TR24 Theme:T4 Cause:T3
+E7	Gene_expression:TR26 Theme:T9
+E8	Positive_regulation:TR28 Theme:T8
+E9	Carcinogenesis:TR48 
+E10	Carcinogenesis:TR35 
+E11	Breakdown:TR42 Theme:T20
+E12	Positive_regulation:TR36 Theme:T15 Cause:T16
+E13	Cell_proliferation:TR38 Theme:T17
+E14	Positive_regulation:TR34 Theme:T14
+E15	Cell_transformation:TR40 Theme:T18
+E16	Positive_regulation:TR46 Theme:T21
+E17	Positive_regulation:TR37 Theme:E13
+E18	Positive_regulation:TR39 Theme:E15
+E19	Positive_regulation:TR41 Theme:T20
+E20	Positive_regulation:TR41 Theme:E11

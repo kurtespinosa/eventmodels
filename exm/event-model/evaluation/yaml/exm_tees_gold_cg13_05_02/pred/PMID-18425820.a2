@@ -1,0 +1,61 @@
+T38	Planned_process 511 519	targeted
+T39	Binding 576 580	bind
+T40	Binding 644 656	conformation
+T54	Binding 1053 1060	binding
+T55	Negative_regulation 1083 1090	reduced
+T56	Cell_proliferation 1095 1108	proliferation
+T29	Gene_expression 148 155	express
+T30	Glycolysis 160 170	glycolytic
+T31	Binding 264 272	affinity
+T32	Binding 350 358	affinity
+T26	Glycolysis 35 45	glycolytic
+T27	Negative_regulation 98 108	decelerate
+T28	Cell_proliferation 120 133	proliferation
+T41	Positive_regulation 670 677	induced
+T42	Binding 678 690	dimerization
+T43	Negative_regulation 695 707	inactivation
+T44	Positive_regulation 717 720	led
+T45	Negative_regulation 738 746	decrease
+T57	Negative_regulation 1310 1320	decelerate
+T58	Cell_proliferation 1332 1345	proliferation
+T61	Planned_process 1175 1184	developed
+T46	Binding 858 865	binding
+T47	Negative_regulation 894 901	reduced
+T48	Cell_proliferation 906 912	growth
+T49	Cell_transformation 916 928	immortalized
+T50	Negative_regulation 956 968	decelerating
+T51	Cell_proliferation 974 987	proliferation
+T52	Regulation 1001 1010	affecting
+T53	Cell_death 1026 1031	death
+T59	Gene_expression 838 848	expression
+T60	Death 1026 1031	death
+T33	Regulation 421 428	control
+T34	Glycolysis 432 442	glycolysis
+T35	Positive_regulation 450 459	important
+T36	Cell_proliferation 475 488	proliferation
+T37	Death 493 501	survival
+E1	Binding:T39 Theme:T11
+E2	Planned_process:T38 Theme:T10
+E3	Cell_proliferation:T56 Theme:T23
+E4	Binding:T54 Theme:T21
+E5	Negative_regulation:T55 Theme:T21
+E6	Negative_regulation:T55 Theme:E3
+E7	Glycolysis:T30 
+E8	Glycolysis:T26 
+E9	Cell_proliferation:T28 Theme:T2
+E10	Negative_regulation:T27 Cause:T1 Theme:E9
+E11	Negative_regulation:T45 Theme:T13
+E12	Negative_regulation:T43 Theme:T12
+E13	Binding:T42 Theme:T12
+E14	Positive_regulation:T44 Cause:E12 Theme:E11
+E15	Positive_regulation:T41 Theme:E13
+E16	Cell_proliferation:T58 Theme:T25
+E17	Negative_regulation:T57 Theme:E16 Cause:T24
+E18	Death:T60 Theme:T20
+E19	Cell_transformation:T49 Theme:T18
+E20	Cell_death:T53 Theme:T20
+E21	Cell_death:T53 
+E22	Cell_proliferation:T36 Theme:T9
+E23	Death:T37 Theme:T9
+E24	Glycolysis:T34 
+E25	Regulation:T33 Theme:E24

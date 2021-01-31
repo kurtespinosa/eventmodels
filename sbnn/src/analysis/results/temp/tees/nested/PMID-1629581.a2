@@ -1,0 +1,15 @@
+T26	Development 18 29	development
+T27	Positive_regulation 48 55	induced
+T28	Development 110 121	development
+T29	Planned_process 178 185	exposed
+T30	Planned_process 299 313	administration
+T31	Binding 432 439	binding
+T32	Development 540 551	development
+T33	Development 628 637	developed
+T34	Binding 744 751	binding
+T35	Cell_proliferation 824 837	proliferation
+T36	Development 913 924	development
+T37	Binding 986 993	binding
+T38	Growth 1048 1054	growth
+E2	Positive_regulation:T27 Cause:T2 Theme:E1
+E1	Development:T26 Theme:T1

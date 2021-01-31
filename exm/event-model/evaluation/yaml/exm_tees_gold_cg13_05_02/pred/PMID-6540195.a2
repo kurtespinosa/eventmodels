@@ -1,0 +1,28 @@
+T39	Metastasis 1299 1309	metastatic
+T40	Metastasis 1417 1427	metastasis
+T30	Metastasis 52 62	metastatic
+T34	Binding 778 791	aggregability
+T35	Binding 886 898	procoagulant
+T31	Metastasis 126 136	metastatic
+T32	Negative_regulation 355 362	depress
+T33	Development 367 376	formation
+T36	Planned_process 946 955	treatment
+T37	Planned_process 995 1004	untreated
+T38	Metastasis 1073 1083	metastatic
+E1	Metastasis:T39 
+E2	Metastasis:T40 
+E3	Metastasis:T30 
+E4	Binding:T35 Theme:T24
+E5	Binding:T34 Theme:T19
+E6	Development:T33 Theme:T9
+E7	Metastasis:T31 
+E8	Negative_regulation:T32 Cause:T7 Theme:E6
+E9	Negative_regulation:T32 Cause:T8 Theme:E6
+E10	Negative_regulation:T32 Cause:T5 Theme:E6
+E11	Negative_regulation:T32 Cause:T4 Theme:E6
+E12	Negative_regulation:T32 Cause:T6 Theme:E6
+E13	Negative_regulation:T32 Cause:T3 Theme:E6
+E14	Negative_regulation:T32 Theme:E6
+E15	Planned_process:T36 Theme:T26 Instrument:T29
+E16	Metastasis:T38 
+E17	Planned_process:T37 Theme:T28

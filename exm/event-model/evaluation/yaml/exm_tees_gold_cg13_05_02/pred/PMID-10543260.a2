@@ -1,0 +1,20 @@
+T51	Localization 1620 1629	liberates
+T48	Positive_regulation 296 301	exert
+T49	Blood_vessel_development 311 321	angiogenic
+T42	Positive_regulation 0 9	Increased
+T50	Metastasis 1237 1247	metastasis
+T43	Blood_vessel_development 100 118	Neovascularization
+T44	Positive_regulation 123 132	essential
+T45	Growth 147 153	growth
+T46	Regulation 174 183	regulated
+T47	Blood_vessel_development 199 209	angiogenic
+E1	Localization:T51 FromLoc:T36 ToLoc:T39 Theme:T38
+E2	Blood_vessel_development:T49 
+E3	Positive_regulation:T42 Theme:T2
+E4	Positive_regulation:T42 Theme:T1
+E5	Metastasis:T50 
+E6	Growth:T45 Theme:T5
+E7	Blood_vessel_development:T47 
+E8	Blood_vessel_development:T43 
+E9	Positive_regulation:T44 Cause:E8 Theme:E6
+E10	Regulation:T46 Theme:E8

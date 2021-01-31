@@ -1,0 +1,51 @@
+T34	Regulation 22 33	aberrations
+T35	Pathway 41 48	pathway
+T36	Development 114 125	development
+T37	Development 130 141	progression
+T38	Pathway 206 214	pathways
+T39	Regulation 299 322	plays an important role
+T40	Cell_transformation 326 338	transforming
+T41	Regulation 420 424	role
+T42	Mutation 428 439	aberrations
+T43	Mutation 687 698	aberrations
+T44	DNA_domain_or_region 706 729	mutation cluster region
+T45	DNA_domain_or_region 731 734	MCR
+T46	DNA_domain_or_region 756 762	exon 3
+T47	DNA_domain_or_region 910 918	promoter
+T48	DNA_methylation 919 935	hypermethylation
+T49	Mutation 1026 1034	mutation
+T50	DNA_domain_or_region 1047 1050	MCR
+T51	DNA_domain_or_region 1116 1124	Promoter
+T52	DNA_methylation 1125 1141	hypermethylation
+T53	DNA_methylation 1311 1322	methylation
+T54	Mutation 1382 1391	mutations
+T55	Negative_regulation 1504 1513	silencing
+T56	Pathway 1566 1573	pathway
+T57	Development 1581 1592	development
+E1	Regulation:T34 Theme:E2
+E2	Pathway:T35 Participant:T1
+E3	Development:T36 Theme:T3
+E4	Development:T37 Theme:T3
+E5	Pathway:T38 Participant:T5
+E6	Regulation:T39 Theme:E7 Cause:E5
+E7	Cell_transformation:T40 AtLoc:T9
+E8	Regulation:T41 Theme:T13 Cause:E9
+M1	Speculation E8
+E9	Mutation:T42 Theme:T11 AtLoc:T13
+E10	Mutation:T43 Theme:T18 AtLoc:T16 Site:T44
+E11	DNA_methylation:T48 Theme:T20 Site:T47
+E12	Mutation:T49 Theme:T21 AtLoc:T22 Site:T50
+E13	DNA_methylation:T52 Theme:T23 Site:T51
+E14	DNA_methylation:T53 Theme:T27
+E15	Mutation:T54 Theme:T28 AtLoc:T30
+E16	Negative_regulation:T55 Theme:T31
+E17	Pathway:T56 Participant:T32
+E18	Development:T57 Theme:T33
+E19	Development:T36 Theme:T4
+E20	Development:T37 Theme:T4
+E21	Regulation:T41 Theme:T13 Cause:E22
+M2	Speculation E21
+E22	Mutation:T42 Theme:T12 AtLoc:T13
+E23	Mutation:T43 Theme:T18 AtLoc:T16 Site:T45
+E24	Mutation:T43 Theme:T19 AtLoc:T16 Site:T46
+E25	Mutation:T54 Theme:T29 AtLoc:T30

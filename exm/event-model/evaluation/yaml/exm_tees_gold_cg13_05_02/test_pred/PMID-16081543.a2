@@ -1,0 +1,41 @@
+TR49	Mutation 670 676	mutant
+TR50	Negative_regulation 686 694	impaired
+TR51	Binding 715 719	bind
+TR52	Cell_transformation 730 744	transformation
+TR41	Positive_regulation 159 167	required
+TR42	Cell_transformation 181 195	transformation
+TR43	Regulation 254 265	contributes
+TR44	Cell_transformation 278 292	transformation
+TR53	Planned_process 770 779	knockdown
+TR54	Negative_regulation 788 795	reduced
+TR55	Cell_transformation 796 810	transformation
+TR56	Gene_expression 820 830	expressing
+TR57	Cell_transformation 911 922	transformed
+TR58	Regulation 932 940	mediated
+TR59	Binding 983 987	bind
+TR39	Cell_transformation 25 39	transformation
+TR40	Binding 87 94	binding
+TR45	Binding 436 443	complex
+TR46	Binding 500 507	binding
+TR63	Regulation 1203 1209	target
+TR60	Binding 1051 1060	interacts
+TR61	Binding 1086 1097	interaction
+TR62	Cell_transformation 1141 1150	transform
+TR47	Positive_regulation 593 600	enhance
+TR48	Gene_expression 636 646	expressing
+E1	Binding:TR51 Theme:T20
+E2	Mutation:TR49 Theme:T19
+E3	Cell_transformation:TR44 Theme:T9
+E4	Regulation:TR43 Cause:T8 Theme:E3
+E5	Cell_transformation:TR57 Theme:T28
+E6	Cell_transformation:TR55 Theme:T22
+E7	Binding:TR59 Theme:T29
+E8	Planned_process:TR53 Theme:T21
+E9	Gene_expression:TR56 Theme:T26 Theme:T24 Theme:T25
+E10	Regulation:TR58 Theme:T27
+E11	Negative_regulation:TR54 Cause:E8 Theme:E6
+E12	Binding:TR40 Theme:T4
+E13	Binding:TR45 Theme:T11
+E14	Regulation:TR63 Theme:T36 Cause:T37
+E15	Cell_transformation:TR62 Theme:T35
+E16	Gene_expression:TR48 Theme:T17

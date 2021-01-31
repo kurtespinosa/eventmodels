@@ -1,0 +1,25 @@
+T26	Blood_vessel_development 43 55	angiogenesis
+T27	Negative_regulation 56 65	inhibitor
+T28	Blood_vessel_development 195 205	angiogenic
+T29	Growth 469 475	growth
+T30	Negative_regulation 476 486	inhibition
+T31	Blood_vessel_development 501 511	angiogenic
+T32	Negative_regulation 512 521	potential
+T33	Negative_regulation 633 642	retarding
+T34	Growth 647 653	growth
+T35	Planned_process 761 768	treated
+T36	Negative_regulation 798 808	inhibition
+T37	Regulation 845 859	active against
+T38	Blood_vessel_development 939 951	angiogenesis
+T39	Negative_regulation 956 966	restricted
+T40	Blood_vessel_development 1074 1084	angiogenic
+T41	Negative_regulation 1085 1093	activity
+E8	Negative_regulation:T33 Theme:E9 Cause:T14
+E9	Growth:T34 Theme:T15
+E13	Blood_vessel_development:T38
+E14	Negative_regulation:T39 Theme:E13 Cause:T21
+E15	Blood_vessel_development:T40
+E16	Negative_regulation:T41 Theme:E15 Cause:T22
+E17	Negative_regulation:T33 Theme:E9 Cause:T13
+E18	Negative_regulation:T39 Theme:E13 Cause:T22
+E19	Negative_regulation:T41 Theme:E15 Cause:T21

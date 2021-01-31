@@ -1,0 +1,57 @@
+TR68	Negative_regulation 1662 1670	inhibits
+TR69	Growth 1677 1689	tumor growth
+TR74	Growth 1683 1689	growth
+TR62	Growth 1010 1016	growth
+TR72	Planned_process 1098 1112	administration
+TR55	Positive_regulation 211 219	enhances
+TR56	Negative_regulation 241 249	activity
+TR70	Planned_process 1788 1795	therapy
+TR71	Regulation 1804 1810	affect
+TR66	Positive_regulation 1534 1542	increase
+TR67	Localization 1551 1560	secretion
+TR73	Positive_regulation 1508 1516	resulted
+TR59	Cell_proliferation 662 675	proliferation
+TR60	Localization 743 752	secretion
+TR61	Planned_process 838 845	exposed
+TR63	Negative_regulation 1251 1260	inhibited
+TR64	Cell_proliferation 1278 1291	proliferation
+TR65	Planned_process 1321 1329	exposure
+TR57	Blood_vessel_development 448 458	angiogenic
+TR58	Negative_regulation 473 483	activities
+E1	Growth:TR69 Theme:T48
+E2	Growth:TR74 Theme:T48
+E3	Growth:TR62 Theme:T26
+E4	Negative_regulation:TR56 Theme:T5
+E5	Positive_regulation:TR55 Theme:E4
+E6	Planned_process:TR70 Instrument:T52 Instrument:T50 Instrument:T51
+E7	Regulation:TR71 Theme:T53 Cause:E6
+E8	Localization:TR67 Theme:T42
+E9	Positive_regulation:TR66 Theme:E8
+E10	Cell_proliferation:TR59 Theme:T14
+E11	Localization:TR60 Theme:T15 Theme:T16
+E12	Cell_proliferation:TR64 Theme:T36
+E13	Negative_regulation:TR63 Theme:E12 Cause:T33
+E14	Negative_regulation:TR63 Theme:E12 Cause:T34
+E15	Negative_regulation:TR63 Theme:E12 Cause:T35
+E16	Blood_vessel_development:TR57 
+E17	Negative_regulation:TR58 Cause:T7 Theme:T6
+E18	Negative_regulation:TR58 Cause:T7 Theme:E16
+E19	Negative_regulation:TR58 Cause:T7 Theme:T13
+E20	Negative_regulation:TR58 Cause:T8 Theme:T6
+E21	Negative_regulation:TR58 Cause:T8 Theme:E16
+E22	Negative_regulation:TR58 Cause:T8 Theme:T13
+E23	Negative_regulation:TR58 Cause:T10 Theme:T6
+E24	Negative_regulation:TR58 Cause:T10 Theme:E16
+E25	Negative_regulation:TR58 Cause:T10 Theme:T13
+E26	Negative_regulation:TR58 Cause:T9 Theme:T6
+E27	Negative_regulation:TR58 Cause:T9 Theme:E16
+E28	Negative_regulation:TR58 Cause:T9 Theme:T13
+E29	Negative_regulation:TR58 Cause:T11 Theme:T6
+E30	Negative_regulation:TR58 Cause:T11 Theme:E16
+E31	Negative_regulation:TR58 Cause:T11 Theme:T13
+E32	Negative_regulation:TR58 Theme:T6 Cause:T12
+E33	Negative_regulation:TR58 Theme:T6
+E34	Negative_regulation:TR58 Cause:T12 Theme:E16
+E35	Negative_regulation:TR58 Cause:T12 Theme:T13
+E36	Negative_regulation:TR58 Theme:E16
+E37	Negative_regulation:TR58 Theme:T13

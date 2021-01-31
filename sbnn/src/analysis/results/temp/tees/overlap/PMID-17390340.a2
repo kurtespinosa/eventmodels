@@ -1,0 +1,99 @@
+T59	Positive_regulation 28 35	induced
+T60	Death 41 46	death
+T61	Planned_process 107 115	purified
+T62	Negative_regulation 154 162	inhibits
+T63	Cell_proliferation 168 181	proliferation
+T64	Positive_regulation 186 193	induces
+T65	Cell_death 194 203	apoptosis
+T66	Regulation 273 280	effects
+T67	Planned_process 341 350	treatment
+T68	Cell_death 436 445	apoptotic
+T69	Cell_death 463 471	necrotic
+T70	Cell_death 541 550	apoptotic
+T71	Positive_regulation 643 651	increase
+T72	Positive_regulation 665 674	activated
+T73	Catabolism 710 717	cleaved
+T74	Positive_regulation 710 717	cleaved
+T75	Positive_regulation 847 856	dependent
+T76	Localization 857 870	translocation
+T77	Negative_regulation 909 919	Inhibition
+T78	Negative_regulation 955 962	blocked
+T79	Positive_regulation 972 979	induced
+T80	Cell_death 980 989	apoptosis
+T81	Regulation 1006 1017	involvement
+T82	Positive_regulation 1066 1075	activated
+T83	Negative_regulation 1143 1154	inactivated
+T84	Negative_regulation 1162 1172	decreasing
+T85	Phosphorylation 1183 1197	phosphorylated
+T86	Phosphorylation 1207 1221	phosphorylated
+T87	Positive_regulation 1260 1268	promoted
+T88	Cell_death 1269 1278	apoptosis
+T89	Negative_regulation 1291 1302	alleviating
+T90	Negative_regulation 1307 1317	inhibitory
+T91	Negative_regulation 1359 1369	inhibition
+T92	Negative_regulation 1428 1437	prevented
+T93	Positive_regulation 1447 1454	induced
+T94	Cell_death 1455 1463	necrosis
+T95	Positive_regulation 1504 1510	caused
+T96	Negative_regulation 1514 1523	depletion
+T97	Positive_regulation 1564 1574	activation
+T98	Positive_regulation 1609 1618	initiates
+T99	Cell_death 1619 1628	apoptosis
+T100	Regulation 1629 1632	via
+T101	Pathway 1697 1705	pathways
+T102	Cell_death 1710 1718	necrosis
+T103	Positive_regulation 1728 1738	activation
+E3	Planned_process:T61 Theme:T4 Instrument:T5
+E4	Negative_regulation:T62 Cause:T4 Theme:E5
+E5	Cell_proliferation:T63 Theme:T7
+E6	Positive_regulation:T64 Cause:T4 Theme:E7
+E7	Cell_death:T65
+E15	Catabolism:T73 Theme:T22
+E16	Positive_regulation:T74 Theme:E15 Cause:T24
+E18	Localization:T76 FromLoc:T27 ToLoc:T28 Theme:T25
+E19	Negative_regulation:T77 Theme:T29
+E20	Negative_regulation:T78 Theme:E22 Cause:E19
+E21	Positive_regulation:T79 Cause:T31 Theme:E22
+E22	Cell_death:T80
+E23	Regulation:T81 Theme:E22 Cause:T32
+E24	Positive_regulation:T82 Cause:T34 Theme:T35
+E25	Negative_regulation:T83 Theme:T37 Cause:E26
+E26	Negative_regulation:T84 Cause:T34 Theme:E27
+E27	Phosphorylation:T85 Theme:T38
+E28	Phosphorylation:T86 Theme:T39
+E33	Negative_regulation:T91 Theme:T43
+E34	Negative_regulation:T92 Theme:E36 Cause:E33
+E35	Positive_regulation:T93 Cause:T45 Theme:E36
+E36	Cell_death:T94
+E37	Positive_regulation:T95 Cause:E38 Theme:E36
+E38	Negative_regulation:T96 Theme:T47 Cause:E39
+E39	Positive_regulation:T97 Theme:T48
+E40	Positive_regulation:T98 Theme:E41 Cause:E42
+E41	Cell_death:T99
+E42	Regulation:T100 Cause:T49 Theme:E43
+E43	Pathway:T101 Participant:T50 Participant2:T51 Participant3:T52 Participant4:T53
+E44	Cell_death:T102
+E45	Positive_regulation:T103 Theme:T58
+E46	Positive_regulation:T71 Theme:T21
+E47	Positive_regulation:T71 Theme:T22
+E48	Positive_regulation:T71 Theme:T23
+E49	Positive_regulation:T72 Theme:T21
+E50	Catabolism:T73 Theme:T23
+E51	Positive_regulation:T74 Theme:E50 Cause:T24
+E53	Localization:T76 FromLoc:T27 ToLoc:T28 Theme:T26
+E54	Negative_regulation:T77 Theme:T30
+E55	Negative_regulation:T78 Theme:E22 Cause:E54
+E56	Regulation:T81 Theme:E22 Cause:T33
+E57	Positive_regulation:T82 Cause:T34 Theme:T36
+E58	Negative_regulation:T83 Theme:T37 Cause:E59
+E59	Negative_regulation:T84 Cause:T34 Theme:E28
+E60	Negative_regulation:T91 Theme:T44
+E61	Negative_regulation:T92 Theme:E36 Cause:E60
+E62	Positive_regulation:T98 Theme:E44 Cause:E42
+E63	Positive_regulation:T98 Theme:E41 Cause:E67
+E64	Positive_regulation:T98 Theme:E44 Cause:E67
+E65	Positive_regulation:T98 Theme:E41 Cause:E68
+E66	Positive_regulation:T98 Theme:E44 Cause:E68
+E67	Regulation:T100 Cause:T49 Theme:E45
+E68	Regulation:T100 Cause:T49 Theme:E69
+E69	Pathway:T101 Participant:T54 Participant2:T55 Participant3:T56 Participant4:T57

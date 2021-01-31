@@ -1,0 +1,54 @@
+TR33	Positive_regulation 120 130	Activation
+TR34	Positive_regulation 157 164	induces
+TR35	Regulation 176 183	changes
+TR36	Regulation 242 248	affect
+TR43	Negative_regulation 827 837	inhibition
+TR44	Negative_regulation 905 915	inhibition
+TR50	Negative_regulation 850 859	inhibited
+TR45	Regulation 1042 1049	changes
+TR46	Phosphorylation 1057 1071	phosphorylated
+TR47	Phosphorylation 1076 1093	nonphosphorylated
+TR48	Negative_regulation 1185 1195	inhibition
+TR37	Blood_vessel_development 347 359	angiogenesis
+TR38	Localization 366 375	migration
+TR49	Development 334 343	sprouting
+TR40	Positive_regulation 618 626	activate
+TR41	Regulation 752 760	controls
+TR42	Blood_vessel_development 761 773	angiogenesis
+TR39	Regulation 454 465	responsible
+TR30	Regulation 0 10	Regulation
+TR31	Blood_vessel_development 36 48	angiogenesis
+TR32	Localization 55 64	migration
+TR51	Regulation 1268 1272	role
+TR52	Regulation 1365 1376	maintenance
+E1	Positive_regulation:TR33 Theme:T4
+E2	Positive_regulation:TR33 Theme:T5
+E3	Regulation:TR35 Theme:T6
+E4	Regulation:TR36 Cause:E3 Theme:T7
+E5	Positive_regulation:TR34 Cause:E1 Theme:E3
+E6	Positive_regulation:TR34 Cause:E2 Theme:E3
+E7	Negative_regulation:TR44 Theme:T20
+E8	Negative_regulation:TR44 Theme:T19
+E9	Negative_regulation:TR43 Theme:T19
+E10	Negative_regulation:TR48 Cause:T26 Theme:T22
+E11	Negative_regulation:TR48 Cause:T26 Theme:T25
+E12	Phosphorylation:TR46 Theme:T22
+E13	Phosphorylation:TR47 Theme:T22
+E14	Regulation:TR45 Cause:T21 Theme:E12
+E15	Regulation:TR45 Cause:T21 Theme:E13
+E16	Blood_vessel_development:TR37 
+E17	Localization:TR38 Theme:T8
+E18	Blood_vessel_development:TR42 
+E19	Positive_regulation:TR40 Theme:T13 Cause:T11
+E20	Positive_regulation:TR40 Theme:T13 Cause:T12
+E21	Regulation:TR39 Theme:T10
+E22	Localization:TR32 Theme:T2
+E23	Blood_vessel_development:TR31 Theme:T1
+E24	Blood_vessel_development:TR31 AtLoc:T1
+E25	Blood_vessel_development:TR31 
+E26	Regulation:TR30 Cause:T3 Theme:E23
+E27	Regulation:TR30 Cause:T3 Theme:E24
+E28	Regulation:TR30 Cause:T3 Theme:E25
+E29	Regulation:TR30 Cause:T3 Theme:E22
+E30	Regulation:TR51 Theme:T28 Cause:T27
+E31	Regulation:TR52 Theme:T29

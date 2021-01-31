@@ -1,0 +1,25 @@
+TR25	Planned_process 286 296	enrichment
+TR26	Planned_process 342 352	incubation
+TR27	Planned_process 443 451	labelled
+TR29	Metabolism 758 778	oxidative metabolism
+TR30	Glycolysis 822 832	glycolysis
+TR33	Metabolism 768 778	metabolism
+TR34	Metabolism 865 875	metabolism
+TR24	Metabolism 220 230	metabolism
+TR28	Metabolism 575 595	oxidative metabolism
+TR32	Metabolism 585 595	metabolism
+TR22	Metabolism 20 30	metabolism
+TR23	Metabolism 81 92	utilization
+TR31	Metabolism 123 133	metabolism
+E1	Planned_process:TR25 Instrument:T11
+E2	Glycolysis:TR30 
+E3	Metabolism:TR33 Theme:T20
+E4	Metabolism:TR34 Theme:T19
+E5	Metabolism:TR29 Theme:T20
+E6	Metabolism:TR24 Theme:T9
+E7	Metabolism:TR24 Theme:T8
+E8	Metabolism:TR32 Theme:T17
+E9	Metabolism:TR28 Theme:T17
+E10	Metabolism:TR23 Theme:T4
+E11	Metabolism:TR22 Theme:T2
+E12	Metabolism:TR22 Theme:T1

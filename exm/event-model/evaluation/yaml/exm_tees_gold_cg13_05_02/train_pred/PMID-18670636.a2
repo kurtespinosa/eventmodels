@@ -1,0 +1,57 @@
+TR56	Development 1211 1217	formed
+TR49	Phosphorylation 671 685	phosphorylated
+TR70	Glycolysis 567 577	glycolysis
+TR71	Positive_regulation 601 608	induced
+TR72	Regulation 609 620	independent
+TR53	Glycolysis 963 973	glycolysis
+TR54	Gene_expression 1010 1020	expressing
+TR63	Regulation 1485 1493	involved
+TR64	Regulation 1501 1511	regulation
+TR65	Glycolysis 1515 1525	glycolysis
+TR57	Gene_expression 1248 1256	positive
+TR58	Phosphorylation 1276 1290	phosphorylated
+TR59	Gene_expression 1315 1323	positive
+TR45	Localization 287 293	uptake
+TR46	Gene_expression 339 349	expression
+TR47	Regulation 364 373	regulated
+TR55	Glycolysis 1156 1166	glycolytic
+TR48	Planned_process 455 466	established
+TR68	Localization 510 518	presence
+TR69	Positive_regulation 529 534	leads
+TR60	Glycolysis 1334 1344	Glycolysis
+TR61	Regulation 1349 1357	affected
+TR62	Regulation 1377 1387	regulation
+TR42	Glycolysis 112 130	aerobic glycolysis
+TR43	Positive_regulation 161 170	increased
+TR44	Localization 171 179	trapping
+TR67	Glycolysis 120 130	glycolysis
+TR50	Glycolysis 751 769	aerobic glycolysis
+TR51	Planned_process 777 784	passage
+TR52	Planned_process 881 892	established
+TR73	Glycolysis 759 769	glycolysis
+E1	Development:TR56 Theme:T32
+E2	Phosphorylation:TR49 Theme:T17
+E3	Phosphorylation:TR49 Theme:T18
+E4	Glycolysis:TR53 
+E5	Gene_expression:TR54 Theme:T28 Theme:T27
+E6	Gene_expression:TR54 Theme:T28
+E7	Gene_expression:TR54 Theme:T27
+E8	Glycolysis:TR65 
+E9	Regulation:TR64 Theme:E8
+E10	Regulation:TR63 Theme:E9 Cause:T40
+E11	Regulation:TR63 Theme:E9 Cause:T39
+E12	Gene_expression:TR59 Theme:T36
+E13	Phosphorylation:TR58 Theme:T35
+E14	Localization:TR45 Theme:T6
+E15	Glycolysis:TR55 
+E16	Localization:TR68 Theme:T13
+E17	Planned_process:TR48 Theme:T11
+E18	Glycolysis:TR60 
+E19	Glycolysis:TR67 
+E20	Localization:TR44 Theme:T4 Theme:T3
+E21	Glycolysis:TR42 
+E22	Positive_regulation:TR43 Theme:E20
+E23	Planned_process:TR51 Theme:T22
+E24	Planned_process:TR52 Theme:T23
+E25	Glycolysis:TR73 
+E26	Glycolysis:TR50 

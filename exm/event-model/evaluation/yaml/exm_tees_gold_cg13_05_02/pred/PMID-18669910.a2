@@ -1,0 +1,51 @@
+T59	Planned_process 1420 1429	injection
+T60	Localization 1496 1508	infiltration
+T61	Planned_process 1528 1537	injection
+T54	Localization 685 693	secreted
+T58	Planned_process 1347 1355	observed
+T69	Development 1168 1177	perfusion
+T62	Planned_process 1606 1615	injection
+T63	Positive_regulation 1624 1630	elicit
+T64	Cell_proliferation 1644 1666	proliferative response
+T70	Cell_proliferation 1644 1657	proliferative
+T71	Cell_proliferation 1658 1666	response
+T55	Cell_proliferation 955 968	proliferation
+T66	Gene_expression 827 836	expressed
+T67	Positive_regulation 926 932	elicit
+T68	Planned_process 989 996	culture
+T52	Planned_process 350 365	transplantation
+T53	Planned_process 535 543	obtained
+T65	Planned_process 1797 1806	injection
+T72	Planned_process 1859 1868	treatment
+T47	Planned_process 11 20	injection
+T48	Positive_regulation 70 77	induces
+T49	Blood_vessel_development 90 102	angiogenesis
+T56	Planned_process 1015 1023	obtained
+T57	Planned_process 1045 1053	injected
+T50	Development 271 283	regeneration
+T51	Remodeling 288 294	repair
+E1	Planned_process:T59 Instrument:T36 Instrument:T37
+E2	Localization:T60 Theme:T38
+E3	Planned_process:T61 Instrument:T39
+E4	Localization:T54 Theme:T17 FromLoc:T16
+E5	Localization:T54 Theme:T18 FromLoc:T16
+E6	Planned_process:T58 Theme:T34 Theme2:T33
+E7	Cell_proliferation:T71 Theme:T41
+E8	Planned_process:T62 Instrument:T40
+E9	Cell_proliferation:T70 Theme:T41
+E10	Cell_proliferation:T64 Theme:T41
+E11	Positive_regulation:T63 Theme:E10 Cause:E8
+E12	Cell_proliferation:T55 Theme:T21
+E13	Planned_process:T68 Theme:T22
+E14	Planned_process:T52 Instrument:T9 Instrument:T8
+E15	Planned_process:T53 Theme:T12
+E16	Planned_process:T72 Theme:T46
+E17	Planned_process:T65 Instrument:T45
+E18	Planned_process:T47 Instrument:T1
+E19	Blood_vessel_development:T49 
+E20	Positive_regulation:T48 Theme:E19 Cause:E18
+E21	Planned_process:T57 Instrument:T24 Instrument:T23 Theme:T26
+E22	Planned_process:T56 Theme:T24 Theme2:T23
+E23	Development:T50 Theme:T7
+E24	Remodeling:T51 Theme:T5
+E25	Remodeling:T51 Theme:T7

@@ -1,0 +1,57 @@
+T58	Regulation 943 950	changes
+T59	Blood_vessel_development 954 966	angiogenesis
+T60	Regulation 971 982	responsible
+T61	Negative_regulation 991 999	decrease
+T62	Synthesis 1016 1025	synthesis
+T63	Development 1069 1079	luteinized
+T77	Planned_process 1098 1107	injection
+T56	Regulation 810 816	effect
+T57	Synthesis 870 879	synthesis
+T76	Gene_expression 870 879	synthesis
+T67	Negative_regulation 1508 1517	inhibited
+T68	Development 1522 1535	establishment
+T69	Planned_process 1578 1587	injection
+T70	Regulation 1674 1684	associated
+T71	Development 1694 1703	formation
+T72	Positive_regulation 1729 1740	stimulation
+T73	Blood_vessel_development 1744 1756	angiogenesis
+T64	Regulation 1351 1358	changes
+T65	Regulation 1382 1393	responsible
+T66	Negative_regulation 1402 1410	decrease
+T74	Regulation 9 13	role
+T44	Development 97 108	development
+T45	Blood_vessel_development 151 163	angiogenesis
+T75	Positive_regulation 168 177	essential
+T52	Planned_process 475 484	Injection
+T53	Negative_regulation 578 587	decreased
+T54	Planned_process 625 634	injection
+T55	Regulation 734 740	effect
+T46	Regulation 240 245	roles
+T47	Blood_vessel_development 314 326	angiogenesis
+T48	Synthesis 344 354	production
+T49	Development 368 374	formed
+T50	Positive_regulation 436 443	induced
+T51	Planned_process 444 458	pseudopregnant
+E1	Blood_vessel_development:T59 
+E2	Synthesis:T62 Theme:T26
+E3	Planned_process:T77 Theme:T29
+E4	Negative_regulation:T61 Theme:E2
+E5	Development:T63 Theme:T29
+E6	Synthesis:T57 Theme:T24
+E7	Regulation:T56 Theme:T23
+E8	Planned_process:T69 Instrument:T41
+E9	Development:T71 Theme:T43
+E10	Blood_vessel_development:T73 Theme:T43
+E11	Positive_regulation:T72 Cause:T42 Theme:E10
+E12	Regulation:T70 Theme:E9 Cause:E11
+E13	Negative_regulation:T66 Theme:T37
+E14	Regulation:T74 Cause:T1 Theme:T2
+E15	Development:T44 Theme:T4
+E16	Development:T44 Theme:T3
+E17	Blood_vessel_development:T45 Theme:T4
+E18	Blood_vessel_development:T45 Theme:T3
+E19	Blood_vessel_development:T45 
+E20	Planned_process:T52 Instrument:T13
+E21	Negative_regulation:T53 Theme:T16
+E22	Blood_vessel_development:T47 
+E23	Development:T49 Theme:T9

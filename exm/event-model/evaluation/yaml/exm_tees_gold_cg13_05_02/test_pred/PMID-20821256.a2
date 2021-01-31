@@ -1,0 +1,105 @@
+TR69	Localization 883 892	migration
+TR70	Positive_regulation 923 931	enhanced
+TR71	Localization 944 953	migration
+TR85	Positive_regulation 1420 1428	increase
+TR86	Growth 1438 1444	growth
+TR87	Metastasis 1454 1464	metastasis
+TR88	Positive_regulation 1551 1558	induced
+TR89	Localization 1570 1579	migration
+TR90	Gene_expression 1587 1597	expression
+TR91	Positive_regulation 1598 1607	dependent
+TR92	Negative_regulation 1619 1632	stabilization
+TR81	Negative_regulation 1252 1265	stabilization
+TR82	Gene_expression 1274 1284	expression
+TR83	Negative_regulation 1334 1341	reduced
+TR84	Infection 1349 1358	infection
+TR63	Gene_expression 592 602	expression
+TR64	Positive_regulation 623 632	increased
+TR65	Positive_regulation 667 676	dependent
+TR56	Regulation 400 407	control
+TR57	Remodeling 421 435	reorganization
+TR58	Blood_vessel_development 467 479	angiogenesis
+TR59	Metastasis 490 500	metastasis
+TR60	Positive_regulation 505 514	dependent
+TR61	Positive_regulation 539 546	induced
+TR62	Gene_expression 551 561	expression
+TR49	Blood_vessel_development 87 99	Angiogenesis
+TR50	Positive_regulation 103 110	induced
+TR51	Localization 180 188	released
+TR72	Gene_expression 964 974	expression
+TR73	Negative_regulation 995 1004	inhibited
+TR74	Infection 1012 1021	infection
+TR75	Localization 1097 1106	migration
+TR76	Negative_regulation 1111 1119	retarded
+TR66	Positive_regulation 710 718	increase
+TR67	Blood_vessel_development 722 734	angiogenesis
+TR68	Gene_expression 750 760	expression
+TR77	Positive_regulation 1155 1162	induced
+TR78	Localization 1174 1183	migration
+TR79	Negative_regulation 1188 1195	reduced
+TR80	Infection 1203 1212	infection
+TR52	Positive_regulation 221 229	enhances
+TR53	Growth 242 248	growth
+TR54	Metastasis 286 296	metastasis
+TR55	Localization 331 340	migration
+TR93	Regulation 1698 1705	control
+TR94	Localization 1717 1726	migration
+TR95	Blood_vessel_development 1730 1742	angiogenesis
+TR96	Metastasis 1753 1763	metastasis
+E1	Localization:TR71 Theme:T24
+E2	Localization:TR69 Theme:T23
+E3	Positive_regulation:TR70 Theme:E1
+E4	Growth:TR86 Theme:T38
+E5	Metastasis:TR87 ToLoc:T39
+E6	Positive_regulation:TR85 Theme:E5
+E7	Positive_regulation:TR85 Theme:E4
+E8	Negative_regulation:TR92 Theme:T45
+E9	Gene_expression:TR90 Theme:T44
+E10	Localization:TR89 Theme:T43
+E11	Positive_regulation:TR91 Cause:E9 Theme:E8
+E12	Positive_regulation:TR88 Cause:E8 Theme:E10
+E13	Positive_regulation:TR88 Theme:E10
+E14	Gene_expression:TR82 Theme:T34
+E15	Negative_regulation:TR81 Theme:T33
+E16	Infection:TR84 Participant:T35
+E17	Gene_expression:TR63 Theme:T16
+E18	Positive_regulation:TR64 Theme:E17
+E19	Positive_regulation:TR65 Theme:E18
+E20	Remodeling:TR57 Theme:T12
+E21	Regulation:TR56 Cause:T10 Theme:E20
+E22	Regulation:TR56 Cause:T9 Theme:E20
+E23	Metastasis:TR59 Theme:T13
+E24	Gene_expression:TR62 Theme:T14
+E25	Blood_vessel_development:TR58 
+E26	Positive_regulation:TR60 Theme:E25 Cause:E25
+E27	Positive_regulation:TR60 Theme:E23 Cause:E25
+E28	Positive_regulation:TR61 Theme:E24
+E29	Localization:TR51 Theme:T4 FromLoc:T5
+E30	Localization:TR51 FromLoc:T5 Theme:T3
+E31	Blood_vessel_development:TR49 
+E32	Positive_regulation:TR50 Cause:T3 Theme:E31
+E33	Positive_regulation:TR50 Theme:E31 Cause:T4
+E34	Positive_regulation:TR50 Theme:E31 Cause:E29
+E35	Positive_regulation:TR50 Theme:E31 Cause:E30
+E36	Gene_expression:TR72 Theme:T25
+E37	Localization:TR75 Theme:T29
+E38	Negative_regulation:TR76 Theme:E37
+E39	Blood_vessel_development:TR67 AtLoc:T19
+E40	Blood_vessel_development:TR67 
+E41	Gene_expression:TR68 Theme:T18
+E42	Positive_regulation:TR66 Theme:E39
+E43	Positive_regulation:TR66 Theme:E40
+E44	Positive_regulation:TR66 Theme:E41
+E45	Infection:TR80 Participant:T31
+E46	Localization:TR78 Theme:T30
+E47	Positive_regulation:TR77 Theme:E46
+E48	Growth:TR53 Theme:T6
+E49	Localization:TR55 Theme:T8
+E50	Metastasis:TR54 ToLoc:T7
+E51	Positive_regulation:TR52 Theme:E48
+E52	Localization:TR94 Theme:T47
+E53	Blood_vessel_development:TR95 
+E54	Metastasis:TR96 Theme:T48
+E55	Regulation:TR93 Theme:E52 Cause:T46
+E56	Regulation:TR93 Theme:E54 Cause:T46
+E57	Regulation:TR93 Theme:E53 Cause:T46

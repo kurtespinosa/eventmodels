@@ -1,0 +1,35 @@
+T50	Negative_regulation 1104 1111	reduced
+T51	Positive_regulation 1130 1139	increases
+T52	Positive_regulation 1191 1202	stimulation
+T53	Transcription 1237 1250	transcription
+T48	Positive_regulation 1003 1015	accumulation
+T49	Transcription 1047 1062	transcriptional
+T43	Negative_regulation 330 341	suppressing
+T44	Carcinogenesis 353 366	tumorigenesis
+T45	Gene_expression 458 468	expression
+T46	Negative_regulation 481 488	reduced
+T47	Development 576 585	developed
+T54	Development 1313 1318	forms
+T40	Carcinogenesis 79 92	tumorigenesis
+T41	Mutation 144 153	mutations
+T42	Pathway 261 268	pathway
+T55	Mutation 752 761	wild-type
+E1	Negative_regulation:T50 Theme:T32
+E2	Transcription:T53 Theme:T34
+E3	Transcription:T53 Theme:T35
+E4	Positive_regulation:T48 Theme:T29
+E5	Transcription:T49 Theme:T29
+E6	Transcription:T49 Theme:T31
+E7	Transcription:T49 Theme:T30
+E8	Carcinogenesis:T44 AtLoc:T9
+E9	Gene_expression:T45 Theme:T12 Theme:T13
+E10	Gene_expression:T45 Theme:T12
+E11	Gene_expression:T45 Theme:T13
+E12	Negative_regulation:T43 Cause:T8 Theme:E8
+E13	Negative_regulation:T46 Theme:E9
+E14	Negative_regulation:T46 Theme:E10
+E15	Negative_regulation:T46 Theme:E11
+E16	Development:T47 Theme:T14
+E17	Development:T54 Theme:T37
+E18	Carcinogenesis:T40 AtLoc:T3
+E19	Mutation:T55 Theme:T21

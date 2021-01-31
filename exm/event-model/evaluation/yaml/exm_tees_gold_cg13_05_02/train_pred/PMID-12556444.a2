@@ -1,0 +1,81 @@
+TR44	Negative_regulation 0 10	Inhibition
+TR45	Metabolism 22 32	metabolism
+TR46	Positive_regulation 33 43	sensitizes
+TR47	Positive_regulation 74 83	triggered
+TR48	Cell_death 84 93	apoptosis
+TR49	Positive_regulation 102 113	enhancement
+TR90	Development 150 159	formation
+TR91	Protein_processing 184 194	processing
+TR88	Glycolysis 1548 1566	glycolytic pathway
+TR89	Positive_regulation 1765 1775	activation
+TR93	Glycolysis 1559 1566	pathway
+TR94	Positive_regulation 1626 1635	sensitize
+TR95	Positive_regulation 1748 1760	facilitating
+TR83	Regulation 1240 1247	Changes
+TR84	Localization 1354 1365	deprivation
+TR66	Positive_regulation 800 810	activation
+TR67	Remodeling 826 840	depolarization
+TR68	Localization 859 866	release
+TR69	Positive_regulation 872 881	increased
+TR61	Negative_regulation 628 638	Inhibition
+TR62	Metabolism 650 660	metabolism
+TR63	Positive_regulation 661 669	enhanced
+TR64	Death 670 677	killing
+TR65	Positive_regulation 670 677	killing
+TR77	Regulation 1102 1113	independent
+TR78	Positive_regulation 1129 1136	induced
+TR79	Cell_death 1137 1146	apoptosis
+TR80	Positive_regulation 1191 1198	induced
+TR81	Cell_death 1199 1208	apoptosis
+TR82	Localization 1223 1227	free
+TR50	Localization 235 241	uptake
+TR51	Glycolysis 246 256	glycolysis
+TR85	Localization 1375 1386	deprivation
+TR86	Positive_regulation 1387 1395	enhanced
+TR87	Protein_processing 1477 1487	processing
+TR92	Development 1421 1430	formation
+TR57	Planned_process 457 466	treatment
+TR58	Positive_regulation 487 495	enhanced
+TR59	Cell_death 496 505	apoptosis
+TR60	Positive_regulation 506 513	induced
+TR52	Negative_regulation 278 288	inhibition
+TR53	Metabolism 300 310	metabolism
+TR54	Regulation 317 323	affect
+TR55	Positive_regulation 339 347	mediated
+TR56	Cell_death 348 357	apoptosis
+TR70	Localization 914 925	deprivation
+TR71	Positive_regulation 926 934	mediated
+TR72	Positive_regulation 935 948	sensitization
+TR73	Cell_death 952 961	apoptosis
+TR74	Negative_regulation 966 975	prevented
+TR75	Gene_expression 991 1005	overexpressing
+TR76	Positive_regulation 991 1005	overexpressing
+E1	Metabolism:TR45 Theme:T1
+E2	Cell_death:TR48 Theme:T2
+E3	Protein_processing:TR91 Theme:T4
+E4	Negative_regulation:TR44 Theme:E1
+E5	Positive_regulation:TR47 Theme:E2
+E6	Positive_regulation:TR49 Theme:T4 Cause:E4
+E7	Positive_regulation:TR46 Theme:E2 Cause:E6
+E8	Glycolysis:TR88 
+E9	Positive_regulation:TR89 Theme:T43
+E10	Glycolysis:TR93 
+E11	Localization:TR84 Theme:T36
+E12	Positive_regulation:TR66 Theme:T21
+E13	Localization:TR68 Theme:T21
+E14	Remodeling:TR67 Theme:T22
+E15	Death:TR64 Theme:T20
+E16	Death:TR64 Theme:T19
+E17	Death:TR64 Theme:T18
+E18	Cell_death:TR81 
+E19	Positive_regulation:TR80 Theme:E18 Cause:T31
+E20	Localization:TR50 Theme:T6 ToLoc:T5
+E21	Glycolysis:TR51 
+E22	Protein_processing:TR87 Theme:T39
+E23	Localization:TR85 Theme:T37
+E24	Positive_regulation:TR86 Theme:E22 Cause:E23
+E25	Cell_death:TR59 
+E26	Metabolism:TR53 Theme:T7
+E27	Negative_regulation:TR52 Theme:E26
+E28	Gene_expression:TR75 Theme:T26
+E29	Localization:TR70 Theme:T24

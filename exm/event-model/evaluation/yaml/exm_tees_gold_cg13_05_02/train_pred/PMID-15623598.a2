@@ -1,0 +1,19 @@
+TR23	Regulation 512 516	role
+TR24	Localization 526 534	invasion
+TR30	Pathway 814 820	system
+TR21	Regulation 210 218	involved
+TR22	Localization 228 236	invasion
+TR25	Planned_process 1048 1059	established
+TR26	Death 1304 1312	survival
+TR27	Death 1338 1346	survival
+TR28	Death 1390 1398	survival
+TR29	Death 1426 1434	survival
+E1	Localization:TR24 Theme:T4
+E2	Regulation:TR23 Theme:E1
+E3	Localization:TR22 Theme:T2
+E4	Regulation:TR21 Theme:E3
+E5	Planned_process:TR25 Theme:T17
+E6	Death:TR27 Theme:T19
+E7	Death:TR26 Theme:T19
+E8	Death:TR28 Theme:T19
+E9	Death:TR29 Theme:T19

@@ -1,0 +1,60 @@
+TR39	Planned_process 0 11	Development
+TR40	Metastasis 44 54	metastasis
+TR63	Development 0 11	Development
+TR46	Regulation 463 467	role
+TR47	Metastasis 492 502	metastasis
+TR48	Planned_process 507 516	developed
+TR43	Metastasis 170 180	metastasis
+TR54	Regulation 808 820	contribution
+TR55	Metastasis 845 855	metastasis
+TR56	Planned_process 891 901	introduced
+TR57	Gene_expression 946 954	produced
+TR49	Localization 604 612	invasive
+TR50	Localization 627 635	secretes
+TR51	Planned_process 677 686	injection
+TR52	Positive_regulation 724 732	resulted
+TR53	Metastasis 767 777	metastasis
+TR58	Metastasis 1021 1031	metastases
+TR59	Planned_process 1224 1234	inoculated
+TR68	Positive_regulation 1140 1149	Augmented
+TR41	Regulation 81 92	Controlling
+TR42	Metastasis 104 114	metastasis
+TR64	Planned_process 150 157	therapy
+TR60	Regulation 1271 1292	plays a critical role
+TR61	Metastasis 1307 1317	metastasis
+TR62	Metastasis 1430 1440	metastasis
+TR69	Regulation 1288 1292	role
+TR44	Regulation 398 420	play an important role
+TR45	Metastasis 435 445	metastasis
+TR65	Regulation 350 354	role
+TR66	Blood_vessel_development 358 375	lymphangiogenesis
+TR67	Regulation 416 420	role
+E1	Planned_process:TR39 Theme:T1
+E2	Metastasis:TR40 ToLoc:T2 Theme:T3
+E3	Metastasis:TR47 ToLoc:T13
+E4	Regulation:TR46 Cause:T12 Theme:E3
+E5	Metastasis:TR43 ToLoc:T6
+E6	Gene_expression:TR57 Theme:T28
+E7	Metastasis:TR55 ToLoc:T24
+E8	Regulation:TR54 Cause:T23 Theme:E7
+E9	Planned_process:TR51 Instrument:T19 Theme:T20
+E10	Metastasis:TR53 ToLoc:T22 Theme:T21
+E11	Metastasis:TR53 ToLoc:T22 Theme:T16
+E12	Localization:TR49 Theme:T16
+E13	Localization:TR50 Theme:T17 FromLoc:T16
+E14	Positive_regulation:TR52 Cause:E9 Theme:E10
+E15	Positive_regulation:TR52 Cause:E9 Theme:E11
+E16	Metastasis:TR58 ToLoc:T29
+E17	Planned_process:TR59 Instrument:T34
+E18	Metastasis:TR42 ToLoc:T4
+E19	Planned_process:TR64 Theme:T5
+E20	Regulation:TR41 Theme:E18
+E21	Metastasis:TR62 ToLoc:T38
+E22	Metastasis:TR61 ToLoc:T37
+E23	Regulation:TR60 Cause:T36 Theme:E22
+E24	Metastasis:TR45 ToLoc:T11
+E25	Blood_vessel_development:TR66 
+E26	Regulation:TR44 Cause:T10 Theme:E24
+E27	Regulation:TR44 Cause:T9 Theme:E24
+E28	Regulation:TR65 Cause:T10 Theme:E25
+E29	Regulation:TR65 Cause:T9 Theme:E25

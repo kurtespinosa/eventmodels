@@ -1,0 +1,73 @@
+TR71	Negative_regulation 1583 1593	inhibition
+TR72	Binding 1601 1608	binding
+TR73	Planned_process 1648 1657	treatment
+TR74	Regulation 1692 1698	varied
+TR75	Cell_proliferation 1704 1710	growth
+TR61	Cell_proliferation 852 858	growth
+TR62	Negative_regulation 904 914	inhibition
+TR63	Binding 922 929	binding
+TR64	Cell_proliferation 978 984	growth
+TR84	Regulation 837 848	independent
+TR67	Negative_regulation 1182 1186	loss
+TR85	Cell_proliferation 1155 1161	growth
+TR86	Positive_regulation 1175 1181	caused
+TR69	Cell_transformation 1471 1482	transformed
+TR70	Cell_proliferation 1539 1545	growth
+TR65	Planned_process 1045 1054	treatment
+TR66	Cell_proliferation 1120 1126	growth
+TR76	Negative_regulation 1721 1735	down modulated
+TR77	Cell_proliferation 1736 1743	growing
+TR78	Negative_regulation 1779 1789	inhibition
+TR79	Binding 1797 1804	binding
+TR80	Negative_regulation 1817 1831	down modulated
+TR81	Negative_regulation 1858 1868	inhibition
+TR82	Binding 1876 1883	binding
+TR88	Positive_regulation 1756 1762	caused
+TR68	Cell_proliferation 1421 1428	growing
+TR87	Negative_regulation 1345 1353	decrease
+TR55	Negative_regulation 362 372	inhibition
+TR56	Binding 406 413	binding
+TR57	Positive_regulation 417 425	response
+TR83	Positive_regulation 520 529	dependent
+TR51	Cell_proliferation 117 123	growth
+TR52	Regulation 134 143	influence
+TR53	Cell_proliferation 217 224	growing
+TR54	Cell_transformation 263 274	transformed
+TR47	Cell_proliferation 0 6	Growth
+TR48	Positive_regulation 13 22	dependent
+TR49	Regulation 23 33	regulation
+TR50	Cell_transformation 68 79	transformed
+TR58	Cell_proliferation 562 569	growing
+TR59	Cell_proliferation 677 683	growth
+TR60	Regulation 699 704	alter
+TR89	Planned_process 1943 1952	treatment
+TR90	Cell_proliferation 2045 2051	growth
+E1	Binding:TR72 Theme:T34
+E2	Cell_proliferation:TR75 Theme:T36
+E3	Negative_regulation:TR71 Theme:E1
+E4	Cell_proliferation:TR61 Theme:T20
+E5	Cell_proliferation:TR64 Theme:T20
+E6	Negative_regulation:TR67 Theme:T28 Cause:T27
+E7	Cell_transformation:TR69 Theme:T33
+E8	Cell_proliferation:TR70 Theme:T33
+E9	Cell_proliferation:TR66 Theme:T24
+E10	Cell_proliferation:TR66 Theme:T26
+E11	Negative_regulation:TR80 Theme:T41
+E12	Cell_proliferation:TR77 Theme:T38
+E13	Negative_regulation:TR76 Theme:E12
+E14	Cell_proliferation:TR68 Theme:T31
+E15	Cell_proliferation:TR51 Theme:T6
+E16	Cell_proliferation:TR53 Theme:T6
+E17	Cell_transformation:TR54 Theme:T6
+E18	Regulation:TR52 Theme:T4 Cause:E15
+E19	Cell_transformation:TR50 Theme:T3
+E20	Cell_proliferation:TR47 Theme:T3
+E21	Regulation:TR49 Theme:T1
+E22	Positive_regulation:TR48 Theme:E21 Cause:E20
+E23	Cell_proliferation:TR59 Theme:T17
+E24	Cell_proliferation:TR59 Theme:T19
+E25	Cell_proliferation:TR58 Theme:T17
+E26	Regulation:TR60 Cause:E23 Theme:T18
+E27	Regulation:TR60 Cause:E24 Theme:T18
+E28	Cell_proliferation:TR90 Theme:T45
+E29	Planned_process:TR89 Theme:T44

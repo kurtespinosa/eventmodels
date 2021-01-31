@@ -1,0 +1,45 @@
+TR43	Death 170 178	necrotic
+TR44	Blood_vessel_development 203 218	vascularization
+TR58	Cell_death 170 178	necrotic
+TR51	Cell_differentiation 788 803	differentiation
+TR50	Development 687 694	derived
+TR54	Cell_differentiation 1221 1236	differentiation
+TR45	Gene_expression 380 389	expressed
+TR46	Gene_expression 457 466	expressed
+TR47	Regulation 485 493	involved
+TR48	Development 501 512	development
+TR40	Gene_expression 11 21	expression
+TR41	Cell_differentiation 92 107	differentiation
+TR42	Localization 117 127	deficiency
+TR49	Localization 621 628	present
+TR55	Blood_vessel_development 1470 1482	vascularized
+TR56	Development 1505 1513	immature
+TR57	Positive_regulation 1615 1625	activation
+TR52	Regulation 982 989	effects
+TR53	Catabolism 1010 1019	depletion
+TR59	Negative_regulation 1010 1019	depletion
+E1	Blood_vessel_development:TR44 
+E2	Death:TR43 Theme:T6
+E3	Cell_death:TR58 
+E4	Cell_differentiation:TR51 Theme:T23
+E5	Development:TR50 Theme:T20
+E6	Cell_differentiation:TR54 Theme:T34
+E7	Gene_expression:TR45 Theme:T11
+E8	Development:TR48 Theme:T15
+E9	Development:TR48 Theme:T14
+E10	Gene_expression:TR46 Theme:T12 Theme:T11
+E11	Gene_expression:TR46 Theme:T12
+E12	Gene_expression:TR46 Theme:T11
+E13	Regulation:TR47 Theme:T12 Cause:T12
+E14	Regulation:TR47 Theme:E8 Cause:T12
+E15	Regulation:TR47 Theme:E9 Cause:T12
+E16	Cell_differentiation:TR41 Theme:T3
+E17	Localization:TR42 AtLoc:T3 Theme:T5
+E18	Localization:TR42 Theme:T5
+E19	Gene_expression:TR40 Theme:T1
+E20	Localization:TR49 AtLoc:T19 Theme:T16
+E21	Localization:TR49 Theme:T16
+E22	Positive_regulation:TR57 Theme:T39
+E23	Development:TR56 Theme:T38
+E24	Blood_vessel_development:TR55 
+E25	Negative_regulation:TR59 Theme:T27

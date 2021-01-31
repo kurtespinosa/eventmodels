@@ -1,0 +1,40 @@
+T31	Planned_process 550 558	received
+T36	Planned_process 1161 1168	treated
+T44	Blood_vessel_development 1193 1205	avascularity
+T29	Planned_process 306 314	obtained
+T30	Planned_process 358 370	transplanted
+T42	Cell_proliferation 497 501	grow
+T32	Negative_regulation 757 767	diminution
+T24	Blood_vessel_development 8 18	angiogenic
+T25	Negative_regulation 34 42	inhibits
+T26	Growth 47 53	growth
+T33	Planned_process 911 918	treated
+T34	Localization 934 946	localization
+T35	Blood_vessel_development 1014 1026	vascularized
+T43	Negative_regulation 1053 1062	reduction
+T38	Negative_regulation 1391 1401	inhibition
+T39	Gene_expression 1420 1429	expressed
+T40	Positive_regulation 1435 1444	induction
+T41	Blood_vessel_development 1448 1460	angiogenesis
+T27	Blood_vessel_development 189 199	angiogenic
+T28	Planned_process 222 231	treatment
+T37	Negative_regulation 1249 1258	reduction
+E1	Planned_process:T31 Instrument:T9
+E2	Blood_vessel_development:T44 
+E3	Planned_process:T36 Instrument:T19
+E4	Planned_process:T30 Instrument:T6 Theme:T8
+E5	Negative_regulation:T32 Theme:T11
+E6	Blood_vessel_development:T24 
+E7	Growth:T26 Theme:T2
+E8	Negative_regulation:T25 Cause:T1 Theme:E7
+E9	Planned_process:T33 Instrument:T14
+E10	Blood_vessel_development:T35 AtLoc:T16
+E11	Negative_regulation:T43 Theme:T17
+E12	Localization:T34 Theme:T15
+E13	Blood_vessel_development:T41 
+E14	Gene_expression:T39 Theme:T22
+E15	Positive_regulation:T40 Cause:T22 Theme:E13
+E16	Negative_regulation:T38 Theme:E15 Cause:T23
+E17	Blood_vessel_development:T27 
+E18	Planned_process:T28 Instrument:T4 Theme:T5
+E19	Negative_regulation:T37 Theme:T21

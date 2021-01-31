@@ -1,0 +1,24 @@
+TR44	Negative_regulation 1311 1318	protect
+TR45	Breakdown 1341 1347	damage
+TR40	Positive_regulation 964 973	increases
+TR41	Positive_regulation 1033 1040	induced
+TR33	Blood_vessel_development 124 132	vascular
+TR34	Positive_regulation 153 160	induces
+TR35	Blood_vessel_development 161 173	angiogenesis
+TR36	Development 179 190	development
+TR38	Positive_regulation 356 367	upregulated
+TR39	Breakdown 519 528	breakdown
+TR42	Positive_regulation 1074 1083	Increases
+TR43	Regulation 1098 1108	contribute
+TR37	Localization 294 303	localized
+E1	Positive_regulation:TR40 Theme:T21
+E2	Blood_vessel_development:TR33 
+E3	Development:TR36 Theme:T5
+E4	Blood_vessel_development:TR35 
+E5	Positive_regulation:TR34 Theme:E3 Cause:T3
+E6	Positive_regulation:TR34 Theme:E3 Cause:T4
+E7	Positive_regulation:TR34 Cause:T3 Theme:E4
+E8	Positive_regulation:TR34 Cause:T4 Theme:E4
+E9	Breakdown:TR39 Theme:T16
+E10	Positive_regulation:TR38 Theme:T12
+E11	Positive_regulation:TR42 Theme:T26

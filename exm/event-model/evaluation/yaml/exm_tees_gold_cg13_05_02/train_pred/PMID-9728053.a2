@@ -1,0 +1,70 @@
+TR67	Localization 1324 1329	entry
+TR68	Regulation 1374 1382	produces
+TR69	Development 1388 1400	shape change
+TR79	Development 1394 1400	change
+TR80	Positive_regulation 1409 1418	dependent
+TR81	Mutation 1436 1449	rearrangement
+TR46	Positive_regulation 99 109	Activation
+TR47	Localization 118 123	entry
+TR48	Regulation 136 143	produce
+TR49	Development 161 173	shape change
+TR50	Localization 220 229	migration
+TR51	Positive_regulation 235 245	initiation
+TR52	Blood_vessel_development 249 261	angiogenesis
+TR71	Development 167 173	change
+TR72	Positive_regulation 175 182	leading
+TR73	Positive_regulation 186 195	increased
+TR65	Gene_expression 1240 1247	express
+TR66	Gene_expression 1266 1275	expressed
+TR53	Localization 316 321	entry
+TR54	Regulation 322 332	regulating
+TR64	Localization 1058 1063	entry
+TR42	Localization 23 28	entry
+TR43	Positive_regulation 29 37	promotes
+TR44	Development 38 50	shape change
+TR45	Gene_expression 82 92	expressing
+TR70	Development 44 50	change
+TR59	Development 695 702	Changes
+TR60	Positive_regulation 765 774	dependent
+TR61	Localization 783 788	entry
+TR62	Positive_regulation 789 796	induced
+TR63	Regulation 797 812	reconfiguration
+TR77	Regulation 695 702	Changes
+TR78	Remodeling 797 812	reconfiguration
+TR55	Positive_regulation 444 451	promote
+TR56	Development 457 469	shape change
+TR74	Positive_regulation 377 387	activation
+TR75	Development 463 469	change
+TR57	Positive_regulation 560 569	increased
+TR58	Positive_regulation 599 608	dependent
+TR76	Positive_regulation 505 515	activation
+E1	Localization:TR67 Theme:T36
+E2	Mutation:TR81 Theme:T39
+E3	Development:TR79 Theme:T38
+E4	Development:TR69 Theme:T38
+E5	Positive_regulation:TR80 Theme:E2
+E6	Positive_regulation:TR80 Theme:E3
+E7	Regulation:TR68 Theme:E4 Cause:E1
+E8	Localization:TR47 Theme:T4
+E9	Development:TR71 Theme:T5
+E10	Blood_vessel_development:TR52 
+E11	Localization:TR50 Theme:T6
+E12	Development:TR49 Theme:T5
+E13	Positive_regulation:TR46 Theme:E8
+E14	Gene_expression:TR65 Theme:T33
+E15	Localization:TR53 Theme:T8
+E16	Regulation:TR54 Theme:T9 Cause:E15
+E17	Localization:TR64 Theme:T26
+E18	Development:TR44 Theme:T2
+E19	Gene_expression:TR45 Theme:T3
+E20	Localization:TR42 Theme:T1
+E21	Positive_regulation:TR43 Theme:E18 Cause:E20
+E22	Development:TR59 Theme:T17
+E23	Regulation:TR77 Theme:T17
+E24	Localization:TR61 Theme:T18
+E25	Development:TR75 Theme:T11
+E26	Development:TR56 Theme:T11
+E27	Positive_regulation:TR74 Theme:T10
+E28	Positive_regulation:TR55 Theme:E26
+E29	Positive_regulation:TR57 Theme:T15
+E30	Positive_regulation:TR58 Theme:E29 Cause:T16

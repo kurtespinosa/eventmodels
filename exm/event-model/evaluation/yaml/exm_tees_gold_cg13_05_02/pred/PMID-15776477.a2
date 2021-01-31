@@ -1,0 +1,40 @@
+T46	Regulation 429 433	role
+T44	Blood_vessel_development 219 229	angiogenic
+T45	Positive_regulation 247 259	increasingly
+T51	Gene_expression 850 860	expression
+T52	Positive_regulation 864 876	up-regulated
+T53	Localization 946 954	invasive
+T54	Gene_expression 1020 1030	expression
+T55	Localization 1034 1042	invasive
+T58	Positive_regulation 1573 1582	important
+T59	Positive_regulation 1600 1611	progression
+T60	Regulation 1668 1674	target
+T61	Development 1600 1611	progression
+T47	Gene_expression 470 480	expression
+T48	Carcinogenesis 506 516	transition
+T49	Localization 575 583	invasive
+T50	Localization 674 682	invasive
+T42	Positive_regulation 14 26	up-regulated
+T43	Death 140 148	survival
+T56	Death 1459 1467	survival
+T57	Gene_expression 1518 1528	expression
+E1	Regulation:T46 Cause:T8 Theme:T7
+E2	Blood_vessel_development:T44 
+E3	Positive_regulation:T45 Theme:E2
+E4	Gene_expression:T51 Theme:T18
+E5	Localization:T53 Theme:T22
+E6	Localization:T53 Theme:T25
+E7	Localization:T55 Theme:T25
+E8	Gene_expression:T54 Theme:T24
+E9	Positive_regulation:T52 Theme:E4
+E10	Positive_regulation:T59 Cause:T41 Theme:T39
+E11	Positive_regulation:T59 Cause:T41 Theme:T40
+E12	Regulation:T60 Cause:T41 Theme:T40
+E13	Development:T61 Theme:T39
+E14	Gene_expression:T47 Theme:T9
+E15	Localization:T49 Theme:T12
+E16	Localization:T50 Theme:T14
+E17	Death:T43 Theme:T4
+E18	Positive_regulation:T42 Theme:T1
+E19	Gene_expression:T57 Theme:T37
+E20	Death:T56 Theme:T36

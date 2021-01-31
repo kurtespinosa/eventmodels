@@ -1,0 +1,18 @@
+TR24	Positive_regulation 194 201	enhance
+TR17	Planned_process 82 89	therapy
+TR21	Blood_vessel_development 684 694	angiogenic
+TR22	Planned_process 823 830	treated
+TR23	Blood_vessel_development 834 844	angiogenic
+TR18	Development 539 550	development
+TR19	Blood_vessel_development 580 595	neoangiogenesis
+TR20	Blood_vessel_development 599 617	neovascularization
+TR25	Regulation 520 531	participate
+E1	Positive_regulation:TR24 Theme:T5
+E2	Planned_process:TR17 Instrument:T2 Instrument:T1 Theme:T3
+E3	Blood_vessel_development:TR21 
+E4	Blood_vessel_development:TR23 
+E5	Planned_process:TR22 Theme:T16
+E6	Blood_vessel_development:TR20 Theme:T13
+E7	Development:TR18 Theme:T13
+E8	Blood_vessel_development:TR19 
+E9	Regulation:TR25 Theme:E6

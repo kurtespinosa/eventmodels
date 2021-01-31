@@ -1,0 +1,41 @@
+T33	Positive_regulation 87 97	activation
+T34	Localization 105 114	transport
+T35	Positive_regulation 214 225	stimulation
+T36	Localization 240 248	antiport
+T43	Synthesis 874 887	resynthesized
+T44	Glycolysis 892 902	glycolysis
+T45	Localization 1031 1040	transport
+T32	Localization 55 63	antiport
+T39	Localization 491 495	flux
+T40	Negative_regulation 503 513	diminishes
+T46	Synthesis 1109 1122	resynthesized
+T47	Glycolysis 1127 1137	glycolysis
+T49	Glycolysis 1340 1350	glycolysis
+T41	Glycolysis 707 717	glycolysis
+T42	Negative_regulation 718 727	decreases
+T50	Binding 535 545	adsorption
+T51	Negative_regulation 752 762	diminution
+T37	Localization 350 359	transport
+T38	Positive_regulation 360 369	increases
+T48	Synthesis 1304 1314	synthesize
+T52	Positive_regulation 1208 1216	increase
+T53	Positive_regulation 1284 1292	enhanced
+T54	Gene_expression 1304 1314	synthesize
+E1	Localization:T34 Theme:T4
+E2	Positive_regulation:T33 Theme:E1
+E3	Glycolysis:T44 
+E4	Synthesis:T43 Theme:T22
+E5	Localization:T32 AtLoc:T3 Theme:T2 Theme:T1
+E6	Localization:T32 Theme:T2 Theme:T1
+E7	Localization:T39 Theme:T16
+E8	Negative_regulation:T40 Theme:E7
+E9	Glycolysis:T47 
+E10	Synthesis:T46 Theme:T25
+E11	Glycolysis:T49 
+E12	Glycolysis:T41 
+E13	Negative_regulation:T42 Theme:E12
+E14	Localization:T37 Theme:T12
+E15	Positive_regulation:T38 Theme:E14
+E16	Positive_regulation:T52 Theme:T26
+E17	Positive_regulation:T52 Theme:T27
+E18	Synthesis:T48 Theme:T29

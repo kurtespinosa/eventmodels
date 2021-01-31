@@ -1,0 +1,69 @@
+T74	Positive_regulation 1439 1445	induce
+T75	Cell_proliferation 1450 1463	proliferation
+T76	Cell_transformation 1544 1556	transforming
+T66	Positive_regulation 883 892	stimulate
+T67	Cell_proliferation 897 910	proliferation
+T50	Localization 236 243	present
+T46	Positive_regulation 27 34	induces
+T47	Cell_proliferation 35 48	proliferation
+T48	Positive_regulation 92 105	cooperatively
+T49	Cell_transformation 106 116	transforms
+T68	Positive_regulation 1038 1047	induction
+T69	Cell_division 1056 1064	doubling
+T70	Infection 1174 1183	infection
+T71	Infection 1215 1225	uninfected
+T56	Regulation 551 574	plays pleiotropic roles
+T57	Cell_proliferation 583 589	growth
+T58	Negative_regulation 590 596	arrest
+T59	Cell_differentiation 598 613	differentiation
+T60	Cell_death 619 628	apoptosis
+T77	Regulation 569 574	roles
+T61	Regulation 694 699	roles
+T62	Cell_proliferation 716 729	proliferation
+T63	Cell_proliferation 734 740	growth
+T64	Regulation 741 751	regulation
+T65	Planned_process 781 792	constructed
+T51	Positive_regulation 390 400	sufficient
+T52	Cell_transformation 404 413	transform
+T53	Planned_process 422 433	established
+T54	Positive_regulation 470 476	induce
+T55	Carcinogenesis 481 495	tumorigenicity
+T72	Regulation 1255 1265	cooperates
+T73	Cell_transformation 1312 1324	transforming
+E1	Cell_proliferation:T75 Theme:T43
+E2	Cell_transformation:T76 Theme:T45
+E3	Positive_regulation:T74 Cause:T42 Theme:E1
+E4	Cell_proliferation:T67 Theme:T32
+E5	Cell_proliferation:T67 Theme:T31
+E6	Positive_regulation:T66 Theme:E4 Cause:T29
+E7	Positive_regulation:T66 Theme:E5 Cause:T29
+E8	Localization:T50 AtLoc:T14 Theme:T8
+E9	Localization:T50 AtLoc:T13 Theme:T8
+E10	Localization:T50 AtLoc:T12 Theme:T8
+E11	Cell_proliferation:T47 Theme:T4
+E12	Cell_transformation:T49 Theme:T5
+E13	Positive_regulation:T48 Cause:T7 Theme:E12
+E14	Positive_regulation:T48 Cause:T1 Theme:E12
+E15	Positive_regulation:T46 Cause:T1 Theme:E11
+E16	Cell_division:T69 Theme:T34
+E17	Infection:T71 Theme:T37
+E18	Infection:T70 Theme:T35 Participant:T36
+E19	Cell_proliferation:T57 Theme:T21
+E20	Cell_death:T60 Theme:T21
+E21	Cell_differentiation:T59 Theme:T21
+E22	Negative_regulation:T58 Theme:E19
+E23	Cell_proliferation:T63 Theme:T25
+E24	Cell_proliferation:T63 Theme:T24
+E25	Cell_proliferation:T62 Theme:T24
+E26	Regulation:T64 Theme:E23
+E27	Regulation:T64 Theme:E24
+E28	Cell_transformation:T52 Theme:T17
+E29	Planned_process:T53 Theme:T17
+E30	Carcinogenesis:T55 AtLoc:T19
+E31	Positive_regulation:T51 Theme:E28 Cause:T16
+E32	Positive_regulation:T51 Theme:E28 Cause:T15
+E33	Positive_regulation:T54 Theme:E30 Cause:T15
+E34	Positive_regulation:T54 Theme:E30
+E35	Cell_transformation:T73 Theme:T41
+E36	Regulation:T72 Cause:T38 Theme:E35
+E37	Regulation:T72 Cause:T40 Theme:E35

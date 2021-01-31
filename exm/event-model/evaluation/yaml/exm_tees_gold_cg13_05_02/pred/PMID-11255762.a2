@@ -1,0 +1,38 @@
+T32	Positive_regulation 476 487	enhancement
+T33	Breakdown 541 553	condensation
+T34	Cell_death 604 613	apoptosis
+T30	Positive_regulation 440 446	induce
+T31	Cell_death 456 465	apoptosis
+T37	Positive_regulation 986 995	induction
+T38	Cell_death 999 1008	apoptosis
+T39	Positive_regulation 1036 1044	inducing
+T40	Cell_death 1056 1065	apoptosis
+T41	Regulation 1091 1103	independence
+T35	Cell_death 741 750	apoptosis
+T36	Positive_regulation 751 760	increased
+T24	Regulation 123 132	influence
+T25	Positive_regulation 178 186	inducing
+T26	Cell_death 220 229	apoptosis
+T27	Planned_process 238 249	cultivating
+T28	Gene_expression 307 317	expression
+T29	Cell_death 330 339	apoptosis
+T22	Positive_regulation 52 60	inducing
+T23	Cell_death 65 74	apoptosis
+E1	Positive_regulation:T32 Theme:T14
+E2	Breakdown:T33 Theme:T15
+E3	Cell_death:T34 
+E4	Cell_death:T31 Theme:T13
+E5	Positive_regulation:T30 Theme:E4 Cause:T12
+E6	Cell_death:T38 
+E7	Cell_death:T40 Theme:T20
+E8	Positive_regulation:T37 Cause:T18 Theme:E6
+E9	Positive_regulation:T39 Theme:E7 Cause:T19
+E10	Regulation:T41 Cause:T21 Theme:E7
+E11	Cell_death:T35 Theme:T16
+E12	Positive_regulation:T36 Theme:E11
+E13	Planned_process:T27 Theme:T8
+E14	Cell_death:T26 Theme:T7
+E15	Gene_expression:T28 Theme:T10
+E16	Cell_death:T29 Theme:T11
+E17	Positive_regulation:T25 Theme:E14
+E18	Cell_death:T23 Theme:T3

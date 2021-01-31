@@ -1,0 +1,55 @@
+T31	Cell_transformation 22 36	transformation
+T32	Positive_regulation 22 36	transformation
+T33	Planned_process 74 84	gamma rays
+T34	Cell_transformation 196 207	transformed
+T35	Positive_regulation 196 207	transformed
+T36	Planned_process 262 283	gamma-ray irradiation
+T37	Cell_transformation 302 313	transformed
+T38	Carcinogenesis 377 388	tumorigenic
+T39	Planned_process 402 411	treatment
+T40	Growth 622 626	grew
+T41	Positive_regulation 627 640	progressively
+T42	Negative_regulation 657 667	regression
+T43	Death 672 678	killed
+T44	Planned_process 719 733	transplantable
+T45	Regulation 785 792	convert
+T46	Negative_regulation 902 924	worked as an initiator
+T47	Carcinogenesis 928 942	carcinogenesis
+T48	Positive_regulation 973 977	rise
+T49	Mutation 992 1003	aberrations
+T50	Regulation 1045 1058	played a role
+T51	Positive_regulation 1066 1077	progression
+T52	Cell_transformation 1096 1107	transformed
+T53	Carcinogenesis 1195 1209	tumorigenicity
+E1	Cell_transformation:T31 Theme:T2
+E2	Positive_regulation:T32 Theme:E1 Cause:E3
+E3	Planned_process:T33 Theme:T2 Instrument:T3
+E4	Cell_transformation:T34 Theme:T6
+E5	Positive_regulation:T35 Theme:E4 Cause:E6
+E6	Planned_process:T36 Theme:T6 Instrument:T8
+E7	Cell_transformation:T37 Theme:T9
+E8	Carcinogenesis:T38 AtLoc:T9
+M1	Negation E8
+E9	Planned_process:T39 Instrument:T11 Theme:T14
+E10	Growth:T40 Theme:T16
+E11	Positive_regulation:T41 Theme:E10
+E12	Negative_regulation:T42 Theme:T17 Cause:T16
+M2	Negation E12
+E13	Death:T43 Theme:T17
+M3	Negation E13
+E14	Planned_process:T44 Instrument:T18 Theme:T19
+E15	Regulation:T45 Theme:T22 Cause:T20
+M4	Negation E15
+E16	Negative_regulation:T46 Theme:E17
+E17	Carcinogenesis:T47 AtLoc:T26
+E18	Positive_regulation:T48 Theme:E19
+E19	Mutation:T49 AtLoc:T27
+E20	Regulation:T50 Cause:T28 Theme:E21
+E21	Positive_regulation:T51 Theme:E22
+E22	Cell_transformation:T52 Theme:T29
+E23	Carcinogenesis:T53
+E24	Positive_regulation:T32 Theme:E1 Cause:T4
+E25	Cell_transformation:T37 Theme:T10
+E26	Carcinogenesis:T38 AtLoc:T10
+M5	Negation E26
+E27	Regulation:T50 Cause:T28 Theme:E23

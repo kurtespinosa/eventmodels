@@ -1,0 +1,24 @@
+TR41	Regulation 1697 1704	effects
+TR42	Planned_process 1731 1738	therapy
+TR43	Positive_regulation 1739 1748	increased
+TR27	Negative_regulation 257 264	prevent
+TR28	Regulation 327 334	effects
+TR29	Planned_process 402 409	therapy
+TR30	Development 422 431	formation
+TR33	Planned_process 636 643	divided
+TR31	Planned_process 515 525	laparotomy
+TR32	Positive_regulation 529 534	cause
+TR34	Planned_process 740 747	treated
+TR35	Planned_process 788 795	therapy
+TR36	Planned_process 847 856	treatment
+TR38	Negative_regulation 1575 1584	decreased
+TR39	Planned_process 1620 1627	therapy
+TR40	Regulation 1646 1652	effect
+TR25	Planned_process 68 77	treatment
+TR26	Negative_regulation 85 95	prevention
+E1	Planned_process:TR42 Instrument:T23
+E2	Planned_process:TR33 Theme:T11
+E3	Planned_process:TR31 Theme:T8
+E4	Planned_process:TR35 Instrument:T13
+E5	Planned_process:TR34 Instrument:T12
+E6	Planned_process:TR39 Instrument:T20

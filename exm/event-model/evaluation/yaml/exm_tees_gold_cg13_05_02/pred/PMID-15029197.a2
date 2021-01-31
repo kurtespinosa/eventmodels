@@ -1,0 +1,61 @@
+T38	Positive_regulation 319 328	induction
+T39	Blood_vessel_development 332 344	angiogenesis
+T40	Positive_regulation 384 398	necessary part
+T41	Carcinogenesis 402 423	malignant progression
+T42	Regulation 482 492	regulation
+T43	Growth 509 515	growth
+T44	Blood_vessel_development 520 532	angiogenesis
+T60	Carcinogenesis 412 423	progression
+T45	Regulation 629 639	regulating
+T46	Growth 653 659	growth
+T47	Blood_vessel_development 664 676	angiogenesis
+T61	Regulation 617 625	involved
+T58	Regulation 1297 1318	has an important role
+T59	Development 1335 1347	pathogenesis
+T63	Regulation 1314 1318	role
+T55	Binding 1085 1094	interacts
+T56	Regulation 1162 1171	regulates
+T57	Blood_vessel_development 1185 1197	angiogenesis
+T62	Negative_regulation 1222 1232	repression
+T52	Negative_regulation 936 945	decreased
+T53	Gene_expression 946 956	expression
+T54	Growth 966 970	grow
+T34	Negative_regulation 21 31	suppressor
+T35	Regulation 45 54	regulates
+T36	Growth 68 74	growth
+T37	Blood_vessel_development 79 91	angiogenesis
+T48	Gene_expression 678 688	Expression
+T49	Negative_regulation 714 721	reduced
+T50	Negative_regulation 795 804	reduction
+T51	Development 825 836	progression
+E1	Carcinogenesis:T60 
+E2	Blood_vessel_development:T44 AtLoc:T9
+E3	Growth:T43 Theme:T9
+E4	Carcinogenesis:T41 Theme:T9
+E5	Blood_vessel_development:T39 AtLoc:T8
+E6	Positive_regulation:T38 Theme:E5
+E7	Regulation:T42 Theme:E3
+E8	Regulation:T42 Theme:E2
+E9	Positive_regulation:T40 Cause:E5 Theme:T9
+E10	Positive_regulation:T40 Cause:E5 Theme:E4
+E11	Blood_vessel_development:T47 AtLoc:T12
+E12	Growth:T46 Theme:T12
+E13	Regulation:T45 Theme:T12
+E14	Development:T59 Theme:T33
+E15	Regulation:T63 Theme:E14 Cause:T32
+E16	Regulation:T58 Theme:E14 Cause:T32
+E17	Blood_vessel_development:T57 AtLoc:T30
+E18	Regulation:T56 Theme:E17 Cause:T29
+E19	Gene_expression:T53 Theme:T22
+E20	Growth:T54 Theme:T23
+E21	Negative_regulation:T52 Theme:E19
+E22	Growth:T36 Theme:T3
+E23	Blood_vessel_development:T37 AtLoc:T3
+E24	Regulation:T35 Cause:T2 Theme:E23
+E25	Regulation:T35 Cause:T2 Theme:T3
+E26	Regulation:T35 Cause:T2 Theme:E22
+E27	Negative_regulation:T34 Cause:T2 Theme:E22
+E28	Negative_regulation:T34 Cause:T2 Theme:T1
+E29	Gene_expression:T48 Theme:T13
+E30	Development:T51 Theme:T17
+E31	Negative_regulation:T49 Cause:E29 Theme:T14

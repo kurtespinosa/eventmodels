@@ -1,0 +1,48 @@
+TR50	Positive_regulation 913 919	induce
+TR51	Cell_differentiation 925 940	differentiation
+TR52	Cell_proliferation 948 954	growth
+TR53	Negative_regulation 955 965	inhibition
+TR54	Negative_regulation 1042 1052	prevention
+TR34	Positive_regulation 38 44	induce
+TR35	Cell_differentiation 45 60	differentiation
+TR36	Cell_proliferation 65 71	growth
+TR37	Negative_regulation 72 82	inhibition
+TR39	Carcinogenesis 177 191	carcinogenesis
+TR40	Mutation 225 240	genetic changes
+TR41	Positive_regulation 246 251	cause
+TR42	Carcinogenesis 268 274	become
+TR59	Mutation 233 240	changes
+TR55	Regulation 1106 1112	effect
+TR56	Positive_regulation 1191 1198	enhance
+TR57	Positive_regulation 1231 1237	induce
+TR58	Cell_differentiation 1238 1253	differentiation
+TR43	Regulation 354 364	mechanisms
+TR44	Carcinogenesis 368 382	carcinogenesis
+TR45	Negative_regulation 459 465	reduce
+TR46	Carcinogenesis 470 474	risk
+TR47	Carcinogenesis 544 558	carcinogenesis
+TR48	Negative_regulation 650 656	reduce
+TR49	Carcinogenesis 661 665	risk
+TR38	Negative_regulation 126 136	prevention
+E1	Cell_proliferation:TR52 Theme:T18
+E2	Negative_regulation:TR54 Theme:T20
+E3	Negative_regulation:TR53 Theme:E1
+E4	Cell_differentiation:TR35 Theme:T2
+E5	Cell_proliferation:TR36 Theme:T2
+E6	Negative_regulation:TR37 Theme:E5
+E7	Positive_regulation:TR34 Theme:E6 Cause:T1
+E8	Positive_regulation:TR34 Cause:T1 Theme:E4
+E9	Carcinogenesis:TR39 
+E10	Carcinogenesis:TR42 AtLoc:T6
+E11	Cell_differentiation:TR58 Theme:T26
+E12	Positive_regulation:TR57 Theme:E11
+E13	Positive_regulation:TR56 Theme:E12 Cause:T24
+E14	Positive_regulation:TR56 Theme:E12 Cause:T25
+E15	Positive_regulation:TR56 Theme:T26 Cause:T24
+E16	Positive_regulation:TR56 Theme:T26 Cause:T25
+E17	Carcinogenesis:TR44 Theme:T12
+E18	Carcinogenesis:TR47 
+E19	Carcinogenesis:TR46 Theme:T12
+E20	Carcinogenesis:TR49 Theme:T14
+E21	Negative_regulation:TR48 Cause:T13 Theme:E20
+E22	Negative_regulation:TR38 Theme:T3

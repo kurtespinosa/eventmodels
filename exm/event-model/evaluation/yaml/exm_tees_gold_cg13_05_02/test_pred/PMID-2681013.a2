@@ -1,0 +1,35 @@
+TR26	Metastasis 27 37	metastatic
+TR27	Cell_transformation 59 70	transformed
+TR30	Cell_transformation 425 436	Transformed
+TR35	Gene_expression 704 714	expression
+TR36	Metastasis 764 774	metastasis
+TR37	Gene_expression 800 810	expression
+TR39	Binding 1125 1133	adhesion
+TR40	Regulation 1147 1156	affecting
+TR41	Metastasis 1167 1177	metastatic
+TR42	Localization 1178 1187	spreading
+TR38	Planned_process 877 885	injected
+TR28	Gene_expression 341 351	expression
+TR29	Cell_transformation 400 411	transformed
+TR31	Cell_transformation 514 525	transformed
+TR32	Planned_process 537 543	cloned
+TR33	Carcinogenesis 558 569	tumorigenic
+TR34	Gene_expression 620 630	expression
+E1	Cell_transformation:TR27 Theme:T3
+E2	Metastasis:TR26 
+E3	Cell_transformation:TR30 Theme:T12
+E4	Gene_expression:TR35 Theme:T17
+E5	Metastasis:TR36 
+E6	Gene_expression:TR37 Theme:T18
+E7	Metastasis:TR41 
+E8	Binding:TR39 Theme:T23
+E9	Localization:TR42 Theme:T25
+E10	Regulation:TR40 Cause:T23 Theme:E9
+E11	Regulation:TR40 Theme:E9
+E12	Planned_process:TR38 Instrument:T20 Theme:T21
+E13	Gene_expression:TR28 Theme:T9
+E14	Cell_transformation:TR29 Theme:T10
+E15	Planned_process:TR32 Theme:T14
+E16	Carcinogenesis:TR33 AtLoc:T14
+E17	Gene_expression:TR34 Theme:T16
+E18	Cell_transformation:TR31 Theme:T14

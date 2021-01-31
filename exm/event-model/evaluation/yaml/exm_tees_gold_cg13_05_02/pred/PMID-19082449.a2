@@ -1,0 +1,39 @@
+T44	Gene_expression 1097 1107	expressing
+T51	Death 1032 1040	survival
+T52	Death 1059 1067	survival
+T33	Gene_expression 85 95	expression
+T40	Gene_expression 541 551	expression
+T41	Regulation 668 672	role
+T39	Gene_expression 469 479	expression
+T34	Regulation 196 219	plays an essential role
+T35	Blood_vessel_development 223 235	angiogenesis
+T49	Regulation 215 219	role
+T50	Development 240 251	development
+T47	Gene_expression 1432 1440	positive
+T48	Gene_expression 1499 1507	negative
+T36	Gene_expression 286 296	expression
+T37	Positive_regulation 310 318	enhanced
+T38	Localization 319 331	invasiveness
+T43	Gene_expression 935 945	expression
+T42	Localization 754 762	presence
+T45	Gene_expression 1236 1246	expression
+T46	Localization 1315 1323	invasion
+E1	Death:T51 Theme:T22
+E2	Gene_expression:T44 Theme:T24
+E3	Death:T52 Theme:T22
+E4	Gene_expression:T33 Theme:T1
+E5	Regulation:T41 Cause:T13 Theme:T14
+E6	Regulation:T41 Cause:T13 Theme:T11
+E7	Gene_expression:T40 Theme:T11
+E8	Gene_expression:T39 Theme:T9
+E9	Blood_vessel_development:T35 
+E10	Regulation:T34 Cause:T4 Theme:E9
+E11	Regulation:T34 Cause:T5 Theme:E9
+E12	Regulation:T49 Cause:T4 Theme:E9
+E13	Regulation:T49 Theme:E9 Cause:T5
+E14	Gene_expression:T47 Theme:T29
+E15	Gene_expression:T48 Theme:T30
+E16	Gene_expression:T36 Theme:T6
+E17	Gene_expression:T43 Theme:T21
+E18	Gene_expression:T45 Theme:T25
+E19	Localization:T46 Theme:T26

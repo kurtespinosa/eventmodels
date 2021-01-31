@@ -1,0 +1,17 @@
+T19	Planned_process 0 20	Photodynamic therapy
+T20	Blood_vessel_development 62 80	neovascularization
+T21	Planned_process 181 201	photodynamic therapy
+T22	Blood_vessel_development 249 267	neovascularization
+T23	Blood_vessel_development 269 272	CNV
+T24	Planned_process 367 370	PDT
+T25	Planned_process 421 441	Photodynamic Therapy
+T26	Planned_process 610 621	angiography
+T27	Planned_process 679 688	treatment
+T28	Blood_vessel_development 1397 1400	CNV
+T29	Planned_process 1450 1453	PDT
+T30	Blood_vessel_development 1488 1491	CNV
+T31	Planned_process 1602 1605	PDT
+E6	Planned_process:T24 Theme:T5
+E7	Planned_process:T25 Instrument:T7 Theme:T5
+E13	Planned_process:T31 Instrument:T18 Theme:T16
+E14	Planned_process:T31 Instrument:T18 Theme:T17

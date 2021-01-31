@@ -1,0 +1,39 @@
+TR40	Blood_vessel_development 427 439	angiogenesis
+TR41	Planned_process 567 577	refractory
+TR35	Blood_vessel_development 191 203	Angiogenesis
+TR36	Positive_regulation 207 216	increased
+TR37	Regulation 277 283	target
+TR38	Negative_regulation 316 326	inhibition
+TR39	Planned_process 342 354	chemotherapy
+TR42	Planned_process 982 992	transplant
+TR43	Development 1457 1466	developed
+TR44	Planned_process 1504 1514	pretreated
+TR45	Development 1524 1533	developed
+TR46	Planned_process 1524 1533	developed
+TR34	Planned_process 88 95	therapy
+TR47	Localization 1633 1644	Circulating
+TR48	Negative_regulation 1684 1692	declined
+TR49	Negative_regulation 1786 1793	decline
+TR50	Positive_regulation 1821 1829	increase
+TR51	Blood_vessel_development 1895 1905	angiogenic
+TR52	Planned_process 2010 2020	pretreated
+TR53	Negative_regulation 2137 2144	decline
+TR54	Localization 2148 2159	circulating
+TR55	Negative_regulation 2248 2258	inhibiting
+TR56	Blood_vessel_development 2259 2271	angiogenesis
+E1	Planned_process:TR41 Theme:T10
+E2	Blood_vessel_development:TR40 
+E3	Blood_vessel_development:TR35 
+E4	Negative_regulation:TR38 Theme:T6
+E5	Positive_regulation:TR36 Theme:E3
+E6	Planned_process:TR42 Theme:T12 Instrument:T14
+E7	Planned_process:TR44 Theme:T19
+E8	Development:TR43 Theme:T18
+E9	Development:TR45 Theme:T20
+E10	Development:TR45 Theme:T21
+E11	Planned_process:TR34 Instrument:T1 Theme:T3 Instrument:T2
+E12	Localization:TR47 Theme:T22
+E13	Negative_regulation:TR48 Theme:T22
+E14	Blood_vessel_development:TR51 
+E15	Blood_vessel_development:TR56 
+E16	Localization:TR54 Theme:T32

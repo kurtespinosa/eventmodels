@@ -1,0 +1,59 @@
+T61	Positive_regulation 1124 1132	enhanced
+T62	Acetylation 1133 1144	acetylation
+T63	DNA_domain_or_region 1166 1181	promoter region
+T64	Positive_regulation 1193 1204	upregulated
+T65	Positive_regulation 1247 1262	transactivation
+T66	Transcription 1247 1262	transactivation
+T71	DNA_domain_or_region 1166 1174	promoter
+T72	Regulation 1231 1239	involved
+T46	Planned_process 285 290	treat
+T40	Positive_regulation 17 25	enhances
+T41	Positive_regulation 57 64	induced
+T42	Cell_death 65 74	apoptosis
+T43	Regulation 75 82	through
+T44	Positive_regulation 89 97	mediated
+T45	Positive_regulation 102 114	upregulation
+T50	Planned_process 747 759	gene therapy
+T51	Regulation 793 801	efficacy
+T70	Planned_process 752 759	therapy
+T49	Cell_death 592 604	proapoptotic
+T69	Positive_regulation 636 644	enhanced
+T47	Negative_regulation 487 506	suppressor activity
+T48	Planned_process 517 524	therapy
+T67	Negative_regulation 1361 1369	activity
+T68	Planned_process 1435 1442	therapy
+T52	Negative_regulation 870 883	downregulated
+T53	Positive_regulation 895 906	upregulated
+T54	Cell_death 907 919	proapoptotic
+T55	Gene_expression 948 958	expression
+T56	Positive_regulation 971 979	enhanced
+E1	Transcription:T66 Theme:T36
+E2	Positive_regulation:T64 Theme:T35 Cause:T34
+E3	Acetylation:T62 Theme:T32
+E4	Positive_regulation:T65 Theme:T36
+E5	Positive_regulation:T65 Theme:E1
+E6	Positive_regulation:T61 Theme:T32 Cause:T31
+E7	Positive_regulation:T61 Theme:E3 Cause:T31
+E8	Regulation:T72 Theme:E4 Cause:T35
+E9	Regulation:T72 Theme:E5 Cause:T35
+E10	Planned_process:T46 Theme:T11
+E11	Positive_regulation:T45 Theme:T5
+E12	Cell_death:T42 
+E13	Positive_regulation:T44 Theme:T5 Cause:T4
+E14	Positive_regulation:T44 Cause:T4 Theme:E11
+E15	Positive_regulation:T41 Theme:E12
+E16	Regulation:T43 Cause:T2 Theme:E13
+E17	Regulation:T43 Cause:T2 Theme:E14
+E18	Regulation:T43 Cause:T2 Theme:E11
+E19	Regulation:T43 Cause:T4 Theme:E13
+E20	Regulation:T43 Cause:T4 Theme:E14
+E21	Regulation:T43 Cause:T4 Theme:E11
+E22	Positive_regulation:T40 Cause:E11 Theme:E12
+E23	Positive_regulation:T40 Theme:E12 Cause:E13
+E24	Positive_regulation:T40 Theme:E12 Cause:E14
+E25	Cell_death:T49 
+E26	Planned_process:T48 Instrument:T16
+E27	Planned_process:T68 Instrument:T39
+E28	Negative_regulation:T52 Theme:T25 Cause:T24
+E29	Negative_regulation:T52 Theme:T26 Cause:T24
+E30	Positive_regulation:T53 Theme:T26

@@ -1,0 +1,44 @@
+TR39	Positive_regulation 734 742	activate
+TR40	Pathway 748 766	signaling pathways
+TR41	Carcinogenesis 819 830	oncogenesis
+TR43	Pathway 758 766	pathways
+TR44	Regulation 804 815	contributes
+TR26	Positive_regulation 0 8	Enhanced
+TR27	Binding 13 20	binding
+TR28	Cell_transformation 66 77	transformed
+TR33	Binding 410 417	binding
+TR34	Positive_regulation 528 537	activated
+TR29	Positive_regulation 132 138	induce
+TR30	Phosphorylation 148 163	phosphorylation
+TR42	Positive_regulation 240 248	activate
+TR35	Positive_regulation 562 571	Induction
+TR36	Binding 584 591	binding
+TR37	Phosphorylation 629 644	phosphorylation
+TR38	Cell_transformation 678 692	transformation
+TR31	Cell_transformation 279 290	transformed
+TR32	Positive_regulation 358 368	activation
+E1	Carcinogenesis:TR41 
+E2	Pathway:TR43 Participant:T23
+E3	Regulation:TR44 Theme:E2 Cause:T25
+E4	Binding:TR27 Theme:T1
+E5	Cell_transformation:TR28 Theme:T3
+E6	Positive_regulation:TR26 Theme:E4
+E7	Binding:TR33 Theme:T14
+E8	Positive_regulation:TR34 Theme:T15 Cause:T17
+E9	Positive_regulation:TR34 Cause:T17 Theme:T16
+E10	Phosphorylation:TR30 Theme:T9 Site:T7
+E11	Phosphorylation:TR30 Theme:T9
+E12	Phosphorylation:TR30 Site:T7 Theme:T8
+E13	Phosphorylation:TR30 Theme:T8
+E14	Positive_regulation:TR29 Theme:E10 Cause:T6
+E15	Positive_regulation:TR29 Theme:E11 Cause:T6
+E16	Positive_regulation:TR29 Theme:E12 Cause:T6
+E17	Positive_regulation:TR29 Theme:E13 Cause:T6
+E18	Positive_regulation:TR29 Theme:E10 Cause:T5
+E19	Positive_regulation:TR29 Theme:E11 Cause:T5
+E20	Positive_regulation:TR29 Theme:E12 Cause:T5
+E21	Positive_regulation:TR29 Theme:E13 Cause:T5
+E22	Phosphorylation:TR37 Theme:T20 Site:T19
+E23	Phosphorylation:TR37 Theme:T20
+E24	Positive_regulation:TR32 Theme:T10
+E25	Cell_transformation:TR31 Theme:T10

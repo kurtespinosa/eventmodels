@@ -1,0 +1,51 @@
+TR37	Development 586 597	development
+TR38	Planned_process 617 624	treated
+TR39	Planned_process 637 647	transgenic
+TR40	Positive_regulation 679 689	activation
+TR50	Positive_regulation 571 579	promotes
+TR26	Positive_regulation 14 22	promotes
+TR27	Carcinogenesis 28 41	tumorigenesis
+TR28	Positive_regulation 45 55	triggering
+TR29	Positive_regulation 74 83	dependent
+TR30	Positive_regulation 163 173	initiating
+TR31	Carcinogenesis 174 185	carcinogens
+TR32	Development 216 227	development
+TR41	Positive_regulation 722 731	promotion
+TR42	Positive_regulation 742 751	induction
+TR43	Positive_regulation 773 780	results
+TR44	Positive_regulation 784 792	enhanced
+TR45	Cell_proliferation 804 817	proliferation
+TR46	Negative_regulation 825 834	abrogated
+TR47	Negative_regulation 846 854	ablation
+TR48	Negative_regulation 875 887	inactivation
+TR51	Mutation 846 854	ablation
+TR33	Positive_regulation 364 373	initiator
+TR34	Positive_regulation 420 428	promoter
+TR35	Positive_regulation 464 470	caused
+TR36	Positive_regulation 480 490	activation
+TR49	Carcinogenesis 444 454	initiation
+E1	Development:TR37 Theme:T15
+E2	Planned_process:TR38 Theme:T16
+E3	Positive_regulation:TR40 Theme:T18
+E4	Positive_regulation:TR40 Theme:T16
+E5	Carcinogenesis:TR27 AtLoc:T2
+E6	Development:TR32 Theme:T8
+E7	Carcinogenesis:TR31 
+E8	Positive_regulation:TR30 Theme:T7 Cause:E7
+E9	Cell_proliferation:TR45 Theme:T22
+E10	Negative_regulation:TR47 Theme:T22
+E11	Negative_regulation:TR47 Theme:T23
+E12	Positive_regulation:TR42 Theme:T21
+E13	Positive_regulation:TR44 Theme:T21
+E14	Positive_regulation:TR44 Theme:E9
+E15	Positive_regulation:TR41 Theme:T20 Cause:E12
+E16	Positive_regulation:TR43 Cause:T21 Theme:E9
+E17	Negative_regulation:TR46 Cause:E10 Theme:E15
+E18	Negative_regulation:TR46 Cause:E11 Theme:E15
+E19	Positive_regulation:TR33 Theme:T11
+E20	Positive_regulation:TR34 Theme:T12
+E21	Carcinogenesis:TR49 
+E22	Positive_regulation:TR36 Theme:E21
+E23	Positive_regulation:TR36 Theme:T13
+E24	Positive_regulation:TR35 Theme:T12 Cause:E22
+E25	Positive_regulation:TR35 Theme:T12 Cause:E23

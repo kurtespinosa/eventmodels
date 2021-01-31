@@ -1,0 +1,51 @@
+TR53	Gene_expression 1035 1049	Overexpression
+TR54	Positive_regulation 1035 1049	Overexpression
+TR55	Development 1077 1088	progression
+TR56	Positive_regulation 1077 1088	progression
+TR57	Localization 1129 1137	invasion
+TR58	Metastasis 1148 1158	metastasis
+TR41	Binding 133 144	interaction
+TR42	Positive_regulation 200 208	critical
+TR43	Development 223 233	initiation
+TR44	Positive_regulation 223 233	initiation
+TR45	Localization 244 252	invasion
+TR46	Metastasis 257 267	metastasis
+TR50	Gene_expression 840 853	overexpressed
+TR51	Positive_regulation 840 853	overexpressed
+TR52	Metastasis 900 910	metastases
+TR37	Development 11 22	progression
+TR38	Positive_regulation 11 22	progression
+TR39	Gene_expression 69 83	overexpression
+TR40	Positive_regulation 69 83	overexpression
+TR47	Regulation 319 330	implication
+TR48	Development 519 530	progression
+TR49	Metastasis 787 797	metastases
+E1	Gene_expression:TR53 Theme:T30
+E2	Development:TR55 Theme:T32
+E3	Metastasis:TR58 ToLoc:T33
+E4	Positive_regulation:TR56 Theme:T32
+E5	Positive_regulation:TR56 Theme:E3
+E6	Positive_regulation:TR56 Theme:E2
+E7	Positive_regulation:TR54 Theme:E1
+E8	Localization:TR45 Theme:T8
+E9	Binding:TR41 Theme:T6 Theme2:T7
+E10	Binding:TR41 Theme:T7 Theme2:T6
+E11	Development:TR43 Theme:T8
+E12	Metastasis:TR46 Theme:T8
+E13	Gene_expression:TR50 Theme:T24 Theme:T25 Theme:T23
+E14	Metastasis:TR52 ToLoc:T27 Theme:T26
+E15	Metastasis:TR52 ToLoc:T27
+E16	Metastasis:TR52 Theme:T26
+E17	Positive_regulation:TR51 Theme:E13
+E18	Positive_regulation:TR51 Theme:T24
+E19	Positive_regulation:TR51 Theme:T25
+E20	Positive_regulation:TR51 Theme:T23
+E21	Development:TR37 Theme:T2
+E22	Positive_regulation:TR38 Theme:T2
+E23	Positive_regulation:TR38 Theme:E21
+E24	Regulation:TR47 Cause:T9 Theme:T13
+E25	Regulation:TR47 Cause:T11 Theme:T13
+E26	Regulation:TR47 Cause:T12 Theme:T13
+E27	Regulation:TR47 Cause:T10 Theme:T13
+E28	Development:TR48 Theme:T15
+E29	Metastasis:TR49 ToLoc:T22

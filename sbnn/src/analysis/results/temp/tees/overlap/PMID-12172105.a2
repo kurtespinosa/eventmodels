@@ -1,0 +1,18 @@
+T39	Breakdown 55 65	detachment
+T40	Breakdown 89 101	degeneration
+T41	Remodeling 124 135	alterations
+T42	Breakdown 243 255	degeneration
+T43	Planned_process 303 314	angiography
+T44	Planned_process 464 475	angiography
+T45	Blood_vessel_development 595 607	vascularized
+T46	Blood_vessel_development 630 645	nonvascularized
+T47	Planned_process 688 699	angiography
+T48	Breakdown 775 785	detachment
+T49	Planned_process 862 873	angiography
+T50	Planned_process 901 912	angiography
+T51	Blood_vessel_development 1125 1144	neovascularizations
+T52	Blood_vessel_development 1228 1246	neovascularization
+T53	Positive_regulation 1364 1373	elevation
+T54	Planned_process 1514 1525	angiography
+E7	Blood_vessel_development:T45 AtLoc:T18
+E8	Blood_vessel_development:T46 AtLoc:T18

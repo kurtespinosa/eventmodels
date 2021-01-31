@@ -1,0 +1,44 @@
+TR41	Positive_regulation 471 478	induced
+TR42	Blood_vessel_development 479 491	angiogenesis
+TR49	Negative_regulation 834 845	ineffective
+TR50	Negative_regulation 853 863	inhibition
+TR51	Blood_vessel_development 867 879	angiogenesis
+TR37	Negative_regulation 24 31	inhibit
+TR38	Blood_vessel_development 36 48	angiogenesis
+TR39	Positive_regulation 49 56	induced
+TR55	Planned_process 1203 1217	administration
+TR52	Blood_vessel_development 1001 1013	angiogenesis
+TR53	Negative_regulation 1014 1024	inhibitory
+TR54	Mutation 1040 1049	amplified
+TR46	Blood_vessel_development 648 660	angiogenesis
+TR47	Negative_regulation 661 671	inhibitory
+TR48	Negative_regulation 672 678	effect
+TR40	Planned_process 280 285	treat
+TR56	Blood_vessel_development 1324 1336	angiogenesis
+TR57	Negative_regulation 1337 1347	inhibitory
+TR58	Negative_regulation 1348 1354	effect
+TR43	Blood_vessel_development 526 538	angiogenesis
+TR44	Positive_regulation 542 549	induced
+TR45	Planned_process 553 565	implantation
+E1	Blood_vessel_development:TR42 
+E2	Positive_regulation:TR41 Theme:E1 Cause:T14
+E3	Positive_regulation:TR41 Theme:E1
+E4	Blood_vessel_development:TR51 
+E5	Negative_regulation:TR50 Theme:E4
+E6	Negative_regulation:TR49 Theme:E5 Cause:T23
+E7	Negative_regulation:TR49 Theme:E5 Cause:T22
+E8	Blood_vessel_development:TR38 
+E9	Negative_regulation:TR37 Cause:T1 Theme:E8
+E10	Positive_regulation:TR39 Cause:T3 Theme:E8
+E11	Positive_regulation:TR39 Theme:E8
+E12	Planned_process:TR55 Instrument:T28
+E13	Blood_vessel_development:TR52 
+E14	Negative_regulation:TR53 Theme:E13 Cause:T24
+E15	Negative_regulation:TR53 Theme:E13 Cause:T25
+E16	Blood_vessel_development:TR46 
+E17	Planned_process:TR40 Instrument:T6 Instrument:T9 Theme:T12
+E18	Blood_vessel_development:TR56 
+E19	Planned_process:TR45 Theme:T16 Instrument:T15
+E20	Blood_vessel_development:TR43 
+E21	Positive_regulation:TR44 Cause:E19 Theme:E20
+E22	Positive_regulation:TR44 Theme:E20

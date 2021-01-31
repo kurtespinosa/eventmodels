@@ -1,0 +1,63 @@
+TR68	Pathway 270 275	cycle
+TR69	Negative_regulation 356 367	inactivated
+TR96	Negative_regulation 276 286	inhibitors
+TR64	Negative_regulation 143 163	negatively regulates
+TR65	Pathway 169 174	cycle
+TR66	Positive_regulation 175 186	progression
+TR67	Negative_regulation 215 225	inhibiting
+TR95	Regulation 154 163	regulates
+TR70	Gene_expression 416 423	express
+TR60	Negative_regulation 52 60	inhibits
+TR61	Pathway 66 71	cycle
+TR62	Positive_regulation 72 83	progression
+TR63	Cell_transformation 98 112	transformation
+TR84	Negative_regulation 1298 1305	inhibit
+TR85	Development 1311 1320	formation
+TR86	Regulation 1335 1346	independent
+TR87	Growth 1347 1353	growth
+TR88	Cell_transformation 1415 1427	transforming
+TR89	Negative_regulation 1428 1438	properties
+TR90	Positive_regulation 1465 1474	dependent
+TR98	Mutation 1357 1366	wild-type
+TR71	Gene_expression 549 558	expressed
+TR72	Negative_regulation 658 668	suppressor
+TR73	Pathway 685 692	pathway
+TR97	Negative_regulation 756 766	suppressor
+TR74	Gene_expression 967 976	expressed
+TR75	Gene_expression 1030 1040	expression
+TR76	Positive_regulation 1049 1056	induced
+TR77	Planned_process 1114 1123	treatment
+TR78	Pathway 1143 1148	cycle
+TR79	Negative_regulation 1149 1158	inhibitor
+E1	Pathway:TR68 Theme:T8
+E2	Negative_regulation:TR69 Cause:T9 Theme:T15
+E3	Negative_regulation:TR69 Theme:T15 Cause:T11
+E4	Negative_regulation:TR69 Theme:T15 Cause:T12
+E5	Negative_regulation:TR69 Theme:T15 Cause:T10
+E6	Negative_regulation:TR96 Theme:E1
+E7	Negative_regulation:TR67 Theme:T7 Cause:T5
+E8	Pathway:TR65 Participant:T6
+E9	Positive_regulation:TR66 Theme:E8
+E10	Regulation:TR95 Cause:E7 Theme:E9
+E11	Negative_regulation:TR64 Cause:E7 Theme:E9
+E12	Gene_expression:TR70 Theme:T16
+E13	Cell_transformation:TR63 Theme:T4
+E14	Pathway:TR61 Theme:T4
+E15	Positive_regulation:TR62 Theme:E14
+E16	Negative_regulation:TR60 Cause:T2 Theme:E15
+E17	Negative_regulation:TR60 Cause:T2 Theme:E13
+E18	Negative_regulation:TR60 Cause:T3 Theme:E15
+E19	Negative_regulation:TR60 Cause:T3 Theme:E13
+E20	Growth:TR87 Theme:T51
+E21	Growth:TR87 Theme:T49
+E22	Development:TR85 Theme:T49
+E23	Negative_regulation:TR84 Cause:T48 Theme:E20
+E24	Negative_regulation:TR84 Cause:T48 Theme:E21
+E25	Negative_regulation:TR84 Cause:T48 Theme:E22
+E26	Gene_expression:TR71 Theme:T20
+E27	Negative_regulation:TR72 Theme:T20 Cause:T23
+E28	Negative_regulation:TR72 Theme:T24 Cause:T23
+E29	Negative_regulation:TR72 Cause:T23 Theme:T23
+E30	Negative_regulation:TR97 Theme:T30 Cause:T28
+E31	Gene_expression:TR74 Theme:T32
+E32	Gene_expression:TR75 Theme:T40

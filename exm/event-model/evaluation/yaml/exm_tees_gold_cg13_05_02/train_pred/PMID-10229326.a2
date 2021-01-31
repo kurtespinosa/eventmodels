@@ -1,0 +1,52 @@
+TR61	Planned_process 1224 1233	treatment
+TR62	Positive_regulation 1234 1242	resulted
+TR63	Negative_regulation 1253 1263	inhibition
+TR64	Localization 1279 1292	incorporation
+TR65	Negative_regulation 1309 1319	inhibition
+TR66	Localization 1353 1366	incorporation
+TR67	Regulation 1404 1410	effect
+TR58	Planned_process 1023 1032	treatment
+TR59	Positive_regulation 1033 1041	resulted
+TR41	Glycosylation 0 15	N-glycosylation
+TR42	Positive_regulation 69 78	increased
+TR43	Binding 91 99	affinity
+TR44	Regulation 154 158	role
+TR45	Glycosylation 162 177	N-glycosylation
+TR46	Regulation 267 274	effects
+TR47	Glycosylation 282 297	N-glycosylation
+TR48	Localization 333 342	transport
+TR49	Planned_process 393 402	Treatment
+TR50	Negative_regulation 438 448	inhibition
+TR51	Localization 467 473	uptake
+TR52	Negative_regulation 516 524	decrease
+TR53	Binding 540 548	affinity
+TR70	Regulation 576 582	change
+TR54	Gene_expression 627 636	expressed
+TR55	Planned_process 813 822	Treatment
+TR56	Positive_regulation 864 872	resulted
+TR57	Negative_regulation 886 890	loss
+TR68	Glycosylation 1510 1525	N-glycosylation
+TR69	Regulation 1536 1559	plays an important role
+TR71	Regulation 1555 1559	role
+TR60	Negative_regulation 1137 1141	loss
+E1	Localization:TR66 Theme:T34 Theme:T35
+E2	Localization:TR66 Theme:T34
+E3	Localization:TR66 Theme:T35
+E4	Regulation:TR67 Cause:T36 Theme:T38
+E5	Binding:TR43 Theme:T3
+E6	Positive_regulation:TR42 Theme:E5
+E7	Glycosylation:TR45 Theme:T7
+E8	Glycosylation:TR47 Theme:T7
+E9	Localization:TR48 Theme:T9
+E10	Regulation:TR44 Cause:E7 Theme:T7
+E11	Regulation:TR46 Cause:T8 Theme:E9
+E12	Localization:TR51 Theme:T15
+E13	Binding:TR53 Theme:T16
+E14	Planned_process:TR49 Instrument:T14
+E15	Negative_regulation:TR50 Theme:E12 Cause:E14
+E16	Negative_regulation:TR52 Theme:E13 Cause:E14
+E17	Gene_expression:TR54 Theme:T20
+E18	Planned_process:TR55 Theme:T25 Instrument:T26
+E19	Glycosylation:TR68 Theme:T40
+E20	Regulation:TR69 Cause:E19 Theme:T40
+E21	Negative_regulation:TR60 Theme:T31

@@ -1,0 +1,74 @@
+TR60	Positive_regulation 1291 1297	induce
+TR61	Cell_transformation 1298 1323	neoplastic transformation
+TR82	Cell_transformation 1309 1323	transformation
+TR50	Regulation 333 341	mediates
+TR51	Binding 376 383	contact
+TR77	Pathway 325 332	pathway
+TR62	Cell_transformation 1394 1403	transform
+TR63	Positive_regulation 1394 1403	transform
+TR64	Cell_transformation 1408 1420	immortalized
+TR65	Positive_regulation 1408 1420	immortalized
+TR76	Pathway 242 251	signaling
+TR66	Localization 1506 1516	accumulate
+TR67	Positive_regulation 1535 1541	induce
+TR68	Cell_transformation 1542 1556	transformation
+TR52	Catabolism 516 527	proteolytic
+TR78	Pathway 442 451	signaling
+TR79	Positive_regulation 507 515	triggers
+TR80	Protein_processing 528 538	processing
+TR53	Catabolism 559 570	proteolysis
+TR54	Localization 634 646	translocates
+TR42	Cell_transformation 0 25	Neoplastic transformation
+TR43	Positive_regulation 0 25	Neoplastic transformation
+TR44	Positive_regulation 35 43	requires
+TR45	Localization 52 64	localization
+TR74	Cell_transformation 11 25	transformation
+TR75	Positive_regulation 11 25	transformation
+TR58	Gene_expression 1095 1105	expression
+TR59	Localization 1172 1180	tethered
+TR81	Cell_transformation 1054 1066	Transforming
+TR46	Regulation 126 133	mediate
+TR47	Cell_differentiation 172 187	differentiation
+TR48	Cell_proliferation 189 202	proliferation
+TR49	Cell_death 208 217	apoptosis
+TR69	Positive_regulation 1635 1641	induce
+TR70	Cell_transformation 1642 1656	transformation
+TR71	Cell_transformation 1683 1697	transformation
+TR72	Positive_regulation 1683 1697	transformation
+TR73	Regulation 1752 1763	independent
+TR55	Positive_regulation 933 943	Activation
+TR56	Regulation 978 988	associated
+TR57	Carcinogenesis 994 1007	tumorigenesis
+E1	Cell_transformation:TR82 
+E2	Cell_transformation:TR61 
+E3	Positive_regulation:TR60 Cause:T27 Theme:E2
+E4	Positive_regulation:TR60 Theme:E2 Cause:T28
+E5	Binding:TR51 Theme:T8
+E6	Pathway:TR77 Participant:T7
+E7	Regulation:TR50 Cause:T7 Theme:E5
+E8	Cell_transformation:TR62 Theme:T34
+E9	Cell_transformation:TR62 Theme:T33
+E10	Cell_transformation:TR64 Theme:T34
+E11	Cell_transformation:TR64 Theme:T33
+E12	Positive_regulation:TR63 Cause:T29 Theme:E8
+E13	Positive_regulation:TR63 Cause:T29 Theme:E9
+E14	Positive_regulation:TR63 Theme:E8 Cause:T30
+E15	Positive_regulation:TR63 Theme:E9 Cause:T30
+E16	Positive_regulation:TR65 Theme:E10 Cause:T31
+E17	Positive_regulation:TR65 Theme:E11 Cause:T31
+E18	Pathway:TR76 Participant:T6
+E19	Cell_transformation:TR68 Theme:T37
+E20	Catabolism:TR52 Theme:T11
+E21	Protein_processing:TR80 Theme:T11
+E22	Localization:TR59 Theme:T25 ToLoc:T26
+E23	Gene_expression:TR58 Theme:T24
+E24	Cell_differentiation:TR47 Theme:T5
+E25	Cell_proliferation:TR48 Theme:T5
+E26	Cell_death:TR49 Theme:T5
+E27	Regulation:TR46 Cause:T3 Theme:E26
+E28	Regulation:TR46 Cause:T3 Theme:E25
+E29	Regulation:TR46 Cause:T3 Theme:E24
+E30	Cell_transformation:TR71 Theme:T39
+E31	Carcinogenesis:TR57 Theme:T23
+E32	Positive_regulation:TR55 Theme:T21
+E33	Regulation:TR56 Cause:E32 Theme:E31

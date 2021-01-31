@@ -1,0 +1,34 @@
+T20	Positive_regulation 454 464	increasing
+T21	Metastasis 478 488	metastasis
+T17	Metastasis 122 132	metastasis
+T22	Positive_regulation 809 819	increasing
+T23	Metastasis 820 830	metastatic
+T34	Metastasis 1488 1498	metastasis
+T19	Metastasis 356 366	metastasis
+T24	Pathway 960 978	glycolysis pathway
+T18	Metastasis 216 226	metastasis
+T28	Planned_process 1202 1211	knockdown
+T29	Positive_regulation 1224 1236	up-regulated
+T30	Regulation 1251 1257	target
+T31	Positive_regulation 1272 1279	induced
+T32	Cell_death 1285 1294	apoptosis
+T33	Metastasis 1302 1312	metastatic
+T25	Pathway 1087 1095	networks
+T26	Regulation 1146 1162	the key function
+T27	Metastasis 1179 1189	metastasis
+E1	Metastasis:T21 
+E2	Positive_regulation:T20 Theme:E1
+E3	Metastasis:T17 
+E4	Metastasis:T23 
+E5	Positive_regulation:T22 Theme:E4
+E6	Metastasis:T34 Theme:T16
+E7	Metastasis:T19 
+E8	Regulation:T30 Cause:T13 Theme:T12
+E9	Cell_death:T32 Theme:T14
+E10	Metastasis:T33 
+E11	Positive_regulation:T29 Theme:T14
+E12	Positive_regulation:T31 Cause:T12 Theme:E9
+E13	Metastasis:T27 
+E14	Pathway:T25 Participant:T11
+E15	Regulation:T26 Theme:E13 Cause:T10
+E16	Regulation:T26 Theme:E13 Cause:T9

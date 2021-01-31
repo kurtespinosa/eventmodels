@@ -1,0 +1,66 @@
+T40	Negative_regulation 22 32	suppresses
+T41	Regulation 61 69	mediated
+T42	Cell_transformation 79 93	transformation
+T43	Negative_regulation 218 237	negative regulators
+T44	Pathway 269 287	signaling pathways
+T45	Negative_regulation 317 336	negatively regulate
+T46	Positive_regulation 400 409	targeting
+T47	Catabolism 417 428	degradation
+T48	Positive_regulation 434 442	mediated
+T49	Cell_transformation 452 466	transformation
+T50	Negative_regulation 492 500	reverted
+T51	Gene_expression 512 522	expression
+T52	Negative_regulation 600 611	suppression
+T53	Cell_proliferation 637 643	growth
+T54	Negative_regulation 660 669	reduction
+T55	Phosphorylation 692 707	phosphorylation
+T56	Gene_expression 737 747	expression
+T57	Positive_regulation 778 785	targets
+T58	Ubiquitination 810 824	ubiquitination
+T59	Catabolism 829 840	degradation
+T60	Protein_domain_or_region 862 873	RING finger
+T61	Negative_regulation 920 928	prevents
+T62	Catabolism 933 944	degradation
+T63	Positive_regulation 1029 1038	Activated
+T64	Binding 1056 1064	anchored
+T65	Localization 1104 1117	localizations
+T66	Binding 1166 1177	interaction
+T67	Positive_regulation 1181 1189	required
+T68	Ubiquitination 1205 1219	ubiquitination
+T69	Catabolism 1224 1235	degradation
+T70	Binding 1303 1311	interact
+T71	Positive_regulation 1325 1333	targeted
+T72	Catabolism 1338 1349	degradation
+T73	Negative_regulation 1465 1473	suppress
+E1	Negative_regulation:T40 Theme:E3 Cause:T1
+E2	Regulation:T41 Theme:E3 Cause:T2
+E4	Negative_regulation:T43 Cause:T6 Theme:E5
+E6	Negative_regulation:T45 Theme:T15 Cause:E7
+E7	Positive_regulation:T46 Theme:E8 Cause:T13
+E9	Positive_regulation:T48 Cause:T16 Theme:E10
+E11	Negative_regulation:T50 Cause:E12 Theme:E10
+E13	Negative_regulation:T52 Theme:E14
+E15	Negative_regulation:T54 Theme:E16
+E18	Positive_regulation:T57 Cause:T25 Theme:E19 CSite:T60
+E21	Negative_regulation:T61 Theme:E22
+E27	Positive_regulation:T67 Cause:T33 Theme:E28
+E31	Positive_regulation:T71 Cause:T36 Theme:E32
+E34	Positive_regulation:T57 Cause:T25 Theme:E37 CSite:T60
+E35	Positive_regulation:T57 Cause:T25 Theme:E20 CSite:T60
+E36	Positive_regulation:T57 Cause:T25 Theme:E38 CSite:T60
+E41	Positive_regulation:T67 Cause:T33 Theme:E29
+E37	Ubiquitination:T58 Theme:T27
+E5	Pathway:T44 Participant:T12
+E29	Catabolism:T69 Theme:T31
+E14	Cell_proliferation:T53 Theme:T22
+E12	Gene_expression:T51 Theme:T21
+E32	Catabolism:T72 Theme:T35
+E20	Catabolism:T59 Theme:T25
+E8	Catabolism:T47 Theme:T15
+E10	Cell_transformation:T49 Theme:T19
+E16	Phosphorylation:T55 Theme:T21 Site:T23
+E19	Ubiquitination:T58 Theme:T25
+E22	Catabolism:T62 Theme:T28
+E28	Ubiquitination:T68 Theme:T31
+E38	Catabolism:T59 Theme:T27
+E3	Cell_transformation:T42 Theme:T4

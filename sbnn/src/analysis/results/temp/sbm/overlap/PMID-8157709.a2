@@ -1,0 +1,56 @@
+T36	Mutation 6 15	mutations
+T37	Metastasis 45 55	metastases
+T38	Carcinogenesis 92 105	tumorigenesis
+T39	Mutation 237 246	mutations
+T40	Mutation 414 423	mutations
+T41	Mutation 434 443	mutations
+T42	Metastasis 534 544	metastatic
+T43	Mutation 555 570	Point mutations
+T44	Metastasis 622 632	metastatic
+T45	Localization 730 738	invasive
+T46	Mutation 760 769	mutations
+T47	Mutation 788 800	substitution
+T48	DNA_domain_or_region 804 812	codon 12
+T49	Mutation 827 839	substitution
+T50	DNA_domain_or_region 843 851	codon 18
+T51	Mutation 968 976	mutation
+T52	Mutation 1015 1023	deletion
+T53	DNA_domain_or_region 1027 1034	codon 3
+T54	Positive_regulation 1050 1056	causes
+T55	Mutation 1059 1070	frame shift
+T56	DNA_domain_or_region 1109 1117	codon 19
+T57	Mutation 1146 1161	point mutations
+T58	Regulation 1185 1195	associated
+T59	Carcinogenesis 1211 1224	tumorigenesis
+T60	Mutation 1235 1250	point mutations
+T61	Positive_regulation 1276 1285	important
+T62	Development 1293 1302	formation
+T63	Growth 1310 1316	growth
+T64	Mutation 1356 1375	genomic instability
+T65	Metastasis 1421 1431	metastatic
+E1	Mutation:T36 Theme:T1 AtLoc:T3
+E2	Metastasis:T37 Theme:T3
+E4	Mutation:T39 Theme:T5 AtLoc:T8
+E6	Mutation:T41 Theme:T11 AtLoc:T13
+E7	Metastasis:T42 ToLoc:T14 Theme:T13
+E8	Mutation:T43 Theme:T15 AtLoc:T16
+E9	Metastasis:T44 Theme:T16
+E10	Localization:T45 Theme:T18
+E18	Mutation:T57 Theme:T30
+E19	Regulation:T58 Theme:E20 Cause:E18
+E20	Carcinogenesis:T59 AtLoc:T32
+E21	Mutation:T60 Theme:T33
+E22	Positive_regulation:T61 Cause:E21 Theme:E23
+E23	Development:T62 Theme:T34
+E24	Growth:T63 Theme:T34
+E27	Mutation:T39 Theme:T7 AtLoc:T8
+E28	Mutation:T39 Theme:T5 AtLoc:T9
+E29	Mutation:T39 Theme:T7 AtLoc:T9
+E30	Mutation:T41 Theme:T12 AtLoc:T13
+E31	Mutation:T41 Theme:T12 AtLoc:T14
+E32	Mutation:T41 Theme:T11 AtLoc:T14
+E33	Mutation:T43 Theme:T15 AtLoc:T17
+E34	Mutation:T43 Theme:T15 AtLoc:T18
+E35	Mutation:T57 Theme:T31
+E36	Regulation:T58 Theme:E20 Cause:E35
+E37	Positive_regulation:T61 Cause:E21 Theme:E24

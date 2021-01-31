@@ -1,0 +1,50 @@
+T40	Gene_expression 559 576	positive staining
+T41	Metastasis 624 634	metastatic
+T55	Gene_expression 568 576	staining
+T37	Gene_expression 412 422	expression
+T38	Planned_process 461 469	resected
+T39	Metastasis 507 517	metastatic
+T42	Gene_expression 736 746	expression
+T43	Metastasis 775 785	metastatic
+T46	Gene_expression 1009 1019	expression
+T47	Death 1052 1060	survival
+T44	Gene_expression 881 891	expression
+T45	Death 925 933	survival
+T35	Gene_expression 304 314	expression
+T36	Metastasis 346 356	metastatic
+T51	Gene_expression 1327 1337	Expression
+T52	Metastasis 1365 1375	metastatic
+T53	Death 1419 1427	survival
+T48	Gene_expression 1151 1161	expression
+T49	Death 1179 1187	survival
+T50	Gene_expression 1238 1248	expression
+T32	Metastasis 156 166	metastatic
+T33	Gene_expression 196 206	expression
+T34	Metastasis 253 263	metastatic
+T31	Localization 61 69	positive
+T54	Gene_expression 61 69	positive
+E1	Metastasis:T41 ToLoc:T14
+E2	Gene_expression:T55 Theme:T12
+E3	Gene_expression:T40 Theme:T12
+E4	Metastasis:T39 Theme:T10 ToLoc:T11
+E5	Metastasis:T39 Theme:T10
+E6	Metastasis:T39 ToLoc:T11
+E7	Gene_expression:T37 Theme:T9
+E8	Planned_process:T38 Theme:T10
+E9	Metastasis:T43 ToLoc:T17
+E10	Gene_expression:T42 Theme:T15
+E11	Death:T47 Theme:T23
+E12	Gene_expression:T46 Theme:T21
+E13	Gene_expression:T44 Theme:T18
+E14	Death:T45 Theme:T20
+E15	Gene_expression:T35 Theme:T7
+E16	Metastasis:T36 ToLoc:T8
+E17	Gene_expression:T51 Theme:T28
+E18	Death:T53 Theme:T30
+E19	Gene_expression:T48 Theme:T24
+E20	Death:T49 Theme:T25
+E21	Gene_expression:T50 Theme:T26
+E22	Gene_expression:T33 Theme:T5
+E23	Metastasis:T32 
+E24	Metastasis:T34 Theme:T6
+E25	Localization:T31 AtLoc:T2 Theme:T3

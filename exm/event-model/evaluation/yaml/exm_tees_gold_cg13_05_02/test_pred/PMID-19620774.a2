@@ -1,0 +1,44 @@
+TR59	Gene_expression 864 873	expressed
+TR60	Negative_regulation 932 945	downregulated
+TR61	Planned_process 968 982	administration
+TR62	Positive_regulation 1012 1020	resulted
+TR63	DNA_domain_or_region 1076 1084	promoter
+TR47	Pathway 245 254	signaling
+TR48	DNA_domain_or_region 266 271	exons
+TR53	Regulation 481 485	role
+TR54	Regulation 507 513	drives
+TR55	Gene_expression 522 532	expression
+TR56	Gene_expression 556 566	expression
+TR57	Planned_process 648 656	targeted
+TR58	DNA_domain_or_region 711 719	promoter
+TR73	DNA_domain_or_region 1490 1498	promoter
+TR74	Regulation 1499 1506	directs
+TR75	Gene_expression 1529 1539	expression
+TR76	Positive_regulation 1543 1552	activated
+TR77	Infection 1620 1629	infection
+TR49	Positive_regulation 319 326	induces
+TR50	Gene_expression 335 345	expression
+TR51	Negative_regulation 407 416	attenuate
+TR52	Positive_regulation 434 444	activation
+TR66	Gene_expression 1293 1302	deficient
+TR67	Positive_regulation 1321 1330	increased
+TR68	Positive_regulation 1368 1376	mediated
+TR69	Gene_expression 1385 1399	overexpression
+TR70	Positive_regulation 1385 1399	overexpression
+TR71	Negative_regulation 1400 1409	protected
+TR72	Positive_regulation 1422 1429	induced
+E1	Gene_expression:TR59 Theme:T23
+E2	Negative_regulation:TR60 Theme:T23
+E3	Gene_expression:TR55 Theme:T14
+E4	Gene_expression:TR56 Theme:T14
+E5	Regulation:TR54 Theme:E3
+E6	Positive_regulation:TR76 Theme:T45
+E7	Gene_expression:TR50 Theme:T11
+E8	Positive_regulation:TR52 Theme:T13
+E9	Negative_regulation:TR51 Theme:E8 Cause:E7
+E10	Positive_regulation:TR49 Cause:T10 Theme:E7
+E11	Gene_expression:TR66 Theme:T38
+E12	Gene_expression:TR69 Theme:T41
+E13	Positive_regulation:TR70 Theme:E12
+E14	Positive_regulation:TR70 Theme:T41
+E15	Positive_regulation:TR68 Cause:T40 Theme:E12

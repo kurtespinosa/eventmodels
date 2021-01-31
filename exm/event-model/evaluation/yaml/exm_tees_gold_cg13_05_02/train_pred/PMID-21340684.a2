@@ -1,0 +1,19 @@
+TR27	Cell_death 829 838	apoptotic
+TR18	Regulation 94 98	role
+TR29	Metabolism 69 79	metabolism
+TR24	Positive_regulation 499 509	positively
+TR25	Negative_regulation 514 533	negatively regulate
+TR26	Pathway 572 591	feedback signalling
+TR32	Pathway 581 591	signalling
+TR19	Regulation 269 279	regulation
+TR20	Glycolysis 283 293	glycolysis
+TR21	Amino_acid_catabolism 322 336	glutaminolysis
+TR22	Synthesis 370 382	biosynthesis
+TR23	Pathway 472 482	signalling
+TR30	Glycolysis 322 336	glutaminolysis
+TR31	Remodeling 398 407	integrity
+E1	Cell_death:TR27 
+E2	Synthesis:TR22 Theme:T7
+E3	Glycolysis:TR30 
+E4	Glycolysis:TR20 
+E5	Remodeling:TR31 Theme:T8

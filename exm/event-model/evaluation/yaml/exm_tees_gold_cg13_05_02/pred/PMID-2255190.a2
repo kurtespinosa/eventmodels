@@ -1,0 +1,24 @@
+T51	Planned_process 212 227	Immunodetection
+T52	Negative_regulation 392 402	neutralize
+T49	Gene_expression 0 10	Expression
+T57	Development 1050 1059	branching
+T59	Localization 1455 1463	presence
+T60	Regulation 1540 1551	play a role
+T61	Blood_vessel_development 1555 1567	angiogenesis
+T63	Regulation 1547 1551	role
+T58	Localization 1184 1189	found
+T53	Gene_expression 472 482	Expression
+T54	Localization 519 540	ubiquitously detected
+T62	Localization 532 540	detected
+T50	Localization 74 86	distribution
+E1	Planned_process:T51 Theme:T8
+E2	Negative_regulation:T52 Theme:T12
+E3	Gene_expression:T49 Theme:T1
+E4	Development:T57 Theme:T28
+E5	Localization:T59 Theme:T44 AtLoc:T45
+E6	Localization:T59 Theme:T44
+E7	Blood_vessel_development:T61 
+E8	Regulation:T63 Theme:E5
+E9	Regulation:T63 Theme:E6
+E10	Regulation:T60 Cause:T44 Theme:E7
+E11	Gene_expression:T53 Theme:T15

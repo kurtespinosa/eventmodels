@@ -1,0 +1,30 @@
+TR24	Positive_regulation 411 420	increased
+TR25	Binding 421 429	adhesion
+TR26	Metastasis 551 561	metastasis
+TR27	Negative_regulation 589 601	augmentation
+TR28	Metastasis 612 622	metastasis
+TR17	Metastasis 53 63	metastasis
+TR29	Positive_regulation 737 745	increase
+TR30	Metastasis 750 760	metastatic
+TR20	Positive_regulation 272 278	induce
+TR21	Gene_expression 283 293	expression
+TR22	Positive_regulation 333 340	enhance
+TR23	Gene_expression 345 355	expression
+TR18	Regulation 157 164	effects
+TR19	Binding 196 204	adhesion
+E1	Binding:TR25 Theme:T9 Theme2:T8
+E2	Binding:TR25 Theme:T8 Theme2:T9
+E3	Positive_regulation:TR24 Theme:E1
+E4	Positive_regulation:TR24 Theme:E2
+E5	Metastasis:TR26 ToLoc:T11
+E6	Metastasis:TR28 Theme:T13
+E7	Negative_regulation:TR27 Theme:E6
+E8	Metastasis:TR17 Theme:T1
+E9	Metastasis:TR30 Theme:T14
+E10	Positive_regulation:TR29 Theme:E9
+E11	Gene_expression:TR21 Theme:T4
+E12	Positive_regulation:TR20 Theme:E11
+E13	Binding:TR19 Theme:T2 Theme2:T3
+E14	Binding:TR19 Theme:T3 Theme2:T2
+E15	Regulation:TR18 Theme:E13
+E16	Regulation:TR18 Theme:E14

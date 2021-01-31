@@ -1,0 +1,124 @@
+TR68	Positive_regulation 958 965	induced
+TR69	Cell_death 983 992	apoptosis
+TR70	Regulation 996 1007	association
+TR71	Positive_regulation 1024 1033	dependent
+TR72	Catabolism 1040 1051	degradation
+TR108	Binding 996 1007	association
+TR80	Negative_regulation 1221 1230	depletion
+TR81	Negative_regulation 1279 1291	inactivation
+TR82	Planned_process 1313 1320	treated
+TR103	Blood_vessel_development 1915 1925	angiogenic
+TR104	Blood_vessel_development 2013 2025	angiogenesis
+TR54	Blood_vessel_development 90 100	angiogenic
+TR55	Planned_process 101 108	therapy
+TR56	Regulation 152 163	controlling
+TR57	Growth 168 174	growth
+TR58	Metastasis 179 189	metastasis
+TR83	Planned_process 1340 1355	supplementation
+TR84	Negative_regulation 1356 1364	reversed
+TR85	Negative_regulation 1369 1387	inhibitory effects
+TR86	Positive_regulation 1410 1419	increases
+TR87	Phosphorylation 1424 1439	phosphorylation
+TR88	Protein_domain_or_region 1452 1457	T(163
+TR89	Gene_expression 1460 1474	Overexpression
+TR90	Negative_regulation 1531 1539	reversed
+TR91	Regulation 1544 1550	effect
+TR92	Dephosphorylation 1568 1585	dephosphorylation
+TR93	Ubiquitination 1587 1601	ubiquitination
+TR94	Catabolism 1607 1618	degradation
+TR95	Regulation 1651 1661	regulation
+TR110	Negative_regulation 1369 1379	inhibitory
+TR111	Positive_regulation 1460 1474	Overexpression
+TR112	Phosphorylation 1568 1585	dephosphorylation
+TR63	Blood_vessel_development 557 567	angiogenic
+TR64	Negative_regulation 568 576	activity
+TR65	Development 626 635	formation
+TR60	Blood_vessel_development 421 431	angiogenic
+TR61	Negative_regulation 432 441	mechanism
+TR62	Regulation 500 509	targeting
+TR106	Planned_process 500 509	targeting
+TR59	Negative_regulation 292 300	activity
+TR96	Positive_regulation 1734 1741	induces
+TR97	Negative_regulation 1754 1763	depletion
+TR98	Negative_regulation 1769 1781	inactivation
+TR99	Catabolism 1793 1804	degradation
+TR100	Positive_regulation 1833 1838	leads
+TR101	Negative_regulation 1842 1852	inhibition
+TR102	Blood_vessel_development 1856 1868	angiogenesis
+TR73	Negative_regulation 1053 1068	Down-regulation
+TR74	Positive_regulation 1078 1086	resulted
+TR75	Positive_regulation 1093 1101	increase
+TR76	Regulation 1111 1115	free
+TR77	Positive_regulation 1121 1131	activation
+TR78	Positive_regulation 1175 1183	mediated
+TR79	Cell_death 1184 1193	apoptosis
+TR109	Pathway 1149 1158	signaling
+TR49	Negative_regulation 5 13	inhibits
+TR50	Blood_vessel_development 14 26	angiogenesis
+TR51	Catabolism 30 41	degradation
+TR52	Positive_regulation 51 58	through
+TR53	Negative_regulation 63 75	inactivation
+TR105	Positive_regulation 30 41	degradation
+TR66	Regulation 701 707	effect
+TR67	Pathway 723 752	endothelial signaling pathway
+TR107	Pathway 745 752	pathway
+E1	Catabolism:TR72 Theme:T22
+E2	Binding:TR108 Theme:T22
+E3	Cell_death:TR69 Theme:T21
+E4	Cell_death:TR69 
+E5	Positive_regulation:TR71 Theme:E1
+E6	Positive_regulation:TR68 Theme:E3 Cause:T20
+E7	Positive_regulation:TR68 Theme:E4 Cause:T20
+E8	Regulation:TR70 Theme:E6 Cause:E1
+E9	Regulation:TR70 Theme:E7 Cause:E1
+E10	Negative_regulation:TR80 Theme:T28
+E11	Blood_vessel_development:TR104 
+E12	Blood_vessel_development:TR103 
+E13	Growth:TR57 Theme:T4
+E14	Blood_vessel_development:TR54 
+E15	Metastasis:TR58 Theme:T4
+E16	Planned_process:TR55 Theme:E14
+E17	Regulation:TR56 Cause:E16 Theme:E13
+E18	Regulation:TR56 Cause:E16 Theme:E15
+E19	Phosphorylation:TR112 Theme:T40
+E20	Gene_expression:TR89 Theme:T37 Theme:T38
+E21	Gene_expression:TR89 Theme:T37
+E22	Gene_expression:TR89 Theme:T38
+E23	Negative_regulation:TR110 Theme:T35 Cause:T34
+E24	Regulation:TR95 Cause:T41 Theme:T42
+E25	Regulation:TR95 Cause:T41 Theme:T40
+E26	Negative_regulation:TR85 Theme:T35 Cause:T34
+E27	Planned_process:TR83 Instrument:T33
+E28	Ubiquitination:TR93 Theme:T40
+E29	Catabolism:TR94 Theme:T40
+E30	Phosphorylation:TR87 Theme:T36
+E31	Positive_regulation:TR86 Theme:E30 Cause:T35
+E32	Positive_regulation:TR111 Theme:E20
+E33	Positive_regulation:TR111 Theme:E21
+E34	Positive_regulation:TR111 Theme:E22
+E35	Negative_regulation:TR84 Cause:E27 Theme:E23
+E36	Negative_regulation:TR84 Cause:E27 Theme:E26
+E37	Blood_vessel_development:TR63 
+E38	Development:TR65 Theme:T13
+E39	Negative_regulation:TR64 Cause:T10 Theme:E37
+E40	Blood_vessel_development:TR60 
+E41	Regulation:TR62 Cause:T7 Theme:T9
+E42	Regulation:TR62 Cause:T8 Theme:T9
+E43	Planned_process:TR106 Theme:T9
+E44	Negative_regulation:TR61 Cause:T7 Theme:E40
+E45	Negative_regulation:TR61 Cause:T8 Theme:E40
+E46	Negative_regulation:TR59 Theme:T6 Cause:T5
+E47	Blood_vessel_development:TR102 
+E48	Negative_regulation:TR97 Theme:T44
+E49	Catabolism:TR99 Theme:T44
+E50	Negative_regulation:TR101 Theme:E47
+E51	Negative_regulation:TR101 Theme:T46
+E52	Negative_regulation:TR73 Theme:T23
+E53	Positive_regulation:TR77 Theme:T26
+E54	Positive_regulation:TR75 Theme:T25
+E55	Cell_death:TR79 
+E56	Positive_regulation:TR78 Cause:T27 Theme:E55
+E57	Catabolism:TR51 Theme:T2
+E58	Negative_regulation:TR53 Theme:T3
+E59	Blood_vessel_development:TR50 
+E60	Positive_regulation:TR52 Theme:E57 Cause:E58

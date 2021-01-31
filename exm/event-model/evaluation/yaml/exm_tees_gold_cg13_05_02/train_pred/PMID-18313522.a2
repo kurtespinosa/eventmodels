@@ -1,0 +1,19 @@
+TR27	Negative_regulation 1410 1416	reduce
+TR28	Breakdown 1424 1430	damage
+TR25	Planned_process 406 428	intravitreal injection
+TR29	Planned_process 419 428	injection
+TR22	Planned_process 137 146	treatment
+TR23	Regulation 173 182	affecting
+TR31	Negative_regulation 1291 1300	decreased
+TR26	Planned_process 724 733	treatment
+TR30	Negative_regulation 750 760	reductions
+TR24	Blood_vessel_development 308 326	neovascularization
+E1	Breakdown:TR28 Theme:T21
+E2	Negative_regulation:TR27 Theme:E1
+E3	Planned_process:TR25 Instrument:T9
+E4	Planned_process:TR29 Instrument:T9
+E5	Planned_process:TR22 Instrument:T4
+E6	Regulation:TR23 Cause:E5 Theme:T5
+E7	Negative_regulation:TR31 Theme:T19
+E8	Planned_process:TR26 Instrument:T12
+E9	Blood_vessel_development:TR24 

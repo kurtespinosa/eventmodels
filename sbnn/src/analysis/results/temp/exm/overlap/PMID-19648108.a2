@@ -1,0 +1,29 @@
+T23	Metabolism 18 29	consumption
+T24	Cell_death 229 238	apoptosis
+T25	Metabolism 275 285	metabolism
+T26	Cell_death 304 313	apoptosis
+T27	Negative_regulation 483 489	reduce
+T28	Metabolism 498 509	consumption
+T29	Regulation 513 523	regulating
+T30	Localization 524 536	localization
+T31	Gene_expression 541 551	expression
+T32	Negative_regulation 595 607	counteracted
+T33	Planned_process 654 666	Co-treatment
+T34	Positive_regulation 696 703	results
+T35	Positive_regulation 714 725	enhancement
+T36	Death 734 739	death
+T37	Metabolism 749 760	consumption
+T38	Regulation 797 807	unaffected
+T39	Regulation 915 925	sensitized
+T40	Planned_process 1078 1087	treatment
+T41	Death 1205 1209	kill
+T42	Positive_regulation 1205 1209	kill
+E5	Negative_regulation:T27 Theme:E6 Cause:E7
+E6	Metabolism:T28 Theme:T10
+E7	Regulation:T29 Cause:T9 Theme:E8
+E8	Localization:T30 Theme:T11
+E9	Gene_expression:T31 Theme:T11
+E11	Planned_process:T33 Theme:T13
+E14	Death:T36 Theme:T13
+E21	Negative_regulation:T27 Theme:E6 Cause:E22
+E22	Regulation:T29 Cause:T9 Theme:E9

@@ -1,0 +1,33 @@
+TR42	Localization 86 92	spread
+TR56	Planned_process 13 26	thyroidectomy
+TR43	Planned_process 373 381	removing
+TR44	Planned_process 405 418	manifestation
+TR45	Planned_process 468 484	thyroidectomized
+TR46	Localization 606 612	spread
+TR53	Planned_process 1736 1749	thyroidectomy
+TR54	Positive_regulation 1768 1778	stimulated
+TR51	Metastasis 1463 1473	metastasis
+TR50	Planned_process 1150 1163	thyroidectomy
+TR49	Mutation 1033 1041	mutation
+TR55	Localization 2031 2039	invasive
+TR47	Planned_process 716 729	thyroidectomy
+TR52	Positive_regulation 1618 1628	stimulated
+TR48	Positive_regulation 795 805	stimulated
+E1	Planned_process:TR56 Instrument:T2
+E2	Localization:TR42 Theme:T3
+E3	Planned_process:TR44 Theme:T9
+E4	Planned_process:TR43 Theme:T8
+E5	Planned_process:TR45 Theme:T13 Theme2:T10
+E6	Planned_process:TR45 Theme:T13
+E7	Planned_process:TR45 Theme:T10
+E8	Localization:TR46 Theme:T13
+E9	Positive_regulation:TR54 Theme:T35
+E10	Metastasis:TR51 Theme:T28 ToLoc:T29
+E11	Metastasis:TR51 ToLoc:T29
+E12	Planned_process:TR50 Theme:T22
+E13	Mutation:TR49 Theme:T20
+E14	Localization:TR55 Theme:T40
+E15	Planned_process:TR47 Theme:T14
+E16	Positive_regulation:TR52 Theme:T32 Cause:T31
+E17	Positive_regulation:TR48 Theme:T17 Cause:T16
+E18	Positive_regulation:TR48 Theme:T17

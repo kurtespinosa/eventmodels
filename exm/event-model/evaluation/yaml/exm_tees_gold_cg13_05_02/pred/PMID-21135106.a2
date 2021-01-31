@@ -1,0 +1,55 @@
+T56	Gene_expression 525 534	expressed
+T57	Binding 605 617	interactions
+T49	Regulation 57 64	mediate
+T50	Binding 65 77	interactions
+T72	Negative_regulation 1382 1390	Ablation
+T73	Negative_regulation 1434 1443	abolished
+T74	Binding 1459 1471	interactions
+T75	Localization 1490 1498	invasion
+T86	Mutation 1382 1390	Ablation
+T76	Gene_expression 1555 1565	expression
+T77	Regulation 1593 1602	mediating
+T78	Binding 1613 1621	contacts
+T79	Binding 1676 1688	interactions
+T80	Positive_regulation 1689 1699	contribute
+T81	Localization 1742 1750	invasion
+T87	Regulation 1585 1589	role
+T65	Binding 1150 1161	interaction
+T66	Positive_regulation 1240 1248	resulted
+T67	Positive_regulation 1252 1260	enhanced
+T68	Gene_expression 1261 1271	expression
+T58	Regulation 676 680	role
+T59	Binding 699 710	interaction
+T60	Planned_process 762 770	produced
+T83	Protein_domain_or_region 840 844	DC-9
+T63	Binding 1014 1022	adhesion
+T64	Regulation 1042 1050	mediated
+T85	Regulation 1087 1098	independent
+T51	Localization 176 182	invade
+T52	Metastasis 208 219	metastasize
+T69	Negative_regulation 1292 1301	Silencing
+T70	Negative_regulation 1344 1351	reduced
+T71	Binding 1357 1365	adhesion
+T53	Regulation 313 319	modify
+T54	Cell_proliferation 394 400	growth
+T55	Localization 405 414	migration
+T61	Binding 884 891	adhered
+T62	Positive_regulation 924 933	dependent
+T84	Positive_regulation 965 973	mediated
+E1	Gene_expression:T56 Theme:T12
+E2	Mutation:T86 Theme:T39
+E3	Binding:T74 Theme:T41 Theme2:T40
+E4	Binding:T74 Theme:T40 Theme2:T41
+E5	Localization:T75 Theme:T39
+E6	Localization:T75 Theme:T42
+E7	Binding:T78 Theme:T47 Theme2:T46
+E8	Binding:T78 Theme:T46 Theme2:T47
+E9	Planned_process:T60 Theme:T23
+E10	Binding:T63 Theme:T29
+E11	Localization:T51 Theme:T6 ToLoc:T7
+E12	Localization:T51 Theme:T6
+E13	Metastasis:T52 ToLoc:T7
+E14	Localization:T55 Theme:T9
+E15	Localization:T55 Theme:T8
+E16	Cell_proliferation:T54 Theme:T9
+E17	Cell_proliferation:T54 Theme:T8

@@ -1,0 +1,16 @@
+T19	Binding 493 505	interactions
+T12	Metastasis 62 72	metastasis
+T20	Positive_regulation 44 51	leading
+T13	Mutation 179 186	mutated
+T14	Growth 197 201	grow
+T15	Localization 203 209	invade
+T16	Metastasis 214 225	metastasize
+T17	Regulation 373 380	control
+T18	Negative_regulation 385 395	prevention
+T21	Cell_proliferation 197 201	grow
+T22	Binding 304 315	association
+E1	Metastasis:T12 Theme:T2
+E2	Growth:T14 Theme:T5
+E3	Localization:T15 Theme:T5
+E4	Binding:T22 Theme:T6
+E5	Metastasis:T16 Theme:T5

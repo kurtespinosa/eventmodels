@@ -1,0 +1,62 @@
+T74	Regulation 1630 1640	regulation
+T75	Blood_vessel_development 1644 1656	angiogenesis
+T59	Localization 857 864	layered
+T60	Positive_regulation 872 882	stimulated
+T61	Blood_vessel_development 883 895	angiogenesis
+T52	Regulation 200 210	regulation
+T53	Blood_vessel_development 229 241	angiogenesis
+T76	Regulation 1709 1713	role
+T77	Blood_vessel_development 1725 1737	angiogenesis
+T48	Blood_vessel_development 0 12	Angiogenesis
+T54	Blood_vessel_development 313 325	angiogenesis
+T55	Planned_process 562 570	obtained
+T56	Localization 649 656	layered
+T57	Blood_vessel_development 734 744	angiogenic
+T58	Gene_expression 830 840	expression
+T49	Development 110 119	expansion
+T50	Regulation 141 147	linked
+T51	Development 155 166	development
+T70	Positive_regulation 1454 1465	Stimulation
+T71	Blood_vessel_development 1469 1481	angiogenesis
+T72	Negative_regulation 1511 1520	abolished
+T73	Regulation 1556 1563	targets
+T64	Binding 1049 1059	connection
+T65	Localization 1143 1154	recruitment
+T62	Blood_vessel_development 897 907	Angiogenic
+T63	Positive_regulation 908 919	stimulation
+T66	Blood_vessel_development 1202 1212	angiogenic
+T67	Localization 1262 1274	localization
+T68	Blood_vessel_development 1284 1294	angiogenic
+T69	Positive_regulation 1295 1306	stimulation
+E1	Blood_vessel_development:T75 
+E2	Regulation:T74 Cause:T44 Theme:E1
+E3	Localization:T59 Theme:T25
+E4	Blood_vessel_development:T61 
+E5	Positive_regulation:T60 Theme:E4 Cause:T25
+E6	Blood_vessel_development:T53 AtLoc:T6
+E7	Blood_vessel_development:T77 AtLoc:T46
+E8	Blood_vessel_development:T77 AtLoc:T47
+E9	Blood_vessel_development:T77 
+E10	Regulation:T76 Cause:T45 Theme:E7
+E11	Regulation:T76 Cause:T45 Theme:E8
+E12	Regulation:T76 Cause:T45 Theme:E9
+E13	Blood_vessel_development:T48 AtLoc:T2
+E14	Blood_vessel_development:T48 AtLoc:T1
+E15	Blood_vessel_development:T48 
+E16	Blood_vessel_development:T54 AtLoc:T8
+E17	Blood_vessel_development:T54 AtLoc:T11
+E18	Blood_vessel_development:T54 AtLoc:T9
+E19	Blood_vessel_development:T54 AtLoc:T10
+E20	Gene_expression:T58 Theme:T24 Theme:T23
+E21	Gene_expression:T58 Theme:T24
+E22	Gene_expression:T58 Theme:T23
+E23	Blood_vessel_development:T57 
+E24	Development:T51 Theme:T5
+E25	Regulation:T73 Cause:T40 Theme:T42
+E26	Localization:T65 Theme:T31
+E27	Blood_vessel_development:T62 
+E28	Positive_regulation:T63 Theme:E27
+E29	Localization:T67 Theme:T32
+E30	Blood_vessel_development:T66 AtLoc:T32
+E31	Blood_vessel_development:T68 
+E32	Positive_regulation:T69 Theme:E31

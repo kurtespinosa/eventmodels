@@ -1,0 +1,87 @@
+TR75	Phosphorylation 799 814	phosphorylation
+TR72	Negative_regulation 502 512	inhibition
+TR73	Positive_regulation 517 525	achieved
+TR74	Positive_regulation 580 590	activation
+TR76	Positive_regulation 970 980	activation
+TR77	Gene_expression 997 1011	overexpressing
+TR78	Positive_regulation 997 1011	overexpressing
+TR79	Positive_regulation 1027 1037	stimulated
+TR86	Negative_regulation 1340 1351	suppression
+TR87	Positive_regulation 1365 1375	activation
+TR88	Negative_regulation 1376 1385	decreased
+TR89	Transcription 1390 1400	transcript
+TR90	Positive_regulation 1418 1425	induced
+TR91	Phosphorylation 1426 1441	phosphorylation
+TR92	Regulation 1476 1483	targets
+TR93	Pathway 1493 1502	signaling
+TR98	Transcription 1659 1674	transcriptional
+TR99	Regulation 1675 1685	regulation
+TR100	Binding 1744 1751	binding
+TR101	DNA_domain_or_region 1762 1766	site
+TR111	DNA_domain_or_region 1780 1788	promoter
+TR80	Negative_regulation 1048 1058	Inhibition
+TR81	Negative_regulation 1086 1093	reduced
+TR82	Transcription 1094 1104	transcript
+TR83	Gene_expression 1126 1136	production
+TR84	Positive_regulation 1161 1171	stimulated
+TR102	Pathway 1844 1848	axis
+TR103	Positive_regulation 1853 1860	promote
+TR104	Metastasis 1869 1879	metastasis
+TR105	Regulation 1920 1930	activation
+TR106	Pathway 1949 1966	signaling cascade
+TR112	Positive_regulation 1920 1930	activation
+TR113	Pathway 1959 1966	cascade
+TR66	Positive_regulation 204 211	effects
+TR67	Regulation 351 361	implicated
+TR68	Metastasis 368 378	metastasis
+TR69	Regulation 383 391	involved
+TR70	Positive_regulation 426 436	activation
+TR71	Pathway 460 469	signaling
+TR85	Negative_regulation 1246 1256	inhibition
+TR108	Negative_regulation 1269 1279	suppressed
+TR109	Positive_regulation 1294 1301	induced
+TR110	DNA_domain_or_region 1308 1316	promoter
+TR63	Positive_regulation 50 60	activation
+TR64	Pathway 75 84	signaling
+TR65	Metastasis 101 111	metastatic
+TR107	Positive_regulation 9 18	dependent
+E1	Phosphorylation:TR75 Theme:T22
+E2	Phosphorylation:TR75 Theme:T21
+E3	Phosphorylation:TR75 Theme:T23
+E4	Negative_regulation:TR72 Theme:T17
+E5	Positive_regulation:TR73 Theme:E4 Cause:T18
+E6	Positive_regulation:TR73 Theme:E4 Cause:T19
+E7	Positive_regulation:TR74 Theme:E4 Cause:T18
+E8	Positive_regulation:TR76 Cause:T26 Theme:T27
+E9	Positive_regulation:TR79 Theme:T30 Cause:T29
+E10	Gene_expression:TR77 Theme:T28
+E11	Positive_regulation:TR78 Theme:E10
+E12	Phosphorylation:TR91 Theme:T43
+E13	Phosphorylation:TR91 Theme:T42
+E14	Phosphorylation:TR91 Theme:T44
+E15	Positive_regulation:TR87 Theme:T40
+E16	Transcription:TR89 Theme:T43
+E17	Transcription:TR89 Theme:T42
+E18	Transcription:TR89 Theme:T44
+E19	Transcription:TR89 Theme:T40
+E20	Negative_regulation:TR86 Theme:E15
+E21	Negative_regulation:TR88 Cause:E20 Theme:E12
+E22	Negative_regulation:TR88 Cause:E20 Theme:E13
+E23	Negative_regulation:TR88 Cause:E20 Theme:E14
+E24	Negative_regulation:TR88 Cause:E20 Theme:E16
+E25	Negative_regulation:TR88 Cause:E20 Theme:E17
+E26	Negative_regulation:TR88 Cause:E20 Theme:E18
+E27	Negative_regulation:TR88 Cause:E20 Theme:E19
+E28	Negative_regulation:TR80 Theme:T31
+E29	Transcription:TR82 Theme:T32
+E30	Gene_expression:TR83 Theme:T32
+E31	Positive_regulation:TR84 Theme:T34 Cause:T33
+E32	Negative_regulation:TR81 Cause:E28 Theme:E30
+E33	Negative_regulation:TR81 Cause:E28 Theme:E29
+E34	Metastasis:TR104 ToLoc:T59
+E35	Metastasis:TR68 Theme:T12
+E36	Regulation:TR67 Cause:T11 Theme:E35
+E37	Positive_regulation:TR109 Cause:T38 Theme:T39
+E38	Negative_regulation:TR108 Theme:T39
+E39	Negative_regulation:TR85 Theme:T37
+E40	Negative_regulation:TR85 Theme:T36

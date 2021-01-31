@@ -1,0 +1,53 @@
+T52	Pathway 15 32	signaling pathway
+T53	Negative_regulation 162 172	activities
+T54	Positive_regulation 211 220	induction
+T55	Cell_death 224 233	apoptosis
+T56	Positive_regulation 300 310	initiating
+T57	Cell_death 314 341	apoptosis signaling pathway
+T58	Binding 347 352	bound
+T59	Positive_regulation 436 444	mediated
+T60	Cell_death 445 454	apoptosis
+T61	Regulation 455 467	plays a role
+T62	Positive_regulation 477 484	induced
+T63	Negative_regulation 491 501	regression
+T64	Gene_expression 522 532	expression
+T65	Gene_expression 587 594	express
+T66	Regulation 662 669	Control
+T67	Planned_process 703 714	transfected
+T68	Planned_process 748 758	inoculated
+T69	Gene_expression 939 949	expression
+T70	Cell_death 1002 1011	apoptotic
+T71	Gene_expression 1034 1044	expressing
+T72	Planned_process 1075 1087	transplanted
+T73	Growth 1107 1111	grew
+T74	Death 1195 1203	survival
+T75	Death 1273 1281	survival
+T76	Planned_process 1291 1303	transplanted
+T77	Cell_death 1346 1355	Apoptotic
+T78	Positive_regulation 1468 1477	increased
+T79	Positive_regulation 1662 1670	mediated
+T80	Cell_death 1671 1688	apoptosis pathway
+T81	Regulation 1693 1703	contribute
+T82	Positive_regulation 1717 1724	induced
+T83	Death 1725 1734	rejection
+E3	Positive_regulation:T54 Cause:E2 Theme:E4
+E5	Positive_regulation:T56 Theme:E6 Cause:T9
+E8	Positive_regulation:T59 Theme:E9 Cause:T14
+E10	Regulation:T61 Cause:E9 Theme:E12
+E11	Positive_regulation:T62 Cause:T16 Theme:E12
+E28	Positive_regulation:T79 Theme:E29 Cause:T49
+E30	Regulation:T81 Cause:E29 Theme:E32
+E31	Positive_regulation:T82 Cause:T50 Theme:E32
+E34	Positive_regulation:T54 Cause:E33 Theme:E4
+E35	Positive_regulation:T56 Theme:E6 Cause:T10
+E36	Positive_regulation:T56 Theme:E6 Cause:T11
+E39	Positive_regulation:T59 Theme:E9 Cause:T15
+E41	Positive_regulation:T79 Theme:E29 Cause:T48
+E33	Negative_regulation:T53 Cause:T8 Theme:T6
+E29	Cell_death:T80
+E6	Cell_death:T57
+E12	Negative_regulation:T63 Theme:T17
+E32	Death:T83 Theme:T51
+E4	Cell_death:T55
+E9	Cell_death:T60
+E2	Negative_regulation:T53 Cause:T7 Theme:T6

@@ -1,0 +1,122 @@
+TR69	Blood_vessel_development 254 264	angiogenic
+TR70	Regulation 356 365	regulates
+TR71	Localization 389 398	migration
+TR67	Positive_regulation 0 11	Stimulation
+TR68	Localization 32 41	migration
+TR103	Positive_regulation 1751 1762	enhancement
+TR104	Positive_regulation 1870 1879	stimulate
+TR105	Localization 1883 1892	migration
+TR106	Blood_vessel_development 1900 1912	angiogenesis
+TR116	Positive_regulation 1706 1715	induction
+TR76	Positive_regulation 677 685	promoted
+TR77	Localization 689 698	migration
+TR78	Positive_regulation 722 731	induction
+TR79	Positive_regulation 766 775	increased
+TR80	Localization 779 788	migration
+TR91	Planned_process 1143 1155	co-injection
+TR92	Catabolism 1204 1212	cleavage
+TR93	Positive_regulation 1204 1212	cleavage
+TR112	Positive_regulation 1186 1194	resulted
+TR113	Protein_processing 1204 1212	cleavage
+TR81	Catabolism 818 826	cleavage
+TR82	Positive_regulation 818 826	cleavage
+TR83	Positive_regulation 857 868	enhancement
+TR84	Positive_regulation 920 928	promotes
+TR85	Positive_regulation 929 938	increased
+TR86	Positive_regulation 977 987	activation
+TR87	Pathway 995 1024	extrinsic coagulation pathway
+TR88	Regulation 1064 1075	facilitates
+TR89	Catabolism 1085 1093	cleavage
+TR90	Positive_regulation 1085 1093	cleavage
+TR108	Positive_regulation 834 841	results
+TR109	Binding 878 886	adhesive
+TR110	Pathway 1017 1024	pathway
+TR111	Positive_regulation 1064 1075	facilitates
+TR72	Positive_regulation 409 416	induced
+TR73	Transcription 441 451	expression
+TR74	Positive_regulation 522 531	increased
+TR75	Positive_regulation 609 616	induced
+TR107	Positive_regulation 509 518	resulting
+TR99	Regulation 1517 1527	regulation
+TR100	Localization 1534 1543	migration
+TR101	Catabolism 1621 1629	cleavage
+TR102	Positive_regulation 1621 1629	cleavage
+TR94	Catabolism 1297 1304	cleaved
+TR95	Positive_regulation 1297 1304	cleaved
+TR96	Positive_regulation 1309 1319	stimulated
+TR97	Localization 1341 1350	migration
+TR98	Positive_regulation 1423 1432	induction
+TR114	Positive_regulation 1387 1396	increased
+TR115	Localization 1397 1406	migration
+E1	Localization:TR71 Theme:T12
+E2	Localization:TR71 Theme:T11
+E3	Blood_vessel_development:TR69 
+E4	Regulation:TR70 Cause:T7 Theme:E1
+E5	Regulation:TR70 Cause:T7 Theme:E2
+E6	Regulation:TR70 Cause:T8 Theme:E1
+E7	Regulation:TR70 Cause:T8 Theme:E2
+E8	Regulation:TR70 Cause:T9 Theme:E1
+E9	Regulation:TR70 Cause:T9 Theme:E2
+E10	Regulation:TR70 Theme:E1 Cause:T10
+E11	Regulation:TR70 Theme:E2 Cause:T10
+E12	Localization:TR68 Theme:T1
+E13	Positive_regulation:TR67 Cause:T2 Theme:E12
+E14	Positive_regulation:TR67 Cause:T3 Theme:E12
+E15	Positive_regulation:TR103 Cause:T63 Theme:T65
+E16	Positive_regulation:TR103 Cause:T64 Theme:T65
+E17	Blood_vessel_development:TR106 
+E18	Localization:TR105 Theme:T66
+E19	Positive_regulation:TR104 Theme:E18
+E20	Localization:TR80 Theme:T30
+E21	Positive_regulation:TR78 Cause:T27 Theme:T26
+E22	Positive_regulation:TR78 Theme:T26 Cause:T28
+E23	Positive_regulation:TR79 Cause:T27 Theme:E20
+E24	Positive_regulation:TR79 Cause:T28 Theme:E20
+E25	Protein_processing:TR113 Theme:T45
+E26	Binding:TR109 Theme:T34
+E27	Catabolism:TR81 Theme:T33
+E28	Positive_regulation:TR82 Theme:E27 Cause:T32
+E29	Positive_regulation:TR85 Theme:T37
+E30	Positive_regulation:TR83 Theme:T34
+E31	Positive_regulation:TR83 Theme:E28
+E32	Positive_regulation:TR84 Cause:T36 Theme:E29
+E33	Positive_regulation:TR84 Theme:E29 Cause:T35
+E34	Positive_regulation:TR108 Cause:E28 Theme:E29
+E35	Positive_regulation:TR108 Theme:E29 Cause:E30
+E36	Positive_regulation:TR108 Theme:E29 Cause:E31
+E37	Positive_regulation:TR75 Theme:T18 Cause:T21
+E38	Positive_regulation:TR75 Theme:T18 Cause:T20
+E39	Positive_regulation:TR75 Theme:T18
+E40	Positive_regulation:TR75 Theme:T23 Cause:T21
+E41	Positive_regulation:TR75 Theme:T23 Cause:T20
+E42	Positive_regulation:TR75 Theme:T23
+E43	Positive_regulation:TR75 Theme:T22 Cause:T21
+E44	Positive_regulation:TR75 Theme:T22 Cause:T20
+E45	Positive_regulation:TR75 Theme:T22
+E46	Transcription:TR73 Theme:T17
+E47	Transcription:TR73 Theme:T16
+E48	Positive_regulation:TR74 Cause:T16 Theme:T18
+E49	Positive_regulation:TR74 Cause:T17 Theme:T18
+E50	Positive_regulation:TR72 Cause:T13 Theme:E46
+E51	Positive_regulation:TR72 Cause:T13 Theme:E47
+E52	Positive_regulation:TR72 Theme:E46 Cause:T14
+E53	Positive_regulation:TR72 Theme:E47 Cause:T14
+E54	Positive_regulation:TR107 Cause:T16 Theme:E37
+E55	Positive_regulation:TR107 Cause:T16 Theme:E38
+E56	Positive_regulation:TR107 Cause:T16 Theme:E39
+E57	Positive_regulation:TR107 Cause:T16 Theme:E40
+E58	Positive_regulation:TR107 Cause:T16 Theme:E41
+E59	Positive_regulation:TR107 Cause:T16 Theme:E42
+E60	Positive_regulation:TR107 Cause:T16 Theme:E43
+E61	Positive_regulation:TR107 Cause:T16 Theme:E44
+E62	Positive_regulation:TR107 Cause:T16 Theme:E45
+E63	Localization:TR100 Theme:T54
+E64	Regulation:TR99 Theme:E63 Cause:T52
+E65	Regulation:TR99 Theme:E63 Cause:T53
+E66	Catabolism:TR94 Theme:T49
+E67	Localization:TR97 Theme:T50
+E68	Positive_regulation:TR95 Cause:T48 Theme:E66
+E69	Positive_regulation:TR96 Cause:T49 Theme:E67
+E70	Positive_regulation:TR96 Theme:E67 Cause:T47
+E71	Positive_regulation:TR98 Theme:T51
+E72	Positive_regulation:TR98 Theme:E67

@@ -1,0 +1,27 @@
+TR46	Positive_regulation 1004 1013	increased
+TR47	Localization 1058 1067	secretion
+TR48	Positive_regulation 1095 1105	activation
+TR49	Regulation 1155 1160	alter
+TR50	Localization 1182 1195	incorporation
+TR42	Planned_process 591 601	transgenic
+TR43	Cell_differentiation 724 744	transdifferentiation
+TR40	Regulation 334 338	role
+TR41	Blood_vessel_development 348 366	neovascularization
+TR39	Regulation 8 20	contribution
+TR51	Cell_differentiation 1554 1569	differentiation
+TR44	Planned_process 807 818	transplants
+TR45	Localization 935 943	presence
+E1	Localization:TR50 Theme:T25
+E2	Localization:TR47 FromLoc:T22 Theme:T21
+E3	Localization:TR47 Theme:T21
+E4	Positive_regulation:TR48 Theme:T23
+E5	Regulation:TR49 Theme:E1
+E6	Positive_regulation:TR46 Cause:E4 Theme:E2
+E7	Positive_regulation:TR46 Cause:E4 Theme:E3
+E8	Cell_differentiation:TR43 Theme:T15
+E9	Blood_vessel_development:TR41 AtLoc:T8
+E10	Regulation:TR40 Theme:E9
+E11	Cell_differentiation:TR51 Theme:T35
+E12	Cell_differentiation:TR51 Theme:T36
+E13	Planned_process:TR44 Instrument:T17
+E14	Localization:TR45 Theme:T20

@@ -1,0 +1,62 @@
+T90	Negative_regulation 1843 1851	inhibits
+T91	Cell_death 1862 1871	apoptosis
+T101	Positive_regulation 1808 1815	induced
+T86	Breakdown 1520 1532	degeneration
+T87	Planned_process 1638 1645	treated
+T88	Negative_regulation 1660 1668	improved
+T89	Planned_process 1678 1687	treatment
+T100	Positive_regulation 1660 1668	improved
+T75	Planned_process 664 676	decapitation
+T65	Negative_regulation 72 80	inhibits
+T66	Death 91 96	death
+T93	Positive_regulation 37 44	induced
+T95	Positive_regulation 1257 1267	stimulated
+T96	Negative_regulation 1285 1292	reduced
+T97	Planned_process 1307 1314	treated
+T98	Negative_regulation 1338 1347	abolished
+T99	Negative_regulation 1353 1363	inhibition
+T67	Planned_process 163 172	treatment
+T68	Regulation 223 230	affects
+T69	Cell_proliferation 271 284	proliferation
+T79	Positive_regulation 1132 1140	elevated
+T80	Planned_process 1186 1195	treatment
+T81	Negative_regulation 1200 1209	depressed
+T70	Regulation 396 400	role
+T71	Positive_regulation 440 447	induced
+T72	Breakdown 464 470	damage
+T73	Negative_regulation 488 505	protective effect
+T74	Planned_process 554 566	administered
+T92	Planned_process 1879 1894	supplementation
+T76	Planned_process 952 966	administration
+T77	Positive_regulation 967 976	increased
+T78	Negative_regulation 1029 1038	decreased
+T94	Planned_process 1113 1120	treated
+T82	Cell_death 1429 1438	apoptosis
+T83	Positive_regulation 1443 1452	increased
+T84	Planned_process 1460 1467	treated
+T85	Negative_regulation 1489 1497	reversed
+E1	Cell_death:T91 Theme:T63
+E2	Negative_regulation:T90 Cause:T60 Theme:E1
+E3	Planned_process:T87 Instrument:T57
+E4	Planned_process:T75 Theme:T22
+E5	Death:T66 Theme:T4
+E6	Negative_regulation:T65 Cause:T1 Theme:E5
+E7	Positive_regulation:T95 Theme:T45 Cause:T46
+E8	Planned_process:T97 Instrument:T47
+E9	Regulation:T68 Theme:T9 Cause:T5
+E10	Regulation:T68 Theme:T9 Cause:T6
+E11	Regulation:T68 Theme:T8 Cause:T5
+E12	Regulation:T68 Theme:T8 Cause:T6
+E13	Cell_proliferation:T69 Theme:T12
+E14	Cell_proliferation:T69 Theme:T10
+E15	Planned_process:T80 Instrument:T43 Theme:T42
+E16	Positive_regulation:T79 Theme:T42
+E17	Negative_regulation:T81 Cause:T44 Theme:E15
+E18	Planned_process:T92 Instrument:T64
+E19	Planned_process:T94 Instrument:T40
+E20	Planned_process:T76 Instrument:T34
+E21	Negative_regulation:T78 Cause:E20 Theme:T38
+E22	Cell_death:T82 Theme:T50
+E23	Planned_process:T84 Instrument:T51
+E24	Positive_regulation:T83 Theme:E22
+E25	Negative_regulation:T85 Theme:E24

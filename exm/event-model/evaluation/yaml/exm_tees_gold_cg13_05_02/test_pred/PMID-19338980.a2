@@ -1,0 +1,46 @@
+TR31	Positive_regulation 100 109	inducible
+TR32	Positive_regulation 156 165	activated
+TR33	Regulation 242 252	implicated
+TR34	Regulation 260 270	regulation
+TR35	Cell_proliferation 291 304	proliferation
+TR36	Development 316 325	formation
+TR28	Regulation 0 4	Role
+TR29	Positive_regulation 23 32	inducible
+TR30	Positive_regulation 51 60	induction
+TR39	Positive_regulation 490 499	induction
+TR40	Gene_expression 661 671	expression
+TR41	Regulation 689 699	capability
+TR42	Positive_regulation 716 725	stimulate
+TR43	Gene_expression 777 787	expression
+TR44	Localization 795 802	absence
+TR45	Regulation 859 867	mediates
+TR46	Positive_regulation 875 886	stimulation
+TR47	Pathway 922 929	pathway
+TR48	Regulation 952 956	role
+TR37	Positive_regulation 375 383	required
+TR38	Positive_regulation 409 420	stimulation
+E1	Development:TR36 Theme:T11
+E2	Positive_regulation:TR32 Theme:T6
+E3	Cell_proliferation:TR35 Theme:T10
+E4	Positive_regulation:TR31 Theme:T6 Cause:T5
+E5	Positive_regulation:TR31 Theme:T6
+E6	Regulation:TR34 Theme:E1
+E7	Regulation:TR34 Theme:E3
+E8	Regulation:TR33 Theme:E6
+E9	Regulation:TR33 Theme:E7
+E10	Positive_regulation:TR30 Cause:T4 Theme:T3
+E11	Positive_regulation:TR30 Theme:T3
+E12	Positive_regulation:TR29 Cause:T1 Theme:T2
+E13	Positive_regulation:TR29 Theme:T2
+E14	Regulation:TR28 Cause:T2 Theme:E10
+E15	Regulation:TR28 Cause:T2 Theme:E11
+E16	Localization:TR44 Theme:T22
+E17	Gene_expression:TR43 Theme:T20 Theme:T19 Theme:T21
+E18	Gene_expression:TR40 Theme:T17
+E19	Positive_regulation:TR39 Theme:T15
+E20	Positive_regulation:TR42 Theme:E17
+E21	Pathway:TR47 Participant:T26
+E22	Positive_regulation:TR46 Theme:T24 Cause:T25
+E23	Positive_regulation:TR46 Theme:T24
+E24	Regulation:TR45 Theme:E22
+E25	Regulation:TR45 Theme:E23

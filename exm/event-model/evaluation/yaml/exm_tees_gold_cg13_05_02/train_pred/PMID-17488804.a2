@@ -1,0 +1,93 @@
+TR101	Regulation 1820 1828	modulate
+TR102	Localization 1833 1842	migration
+TR103	Positive_regulation 1892 1901	dependent
+TR104	Pathway 1902 1911	mechanism
+TR105	Negative_regulation 1951 1958	inhibit
+TR106	Cell_proliferation 1977 1983	growth
+TR81	Planned_process 1078 1090	Pretreatment
+TR82	Negative_regulation 1128 1135	reduces
+TR83	Positive_regulation 1146 1153	induced
+TR84	DNA_domain_or_region 1159 1167	promoter
+TR85	Gene_expression 1195 1205	expression
+TR95	Negative_regulation 1561 1569	inhibits
+TR96	Positive_regulation 1586 1596	stimulated
+TR97	Localization 1602 1611	migration
+TR77	Positive_regulation 963 972	increased
+TR78	Positive_regulation 1003 1014	stimulation
+TR79	Regulation 1028 1035	effects
+TR80	Regulation 1048 1056	mediated
+TR98	Planned_process 1679 1686	treated
+TR99	Positive_regulation 1712 1721	increased
+TR100	Localization 1760 1769	migration
+TR86	Regulation 1242 1249	involve
+TR87	Negative_regulation 1254 1264	inhibition
+TR88	Positive_regulation 1338 1345	leading
+TR89	Negative_regulation 1358 1366	decrease
+TR90	Positive_regulation 1380 1387	induced
+TR91	Positive_regulation 1399 1411	accumulation
+TR92	Transcription 1418 1433	transcriptional
+TR93	Positive_regulation 1434 1444	activation
+TR94	Positive_regulation 1472 1484	accumulation
+TR65	Negative_regulation 9 17	inhibits
+TR66	Positive_regulation 36 48	accumulation
+TR67	Gene_expression 139 149	expression
+TR107	Positive_regulation 28 35	induced
+TR68	Positive_regulation 382 391	induction
+TR69	Positive_regulation 468 477	essential
+TR70	Blood_vessel_development 495 507	angiogenesis
+TR71	Regulation 656 663	effects
+TR72	Positive_regulation 693 705	accumulation
+TR73	Gene_expression 727 737	expression
+TR74	Negative_regulation 850 858	inhibits
+TR75	Positive_regulation 869 876	induced
+TR76	Positive_regulation 896 908	accumulation
+TR108	Negative_regulation 242 249	reduced
+TR109	Carcinogenesis 250 254	risk
+E1	Cell_proliferation:TR106 Theme:T64
+E2	Negative_regulation:TR105 Theme:E1 Cause:T63
+E3	Localization:TR102 Theme:T59
+E4	Regulation:TR101 Theme:E3 Cause:T58
+E5	Positive_regulation:TR83 Cause:T35 Theme:T36
+E6	Positive_regulation:TR83 Cause:T35 Theme:T33
+E7	Planned_process:TR81 Instrument:T34 Theme:T33
+E8	Localization:TR97 Theme:T54
+E9	Negative_regulation:TR95 Cause:T51 Theme:E8
+E10	Positive_regulation:TR96 Cause:T51 Theme:E8
+E11	Positive_regulation:TR96 Cause:T52 Theme:E8
+E12	Positive_regulation:TR78 Theme:T30
+E13	Positive_regulation:TR77 Cause:E12 Theme:E12
+E14	Localization:TR100 Theme:T57
+E15	Transcription:TR92 Theme:T47
+E16	Transcription:TR92 Theme:T48
+E17	Negative_regulation:TR87 Theme:T41
+E18	Negative_regulation:TR87 Theme:T42
+E19	Negative_regulation:TR87 Theme:T44
+E20	Negative_regulation:TR87 Theme:T45
+E21	Negative_regulation:TR87 Theme:T43
+E22	Negative_regulation:TR87 Theme:T40
+E23	Regulation:TR86 Theme:E17 Cause:T39
+E24	Regulation:TR86 Theme:E18 Cause:T39
+E25	Regulation:TR86 Theme:E19 Cause:T39
+E26	Regulation:TR86 Theme:E20 Cause:T39
+E27	Regulation:TR86 Theme:E21 Cause:T39
+E28	Regulation:TR86 Theme:E22 Cause:T39
+E29	Positive_regulation:TR91 Theme:T47 Cause:T46
+E30	Positive_regulation:TR91 Theme:E15 Cause:T46
+E31	Positive_regulation:TR91 Theme:E16 Cause:T46
+E32	Positive_regulation:TR93 Theme:E15
+E33	Positive_regulation:TR93 Theme:E16
+E34	Positive_regulation:TR68 Theme:T12
+E35	Positive_regulation:TR68 Theme:T14
+E36	Positive_regulation:TR68 Theme:T13
+E37	Positive_regulation:TR68 Theme:T11
+E38	Blood_vessel_development:TR70 AtLoc:T15
+E39	Positive_regulation:TR69 Cause:E34 Theme:E38
+E40	Positive_regulation:TR69 Cause:E35 Theme:E38
+E41	Positive_regulation:TR69 Cause:E36 Theme:E38
+E42	Positive_regulation:TR69 Cause:E37 Theme:E38
+E43	Positive_regulation:TR72 Theme:T19
+E44	Positive_regulation:TR76 Theme:T26 Cause:T24
+E45	Positive_regulation:TR75 Cause:T25 Theme:E44
+E46	Negative_regulation:TR74 Cause:T24 Theme:E44
+E47	Carcinogenesis:TR109 Theme:T8
+E48	Negative_regulation:TR108 Theme:E47

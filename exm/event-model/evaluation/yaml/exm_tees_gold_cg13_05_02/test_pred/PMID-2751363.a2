@@ -1,0 +1,12 @@
+TR20	Blood_vessel_development 727 739	angiogenesis
+TR18	Blood_vessel_development 52 64	angiogenesis
+TR21	Development 870 881	development
+TR22	Regulation 964 971	involve
+TR23	Gene_expression 972 982	production
+TR24	Blood_vessel_development 989 999	angiogenic
+TR19	Breakdown 577 590	abnormalities
+E1	Blood_vessel_development:TR20 AtLoc:T13
+E2	Blood_vessel_development:TR18 AtLoc:T1
+E3	Development:TR21 Theme:T15
+E4	Blood_vessel_development:TR24 
+E5	Breakdown:TR19 Theme:T10

@@ -1,0 +1,64 @@
+TR61	Negative_regulation 1415 1423	inhibits
+TR62	Gene_expression 1427 1437	expression
+TR63	Transcription 1442 1457	transcriptional
+TR67	Negative_regulation 1579 1589	Inhibition
+TR68	Negative_regulation 1622 1631	attenuate
+TR69	Positive_regulation 1638 1646	mediated
+TR70	Negative_regulation 1647 1661	downregulation
+TR71	Negative_regulation 1694 1704	inhibition
+TR72	Pathway 1711 1720	signaling
+TR73	Regulation 1760 1771	alterations
+TR74	Pathway 1822 1829	pathway
+TR75	Negative_regulation 1859 1867	inhibits
+TR76	Pathway 1887 1895	pathways
+TR77	Regulation 1953 1960	effects
+TR78	Cell_proliferation 1964 1977	proliferation
+TR79	Cell_death 1982 1991	apoptosis
+TR47	Negative_regulation 68 76	inhibits
+TR48	Pathway 103 112	signaling
+TR51	Regulation 597 602	roles
+TR52	Development 622 633	development
+TR53	Development 638 649	progression
+TR54	Pathway 736 744	pathways
+TR64	Negative_regulation 1498 1507	decreases
+TR65	Phosphorylation 1512 1527	phosphorylation
+TR66	Phosphorylation 1552 1567	phosphorylation
+TR49	Development 409 420	development
+TR50	Development 519 530	progression
+TR57	Positive_regulation 1285 1292	induces
+TR58	Cell_death 1293 1302	apoptosis
+TR59	Positive_regulation 1315 1325	responsive
+TR60	Regulation 1345 1356	independent
+E1	Transcription:TR63 Theme:T32
+E2	Gene_expression:TR62 Theme:T32
+E3	Negative_regulation:TR61 Theme:E2 Cause:T31
+E4	Negative_regulation:TR67 Theme:T38
+E5	Negative_regulation:TR70 Theme:T40
+E6	Pathway:TR72 Participant:T41
+E7	Negative_regulation:TR71 Cause:T42 Theme:E6
+E8	Positive_regulation:TR69 Theme:E5 Cause:T39
+E9	Cell_death:TR79 
+E10	Regulation:TR77 Theme:E9
+E11	Development:TR52 Theme:T11
+E12	Development:TR53 Theme:T11
+E13	Pathway:TR54 Participant:T12 Participant2:T13 Participant3:T14 Participant4:T15
+E14	Pathway:TR54 Participant:T13 Participant2:T14 Participant3:T15
+E15	Pathway:TR54 Participant:T12 Participant2:T13 Participant3:T15
+E16	Pathway:TR54 Participant:T12 Participant2:T14 Participant3:T15
+E17	Pathway:TR54 Participant:T12 Participant2:T13 Participant3:T14
+E18	Phosphorylation:TR66 Theme:T37
+E19	Phosphorylation:TR65 Theme:T35
+E20	Negative_regulation:TR64 Cause:T34 Theme:E19
+E21	Negative_regulation:TR64 Cause:T34 Theme:E18
+E22	Development:TR49 Theme:T10
+E23	Positive_regulation:TR59 Theme:T28 Cause:T27
+E24	Regulation:TR60 Theme:T30 Cause:T29
+E25	Cell_death:TR58 Theme:T28
+E26	Cell_death:TR58 Theme:T30
+E27	Cell_death:TR58 
+E28	Positive_regulation:TR57 Cause:T26 Theme:E25
+E29	Positive_regulation:TR57 Cause:T26 Theme:E26
+E30	Positive_regulation:TR57 Cause:T26 Theme:E27
+E31	Positive_regulation:TR57 Theme:E25 Cause:T25
+E32	Positive_regulation:TR57 Theme:E26 Cause:T25
+E33	Positive_regulation:TR57 Theme:E27 Cause:T25

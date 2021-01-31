@@ -1,0 +1,35 @@
+TR24	Positive_regulation 266 273	leading
+TR25	Cell_death 294 303	apoptosis
+TR36	Positive_regulation 247 256	induction
+TR37	Cell_proliferation 277 283	growth
+TR38	Negative_regulation 284 290	arrest
+TR22	Negative_regulation 175 183	protects
+TR23	Cell_transformation 207 221	transformation
+TR35	Negative_regulation 190 197	against
+TR29	Negative_regulation 567 578	suppressive
+TR30	Localization 641 649	arriving
+TR21	Pathway 32 50	signaling networks
+TR34	Pathway 42 50	networks
+TR26	Planned_process 391 399	cultured
+TR27	Planned_process 411 420	treatment
+TR28	Breakdown 504 512	damaging
+TR39	Positive_regulation 447 457	activating
+TR40	Positive_regulation 523 532	activated
+TR31	Regulation 822 838	plays a key role
+TR32	Development 899 912	developmental
+TR33	Regulation 913 920	effects
+TR41	Regulation 834 838	role
+TR42	Positive_regulation 851 858	induced
+TR43	Negative_regulation 866 872	arrest
+E1	Cell_death:TR25 
+E2	Positive_regulation:TR24 Theme:E1 Cause:T6
+E3	Cell_transformation:TR23 Theme:T5
+E4	Negative_regulation:TR35 Theme:T5
+E5	Negative_regulation:TR22 Theme:E3
+E6	Localization:TR30 Theme:T12 ToLoc:T14
+E7	Negative_regulation:TR29 Cause:T12 Theme:T11
+E8	Planned_process:TR26 Theme:T8
+E9	Breakdown:TR28 Theme:T10
+E10	Planned_process:TR27 Theme:T8
+E11	Development:TR32 Theme:T19
+E12	Regulation:TR33 Cause:T18 Theme:E11

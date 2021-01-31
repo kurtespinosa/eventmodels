@@ -1,0 +1,59 @@
+TR48	Planned_process 926 940	Administration
+TR49	Negative_regulation 965 974	prevented
+TR50	Positive_regulation 979 986	induced
+TR51	Cell_death 987 996	apoptosis
+TR52	Negative_regulation 1014 1023	reduction
+TR53	Positive_regulation 1067 1073	caused
+TR54	Negative_regulation 1074 1083	reduction
+TR55	Positive_regulation 1091 1098	induced
+TR36	Planned_process 352 361	treatment
+TR37	Positive_regulation 362 370	resulted
+TR38	Regulation 374 381	changes
+TR39	Negative_regulation 417 428	suppression
+TR32	Negative_regulation 190 198	activity
+TR33	Negative_regulation 253 263	suppressor
+TR34	Positive_regulation 278 285	induced
+TR35	Carcinogenesis 286 300	carcinogenesis
+TR40	Cell_death 448 457	Apoptosis
+TR41	Breakdown 484 496	condensation
+TR42	Positive_regulation 550 559	induction
+TR56	Carcinogenesis 1176 1188	carcinogenic
+TR57	Negative_regulation 1189 1196	effects
+TR58	Positive_regulation 1279 1289	triggering
+TR59	Cell_death 1334 1343	apoptosis
+TR43	Development 641 650	Formation
+TR44	Negative_regulation 687 695	lowering
+TR45	Negative_regulation 784 794	inhibitory
+TR46	Positive_regulation 799 809	activation
+TR47	Regulation 810 816	effect
+TR27	Cell_death 0 9	Apoptosis
+TR28	Positive_regulation 10 17	induced
+TR29	Regulation 98 108	modulation
+TR30	Metabolism 122 132	metabolism
+TR31	Positive_regulation 147 157	activation
+E1	Positive_regulation:TR55 Theme:T24
+E2	Negative_regulation:TR54 Theme:T24
+E3	Cell_death:TR51 
+E4	Positive_regulation:TR50 Theme:E3 Cause:T22
+E5	Planned_process:TR36 Instrument:T8
+E6	Negative_regulation:TR32 Theme:T4 Cause:T6
+E7	Negative_regulation:TR32 Theme:T4 Cause:T5
+E8	Carcinogenesis:TR35 
+E9	Negative_regulation:TR33 Theme:E8 Cause:T6
+E10	Negative_regulation:TR33 Theme:E8 Cause:T5
+E11	Positive_regulation:TR34 Theme:E8
+E12	Breakdown:TR41 Theme:T10
+E13	Positive_regulation:TR42 Theme:T13
+E14	Cell_death:TR40 
+E15	Cell_death:TR59 
+E16	Carcinogenesis:TR56 
+E17	Positive_regulation:TR58 Theme:T26
+E18	Negative_regulation:TR57 Cause:T25 Theme:E16
+E19	Negative_regulation:TR44 Theme:T15
+E20	Negative_regulation:TR44 Theme:T16
+E21	Development:TR43 Theme:T14
+E22	Cell_death:TR27 
+E23	Positive_regulation:TR31 Theme:T3
+E24	Positive_regulation:TR28 Cause:T1 Theme:E22
+E25	Positive_regulation:TR28 Theme:E22
+E26	Regulation:TR29 Theme:E23

@@ -1,0 +1,81 @@
+T49	Planned_process 559 567	cultured
+T50	Cell_proliferation 600 613	proliferation
+T51	Negative_regulation 636 645	inhibited
+T73	Positive_regulation 460 469	induction
+T60	Regulation 1292 1301	resistant
+T61	Positive_regulation 1337 1347	increasing
+T62	Transcription 1358 1368	expression
+T63	Positive_regulation 1404 1413	increased
+T64	Regulation 1414 1424	resistance
+T59	Carcinogenesis 1243 1257	tumorigenicity
+T75	Cell_proliferation 1077 1082	grown
+T67	Planned_process 1658 1666	exposure
+T68	Positive_regulation 1701 1709	promotes
+T69	Cell_transformation 1726 1751	neoplastic transformation
+T70	Carcinogenesis 1935 1949	carcinogenesis
+T77	Cell_transformation 1737 1751	transformation
+T78	Planned_process 1755 1763	cultured
+T79	Positive_regulation 1877 1886	induction
+T44	Cell_transformation 115 140	neoplastic transformation
+T45	Planned_process 144 152	cultured
+T46	Regulation 219 229	associated
+T47	Regulation 373 397	plays a mechanistic role
+T48	Cell_transformation 409 423	transformation
+T71	Cell_transformation 126 140	transformation
+T72	Regulation 393 397	role
+T41	Positive_regulation 34 42	promotes
+T42	Cell_transformation 55 69	transformation
+T43	Planned_process 73 81	cultured
+T52	Planned_process 694 701	culture
+T53	Positive_regulation 709 718	developed
+T54	Regulation 728 738	resistance
+T55	Planned_process 774 781	exposed
+T56	Regulation 884 894	resistance
+T57	Positive_regulation 899 910	accelerated
+T74	Positive_regulation 795 804	increases
+T65	Positive_regulation 1518 1526	increase
+T66	Transcription 1540 1555	mRNA expression
+T76	Transcription 1545 1555	expression
+T58	Cell_proliferation 933 938	grown
+E1	Cell_proliferation:T50 Theme:T12
+E2	Positive_regulation:T73 Theme:T9
+E3	Planned_process:T49 Theme:T12
+E4	Negative_regulation:T51 Cause:T13 Theme:E1
+E5	Regulation:T60 Cause:T26 Theme:T27
+E6	Regulation:T64 Cause:T31 Theme:T27
+E7	Regulation:T64 Cause:T30 Theme:T27
+E8	Positive_regulation:T63 Theme:E6
+E9	Positive_regulation:T63 Theme:E7
+E10	Positive_regulation:T63 Theme:T28
+E11	Positive_regulation:T63 Theme:T29
+E12	Transcription:T62 Theme:T28
+E13	Transcription:T62 Theme:T29
+E14	Positive_regulation:T61 Cause:T26 Theme:E12
+E15	Positive_regulation:T61 Cause:T26 Theme:E13
+E16	Positive_regulation:T61 Cause:T26 Theme:T27
+E17	Carcinogenesis:T59 AtLoc:T22
+E18	Cell_proliferation:T75 Theme:T22
+E19	Planned_process:T78 Theme:T38
+E20	Carcinogenesis:T70 AtLoc:T40
+E21	Cell_transformation:T77 Theme:T38
+E22	Planned_process:T67 Instrument:T36
+E23	Cell_transformation:T71 Theme:T5
+E24	Cell_transformation:T44 Theme:T5
+E25	Cell_transformation:T48 Theme:T8
+E26	Planned_process:T45 Theme:T5
+E27	Regulation:T46 Cause:T7 Theme:E24
+E28	Regulation:T46 Cause:T6 Theme:E24
+E29	Planned_process:T43 Theme:T3
+E30	Cell_transformation:T42 Theme:T3
+E31	Positive_regulation:T41 Cause:T1 Theme:E30
+E32	Planned_process:T52 Theme:T14
+E33	Regulation:T54 Theme:T14 Cause:T15
+E34	Positive_regulation:T53 Theme:E33 Cause:T15
+E35	Regulation:T56 Cause:T18 Theme:T16
+E36	Planned_process:T55 Instrument:T17 Theme:T16
+E37	Positive_regulation:T74 Theme:T17
+E38	Positive_regulation:T57 Theme:E35
+E39	Transcription:T76 Theme:T32
+E40	Transcription:T66 Theme:T32
+E41	Positive_regulation:T65 Theme:E40
+E42	Cell_proliferation:T58 Theme:T19

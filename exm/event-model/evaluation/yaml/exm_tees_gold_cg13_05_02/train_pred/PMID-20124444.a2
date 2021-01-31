@@ -1,0 +1,66 @@
+TR72	Gene_expression 651 661	expression
+TR73	Regulation 699 706	altered
+TR69	Regulation 376 386	regulation
+TR98	Gene_expression 1763 1773	expression
+TR99	Development 1804 1815	progression
+TR100	Positive_regulation 1860 1868	mediated
+TR101	Gene_expression 1890 1900	expression
+TR102	Regulation 1907 1914	control
+TR103	Blood_vessel_development 1930 1942	angiogenesis
+TR104	Metastasis 1947 1957	metastasis
+TR107	Regulation 1869 1880	maintenance
+TR74	Negative_regulation 773 782	decreased
+TR75	Gene_expression 783 793	expression
+TR80	Planned_process 1070 1081	Cotreatment
+TR106	Negative_regulation 1139 1146	blocked
+TR89	Gene_expression 1400 1414	Overexpression
+TR90	Positive_regulation 1400 1414	Overexpression
+TR91	Negative_regulation 1436 1443	reduced
+TR92	Phosphorylation 1466 1481	phosphorylation
+TR93	Gene_expression 1544 1554	expression
+TR70	Negative_regulation 469 476	reduced
+TR71	Gene_expression 477 487	expression
+TR65	Regulation 33 42	functions
+TR81	Gene_expression 1182 1192	expression
+TR82	Negative_regulation 1213 1220	reduced
+TR83	Cell_proliferation 1238 1247	formation
+TR84	Binding 1249 1257	adhesion
+TR85	Localization 1268 1276	invasion
+TR76	Planned_process 872 881	treatment
+TR77	Positive_regulation 975 982	induced
+TR78	Positive_regulation 997 1009	upregulation
+TR79	Positive_regulation 1040 1051	upregulated
+TR66	Regulation 146 155	influence
+TR67	Cell_proliferation 165 171	growth
+E1	Regulation:TR69 Theme:T15
+E2	Development:TR99 Theme:T60
+E3	Gene_expression:TR98 Theme:T59
+E4	Blood_vessel_development:TR103 AtLoc:T64
+E5	Regulation:TR107 Cause:T61 Theme:E4
+E6	Planned_process:TR80 Theme:T41
+E7	Gene_expression:TR89 Theme:T50 Theme:T49
+E8	Gene_expression:TR89 Theme:T50
+E9	Gene_expression:TR89 Theme:T49
+E10	Gene_expression:TR93 Theme:T53 Theme:T51 Theme:T52
+E11	Gene_expression:TR71 Theme:T20 Theme:T19 Theme:T18
+E12	Gene_expression:TR71 Theme:T20 Theme:T19
+E13	Gene_expression:TR71 Theme:T20 Theme:T18
+E14	Gene_expression:TR71 Theme:T20
+E15	Gene_expression:TR71 Theme:T19 Theme:T18
+E16	Gene_expression:TR71 Theme:T19
+E17	Gene_expression:TR71 Theme:T18
+E18	Negative_regulation:TR70 Theme:E11
+E19	Negative_regulation:TR70 Theme:E12
+E20	Negative_regulation:TR70 Theme:E13
+E21	Negative_regulation:TR70 Theme:E14
+E22	Negative_regulation:TR70 Theme:E15
+E23	Negative_regulation:TR70 Theme:E16
+E24	Negative_regulation:TR70 Theme:E17
+E25	Gene_expression:TR81 Theme:T43 Theme:T42
+E26	Gene_expression:TR81 Theme:T43
+E27	Gene_expression:TR81 Theme:T42
+E28	Localization:TR85 Theme:T45
+E29	Positive_regulation:TR79 Theme:T39 Cause:T40
+E30	Positive_regulation:TR78 Theme:T38
+E31	Cell_proliferation:TR67 Theme:T5
+E32	Regulation:TR66 Theme:E31 Cause:T4

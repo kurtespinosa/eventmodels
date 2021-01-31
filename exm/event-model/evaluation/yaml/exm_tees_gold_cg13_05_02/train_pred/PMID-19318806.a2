@@ -1,0 +1,58 @@
+TR63	Binding 644 650	linked
+TR64	Gene_expression 670 679	expressed
+TR65	Binding 734 739	binds
+TR52	Negative_regulation 259 265	brakes
+TR53	Cell_proliferation 274 280	growth
+TR54	Localization 282 291	migration
+TR55	Death 301 309	survival
+TR56	Carcinogenesis 365 375	initiation
+TR57	Development 380 391	progression
+TR78	Development 365 375	initiation
+TR76	Negative_regulation 1349 1353	loss
+TR51	Cell_transformation 77 91	transformation
+TR58	Regulation 475 483	involved
+TR59	Positive_regulation 536 547	progression
+TR60	Regulation 556 563	effects
+TR61	Growth 580 586	growth
+TR62	Localization 596 605	migration
+TR79	Development 496 507	pathfinding
+TR80	Development 536 547	progression
+TR49	Negative_regulation 40 44	lost
+TR50	Metastasis 61 71	metastasis
+TR77	Gene_expression 40 44	lost
+TR75	Gene_expression 1157 1167	expression
+TR71	Regulation 969 976	targets
+TR72	Pathway 990 999	signaling
+TR73	Binding 1101 1109	adhesion
+TR74	Localization 1114 1123	migration
+TR66	Positive_regulation 851 861	stimulates
+TR67	Remodeling 875 889	reorganization
+TR68	Positive_regulation 912 921	resulting
+TR69	Binding 925 933	adhesion
+TR70	Development 947 956	formation
+E1	Development:TR57 Theme:T10
+E2	Death:TR55 Theme:T9
+E3	Death:TR55 Theme:T8
+E4	Carcinogenesis:TR56 Theme:T10
+E5	Localization:TR54 Theme:T8
+E6	Development:TR78 Theme:T10
+E7	Cell_proliferation:TR53 Theme:T8
+E8	Negative_regulation:TR76 Theme:T43
+E9	Growth:TR61 Theme:T16
+E10	Positive_regulation:TR59 Theme:T15
+E11	Localization:TR62 Theme:T17
+E12	Development:TR80 Theme:T15
+E13	Development:TR79 Theme:T14
+E14	Gene_expression:TR77 Theme:T2 Theme:T1
+E15	Gene_expression:TR77 Theme:T2
+E16	Gene_expression:TR77 Theme:T1
+E17	Negative_regulation:TR49 Theme:T2
+E18	Gene_expression:TR75 Theme:T40
+E19	Binding:TR73 Theme:T39
+E20	Localization:TR74 Theme:T39
+E21	Remodeling:TR67 Theme:T30
+E22	Binding:TR69 Theme:T32
+E23	Development:TR70 Theme:T33
+E24	Positive_regulation:TR66 Theme:E21 Cause:T29
+E25	Positive_regulation:TR68 Cause:E24 Theme:E22
+E26	Positive_regulation:TR68 Cause:E24 Theme:E23

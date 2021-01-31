@@ -1,0 +1,43 @@
+T42	Gene_expression 422 431	expressed
+T43	Metabolism 529 538	catalyzes
+T44	Positive_regulation 529 538	catalyzes
+T36	Regulation 4 8	role
+T53	Negative_regulation 93 101	behavior
+T52	Planned_process 1222 1229	therapy
+T56	Binding 1109 1121	interactions
+T57	Regulation 1149 1153	role
+T45	Regulation 688 699	play a role
+T46	Positive_regulation 707 716	induction
+T47	Blood_vessel_development 720 732	angiogenesis
+T54	Regulation 695 699	role
+T49	Positive_regulation 966 975	induction
+T50	Positive_regulation 1066 1072	induce
+T51	Gene_expression 1077 1087	expression
+T48	Synthesis 818 828	generating
+T55	Regulation 741 749	modulate
+T37	Gene_expression 237 247	expression
+T38	Growth 288 294	growth
+T39	Positive_regulation 296 305	induction
+T40	Blood_vessel_development 309 321	angiogenesis
+T41	Metastasis 327 337	metastasis
+E1	Gene_expression:T42 Theme:T12
+E2	Negative_regulation:T53 Theme:T3
+E3	Regulation:T36 Cause:T2 Theme:E2
+E4	Regulation:T36 Cause:T2 Theme:T3
+E5	Regulation:T36 Cause:T1 Theme:E2
+E6	Regulation:T36 Cause:T1 Theme:T3
+E7	Planned_process:T52 Theme:T35
+E8	Blood_vessel_development:T47 
+E9	Positive_regulation:T46 Theme:E8
+E10	Regulation:T54 Cause:T23 Theme:E8
+E11	Regulation:T54 Cause:T22 Theme:E8
+E12	Regulation:T45 Theme:E9 Cause:T23
+E13	Regulation:T45 Theme:E9 Cause:T22
+E14	Positive_regulation:T49 Theme:T30
+E15	Synthesis:T48 Theme:T25
+E16	Gene_expression:T37 Theme:T8
+E17	Growth:T38 Theme:T10
+E18	Metastasis:T41 Theme:T10
+E19	Blood_vessel_development:T40 
+E20	Positive_regulation:T39 Theme:E19
+E21	Positive_regulation:T39 Theme:T10

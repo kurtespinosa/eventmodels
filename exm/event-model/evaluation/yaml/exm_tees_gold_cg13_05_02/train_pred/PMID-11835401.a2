@@ -1,0 +1,54 @@
+TR63	Phosphorylation 1192 1207	phosphorylation
+TR64	Negative_regulation 1221 1228	reduced
+TR65	Positive_regulation 1232 1240	response
+TR66	Planned_process 1248 1256	addition
+TR67	Binding 1420 1427	binding
+TR68	Negative_regulation 1450 1461	antagonizes
+TR69	Cell_proliferation 1481 1494	proliferation
+TR70	Regulation 1495 1503	mediated
+TR59	Negative_regulation 900 907	arrests
+TR60	Positive_regulation 927 936	supported
+TR61	Cell_proliferation 956 969	proliferation
+TR62	Regulation 1030 1036	effect
+TR45	Binding 190 202	Interactions
+TR46	Regulation 257 265	regulate
+TR47	Cell_proliferation 266 279	proliferation
+TR48	Binding 417 427	associated
+TR49	Regulation 446 455	modulates
+TR50	Binding 460 468	adhesion
+TR51	Cell_proliferation 473 486	proliferation
+TR39	Negative_regulation 0 10	Inhibition
+TR40	Positive_regulation 19 29	stimulated
+TR41	Positive_regulation 41 49	mediated
+TR42	Cell_proliferation 50 63	proliferation
+TR43	Regulation 114 125	independent
+TR44	Development 129 136	changes
+TR71	Regulation 129 136	changes
+TR56	Binding 694 701	Binding
+TR57	Binding 772 783	interaction
+TR58	Protein_domain_or_region 827 857	C-terminal Ca2+-binding region
+TR72	Protein_domain_or_region 851 857	region
+E1	Phosphorylation:TR63 Theme:T31
+E2	Planned_process:TR66 Instrument:T32
+E3	Negative_regulation:TR64 Theme:T31
+E4	Negative_regulation:TR64 Theme:T30
+E5	Negative_regulation:TR64 Theme:T29
+E6	Negative_regulation:TR64 Theme:T28
+E7	Negative_regulation:TR64 Theme:E1
+E8	Positive_regulation:TR65 Theme:T30 Cause:E2
+E9	Positive_regulation:TR65 Theme:E3 Cause:E2
+E10	Positive_regulation:TR65 Theme:E4 Cause:E2
+E11	Positive_regulation:TR65 Theme:E5 Cause:E2
+E12	Positive_regulation:TR65 Theme:E6 Cause:E2
+E13	Positive_regulation:TR65 Theme:E7 Cause:E2
+E14	Positive_regulation:TR65 Theme:T29 Cause:E2
+E15	Positive_regulation:TR65 Cause:E2 Theme:T28
+E16	Cell_proliferation:TR69 Theme:T36
+E17	Negative_regulation:TR68 Theme:E16 Cause:T34
+E18	Regulation:TR70 Theme:E16 Cause:T37
+E19	Cell_proliferation:TR51 Theme:T13
+E20	Development:TR44 Theme:T6
+E21	Cell_proliferation:TR42 Theme:T4
+E22	Positive_regulation:TR41 Cause:T2 Theme:E21
+E23	Negative_regulation:TR39 Theme:E21 Cause:T5
+E24	Positive_regulation:TR40 Cause:T1 Theme:E21

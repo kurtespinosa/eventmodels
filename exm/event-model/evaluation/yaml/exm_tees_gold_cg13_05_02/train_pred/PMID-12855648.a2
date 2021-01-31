@@ -1,0 +1,124 @@
+TR109	Death 1775 1780	death
+TR110	Positive_regulation 1781 1788	induced
+TR111	Planned_process 1801 1810	targeting
+TR112	Positive_regulation 1852 1861	dependent
+TR113	Cell_death 1862 1871	apoptosis
+TR114	Localization 1877 1884	release
+TR115	Planned_process 1993 2001	knockout
+TR141	Negative_regulation 1959 1969	suppressed
+TR88	Regulation 876 882	effect
+TR89	Mutation 886 895	wild-type
+TR90	Mutation 899 905	mutant
+TR91	Positive_regulation 1004 1014	activation
+TR92	Growth 1049 1055	growth
+TR93	Blood_vessel_development 1075 1087	angiogenesis
+TR84	Death 438 443	death
+TR124	Regulation 2459 2468	regulator
+TR125	Positive_regulation 2486 2495	dependent
+TR126	Cell_death 2496 2505	apoptosis
+TR127	Regulation 2521 2530	targeting
+TR128	Pathway 2539 2546	pathway
+TR129	Positive_regulation 2547 2554	results
+TR130	Negative_regulation 2569 2577	activity
+TR131	Positive_regulation 2602 2611	induction
+TR132	Cell_death 2626 2635	apoptosis
+TR133	Negative_regulation 2640 2651	suppression
+TR134	Blood_vessel_development 2655 2667	angiogenesis
+TR121	Negative_regulation 2217 2226	reduction
+TR122	Cell_death 2350 2359	apoptosis
+TR123	Breakdown 2384 2397	fragmentation
+TR142	Development 2236 2243	derived
+TR143	Planned_process 2294 2301	stained
+TR116	Planned_process 2036 2044	injected
+TR117	Negative_regulation 2089 2098	inhibited
+TR118	Growth 2099 2105	growth
+TR119	Positive_regulation 2132 2141	triggered
+TR120	Cell_death 2153 2162	apoptosis
+TR85	Planned_process 661 669	infected
+TR86	Protein_domain_or_region 821 834	Thr(34)-->Ala
+TR87	Mutation 864 870	mutant
+TR138	Protein_domain_or_region 821 828	Thr(34)
+TR139	Protein_domain_or_region 831 834	Ala
+TR94	Death 1141 1154	death pathway
+TR95	Positive_regulation 1155 1164	initiated
+TR96	Planned_process 1177 1186	targeting
+TR97	Localization 1227 1234	release
+TR98	Gene_expression 1348 1357	deficient
+TR140	Death 1141 1146	death
+TR72	Regulation 12 21	targeting
+TR73	Pathway 38 45	pathway
+TR74	Positive_regulation 57 67	initiation
+TR75	Cell_death 85 94	apoptosis
+TR76	Negative_regulation 99 110	suppression
+TR77	Blood_vessel_development 131 143	angiogenesis
+TR135	Regulation 120 130	associated
+TR78	Negative_regulation 183 192	inhibitor
+TR79	Cell_death 196 205	apoptosis
+TR80	Positive_regulation 277 287	triggering
+TR81	Cell_death 299 308	apoptosis
+TR82	Negative_regulation 349 359	inhibiting
+TR83	Growth 366 372	growth
+TR136	Negative_regulation 262 272	strategies
+TR137	Positive_regulation 332 343	progression
+TR99	Planned_process 1402 1414	transduction
+TR100	Negative_regulation 1454 1463	inhibited
+TR101	Positive_regulation 1503 1510	induced
+TR102	Cell_death 1511 1520	apoptosis
+TR103	Negative_regulation 1522 1529	reduced
+TR104	Gene_expression 1547 1557	generation
+E1	Death:TR109 Theme:T48
+E2	Planned_process:TR111 Theme:T49
+E3	Cell_death:TR113 Theme:T48
+E4	Positive_regulation:TR112 Cause:T50 Theme:E3
+E5	Positive_regulation:TR110 Cause:E2 Theme:E1
+E6	Negative_regulation:TR141 Theme:E3
+E7	Blood_vessel_development:TR93 AtLoc:T28
+E8	Blood_vessel_development:TR93 
+E9	Mutation:TR90 Theme:T23
+E10	Positive_regulation:TR91 Theme:T26
+E11	Death:TR84 Theme:T10
+E12	Pathway:TR128 Participant:T68
+E13	Blood_vessel_development:TR134 
+E14	Cell_death:TR126 
+E15	Positive_regulation:TR125 Cause:T69 Theme:E14
+E16	Negative_regulation:TR133 Theme:E13
+E17	Cell_death:TR132 Theme:T71
+E18	Regulation:TR124 Theme:E15 Cause:T68
+E19	Regulation:TR124 Theme:E14 Cause:T68
+E20	Positive_regulation:TR131 Theme:E17 Cause:T68
+E21	Positive_regulation:TR131 Theme:E16 Cause:T68
+E22	Negative_regulation:TR130 Cause:E16 Theme:T70
+E23	Negative_regulation:TR130 Theme:T70 Cause:E20
+E24	Negative_regulation:TR130 Theme:T70 Cause:E21
+E25	Breakdown:TR123 Theme:T67
+E26	Negative_regulation:TR121 Theme:T63
+E27	Development:TR142 Theme:T62
+E28	Development:TR142 Theme:T63
+E29	Planned_process:TR143 Theme:T65 Instrument:T64
+E30	Cell_death:TR122 Theme:T66
+E31	Cell_death:TR122 
+E32	Cell_death:TR120 Theme:T61
+E33	Growth:TR118 Theme:T60
+E34	Negative_regulation:TR117 Cause:T59 Theme:E33
+E35	Positive_regulation:TR119 Cause:T59 Theme:E32
+E36	Planned_process:TR96 Theme:T30
+E37	Death:TR140 Theme:T29
+E38	Gene_expression:TR98 Theme:T35 Theme:T36
+E39	Gene_expression:TR98 Theme:T35
+E40	Gene_expression:TR98 Theme:T36
+E41	Localization:TR97 Theme:T31
+E42	Death:TR94 Theme:T29
+E43	Positive_regulation:TR95 Theme:E42 Cause:E36
+E44	Cell_death:TR75 
+E45	Blood_vessel_development:TR77 AtLoc:T4
+E46	Negative_regulation:TR76 Theme:E45
+E47	Positive_regulation:TR74 Theme:E44
+E48	Growth:TR83 Theme:T7
+E49	Growth:TR83 Theme:T8
+E50	Cell_death:TR81 Theme:T7
+E51	Negative_regulation:TR136 Theme:T6
+E52	Positive_regulation:TR80 Theme:E50
+E53	Negative_regulation:TR82 Theme:E48
+E54	Negative_regulation:TR82 Theme:E49
+E55	Cell_death:TR102 
+E56	Positive_regulation:TR101 Theme:E55 Cause:T40

@@ -1,0 +1,71 @@
+TR60	Development 834 841	forming
+TR61	Negative_regulation 880 887	reduced
+TR62	Negative_regulation 911 918	reduced
+TR63	Localization 928 939	recruitment
+TR79	Development 964 973	perfusion
+TR64	Positive_regulation 991 998	induced
+TR65	Negative_regulation 999 1008	defective
+TR66	Development 1018 1026	response
+TR67	Positive_regulation 1045 1052	leading
+TR68	Negative_regulation 1056 1063	reduced
+TR69	Growth 1070 1076	growth
+TR52	Positive_regulation 716 721	leads
+TR53	Negative_regulation 725 735	inhibition
+TR54	Pathway 745 754	signaling
+TR55	Positive_regulation 756 765	resulting
+TR56	Positive_regulation 769 778	increased
+TR57	Growth 788 801	proliferation
+TR58	Negative_regulation 806 815	defective
+TR59	Development 816 826	maturation
+TR77	Mutation 653 661	deletion
+TR78	Protein_processing 816 826	maturation
+TR49	Regulation 513 522	regulates
+TR50	Development 532 545	specification
+TR51	Development 550 560	maturation
+TR41	Development 127 138	development
+TR42	Positive_regulation 142 151	dependent
+TR43	Positive_regulation 200 208	critical
+TR44	Development 213 222	providing
+TR45	Binding 252 263	interaction
+TR46	Development 324 333	formation
+TR47	Localization 339 350	recruitment
+TR70	Negative_regulation 1078 1090	Interference
+TR71	Pathway 1107 1116	signaling
+TR72	Positive_regulation 1174 1181	induced
+TR73	Pathway 1193 1200	pathway
+TR36	Negative_regulation 0 10	Inhibition
+TR37	Positive_regulation 19 27	mediated
+TR38	Pathway 28 37	signaling
+TR39	Positive_regulation 38 45	induces
+TR40	Growth 46 59	proliferation
+TR74	Development 63 71	immature
+TR75	Positive_regulation 84 91	results
+E1	Localization:TR63 Theme:T22
+E2	Localization:TR63 Theme:T25
+E3	Development:TR79 Theme:T26
+E4	Negative_regulation:TR61 Theme:T24
+E5	Development:TR60 Theme:T22
+E6	Negative_regulation:TR62 Theme:E1
+E7	Negative_regulation:TR62 Theme:E2
+E8	Development:TR66 Theme:T28
+E9	Growth:TR69 Theme:T30
+E10	Negative_regulation:TR68 Cause:T27 Theme:E9
+E11	Negative_regulation:TR65 Theme:E8
+E12	Positive_regulation:TR67 Cause:E11 Theme:E9
+E13	Positive_regulation:TR64 Cause:T27 Theme:E11
+E14	Growth:TR57 Theme:T21
+E15	Development:TR59 Theme:T21
+E16	Negative_regulation:TR58 Theme:E15
+E17	Development:TR51 Theme:T17
+E18	Development:TR50 Theme:T17
+E19	Regulation:TR49 Theme:E17 Cause:T15
+E20	Regulation:TR49 Theme:E18 Cause:T15
+E21	Localization:TR47 Theme:T9
+E22	Localization:TR47 Theme:T10
+E23	Development:TR41 Theme:T4
+E24	Development:TR46 Theme:T9
+E25	Development:TR46 Theme:T7
+E26	Development:TR46 Theme:T8
+E27	Positive_regulation:TR42 Theme:E23
+E28	Growth:TR40 Theme:T2
+E29	Development:TR74 Theme:T2

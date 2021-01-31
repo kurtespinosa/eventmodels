@@ -1,0 +1,25 @@
+TR24	Negative_regulation 641 650	decreased
+TR25	Metabolism 673 684	utilization
+TR26	Amino_acid_catabolism 712 726	glutaminolysis
+TR27	Negative_regulation 735 742	inhibit
+TR28	Glycolysis 743 753	glycolysis
+TR22	Localization 468 474	uptake
+TR23	Regulation 502 509	changes
+TR30	Metabolism 233 244	utilization
+TR31	Positive_regulation 311 318	induced
+TR32	Negative_regulation 322 332	inhibition
+TR19	Planned_process 106 115	harvested
+TR20	Localization 152 160	presence
+TR29	Metabolism 84 94	metabolism
+TR21	Localization 356 364	presence
+TR33	Negative_regulation 416 425	decreased
+E1	Metabolism:TR25 Theme:T18
+E2	Negative_regulation:TR24 Cause:T17 Theme:E1
+E3	Amino_acid_catabolism:TR26 
+E4	Glycolysis:TR28 
+E5	Negative_regulation:TR27 Cause:E3 Theme:E4
+E6	Regulation:TR23 Theme:T14
+E7	Localization:TR22 Theme:T12
+E8	Metabolism:TR30 Theme:T7
+E9	Planned_process:TR19 Theme:T4
+E10	Localization:TR21 Theme:T11 Theme:T10

@@ -1,0 +1,31 @@
+TR39	Blood_vessel_development 2096 2108	angiogenesis
+TR30	Death 433 440	survive
+TR33	Positive_regulation 1761 1769	activate
+TR34	Blood_vessel_development 1781 1791	angiogenic
+TR35	Blood_vessel_development 1795 1816	arteriogenic pathways
+TR36	Positive_regulation 1820 1829	stimulate
+TR37	Blood_vessel_development 1830 1847	revascularization
+TR32	Planned_process 1509 1516	therapy
+TR44	Development 1535 1546	progression
+TR31	Regulation 648 656	effected
+TR41	Negative_regulation 680 688	impaired
+TR38	Blood_vessel_development 2016 2028	angiogenesis
+TR26	Blood_vessel_development 12 24	angiogenesis
+TR27	Breakdown 305 316	dysfunction
+TR28	Negative_regulation 334 344	disruption
+TR29	Localization 368 376	delivery
+TR42	Positive_regulation 1200 1209	increased
+TR43	Synthesis 1210 1220	production
+E1	Blood_vessel_development:TR39 
+E2	Death:TR30 Theme:T8
+E3	Blood_vessel_development:TR35 
+E4	Blood_vessel_development:TR37 
+E5	Blood_vessel_development:TR34 
+E6	Planned_process:TR32 Instrument:T20
+E7	Development:TR44 Theme:T21
+E8	Regulation:TR31 Theme:T9
+E9	Blood_vessel_development:TR38 
+E10	Blood_vessel_development:TR26 
+E11	Breakdown:TR27 Theme:T6
+E12	Localization:TR29 Theme:T7
+E13	Negative_regulation:TR28 Theme:E12

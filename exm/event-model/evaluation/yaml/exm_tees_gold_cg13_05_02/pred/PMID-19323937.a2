@@ -1,0 +1,29 @@
+T35	Positive_regulation 453 462	activated
+T40	Negative_regulation 1299 1303	loss
+T45	Planned_process 1625 1649	perioperation management
+T46	Negative_regulation 1658 1664	reduce
+T47	Negative_regulation 1686 1690	loss
+T34	Planned_process 367 376	treatment
+T38	Metastasis 1154 1164	metastasis
+T39	Metastasis 1216 1226	metastasis
+T36	Planned_process 957 980	Pancreaticoduodenectomy
+T37	Planned_process 982 1001	Whipple's operation
+T48	Planned_process 992 1001	operation
+T49	Localization 1115 1127	invasiveness
+T42	Positive_regulation 1518 1526	elevated
+T43	Localization 1567 1579	invasiveness
+T44	Metastasis 1594 1604	metastasis
+T41	Positive_regulation 1504 1512	elevated
+E1	Positive_regulation:T35 Theme:T9
+E2	Positive_regulation:T35 Theme:T10
+E3	Negative_regulation:T40 Theme:T23
+E4	Negative_regulation:T47 Theme:T33
+E5	Planned_process:T34 Theme:T7
+E6	Metastasis:T39 ToLoc:T22
+E7	Metastasis:T38 ToLoc:T21
+E8	Planned_process:T36 Theme:T19
+E9	Planned_process:T48 Theme:T19
+E10	Planned_process:T37 Theme:T19
+E11	Metastasis:T44 ToLoc:T31
+E12	Positive_regulation:T42 Theme:T30
+E13	Positive_regulation:T41 Theme:T27

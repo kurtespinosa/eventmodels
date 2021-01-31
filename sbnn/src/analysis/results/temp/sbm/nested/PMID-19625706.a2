@@ -1,0 +1,68 @@
+T37	Binding 30 35	binds
+T38	Protein_domain_or_region 53 74	plasminogen kringle 1
+T39	Protein_domain_or_region 75 76	5
+T40	Negative_regulation 82 92	attenuates
+T41	Blood_vessel_development 101 111	angiogenic
+T42	Negative_regulation 112 120	property
+T43	Blood_vessel_development 200 210	angiogenic
+T44	Negative_regulation 211 219	property
+T45	Protein_domain_or_region 302 323	plasminogen kringle 1
+T46	Protein_domain_or_region 327 328	4
+T47	Protein_domain_or_region 348 357	kringle 5
+T48	Protein_processing 374 389	autoproteolysis
+T49	Protein_processing 470 477	cleaved
+T50	Positive_regulation 470 477	cleaved
+T51	Protein_domain_or_region 496 504	domain V
+T52	Positive_regulation 524 533	resulting
+T53	Binding 537 544	binding
+T54	Blood_vessel_development 565 575	angiogenic
+T55	Negative_regulation 576 586	properties
+T56	Binding 733 740	binding
+T57	Binding 807 814	binding
+T58	Negative_regulation 832 842	attenuates
+T59	Blood_vessel_development 851 861	angiogenic
+T60	Negative_regulation 862 871	functions
+T61	Cell_proliferation 888 901	proliferation
+T62	Localization 968 976	invasion
+T63	Development 990 999	formation
+T64	Blood_vessel_development 1041 1053	angiogenesis
+T65	Binding 1093 1097	bind
+T66	Negative_regulation 1110 1117	inhibit
+T67	Blood_vessel_development 1126 1136	angiogenic
+T68	Negative_regulation 1137 1145	activity
+T69	Blood_vessel_development 1192 1204	angiogenesis
+T70	Positive_regulation 1231 1239	promotes
+T71	Blood_vessel_development 1240 1252	angiogenesis
+T72	Negative_regulation 1303 1311	inhibits
+T73	Blood_vessel_development 1312 1324	angiogenesis
+T74	Positive_regulation 1422 1430	promotes
+T75	Blood_vessel_development 1431 1443	angiogenesis
+T76	Binding 1447 1458	interacting
+E2	Negative_regulation:T40 Cause:T1 Theme:E4
+E4	Negative_regulation:T42 Theme:E3 Cause:T1
+E6	Negative_regulation:T44 Theme:E5 Cause:T4
+E9	Positive_regulation:T50 Cause:T13 Theme:E8
+E10	Positive_regulation:T52 Cause:E8 Theme:E11
+E13	Negative_regulation:T55 Theme:E12 Cause:T16
+E16	Negative_regulation:T58 Cause:T20 Theme:E18
+E18	Negative_regulation:T60 Theme:E17 Cause:T21
+E24	Negative_regulation:T66 Cause:T27 Theme:E26
+E26	Negative_regulation:T68 Theme:E25 Cause:T28
+E28	Positive_regulation:T70 Cause:T30 Theme:E29
+E30	Negative_regulation:T72 Cause:T32 Theme:E31
+E32	Positive_regulation:T74 Cause:E34 Theme:E33
+E38	Positive_regulation:T50 Cause:T13 Theme:E37
+E39	Positive_regulation:T52 Cause:E37 Theme:E11
+E40	Negative_regulation:T55 Theme:E12 Cause:T17
+E25	Blood_vessel_development:T67
+E17	Blood_vessel_development:T59
+E37	Protein_processing:T49 Theme:T12
+E5	Blood_vessel_development:T43
+E34	Binding:T76 Theme:T34 Theme2:T35
+E33	Blood_vessel_development:T75
+E29	Blood_vessel_development:T71
+E12	Blood_vessel_development:T54
+E31	Blood_vessel_development:T73
+E11	Binding:T53 Theme:T15 Theme2:T14
+E8	Protein_processing:T49 Theme:T11
+E3	Blood_vessel_development:T41

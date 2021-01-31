@@ -1,0 +1,58 @@
+TR42	Positive_regulation 722 731	stimulate
+TR43	Blood_vessel_development 732 744	angiogenesis
+TR44	Blood_vessel_development 786 796	angiogenic
+TR45	Blood_vessel_development 836 846	angiogenic
+TR46	Positive_regulation 847 858	stimulation
+TR47	Growth 1039 1045	growth
+TR54	Blood_vessel_development 1567 1579	angiogenesis
+TR55	Regulation 1756 1763	control
+TR56	Growth 1777 1783	growth
+TR30	Growth 142 148	growth
+TR31	Breakdown 217 222	lysis
+TR32	Dissociation 217 222	lysis
+TR33	Localization 280 289	migration
+TR34	Blood_vessel_development 332 342	angiogenic
+TR35	Development 359 368	formation
+TR36	Development 370 381	development
+TR37	Planned_process 399 410	anastomosis
+TR49	Regulation 1312 1318	effect
+TR50	Negative_regulation 1433 1437	slow
+TR51	Localization 1438 1445	release
+TR52	Localization 1500 1504	move
+TR53	Blood_vessel_development 1529 1539	angiogenic
+TR38	Blood_vessel_development 496 506	angiogenic
+TR39	Localization 522 530	released
+TR40	Positive_regulation 629 638	activated
+TR41	Planned_process 652 662	sensitized
+TR48	Localization 1210 1219	migration
+E1	Blood_vessel_development:TR44 
+E2	Blood_vessel_development:TR43 
+E3	Blood_vessel_development:TR45 
+E4	Positive_regulation:TR46 Theme:E3
+E5	Positive_regulation:TR42 Theme:E2
+E6	Growth:TR47 Theme:T18
+E7	Growth:TR56 Theme:T29
+E8	Blood_vessel_development:TR54 
+E9	Regulation:TR55 Theme:E7
+E10	Planned_process:TR37 Theme:T9
+E11	Dissociation:TR32 Theme:T4
+E12	Localization:TR33 Theme:T6
+E13	Growth:TR30 Theme:T3
+E14	Development:TR36 Theme:T8
+E15	Blood_vessel_development:TR34 
+E16	Breakdown:TR31 Theme:T4
+E17	Breakdown:TR31 Theme:T5
+E18	Regulation:TR49 Theme:T24 Cause:T22
+E19	Localization:TR51 FromLoc:T25 Theme:T27
+E20	Localization:TR51 Theme:T27
+E21	Localization:TR52 Theme:T28
+E22	Localization:TR52 Theme:T27
+E23	Blood_vessel_development:TR53 
+E24	Negative_regulation:TR50 Theme:E19
+E25	Negative_regulation:TR50 Theme:E20
+E26	Blood_vessel_development:TR38 
+E27	Planned_process:TR41 Theme:T13
+E28	Positive_regulation:TR40 Theme:T12
+E29	Localization:TR48 Theme:T20
+E30	Localization:TR48 Theme:T19
+E31	Localization:TR48 Theme:T21

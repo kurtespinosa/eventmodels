@@ -1,0 +1,38 @@
+TR31	Positive_regulation 1459 1468	increased
+TR32	Metabolism 1469 1480	consumption
+TR33	Synthesis 1549 1559	production
+TR34	Glycolysis 1581 1591	glycolysis
+TR35	Gene_expression 1608 1618	production
+TR36	Synthesis 1608 1618	production
+TR37	Localization 1685 1693	invasion
+TR24	Regulation 969 976	altered
+TR25	Metabolism 977 987	metabolism
+TR26	Localization 991 999	invasive
+TR22	Positive_regulation 377 386	increased
+TR23	Localization 395 401	uptake
+TR20	Positive_regulation 110 119	increased
+TR21	Glycolysis 128 138	glycolysis
+TR30	Glycolysis 1339 1349	glycolysis
+TR19	Glycolysis 70 80	glycolysis
+TR27	Positive_regulation 1150 1157	promote
+TR28	Glycolysis 1179 1189	glycolysis
+TR29	Localization 1222 1230	invasive
+TR38	Synthesis 1751 1761	generation
+TR39	Negative_regulation 1765 1773	reducing
+E1	Localization:TR37 Theme:T15
+E2	Metabolism:TR32 Theme:T12
+E3	Synthesis:TR36 Theme:T14
+E4	Glycolysis:TR34 
+E5	Positive_regulation:TR31 Theme:E2
+E6	Localization:TR26 Theme:T8
+E7	Localization:TR23 Theme:T3
+E8	Positive_regulation:TR22 Theme:E7
+E9	Glycolysis:TR21 
+E10	Positive_regulation:TR20 Theme:E9
+E11	Glycolysis:TR30 
+E12	Glycolysis:TR19 
+E13	Glycolysis:TR28 
+E14	Localization:TR29 Theme:T9
+E15	Positive_regulation:TR27 Theme:E13
+E16	Synthesis:TR38 Theme:T17
+E17	Synthesis:TR38 Theme:T18

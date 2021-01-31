@@ -1,0 +1,24 @@
+T34	Gene_expression 1162 1172	expression
+T35	Positive_regulation 1196 1204	promoted
+T30	Gene_expression 781 791	expression
+T33	Gene_expression 1070 1080	expression
+T31	Gene_expression 931 941	expression
+T32	Metastasis 973 983	metastasis
+T26	Regulation 487 507	play important roles
+T38	Regulation 502 507	roles
+T27	Planned_process 601 627	primary surgical resection
+T28	Metastasis 723 733	metastasis
+T29	Death 758 766	survival
+T39	Planned_process 618 627	resection
+E1	Gene_expression:T34 Theme:T21
+E2	Positive_regulation:T35 Theme:E1
+E3	Gene_expression:T30 Theme:T17
+E4	Gene_expression:T33 Theme:T20
+E5	Metastasis:T32 ToLoc:T19
+E6	Gene_expression:T31 Theme:T18
+E7	Regulation:T26 Theme:T11
+E8	Regulation:T38 Theme:T11
+E9	Planned_process:T27 Theme:T13
+E10	Planned_process:T39 Theme:T13
+E11	Metastasis:T28 ToLoc:T16 Theme:T14
+E12	Death:T29 Theme:T13

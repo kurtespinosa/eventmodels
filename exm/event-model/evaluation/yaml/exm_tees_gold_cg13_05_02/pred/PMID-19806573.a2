@@ -1,0 +1,62 @@
+T45	Negative_regulation 688 695	inhibit
+T46	Localization 707 715	invasion
+T47	Negative_regulation 724 739	down-regulation
+T48	Positive_regulation 776 783	promote
+T49	Cell_death 784 793	apoptosis
+T50	Positive_regulation 802 811	induction
+T51	Gene_expression 819 829	expression
+T52	Negative_regulation 834 844	inhibition
+T42	Gene_expression 567 577	expression
+T43	Negative_regulation 613 622	decreased
+T44	Positive_regulation 644 652	elevated
+T28	Regulation 1 7	Effect
+T29	Negative_regulation 23 32	silencing
+T30	Localization 89 97	invasion
+T31	Cell_death 102 111	apoptosis
+T55	Positive_regulation 47 55	mediated
+T56	Localization 56 64	delivery
+T53	Regulation 890 913	plays an important role
+T54	Positive_regulation 930 941	progression
+T58	Regulation 909 913	role
+T59	Development 930 941	progression
+T32	Regulation 145 151	effect
+T33	Negative_regulation 167 176	silencing
+T34	Localization 184 192	invasion
+T35	Cell_death 197 206	apoptosis
+T37	Negative_regulation 464 473	inhibited
+T38	Gene_expression 486 496	expression
+T39	Localization 506 514	invasion
+T40	Positive_regulation 516 524	promoted
+T41	Cell_death 525 534	apoptosis
+T36	Cell_death 245 254	apoptosis
+T57	Localization 235 243	invasion
+E1	Negative_regulation:T52 Theme:T24
+E2	Negative_regulation:T47 Theme:T20
+E3	Negative_regulation:T47 Theme:T22
+E4	Cell_death:T49 Theme:T19
+E5	Positive_regulation:T48 Cause:E1 Theme:E4
+E6	Positive_regulation:T44 Theme:T17
+E7	Localization:T30 Theme:T3
+E8	Cell_death:T31 Theme:T3
+E9	Negative_regulation:T29 Theme:T1
+E10	Regulation:T28 Theme:E7 Cause:E9
+E11	Regulation:T28 Theme:E8 Cause:E9
+E12	Development:T59 Theme:T27
+E13	Positive_regulation:T54 Theme:T27
+E14	Regulation:T53 Theme:E13 Cause:T25
+E15	Regulation:T58 Theme:E12 Cause:T25
+E16	Negative_regulation:T33 Theme:T4
+E17	Cell_death:T35 Theme:T5
+E18	Cell_death:T35 
+E19	Localization:T34 Theme:T5
+E20	Regulation:T32 Theme:E19 Cause:E16
+E21	Regulation:T32 Cause:E16 Theme:E17
+E22	Regulation:T32 Cause:E16 Theme:E18
+E23	Localization:T39 Theme:T11
+E24	Cell_death:T41 Theme:T12
+E25	Cell_death:T41 
+E26	Gene_expression:T38 Theme:T10
+E27	Negative_regulation:T37 Theme:E23
+E28	Positive_regulation:T40 Theme:E24
+E29	Positive_regulation:T40 Theme:E25
+E30	Cell_death:T36 

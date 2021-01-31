@@ -1,0 +1,60 @@
+TR43	Positive_regulation 12 20	enhances
+TR44	Gene_expression 25 35	expression
+TR45	Cell_death 40 49	apoptosis
+TR46	Planned_process 86 93	treated
+TR68	Cell_death 1227 1236	apoptosis
+TR69	Positive_regulation 1237 1243	caused
+TR70	Positive_regulation 1247 1255	elevated
+TR71	Gene_expression 1256 1266	expression
+TR72	Regulation 1277 1285	involved
+TR73	Negative_regulation 1289 1304	chemoprevention
+TR74	Carcinogenesis 1329 1343	carcinogenesis
+TR53	Regulation 533 541	involved
+TR54	Positive_regulation 564 572	mediated
+TR55	Negative_regulation 573 583	inhibition
+TR56	Development 593 604	development
+TR63	Positive_regulation 895 903	increase
+TR64	Gene_expression 919 929	expression
+TR65	Positive_regulation 942 951	elevation
+TR57	Positive_regulation 693 701	mediated
+TR58	Cell_death 702 711	apoptosis
+TR59	Gene_expression 727 737	expression
+TR60	Positive_regulation 746 756	activation
+TR61	Breakdown 793 806	fragmentation
+TR62	Planned_process 834 841	treated
+TR75	Regulation 654 663	influence
+TR66	Positive_regulation 1173 1181	mediated
+TR67	Negative_regulation 1188 1198	inhibition
+TR47	Negative_regulation 180 187	inhibit
+TR48	Development 188 199	development
+TR49	Positive_regulation 222 229	induced
+TR50	Positive_regulation 354 362	enhances
+TR51	Gene_expression 367 377	expression
+TR52	Carcinogenesis 498 512	carcinogenesis
+E1	Gene_expression:TR44 Theme:T2
+E2	Cell_death:TR45 
+E3	Positive_regulation:TR43 Cause:T1 Theme:E1
+E4	Cell_death:TR68 
+E5	Carcinogenesis:TR74 AtLoc:T42
+E6	Development:TR56 Theme:T19
+E7	Negative_regulation:TR55 Theme:E6
+E8	Regulation:TR53 Cause:T16 Theme:E7
+E9	Positive_regulation:TR54 Cause:T18 Theme:E7
+E10	Positive_regulation:TR65 Theme:T32
+E11	Positive_regulation:TR65 Theme:T31
+E12	Positive_regulation:TR65 Theme:T30
+E13	Gene_expression:TR64 Theme:T30
+E14	Positive_regulation:TR63 Theme:E13
+E15	Gene_expression:TR59 Theme:T23
+E16	Positive_regulation:TR60 Theme:T24
+E17	Positive_regulation:TR60 Theme:T25
+E18	Positive_regulation:TR60 Theme:T23
+E19	Breakdown:TR61 Theme:T26
+E20	Regulation:TR75 Cause:T21 Theme:E15
+E21	Negative_regulation:TR67 Cause:T38 Theme:T39
+E22	Positive_regulation:TR66 Cause:T38 Theme:E21
+E23	Development:TR48 Theme:T11
+E24	Positive_regulation:TR49 Cause:T8 Theme:T11
+E25	Positive_regulation:TR49 Cause:T9 Theme:T11
+E26	Negative_regulation:TR47 Cause:T7 Theme:E23
+E27	Carcinogenesis:TR52 AtLoc:T15

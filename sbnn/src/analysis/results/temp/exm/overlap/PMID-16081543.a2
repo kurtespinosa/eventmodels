@@ -1,0 +1,28 @@
+T39	Cell_transformation 25 39	transformation
+T40	Binding 87 94	binding
+T41	Positive_regulation 159 167	required
+T42	Cell_transformation 181 195	transformation
+T43	Regulation 254 265	contributes
+T44	Cell_transformation 278 292	transformation
+T45	Binding 500 507	binding
+T46	Binding 544 551	complex
+T47	Positive_regulation 593 600	enhance
+T48	Gene_expression 636 646	expressing
+T49	Cell_transformation 730 744	transformation
+T50	Planned_process 770 779	knockdown
+T51	Negative_regulation 788 795	reduced
+T52	Cell_transformation 796 810	transformation
+T53	Gene_expression 820 830	expressing
+T54	Positive_regulation 894 901	ability
+T55	Cell_transformation 911 922	transformed
+T56	Regulation 932 940	mediated
+T57	Binding 983 987	bind
+T58	Binding 1051 1060	interacts
+T59	Binding 1086 1097	interaction
+T60	Positive_regulation 1118 1125	ability
+T61	Cell_transformation 1141 1150	transform
+E16	Positive_regulation:T54 Cause:T27 Theme:E17
+E17	Cell_transformation:T55 Theme:T28
+E19	Binding:T57 Theme:T27 Theme2:T29
+E20	Binding:T58 Theme:T31 Theme2:T32
+E21	Binding:T59 Theme:T31 Theme2:T32

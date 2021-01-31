@@ -1,0 +1,120 @@
+TR93	Positive_regulation 1046 1053	induced
+TR94	Localization 1066 1078	localization
+TR95	Negative_regulation 1097 1104	blocked
+TR96	Negative_regulation 1112 1122	inhibition
+TR77	DNA_domain_or_region 622 630	promoter
+TR78	Planned_process 631 637	linked
+TR79	Mutation 680 688	mutation
+TR80	Negative_regulation 689 697	reducing
+TR81	Binding 702 709	binding
+TR82	DNA_domain_or_region 722 730	promoter
+TR83	Regulation 750 756	effect
+TR84	Gene_expression 771 781	production
+TR85	Positive_regulation 782 789	induced
+TR86	Positive_regulation 799 810	stimulation
+TR58	Regulation 6 13	signals
+TR59	Pathway 35 42	pathway
+TR60	Positive_regulation 54 60	induce
+TR61	Gene_expression 66 76	production
+TR62	Positive_regulation 81 88	induces
+TR63	Blood_vessel_development 89 101	angiogenesis
+TR112	Negative_regulation 1562 1571	abolished
+TR113	Positive_regulation 1578 1585	induced
+TR114	Development 1599 1608	formation
+TR97	Mutation 1133 1141	mutating
+TR98	DNA_domain_or_region 1150 1163	binding sites
+TR99	DNA_domain_or_region 1180 1188	promoter
+TR100	Negative_regulation 1192 1202	inhibiting
+TR101	Negative_regulation 1207 1216	decreased
+TR102	DNA_domain_or_region 1222 1230	promoter
+TR103	Planned_process 1249 1256	treated
+TR123	Binding 1150 1157	binding
+TR87	Positive_regulation 849 856	induced
+TR88	Regulation 849 856	induced
+TR89	Pathway 883 900	signaling pathway
+TR122	Pathway 893 900	pathway
+TR73	Positive_regulation 398 405	induces
+TR74	Gene_expression 410 420	expression
+TR90	Negative_regulation 942 952	inhibition
+TR91	Negative_regulation 974 984	suppressed
+TR92	Positive_regulation 991 998	induced
+TR115	Positive_regulation 1659 1668	dependent
+TR116	Positive_regulation 1688 1695	induced
+TR117	Gene_expression 1701 1711	production
+TR118	Positive_regulation 1771 1777	induce
+TR119	Regulation 1771 1777	induce
+TR120	Blood_vessel_development 1778 1790	angiogenesis
+TR104	Positive_regulation 1323 1330	induced
+TR105	Gene_expression 1336 1346	production
+TR106	Blood_vessel_development 1367 1379	angiogenesis
+TR107	Regulation 1404 1411	ability
+TR108	Localization 1424 1431	recruit
+TR109	Positive_regulation 1456 1464	increase
+TR110	Positive_regulation 1482 1489	enhance
+TR111	Blood_vessel_development 1490 1502	angiogenesis
+TR64	Regulation 129 137	recruits
+TR65	Regulation 167 175	regulate
+TR66	Blood_vessel_development 194 206	angiogenesis
+TR67	Metastasis 211 221	metastases
+TR121	Localization 129 137	recruits
+TR75	Positive_regulation 559 566	induced
+TR76	Gene_expression 572 582	production
+TR68	Positive_regulation 250 259	activator
+TR69	Blood_vessel_development 263 275	angiogenesis
+TR70	Positive_regulation 282 290	promotes
+TR71	Cell_proliferation 308 321	proliferation
+TR72	Development 343 352	formation
+E1	Negative_regulation:TR96 Theme:T36
+E2	Planned_process:TR78 Instrument:T19
+E3	Positive_regulation:TR86 Theme:T23
+E4	Mutation:TR79 Theme:T20
+E5	Mutation:TR79 Theme:T18
+E6	Gene_expression:TR84 Theme:T22
+E7	Regulation:TR83 Cause:E4 Theme:E6
+E8	Regulation:TR83 Cause:E5 Theme:E6
+E9	Positive_regulation:TR85 Cause:E3 Theme:E6
+E10	Blood_vessel_development:TR63 
+E11	Regulation:TR58 Theme:T4 Cause:T1
+E12	Positive_regulation:TR62 Cause:T1 Theme:E10
+E13	Development:TR114 Theme:T51
+E14	Positive_regulation:TR113 Theme:E13 Cause:T50
+E15	Mutation:TR97 Theme:T38
+E16	Negative_regulation:TR100 Theme:T39
+E17	Negative_regulation:TR100 Theme:T40
+E18	Negative_regulation:TR101 Cause:E15 Theme:T40
+E19	Negative_regulation:TR101 Cause:E16 Theme:T40
+E20	Negative_regulation:TR101 Cause:E17 Theme:T40
+E21	Regulation:TR88 Theme:T28 Cause:T24
+E22	Gene_expression:TR74 Theme:T13
+E23	Positive_regulation:TR73 Theme:E22 Cause:T12
+E24	Positive_regulation:TR92 Theme:T32 Cause:T31
+E25	Negative_regulation:TR90 Theme:T32
+E26	Negative_regulation:TR90 Theme:T30
+E27	Negative_regulation:TR90 Theme:T29
+E28	Negative_regulation:TR91 Theme:T32 Cause:E25
+E29	Negative_regulation:TR91 Theme:T32 Cause:E26
+E30	Negative_regulation:TR91 Theme:T32 Cause:E27
+E31	Negative_regulation:TR91 Theme:T32 Cause:T31
+E32	Blood_vessel_development:TR120 
+E33	Regulation:TR119 Theme:T57 Cause:T56
+E34	Positive_regulation:TR118 Cause:E33 Theme:E32
+E35	Gene_expression:TR117 Theme:T55
+E36	Positive_regulation:TR116 Cause:T54 Theme:E35
+E37	Blood_vessel_development:TR111 
+E38	Gene_expression:TR105 Theme:T45
+E39	Positive_regulation:TR110 Theme:E37 Cause:T46
+E40	Positive_regulation:TR104 Cause:T44 Theme:E38
+E41	Positive_regulation:TR109 Theme:E39 Cause:T46
+E42	Metastasis:TR67 Theme:T8
+E43	Blood_vessel_development:TR66 AtLoc:T8
+E44	Localization:TR121 Theme:T7
+E45	Regulation:TR64 Theme:T7 Cause:T6
+E46	Regulation:TR64 Cause:T6 Theme:E44
+E47	Gene_expression:TR76 Theme:T17
+E48	Positive_regulation:TR75 Cause:T16 Theme:E47
+E49	Cell_proliferation:TR71 Theme:T10
+E50	Blood_vessel_development:TR69 
+E51	Development:TR72 Theme:T11
+E52	Positive_regulation:TR68 Theme:E50 Cause:T9
+E53	Positive_regulation:TR70 Theme:E49 Cause:T9
+E54	Positive_regulation:TR70 Theme:E51 Cause:T9

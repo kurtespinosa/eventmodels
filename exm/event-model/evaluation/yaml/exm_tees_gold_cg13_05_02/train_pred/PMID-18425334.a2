@@ -1,0 +1,45 @@
+TR34	Carcinogenesis 309 330	tumorigenic processes
+TR46	Mutation 913 929	genetic ablation
+TR47	Gene_expression 959 973	overexpression
+TR48	Positive_regulation 959 973	overexpression
+TR49	Negative_regulation 1041 1046	delay
+TR50	Carcinogenesis 1050 1063	tumorigenesis
+TR55	Mutation 921 929	ablation
+TR29	Positive_regulation 9 17	mediated
+TR30	Negative_regulation 22 34	inactivation
+TR31	Positive_regulation 73 83	activation
+TR32	Negative_regulation 84 90	delays
+TR33	Carcinogenesis 106 119	tumorigenesis
+TR38	Gene_expression 514 528	overexpression
+TR39	Positive_regulation 514 528	overexpression
+TR40	Positive_regulation 577 583	result
+TR35	Regulation 389 393	role
+TR36	Positive_regulation 453 460	induced
+TR37	Carcinogenesis 476 489	tumorigenesis
+TR51	Regulation 1127 1131	role
+TR52	Positive_regulation 1151 1158	induced
+TR53	Carcinogenesis 1174 1187	tumorigenesis
+TR41	Positive_regulation 662 670	mediated
+TR42	Negative_regulation 671 683	inactivation
+TR43	Positive_regulation 699 703	over
+TR44	Gene_expression 704 714	expression
+TR54	Positive_regulation 724 730	caused
+TR45	Positive_regulation 887 896	activated
+E1	Carcinogenesis:TR34 
+E2	Carcinogenesis:TR50 
+E3	Gene_expression:TR47 Theme:T24
+E4	Positive_regulation:TR48 Theme:E3
+E5	Negative_regulation:TR30 Theme:T3
+E6	Carcinogenesis:TR33 AtLoc:T5
+E7	Positive_regulation:TR31 Theme:T4
+E8	Negative_regulation:TR32 Cause:E5 Theme:E6
+E9	Negative_regulation:TR32 Theme:E6 Cause:E7
+E10	Positive_regulation:TR29 Cause:T2 Theme:E5
+E11	Gene_expression:TR38 Theme:T11
+E12	Carcinogenesis:TR37 AtLoc:T10
+E13	Positive_regulation:TR36 Cause:T9 Theme:E12
+E14	Carcinogenesis:TR53 AtLoc:T27
+E15	Regulation:TR51 Theme:E14 Cause:T25
+E16	Positive_regulation:TR52 Cause:T26 Theme:E14
+E17	Gene_expression:TR44 Theme:T18
+E18	Positive_regulation:TR45 Theme:T22

@@ -1,0 +1,77 @@
+TR37	Regulation 41 49	involved
+TR38	Development 86 95	formation
+TR43	Gene_expression 442 451	expressed
+TR44	Mutation 452 461	wild-type
+TR45	Mutation 466 472	mutant
+TR39	Gene_expression 173 182	expressed
+TR40	Remodeling 255 269	reorganization
+TR41	Blood_vessel_development 277 289	angiogenesis
+TR42	Regulation 332 339	changes
+TR46	Gene_expression 589 599	Expression
+TR47	Mutation 603 612	wild-type
+TR48	Positive_regulation 618 625	induces
+TR49	Localization 642 650	ruffling
+TR50	Development 655 664	formation
+TR58	Protein_domain_or_region 1156 1166	subdomains
+TR59	Binding 1182 1186	bind
+TR60	Positive_regulation 1209 1215	induce
+TR61	Development 1346 1355	formation
+TR70	Binding 1290 1301	aggregation
+TR71	Localization 1306 1315	tethering
+TR56	Gene_expression 1016 1026	expression
+TR57	Binding 1095 1099	bind
+TR62	Regulation 1458 1467	influence
+TR63	Localization 1480 1489	migration
+TR64	Development 1494 1506	organization
+TR65	Development 1524 1533	formation
+TR66	Regulation 1538 1546	modulate
+TR67	Regulation 1573 1580	effects
+TR72	Remodeling 1494 1506	organization
+TR51	Protein_domain_or_region 744 763	proline-rich domain
+TR52	Negative_regulation 772 781	abolishes
+TR53	Binding 797 801	bind
+TR54	Regulation 824 830	affect
+TR55	Development 856 865	formation
+TR68	Mutation 728 736	Deletion
+TR69	Protein_domain_or_region 757 763	domain
+E1	Development:TR38 Theme:T2
+E2	Development:TR38 Theme:T3
+E3	Regulation:TR37 Cause:T1 Theme:E1
+E4	Regulation:TR37 Cause:T1 Theme:E2
+E5	Mutation:TR44 Theme:T13
+E6	Gene_expression:TR43 Theme:T13
+E7	Mutation:TR45 Theme:T13
+E8	Blood_vessel_development:TR41 
+E9	Regulation:TR42 Theme:T10
+E10	Gene_expression:TR39 Theme:T6 Theme:T5
+E11	Gene_expression:TR39 Theme:T6
+E12	Gene_expression:TR39 Theme:T5
+E13	Remodeling:TR40 Theme:T8
+E14	Development:TR50 Theme:T18
+E15	Localization:TR49 Theme:T17
+E16	Gene_expression:TR46 Theme:T16
+E17	Positive_regulation:TR48 Theme:E14 Cause:E16
+E18	Positive_regulation:TR48 Theme:E15 Cause:E16
+E19	Positive_regulation:TR60 Theme:T28 Cause:T27
+E20	Positive_regulation:TR60 Cause:T27 Theme:T27
+E21	Development:TR61 Theme:T31
+E22	Development:TR61 Theme:T30
+E23	Binding:TR59 Theme:T27
+E24	Localization:TR71 Theme:T29
+E25	Gene_expression:TR56 Theme:T24
+E26	Regulation:TR67 Cause:T32 Theme:T36
+E27	Regulation:TR67 Cause:T32 Theme:T33
+E28	Localization:TR63 Theme:T33
+E29	Remodeling:TR72 Theme:T33
+E30	Development:TR64 Theme:T33
+E31	Regulation:TR66 Theme:T35 Cause:E26
+E32	Regulation:TR66 Theme:T35 Cause:E27
+E33	Regulation:TR66 Cause:E26 Theme:T33
+E34	Regulation:TR66 Cause:E27 Theme:T33
+E35	Regulation:TR62 Theme:E30 Cause:T32
+E36	Regulation:TR62 Cause:T32 Theme:E28
+E37	Development:TR65 Theme:T34
+E38	Mutation:TR68 Theme:T21
+E39	Development:TR55 Theme:T23
+E40	Regulation:TR54 Theme:T22
+E41	Regulation:TR54 Theme:E39

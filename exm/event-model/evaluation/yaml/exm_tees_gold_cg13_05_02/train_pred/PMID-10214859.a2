@@ -1,0 +1,73 @@
+TR61	Negative_regulation 1765 1774	Decreased
+TR62	Gene_expression 1775 1785	expression
+TR63	Regulation 1867 1874	altered
+TR64	Gene_expression 1875 1885	expression
+TR65	Regulation 1906 1917	play a role
+TR66	Development 1925 1935	initiation
+TR79	Regulation 1913 1917	role
+TR36	Mutation 363 371	mutation
+TR37	Mutation 399 425	microsatellite instability
+TR69	Mutation 414 425	instability
+TR41	Cell_proliferation 609 615	growth
+TR42	Negative_regulation 616 625	regulator
+TR43	Negative_regulation 702 714	inactivation
+TR44	Mutation 734 759	microsatellite alteration
+TR45	Regulation 769 777	involved
+TR46	Development 785 796	progression
+TR70	Mutation 749 759	alteration
+TR51	Negative_regulation 1189 1198	decreased
+TR52	Transcription 1199 1209	expression
+TR32	Gene_expression 98 113	gene expression
+TR33	Mutation 116 135	Genomic instability
+TR34	Regulation 165 176	play a role
+TR35	Development 192 203	progression
+TR67	Mutation 124 135	instability
+TR68	Regulation 172 176	role
+TR56	Mutation 1547 1557	alteration
+TR57	Mutation 1654 1665	alterations
+TR58	DNA_domain_or_region 1673 1695	microsatellite regions
+TR59	Regulation 1729 1737	involved
+TR60	Development 1745 1756	progression
+TR77	Regulation 1654 1665	alterations
+TR78	DNA_domain_or_region 1688 1695	regions
+TR47	Transcription 830 845	mRNA expression
+TR48	Regulation 954 963	no change
+TR49	Transcription 980 990	transcript
+TR50	Development 1013 1024	progression
+TR71	Transcription 835 845	expression
+TR72	Positive_regulation 910 921	accelerated
+TR73	Regulation 957 963	change
+TR53	DNA_domain_or_region 1417 1439	microsatellite regions
+TR54	Mutation 1446 1453	altered
+TR55	Mutation 1527 1535	aberrant
+TR75	DNA_domain_or_region 1432 1439	regions
+TR76	Regulation 1446 1453	altered
+TR38	Mutation 489 498	mutations
+TR39	Regulation 524 534	associated
+TR40	Negative_regulation 540 549	decreased
+TR74	Transcription 1383 1393	detectable
+E1	Gene_expression:TR64 Theme:T29
+E2	Regulation:TR63 Theme:E1
+E3	Gene_expression:TR62 Theme:T29
+E4	Negative_regulation:TR61 Theme:E3
+E5	Mutation:TR36 AtLoc:T7 Theme:T5
+E6	Mutation:TR36 AtLoc:T7 Theme:T6
+E7	Development:TR46 Theme:T13
+E8	Gene_expression:TR32 Theme:T1
+E9	Development:TR35 Theme:T4
+E10	Development:TR35 Theme:T3
+E11	Mutation:TR57 Theme:T27
+E12	Development:TR60 Theme:T28
+E13	Regulation:TR77 Theme:T27
+E14	Regulation:TR59 Theme:T28 Cause:E11
+E15	Regulation:TR59 Cause:E11 Theme:E12
+E16	Transcription:TR47 Theme:T14
+E17	Transcription:TR71 Theme:T14
+E18	Development:TR50 Theme:T17
+E19	Transcription:TR49 Theme:T18
+E20	Regulation:TR48 Theme:E19
+E21	Regulation:TR48 Theme:T18
+E22	Regulation:TR73 Theme:E20
+E23	Regulation:TR73 Theme:E21
+E24	Negative_regulation:TR40 Theme:T10
+E25	Transcription:TR74 Theme:T24

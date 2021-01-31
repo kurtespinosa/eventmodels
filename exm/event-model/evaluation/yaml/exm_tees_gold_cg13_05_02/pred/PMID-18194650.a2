@@ -1,0 +1,43 @@
+T52	Positive_regulation 769 777	promotes
+T53	Regulation 769 777	promotes
+T54	Positive_regulation 782 792	activation
+T55	Positive_regulation 815 824	resulting
+T56	Binding 832 843	association
+T49	Negative_regulation 618 626	inhibits
+T50	Positive_regulation 631 641	activation
+T51	Localization 739 754	internalization
+T44	Negative_regulation 443 448	halts
+T45	Positive_regulation 472 478	induce
+T46	Phosphorylation 483 498	phosphorylation
+T47	Positive_regulation 499 508	dependent
+T48	Localization 509 523	redistribution
+T35	Negative_regulation 15 23	prevents
+T36	Positive_regulation 29 36	induced
+T37	Negative_regulation 65 77	sequestering
+T38	Regulation 65 77	sequestering
+T39	Blood_vessel_development 183 193	angiogenic
+T40	Regulation 256 266	stabilizes
+T41	Negative_regulation 285 293	protects
+T42	Positive_regulation 309 316	induced
+T43	Localization 324 331	leakage
+T61	Positive_regulation 221 227	causes
+T57	Positive_regulation 927 935	required
+T58	Positive_regulation 940 949	promoting
+T59	Negative_regulation 954 964	disruption
+T60	Binding 980 998	cell-cell contacts
+T62	Binding 990 998	contacts
+E1	Positive_regulation:T54 Theme:T28 Cause:T29
+E2	Regulation:T53 Theme:E1 Cause:T27
+E3	Positive_regulation:T52 Theme:E1 Cause:E2
+E4	Phosphorylation:T46 Theme:T20
+E5	Positive_regulation:T36 Cause:T2 Theme:T3
+E6	Blood_vessel_development:T39 
+E7	Regulation:T40 Theme:T13 Cause:T12
+E8	Binding:T60 Theme:T33
+E9	Binding:T62 Theme:T33
+E10	Negative_regulation:T59 Theme:E9
+E11	Negative_regulation:T59 Theme:E8
+E12	Positive_regulation:T58 Theme:E10
+E13	Positive_regulation:T58 Theme:E11
+E14	Positive_regulation:T57 Theme:E12
+E15	Positive_regulation:T57 Theme:E13

@@ -1,0 +1,53 @@
+T22	Binding 91 101	associated
+T23	Regulation 206 216	implicated
+T24	Regulation 277 281	role
+T25	Regulation 331 341	regulation
+T26	Cell_proliferation 350 363	proliferation
+T27	Regulation 365 372	control
+T28	Cell_death 376 385	apoptosis
+T29	Positive_regulation 387 396	promotion
+T30	Blood_vessel_development 400 412	angiogenesis
+T31	Positive_regulation 418 429	stimulation
+T32	Localization 433 441	invasion
+T33	Metastasis 442 452	metastasis
+T42	Negative_regulation 707 711	play
+T43	Positive_regulation 788 797	promoting
+T44	Cell_death 801 810	apoptotic
+T45	Planned_process 847 854	therapy
+T46	Planned_process 855 863	regimens
+T34	Regulation 472 476	role
+T35	Carcinogenesis 494 505	oncogenesis
+T36	Negative_regulation 528 538	inhibition
+T37	Planned_process 588 597	therapies
+T38	Positive_regulation 598 603	leads
+T39	Death 618 623	death
+T40	Growth 627 633	growth
+T41	Negative_regulation 634 644	inhibition
+E1	Regulation:T23 Theme:T9 Cause:T7
+E2	Regulation:T23 Theme:T9 Cause:T4
+E3	Regulation:T23 Cause:T7 Theme:T8
+E4	Regulation:T23 Cause:T4 Theme:T8
+E5	Regulation:T24 Cause:T10 Theme:T11
+E6	Localization:T32 Theme:T11
+E7	Metastasis:T33 
+E8	Cell_proliferation:T26 Theme:T12
+E9	Cell_death:T28 
+E10	Blood_vessel_development:T30 
+E11	Regulation:T27 Cause:T10 Theme:E9
+E12	Regulation:T25 Cause:T10 Theme:E8
+E13	Positive_regulation:T29 Cause:T10 Theme:E10
+E14	Positive_regulation:T31 Cause:T10 Theme:E7
+E15	Positive_regulation:T31 Cause:T10 Theme:E6
+E16	Planned_process:T45 Theme:T19
+E17	Planned_process:T46 Theme:T19
+E18	Cell_death:T44 
+E19	Negative_regulation:T42 Cause:T17 Theme:T18
+E20	Positive_regulation:T43 Theme:T19 Cause:T17
+E21	Positive_regulation:T43 Cause:T17 Theme:E18
+E22	Planned_process:T37 Theme:T15
+E23	Carcinogenesis:T35 
+E24	Negative_regulation:T36 Theme:T14
+E25	Growth:T40 Theme:T16
+E26	Death:T39 Theme:T16
+E27	Negative_regulation:T41 Theme:E25
+E28	Regulation:T34 Cause:T13 Theme:E23

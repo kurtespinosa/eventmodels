@@ -1,0 +1,65 @@
+TR69	Positive_regulation 1996 2004	prolongs
+TR70	Death 2013 2021	survival
+TR73	Development 2498 2509	progression
+TR78	Negative_regulation 2428 2434	reduce
+TR66	Positive_regulation 1682 1692	accelerate
+TR67	Mutation 1727 1746	genetically altered
+TR68	Mutation 1822 1831	mutations
+TR76	Mutation 1739 1746	altered
+TR77	Regulation 1739 1746	altered
+TR71	Planned_process 2162 2177	transplantation
+TR55	Mutation 1280 1295	genetic changes
+TR56	Positive_regulation 1353 1363	activating
+TR57	Mutation 1377 1386	mutations
+TR58	Mutation 1388 1420	clonal cytogenetic abnormalities
+TR59	Mutation 1441 1450	mutations
+TR74	Mutation 1288 1295	changes
+TR75	Mutation 1407 1420	abnormalities
+TR54	Planned_process 1192 1199	therapy
+TR43	Positive_regulation 313 320	respond
+TR44	Positive_regulation 335 344	increased
+TR45	Negative_regulation 358 365	reduced
+TR46	Infection 366 376	infections
+TR47	Positive_regulation 382 390	improved
+TR48	Death 391 399	survival
+TR49	Development 487 496	developed
+TR50	Regulation 593 597	role
+TR51	Development 610 622	pathogenesis
+TR72	Mutation 2358 2366	mutation
+TR52	Planned_process 874 881	treated
+TR53	Cell_transformation 941 955	transformation
+TR60	Cell_proliferation 1492 1510	hyperproliferative
+TR61	Positive_regulation 1511 1519	response
+TR62	Negative_regulation 1538 1548	resistance
+TR63	Cell_death 1552 1561	apoptosis
+TR64	Positive_regulation 1567 1575	enhances
+TR65	Death 1581 1589	survival
+E1	Death:TR70 Theme:T36
+E2	Positive_regulation:TR69 Theme:E1 Cause:T35
+E3	Development:TR73 Theme:T42
+E4	Negative_regulation:TR78 Theme:T41
+E5	Positive_regulation:TR66 Theme:T29 Cause:T28
+E6	Planned_process:TR71 Theme:T37 Instrument:T39
+E7	Positive_regulation:TR56 Theme:T22
+E8	Positive_regulation:TR56 Theme:T23
+E9	Planned_process:TR54 Instrument:T18
+E10	Death:TR48 Theme:T4
+E11	Positive_regulation:TR47 Theme:E10
+E12	Positive_regulation:TR44 Theme:T6
+E13	Positive_regulation:TR43 Cause:T5 Theme:T6
+E14	Positive_regulation:TR43 Cause:T5 Theme:E12
+E15	Positive_regulation:TR43 Cause:T5 Theme:E11
+E16	Development:TR51 Theme:T7
+E17	Development:TR51 Theme:T8
+E18	Development:TR49 Theme:T7
+E19	Development:TR49 Theme:T8
+E20	Regulation:TR50 Theme:E16 Cause:T9
+E21	Regulation:TR50 Theme:E17 Cause:T9
+E22	Planned_process:TR52 Instrument:T12 Theme:T11
+E23	Cell_transformation:TR53 Theme:T13
+E24	Cell_death:TR63 
+E25	Cell_proliferation:TR60 Theme:T26
+E26	Death:TR65 Theme:T26
+E27	Negative_regulation:TR62 Theme:E24
+E28	Positive_regulation:TR61 Cause:T25 Theme:E25
+E29	Positive_regulation:TR64 Theme:E26

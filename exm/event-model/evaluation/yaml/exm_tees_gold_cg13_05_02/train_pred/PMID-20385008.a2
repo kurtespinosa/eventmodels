@@ -1,0 +1,65 @@
+TR45	Positive_regulation 243 251	catalyze
+TR46	Metabolism 261 275	transformation
+TR70	Metabolism 243 251	catalyze
+TR42	Gene_expression 27 40	overexpressed
+TR43	Positive_regulation 27 40	overexpressed
+TR44	Gene_expression 95 105	expression
+TR53	Gene_expression 449 459	expression
+TR54	Death 600 608	survival
+TR47	Gene_expression 293 307	overexpression
+TR48	Positive_regulation 293 307	overexpression
+TR49	Positive_regulation 324 331	induces
+TR50	Positive_regulation 335 346	upregulated
+TR51	Glycolysis 347 368	glycolytic metabolism
+TR52	Localization 399 407	presence
+TR71	Glycolysis 347 357	glycolytic
+TR72	Glycolysis 358 368	metabolism
+TR73	Negative_regulation 373 380	reduced
+TR58	Gene_expression 987 997	expression
+TR59	Gene_expression 1022 1032	expression
+TR65	Gene_expression 1718 1731	overexpressed
+TR66	Positive_regulation 1718 1731	overexpressed
+TR64	Gene_expression 1468 1478	expression
+TR55	Gene_expression 711 721	expression
+TR62	Gene_expression 1193 1207	overexpression
+TR63	Positive_regulation 1193 1207	overexpression
+TR56	Gene_expression 810 820	expression
+TR57	Death 890 898	survival
+TR67	Regulation 1960 1970	alteration
+TR68	Metabolism 1986 1996	metabolism
+TR69	Cell_transformation 2015 2039	malignant transformation
+TR74	Binding 1905 1909	link
+TR75	Cell_transformation 2025 2039	transformation
+TR60	Gene_expression 1082 1092	expression
+TR61	Gene_expression 1106 1116	expression
+E1	Metabolism:TR46 Theme:T7
+E2	Positive_regulation:TR45 Theme:E1
+E3	Gene_expression:TR44 Theme:T3
+E4	Gene_expression:TR42 Theme:T1
+E5	Positive_regulation:TR43 Theme:E4
+E6	Gene_expression:TR53 Theme:T12
+E7	Death:TR54 Theme:T14
+E8	Localization:TR52 Theme:T11
+E9	Gene_expression:TR47 Theme:T9
+E10	Glycolysis:TR72 
+E11	Glycolysis:TR51 
+E12	Glycolysis:TR71 
+E13	Positive_regulation:TR48 Theme:E9
+E14	Gene_expression:TR59 Theme:T23
+E15	Gene_expression:TR58 Theme:T22 Theme:T21
+E16	Gene_expression:TR58 Theme:T22
+E17	Gene_expression:TR58 Theme:T21
+E18	Gene_expression:TR65 Theme:T37
+E19	Positive_regulation:TR66 Theme:E18
+E20	Gene_expression:TR64 Theme:T32 Theme:T33
+E21	Gene_expression:TR64 Theme:T32
+E22	Gene_expression:TR64 Theme:T33
+E23	Gene_expression:TR55 Theme:T17
+E24	Gene_expression:TR62 Theme:T28
+E25	Positive_regulation:TR63 Theme:E24
+E26	Death:TR57 Theme:T20
+E27	Gene_expression:TR56 Theme:T19
+E28	Metabolism:TR68 Theme:T41
+E29	Regulation:TR67 Theme:E28
+E30	Gene_expression:TR60 Theme:T25
+E31	Gene_expression:TR61 Theme:T26

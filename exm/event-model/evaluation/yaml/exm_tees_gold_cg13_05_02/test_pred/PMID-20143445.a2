@@ -1,0 +1,45 @@
+TR61	Planned_process 1349 1358	targeting
+TR40	Planned_process 182 187	treat
+TR41	Planned_process 247 254	treated
+TR42	Cell_death 385 394	apoptosis
+TR43	Positive_regulation 475 481	induce
+TR44	Cell_death 493 502	apoptosis
+TR45	Localization 509 519	recruiting
+TR46	Positive_regulation 561 571	activating
+TR47	Positive_regulation 640 649	dependent
+TR48	Pathway 684 691	pathway
+TR49	Localization 699 708	expelling
+TR50	Negative_regulation 789 799	inhibiting
+TR51	Growth 804 810	growth
+TR52	Positive_regulation 831 838	induced
+TR53	Positive_regulation 839 849	activation
+TR54	Pathway 931 939	pathways
+TR39	Death 0 7	Killing
+TR55	Remodeling 969 978	integrity
+TR56	Positive_regulation 1013 1022	dependent
+TR57	Positive_regulation 1034 1043	activated
+TR58	Planned_process 1047 1054	treated
+TR59	Gene_expression 1115 1124	expressed
+TR60	Breakdown 1261 1267	damage
+E1	Planned_process:TR40 Theme:T4
+E2	Cell_death:TR42 Theme:T5
+E3	Pathway:TR48 Participant:T17
+E4	Cell_death:TR44 Theme:T12
+E5	Localization:TR45 Theme:T14
+E6	Localization:TR45 Theme:T13
+E7	Localization:TR49 Theme:T19 Theme:T18
+E8	Localization:TR49 Theme:T19 ToLoc:T20
+E9	Localization:TR49 Theme:T18 ToLoc:T20
+E10	Positive_regulation:TR47 Cause:T16 Theme:E3
+E11	Positive_regulation:TR47 Theme:E3
+E12	Positive_regulation:TR46 Theme:T15
+E13	Positive_regulation:TR46 Theme:E3
+E14	Positive_regulation:TR43 Theme:E4 Cause:E12
+E15	Positive_regulation:TR43 Theme:E4 Cause:E13
+E16	Death:TR39 Theme:T1
+E17	Remodeling:TR55 Theme:T24
+E18	Planned_process:TR58 Theme:T26
+E19	Gene_expression:TR59 Theme:T28 Theme:T27
+E20	Gene_expression:TR59 Theme:T28
+E21	Gene_expression:TR59 Theme:T27
+E22	Breakdown:TR60 Theme:T31

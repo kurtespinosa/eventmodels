@@ -1,0 +1,75 @@
+TR45	Metabolism 432 441	formation
+TR67	Regulation 410 421	independent
+TR68	Development 432 441	formation
+TR34	Regulation 0 4	Role
+TR35	Blood_vessel_development 20 32	angiogenesis
+TR36	Development 43 54	progression
+TR50	Positive_regulation 656 667	potentiates
+TR51	Positive_regulation 712 719	induced
+TR52	Cell_proliferation 737 750	proliferation
+TR70	Negative_regulation 656 667	potentiates
+TR58	Positive_regulation 1070 1079	increases
+TR59	Localization 1084 1093	secretion
+TR60	Positive_regulation 1106 1114	enhances
+TR61	Gene_expression 1119 1129	expression
+TR62	Translation 1134 1151	protein synthesis
+TR71	Gene_expression 1142 1151	synthesis
+TR72	Synthesis 1142 1151	synthesis
+TR73	Translation 1142 1151	synthesis
+TR46	Positive_regulation 508 518	activation
+TR47	Blood_vessel_development 522 534	angiogenesis
+TR69	Regulation 494 504	contribute
+TR63	Blood_vessel_development 1280 1290	angiogenic
+TR64	Positive_regulation 1301 1310	promoting
+TR74	Regulation 1311 1317	effect
+TR48	Negative_regulation 550 559	decreases
+TR49	Binding 596 602	attach
+TR55	Positive_regulation 939 948	increases
+TR56	Transcription 953 957	mRNA
+TR57	Gene_expression 962 976	protein levels
+TR53	Positive_regulation 788 801	up-regulation
+TR54	Gene_expression 809 819	expression
+TR40	Positive_regulation 311 320	activates
+TR41	Blood_vessel_development 321 333	angiogenesis
+TR42	Positive_regulation 354 363	essential
+TR43	Growth 373 379	growth
+TR44	Metastasis 384 394	metastasis
+TR37	Pathway 154 172	coagulation system
+TR38	Positive_regulation 183 192	activated
+TR39	Regulation 218 241	plays an important role
+TR65	Pathway 166 172	system
+TR66	Regulation 237 241	role
+E1	Metabolism:TR45 Theme:T8
+E2	Development:TR36 Theme:T2
+E3	Blood_vessel_development:TR35 
+E4	Regulation:TR34 Theme:E2 Cause:T1
+E5	Regulation:TR34 Cause:T1 Theme:E3
+E6	Cell_proliferation:TR52 Theme:T17
+E7	Positive_regulation:TR50 Theme:E6 Cause:T14
+E8	Positive_regulation:TR51 Theme:E6 Cause:T16
+E9	Positive_regulation:TR51 Theme:E6 Cause:T15
+E10	Gene_expression:TR61 Theme:T28
+E11	Gene_expression:TR61 Theme:T26
+E12	Gene_expression:TR61 Theme:T27
+E13	Localization:TR59 Theme:T26
+E14	Gene_expression:TR71 Theme:T28 Theme:T27
+E15	Gene_expression:TR71 Theme:T28
+E16	Gene_expression:TR71 Theme:T27
+E17	Positive_regulation:TR58 Theme:E13 Cause:T25
+E18	Positive_regulation:TR60 Theme:E10 Cause:T25
+E19	Positive_regulation:TR60 Theme:E11 Cause:T25
+E20	Positive_regulation:TR60 Theme:E12 Cause:T25
+E21	Blood_vessel_development:TR47 
+E22	Positive_regulation:TR46 Cause:T10 Theme:E21
+E23	Blood_vessel_development:TR63 
+E24	Positive_regulation:TR64 Theme:T31 Cause:T32
+E25	Gene_expression:TR57 Theme:T24
+E26	Transcription:TR56 Theme:T24
+E27	Positive_regulation:TR55 Theme:E25 Cause:T23
+E28	Positive_regulation:TR55 Cause:T23 Theme:E26
+E29	Metastasis:TR44 Theme:T7
+E30	Blood_vessel_development:TR41 
+E31	Growth:TR43 Theme:T7
+E32	Positive_regulation:TR42 Cause:E30 Theme:E31
+E33	Positive_regulation:TR42 Cause:E30 Theme:E29
+E34	Positive_regulation:TR40 Cause:T6 Theme:E30

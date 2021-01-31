@@ -1,0 +1,57 @@
+TR45	Gene_expression 104 114	deficiency
+TR46	Positive_regulation 135 146	facilitates
+TR47	Metastasis 147 157	metastasis
+TR64	Metastasis 884 894	metastases
+TR65	Regulation 952 956	role
+TR66	Negative_regulation 974 982	limiting
+TR67	Metastasis 994 1004	metastasis
+TR76	Positive_regulation 856 864	resulted
+TR60	Death 701 712	dysfunction
+TR61	Positive_regulation 713 722	increases
+TR62	Metastasis 727 737	metastatic
+TR63	Carcinogenesis 786 799	tumorigenesis
+TR74	Breakdown 701 712	dysfunction
+TR75	Gene_expression 820 829	deficient
+TR48	Development 252 256	grew
+TR49	Regulation 282 291	perturbed
+TR50	Binding 313 335	cell-cell interactions
+TR51	Localization 363 373	deposition
+TR72	Growth 252 256	grew
+TR73	Binding 323 335	interactions
+TR52	Gene_expression 416 426	expression
+TR53	Positive_regulation 466 474	improved
+TR54	Localization 484 495	recruitment
+TR55	Positive_regulation 500 509	increased
+TR56	Localization 523 533	deposition
+TR57	Negative_regulation 599 604	limit
+TR58	Metastasis 616 626	metastasis
+TR59	Positive_regulation 630 641	stabilizing
+TR68	Positive_regulation 1057 1064	trigger
+TR69	Metastasis 1065 1075	metastasis
+TR70	Regulation 1079 1089	perturbing
+TR71	Binding 1111 1133	cell-cell interactions
+TR77	Binding 1121 1133	interactions
+TR43	Negative_regulation 10 15	limit
+TR44	Metastasis 27 37	metastasis
+E1	Metastasis:TR47 Theme:T5 ToLoc:T7
+E2	Metastasis:TR47 Theme:T5 ToLoc:T6
+E3	Metastasis:TR64 ToLoc:T34 Theme:T33
+E4	Metastasis:TR64 ToLoc:T35 Theme:T33
+E5	Death:TR60 Theme:T27
+E6	Carcinogenesis:TR63 AtLoc:T29
+E7	Breakdown:TR74 Theme:T27
+E8	Metastasis:TR62 Theme:T28
+E9	Positive_regulation:TR61 Cause:E5 Theme:E8
+E10	Localization:TR51 AtLoc:T15 Theme:T16
+E11	Localization:TR51 Theme:T16
+E12	Binding:TR73 Theme:T12 Theme2:T11
+E13	Binding:TR73 Theme:T11 Theme2:T12
+E14	Development:TR48 Theme:T10
+E15	Development:TR48 Theme:T8
+E16	Growth:TR72 Theme:T8
+E17	Gene_expression:TR52 Theme:T18
+E18	Positive_regulation:TR59 Theme:T25 Cause:T24
+E19	Positive_regulation:TR59 Theme:T26 Cause:T24
+E20	Metastasis:TR69 Theme:T38
+E21	Metastasis:TR44 Theme:T2
+E22	Negative_regulation:TR43 Cause:T1 Theme:E21

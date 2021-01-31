@@ -1,0 +1,32 @@
+T42	Localization 733 741	Invasion
+T38	Planned_process 122 129	surgery
+T39	Planned_process 303 312	resection
+T40	Planned_process 432 450	distal gastrectomy
+T41	Planned_process 528 539	gastrectomy
+T50	Planned_process 439 450	gastrectomy
+T43	Gene_expression 926 940	overexpression
+T44	Positive_regulation 926 940	overexpression
+T45	Mutation 1186 1194	Mutation
+T46	Regulation 1206 1228	play an important role
+T47	Growth 1241 1254	proliferative
+T48	Infection 1306 1315	infection
+T49	Carcinogenesis 1342 1356	carcinogenesis
+T51	Regulation 1224 1228	role
+E1	Localization:T42 ToLoc:T22 Theme:T24
+E2	Localization:T42 ToLoc:T22 Theme:T23
+E3	Localization:T42 Theme:T24
+E4	Localization:T42 Theme:T23
+E5	Planned_process:T38 Theme:T5
+E6	Planned_process:T50 Theme:T14
+E7	Planned_process:T41 Theme:T16
+E8	Planned_process:T39 Theme:T10
+E9	Planned_process:T40 Theme:T14
+E10	Gene_expression:T43 Theme:T27
+E11	Mutation:T45 Theme:T32
+E12	Growth:T47 Theme:T33
+E13	Infection:T48 Theme:T35 Participant:T35
+E14	Carcinogenesis:T49 Theme:T37
+E15	Carcinogenesis:T49 AtLoc:T37
+E16	Regulation:T51 Cause:E11 Theme:E12
+E17	Regulation:T51 Cause:E11 Theme:T33
+E18	Regulation:T46 Cause:E11 Theme:E12

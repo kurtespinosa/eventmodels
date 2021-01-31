@@ -1,0 +1,15 @@
+T15	Regulation 401 409	key role
+T16	Carcinogenesis 481 495	carcinogenesis
+T17	Positive_regulation 528 538	activation
+T18	Pathway 551 560	signaling
+T19	Regulation 405 409	role
+T12	Carcinogenesis 54 68	carcinogenesis
+T13	Carcinogenesis 304 315	oncogenesis
+T14	Pathway 367 375	pathways
+E1	Pathway:T18 Participant:T9
+E2	Carcinogenesis:T16 AtLoc:T8
+E3	Positive_regulation:T17 Theme:E1
+E4	Regulation:T15 Cause:T7 Theme:E2
+E5	Regulation:T19 Cause:T7 Theme:E2
+E6	Carcinogenesis:T12 AtLoc:T2
+E7	Carcinogenesis:T13 

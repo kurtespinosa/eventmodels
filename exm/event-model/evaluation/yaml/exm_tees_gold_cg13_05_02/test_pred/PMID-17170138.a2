@@ -1,0 +1,65 @@
+TR55	Gene_expression 240 249	deficient
+TR56	Cell_death 254 263	apoptosis
+TR57	Pathway 291 296	cycle
+TR58	Negative_regulation 297 303	arrest
+TR59	Negative_regulation 314 320	delays
+TR60	Development 327 332	onset
+TR69	Negative_regulation 683 692	abolished
+TR70	Pathway 702 707	cycle
+TR71	Negative_regulation 708 714	arrest
+TR72	Positive_regulation 740 751	accelerated
+TR73	Development 758 763	onset
+TR46	Negative_regulation 4 10	delays
+TR47	Development 17 22	onset
+TR48	Negative_regulation 82 92	suppresses
+TR49	Carcinogenesis 93 106	tumorigenesis
+TR50	Positive_regulation 110 120	initiating
+TR51	Pathway 153 158	cycle
+TR52	Negative_regulation 159 165	arrest
+TR53	Cell_death 170 179	apoptosis
+TR54	Breakdown 199 205	damage
+TR61	Development 364 371	arising
+TR62	Regulation 459 463	role
+TR63	Pathway 483 488	cycle
+TR64	Regulation 489 496	control
+TR65	Planned_process 501 508	crossed
+TR66	Positive_regulation 587 595	required
+TR67	Negative_regulation 638 646	delaying
+TR68	Development 653 658	onset
+TR74	Positive_regulation 987 996	dependent
+TR75	Cell_death 1079 1088	apoptosis
+TR76	Negative_regulation 1092 1103	suppressing
+TR77	Development 1110 1115	onset
+E1	Pathway:TR57 Theme:T10
+E2	Development:TR60 Theme:T11
+E3	Gene_expression:TR55 Theme:T9 Theme:T8
+E4	Gene_expression:TR55 Theme:T9
+E5	Gene_expression:TR55 Theme:T8
+E6	Cell_death:TR56 
+E7	Negative_regulation:TR59 Cause:T9 Theme:E2
+E8	Negative_regulation:TR58 Theme:E1
+E9	Development:TR73 Theme:T30
+E10	Pathway:TR70 Theme:T28
+E11	Negative_regulation:TR71 Theme:E10
+E12	Positive_regulation:TR72 Theme:E9
+E13	Negative_regulation:TR69 Theme:E11
+E14	Development:TR47 Theme:T2
+E15	Negative_regulation:TR46 Theme:E14
+E16	Pathway:TR51 Theme:T6
+E17	Cell_death:TR53 Theme:T6
+E18	Carcinogenesis:TR49 
+E19	Breakdown:TR54 Theme:T7
+E20	Negative_regulation:TR52 Theme:E16
+E21	Positive_regulation:TR50 Theme:E20 Cause:T4
+E22	Positive_regulation:TR50 Theme:T5 Cause:T4
+E23	Positive_regulation:TR50 Cause:T4 Theme:E17
+E24	Negative_regulation:TR48 Theme:E18 Cause:E21
+E25	Negative_regulation:TR48 Theme:E18 Cause:E22
+E26	Negative_regulation:TR48 Theme:E18 Cause:E23
+E27	Development:TR61 Theme:T13
+E28	Development:TR68 Theme:T26
+E29	Planned_process:TR65 Theme:T20
+E30	Negative_regulation:TR67 Theme:E28
+E31	Cell_death:TR75 
+E32	Development:TR77 Theme:T44
+E33	Negative_regulation:TR76 Cause:T41 Theme:E32

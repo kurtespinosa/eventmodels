@@ -1,0 +1,73 @@
+T61	Negative_regulation 1765 1774	Decreased
+T62	Gene_expression 1775 1785	expression
+T63	Regulation 1867 1874	altered
+T64	Gene_expression 1875 1885	expression
+T65	Regulation 1906 1917	play a role
+T66	Development 1925 1935	initiation
+T79	Regulation 1913 1917	role
+T36	Mutation 363 371	mutation
+T37	Mutation 399 425	microsatellite instability
+T69	Mutation 414 425	instability
+T41	Cell_proliferation 609 615	growth
+T42	Negative_regulation 616 625	regulator
+T43	Negative_regulation 702 714	inactivation
+T44	Mutation 734 759	microsatellite alteration
+T45	Regulation 769 777	involved
+T46	Development 785 796	progression
+T70	Mutation 749 759	alteration
+T51	Negative_regulation 1189 1198	decreased
+T52	Transcription 1199 1209	expression
+T32	Gene_expression 98 113	gene expression
+T33	Mutation 116 135	Genomic instability
+T34	Regulation 165 176	play a role
+T35	Development 192 203	progression
+T67	Mutation 124 135	instability
+T68	Regulation 172 176	role
+T56	Mutation 1547 1557	alteration
+T57	Mutation 1654 1665	alterations
+T58	DNA_domain_or_region 1673 1695	microsatellite regions
+T59	Regulation 1729 1737	involved
+T60	Development 1745 1756	progression
+T77	Regulation 1654 1665	alterations
+T78	DNA_domain_or_region 1688 1695	regions
+T47	Transcription 830 845	mRNA expression
+T48	Regulation 954 963	no change
+T49	Transcription 980 990	transcript
+T50	Development 1013 1024	progression
+T71	Transcription 835 845	expression
+T72	Positive_regulation 910 921	accelerated
+T73	Regulation 957 963	change
+T53	DNA_domain_or_region 1417 1439	microsatellite regions
+T54	Mutation 1446 1453	altered
+T55	Mutation 1527 1535	aberrant
+T75	DNA_domain_or_region 1432 1439	regions
+T76	Regulation 1446 1453	altered
+T38	Mutation 489 498	mutations
+T39	Regulation 524 534	associated
+T40	Negative_regulation 540 549	decreased
+T74	Transcription 1383 1393	detectable
+E1	Gene_expression:T64 Theme:T29
+E2	Regulation:T63 Theme:E1
+E3	Gene_expression:T62 Theme:T29
+E4	Negative_regulation:T61 Theme:E3
+E5	Mutation:T36 AtLoc:T7 Theme:T5
+E6	Mutation:T36 AtLoc:T7 Theme:T6
+E7	Development:T46 Theme:T13
+E8	Gene_expression:T32 Theme:T1
+E9	Development:T35 Theme:T4
+E10	Development:T35 Theme:T3
+E11	Mutation:T57 Theme:T27
+E12	Development:T60 Theme:T28
+E13	Regulation:T77 Theme:T27
+E14	Regulation:T59 Theme:T28 Cause:E11
+E15	Regulation:T59 Cause:E11 Theme:E12
+E16	Transcription:T47 Theme:T14
+E17	Transcription:T71 Theme:T14
+E18	Development:T50 Theme:T17
+E19	Transcription:T49 Theme:T18
+E20	Regulation:T48 Theme:E19
+E21	Regulation:T48 Theme:T18
+E22	Regulation:T73 Theme:E20
+E23	Regulation:T73 Theme:E21
+E24	Negative_regulation:T40 Theme:T10
+E25	Transcription:T74 Theme:T24

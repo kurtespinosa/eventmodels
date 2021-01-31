@@ -1,0 +1,63 @@
+T68	DNA_domain_or_region 1305 1313	promoter
+T69	DNA_methylation 1314 1325	methylation
+T72	DNA_domain_or_region 1505 1513	promoter
+T73	DNA_methylation 1514 1525	methylation
+T53	DNA_domain_or_region 451 459	promoter
+T54	DNA_methylation 460 476	hypermethylation
+T55	Positive_regulation 519 526	leading
+T56	Positive_regulation 530 540	activation
+T57	Blood_vessel_development 544 556	angiogenesis
+T63	Gene_expression 880 890	expression
+T85	DNA_methylation 803 814	methylation
+T49	Blood_vessel_development 201 213	angiogenesis
+T50	Gene_expression 370 379	deficient
+T51	Positive_regulation 403 409	due to
+T52	Mutation 410 418	mutation
+T70	DNA_domain_or_region 1386 1394	promoter
+T71	DNA_methylation 1395 1406	methylation
+T58	DNA_domain_or_region 620 628	promoter
+T59	DNA_methylation 629 640	methylation
+T60	Regulation 645 653	involved
+T81	Regulation 2006 2017	involvement
+T82	DNA_domain_or_region 2026 2034	promoter
+T83	DNA_methylation 2035 2046	methylation
+T84	Regulation 2114 2124	alteration
+T64	Cell_proliferation 989 1002	proliferation
+T65	Pathway 1021 1039	signaling pathways
+T66	Regulation 1040 1048	affected
+T67	DNA_methylation 1057 1068	methylation
+T86	Pathway 1031 1039	pathways
+T74	Negative_regulation 1719 1733	downregulation
+T75	DNA_methylation 1742 1752	methylated
+T76	DNA_methylation 1780 1792	unmethylated
+T77	Negative_regulation 1799 1806	Reduced
+T78	Gene_expression 1812 1822	expression
+T79	Gene_expression 1855 1865	expression
+T80	Positive_regulation 1915 1925	activation
+T61	DNA_domain_or_region 677 685	promoter
+T62	DNA_methylation 686 697	methylation
+T46	Regulation 0 11	Involvement
+T47	DNA_domain_or_region 20 28	promoter
+T48	DNA_methylation 29 40	methylation
+E1	Blood_vessel_development:T57 AtLoc:T10
+E2	Gene_expression:T63 Theme:T15
+E3	Blood_vessel_development:T49 
+E4	Gene_expression:T50 Theme:T6 Theme:T7
+E5	Gene_expression:T50 Theme:T6
+E6	Gene_expression:T50 Theme:T7
+E7	DNA_methylation:T71 Theme:T25
+E8	DNA_methylation:T83 Theme:T39
+E9	Regulation:T84 Theme:T42
+E10	Regulation:T81 Cause:E8 Theme:T41
+E11	Regulation:T81 Cause:E8 Theme:T40
+E12	DNA_methylation:T67 Theme:T17
+E13	Cell_proliferation:T64 Theme:T16
+E14	DNA_methylation:T75 Theme:T30
+E15	DNA_methylation:T76 Theme:T32
+E16	Negative_regulation:T74 Theme:T29
+E17	Gene_expression:T79 Theme:T35
+E18	Gene_expression:T78 Theme:T34
+E19	Negative_regulation:T77 Theme:E18
+E20	DNA_methylation:T62 Theme:T13
+E21	DNA_methylation:T48 Theme:T1
+E22	Regulation:T46 Cause:E21 Theme:T2

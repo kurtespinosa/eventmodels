@@ -1,0 +1,31 @@
+TR34	Blood_vessel_development 960 977	revascularization
+TR30	Planned_process 567 579	implantation
+TR27	Regulation 146 152	effect
+TR28	Planned_process 172 184	implantation
+TR29	Blood_vessel_development 213 225	angiogenesis
+TR31	Planned_process 595 601	placed
+TR24	Blood_vessel_development 26 38	angiogenesis
+TR25	Blood_vessel_development 46 58	vascularized
+TR26	Planned_process 102 114	implantation
+TR32	Planned_process 650 660	sacrificed
+TR35	Planned_process 1298 1310	implantation
+TR36	Positive_regulation 1311 1319	improved
+TR37	Blood_vessel_development 1320 1332	angiogenesis
+TR38	Blood_vessel_development 1340 1352	vascularized
+TR33	Blood_vessel_development 884 896	angiogenesis
+E1	Blood_vessel_development:TR34 
+E2	Planned_process:TR30 Theme:T13
+E3	Blood_vessel_development:TR29 
+E4	Blood_vessel_development:TR24 Theme:T1 AtLoc:T1
+E5	Blood_vessel_development:TR24 Theme:T1
+E6	Blood_vessel_development:TR24 AtLoc:T1
+E7	Planned_process:TR26 Theme:T2
+E8	Blood_vessel_development:TR25 AtLoc:T1
+E9	Planned_process:TR35 Theme:T22
+E10	Blood_vessel_development:TR38 AtLoc:T23
+E11	Blood_vessel_development:TR37 AtLoc:T23
+E12	Positive_regulation:TR36 Cause:E9 Theme:E11
+E13	Positive_regulation:TR36 Theme:E11
+E14	Blood_vessel_development:TR33 Theme:T20 AtLoc:T20
+E15	Blood_vessel_development:TR33 Theme:T20
+E16	Blood_vessel_development:TR33 AtLoc:T20

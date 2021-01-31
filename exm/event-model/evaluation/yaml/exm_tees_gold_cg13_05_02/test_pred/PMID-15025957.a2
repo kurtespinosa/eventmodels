@@ -1,0 +1,37 @@
+TR44	Gene_expression 967 977	expression
+TR36	Metastasis 310 320	metastasis
+TR41	Gene_expression 804 814	expression
+TR42	Metastasis 839 849	metastasis
+TR43	Metastasis 887 897	metastasis
+TR40	Gene_expression 768 778	expression
+TR37	Gene_expression 378 388	expression
+TR38	Metastasis 421 431	metastasis
+TR39	Gene_expression 647 657	expression
+TR34	Gene_expression 21 31	expression
+TR35	Metastasis 118 128	metastasis
+TR45	Gene_expression 1067 1075	positive
+TR46	Gene_expression 1083 1093	expression
+TR47	Localization 1181 1188	secrete
+TR48	Regulation 1235 1239	role
+TR49	Blood_vessel_development 1265 1280	neoangiogenesis
+TR50	Metastasis 1295 1305	metastasis
+E1	Gene_expression:TR44 Theme:T23
+E2	Metastasis:TR36 ToLoc:T9
+E3	Gene_expression:TR41 Theme:T20
+E4	Metastasis:TR43 
+E5	Metastasis:TR42 ToLoc:T21
+E6	Gene_expression:TR40 Theme:T18
+E7	Gene_expression:TR37 Theme:T10
+E8	Metastasis:TR38 ToLoc:T12
+E9	Gene_expression:TR39 Theme:T17
+E10	Metastasis:TR35 Theme:T4 ToLoc:T3
+E11	Metastasis:TR35 Theme:T4
+E12	Metastasis:TR35 ToLoc:T3
+E13	Gene_expression:TR34 Theme:T1
+E14	Gene_expression:TR45 Theme:T26
+E15	Gene_expression:TR46 Theme:T26
+E16	Metastasis:TR50 ToLoc:T33
+E17	Localization:TR47 Theme:T29 FromLoc:T28
+E18	Localization:TR47 Theme:T29 FromLoc:T27
+E19	Blood_vessel_development:TR49 AtLoc:T32
+E20	Regulation:TR48 Theme:E19 Cause:T31

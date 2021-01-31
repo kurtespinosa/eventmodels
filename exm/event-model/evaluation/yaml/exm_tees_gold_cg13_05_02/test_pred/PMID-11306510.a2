@@ -1,0 +1,84 @@
+TR90	Positive_regulation 869 882	up-regulation
+TR89	Regulation 535 545	importance
+TR91	Positive_regulation 1084 1097	up-regulation
+TR86	Regulation 234 243	regulated
+TR87	Blood_vessel_development 256 266	angiogenic
+TR104	Negative_regulation 2184 2194	repression
+TR105	Mutation 2209 2213	lost
+TR106	Regulation 2281 2290	regulated
+TR107	Positive_regulation 2312 2325	up-regulation
+TR108	Positive_regulation 2370 2378	enhanced
+TR109	Regulation 2379 2383	role
+TR110	Regulation 2429 2439	regulating
+TR111	Blood_vessel_development 2440 2452	angiogenesis
+TR112	Blood_vessel_development 2460 2477	lymphangiogenesis
+TR113	Positive_regulation 2530 2541	up-regulate
+TR114	Blood_vessel_development 2542 2552	angiogenic
+TR115	Regulation 2663 2674	independent
+TR116	Regulation 2685 2693	regulate
+TR117	Blood_vessel_development 2694 2706	angiogenesis
+TR118	Planned_process 2811 2820	targeting
+TR88	Binding 434 438	bind
+TR82	Blood_vessel_development 169 181	Angiogenesis
+TR83	Positive_regulation 185 194	essential
+TR84	Growth 205 211	growth
+TR85	Metastasis 216 226	metastasis
+TR101	Positive_regulation 2026 2038	up-regulated
+TR102	Gene_expression 2110 2120	expression
+TR103	Negative_regulation 2135 2142	reduced
+TR95	Regulation 1746 1752	effect
+TR96	Gene_expression 1818 1828	expression
+TR97	Planned_process 1868 1879	transfected
+TR98	Mutation 1885 1894	wild-type
+TR99	Mutation 1899 1905	mutant
+TR100	Cell_proliferation 1928 1935	growing
+TR80	Gene_expression 78 88	expression
+TR81	Regulation 115 125	regulation
+TR92	Binding 1294 1305	association
+TR93	Positive_regulation 1370 1378	increase
+TR94	Gene_expression 1508 1518	expression
+E1	Positive_regulation:TR90 Theme:T25
+E2	Positive_regulation:TR90 Theme:T26
+E3	Regulation:TR89 Cause:T17 Theme:T18
+E4	Positive_regulation:TR91 Theme:T32
+E5	Positive_regulation:TR91 Theme:T33
+E6	Blood_vessel_development:TR87 
+E7	Negative_regulation:TR104 Theme:T66
+E8	Regulation:TR106 Cause:T70 Theme:T69
+E9	Regulation:TR106 Theme:T69
+E10	Blood_vessel_development:TR112 
+E11	Blood_vessel_development:TR111 
+E12	Regulation:TR110 Theme:E10
+E13	Regulation:TR110 Theme:E11
+E14	Regulation:TR109 Theme:T71 Cause:E12
+E15	Regulation:TR109 Theme:T71 Cause:E13
+E16	Positive_regulation:TR108 Theme:E14
+E17	Positive_regulation:TR108 Theme:E15
+E18	Blood_vessel_development:TR114 
+E19	Blood_vessel_development:TR117 
+E20	Regulation:TR116 Theme:E19
+E21	Positive_regulation:TR113 Theme:E18
+E22	Blood_vessel_development:TR82 
+E23	Growth:TR84 Theme:T5
+E24	Metastasis:TR85 Theme:T5
+E25	Positive_regulation:TR83 Theme:E23 Cause:E22
+E26	Positive_regulation:TR83 Cause:E22 Theme:E24
+E27	Gene_expression:TR102 Theme:T65
+E28	Positive_regulation:TR101 Theme:T64
+E29	Negative_regulation:TR103 Theme:E27
+E30	Gene_expression:TR96 Theme:T57 Theme:T58
+E31	Gene_expression:TR96 Theme:T57
+E32	Gene_expression:TR96 Theme:T58
+E33	Cell_proliferation:TR100 Theme:T61
+E34	Mutation:TR99 Theme:T60
+E35	Mutation:TR98 Theme:T60
+E36	Regulation:TR95 Theme:E30 Cause:T56
+E37	Regulation:TR95 Theme:E31 Cause:T56
+E38	Regulation:TR95 Theme:E32 Cause:T56
+E39	Regulation:TR95 Theme:E30 Cause:T55
+E40	Regulation:TR95 Theme:E31 Cause:T55
+E41	Regulation:TR95 Theme:E32 Cause:T55
+E42	Gene_expression:TR80 Theme:T2 Theme:T1
+E43	Gene_expression:TR80 Theme:T2
+E44	Gene_expression:TR80 Theme:T1
+E45	Regulation:TR81 Cause:T4 Theme:T1

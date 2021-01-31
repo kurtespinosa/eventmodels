@@ -1,0 +1,21 @@
+TR28	Negative_regulation 698 707	reduction
+TR29	Gene_expression 715 725	expression
+TR30	Regulation 762 769	effects
+TR31	Cell_transformation 818 829	transformed
+TR20	Negative_regulation 0 15	Down-regulation
+TR21	Cell_transformation 35 46	transformed
+TR24	Gene_expression 491 500	synthesis
+TR25	Negative_regulation 504 511	blocked
+TR26	Transcription 519 534	transcriptional
+TR22	Cell_transformation 297 308	transformed
+TR23	Positive_regulation 389 396	induced
+E1	Regulation:TR30 Theme:T18
+E2	Cell_transformation:TR31 Theme:T19
+E3	Gene_expression:TR29 Theme:T17
+E4	Negative_regulation:TR28 Theme:E3
+E5	Negative_regulation:TR20 Theme:T1
+E6	Cell_transformation:TR21 Theme:T2
+E7	Gene_expression:TR24 Theme:T15
+E8	Transcription:TR26 Theme:T15
+E9	Positive_regulation:TR23 Theme:T13 Cause:T12
+E10	Cell_transformation:TR22 Theme:T8

@@ -1,0 +1,108 @@
+TR74	Cell_transformation 188 202	transformation
+TR75	Development 230 241	development
+TR76	Development 246 257	progression
+TR106	Negative_regulation 1673 1680	reduced
+TR107	Regulation 1707 1713	affect
+TR108	Development 1727 1736	formation
+TR109	Carcinogenesis 1744 1757	tumorigenesis
+TR110	Negative_regulation 1775 1783	impaired
+TR111	Negative_regulation 1802 1809	reduces
+TR112	Development 1830 1839	outgrowth
+TR77	Regulation 349 353	role
+TR78	Regulation 357 367	modulating
+TR79	Cell_transformation 372 384	transforming
+TR80	Cell_transformation 417 429	transforming
+TR81	Cell_transformation 458 470	transforming
+TR105	Development 1522 1531	developed
+TR113	Carcinogenesis 1900 1911	tumorigenic
+TR114	Regulation 2060 2068	involved
+TR115	Development 2078 2089	progression
+TR116	Pathway 2129 2138	signaling
+TR117	Remodeling 2147 2153	repair
+TR93	Gene_expression 1003 1017	over-expressed
+TR94	Positive_regulation 1003 1017	over-expressed
+TR95	Cell_transformation 1029 1040	transformed
+TR96	Positive_regulation 1071 1078	induced
+TR97	Negative_regulation 1145 1157	interference
+TR82	Regulation 522 529	effects
+TR83	Mutation 533 539	mutant
+TR84	Negative_regulation 563 571	impaired
+TR85	Positive_regulation 596 603	induced
+TR86	Cell_transformation 609 623	transformation
+TR87	Positive_regulation 646 653	induced
+TR88	Carcinogenesis 662 676	carcinogenesis
+TR69	Negative_regulation 0 8	Impaired
+TR70	Negative_regulation 28 38	attenuates
+TR71	Positive_regulation 44 51	induced
+TR72	Cell_transformation 61 75	transformation
+TR73	Carcinogenesis 103 117	carcinogenesis
+TR98	Regulation 1206 1213	effects
+TR99	Positive_regulation 1234 1241	induced
+TR100	Carcinogenesis 1250 1264	carcinogenesis
+TR101	Gene_expression 1295 1305	expressing
+TR102	Mutation 1306 1312	mutant
+TR103	Regulation 1332 1339	control
+TR104	Planned_process 1392 1399	crossed
+TR118	Negative_regulation 2174 2186	inactivating
+TR119	Mutation 2187 2196	mutations
+TR120	Negative_regulation 2209 2215	impair
+TR121	Positive_regulation 2221 2228	induced
+TR122	Cell_transformation 2238 2252	transformation
+TR123	Carcinogenesis 2280 2294	carcinogenesis
+TR89	Negative_regulation 757 764	reduced
+TR90	Mutation 873 881	mutation
+TR91	Binding 918 925	binding
+TR92	Negative_regulation 960 968	impaired
+E1	Development:TR75 Theme:T9
+E2	Development:TR76 Theme:T9
+E3	Cell_transformation:TR74 Theme:T8
+E4	Development:TR112 Theme:T53
+E5	Development:TR112 Theme:T54
+E6	Development:TR108 Theme:T51
+E7	Carcinogenesis:TR109 
+E8	Negative_regulation:TR110 Theme:T52
+E9	Negative_regulation:TR106 Theme:T50
+E10	Regulation:TR107 Cause:T50 Theme:E6
+E11	Regulation:TR107 Theme:E6
+E12	Negative_regulation:TR111 Theme:E4 Cause:T52
+E13	Negative_regulation:TR111 Theme:E5 Cause:T52
+E14	Development:TR105 Theme:T44
+E15	Development:TR115 Theme:T61
+E16	Pathway:TR116 Participant:T62
+E17	Carcinogenesis:TR113 AtLoc:T60
+E18	Remodeling:TR117 Theme:T63
+E19	Regulation:TR114 Theme:E15
+E20	Cell_transformation:TR95 Theme:T24
+E21	Negative_regulation:TR97 Theme:T26
+E22	Mutation:TR83 Theme:T15
+E23	Cell_transformation:TR86 Theme:T17
+E24	Carcinogenesis:TR88 AtLoc:T19
+E25	Regulation:TR82 Theme:E24 Cause:T15
+E26	Regulation:TR82 Theme:E23 Cause:T15
+E27	Positive_regulation:TR87 Theme:E24 Cause:T18
+E28	Positive_regulation:TR87 Theme:E24
+E29	Positive_regulation:TR85 Cause:T16 Theme:E23
+E30	Positive_regulation:TR85 Theme:E23
+E31	Cell_transformation:TR72 Theme:T3
+E32	Carcinogenesis:TR73 AtLoc:T5
+E33	Negative_regulation:TR69 Theme:T1
+E34	Positive_regulation:TR71 Cause:T2 Theme:E31
+E35	Positive_regulation:TR71 Theme:E31
+E36	Negative_regulation:TR70 Cause:T1 Theme:E31
+E37	Negative_regulation:TR70 Cause:T1 Theme:E32
+E38	Mutation:TR102 Theme:T31
+E39	Carcinogenesis:TR100 AtLoc:T29
+E40	Gene_expression:TR101 Theme:T31
+E41	Planned_process:TR104 Theme:T35
+E42	Positive_regulation:TR99 Theme:E39 Cause:T28
+E43	Positive_regulation:TR99 Theme:E39
+E44	Regulation:TR98 Theme:E39 Cause:T27
+E45	Carcinogenesis:TR123 AtLoc:T68
+E46	Cell_transformation:TR122 Theme:T66
+E47	Mutation:TR119 Theme:T64
+E48	Positive_regulation:TR121 Cause:T65 Theme:E46
+E49	Positive_regulation:TR121 Theme:E46
+E50	Negative_regulation:TR118 Theme:E47
+E51	Negative_regulation:TR118 Theme:T64
+E52	Negative_regulation:TR89 Theme:T22
+E53	Negative_regulation:TR92 Theme:T23

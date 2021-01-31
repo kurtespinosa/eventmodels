@@ -1,0 +1,32 @@
+TR13	Metastasis 105 115	Metastasis
+TR14	Blood_vessel_development 126 138	angiogenesis
+TR15	Localization 143 151	invasive
+TR23	Blood_vessel_development 737 749	angiogenesis
+TR24	Metastasis 754 764	metastatic
+TR16	Binding 306 317	interaction
+TR17	Regulation 367 376	mediating
+TR18	Binding 386 394	adhesion
+TR19	Localization 429 437	motility
+TR20	Positive_regulation 441 448	achieve
+TR21	Metastasis 449 459	metastasis
+TR22	Blood_vessel_development 479 497	neovascularization
+TR10	Binding 23 35	interactions
+TR11	Metastasis 76 86	metastasis
+TR12	Blood_vessel_development 91 103	angiogenesis
+E1	Blood_vessel_development:TR14 AtLoc:T2
+E2	Metastasis:TR13 
+E3	Blood_vessel_development:TR23 AtLoc:T9
+E4	Metastasis:TR24 
+E5	Localization:TR19 Theme:T6
+E6	Blood_vessel_development:TR22 AtLoc:T8
+E7	Binding:TR18 Theme:T4
+E8	Metastasis:TR21 Theme:T7
+E9	Metastasis:TR21 Theme:T8
+E10	Binding:TR16 Theme:T3
+E11	Positive_regulation:TR20 Theme:E8
+E12	Positive_regulation:TR20 Theme:E9
+E13	Positive_regulation:TR20 Theme:E6
+E14	Regulation:TR17 Theme:E5
+E15	Blood_vessel_development:TR12 
+E16	Metastasis:TR11 
+E17	Binding:TR10 Theme:T1

@@ -1,0 +1,42 @@
+T42	Metastasis 276 286	metastatic
+T41	Metastasis 186 196	metastasis
+T39	Gene_expression 5 15	expression
+T40	Metastasis 53 63	metastatic
+T46	Gene_expression 928 937	expressed
+T58	Cell_differentiation 1478 1493	differentiation
+T47	Gene_expression 996 1004	negative
+T48	Metastasis 1071 1081	metastasis
+T54	Gene_expression 1564 1574	expression
+T55	Regulation 1594 1605	play a role
+T56	Metastasis 1609 1619	metastatic
+T59	Regulation 1601 1605	role
+T49	Gene_expression 1105 1114	expressed
+T50	Metastasis 1166 1176	metastasis
+T43	Gene_expression 441 451	expression
+T51	Gene_expression 1235 1243	negative
+T52	Death 1317 1325	survival
+T53	Gene_expression 1356 1364	positive
+T44	Gene_expression 816 826	expression
+T45	Metastasis 843 853	metastatic
+T57	Localization 854 860	spread
+E1	Metastasis:T42 
+E2	Metastasis:T41 
+E3	Gene_expression:T39 Theme:T1
+E4	Metastasis:T40 Theme:T3
+E5	Gene_expression:T46 Theme:T22
+E6	Gene_expression:T47 Theme:T25
+E7	Metastasis:T48 
+E8	Metastasis:T56 Theme:T38
+E9	Gene_expression:T54 Theme:T37
+E10	Regulation:T55 Cause:E9 Theme:E8
+E11	Metastasis:T50 ToLoc:T29 Theme:T27
+E12	Metastasis:T50 ToLoc:T29
+E13	Gene_expression:T49 Theme:T28
+E14	Gene_expression:T51 Theme:T32
+E15	Death:T52 Theme:T35
+E16	Death:T52 Theme:T30
+E17	Death:T52 Theme:T33
+E18	Gene_expression:T53 Theme:T34
+E19	Localization:T57 Theme:T20
+E20	Gene_expression:T44 Theme:T19
+E21	Metastasis:T45 Theme:T20

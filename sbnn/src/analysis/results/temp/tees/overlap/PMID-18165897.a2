@@ -1,0 +1,17 @@
+T47	Localization 28 36	invasion
+T48	Metastasis 137 147	metastases
+T49	Localization 253 261	invasion
+T50	Metastasis 362 372	metastases
+T51	Planned_process 602 619	paraffin-embedded
+T52	Localization 643 651	invasive
+T53	Planned_process 904 911	stained
+T54	Planned_process 1020 1034	immunostaining
+T55	Planned_process 1140 1148	staining
+T56	Planned_process 1295 1303	staining
+T57	Gene_expression 1653 1661	negative
+T58	Planned_process 1917 1931	Immunostaining
+T59	Positive_regulation 1957 1966	increased
+T60	Localization 2007 2015	invasion
+T61	Planned_process 2046 2054	staining
+E10	Planned_process:T56 Instrument:T29 Theme:T27
+E16	Planned_process:T56 Instrument:T29 Theme:T28

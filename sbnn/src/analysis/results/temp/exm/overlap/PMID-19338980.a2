@@ -1,0 +1,32 @@
+T28	Regulation 0 4	Role
+T29	Positive_regulation 23 32	inducible
+T30	Positive_regulation 51 60	induction
+T31	Positive_regulation 100 109	inducible
+T32	Positive_regulation 156 165	activated
+T33	Regulation 260 270	regulation
+T34	Cell_proliferation 291 304	proliferation
+T35	Development 316 325	formation
+T36	Positive_regulation 490 499	induction
+T37	Positive_regulation 509 517	extended
+T38	Planned_process 644 654	knock down
+T39	Gene_expression 661 671	expression
+T40	Positive_regulation 716 725	stimulate
+T41	Gene_expression 777 787	expression
+T42	Regulation 859 867	mediates
+T43	Positive_regulation 875 886	stimulation
+T44	Pathway 922 929	pathway
+E1	Regulation:T28 Cause:T2 Theme:E3
+E2	Positive_regulation:T29 Cause:T1 Theme:T2
+E3	Positive_regulation:T30 Theme:T3 Cause:T4
+E4	Positive_regulation:T31 Cause:T5 Theme:T6
+E5	Positive_regulation:T32 Theme:T6 Cause:T9
+E6	Regulation:T33 Cause:T6 Theme:E7
+E7	Cell_proliferation:T34 Theme:T10
+E8	Development:T35 Theme:T11
+E11	Planned_process:T38 Theme:T17
+E12	Gene_expression:T39 Theme:T17
+E13	Positive_regulation:T40 Cause:T18 Theme:E14
+E14	Gene_expression:T41 Theme:T21
+E18	Regulation:T33 Cause:T6 Theme:E8
+E19	Positive_regulation:T40 Cause:T18 Theme:E20
+E20	Gene_expression:T41 Theme:T20

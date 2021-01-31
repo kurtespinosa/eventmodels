@@ -1,0 +1,80 @@
+TR83	Positive_regulation 1835 1843	enhanced
+TR84	Metastasis 1844 1854	metastatic
+TR96	Regulation 1816 1820	role
+TR65	Planned_process 864 871	culture
+TR66	Metastasis 908 918	metastatic
+TR67	Mutation 963 976	amplification
+TR68	Transcription 1002 1017	mRNA expression
+TR91	Transcription 1007 1017	expression
+TR51	Planned_process 197 209	transfecting
+TR52	Metastasis 301 311	metastatic
+TR53	Planned_process 348 357	injection
+TR75	Metastasis 1390 1400	metastatic
+TR76	Planned_process 1436 1447	co-cultured
+TR54	Metastasis 392 402	metastatic
+TR55	Positive_regulation 415 423	enhanced
+TR56	Growth 455 461	growth
+TR57	Development 482 491	formation
+TR58	Positive_regulation 521 530	increased
+TR59	Transcription 531 546	mRNA expression
+TR60	Mutation 551 569	gene amplification
+TR61	Negative_regulation 696 705	decreases
+TR62	Mutation 709 727	gene amplification
+TR63	Transcription 732 747	mRNA expression
+TR85	Transcription 536 546	expression
+TR86	Mutation 556 569	amplification
+TR87	Negative_regulation 616 624	declined
+TR88	Positive_regulation 657 666	increased
+TR89	Mutation 714 727	amplification
+TR90	Transcription 737 747	expression
+TR64	Planned_process 816 827	subcultured
+TR94	Metastasis 1236 1246	metastatic
+TR69	Development 1039 1045	formed
+TR70	Metastasis 1093 1103	metastatic
+TR71	Mutation 1120 1138	gene amplification
+TR72	Positive_regulation 1139 1148	increased
+TR73	Positive_regulation 1155 1163	elevated
+TR74	Transcription 1164 1179	mRNA expression
+TR92	Mutation 1125 1138	amplification
+TR93	Transcription 1169 1179	expression
+TR47	Positive_regulation 58 66	enhanced
+TR48	Metastasis 67 77	metastatic
+TR49	Growth 107 113	growth
+TR50	Planned_process 117 127	co-culture
+TR77	Planned_process 1522 1530	exposure
+TR78	Positive_regulation 1567 1576	increased
+TR79	Metastasis 1577 1587	metastatic
+TR80	Transcription 1621 1625	mRNA
+TR81	Regulation 1696 1707	influencing
+TR82	Planned_process 1724 1735	transfected
+TR95	Binding 1650 1661	interaction
+E1	Metastasis:TR84 
+E2	Positive_regulation:TR83 Theme:E1
+E3	Metastasis:TR66 
+E4	Mutation:TR67 Theme:T26
+E5	Planned_process:TR65 Theme:T25
+E6	Transcription:TR91 Theme:T26
+E7	Metastasis:TR52 
+E8	Metastasis:TR75 
+E9	Planned_process:TR76 Theme:T34 Theme2:T33
+E10	Planned_process:TR76 Theme:T34
+E11	Planned_process:TR76 Theme:T33
+E12	Development:TR57 Theme:T19
+E13	Transcription:TR85 Theme:T22
+E14	Transcription:TR59 Theme:T22
+E15	Growth:TR56 Theme:T18
+E16	Metastasis:TR54 
+E17	Transcription:TR90 Theme:T22
+E18	Positive_regulation:TR55 Theme:E16
+E19	Planned_process:TR64 Theme:T23
+E20	Metastasis:TR94 
+E21	Development:TR69 Theme:T27
+E22	Metastasis:TR70 Theme:T27
+E23	Planned_process:TR50 Theme:T5 Theme2:T1
+E24	Metastasis:TR48 
+E25	Growth:TR49 Theme:T4
+E26	Positive_regulation:TR47 Theme:E24
+E27	Planned_process:TR82 Theme:T43
+E28	Regulation:TR81 Cause:T41 Theme:T43
+E29	Regulation:TR81 Theme:T43 Cause:T40
+E30	Planned_process:TR77 Theme:T35 Instrument:T36

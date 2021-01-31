@@ -1,0 +1,63 @@
+TR43	Gene_expression 527 541	overexpressing
+TR44	Positive_regulation 527 541	overexpressing
+TR45	Cell_proliferation 580 586	growth
+TR46	Development 596 602	formed
+TR37	Regulation 302 306	role
+TR38	Positive_regulation 318 327	promoting
+TR39	Cell_proliferation 333 339	growth
+TR40	Carcinogenesis 344 357	tumorigenesis
+TR41	Gene_expression 383 396	overexpressed
+TR42	Positive_regulation 383 396	overexpressed
+TR26	Gene_expression 0 14	Overexpression
+TR27	Positive_regulation 0 14	Overexpression
+TR28	Positive_regulation 41 48	induces
+TR29	Cell_transformation 54 68	transformation
+TR52	Regulation 923 927	role
+TR53	Development 954 965	development
+TR47	Infection 715 723	infected
+TR48	Planned_process 715 723	infected
+TR49	Development 730 736	formed
+TR50	Development 776 782	formed
+TR51	Planned_process 825 833	injected
+TR30	Cell_death 114 123	apoptosis
+TR31	Negative_regulation 124 134	inhibiting
+TR32	Regulation 198 202	role
+TR33	Cell_death 220 229	apoptosis
+TR34	Negative_regulation 241 249	suppress
+TR35	Positive_regulation 254 261	induced
+TR36	Cell_death 262 271	apoptosis
+E1	Cell_proliferation:TR45 Theme:T15
+E2	Development:TR46 Theme:T17
+E3	Gene_expression:TR41 Theme:T12
+E4	Cell_proliferation:TR39 Theme:T11
+E5	Carcinogenesis:TR40 AtLoc:T11
+E6	Positive_regulation:TR38 Theme:E5
+E7	Positive_regulation:TR38 Theme:E4
+E8	Positive_regulation:TR42 Theme:T12
+E9	Positive_regulation:TR42 Theme:E3
+E10	Regulation:TR37 Cause:T10 Theme:E6
+E11	Regulation:TR37 Cause:T10 Theme:E7
+E12	Gene_expression:TR26 Theme:T2
+E13	Cell_transformation:TR29 Theme:T3
+E14	Positive_regulation:TR27 Theme:T2
+E15	Positive_regulation:TR27 Theme:E12
+E16	Positive_regulation:TR28 Cause:E12 Theme:E13
+E17	Infection:TR47 Theme:T20 Participant:T18
+E18	Infection:TR47 Participant:T18
+E19	Planned_process:TR48 Theme:T20
+E20	Planned_process:TR51 Theme:T24
+E21	Development:TR50 Theme:T22
+E22	Development:TR49 Theme:T21
+E23	Cell_death:TR30 
+E24	Cell_death:TR33 
+E25	Cell_death:TR36 
+E26	Regulation:TR32 Cause:T7 Theme:T8
+E27	Regulation:TR32 Cause:T7 Theme:E24
+E28	Regulation:TR32 Theme:T8 Cause:T5
+E29	Regulation:TR32 Theme:T8 Cause:T6
+E30	Regulation:TR32 Cause:T5 Theme:E24
+E31	Regulation:TR32 Cause:T6 Theme:E24
+E32	Positive_regulation:TR35 Cause:T9 Theme:E25
+E33	Positive_regulation:TR35 Theme:E25
+E34	Negative_regulation:TR34 Theme:E25 Cause:T6
+E35	Negative_regulation:TR34 Theme:E25 Cause:T5

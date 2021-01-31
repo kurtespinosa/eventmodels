@@ -1,0 +1,9 @@
+TR16	Metastasis 145 155	metastasis
+TR17	Positive_regulation 370 378	elevated
+TR14	Localization 24 33	secreting
+TR15	Metastasis 77 87	metastases
+E1	Metastasis:TR16 Theme:T5 ToLoc:T7
+E2	Metastasis:TR16 Theme:T6 ToLoc:T7
+E3	Positive_regulation:TR17 Theme:T11
+E4	Localization:TR14 Theme:T2
+E5	Metastasis:TR15 Theme:T3 ToLoc:T4

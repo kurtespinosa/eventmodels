@@ -1,0 +1,83 @@
+TR57	Cell_death 1127 1136	Apoptosis
+TR72	Negative_regulation 2105 2113	diminish
+TR73	Cell_death 2114 2123	apoptosis
+TR53	Cell_proliferation 676 681	grown
+TR54	Planned_process 848 854	plated
+TR67	Positive_regulation 1874 1883	increased
+TR79	Planned_process 1911 1919	cultured
+TR42	Metastasis 209 219	metastases
+TR43	Regulation 229 241	unresponsive
+TR44	Planned_process 256 265	treatment
+TR55	Planned_process 974 983	harvested
+TR56	Planned_process 1007 1021	immunostaining
+TR64	Cell_proliferation 1770 1775	grown
+TR65	Positive_regulation 1819 1827	increase
+TR66	Cell_death 1831 1840	apoptosis
+TR48	Cell_death 370 379	Apoptosis
+TR49	Death 400 405	death
+TR78	Regulation 428 432	role
+TR40	Planned_process 29 38	coculture
+TR41	Cell_death 63 72	apoptosis
+TR77	Regulation 57 62	alter
+TR74	Cell_death 2214 2226	proapoptotic
+TR80	Positive_regulation 2195 2203	elevated
+TR60	Negative_regulation 1589 1597	decrease
+TR58	Cell_proliferation 1459 1464	grown
+TR59	Positive_regulation 1508 1516	increase
+TR50	Binding 524 532	interact
+TR51	Regulation 577 583	affect
+TR52	Cell_death 584 593	apoptosis
+TR75	Metastasis 2297 2308	metastasize
+TR76	Binding 2367 2378	interaction
+TR81	Positive_regulation 2316 2325	dependent
+TR45	Metastasis 292 302	metastases
+TR46	Negative_regulation 343 350	regress
+TR47	Planned_process 359 368	treatment
+TR68	Cell_proliferation 1979 1984	grown
+TR69	Positive_regulation 2021 2030	increased
+TR70	Gene_expression 2031 2041	expression
+TR71	Negative_regulation 2055 2064	decreased
+TR61	Positive_regulation 1636 1644	increase
+TR62	Cell_death 1662 1671	apoptotic
+TR63	Planned_process 1698 1706	cultured
+E1	Cell_death:TR57 
+E2	Cell_death:TR73 
+E3	Negative_regulation:TR72 Theme:E2
+E4	Cell_proliferation:TR53 Theme:T12
+E5	Cell_proliferation:TR53 Theme:T14
+E6	Planned_process:TR54 Theme:T15 Theme2:T16
+E7	Positive_regulation:TR67 Theme:T30
+E8	Planned_process:TR79 Theme:T31
+E9	Planned_process:TR44 Theme:T5
+E10	Metastasis:TR42 
+E11	Regulation:TR43 Cause:E9 Theme:E10
+E12	Planned_process:TR56 Theme:T17
+E13	Planned_process:TR55 Theme:T17
+E14	Cell_death:TR66 Theme:T29
+E15	Cell_proliferation:TR64 Theme:T29
+E16	Positive_regulation:TR65 Theme:E14
+E17	Cell_death:TR48 
+E18	Death:TR49 Theme:T7
+E19	Cell_death:TR41 Theme:T2
+E20	Planned_process:TR40 Theme:T2
+E21	Cell_death:TR74 
+E22	Negative_regulation:TR60 Theme:T27
+E23	Positive_regulation:TR59 Theme:T24
+E24	Positive_regulation:TR59 Theme:T25
+E25	Cell_proliferation:TR58 Theme:T23
+E26	Cell_death:TR52 Theme:T9
+E27	Regulation:TR51 Theme:E26
+E28	Metastasis:TR75 
+E29	Binding:TR76 Theme:T38
+E30	Positive_regulation:TR81 Theme:T37
+E31	Metastasis:TR45 Theme:T6
+E32	Planned_process:TR47 Theme:T6
+E33	Negative_regulation:TR46 Theme:T6
+E34	Negative_regulation:TR46 Theme:E31
+E35	Negative_regulation:TR71 Theme:T34
+E36	Cell_proliferation:TR68 Theme:T32
+E37	Planned_process:TR63 Theme:T28
+E38	Cell_death:TR62 Theme:T28
+E39	Cell_death:TR62 
+E40	Positive_regulation:TR61 Theme:E38
+E41	Positive_regulation:TR61 Theme:E39

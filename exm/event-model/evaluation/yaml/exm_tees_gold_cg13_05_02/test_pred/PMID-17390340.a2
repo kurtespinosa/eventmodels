@@ -1,0 +1,143 @@
+TR80	Positive_regulation 1066 1075	activated
+TR81	Negative_regulation 1143 1154	inactivated
+TR82	Negative_regulation 1162 1172	decreasing
+TR83	Phosphorylation 1183 1197	phosphorylated
+TR84	Phosphorylation 1207 1221	phosphorylated
+TR65	Regulation 273 280	effects
+TR66	Planned_process 341 350	treatment
+TR67	Cell_death 436 445	apoptotic
+TR68	Localization 508 516	diffused
+TR69	Cell_death 541 550	apoptotic
+TR90	Negative_regulation 1359 1369	inhibition
+TR91	Negative_regulation 1428 1437	prevented
+TR92	Positive_regulation 1447 1454	induced
+TR93	Cell_death 1455 1463	necrosis
+TR94	Positive_regulation 1504 1510	caused
+TR95	Negative_regulation 1514 1523	depletion
+TR96	Positive_regulation 1564 1574	activation
+TR75	Negative_regulation 909 919	Inhibition
+TR76	Negative_regulation 955 962	blocked
+TR77	Positive_regulation 972 979	induced
+TR78	Cell_death 980 989	apoptosis
+TR79	Regulation 1006 1017	involvement
+TR97	Positive_regulation 1609 1618	initiates
+TR98	Cell_death 1619 1628	apoptosis
+TR99	Pathway 1697 1705	pathways
+TR100	Cell_death 1710 1718	necrosis
+TR101	Positive_regulation 1728 1738	activation
+TR73	Positive_regulation 847 856	dependent
+TR74	Localization 857 870	translocation
+TR61	Negative_regulation 154 162	inhibits
+TR62	Cell_proliferation 168 181	proliferation
+TR63	Positive_regulation 186 193	induces
+TR64	Cell_death 194 203	apoptosis
+TR59	Positive_regulation 28 35	induced
+TR60	Death 41 46	death
+TR85	Positive_regulation 1260 1268	promoted
+TR86	Cell_death 1269 1278	apoptosis
+TR87	Negative_regulation 1291 1302	alleviating
+TR88	Negative_regulation 1307 1317	inhibitory
+TR89	Regulation 1318 1324	effect
+TR70	Positive_regulation 643 651	increase
+TR71	Positive_regulation 665 674	activated
+TR72	Protein_processing 710 717	cleaved
+E1	Positive_regulation:TR80 Cause:T34 Theme:T36
+E2	Positive_regulation:TR80 Theme:T36
+E3	Phosphorylation:TR83 Theme:T39
+E4	Phosphorylation:TR83 Theme:T38
+E5	Phosphorylation:TR84 Theme:T39
+E6	Phosphorylation:TR84 Theme:T38
+E7	Negative_regulation:TR82 Theme:T39 Cause:T34
+E8	Negative_regulation:TR82 Cause:T34 Theme:T38
+E9	Negative_regulation:TR82 Cause:T34 Theme:E3
+E10	Negative_regulation:TR82 Cause:T34 Theme:E4
+E11	Negative_regulation:TR81 Theme:T37 Cause:E7
+E12	Negative_regulation:TR81 Theme:T37 Cause:E8
+E13	Negative_regulation:TR81 Theme:T37 Cause:E9
+E14	Negative_regulation:TR81 Theme:T37 Cause:E10
+E15	Negative_regulation:TR81 Theme:T37 Cause:T34
+E16	Regulation:TR65 Cause:T9 Theme:T10
+E17	Cell_death:TR67 Theme:T13
+E18	Planned_process:TR66 Instrument:T11 Theme:T13
+E19	Localization:TR68 ToLoc:T15 Theme:T14
+E20	Localization:TR68 Theme:T14
+E21	Cell_death:TR69 Theme:T16
+E22	Positive_regulation:TR96 Theme:T48
+E23	Negative_regulation:TR95 Theme:T47
+E24	Negative_regulation:TR90 Theme:T43
+E25	Negative_regulation:TR90 Theme:T44
+E26	Cell_death:TR93 
+E27	Positive_regulation:TR92 Theme:E26 Cause:T45
+E28	Negative_regulation:TR91 Theme:E26 Cause:E24
+E29	Negative_regulation:TR91 Theme:E26 Cause:E25
+E30	Cell_death:TR78 
+E31	Negative_regulation:TR75 Theme:T30
+E32	Negative_regulation:TR75 Theme:T29
+E33	Negative_regulation:TR76 Cause:E31 Theme:E30
+E34	Negative_regulation:TR76 Cause:E32 Theme:E30
+E35	Positive_regulation:TR77 Theme:E30 Cause:T31
+E36	Cell_death:TR100 
+E37	Positive_regulation:TR101 Theme:T58
+E38	Pathway:TR99 Participant:T52 Participant2:T54 Participant3:T56 Participant4:T57
+E39	Pathway:TR99 Participant:T52 Participant2:T53 Participant3:T56 Participant4:T57
+E40	Pathway:TR99 Participant:T51 Participant2:T52 Participant3:T56 Participant4:T57
+E41	Pathway:TR99 Participant:T52 Participant2:T55 Participant3:T56 Participant4:T57
+E42	Pathway:TR99 Participant:T52 Participant2:T56 Participant3:T57
+E43	Pathway:TR99 Participant:T53 Participant2:T54 Participant3:T56 Participant4:T57
+E44	Pathway:TR99 Participant:T51 Participant2:T54 Participant3:T56 Participant4:T57
+E45	Pathway:TR99 Participant:T54 Participant2:T55 Participant3:T56 Participant4:T57
+E46	Pathway:TR99 Participant:T51 Participant2:T53 Participant3:T56 Participant4:T57
+E47	Pathway:TR99 Participant:T53 Participant2:T55 Participant3:T56 Participant4:T57
+E48	Pathway:TR99 Participant:T51 Participant2:T55 Participant3:T56 Participant4:T57
+E49	Pathway:TR99 Participant:T52 Participant2:T53 Participant3:T54 Participant4:T56
+E50	Pathway:TR99 Participant:T51 Participant2:T52 Participant3:T54 Participant4:T56
+E51	Pathway:TR99 Participant:T52 Participant2:T54 Participant3:T55 Participant4:T56
+E52	Pathway:TR99 Participant:T51 Participant2:T52 Participant3:T53 Participant4:T56
+E53	Pathway:TR99 Participant:T52 Participant2:T53 Participant3:T55 Participant4:T56
+E54	Pathway:TR99 Participant:T51 Participant2:T52 Participant3:T55 Participant4:T56
+E55	Pathway:TR99 Participant:T51 Participant2:T53 Participant3:T54 Participant4:T56
+E56	Pathway:TR99 Participant:T53 Participant2:T54 Participant3:T55 Participant4:T56
+E57	Pathway:TR99 Participant:T51 Participant2:T54 Participant3:T55 Participant4:T56
+E58	Pathway:TR99 Participant:T51 Participant2:T53 Participant3:T55 Participant4:T56
+E59	Pathway:TR99 Participant:T52 Participant2:T53 Participant3:T54 Participant4:T57
+E60	Pathway:TR99 Participant:T51 Participant2:T52 Participant3:T54 Participant4:T57
+E61	Pathway:TR99 Participant:T52 Participant2:T54 Participant3:T55 Participant4:T57
+E62	Pathway:TR99 Participant:T52 Participant2:T54 Participant3:T57
+E63	Pathway:TR99 Participant:T51 Participant2:T52 Participant3:T53 Participant4:T57
+E64	Pathway:TR99 Participant:T52 Participant2:T53 Participant3:T55 Participant4:T57
+E65	Pathway:TR99 Participant:T52 Participant2:T53 Participant3:T57
+E66	Pathway:TR99 Participant:T51 Participant2:T52 Participant3:T55 Participant4:T57
+E67	Pathway:TR99 Participant:T51 Participant2:T52 Participant3:T57
+E68	Pathway:TR99 Participant:T52 Participant2:T55 Participant3:T57
+E69	Pathway:TR99 Participant:T51 Participant2:T53 Participant3:T54 Participant4:T57
+E70	Pathway:TR99 Participant:T53 Participant2:T54 Participant3:T55 Participant4:T57
+E71	Pathway:TR99 Participant:T51 Participant2:T54 Participant3:T55 Participant4:T57
+E72	Pathway:TR99 Participant:T51 Participant2:T53 Participant3:T55 Participant4:T57
+E73	Pathway:TR99 Participant:T51 Participant2:T52 Participant3:T53 Participant4:T54
+E74	Pathway:TR99 Participant:T52 Participant2:T53 Participant3:T54 Participant4:T55
+E75	Pathway:TR99 Participant:T51 Participant2:T52 Participant3:T54 Participant4:T55
+E76	Pathway:TR99 Participant:T51 Participant2:T52 Participant3:T53 Participant4:T55
+E77	Pathway:TR99 Participant:T51 Participant2:T53 Participant3:T54 Participant4:T55
+E78	Cell_death:TR98 
+E79	Positive_regulation:TR97 Theme:E78 Cause:T49
+E80	Positive_regulation:TR97 Theme:E36 Cause:T49
+E81	Localization:TR74 ToLoc:T28 Theme:T25
+E82	Positive_regulation:TR73 Theme:E81
+E83	Cell_proliferation:TR62 Theme:T7
+E84	Cell_death:TR64 Theme:T8
+E85	Positive_regulation:TR63 Theme:E84 Cause:T4
+E86	Negative_regulation:TR61 Cause:T4 Theme:E83
+E87	Cell_death:TR86 
+E88	Positive_regulation:TR71 Theme:T20
+E89	Positive_regulation:TR71 Theme:T19
+E90	Positive_regulation:TR71 Theme:T21
+E91	Positive_regulation:TR70 Theme:T23 Cause:T24
+E92	Positive_regulation:TR70 Theme:T23
+E93	Positive_regulation:TR70 Theme:T22 Cause:T24
+E94	Positive_regulation:TR70 Theme:T22
+E95	Positive_regulation:TR70 Cause:T24 Theme:T20
+E96	Positive_regulation:TR70 Cause:T24 Theme:T19
+E97	Positive_regulation:TR70 Theme:T20
+E98	Positive_regulation:TR70 Theme:T19
+E99	Protein_processing:TR72 Theme:T22
+E100	Protein_processing:TR72 Theme:T23

@@ -1,0 +1,52 @@
+TR49	Positive_regulation 805 812	induced
+TR50	Breakdown 817 830	fragmentation
+TR51	Positive_regulation 861 870	activated
+TR44	Positive_regulation 561 569	enhanced
+TR63	Negative_regulation 584 592	activity
+TR52	Positive_regulation 1053 1062	activated
+TR42	Regulation 232 238	modify
+TR43	Negative_regulation 253 261	activity
+TR45	Positive_regulation 627 634	induced
+TR46	Breakdown 656 669	fragmentation
+TR47	Regulation 718 726	inactive
+TR48	Localization 739 747	presence
+TR53	Negative_regulation 1097 1104	reduced
+TR54	Metabolism 1117 1128	consumption
+TR55	Negative_regulation 1157 1167	inhibition
+TR56	Glycolysis 1171 1181	glycolysis
+TR57	Negative_regulation 1215 1222	reduced
+TR58	Metabolism 1235 1246	consumption
+TR59	Metabolism 1304 1315	consumption
+TR60	Regulation 1326 1334	specific
+TR64	Negative_regulation 1285 1292	decline
+TR40	Positive_regulation 123 130	induced
+TR41	Cell_death 131 151	apoptotic cell death
+TR62	Death 146 151	death
+E1	Positive_regulation:TR51 Theme:T28
+E2	Positive_regulation:TR51 Theme:T27
+E3	Breakdown:TR50 Theme:T27
+E4	Positive_regulation:TR49 Cause:T26 Theme:E3
+E5	Positive_regulation:TR44 Cause:T18 Theme:T21
+E6	Positive_regulation:TR44 Cause:T16 Theme:T21
+E7	Positive_regulation:TR44 Cause:T17 Theme:T21
+E8	Positive_regulation:TR44 Cause:T15 Theme:T21
+E9	Positive_regulation:TR44 Theme:T21 Cause:T20
+E10	Positive_regulation:TR44 Theme:T21 Cause:T19
+E11	Positive_regulation:TR44 Theme:T21
+E12	Negative_regulation:TR43 Cause:T8 Theme:T14
+E13	Negative_regulation:TR43 Cause:T8 Theme:T11
+E14	Regulation:TR42 Theme:E12
+E15	Regulation:TR42 Theme:E13
+E16	Localization:TR48 Theme:T25 AtLoc:T24
+E17	Breakdown:TR46 Theme:T23
+E18	Positive_regulation:TR45 Theme:E17 Cause:T22
+E19	Regulation:TR47 Theme:E17 Cause:T22
+E20	Regulation:TR47 Theme:E16 Cause:T22
+E21	Metabolism:TR59 Theme:T37
+E22	Metabolism:TR59 Theme:T38
+E23	Regulation:TR60 Theme:E21 Cause:T39
+E24	Regulation:TR60 Theme:E22 Cause:T39
+E25	Metabolism:TR58 Theme:T37
+E26	Negative_regulation:TR57 Theme:E25 Cause:T36
+E27	Negative_regulation:TR57 Theme:E25 Cause:T35
+E28	Death:TR62 Theme:T5

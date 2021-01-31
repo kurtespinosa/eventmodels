@@ -1,0 +1,52 @@
+TR41	Mutation 899 906	mutated
+TR42	Negative_regulation 911 919	silenced
+TR31	Negative_regulation 322 333	suppression
+TR54	Regulation 289 293	role
+TR28	Positive_regulation 0 9	Promotion
+TR29	Carcinogenesis 13 26	tumorigenesis
+TR30	Mutation 30 53	heterozygous disruption
+TR53	Mutation 43 53	disruption
+TR32	Mutation 366 389	monoallelically deleted
+TR55	Mutation 382 389	deleted
+TR43	Mutation 943 966	heterozygous disruption
+TR44	Positive_regulation 978 987	increased
+TR45	Cell_proliferation 997 1010	proliferation
+TR59	Mutation 956 966	disruption
+TR60	Positive_regulation 967 974	results
+TR61	Negative_regulation 1015 1022	reduced
+TR33	Mutation 542 562	monoallelic deletion
+TR34	Positive_regulation 575 583	promotes
+TR35	Carcinogenesis 584 597	tumorigenesis
+TR56	DNA_methylation 542 553	monoallelic
+TR57	Mutation 554 562	deletion
+TR36	Mutation 617 640	heterozygous disruption
+TR37	Positive_regulation 653 662	increases
+TR38	Positive_regulation 709 720	accelerates
+TR39	Development 725 736	development
+TR40	Positive_regulation 758 765	induced
+TR58	Mutation 630 640	disruption
+TR46	Negative_regulation 1113 1123	suppressor
+TR47	Cell_proliferation 1202 1208	growth
+TR48	Regulation 1209 1216	control
+TR49	Negative_regulation 1227 1238	suppression
+TR50	Mutation 1246 1254	mutation
+TR51	Regulation 1296 1306	contribute
+TR52	Development 1314 1326	pathogenesis
+E1	Mutation:TR41 Theme:T17 AtLoc:T16
+E2	Negative_regulation:TR42 Theme:T17
+E3	Negative_regulation:TR31 Theme:T4
+E4	Mutation:TR30 Theme:T1
+E5	Mutation:TR53 Theme:T1
+E6	Carcinogenesis:TR29 
+E7	Positive_regulation:TR28 Cause:E5 Theme:E6
+E8	Positive_regulation:TR28 Theme:E6 Cause:E4
+E9	Cell_proliferation:TR45 Theme:T20
+E10	DNA_methylation:TR56 Theme:T11
+E11	Carcinogenesis:TR35 
+E12	Mutation:TR58 Theme:T12
+E13	Development:TR39 Theme:T15
+E14	Development:TR39 Theme:T13
+E15	Positive_regulation:TR40 Theme:T15 Cause:T14
+E16	Negative_regulation:TR49 Theme:T24
+E17	Negative_regulation:TR46 Cause:T21 Theme:T22
+E18	Mutation:TR50 Theme:T25

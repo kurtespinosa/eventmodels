@@ -1,0 +1,26 @@
+TR39	Synthesis 1441 1450	formation
+TR51	Metabolism 1441 1450	formation
+TR48	Planned_process 565 573	cultured
+TR37	Regulation 4 10	effect
+TR38	Regulation 108 114	effect
+TR40	Planned_process 1568 1576	cultured
+TR41	Positive_regulation 1686 1695	increases
+TR42	Negative_regulation 1760 1766	impair
+TR43	Blood_vessel_development 1767 1779	angiogenesis
+TR44	Negative_regulation 1794 1798	slow
+TR45	Development 1816 1825	formation
+TR52	Positive_regulation 1719 1727	improves
+TR53	Metabolism 1739 1749	metabolism
+TR49	Positive_regulation 807 816	increased
+TR50	Negative_regulation 1001 1010	decreased
+E1	Metabolism:TR51 Theme:T30
+E2	Synthesis:TR39 Theme:T30
+E3	Regulation:TR38 Theme:T8 Cause:T6
+E4	Regulation:TR38 Theme:T7 Cause:T6
+E5	Planned_process:TR40 Theme:T31
+E6	Development:TR45 Theme:T36
+E7	Positive_regulation:TR41 Theme:T34 Cause:T33
+E8	Blood_vessel_development:TR43 
+E9	Positive_regulation:TR52 Cause:T33 Theme:T36
+E10	Negative_regulation:TR44 Cause:T33 Theme:E6
+E11	Negative_regulation:TR42 Cause:T33 Theme:E8

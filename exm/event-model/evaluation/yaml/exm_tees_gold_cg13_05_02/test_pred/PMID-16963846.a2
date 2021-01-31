@@ -1,0 +1,10 @@
+TR21	Blood_vessel_development 249 267	neovascularization
+TR22	Blood_vessel_development 269 272	CNV
+TR19	Planned_process 13 20	therapy
+TR20	Blood_vessel_development 62 80	neovascularization
+TR24	Blood_vessel_development 1488 1491	CNV
+E1	Blood_vessel_development:TR21 AtLoc:T4
+E2	Blood_vessel_development:TR22 
+E3	Blood_vessel_development:TR20 AtLoc:T2
+E4	Planned_process:TR19 Instrument:T1
+E5	Blood_vessel_development:TR24 

@@ -1,0 +1,27 @@
+TR24	Metastasis 54 64	metastasis
+TR30	Carcinogenesis 578 582	risk
+TR37	DNA_domain_or_region 1302 1307	-1377
+TR38	Positive_regulation 1353 1362	increased
+TR39	Carcinogenesis 1363 1367	risk
+TR40	Metastasis 1382 1392	metastasis
+TR33	Positive_regulation 891 900	increased
+TR34	Metastasis 919 929	metastasis
+TR31	Positive_regulation 663 672	increased
+TR32	Metastasis 692 702	metastasis
+TR35	Positive_regulation 1078 1087	increased
+TR36	Carcinogenesis 1088 1092	risk
+TR26	Positive_regulation 297 306	increased
+TR27	Carcinogenesis 307 311	risk
+E1	Metastasis:TR24 ToLoc:T2 Theme:T3
+E2	Carcinogenesis:TR30 Theme:T11
+E3	Carcinogenesis:TR39 
+E4	Metastasis:TR40 ToLoc:T21
+E5	Positive_regulation:TR38 Theme:E3
+E6	Metastasis:TR34 ToLoc:T15
+E7	Positive_regulation:TR33 Theme:E6
+E8	Metastasis:TR32 ToLoc:T12
+E9	Positive_regulation:TR31 Theme:E8
+E10	Carcinogenesis:TR36 Theme:T16
+E11	Positive_regulation:TR35 Theme:E10
+E12	Carcinogenesis:TR27 Theme:T7
+E13	Positive_regulation:TR26 Theme:E12

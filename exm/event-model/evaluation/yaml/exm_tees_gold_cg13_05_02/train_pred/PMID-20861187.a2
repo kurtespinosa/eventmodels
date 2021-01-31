@@ -1,0 +1,63 @@
+TR47	Negative_regulation 581 595	downregulation
+TR48	Development 643 652	formation
+TR66	Positive_regulation 604 611	results
+TR56	Negative_regulation 1004 1012	ablation
+TR57	Positive_regulation 1021 1028	results
+TR58	Negative_regulation 1041 1048	defects
+TR59	Development 1074 1085	development
+TR60	Regulation 1101 1115	essential role
+TR69	Mutation 1004 1012	ablation
+TR70	Remodeling 1059 1069	compaction
+TR71	Regulation 1111 1115	role
+TR44	Negative_regulation 382 391	protected
+TR45	Development 404 415	development
+TR41	Pathway 177 184	pathway
+TR42	Regulation 185 193	involved
+TR43	Development 210 220	nucleation
+TR46	Negative_regulation 524 534	suppressor
+TR61	Negative_regulation 1174 1184	inhibition
+TR62	Negative_regulation 1209 1219	protective
+TR63	Development 1234 1245	development
+TR64	Cell_proliferation 1253 1266	proliferation
+TR65	Negative_regulation 1280 1287	defects
+TR72	Localization 1271 1279	motility
+TR73	Regulation 1291 1299	affected
+TR52	Negative_regulation 841 855	downregulation
+TR53	Positive_regulation 856 863	results
+TR54	Localization 889 898	migration
+TR55	Cell_proliferation 912 918	growth
+TR67	Negative_regulation 867 876	defective
+TR68	Localization 903 911	invasive
+TR49	Positive_regulation 753 761	required
+TR50	Cell_proliferation 771 784	proliferation
+TR51	Cell_transformation 794 808	transformation
+TR37	Regulation 23 32	regulator
+TR38	Positive_regulation 55 63	required
+TR39	Development 78 89	development
+TR40	Cell_transformation 99 113	transformation
+E1	Negative_regulation:TR47 Theme:T18
+E2	Development:TR48 Theme:T20
+E3	Positive_regulation:TR66 Cause:E1 Theme:T21
+E4	Development:TR59 Theme:T32
+E5	Negative_regulation:TR56 Theme:T31
+E6	Mutation:TR69 Theme:T31
+E7	Regulation:TR60 Theme:T31 Cause:T31
+E8	Regulation:TR60 Cause:T31 Theme:T33
+E9	Negative_regulation:TR58 Theme:E4
+E10	Positive_regulation:TR57 Theme:E9 Cause:E5
+E11	Development:TR45 Theme:T15
+E12	Negative_regulation:TR44 Theme:E11
+E13	Development:TR43 Theme:T11
+E14	Negative_regulation:TR46 Theme:T17 Cause:T16
+E15	Localization:TR72 Theme:T36
+E16	Development:TR63 Theme:T35
+E17	Regulation:TR73 Theme:T36
+E18	Cell_proliferation:TR64 Theme:T36
+E19	Negative_regulation:TR52 Theme:T28
+E20	Cell_proliferation:TR55 Theme:T30
+E21	Cell_proliferation:TR55 Theme:T29
+E22	Regulation:TR37 Cause:T1 Theme:T3
+E23	Development:TR39 Theme:T4
+E24	Cell_transformation:TR40 Theme:T5
+E25	Positive_regulation:TR38 Cause:T1 Theme:E24
+E26	Positive_regulation:TR38 Cause:T1 Theme:E23

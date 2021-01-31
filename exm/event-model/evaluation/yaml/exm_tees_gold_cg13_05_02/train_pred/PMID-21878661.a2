@@ -1,0 +1,101 @@
+TR94	Cell_death 1622 1631	apoptotic
+TR95	Positive_regulation 1632 1638	effect
+TR96	Negative_regulation 1651 1661	inhibition
+TR97	Negative_regulation 1698 1707	reduction
+TR98	Positive_regulation 1766 1773	lead to
+TR99	Negative_regulation 1774 1784	inhibition
+TR100	Cell_death 1796 1805	apoptotic
+TR101	Positive_regulation 1825 1835	activation
+TR102	Cell_death 1846 1855	apoptotic
+TR105	Regulation 1632 1638	effect
+TR106	Positive_regulation 1766 1770	lead
+TR52	Positive_regulation 10 17	induces
+TR53	Cell_death 18 27	apoptosis
+TR54	Negative_regulation 63 73	inhibiting
+TR55	Pathway 95 103	pathways
+TR56	Regulation 112 122	modulation
+TR61	Blood_vessel_development 508 518	angiogenic
+TR62	Negative_regulation 519 528	mechanism
+TR63	Regulation 561 567	target
+TR88	Negative_regulation 1395 1404	silencing
+TR89	Positive_regulation 1413 1420	induced
+TR90	Cell_death 1421 1430	apoptosis
+TR91	Negative_regulation 1448 1456	decrease
+TR92	Phosphorylation 1464 1479	phosphorylation
+TR93	Planned_process 1538 1547	treatment
+TR57	Blood_vessel_development 221 231	angiogenic
+TR58	Negative_regulation 246 254	activity
+TR59	Regulation 267 274	targets
+TR60	Planned_process 400 409	treatment
+TR76	Cell_death 960 969	apoptotic
+TR77	Negative_regulation 1013 1022	inhibited
+TR78	Phosphorylation 1023 1038	phosphorylation
+TR79	Negative_regulation 1077 1086	reduction
+TR80	Regulation 1118 1124	target
+TR68	Positive_regulation 746 753	induced
+TR69	Negative_regulation 756 765	reduction
+TR70	Gene_expression 773 783	expression
+TR71	Cell_death 795 804	apoptotic
+TR72	Dephosphorylation 831 848	dephosphorylation
+TR73	Cell_death 859 868	apoptotic
+TR74	Positive_regulation 889 899	results in
+TR75	Positive_regulation 904 914	activation
+TR103	Positive_regulation 889 896	results
+TR64	Positive_regulation 600 607	induced
+TR65	Cell_death 608 617	apoptosis
+TR66	Positive_regulation 642 651	dependent
+TR67	Positive_regulation 661 670	dependent
+TR81	Planned_process 1134 1143	Knockdown
+TR82	Negative_regulation 1155 1165	attenuated
+TR83	Positive_regulation 1197 1206	including
+TR84	Cell_death 1207 1216	apoptosis
+TR85	Negative_regulation 1221 1231	inhibition
+TR86	Phosphorylation 1266 1281	phosphorylation
+TR87	Regulation 1361 1369	mediated
+TR104	Positive_regulation 1180 1187	induced
+E1	Cell_death:TR102 
+E2	Negative_regulation:TR96 Cause:T40 Theme:T41
+E3	Cell_death:TR100 
+E4	Negative_regulation:TR99 Theme:T45
+E5	Positive_regulation:TR101 Theme:T46
+E6	Cell_death:TR94 
+E7	Positive_regulation:TR95 Theme:E6 Cause:E2
+E8	Regulation:TR105 Theme:E6 Cause:T40
+E9	Regulation:TR105 Theme:E6 Cause:E2
+E10	Cell_death:TR53 Theme:T2
+E11	Regulation:TR56 Cause:T1 Theme:T7
+E12	Regulation:TR56 Cause:T1 Theme:T8
+E13	Regulation:TR63 Theme:T17 Cause:T16
+E14	Blood_vessel_development:TR61 
+E15	Negative_regulation:TR62 Theme:E14 Cause:T16
+E16	Phosphorylation:TR92 Theme:T37
+E17	Phosphorylation:TR92 Theme:T38
+E18	Cell_death:TR90 
+E19	Negative_regulation:TR88 Theme:T36
+E20	Positive_regulation:TR89 Theme:E18 Cause:E19
+E21	Regulation:TR59 Theme:T12 Cause:T9
+E22	Regulation:TR59 Cause:T9 Theme:T13
+E23	Blood_vessel_development:TR57 
+E24	Negative_regulation:TR58 Theme:E23 Cause:T9
+E25	Negative_regulation:TR58 Cause:T9 Theme:T11
+E26	Planned_process:TR60 Theme:T15 Instrument:T14
+E27	Negative_regulation:TR79 Theme:T28
+E28	Cell_death:TR76 
+E29	Phosphorylation:TR78 Theme:T26
+E30	Phosphorylation:TR78 Theme:T27
+E31	Negative_regulation:TR77 Theme:E29 Cause:T25
+E32	Negative_regulation:TR77 Theme:E30 Cause:T25
+E33	Cell_death:TR73 
+E34	Gene_expression:TR70 Theme:T21
+E35	Cell_death:TR71 
+E36	Dephosphorylation:TR72 Theme:T22
+E37	Positive_regulation:TR75 Theme:T23
+E38	Positive_regulation:TR103 Theme:E37
+E39	Negative_regulation:TR69 Theme:E34
+E40	Cell_death:TR65 Theme:T19
+E41	Positive_regulation:TR64 Cause:T18 Theme:E40
+E42	Positive_regulation:TR67 Theme:E41
+E43	Positive_regulation:TR66 Theme:E41
+E44	Planned_process:TR81 Theme:T30
+E45	Cell_death:TR84 
+E46	Positive_regulation:TR83 Theme:E45

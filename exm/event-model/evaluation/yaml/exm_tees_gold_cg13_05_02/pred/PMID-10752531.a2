@@ -1,0 +1,53 @@
+T48	Positive_regulation 921 930	increased
+T49	Positive_regulation 1080 1089	Increased
+T50	Regulation 1106 1114	mediated
+T51	Positive_regulation 1182 1194	upregulation
+T57	Blood_vessel_development 1749 1761	angiogenesis
+T58	Positive_regulation 1766 1775	increased
+T59	Positive_regulation 1809 1817	enhanced
+T60	Positive_regulation 1851 1863	upregulation
+T44	Gene_expression 455 465	expression
+T45	Regulation 512 523	play a role
+T46	Positive_regulation 552 560	enhanced
+T47	Synthesis 567 577	production
+T64	Regulation 519 523	role
+T65	Gene_expression 567 577	production
+T52	Positive_regulation 1241 1250	increased
+T53	Positive_regulation 1291 1299	enhanced
+T54	Positive_regulation 1349 1357	increase
+T63	Regulation 200 211	alterations
+T43	Positive_regulation 297 306	increased
+T40	Development 9 22	proliferation
+T41	Positive_regulation 27 35	enhanced
+T42	Gene_expression 36 46	expression
+T62	Growth 9 22	proliferation
+T55	Positive_regulation 1476 1488	upregulation
+T61	Localization 2024 2034	liberation
+T56	Localization 1641 1652	colocalized
+E1	Positive_regulation:T48 Theme:T17
+E2	Regulation:T50 Theme:T21 Cause:T22
+E3	Positive_regulation:T51 Theme:T21
+E4	Positive_regulation:T51 Theme:T23
+E5	Positive_regulation:T49 Theme:T21
+E6	Positive_regulation:T59 Theme:T37
+E7	Blood_vessel_development:T57 
+E8	Positive_regulation:T60 Theme:T38
+E9	Positive_regulation:T60 Theme:T36
+E10	Positive_regulation:T58 Theme:T36
+E11	Gene_expression:T44 Theme:T9 Theme:T10
+E12	Gene_expression:T44 Theme:T9
+E13	Gene_expression:T44 Theme:T10
+E14	Synthesis:T47 Theme:T11
+E15	Positive_regulation:T46 Theme:E14
+E16	Positive_regulation:T52 Theme:T24
+E17	Positive_regulation:T53 Theme:T25
+E18	Regulation:T63 Theme:T7
+E19	Positive_regulation:T43 Theme:T8
+E20	Gene_expression:T42 Theme:T2
+E21	Growth:T62 Theme:T1
+E22	Development:T40 Theme:T1
+E23	Positive_regulation:T41 Theme:E20
+E24	Positive_regulation:T55 Theme:T30
+E25	Positive_regulation:T55 Theme:T29
+E26	Localization:T61 Theme:T39
+E27	Localization:T56 Theme:T34 Theme:T35

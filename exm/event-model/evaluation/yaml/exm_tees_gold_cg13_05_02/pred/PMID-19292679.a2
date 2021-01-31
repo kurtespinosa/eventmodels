@@ -1,0 +1,26 @@
+T39	Synthesis 1441 1450	formation
+T51	Metabolism 1441 1450	formation
+T48	Planned_process 565 573	cultured
+T37	Regulation 4 10	effect
+T38	Regulation 108 114	effect
+T40	Planned_process 1568 1576	cultured
+T41	Positive_regulation 1686 1695	increases
+T42	Negative_regulation 1760 1766	impair
+T43	Blood_vessel_development 1767 1779	angiogenesis
+T44	Negative_regulation 1794 1798	slow
+T45	Development 1816 1825	formation
+T52	Positive_regulation 1719 1727	improves
+T53	Metabolism 1739 1749	metabolism
+T49	Positive_regulation 807 816	increased
+T50	Negative_regulation 1001 1010	decreased
+E1	Metabolism:T51 Theme:T30
+E2	Synthesis:T39 Theme:T30
+E3	Regulation:T38 Theme:T8 Cause:T6
+E4	Regulation:T38 Theme:T7 Cause:T6
+E5	Planned_process:T40 Theme:T31
+E6	Development:T45 Theme:T36
+E7	Positive_regulation:T41 Theme:T34 Cause:T33
+E8	Blood_vessel_development:T43 
+E9	Positive_regulation:T52 Cause:T33 Theme:T36
+E10	Negative_regulation:T44 Cause:T33 Theme:E6
+E11	Negative_regulation:T42 Cause:T33 Theme:E8

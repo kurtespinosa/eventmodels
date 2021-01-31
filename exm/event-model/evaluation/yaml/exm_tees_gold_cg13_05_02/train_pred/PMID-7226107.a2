@@ -1,0 +1,22 @@
+TR32	Catabolism 822 830	turnover
+TR38	Metabolism 822 830	turnover
+TR39	Localization 922 931	recycling
+TR34	Regulation 311 318	effects
+TR35	Glycolysis 370 385	gluconeogenesis
+TR29	Positive_regulation 166 181	potential cause
+TR33	Positive_regulation 176 181	cause
+TR30	Negative_regulation 725 734	decreased
+TR31	Positive_regulation 757 766	increased
+TR36	Negative_regulation 675 685	inhibition
+TR37	Glycolysis 689 704	gluconeogenesis
+E1	Catabolism:TR32 Theme:T22
+E2	Metabolism:TR38 Theme:T22
+E3	Localization:TR39 Theme:T23
+E4	Glycolysis:TR35 
+E5	Regulation:TR34 Cause:T8 Theme:E4
+E6	Positive_regulation:TR33 Theme:T3
+E7	Positive_regulation:TR29 Theme:T3
+E8	Negative_regulation:TR30 Theme:T19
+E9	Glycolysis:TR37 
+E10	Positive_regulation:TR31 Theme:T21
+E11	Negative_regulation:TR36 Theme:E9

@@ -1,0 +1,65 @@
+TR54	Regulation 479 485	effect
+TR55	Negative_regulation 615 625	inhibition
+TR56	Metastasis 663 673	metastasis
+TR48	Metastasis 5 15	metastasis
+TR49	Negative_regulation 16 23	effects
+TR50	Regulation 63 71	involves
+TR51	Negative_regulation 72 82	inhibition
+TR52	Negative_regulation 109 123	downregulation
+TR63	Metastasis 1083 1093	metastasis
+TR64	Remodeling 1115 1129	reorganization
+TR65	Pathway 1137 1144	pathway
+TR66	Negative_regulation 1214 1223	inhibited
+TR67	Planned_process 1342 1351	treatment
+TR57	Positive_regulation 705 712	induced
+TR62	Negative_regulation 1019 1029	inhibition
+TR68	Negative_regulation 1423 1433	prevention
+TR69	Metastasis 1466 1476	metastasis
+TR58	Negative_regulation 836 843	effects
+TR59	Localization 856 865	migration
+TR60	Gene_expression 871 881	expression
+TR61	Negative_regulation 910 919	inhibited
+E1	Metastasis:TR56 Theme:T19
+E2	Negative_regulation:TR55 Theme:E1
+E3	Negative_regulation:TR51 Theme:T3
+E4	Negative_regulation:TR52 Theme:T4
+E5	Negative_regulation:TR52 Theme:T5
+E6	Metastasis:TR48 
+E7	Negative_regulation:TR49 Cause:T1 Theme:E6
+E8	Regulation:TR50 Theme:E4 Cause:E7
+E9	Regulation:TR50 Theme:E5 Cause:E7
+E10	Regulation:TR50 Theme:E3 Cause:E7
+E11	Negative_regulation:TR66 Theme:T39 Cause:T42
+E12	Negative_regulation:TR66 Theme:T39
+E13	Negative_regulation:TR66 Cause:T42 Theme:T37
+E14	Negative_regulation:TR66 Cause:T42 Theme:T41
+E15	Negative_regulation:TR66 Cause:T42 Theme:T36
+E16	Negative_regulation:TR66 Cause:T42 Theme:T40
+E17	Negative_regulation:TR66 Cause:T42 Theme:T35
+E18	Negative_regulation:TR66 Cause:T42 Theme:T38
+E19	Negative_regulation:TR66 Theme:T37
+E20	Negative_regulation:TR66 Theme:T41
+E21	Negative_regulation:TR66 Theme:T36
+E22	Negative_regulation:TR66 Theme:T40
+E23	Negative_regulation:TR66 Theme:T35
+E24	Negative_regulation:TR66 Theme:T38
+E25	Metastasis:TR63 
+E26	Pathway:TR65 Participant:T35 Participant2:T37 Participant3:T39 Participant4:T40
+E27	Pathway:TR65 Participant:T35 Participant2:T36 Participant3:T37 Participant4:T40
+E28	Pathway:TR65 Participant:T35 Participant2:T36 Participant3:T39 Participant4:T40
+E29	Pathway:TR65 Participant:T36 Participant2:T37 Participant3:T39 Participant4:T40
+E30	Pathway:TR65 Participant:T35 Participant2:T36 Participant3:T37 Participant4:T39
+E31	Remodeling:TR64 Theme:T34
+E32	Planned_process:TR67 Instrument:T45
+E33	Positive_regulation:TR57 Theme:T22 Cause:T20
+E34	Negative_regulation:TR62 Theme:T33
+E35	Metastasis:TR69 Theme:T47
+E36	Negative_regulation:TR68 Theme:E35 Cause:T46
+E37	Localization:TR59 Theme:T25
+E38	Negative_regulation:TR58 Theme:E37 Cause:T24
+E39	Gene_expression:TR60 Theme:T26 Theme:T27
+E40	Gene_expression:TR60 Theme:T26
+E41	Gene_expression:TR60 Theme:T27
+E42	Negative_regulation:TR61 Theme:E39 Cause:T29
+E43	Negative_regulation:TR61 Theme:E40 Cause:T29
+E44	Negative_regulation:TR61 Theme:E41 Cause:T29

@@ -1,0 +1,21 @@
+T26	Metastasis 27 37	metastatic
+T27	Cell_transformation 59 70	transformed
+T28	Positive_regulation 59 70	transformed
+T29	Localization 279 287	detected
+T30	Gene_expression 341 351	expression
+T31	Cell_transformation 400 411	transformed
+T32	Positive_regulation 400 411	transformed
+T33	Cell_transformation 425 436	Transformed
+T34	Cell_transformation 514 525	transformed
+T35	Planned_process 537 543	cloned
+T36	Carcinogenesis 558 569	tumorigenic
+T37	Gene_expression 620 630	expression
+T38	Gene_expression 704 714	expression
+T39	Metastasis 764 774	metastasis
+T40	Gene_expression 800 810	expression
+T41	Planned_process 877 885	injected
+T42	Metastasis 1012 1022	metastasis
+T43	Regulation 1147 1156	affecting
+T44	Metastasis 1167 1177	metastatic
+E9	Cell_transformation:T34 Theme:T14
+E10	Planned_process:T35 Theme:T14

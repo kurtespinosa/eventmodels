@@ -1,0 +1,51 @@
+TR48	Regulation 179 183	role
+TR49	Blood_vessel_development 187 199	angiogenesis
+TR72	Positive_regulation 1682 1693	exploration
+TR73	Blood_vessel_development 1697 1709	angiogenesis
+TR50	Planned_process 259 266	surgery
+TR51	Planned_process 272 278	placed
+TR52	Planned_process 298 306	embedded
+TR53	Planned_process 335 343	overlaid
+TR54	Planned_process 354 361	culture
+TR63	Blood_vessel_development 1085 1097	angiogenesis
+TR75	Development 1455 1462	derived
+TR69	Blood_vessel_development 1348 1360	angiogenesis
+TR59	Negative_regulation 883 892	inhibited
+TR60	Blood_vessel_development 893 905	angiogenesis
+TR61	Negative_regulation 973 982	inhibited
+TR62	Blood_vessel_development 983 995	angiogenesis
+TR45	Blood_vessel_development 20 32	angiogenesis
+TR46	Negative_regulation 66 76	Inhibition
+TR47	Blood_vessel_development 80 92	angiogenesis
+TR71	Blood_vessel_development 1592 1602	angiogenic
+TR70	Blood_vessel_development 1530 1540	angiogenic
+TR56	Positive_regulation 688 697	initiated
+TR57	Growth 698 704	growth
+TR58	Growth 709 718	elongated
+TR55	Blood_vessel_development 637 649	angiogenesis
+TR74	Regulation 484 490	effect
+E1	Blood_vessel_development:TR49 
+E2	Regulation:TR48 Theme:E1
+E3	Blood_vessel_development:TR73 AtLoc:T44
+E4	Positive_regulation:TR72 Theme:E3
+E5	Planned_process:TR53 Theme:T7 Instrument:T13
+E6	Planned_process:TR54 Theme:T11
+E7	Blood_vessel_development:TR63 
+E8	Development:TR75 Theme:T39
+E9	Blood_vessel_development:TR69 
+E10	Blood_vessel_development:TR62 
+E11	Negative_regulation:TR61 Cause:T26 Theme:E10
+E12	Negative_regulation:TR61 Theme:E10 Cause:T25
+E13	Blood_vessel_development:TR60 
+E14	Negative_regulation:TR59 Cause:T24 Theme:E13
+E15	Blood_vessel_development:TR45 AtLoc:T2
+E16	Blood_vessel_development:TR47 
+E17	Blood_vessel_development:TR71 AtLoc:T42
+E18	Blood_vessel_development:TR71 AtLoc:T43
+E19	Blood_vessel_development:TR71 
+E20	Blood_vessel_development:TR70 
+E21	Growth:TR57 Theme:T21
+E22	Growth:TR58 Theme:T21
+E23	Positive_regulation:TR56 Theme:E21
+E24	Positive_regulation:TR56 Theme:T21
+E25	Blood_vessel_development:TR55 Theme:T20

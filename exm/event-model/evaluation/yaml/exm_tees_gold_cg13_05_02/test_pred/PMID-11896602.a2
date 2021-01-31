@@ -1,0 +1,55 @@
+TR68	Binding 1303 1311	interact
+TR69	Planned_process 1325 1333	targeted
+TR70	Catabolism 1338 1349	degradation
+TR71	Regulation 1399 1407	regulate
+TR72	Negative_regulation 1465 1473	suppress
+TR73	Positive_regulation 1507 1516	activated
+TR55	Gene_expression 737 747	expression
+TR56	Ubiquitination 810 824	ubiquitination
+TR57	Catabolism 829 840	degradation
+TR43	Pathway 279 287	pathways
+TR58	Negative_regulation 891 901	inhibition
+TR59	Negative_regulation 920 928	prevents
+TR60	Catabolism 933 944	degradation
+TR61	Positive_regulation 972 980	increase
+TR40	Negative_regulation 22 32	suppresses
+TR41	Regulation 61 69	mediated
+TR42	Cell_transformation 79 93	transformation
+TR44	Regulation 328 336	regulate
+TR45	Planned_process 400 409	targeting
+TR46	Catabolism 417 428	degradation
+TR47	Positive_regulation 434 442	mediated
+TR48	Cell_transformation 452 466	transformation
+TR49	Negative_regulation 492 500	reverted
+TR50	Gene_expression 512 522	expression
+TR51	Negative_regulation 600 611	suppression
+TR52	Cell_proliferation 637 643	growth
+TR53	Negative_regulation 660 669	reduction
+TR54	Phosphorylation 692 707	phosphorylation
+TR62	Positive_regulation 1029 1038	Activated
+TR63	Localization 1073 1080	present
+TR64	Binding 1166 1177	interaction
+TR65	Positive_regulation 1181 1189	required
+TR66	Ubiquitination 1205 1219	ubiquitination
+TR67	Catabolism 1224 1235	degradation
+E1	Binding:TR68 Theme:T35
+E2	Regulation:TR71 Theme:T37
+E3	Catabolism:TR57 Theme:T27
+E4	Ubiquitination:TR56 Theme:T27
+E5	Gene_expression:TR55 Theme:T25
+E6	Catabolism:TR60 Theme:T28
+E7	Cell_transformation:TR42 Theme:T4
+E8	Regulation:TR41 Theme:E7
+E9	Negative_regulation:TR40 Cause:T1 Theme:E7
+E10	Catabolism:TR46 Theme:T15
+E11	Catabolism:TR46 Theme:T14
+E12	Gene_expression:TR50 Theme:T21
+E13	Cell_proliferation:TR52 Theme:T22
+E14	Cell_transformation:TR48 Theme:T19
+E15	Negative_regulation:TR51 Theme:E13
+E16	Positive_regulation:TR47 Cause:T16 Theme:E14
+E17	Positive_regulation:TR47 Theme:E14
+E18	Ubiquitination:TR66 Theme:T31
+E19	Ubiquitination:TR66 Theme:T33
+E20	Positive_regulation:TR62 Theme:T31
+E21	Positive_regulation:TR62 Theme:T33

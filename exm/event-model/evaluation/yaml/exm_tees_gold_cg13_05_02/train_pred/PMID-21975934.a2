@@ -1,0 +1,71 @@
+TR72	Regulation 41 46	alter
+TR64	Gene_expression 1116 1126	expression
+TR65	Cell_transformation 1317 1341	malignant transformation
+TR79	Negative_regulation 1170 1179	abrogated
+TR80	Positive_regulation 1190 1198	mediated
+TR81	Negative_regulation 1199 1205	arrest
+TR82	Positive_regulation 1246 1253	promote
+TR83	Cell_transformation 1327 1341	transformation
+TR57	Cell_transformation 817 831	transformation
+TR58	Pathway 851 860	signaling
+TR59	Negative_regulation 861 871	suppressed
+TR60	Gene_expression 878 888	expression
+TR75	Regulation 916 927	independent
+TR76	Positive_regulation 947 955	required
+TR61	Negative_regulation 972 982	Inhibition
+TR62	Positive_regulation 992 1002	activation
+TR63	Gene_expression 1006 1016	expressing
+TR77	Negative_regulation 1068 1077	prevented
+TR78	Positive_regulation 1086 1094	mediated
+TR66	Cell_transformation 1355 1369	transformation
+TR67	Positive_regulation 1355 1369	transformation
+TR68	Positive_regulation 1387 1395	required
+TR69	Pathway 1409 1418	signaling
+TR43	Positive_regulation 292 299	promote
+TR44	Cell_proliferation 300 306	growth
+TR45	Localization 308 316	invasion
+TR46	Metastasis 322 332	metastasis
+TR47	Development 417 427	developing
+TR74	Blood_vessel_development 434 450	microenvironment
+TR70	Negative_regulation 1687 1698	suppressive
+TR71	Positive_regulation 1708 1717	promoting
+TR48	Regulation 512 523	responsible
+TR49	Positive_regulation 534 544	activation
+TR50	Regulation 555 565	implicated
+TR51	Development 576 587	development
+TR52	Development 589 600	progression
+TR53	Localization 602 610	invasion
+TR54	Metastasis 616 626	metastasis
+TR55	Negative_regulation 656 664	suppress
+TR56	Cell_proliferation 669 675	growth
+TR73	Regulation 140 144	role
+E1	Regulation:TR72 Theme:T4 Cause:T1
+E2	Cell_transformation:TR83 
+E3	Cell_transformation:TR65 
+E4	Gene_expression:TR64 Theme:T29
+E5	Positive_regulation:TR82 Cause:T31 Theme:E2
+E6	Cell_transformation:TR57 Theme:T19
+E7	Cell_transformation:TR57 Theme:T18
+E8	Gene_expression:TR60 Theme:T21
+E9	Positive_regulation:TR76 Theme:T24
+E10	Cell_proliferation:TR44 Theme:T6
+E11	Development:TR47 Theme:T6
+E12	Development:TR47 Theme:T8
+E13	Metastasis:TR46 Theme:T6
+E14	Blood_vessel_development:TR74 AtLoc:T8
+E15	Localization:TR45 Theme:T6
+E16	Positive_regulation:TR43 Theme:E13
+E17	Positive_regulation:TR43 Theme:E15
+E18	Positive_regulation:TR43 Theme:E10
+E19	Positive_regulation:TR71 Theme:T42
+E20	Negative_regulation:TR70 Theme:T41
+E21	Development:TR52 Theme:T13
+E22	Positive_regulation:TR49 Theme:T12
+E23	Metastasis:TR54 Theme:T13
+E24	Development:TR51 Theme:T13
+E25	Regulation:TR48 Cause:T10 Theme:E22
+E26	Regulation:TR48 Theme:E22 Cause:T9
+E27	Cell_proliferation:TR56 Theme:T15
+E28	Cell_proliferation:TR56 Theme:T16
+E29	Negative_regulation:TR55 Theme:E27 Cause:T14
+E30	Negative_regulation:TR55 Theme:E28 Cause:T14

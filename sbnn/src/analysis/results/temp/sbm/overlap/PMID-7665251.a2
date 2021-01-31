@@ -1,0 +1,48 @@
+T37	Positive_regulation 11 22	progression
+T38	Gene_expression 69 83	overexpression
+T39	Positive_regulation 69 83	overexpression
+T40	Binding 133 144	interaction
+T41	Positive_regulation 223 233	initiation
+T42	Localization 244 252	invasion
+T43	Metastasis 257 267	metastasis
+T44	Binding 466 476	associated
+T45	Development 519 530	progression
+T46	Localization 585 594	abundance
+T47	Metastasis 787 797	metastases
+T48	Transcription 840 853	overexpressed
+T49	Positive_regulation 840 853	overexpressed
+T50	Metastasis 900 910	metastases
+T51	Localization 969 978	localized
+T52	Gene_expression 1035 1049	Overexpression
+T53	Positive_regulation 1035 1049	Overexpression
+T54	Positive_regulation 1077 1088	progression
+T55	Localization 1129 1137	invasion
+T56	Metastasis 1148 1158	metastasis
+E6	Localization:T42 Theme:T8
+E7	Metastasis:T43 Theme:T8
+E8	Binding:T44 Theme:T11 Theme2:T13
+E10	Localization:T46 Theme:T16 AtLoc:T19
+E11	Metastasis:T47 Theme:T21 ToLoc:T22
+E12	Transcription:T48 Theme:T23
+E15	Localization:T51 AtLoc:T29 Theme:T23
+E16	Gene_expression:T52 Theme:T30
+E17	Positive_regulation:T53 Theme:E16
+E18	Positive_regulation:T54 Theme:T32 Cause:E16
+E19	Localization:T55 Theme:T32
+E20	Metastasis:T56 Theme:T32 ToLoc:T33
+E26	Binding:T44 Theme:T12 Theme2:T13
+E27	Localization:T46 Theme:T17 AtLoc:T19
+E28	Localization:T46 Theme:T18 AtLoc:T19
+E29	Localization:T46 Theme:T16 AtLoc:T20
+E30	Localization:T46 Theme:T17 AtLoc:T20
+E31	Localization:T46 Theme:T18 AtLoc:T20
+E32	Localization:T46 Theme:T16 AtLoc:T21
+E33	Localization:T46 Theme:T17 AtLoc:T21
+E34	Localization:T46 Theme:T18 AtLoc:T21
+E35	Localization:T46 Theme:T16 AtLoc:T22
+E36	Localization:T46 Theme:T17 AtLoc:T22
+E37	Localization:T46 Theme:T18 AtLoc:T22
+E38	Transcription:T48 Theme:T24
+E39	Transcription:T48 Theme:T25
+E42	Localization:T51 AtLoc:T29 Theme:T24
+E43	Localization:T51 AtLoc:T29 Theme:T25

@@ -1,0 +1,17 @@
+TR38	Planned_process 589 598	resection
+TR41	Planned_process 994 1001	treated
+TR33	Planned_process 27 34	therapy
+TR34	Cell_proliferation 105 118	proliferation
+TR35	Growth 105 118	proliferation
+TR42	Planned_process 1450 1462	discontinued
+TR36	Planned_process 453 463	pretreated
+TR37	Planned_process 490 497	treated
+TR40	Planned_process 863 871	received
+TR39	Planned_process 790 797	started
+E1	Planned_process:TR41 Theme:T21
+E2	Planned_process:TR33 Instrument:T1 Theme:T3 Instrument:T2
+E3	Growth:TR35 Theme:T4
+E4	Cell_proliferation:TR34 Theme:T4
+E5	Planned_process:TR42 Instrument:T26 Theme:T27
+E6	Planned_process:TR36 Theme:T12
+E7	Planned_process:TR39 Instrument:T17 Theme:T16

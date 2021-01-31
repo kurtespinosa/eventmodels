@@ -1,0 +1,55 @@
+TR46	Negative_regulation 835 842	reduced
+TR47	Positive_regulation 852 859	induced
+TR48	Mutation 860 874	genetic damage
+TR59	Mutation 868 874	damage
+TR33	Positive_regulation 510 517	crucial
+TR34	Development 525 536	development
+TR35	Regulation 553 563	associated
+TR24	Mutation 75 94	Genetic instability
+TR55	Mutation 83 94	instability
+TR25	Development 161 172	development
+TR26	Mutation 211 220	mutations
+TR27	Regulation 235 243	regulate
+TR28	Death 249 254	death
+TR29	Cell_proliferation 259 272	proliferation
+TR30	Positive_regulation 287 295	promotes
+TR31	Cell_transformation 296 320	malignant transformation
+TR56	Positive_regulation 179 190	facilitates
+TR57	Cell_transformation 306 320	transformation
+TR53	Mutation 1049 1068	genetic instability
+TR54	Regulation 1069 1092	plays an important role
+TR62	Mutation 1057 1068	instability
+TR63	Regulation 1088 1092	role
+TR38	Planned_process 671 680	treatment
+TR39	Planned_process 684 692	cultured
+TR40	Positive_regulation 699 707	resulted
+TR41	Positive_regulation 711 720	increased
+TR42	Mutation 726 735	mutations
+TR43	Mutation 737 755	gene amplification
+TR44	Development 769 778	formation
+TR45	Mutation 795 806	instability
+TR58	Mutation 742 755	amplification
+TR49	Planned_process 898 907	treatment
+TR50	Positive_regulation 921 930	increased
+TR51	Cell_transformation 931 955	malignant transformation
+TR52	Negative_regulation 1010 1020	suppressed
+TR60	Positive_regulation 914 917	led
+TR61	Cell_transformation 941 955	transformation
+TR32	Development 392 403	development
+TR36	Positive_regulation 605 610	cause
+TR37	Breakdown 615 622	damages
+E1	Regulation:TR35 Theme:T10
+E2	Development:TR34 Theme:T10
+E3	Positive_regulation:TR33 Theme:E2 Cause:T9
+E4	Development:TR25 Theme:T3
+E5	Cell_proliferation:TR29 Theme:T4
+E6	Regulation:TR27 Theme:E5
+E7	Positive_regulation:TR56 Theme:E6
+E8	Death:TR28 Theme:T4
+E9	Development:TR44 Theme:T17
+E10	Planned_process:TR39 Theme:T16
+E11	Cell_transformation:TR61 Theme:T22
+E12	Planned_process:TR49 Instrument:T20
+E13	Development:TR32 Theme:T6
+E14	Breakdown:TR37 Theme:T12
+E15	Positive_regulation:TR36 Cause:T11 Theme:E14

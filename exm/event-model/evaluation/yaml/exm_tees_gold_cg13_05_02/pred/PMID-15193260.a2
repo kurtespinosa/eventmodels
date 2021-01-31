@@ -1,0 +1,59 @@
+T34	Binding 215 226	interaction
+T35	Regulation 227 250	plays an essential role
+T36	Death 259 267	survival
+T37	Positive_regulation 275 282	depends
+T38	Phosphorylation 293 308	phosphorylation
+T39	Positive_regulation 293 308	phosphorylation
+T55	Regulation 246 250	role
+T43	Positive_regulation 445 460	Phosphorylation
+T44	Negative_regulation 477 485	prevents
+T45	Binding 494 505	interacting
+T46	Negative_regulation 515 527	inactivation
+T57	Phosphorylation 445 460	Phosphorylation
+T58	Cell_death 541 554	antiapoptotic
+T40	Binding 332 342	associates
+T41	Phosphorylation 415 429	phosphorylates
+T42	Positive_regulation 415 429	phosphorylates
+T56	Cell_death 380 392	proapoptotic
+T51	Regulation 746 756	regulation
+T52	Death 765 773	survival
+T53	Binding 797 808	interaction
+T54	Regulation 872 880	regulate
+T32	Binding 47 58	interacting
+T33	Positive_regulation 70 78	promotes
+T47	Gene_expression 564 578	Overexpression
+T48	Positive_regulation 564 578	Overexpression
+T49	Positive_regulation 616 624	promotes
+T59	Protein_domain_or_region 605 608	Ala
+T60	Mutation 609 615	mutant
+T61	Negative_regulation 635 645	properties
+T50	Positive_regulation 692 700	elevated
+E1	Death:T36 Theme:T10
+E2	Phosphorylation:T38 Theme:T12 Site:T13
+E3	Phosphorylation:T38 Theme:T12
+E4	Phosphorylation:T38 Site:T13 Theme:T11
+E5	Phosphorylation:T38 Theme:T11
+E6	Positive_regulation:T39 Cause:T11 Theme:E2
+E7	Positive_regulation:T39 Cause:T11 Theme:E3
+E8	Positive_regulation:T39 Cause:T11 Theme:E4
+E9	Positive_regulation:T39 Cause:T11 Theme:E5
+E10	Positive_regulation:T37 Cause:E2 Theme:E1
+E11	Positive_regulation:T37 Cause:E3 Theme:E1
+E12	Positive_regulation:T37 Cause:E4 Theme:E1
+E13	Positive_regulation:T37 Cause:E5 Theme:E1
+E14	Phosphorylation:T57 Theme:T17
+E15	Negative_regulation:T46 Theme:T19
+E16	Cell_death:T58 
+E17	Positive_regulation:T43 Theme:E14 Cause:T18
+E18	Cell_death:T56 
+E19	Phosphorylation:T41 Theme:T15
+E20	Phosphorylation:T41 Theme:T14
+E21	Phosphorylation:T41 Theme:T16
+E22	Positive_regulation:T42 Theme:E19 Cause:T14
+E23	Positive_regulation:T42 Theme:E20 Cause:T14
+E24	Positive_regulation:T42 Theme:E21 Cause:T14
+E25	Death:T52 Theme:T28
+E26	Regulation:T54 Theme:T31
+E27	Positive_regulation:T33 Cause:T1 Theme:T3
+E28	Negative_regulation:T61 Theme:T23
+E29	Positive_regulation:T50 Theme:T25

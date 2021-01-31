@@ -1,0 +1,74 @@
+TR53	Binding 377 385	interact
+TR54	Infection 437 446	infection
+TR55	Regulation 470 478	modulate
+TR72	Regulation 1146 1157	responsible
+TR73	Negative_regulation 1162 1171	elevating
+TR74	Positive_regulation 1162 1171	elevating
+TR75	Infection 1186 1194	infected
+TR76	Gene_expression 1208 1218	expression
+TR77	Positive_regulation 1267 1275	resulted
+TR78	Positive_regulation 1279 1288	elevation
+TR79	Planned_process 1306 1317	transfected
+TR46	Positive_regulation 22 30	elevates
+TR47	Infection 69 77	infected
+TR56	Positive_regulation 531 539	elevates
+TR57	Infection 594 602	infected
+TR65	Positive_regulation 867 876	induction
+TR66	Positive_regulation 880 888	elevated
+TR67	Pathway 962 967	cycle
+TR68	Infection 973 986	postinfection
+TR69	Infection 1023 1036	postinfection
+TR70	Gene_expression 1066 1075	synthesis
+TR71	Synthesis 1066 1075	synthesis
+TR58	Positive_regulation 620 629	induction
+TR59	Positive_regulation 633 641	elevated
+TR60	Positive_regulation 657 666	dependent
+TR61	Negative_regulation 709 718	prevented
+TR62	Positive_regulation 749 758	induction
+TR63	Positive_regulation 762 770	elevated
+TR64	Binding 829 841	interactions
+TR80	Positive_regulation 1365 1374	increased
+TR81	Positive_regulation 1386 1392	caused
+TR82	Infection 1404 1412	infected
+TR48	Positive_regulation 152 159	induces
+TR49	Cell_transformation 174 188	transformation
+TR50	Positive_regulation 211 221	stimulates
+TR51	Synthesis 247 256	synthesis
+TR52	Infection 260 268	infected
+E1	Regulation:TR55 Theme:T21
+E2	Infection:TR54 Participant:T19 Theme:T18
+E3	Infection:TR54 Participant:T19
+E4	Planned_process:TR79 Theme:T42
+E5	Infection:TR75 Theme:T36
+E6	Gene_expression:TR76 Theme:T39 Theme:T38
+E7	Gene_expression:TR76 Theme:T39
+E8	Gene_expression:TR76 Theme:T38
+E9	Positive_regulation:TR78 Theme:T40
+E10	Positive_regulation:TR77 Cause:E6 Theme:E9
+E11	Positive_regulation:TR77 Cause:E7 Theme:E9
+E12	Positive_regulation:TR77 Cause:E8 Theme:E9
+E13	Infection:TR47 Theme:T4
+E14	Positive_regulation:TR46 Theme:T3
+E15	Infection:TR57 Theme:T25
+E16	Positive_regulation:TR56 Theme:T24
+E17	Positive_regulation:TR66 Theme:T29
+E18	Synthesis:TR71 Theme:T32
+E19	Positive_regulation:TR65 Theme:T29
+E20	Positive_regulation:TR65 Theme:E17
+E21	Positive_regulation:TR59 Theme:T26
+E22	Positive_regulation:TR58 Theme:E21
+E23	Positive_regulation:TR58 Theme:T26
+E24	Positive_regulation:TR60 Theme:E22
+E25	Positive_regulation:TR60 Theme:E23
+E26	Negative_regulation:TR61 Theme:E22
+E27	Negative_regulation:TR61 Theme:E23
+E28	Positive_regulation:TR63 Theme:T27
+E29	Binding:TR64 Theme:T27
+E30	Positive_regulation:TR62 Theme:E28
+E31	Positive_regulation:TR62 Theme:T27
+E32	Positive_regulation:TR80 Theme:T43
+E33	Infection:TR82 Theme:T45
+E34	Infection:TR52 Theme:T11
+E35	Cell_transformation:TR49 Theme:T9
+E36	Positive_regulation:TR48 Theme:E35 Cause:T6
+E37	Positive_regulation:TR48 Theme:E35 Cause:T5

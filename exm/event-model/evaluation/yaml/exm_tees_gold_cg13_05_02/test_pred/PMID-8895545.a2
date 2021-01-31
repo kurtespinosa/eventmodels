@@ -1,0 +1,71 @@
+TR70	Planned_process 903 914	transfected
+TR71	Positive_regulation 956 960	over
+TR72	Gene_expression 961 971	expression
+TR73	Positive_regulation 977 984	results
+TR74	Positive_regulation 988 997	increased
+TR75	Localization 998 1006	motility
+TR76	Negative_regulation 1012 1022	disruption
+TR77	Binding 1036 1044	contacts
+TR78	Planned_process 1056 1065	culturing
+TR79	Planned_process 1100 1108	addition
+TR80	Regulation 1135 1142	effects
+TR81	Gene_expression 1150 1160	expression
+TR82	Localization 1179 1187	motility
+TR83	Planned_process 1214 1225	transfected
+TR84	Protein_domain_or_region 1285 1291	domain
+TR85	Mutation 1295 1302	deleted
+TR86	Negative_regulation 1342 1350	abrogate
+TR87	Binding 1377 1385	contacts
+TR88	Regulation 1399 1408	influence
+TR89	Regulation 1413 1420	effects
+TR53	Gene_expression 215 224	expressed
+TR54	Metastasis 283 293	metastasis
+TR60	Planned_process 595 607	Transfection
+TR61	Regulation 654 660	alters
+TR62	Binding 671 679	contacts
+TR63	Localization 693 701	motility
+TR55	Gene_expression 360 370	expression
+TR56	Regulation 404 415	involvement
+TR57	Localization 440 446	spread
+TR48	Metastasis 0 10	Metastasis
+TR49	Negative_regulation 34 42	disrupts
+TR50	Binding 53 61	contacts
+TR51	Positive_regulation 66 73	induces
+TR52	Localization 83 91	motility
+TR64	Planned_process 716 727	transfected
+TR65	Gene_expression 760 770	expression
+TR66	Negative_regulation 827 837	abrogation
+TR67	Binding 867 875	contacts
+TR68	Positive_regulation 880 889	increased
+TR69	Localization 890 898	motility
+E1	Planned_process:TR70 Theme:T30
+E2	Binding:TR77 Theme:T32 Theme2:T33
+E3	Binding:TR77 Theme:T33 Theme2:T32
+E4	Gene_expression:TR72 Theme:T31
+E5	Localization:TR75 Theme:T30
+E6	Planned_process:TR78 Theme:T34
+E7	Positive_regulation:TR71 Theme:E4
+E8	Positive_regulation:TR73 Cause:E4 Theme:E5
+E9	Positive_regulation:TR74 Theme:E5
+E10	Localization:TR82 Theme:T39
+E11	Gene_expression:TR81 Theme:T38
+E12	Mutation:TR85 Theme:T40
+E13	Planned_process:TR83 Instrument:T40 Theme:T39
+E14	Regulation:TR80 Cause:E11 Theme:E10
+E15	Metastasis:TR54 Theme:T10
+E16	Localization:TR63 Theme:T23
+E17	Planned_process:TR60 Instrument:T19 Theme:T20
+E18	Binding:TR62 Theme:T22 Theme2:T21
+E19	Binding:TR62 Theme:T21 Theme2:T22
+E20	Regulation:TR61 Theme:E16
+E21	Localization:TR57 Theme:T12
+E22	Regulation:TR56 Theme:E21
+E23	Binding:TR50 Theme:T2 Theme2:T3
+E24	Binding:TR50 Theme:T3 Theme2:T2
+E25	Localization:TR52 Theme:T4
+E26	Metastasis:TR48 
+E27	Positive_regulation:TR51 Theme:E25
+E28	Negative_regulation:TR49 Theme:E23
+E29	Negative_regulation:TR49 Theme:E24
+E30	Gene_expression:TR65 Theme:T26
+E31	Planned_process:TR64 Instrument:T24 Theme:T25

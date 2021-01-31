@@ -1,0 +1,55 @@
+T43	Planned_process 14 28	transformation
+T44	Gene_expression 83 97	overexpressing
+T45	Positive_regulation 83 97	overexpressing
+T47	Planned_process 280 292	transduction
+T48	Cell_transformation 344 362	altered morphology
+T49	Planned_process 429 440	transformed
+T74	Carcinogenesis 513 527	Carcinogenesis
+T52	DNA_methylation 795 806	methylation
+T53	Positive_regulation 818 825	induced
+T54	Cell_proliferation 826 832	growth
+T50	Gene_expression 604 618	overexpressing
+T51	Positive_regulation 604 618	overexpressing
+T75	Regulation 579 590	sensitivity
+T46	Planned_process 139 150	transformed
+T62	Regulation 1235 1246	co-operates
+T63	Gene_expression 1252 1265	overexpressed
+T64	Positive_regulation 1252 1265	overexpressed
+T65	Positive_regulation 1275 1283	inducing
+T66	Planned_process 1284 1298	transformation
+T67	Planned_process 1320 1334	transformation
+T68	Regulation 1338 1349	independent
+T69	Gene_expression 1359 1373	overexpression
+T70	Positive_regulation 1359 1373	overexpression
+T71	Regulation 1390 1401	alterations
+T72	Regulation 1409 1419	regulation
+T73	Cell_death 1423 1432	apoptosis
+T79	Cell_transformation 1284 1298	transformation
+T80	Cell_transformation 1320 1334	transformation
+T57	Planned_process 1027 1034	induced
+T58	Positive_regulation 1063 1070	induced
+T59	Death 1086 1091	death
+T60	Planned_process 1107 1114	induced
+T61	Cell_death 1155 1164	apoptosis
+T76	Positive_regulation 1027 1034	induced
+T77	Negative_regulation 1052 1056	lost
+T78	Positive_regulation 1107 1114	induced
+T55	Positive_regulation 934 941	induced
+T56	Cell_transformation 942 956	transformation
+E1	Gene_expression:T44 Theme:T4
+E2	Carcinogenesis:T74 
+E3	Cell_proliferation:T54 Theme:T24
+E4	Cell_proliferation:T54 Theme:T25
+E5	Gene_expression:T50 Theme:T16
+E6	Positive_regulation:T51 Theme:E5
+E7	Cell_death:T73 
+E8	Planned_process:T67 Instrument:T41
+E9	Cell_transformation:T80 
+E10	Cell_transformation:T79 
+E11	Regulation:T72 Theme:E7
+E12	Planned_process:T57 Instrument:T32 Theme:T31
+E13	Positive_regulation:T76 Theme:T31 Cause:T32
+E14	Cell_death:T61 Theme:T37
+E15	Cell_death:T61 Theme:T36
+E16	Cell_death:T61 
+E17	Positive_regulation:T78 Cause:T35 Theme:T36

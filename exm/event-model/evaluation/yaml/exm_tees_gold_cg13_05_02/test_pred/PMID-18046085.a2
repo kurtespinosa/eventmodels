@@ -1,0 +1,33 @@
+TR52	Regulation 1212 1220	affected
+TR53	Negative_regulation 1236 1251	down-regulation
+TR54	Positive_regulation 1305 1318	up-regulation
+TR36	Regulation 234 241	effects
+TR37	Negative_regulation 267 277	prevention
+TR38	Planned_process 377 384	Grafted
+TR39	Death 405 413	survival
+TR40	Planned_process 440 447	receive
+TR48	Negative_regulation 1031 1039	decrease
+TR49	Blood_vessel_development 1051 1069	neovascularization
+TR50	Planned_process 1088 1095	treated
+TR51	Planned_process 1123 1130	treated
+TR33	Regulation 0 7	Effects
+TR34	Death 47 55	survival
+TR44	Death 811 819	survival
+TR45	Planned_process 859 868	receiving
+TR46	Planned_process 927 934	treated
+TR47	Planned_process 970 979	untreated
+TR41	Planned_process 634 641	grafted
+TR42	Planned_process 647 654	treated
+TR43	Planned_process 703 713	sacrificed
+E1	Negative_regulation:TR53 Theme:T27
+E2	Positive_regulation:TR54 Theme:T30
+E3	Regulation:TR52 Cause:T26 Theme:E2
+E4	Regulation:TR52 Cause:T26 Theme:E1
+E5	Planned_process:TR50 Instrument:T23 Theme:T24
+E6	Planned_process:TR51 Instrument:T25
+E7	Blood_vessel_development:TR49 AtLoc:T22
+E8	Negative_regulation:TR48 Theme:E7
+E9	Planned_process:TR45 Instrument:T20
+E10	Planned_process:TR46 Instrument:T21
+E11	Planned_process:TR41 Theme:T16
+E12	Planned_process:TR43 Theme:T16

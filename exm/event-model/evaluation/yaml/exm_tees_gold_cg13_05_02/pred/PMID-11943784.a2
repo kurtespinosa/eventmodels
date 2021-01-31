@@ -1,0 +1,71 @@
+T36	Positive_regulation 557 568	stimulating
+T37	Positive_regulation 573 585	accumulation
+T32	Glycolysis 262 272	glycolysis
+T33	Synthesis 285 293	produced
+T34	Localization 322 330	presence
+T35	Cell_transformation 409 433	malignant transformation
+T54	Cell_transformation 419 433	transformation
+T31	Glycolysis 145 163	aerobic glycolysis
+T53	Glycolysis 153 163	glycolysis
+T38	Positive_regulation 685 697	accumulation
+T39	Positive_regulation 745 753	requires
+T40	Metabolism 758 768	metabolism
+T41	Negative_regulation 797 805	prevents
+T42	Catabolism 810 829	aerobic degradation
+T43	Positive_regulation 853 862	activates
+T44	Binding 873 880	binding
+T45	Positive_regulation 895 903	enhances
+T46	Gene_expression 908 918	expression
+T47	Positive_regulation 936 945	activated
+T55	Catabolism 818 829	degradation
+T48	Glycolysis 1170 1188	aerobic glycolysis
+T49	Positive_regulation 1193 1200	promote
+T50	Cell_transformation 1205 1229	malignant transformation
+T51	Death 1234 1242	survival
+T56	Glycolysis 1178 1188	glycolysis
+T57	Cell_transformation 1215 1229	transformation
+T28	Positive_regulation 27 37	activation
+T29	Glycolysis 41 59	aerobic glycolysis
+T30	Carcinogenesis 93 107	carcinogenesis
+T52	Glycolysis 49 59	glycolysis
+E1	Positive_regulation:T37 Theme:T11
+E2	Positive_regulation:T37 Theme:T10
+E3	Positive_regulation:T36 Cause:T8 Theme:E1
+E4	Positive_regulation:T36 Cause:T8 Theme:E2
+E5	Positive_regulation:T36 Cause:T9 Theme:E1
+E6	Positive_regulation:T36 Cause:T9 Theme:E2
+E7	Synthesis:T33 Theme:T4
+E8	Synthesis:T33 Theme:T3
+E9	Glycolysis:T32 
+E10	Localization:T34 Theme:T6
+E11	Cell_transformation:T35 AtLoc:T7
+E12	Glycolysis:T53 
+E13	Glycolysis:T31 
+E14	Positive_regulation:T47 Theme:T25 Cause:T21
+E15	Positive_regulation:T47 Theme:T25
+E16	Positive_regulation:T47 Theme:T23 Cause:T21
+E17	Positive_regulation:T47 Theme:T23
+E18	Positive_regulation:T47 Theme:T22 Cause:T21
+E19	Positive_regulation:T47 Theme:T22
+E20	Positive_regulation:T47 Theme:T24 Cause:T21
+E21	Positive_regulation:T47 Theme:T24
+E22	Catabolism:T55 Theme:T18
+E23	Catabolism:T42 Theme:T18
+E24	Positive_regulation:T38 Theme:T15
+E25	Metabolism:T40 Theme:T17
+E26	Metabolism:T40 Theme:T16
+E27	Negative_regulation:T41 Theme:E23 Cause:E25
+E28	Negative_regulation:T41 Theme:E23 Cause:E26
+E29	Negative_regulation:T41 Theme:E22 Cause:E25
+E30	Negative_regulation:T41 Theme:E22 Cause:E26
+E31	Positive_regulation:T39 Theme:E24 Cause:E25
+E32	Positive_regulation:T39 Theme:E24 Cause:E26
+E33	Cell_transformation:T57 Theme:T27
+E34	Glycolysis:T48 
+E35	Glycolysis:T56 
+E36	Death:T51 Theme:T27
+E37	Carcinogenesis:T30 
+E38	Glycolysis:T52 
+E39	Glycolysis:T29 
+E40	Positive_regulation:T28 Cause:E38 Theme:T1
+E41	Positive_regulation:T28 Theme:T1 Cause:E39

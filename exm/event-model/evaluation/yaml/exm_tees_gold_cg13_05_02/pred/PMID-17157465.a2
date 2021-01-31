@@ -1,0 +1,27 @@
+T30	Planned_process 67 76	treatment
+T37	Negative_regulation 52 62	prevention
+T36	Planned_process 1396 1405	treatment
+T38	Negative_regulation 1410 1420	prevention
+T31	Negative_regulation 1088 1098	activities
+T32	Negative_regulation 1110 1122	interference
+T33	Cell_proliferation 1139 1152	proliferation
+T34	Localization 1166 1174	invasion
+T35	Blood_vessel_development 1179 1191	angiogenesis
+E1	Negative_regulation:T37 Cause:T2 Theme:T3
+E2	Planned_process:T36 Instrument:T28 Theme:T29
+E3	Negative_regulation:T38 Theme:T29
+E4	Cell_proliferation:T33 Theme:T26
+E5	Blood_vessel_development:T35 
+E6	Localization:T34 Theme:T26
+E7	Negative_regulation:T31 Theme:T25 Cause:T23
+E8	Negative_regulation:T31 Theme:T25 Cause:T22
+E9	Negative_regulation:T31 Theme:T25 Cause:T24
+E10	Negative_regulation:T32 Cause:T23 Theme:E6
+E11	Negative_regulation:T32 Cause:T23 Theme:E4
+E12	Negative_regulation:T32 Cause:T23 Theme:E5
+E13	Negative_regulation:T32 Cause:T22 Theme:E6
+E14	Negative_regulation:T32 Cause:T22 Theme:E4
+E15	Negative_regulation:T32 Cause:T22 Theme:E5
+E16	Negative_regulation:T32 Cause:T24 Theme:E6
+E17	Negative_regulation:T32 Cause:T24 Theme:E4
+E18	Negative_regulation:T32 Cause:T24 Theme:E5

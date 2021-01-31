@@ -1,0 +1,36 @@
+TR67	Planned_process 997 1005	infusion
+TR68	Pathway 1087 1092	cycle
+TR58	Localization 464 471	present
+TR56	Development 333 339	formed
+TR57	Development 380 386	formed
+TR53	Cell_differentiation 152 166	differentiated
+TR54	Cell_proliferation 245 258	proliferating
+TR55	Planned_process 276 285	implanted
+TR69	Cell_differentiation 1187 1202	differentiation
+TR65	Planned_process 918 926	perfused
+TR66	Cell_death 972 980	necrotic
+TR59	Gene_expression 536 546	production
+TR60	Localization 585 591	uptake
+TR61	Gene_expression 631 641	production
+TR62	Glycolysis 676 686	glycolysis
+TR63	Localization 750 756	uptake
+TR64	Pathway 882 887	cycle
+TR50	Cell_differentiation 27 41	differentiated
+TR51	Planned_process 89 97	cultured
+TR52	Planned_process 118 127	implanted
+E1	Pathway:TR68 Participant:T43
+E2	Development:TR57 Theme:T17
+E3	Development:TR57 Theme:T18
+E4	Development:TR56 Theme:T15
+E5	Development:TR56 Theme:T16
+E6	Cell_differentiation:TR53 Theme:T9
+E7	Cell_differentiation:TR53 Theme:T7
+E8	Cell_proliferation:TR54 Theme:T12
+E9	Cell_differentiation:TR69 Theme:T48
+E10	Cell_death:TR66 
+E11	Localization:TR60 Theme:T26
+E12	Glycolysis:TR62 
+E13	Localization:TR63 Theme:T31 Theme:T30
+E14	Localization:TR63 Theme:T31
+E15	Pathway:TR64 Participant:T34 Participant2:T35
+E16	Planned_process:TR51 Theme:T4 Theme2:T3

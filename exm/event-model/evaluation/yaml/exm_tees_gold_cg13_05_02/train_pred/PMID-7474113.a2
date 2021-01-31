@@ -1,0 +1,65 @@
+TR38	Negative_regulation 4 14	inhibition
+TR39	Cell_differentiation 36 51	differentiation
+TR40	Gene_expression 113 123	expression
+TR41	Positive_regulation 131 144	up-regulation
+TR74	Planned_process 18 26	cultured
+TR75	Mutation 204 211	mutants
+TR44	Binding 395 402	binding
+TR45	Regulation 451 458	affects
+TR46	Binding 459 466	binding
+TR76	Protein_domain_or_region 429 432	end
+TR53	Positive_regulation 988 996	increase
+TR54	Positive_regulation 1070 1078	promoted
+TR55	Phosphorylation 1083 1098	phosphorylation
+TR56	Positive_regulation 1122 1129	induced
+TR78	Negative_regulation 966 975	depletion
+TR79	Positive_regulation 976 984	elicited
+TR42	Negative_regulation 301 311	interferes
+TR43	Cell_differentiation 321 336	differentiation
+TR47	Negative_regulation 669 678	inhibited
+TR48	Cell_differentiation 692 707	differentiation
+TR49	Negative_regulation 740 746	arrest
+TR50	Gene_expression 771 780	synthesis
+TR77	Mutation 640 649	wild-type
+TR69	Negative_regulation 1626 1633	inhibit
+TR70	Cell_differentiation 1634 1649	differentiation
+TR81	Gene_expression 1667 1677	expression
+TR71	Binding 1765 1772	binding
+TR72	Positive_regulation 1799 1806	promote
+TR73	Phosphorylation 1828 1843	phosphorylation
+TR82	Mutation 1778 1784	mutant
+TR57	Mutation 1134 1143	Mutations
+TR58	Regulation 1144 1153	affecting
+TR59	Localization 1162 1171	transport
+TR60	Positive_regulation 1186 1194	critical
+TR61	Negative_regulation 1214 1223	interfere
+TR62	Cell_differentiation 1238 1253	differentiation
+TR63	Regulation 1270 1279	affecting
+TR64	Cell_transformation 1284 1296	transforming
+TR65	Gene_expression 1325 1335	expression
+TR66	Cell_differentiation 1375 1390	differentiation
+TR67	Cell_proliferation 1429 1433	grow
+TR68	Negative_regulation 1488 1498	inhibiting
+TR80	Cell_transformation 1532 1544	transforming
+E1	Gene_expression:TR40 Theme:T4
+E2	Positive_regulation:TR41 Theme:T4
+E3	Positive_regulation:TR41 Theme:T5
+E4	Cell_differentiation:TR39 Theme:T1
+E5	Positive_regulation:TR53 Theme:T21
+E6	Phosphorylation:TR55 Theme:T24
+E7	Positive_regulation:TR56 Theme:E6
+E8	Positive_regulation:TR54 Cause:T23 Theme:E6
+E9	Cell_differentiation:TR43 Theme:T10
+E10	Gene_expression:TR50 Theme:T17
+E11	Mutation:TR77 Theme:T14
+E12	Cell_differentiation:TR70 
+E13	Negative_regulation:TR69 Theme:E12
+E14	Phosphorylation:TR73 Theme:T33
+E15	Mutation:TR82 Theme:T32
+E16	Positive_regulation:TR72 Theme:E14
+E17	Localization:TR59 ToLoc:T25 Theme:T27
+E18	Cell_proliferation:TR67 Theme:T28
+E19	Cell_transformation:TR80 Theme:T28
+E20	Negative_regulation:TR68 Theme:T28 Cause:T27
+E21	Cell_differentiation:TR62 Theme:T28
+E22	Negative_regulation:TR61 Theme:E21

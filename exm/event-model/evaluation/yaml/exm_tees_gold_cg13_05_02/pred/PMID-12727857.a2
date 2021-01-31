@@ -1,0 +1,65 @@
+T83	Binding 959 967	adhesion
+T84	Negative_regulation 984 994	diminished
+T80	Binding 669 681	interactions
+T81	Growth 732 739	growing
+T82	Growth 803 810	growing
+T73	Gene_expression 130 140	expression
+T74	Regulation 185 193	involved
+T75	Binding 219 231	interactions
+T100	Negative_regulation 235 245	suppressed
+T99	Localization 2280 2285	enter
+T86	Binding 1168 1176	adhesion
+T87	Negative_regulation 1234 1241	reduced
+T88	Planned_process 1428 1437	Treatment
+T89	Negative_regulation 1537 1546	prevented
+T90	Negative_regulation 1551 1566	down-regulation
+T91	Binding 1592 1604	interactions
+T92	Planned_process 1648 1658	nontreated
+T102	Binding 1267 1274	rolling
+T103	Binding 1301 1309	adhesion
+T104	Regulation 1319 1329	influenced
+T105	Localization 1337 1345	presence
+T106	Negative_regulation 1379 1393	down-regulated
+T76	Regulation 313 323	regulation
+T77	Binding 349 361	interactions
+T85	Negative_regulation 1068 1077	reduction
+T101	Positive_regulation 1095 1105	increasing
+T68	Blood_vessel_development 6 18	angiogenesis
+T69	Regulation 19 28	modulates
+T70	Binding 51 63	interactions
+T71	Negative_regulation 75 83	reducing
+T72	Gene_expression 114 124	expression
+T93	Positive_regulation 1679 1688	activated
+T94	Negative_regulation 1746 1756	suppressed
+T78	Positive_regulation 453 463	stimulated
+T79	Binding 486 498	interactions
+T95	Positive_regulation 1906 1913	induced
+T96	Positive_regulation 1914 1927	up-regulation
+T97	Negative_regulation 2007 2014	reduced
+T98	Planned_process 2032 2044	preincubated
+T107	Planned_process 1852 1860	cultured
+E1	Binding:T83 Theme:T34
+E2	Negative_regulation:T84 Theme:T34
+E3	Negative_regulation:T84 Theme:E1
+E4	Growth:T82 Theme:T28
+E5	Growth:T82 Theme:T24
+E6	Growth:T81 Theme:T22
+E7	Growth:T81 Theme:T24
+E8	Growth:T81 Theme:T23
+E9	Gene_expression:T73 Theme:T5
+E10	Negative_regulation:T100 Theme:E9
+E11	Localization:T99 Theme:T66 ToLoc:T67
+E12	Localization:T99 Theme:T66
+E13	Binding:T86 Theme:T39
+E14	Negative_regulation:T87 Theme:E13
+E15	Planned_process:T92 Theme:T47
+E16	Planned_process:T88 Theme:T47 Instrument:T49
+E17	Binding:T102 Theme:T43
+E18	Negative_regulation:T106 Theme:E17
+E19	Positive_regulation:T101 Theme:T38
+E20	Gene_expression:T72 Theme:T4
+E21	Blood_vessel_development:T68 AtLoc:T1
+E22	Negative_regulation:T71 Cause:E21 Theme:E20
+E23	Negative_regulation:T94 Cause:T54 Theme:T55
+E24	Positive_regulation:T93 Theme:T53
+E25	Planned_process:T107 Theme:T59

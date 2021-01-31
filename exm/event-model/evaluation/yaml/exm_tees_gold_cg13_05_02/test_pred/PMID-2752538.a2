@@ -1,0 +1,20 @@
+TR28	Metabolism 607 618	consumption
+TR29	Localization 626 634	presence
+TR27	Metabolism 571 579	consumed
+TR23	Metabolism 146 156	metabolism
+TR24	Planned_process 168 177	harvested
+TR21	Glycolysis 0 10	Glycolysis
+TR22	Glycolysis 15 29	glutaminolysis
+TR25	Planned_process 246 255	perifused
+TR26	Localization 263 271	presence
+E1	Metabolism:TR28 Theme:T18
+E2	Localization:TR29 Theme:T19
+E3	Metabolism:TR27 Theme:T17
+E4	Metabolism:TR27 Theme:T15
+E5	Metabolism:TR27 Theme:T16
+E6	Metabolism:TR23 Theme:T2
+E7	Metabolism:TR23 Theme:T3
+E8	Planned_process:TR24 Theme:T4
+E9	Glycolysis:TR21 
+E10	Glycolysis:TR22 
+E11	Planned_process:TR25 Theme:T5

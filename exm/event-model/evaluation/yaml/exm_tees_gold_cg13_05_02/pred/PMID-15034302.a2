@@ -1,0 +1,29 @@
+T36	Positive_regulation 1016 1025	promoting
+T37	Metastasis 1030 1040	metastasis
+T27	Growth 388 394	growth
+T28	Negative_regulation 452 464	inactivating
+T29	Mutation 465 474	mutations
+T30	Pathway 495 512	signaling pathway
+T31	Pathway 554 563	signaling
+T41	Negative_regulation 395 404	inhibitor
+T42	Pathway 505 512	pathway
+T38	Regulation 1264 1269	alter
+T39	Pathway 1300 1307	pathway
+T43	Pathway 1235 1243	pathways
+T40	Cell_transformation 55 67	transforming
+T32	Gene_expression 652 663	overexpress
+T33	Positive_regulation 728 737	increased
+T34	Metastasis 751 761	metastasis
+T35	Regulation 925 929	role
+E1	Positive_regulation:T36 Cause:T22 Theme:T23
+E2	Metastasis:T37 
+E3	Growth:T27 Theme:T9
+E4	Pathway:T42 Participant:T10
+E5	Mutation:T29 Theme:T10
+E6	Pathway:T39 Participant:T26
+E7	Regulation:T38 Theme:E6
+E8	Cell_transformation:T40 
+E9	Gene_expression:T32 Theme:T17
+E10	Metastasis:T34 
+E11	Positive_regulation:T33 Theme:E10 Cause:E9
+E12	Regulation:T35 Theme:T21 Cause:T20

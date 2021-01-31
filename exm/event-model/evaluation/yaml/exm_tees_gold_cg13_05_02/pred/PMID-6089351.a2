@@ -1,0 +1,8 @@
+T27	Regulation 489 500	responsible
+T28	Cell_transformation 509 521	transforming
+T23	Cell_transformation 31 43	transforming
+T24	Cell_transformation 184 196	transforming
+T25	Cell_transformation 245 254	transform
+T26	Regulation 297 308	association
+T29	Binding 297 308	association
+E1	Cell_transformation:T25 Theme:T7

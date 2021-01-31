@@ -1,0 +1,58 @@
+TR40	Planned_process 315 327	unchallenged
+TR41	Positive_regulation 366 373	induced
+TR42	Development 391 404	morphogenesis
+TR36	Blood_vessel_development 74 86	angiogenesis
+TR61	Regulation 6 10	role
+TR54	Negative_regulation 1076 1086	interfered
+TR55	Blood_vessel_development 1092 1104	angiogenesis
+TR56	Negative_regulation 1127 1137	inhibiting
+TR57	Development 1138 1147	sprouting
+TR59	Regulation 1619 1631	central role
+TR60	Blood_vessel_development 1691 1703	angiogenesis
+TR72	Regulation 1627 1631	role
+TR39	Blood_vessel_development 298 310	angiogenesis
+TR63	Protein_domain_or_region 279 285	domain
+TR37	Regulation 122 138	plays a key role
+TR38	Blood_vessel_development 142 154	angiogenesis
+TR62	Regulation 134 138	role
+TR71	Localization 1507 1514	absence
+TR48	Positive_regulation 708 714	caused
+TR49	Death 735 756	cytoskeletal collapse
+TR50	Negative_regulation 789 796	delayed
+TR66	Remodeling 735 747	cytoskeletal
+TR67	Death 748 756	collapse
+TR58	Planned_process 1376 1385	knockdown
+TR69	Positive_regulation 1345 1352	induced
+TR70	Negative_regulation 1376 1385	knockdown
+TR51	Gene_expression 922 932	expressing
+TR52	Regulation 969 976	control
+TR53	DNA_domain_or_region 1030 1038	promoter
+TR45	Binding 596 601	bound
+TR46	Planned_process 614 621	labeled
+TR47	Negative_regulation 670 679	inhibited
+TR65	Binding 645 656	interaction
+E1	Development:TR42 Theme:T5
+E2	Development:TR42 Theme:T7
+E3	Planned_process:TR40 Theme:T5
+E4	Positive_regulation:TR41 Theme:E1 Cause:T6
+E5	Positive_regulation:TR41 Theme:E2 Cause:T6
+E6	Blood_vessel_development:TR36 
+E7	Development:TR57 Theme:T27
+E8	Blood_vessel_development:TR55 
+E9	Negative_regulation:TR56 Cause:T26 Theme:E7
+E10	Negative_regulation:TR54 Cause:E9 Theme:E8
+E11	Blood_vessel_development:TR60 
+E12	Regulation:TR59 Cause:T35 Theme:E11
+E13	Blood_vessel_development:TR39 
+E14	Blood_vessel_development:TR38 
+E15	Regulation:TR37 Cause:T2 Theme:E14
+E16	Localization:TR71 Theme:T34
+E17	Negative_regulation:TR50 Theme:T20 Cause:T17
+E18	Remodeling:TR66 Theme:T19
+E19	Death:TR67 Theme:T19
+E20	Death:TR49 Theme:T19
+E21	Positive_regulation:TR48 Theme:E20 Cause:T17
+E22	Negative_regulation:TR70 Theme:T32
+E23	Planned_process:TR58 Theme:T32
+E24	Gene_expression:TR51 Theme:T24
+E25	Regulation:TR52 Theme:E24 Cause:T25

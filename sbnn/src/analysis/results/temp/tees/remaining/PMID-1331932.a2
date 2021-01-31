@@ -1,0 +1,18 @@
+T39	Mutation 530 549	sequence variations
+T40	Mutation 563 581	change from G to T
+T41	DNA_domain_or_region 585 612	nucleotide position 169,426
+T42	Planned_process 739 749	synthesize
+T43	Mutation 999 1018	sequence variations
+T44	Planned_process 1282 1290	passaged
+T45	Planned_process 1366 1374	passaged
+T46	Cell_transformation 1480 1491	transformed
+T47	Carcinogenesis 1517 1528	tumorigenic
+E1	Mutation:T39
+E2	Mutation:T40 Theme:T14 Site:T41
+E3	Planned_process:T42 Theme:T17
+E4	Mutation:T43
+E5	Planned_process:T44 Theme:T28
+E6	Planned_process:T45 Theme:T31
+E7	Cell_transformation:T46 Theme:T35
+E8	Carcinogenesis:T47
+E9	Planned_process:T44 Theme:T29

@@ -1,0 +1,16 @@
+T28	Metastasis 73 83	metastasis
+T32	Metastasis 885 895	metastasis
+T33	Metastasis 917 927	metastasis
+T30	Planned_process 464 481	underwent surgery
+T36	Planned_process 474 481	surgery
+T29	Metastasis 287 297	metastasis
+T34	Metastasis 1243 1253	metastasis
+T37	Positive_regulation 1207 1214	augment
+T35	Metastasis 1474 1484	metastasis
+E1	Metastasis:T28 Theme:T2 ToLoc:T1
+E2	Metastasis:T28 ToLoc:T1
+E3	Planned_process:T30 Theme:T10
+E4	Planned_process:T36 Theme:T10
+E5	Metastasis:T29 Theme:T7
+E6	Metastasis:T34 Theme:T24
+E7	Metastasis:T35 Theme:T27

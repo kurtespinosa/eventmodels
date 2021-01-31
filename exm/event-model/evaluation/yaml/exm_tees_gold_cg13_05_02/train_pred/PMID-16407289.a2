@@ -1,0 +1,45 @@
+TR39	Regulation 0 10	Regulation
+TR57	Transcription 152 162	expression
+TR58	Translation 152 162	expression
+TR49	Gene_expression 891 901	deficiency
+TR61	Negative_regulation 826 834	reversed
+TR62	Gene_expression 858 868	expression
+TR45	Gene_expression 530 540	deficiency
+TR46	Positive_regulation 599 608	increased
+TR60	Localization 682 692	accumulate
+TR40	Binding 320 324	bind
+TR55	Regulation 1300 1304	role
+TR56	Blood_vessel_development 1360 1372	angiogenesis
+TR41	Regulation 347 357	implicated
+TR42	Protein_processing 370 380	maturation
+TR59	Development 370 380	maturation
+TR50	Negative_regulation 1010 1020	Inhibition
+TR51	Negative_regulation 1058 1065	blocked
+TR52	Gene_expression 1084 1094	expression
+TR53	Gene_expression 1104 1113	deficient
+TR54	Regulation 1131 1141	regulation
+TR63	Transcription 1202 1212	expression
+TR47	Positive_regulation 779 788	increased
+TR48	Gene_expression 798 807	deficient
+TR43	Development 473 481	modeling
+TR44	Regulation 491 500	regulated
+E1	Regulation:TR39 Cause:T2 Theme:T1
+E2	Gene_expression:TR49 Theme:T27
+E3	Gene_expression:TR45 Theme:T12
+E4	Positive_regulation:TR46 Theme:T17
+E5	Positive_regulation:TR46 Theme:T16
+E6	Binding:TR40 Theme:T7
+E7	Blood_vessel_development:TR56 
+E8	Regulation:TR55 Theme:T38 Cause:T37
+E9	Regulation:TR55 Cause:T37 Theme:E7
+E10	Protein_processing:TR42 Theme:T9
+E11	Regulation:TR41 Cause:T8 Theme:E10
+E12	Transcription:TR63 Theme:T35
+E13	Gene_expression:TR52 Theme:T31
+E14	Gene_expression:TR53 Theme:T32
+E15	Regulation:TR54 Theme:T34
+E16	Positive_regulation:TR47 Theme:T22
+E17	Positive_regulation:TR47 Theme:T21
+E18	Gene_expression:TR48 Theme:T23
+E19	Development:TR43 Theme:T10
+E20	Regulation:TR44 Cause:T11 Theme:E19

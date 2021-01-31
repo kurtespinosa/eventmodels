@@ -1,0 +1,89 @@
+TR30	Regulation 1 8	Altered
+TR31	Gene_expression 9 19	expression
+TR32	Mutation 37 40	LOH
+TR33	DNA_domain_or_region 48 73	epigenetic microsatellite
+TR72	DNA_domain_or_region 59 73	microsatellite
+TR54	Transcription 1092 1101	expressed
+TR55	Translation 1092 1101	expressed
+TR49	Mutation 717 720	LOH
+TR50	DNA_domain_or_region 724 731	D10S541
+TR51	DNA_domain_or_region 733 740	D10S583
+TR52	DNA_domain_or_region 745 753	D10S1687
+TR39	Mutation 304 307	LOH
+TR40	DNA_domain_or_region 311 337	epigenetic microsatellites
+TR75	DNA_domain_or_region 322 337	microsatellites
+TR56	Transcription 1234 1249	mRNA expression
+TR57	Mutation 1254 1257	LOH
+TR58	DNA_domain_or_region 1261 1276	microsatellites
+TR77	Transcription 1239 1249	expression
+TR59	Translation 1314 1332	protein expression
+TR60	Transcription 1353 1368	mRNA expression
+TR78	Gene_expression 1322 1332	expression
+TR79	Translation 1322 1332	expression
+TR80	Transcription 1358 1368	expression
+TR64	Negative_regulation 1529 1543	Down-regulated
+TR65	Gene_expression 1544 1554	expression
+TR66	Mutation 1650 1653	LOH
+TR67	DNA_domain_or_region 1661 1687	epigenetic microsatellites
+TR81	DNA_domain_or_region 1672 1687	microsatellites
+TR53	Transcription 837 852	mRNA expression
+TR76	Transcription 842 852	expression
+TR44	Transcription 605 615	expression
+TR45	Translation 605 615	expression
+TR46	Metastasis 656 666	metastasis
+TR47	Mutation 670 673	LOH
+TR48	DNA_domain_or_region 677 692	microsatellites
+TR68	Regulation 1761 1768	altered
+TR69	Regulation 1779 1790	contributes
+TR70	Carcinogenesis 1794 1807	tumorigenesis
+TR71	Development 1812 1823	progression
+TR82	Mutation 1761 1768	altered
+TR41	Translation 431 441	Expression
+TR42	Transcription 431 441	Expression
+TR43	Positive_regulation 515 524	evaluated
+TR61	Transcription 1385 1395	expression
+TR62	Translation 1385 1395	expression
+TR63	Metastasis 1463 1473	metastasis
+TR34	Gene_expression 128 138	expression
+TR35	Mutation 151 179	loss of heterozygosity (LOH)
+TR36	DNA_domain_or_region 187 212	epigenetic microsatellite
+TR37	Regulation 252 257	roles
+TR38	Development 261 272	progression
+TR73	Mutation 175 178	LOH
+TR74	DNA_domain_or_region 198 212	microsatellite
+E1	Mutation:TR32 AtLoc:T2 Theme:T1
+E2	Mutation:TR32 AtLoc:T2
+E3	Mutation:TR32 Theme:T1
+E4	Gene_expression:TR31 Theme:T1
+E5	Regulation:TR30 Theme:E4
+E6	Translation:TR55 Theme:T17
+E7	Transcription:TR54 Theme:T17
+E8	Mutation:TR39 AtLoc:T7 Theme:T6
+E9	Transcription:TR77 Theme:T20
+E10	Gene_expression:TR78 Theme:T22
+E11	Transcription:TR60 Theme:T22
+E12	Translation:TR59 Theme:T22
+E13	Transcription:TR80 Theme:T22
+E14	Translation:TR79 Theme:T22
+E15	Mutation:TR66 Theme:T26 AtLoc:T27
+E16	Gene_expression:TR65 Theme:T26
+E17	Negative_regulation:TR64 Theme:E16
+E18	Transcription:TR53 Theme:T14
+E19	Transcription:TR76 Theme:T14
+E20	Mutation:TR47 Theme:T11
+E21	Transcription:TR44 Theme:T11
+E22	Metastasis:TR46 ToLoc:T12
+E23	Development:TR71 Theme:T29
+E24	Mutation:TR82 Theme:T28
+E25	Regulation:TR68 Theme:T28
+E26	Carcinogenesis:TR70 Theme:T29
+E27	Translation:TR41 Theme:T8
+E28	Transcription:TR42 Theme:T8
+E29	Positive_regulation:TR43 Theme:E28
+E30	Positive_regulation:TR43 Theme:E27
+E31	Metastasis:TR63 ToLoc:T24 Theme:T25
+E32	Translation:TR62 Theme:T23
+E33	Transcription:TR61 Theme:T23
+E34	Development:TR38 Theme:T5
+E35	Gene_expression:TR34 Theme:T3
+E36	Regulation:TR37 Theme:E34

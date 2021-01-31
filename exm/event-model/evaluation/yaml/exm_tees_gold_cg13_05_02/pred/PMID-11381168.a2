@@ -1,0 +1,37 @@
+T31	Localization 684 691	migrate
+T32	Localization 992 1001	migration
+T33	Positive_regulation 1047 1054	promote
+T34	Localization 1058 1067	migration
+T26	Localization 71 80	migration
+T27	Regulation 117 140	plays an important role
+T28	Remodeling 153 163	remodeling
+T39	Regulation 136 140	role
+T24	Regulation 0 7	Effects
+T25	Localization 56 65	migration
+T29	Localization 219 228	migration
+T30	Planned_process 253 262	culturing
+T40	Regulation 185 192	effects
+T35	Regulation 1119 1123	role
+T36	Localization 1149 1158	migration
+T37	Localization 1212 1221	migration
+T38	Blood_vessel_development 1229 1241	angiogenesis
+E1	Localization:T31 Theme:T14
+E2	Localization:T32 Theme:T18
+E3	Localization:T34 Theme:T19
+E4	Positive_regulation:T33 Theme:E3
+E5	Positive_regulation:T33 Theme:T18
+E6	Localization:T26 Theme:T2
+E7	Localization:T26 Theme:T3
+E8	Remodeling:T28 Theme:T4
+E9	Regulation:T27 Cause:E6 Theme:E8
+E10	Regulation:T27 Cause:E7 Theme:E8
+E11	Regulation:T39 Cause:E6 Theme:E8
+E12	Regulation:T39 Cause:E7 Theme:E8
+E13	Localization:T25 Theme:T1
+E14	Regulation:T24 Theme:E13
+E15	Planned_process:T30 Theme:T7 Theme2:T8
+E16	Localization:T29 Theme:T7
+E17	Localization:T37 Theme:T22
+E18	Localization:T37 Theme:T21
+E19	Localization:T36 Theme:T21
+E20	Regulation:T35 Theme:E19

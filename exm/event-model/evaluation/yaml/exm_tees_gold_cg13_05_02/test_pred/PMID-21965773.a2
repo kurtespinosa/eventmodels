@@ -1,0 +1,69 @@
+TR74	Gene_expression 1353 1366	overexpressed
+TR75	Positive_regulation 1353 1366	overexpressed
+TR67	Gene_expression 838 848	expression
+TR68	Metastasis 886 896	metastases
+TR69	Binding 952 963	interaction
+TR70	Metastasis 1021 1031	metastasis
+TR73	Gene_expression 1274 1284	expression
+TR62	Planned_process 433 442	treatment
+TR63	Regulation 587 600	effectiveness
+TR64	Planned_process 612 620	treating
+TR57	Gene_expression 0 10	Expression
+TR58	Metastasis 129 139	metastases
+TR59	Binding 165 176	association
+TR60	Metastasis 186 196	metastasis
+TR71	Metastasis 1109 1119	metastasis
+TR72	Metastasis 1157 1167	metastasis
+TR76	Gene_expression 1421 1428	express
+TR77	Metastasis 1494 1504	metastasis
+TR78	Gene_expression 1548 1558	expression
+TR79	Metastasis 1625 1635	metastasis
+TR80	Metastasis 1705 1715	metastases
+TR65	Metastasis 693 705	metastasizes
+TR66	Death 770 778	survival
+TR81	Gene_expression 1722 1732	expression
+TR82	Negative_regulation 1751 1758	reduced
+TR83	Metastasis 1773 1783	metastases
+TR84	Metastasis 1872 1882	metastasis
+TR85	Planned_process 1930 1937	therapy
+TR86	Metastasis 1941 1951	metastatic
+E1	Gene_expression:TR74 Theme:T39 Theme:T40
+E2	Gene_expression:TR74 Theme:T39
+E3	Gene_expression:TR74 Theme:T40
+E4	Positive_regulation:TR75 Theme:E1
+E5	Positive_regulation:TR75 Theme:E2
+E6	Positive_regulation:TR75 Theme:E3
+E7	Positive_regulation:TR75 Theme:T39
+E8	Positive_regulation:TR75 Theme:T40
+E9	Gene_expression:TR67 Theme:T24 Theme:T25
+E10	Gene_expression:TR67 Theme:T24
+E11	Gene_expression:TR67 Theme:T25
+E12	Metastasis:TR68 ToLoc:T26
+E13	Metastasis:TR70 
+E14	Gene_expression:TR73 Theme:T37 Theme:T38
+E15	Gene_expression:TR73 Theme:T37
+E16	Gene_expression:TR73 Theme:T38
+E17	Planned_process:TR62 Theme:T16 Instrument:T15
+E18	Planned_process:TR64 Theme:T19 Instrument:T18
+E19	Gene_expression:TR57 Theme:T2 Theme:T1
+E20	Gene_expression:TR57 Theme:T2
+E21	Gene_expression:TR57 Theme:T1
+E22	Metastasis:TR60 
+E23	Metastasis:TR58 ToLoc:T4
+E24	Metastasis:TR71 ToLoc:T33
+E25	Metastasis:TR72 Theme:T34 ToLoc:T35
+E26	Metastasis:TR72 ToLoc:T35
+E27	Gene_expression:TR76 Theme:T43
+E28	Metastasis:TR77 ToLoc:T45
+E29	Metastasis:TR79 ToLoc:T47
+E30	Metastasis:TR80 ToLoc:T49
+E31	Gene_expression:TR78 Theme:T46
+E32	Death:TR66 Theme:T23
+E33	Metastasis:TR65 Theme:T20 ToLoc:T22
+E34	Metastasis:TR65 ToLoc:T22 Theme:T21
+E35	Metastasis:TR83 ToLoc:T51
+E36	Gene_expression:TR81 Theme:T50
+E37	Negative_regulation:TR82 Theme:E36
+E38	Metastasis:TR86 Theme:T56
+E39	Metastasis:TR84 ToLoc:T54 Theme:T55
+E40	Metastasis:TR84 ToLoc:T54

@@ -1,0 +1,77 @@
+T47	Negative_regulation 68 76	inhibits
+T48	Pathway 103 112	signaling
+T49	Planned_process 158 167	treatment
+T50	Death 323 332	survivors
+T51	Development 409 420	development
+T52	Regulation 582 602	play important roles
+T53	Development 622 633	development
+T54	Positive_regulation 638 649	progression
+T55	Pathway 726 744	signaling pathways
+T56	Pathway 774 782	pathways
+T57	Regulation 802 812	contribute
+T58	Positive_regulation 816 827	progression
+T59	Synthesis 984 993	synthetic
+T60	Negative_regulation 1047 1054	inhibit
+T61	Positive_regulation 1285 1292	induces
+T62	Cell_death 1293 1302	apoptosis
+T63	Negative_regulation 1415 1423	inhibits
+T64	Gene_expression 1427 1437	expression
+T65	Negative_regulation 1498 1507	decreases
+T66	Phosphorylation 1512 1527	phosphorylation
+T67	Positive_regulation 1543 1551	specific
+T68	Phosphorylation 1552 1567	phosphorylation
+T69	Negative_regulation 1579 1589	Inhibition
+T70	Negative_regulation 1622 1631	attenuate
+T71	Positive_regulation 1638 1646	mediated
+T72	Negative_regulation 1647 1661	downregulation
+T73	Negative_regulation 1694 1704	inhibition
+T74	Pathway 1711 1720	signaling
+T75	Regulation 1760 1771	alterations
+T76	Pathway 1813 1829	survival pathway
+T77	Negative_regulation 1859 1867	inhibits
+T78	Regulation 1953 1960	effects
+T79	Cell_death 1982 1991	apoptosis
+E1	Negative_regulation:T47 Cause:T1 Theme:E2
+E2	Pathway:T48 Participant:T3 Participant2:T4
+E3	Planned_process:T49 Theme:T7
+E4	Death:T50 Theme:T7
+E6	Regulation:T52 Theme:E7 Cause:E9
+E7	Development:T53 Theme:T11
+E8	Positive_regulation:T54 Theme:T11
+E9	Pathway:T55 Participant:T12
+E10	Pathway:T56 Participant:T12
+E11	Regulation:T57 Theme:E12 Cause:E10
+E12	Positive_regulation:T58 Theme:T16
+E13	Synthesis:T59 Theme:T19
+E14	Negative_regulation:T60 Theme:T22 Cause:T19
+E15	Positive_regulation:T61 Cause:T26 Theme:E16
+E16	Cell_death:T62 Theme:T28
+E19	Negative_regulation:T65 Cause:T34 Theme:E20
+E20	Phosphorylation:T66 Theme:T35
+E21	Positive_regulation:T67 Cause:T36 Theme:E22
+E22	Phosphorylation:T68 Theme:T37
+E23	Negative_regulation:T69 Theme:T38
+E24	Negative_regulation:T70 Cause:E23 Theme:E26
+E25	Positive_regulation:T71 Cause:T39 Theme:E26
+E26	Negative_regulation:T72 Theme:T40
+E34	Negative_regulation:T47 Cause:T2 Theme:E2
+E35	Regulation:T52 Theme:E7 Cause:E40
+E36	Regulation:T52 Theme:E8 Cause:E9
+E37	Regulation:T52 Theme:E8 Cause:E40
+E38	Regulation:T52 Theme:E7 Cause:E41
+E39	Regulation:T52 Theme:E8 Cause:E41
+E40	Pathway:T55 Participant:T13
+E41	Pathway:T55 Participant:T14
+E42	Pathway:T56 Participant:T13
+E43	Pathway:T56 Participant:T14
+E44	Regulation:T57 Theme:E12 Cause:E42
+E45	Regulation:T57 Theme:E12 Cause:E43
+E46	Synthesis:T59 Theme:T20
+E47	Negative_regulation:T60 Theme:T22 Cause:T20
+E48	Negative_regulation:T60 Theme:T22 Cause:T17
+E49	Negative_regulation:T60 Theme:T22 Cause:T18
+E50	Positive_regulation:T61 Cause:T25 Theme:E16
+E51	Positive_regulation:T61 Cause:T25 Theme:E53
+E52	Positive_regulation:T61 Cause:T26 Theme:E53
+E53	Cell_death:T62 Theme:T30
+E54	Negative_regulation:T65 Cause:T34 Theme:E22

@@ -1,0 +1,47 @@
+T45	Carcinogenesis 311 322	tumorigenic
+T46	Development 370 379	formation
+T47	Positive_regulation 448 458	activation
+T58	Negative_regulation 1017 1026	reduction
+T48	Positive_regulation 652 661	activated
+T44	Cell_proliferation 189 200	proliferate
+T63	Carcinogenesis 101 110	oncogenic
+T62	Regulation 21 27	target
+T59	Positive_regulation 1273 1283	stimulated
+T60	Positive_regulation 1332 1340	mediated
+T61	Cell_transformation 1352 1366	transformation
+T64	Pathway 1216 1223	pathway
+T65	Regulation 1263 1269	target
+T66	Regulation 1317 1323	target
+T49	Planned_process 703 711	cultured
+T50	Gene_expression 805 815	expressing
+T51	Positive_regulation 849 860	stimulation
+T52	Positive_regulation 884 887	led
+T53	Positive_regulation 895 905	activation
+T54	Planned_process 920 933	preincubation
+T55	Negative_regulation 955 964	abolished
+T56	Positive_regulation 978 985	induced
+T57	Positive_regulation 990 1000	activation
+E1	Carcinogenesis:T45 AtLoc:T8
+E2	Development:T46 Theme:T9
+E3	Positive_regulation:T47 Theme:T12
+E4	Negative_regulation:T58 Theme:T33
+E5	Positive_regulation:T48 Theme:T17
+E6	Positive_regulation:T48 Theme:T18
+E7	Cell_proliferation:T44 Theme:T7
+E8	Carcinogenesis:T63 
+E9	Positive_regulation:T59 Theme:T40
+E10	Cell_transformation:T61 Theme:T43
+E11	Positive_regulation:T60 Cause:T42 Theme:E10
+E12	Positive_regulation:T53 Theme:T28
+E13	Positive_regulation:T53 Theme:T29
+E14	Positive_regulation:T51 Theme:T28
+E15	Positive_regulation:T51 Theme:T23
+E16	Planned_process:T49 Theme:T23
+E17	Positive_regulation:T52 Theme:T24 Cause:E14
+E18	Positive_regulation:T52 Theme:T24 Cause:E15
+E19	Positive_regulation:T52 Theme:T25 Cause:E14
+E20	Positive_regulation:T52 Theme:T25 Cause:E15
+E21	Positive_regulation:T52 Cause:E14 Theme:E12
+E22	Positive_regulation:T52 Cause:E14 Theme:E13
+E23	Positive_regulation:T52 Cause:E15 Theme:E12
+E24	Positive_regulation:T52 Cause:E15 Theme:E13

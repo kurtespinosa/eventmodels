@@ -1,0 +1,59 @@
+T64	Phosphorylation 1176 1191	phosphorylation
+T65	Planned_process 1211 1219	addition
+T48	Cell_proliferation 785 792	growing
+T49	Planned_process 822 833	transformed
+T60	Positive_regulation 862 870	elevated
+T41	Regulation 454 463	modulates
+T42	Metabolism 490 498	turnover
+T51	Binding 1286 1293	binding
+T52	Positive_regulation 1347 1356	elevation
+T53	Negative_regulation 1378 1393	down-regulation
+T54	Positive_regulation 1409 1419	activation
+T46	Cell_transformation 663 674	established
+T47	Planned_process 737 751	transformation
+T59	Cell_transformation 737 751	transformation
+T36	Regulation 127 147	plays a central role
+T37	Metabolism 164 174	metabolism
+T38	Positive_regulation 196 205	activator
+T58	Regulation 143 147	role
+T43	Metabolism 536 546	metabolism
+T44	Cell_transformation 574 585	transformed
+T45	Positive_regulation 574 585	transformed
+T35	Planned_process 81 92	transformed
+T55	Positive_regulation 0 8	Elevated
+T56	Negative_regulation 38 47	decreased
+T57	Positive_regulation 81 92	transformed
+T39	Positive_regulation 263 273	activation
+T40	Planned_process 325 334	transform
+T50	Planned_process 1121 1132	transformed
+T61	Phosphorylation 988 1003	phosphorylation
+T62	Positive_regulation 1096 1105	increased
+T63	Positive_regulation 1121 1132	transformed
+E1	Planned_process:T65 Instrument:T28
+E2	Phosphorylation:T64 Theme:T28
+E3	Positive_regulation:T60 Theme:T23
+E4	Cell_proliferation:T48 Theme:T20
+E5	Metabolism:T42 Theme:T14
+E6	Metabolism:T42 Theme:T13
+E7	Regulation:T41 Theme:E5 Cause:T12
+E8	Regulation:T41 Theme:E6 Cause:T12
+E9	Positive_regulation:T52 Theme:T33
+E10	Negative_regulation:T53 Theme:T34 Cause:E9
+E11	Positive_regulation:T54 Theme:T34 Cause:E9
+E12	Cell_transformation:T59 
+E13	Cell_transformation:T46 Theme:T18
+E14	Metabolism:T37 Theme:T7
+E15	Positive_regulation:T38 Cause:T6 Theme:T8
+E16	Positive_regulation:T38 Theme:T8 Cause:T5
+E17	Regulation:T36 Theme:E14 Cause:T6
+E18	Regulation:T36 Theme:E14 Cause:T5
+E19	Cell_transformation:T44 Theme:T17
+E20	Metabolism:T43 Theme:T15
+E21	Positive_regulation:T45 Cause:T16 Theme:E19
+E22	Negative_regulation:T56 Theme:T2
+E23	Positive_regulation:T57 Theme:T4
+E24	Positive_regulation:T55 Theme:T1
+E25	Planned_process:T40 Theme:T9
+E26	Positive_regulation:T63 Theme:T27
+E27	Phosphorylation:T61 Theme:T25
+E28	Positive_regulation:T62 Theme:E27

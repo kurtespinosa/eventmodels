@@ -1,0 +1,32 @@
+T53	Regulation 81 85	role
+T54	Binding 100 111	interaction
+T55	Localization 141 149	detected
+T56	Gene_expression 488 497	expressed
+T57	Gene_expression 590 598	negative
+T58	Cell_differentiation 718 732	differentiated
+T59	Gene_expression 973 982	expressed
+T60	Localization 1053 1062	localized
+T61	Binding 1161 1168	binding
+T62	Gene_expression 1247 1257	expression
+T63	Positive_regulation 1423 1432	increased
+T64	Gene_expression 1455 1465	expression
+T65	Carcinogenesis 1533 1551	neoplastic process
+T66	Regulation 1629 1651	play a regulatory role
+T67	Binding 1679 1691	interactions
+T68	Regulation 1702 1711	involving
+T69	Development 1725 1735	generation
+T70	Blood_vessel_development 1756 1768	angiogenesis
+T71	Cell_differentiation 1816 1830	differentiated
+E1	Regulation:T53 Cause:T1 Theme:E2
+E11	Positive_regulation:T63 Theme:E12
+E14	Regulation:T66 Theme:E15 Cause:T47
+E16	Regulation:T68 Cause:T47 Theme:E17
+E23	Regulation:T66 Theme:E15 Cause:T46
+E24	Regulation:T68 Cause:T46 Theme:E17
+E25	Regulation:T68 Cause:T47 Theme:E18
+E26	Regulation:T68 Cause:T46 Theme:E18
+E17	Development:T69 Theme:T49
+E12	Gene_expression:T64 Theme:T44
+E15	Binding:T67 Theme:T48
+E18	Blood_vessel_development:T70
+E2	Binding:T54 Theme:T5

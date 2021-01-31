@@ -1,0 +1,43 @@
+TR26	Mutation 911 922	duplication
+TR27	DNA_domain_or_region 937 951	TK/CAIN region
+TR28	DNA_domain_or_region 953 964	exons 18-26
+TR29	Mutation 982 993	duplication
+TR30	DNA_domain_or_region 997 1008	exons 18-25
+TR31	Mutation 1039 1060	genomic rearrangement
+TR45	DNA_domain_or_region 945 951	region
+TR46	DNA_domain_or_region 953 958	exons
+TR47	DNA_domain_or_region 997 1002	exons
+TR48	Mutation 1047 1060	rearrangement
+TR32	Binding 1356 1363	binding
+TR49	Negative_regulation 1367 1374	reduced
+TR16	Mutation 178 186	deletion
+TR17	Mutation 265 274	amplified
+TR18	Mutation 279 289	rearranged
+TR35	Mutation 187 194	mutants
+TR24	Mutation 791 811	in-frame duplication
+TR25	DNA_domain_or_region 815 834	exons 18 through 25
+TR43	Mutation 800 811	duplication
+TR44	DNA_domain_or_region 815 820	exons
+TR33	Carcinogenesis 0 9	Oncogenic
+TR34	Mutation 63 74	duplication
+TR23	Mutation 543 561	tandem duplication
+TR40	Mutation 550 561	duplication
+TR41	Gene_expression 583 592	expressed
+TR42	Mutation 677 684	mutants
+TR19	Mutation 416 434	tandem duplication
+TR20	Protein_domain_or_region 442 457	tyrosine kinase
+TR21	Protein_domain_or_region 459 461	TK
+TR22	Protein_domain_or_region 484 514	internalization (CAIN) domains
+TR36	Mutation 404 410	mutant
+TR37	Mutation 423 434	duplication
+TR38	Protein_domain_or_region 451 457	kinase
+TR39	Protein_domain_or_region 507 514	domains
+E1	Mutation:TR48 
+E2	Mutation:TR29 
+E3	Mutation:TR26 AtLoc:T13
+E4	Mutation:TR31 
+E5	Binding:TR32 Theme:T15
+E6	Carcinogenesis:TR33 
+E7	Mutation:TR37 Theme:T7
+E8	Mutation:TR19 Theme:T7
+E9	Mutation:TR36 Theme:T7

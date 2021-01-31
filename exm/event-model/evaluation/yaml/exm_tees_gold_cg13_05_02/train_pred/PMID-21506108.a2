@@ -1,0 +1,100 @@
+TR79	Negative_regulation 1536 1546	inhibition
+TR80	Gene_expression 1555 1565	expression
+TR81	Positive_regulation 1566 1576	results in
+TR82	Planned_process 1607 1614	treated
+TR83	Negative_regulation 1625 1632	delayed
+TR84	Death 1638 1643	death
+TR88	Positive_regulation 1566 1573	results
+TR52	Negative_regulation 462 472	inhibition
+TR53	Cell_differentiation 476 491	differentiation
+TR54	Positive_regulation 497 508	stimulation
+TR55	Cell_proliferation 517 530	proliferation
+TR56	Cell_differentiation 565 580	differentiation
+TR57	Pathway 630 635	cycle
+TR67	Planned_process 1150 1159	treatment
+TR68	Positive_regulation 1204 1213	induction
+TR69	Transcription 1227 1231	mRNA
+TR70	Gene_expression 1236 1243	protein
+TR87	Positive_regulation 1186 1194	resulted
+TR71	Positive_regulation 1249 1258	induction
+TR72	Planned_process 1288 1297	treatment
+TR73	Regulation 1305 1313	mediated
+TR74	Pathway 1324 1331	pathway
+TR75	Positive_regulation 1347 1357	stimulates
+TR76	Gene_expression 1358 1368	expression
+TR60	Positive_regulation 844 850	induce
+TR61	Cell_differentiation 867 882	differentiation
+TR62	Negative_regulation 887 894	trigger
+TR63	Cell_death 895 904	apoptosis
+TR86	Positive_regulation 887 894	trigger
+TR64	Regulation 946 956	regulation
+TR65	Regulation 1049 1053	role
+TR66	Regulation 1070 1080	regulation
+TR42	Positive_regulation 0 9	Induction
+TR43	Regulation 27 35	involves
+TR44	Positive_regulation 58 68	sensitizes
+TR45	Death 97 102	death
+TR46	Binding 258 265	binding
+TR77	Binding 1457 1468	interaction
+TR78	DNA_domain_or_region 1488 1496	promoter
+TR47	Regulation 353 361	involved
+TR48	Negative_regulation 369 379	repression
+TR49	Cell_differentiation 388 403	differentiation
+TR50	Positive_regulation 408 418	activation
+TR51	Cell_proliferation 427 433	growth
+TR58	Regulation 693 712	play multiple roles
+TR59	Development 754 765	development
+TR85	Regulation 707 712	roles
+E1	Gene_expression:TR80 Theme:T38
+E2	Death:TR84 Theme:T41
+E3	Negative_regulation:TR83 Theme:E2
+E4	Negative_regulation:TR83 Theme:T41
+E5	Negative_regulation:TR79 Theme:E1
+E6	Pathway:TR57 Theme:T14
+E7	Cell_differentiation:TR53 Theme:T12
+E8	Cell_differentiation:TR56 Theme:T13
+E9	Cell_proliferation:TR55 Theme:T12
+E10	Negative_regulation:TR52 Cause:T11 Theme:E7
+E11	Positive_regulation:TR54 Cause:T11 Theme:E9
+E12	Planned_process:TR67 Theme:T28 Instrument:T29
+E13	Transcription:TR69 Theme:T30
+E14	Gene_expression:TR70 Theme:T30
+E15	Positive_regulation:TR68 Theme:E13 Cause:E12
+E16	Positive_regulation:TR68 Theme:E14 Cause:E12
+E17	Positive_regulation:TR87 Theme:E13 Cause:E12
+E18	Gene_expression:TR76 Theme:T34 Theme:T33
+E19	Gene_expression:TR76 Theme:T34
+E20	Gene_expression:TR76 Theme:T33
+E21	Cell_death:TR63 Theme:T21
+E22	Cell_differentiation:TR61 Theme:T20
+E23	Cell_differentiation:TR61 Theme:T21
+E24	Positive_regulation:TR60 Theme:E22 Cause:T19
+E25	Positive_regulation:TR60 Theme:E23 Cause:T19
+E26	Positive_regulation:TR86 Theme:E21 Cause:T19
+E27	Negative_regulation:TR62 Theme:E21 Cause:T19
+E28	Regulation:TR66 Theme:T24
+E29	Regulation:TR64 Theme:T22
+E30	Regulation:TR65 Cause:T23 Theme:E28
+E31	Death:TR45 Theme:T5
+E32	Positive_regulation:TR42 Cause:T2 Theme:T1
+E33	Positive_regulation:TR44 Theme:E31 Cause:E32
+E34	Positive_regulation:TR44 Theme:E31
+E35	Regulation:TR43 Theme:E33 Cause:E32
+E36	Regulation:TR43 Theme:E34 Cause:E32
+E37	Regulation:TR43 Theme:T3 Cause:E32
+E38	Cell_proliferation:TR51 Theme:T10
+E39	Cell_differentiation:TR49 Theme:T9
+E40	Positive_regulation:TR50 Theme:E38
+E41	Negative_regulation:TR48 Theme:E39
+E42	Regulation:TR47 Theme:E40 Cause:T8
+E43	Regulation:TR47 Cause:T8 Theme:E41
+E44	Development:TR59 Theme:T17
+E45	Development:TR59 Theme:T18
+E46	Regulation:TR85 Theme:E44 Cause:T16
+E47	Regulation:TR85 Theme:E45 Cause:T16
+E48	Regulation:TR85 Theme:E44 Cause:T15
+E49	Regulation:TR85 Theme:E45 Cause:T15
+E50	Regulation:TR58 Theme:E44 Cause:T16
+E51	Regulation:TR58 Theme:E45 Cause:T16
+E52	Regulation:TR58 Theme:E44 Cause:T15
+E53	Regulation:TR58 Theme:E45 Cause:T15

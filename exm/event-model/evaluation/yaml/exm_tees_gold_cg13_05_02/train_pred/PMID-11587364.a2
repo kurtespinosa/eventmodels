@@ -1,0 +1,73 @@
+TR84	Planned_process 1749 1758	treatment
+TR85	Positive_regulation 1768 1775	induced
+TR67	Negative_regulation 975 984	represses
+TR68	Binding 1028 1038	recruiting
+TR91	Positive_regulation 990 997	induced
+TR92	Localization 1028 1038	recruiting
+TR81	Binding 1580 1591	recruitment
+TR82	Positive_regulation 1651 1658	induced
+TR83	Carcinogenesis 1659 1673	leukemogenesis
+TR69	Binding 1068 1078	associates
+TR70	Protein_domain_or_region 1162 1183	amino acid 544 to 607
+TR71	Binding 1194 1205	association
+TR72	Positive_regulation 1209 1217	required
+TR73	Negative_regulation 1236 1246	inhibition
+TR74	Pathway 1259 1268	signaling
+TR93	Binding 1114 1121	binding
+TR46	Positive_regulation 223 230	induced
+TR47	Carcinogenesis 231 242	oncogenesis
+TR48	Regulation 274 281	affects
+TR49	Pathway 286 295	signaling
+TR50	Negative_regulation 349 357	inhibits
+TR51	Cell_proliferation 358 371	proliferation
+TR52	Cell_proliferation 433 439	growth
+TR53	Regulation 440 450	regulatory
+TR65	Negative_regulation 896 905	repressor
+TR66	Pathway 909 918	signaling
+TR61	Binding 714 723	interacts
+TR62	Regulation 753 761	mediator
+TR63	Pathway 774 783	signaling
+TR64	Negative_regulation 793 804	suppressing
+TR90	Transcription 809 824	transcriptional
+TR54	Negative_regulation 487 496	represses
+TR55	Pathway 506 515	signaling
+TR56	Negative_regulation 520 531	antagonizes
+TR57	Cell_proliferation 536 542	growth
+TR58	Negative_regulation 543 553	inhibitory
+TR87	Negative_regulation 554 561	effects
+TR42	Positive_regulation 69 76	promote
+TR43	Cell_proliferation 77 83	growth
+TR44	Negative_regulation 87 92	block
+TR45	Cell_differentiation 93 108	differentiation
+TR86	Carcinogenesis 0 9	Oncogenic
+TR75	Negative_regulation 1341 1351	alleviates
+TR76	Positive_regulation 1358 1366	mediated
+TR77	Negative_regulation 1367 1377	repression
+TR78	Pathway 1390 1399	signaling
+TR79	Regulation 1425 1433	involved
+TR80	Negative_regulation 1453 1463	repression
+TR94	Transcription 1437 1452	transcriptional
+E1	Planned_process:TR84 Theme:T41 Theme2:T40
+E2	Planned_process:TR84 Theme:T40
+E3	Positive_regulation:TR85 Theme:T40 Cause:T39
+E4	Positive_regulation:TR85 Theme:T41 Cause:T39
+E5	Localization:TR92 Theme:T21
+E6	Carcinogenesis:TR83 
+E7	Binding:TR81 Theme:T36
+E8	Positive_regulation:TR82 Cause:T37 Theme:E6
+E9	Binding:TR93 Theme:T24
+E10	Cell_proliferation:TR52 Theme:T8
+E11	Cell_proliferation:TR51 Theme:T8
+E12	Regulation:TR53 Cause:T7 Theme:E10
+E13	Regulation:TR53 Cause:T7 Theme:T8
+E14	Regulation:TR53 Theme:E10 Cause:T6
+E15	Regulation:TR53 Theme:T8 Cause:T6
+E16	Pathway:TR66 Participant:T18
+E17	Negative_regulation:TR65 Cause:T17 Theme:T18
+E18	Transcription:TR90 Theme:T16
+E19	Negative_regulation:TR64 Cause:T13 Theme:T16
+E20	Negative_regulation:TR64 Cause:T12 Theme:T16
+E21	Cell_differentiation:TR45 Theme:T3
+E22	Negative_regulation:TR44 Cause:T2 Theme:E21
+E23	Carcinogenesis:TR86 
+E24	Transcription:TR94 Theme:T35

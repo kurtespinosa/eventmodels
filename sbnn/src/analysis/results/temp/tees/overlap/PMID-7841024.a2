@@ -1,0 +1,26 @@
+T50	Cell_differentiation 27 41	differentiated
+T51	Cell_differentiation 63 79	dedifferentiated
+T52	Planned_process 89 97	cultured
+T53	Planned_process 118 127	implanted
+T54	Cell_differentiation 152 166	differentiated
+T55	Cell_differentiation 197 213	dedifferentiated
+T56	Cell_proliferation 245 258	proliferating
+T57	Planned_process 276 285	implanted
+T58	Binding 333 339	formed
+T59	Binding 380 386	formed
+T60	Synthesis 536 546	production
+T61	Localization 585 591	uptake
+T62	Glycolysis 676 686	glycolysis
+T63	Metabolism 704 715	utilization
+T64	Localization 750 756	uptake
+T65	Positive_regulation 772 784	accumulation
+T66	Pathway 857 887	tricarboxylic acid (TCA) cycle
+T67	Localization 918 926	perfused
+T68	Death 972 980	necrotic
+T69	Planned_process 992 1005	i.v. infusion
+T70	Pathway 1083 1092	TCA cycle
+T71	Cell_differentiation 1187 1202	differentiation
+E2	Cell_differentiation:T51 Theme:T3
+E3	Planned_process:T52 Theme:T3
+E23	Cell_differentiation:T51 Theme:T4
+E24	Planned_process:T52 Theme:T4

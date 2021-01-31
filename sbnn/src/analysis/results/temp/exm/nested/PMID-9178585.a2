@@ -1,0 +1,28 @@
+T38	Regulation 0 7	Changes
+T39	Positive_regulation 84 93	Increased
+T40	Positive_regulation 143 152	increased
+T41	Positive_regulation 335 345	activating
+T42	Death 800 808	survival
+T43	Positive_regulation 825 834	Increased
+T44	Regulation 856 866	associated
+T45	Negative_regulation 874 883	decreased
+T46	Death 884 892	survival
+T47	Metastasis 1068 1078	metastases
+T48	Death 1337 1345	survival
+T49	Death 1470 1478	survival
+T50	Positive_regulation 1497 1506	increased
+T51	Regulation 1535 1545	associated
+T52	Negative_regulation 1553 1562	decreased
+T53	Death 1563 1571	survival
+E3	Positive_regulation:T40 Theme:E2
+E7	Regulation:T44 Cause:E6 Theme:E8
+E8	Negative_regulation:T45 Theme:E9
+E14	Regulation:T51 Cause:E13 Theme:E15
+E15	Negative_regulation:T52 Theme:E16
+E18	Positive_regulation:T40 Theme:E17
+E17	Positive_regulation:T39 Theme:T4
+E6	Positive_regulation:T43 Theme:T23
+E9	Death:T46 Theme:T17
+E16	Death:T53 Theme:T36
+E13	Positive_regulation:T50 Theme:T35
+E2	Positive_regulation:T39 Theme:T3

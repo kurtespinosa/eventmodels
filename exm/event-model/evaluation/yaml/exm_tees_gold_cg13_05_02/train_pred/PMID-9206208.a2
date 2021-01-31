@@ -1,0 +1,20 @@
+TR23	Gene_expression 1 11	Expression
+TR24	Metastasis 15 25	metastasis
+TR29	Transcription 666 676	expression
+TR30	Metastasis 705 715	metastatic
+TR31	Transcription 777 787	expression
+TR33	Translation 666 676	expression
+TR25	Metastasis 146 156	metastatic
+TR26	Transcription 195 205	expression
+TR27	Metastasis 296 306	metastasis
+TR28	Planned_process 472 479	labeled
+TR32	Translation 195 205	expression
+E1	Gene_expression:TR23 Theme:T1
+E2	Metastasis:TR24 
+E3	Metastasis:TR30 Theme:T19
+E4	Transcription:TR31 Theme:T20
+E5	Transcription:TR29 Theme:T17
+E6	Translation:TR32 Theme:T5
+E7	Transcription:TR26 Theme:T5
+E8	Metastasis:TR27 
+E9	Metastasis:TR25 Theme:T4

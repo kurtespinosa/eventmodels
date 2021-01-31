@@ -1,0 +1,46 @@
+TR33	Positive_regulation 1020 1030	activation
+TR34	Cell_differentiation 1034 1049	differentiation
+TR35	Cell_death 1077 1086	apoptotic
+TR19	Planned_process 76 88	radiotherapy
+TR38	Cell_death 1327 1336	apoptotic
+TR39	Cell_death 1381 1390	apoptotic
+TR22	Planned_process 397 406	radiation
+TR24	Pathway 517 522	cycle
+TR25	Negative_regulation 523 529	arrest
+TR26	Cell_death 534 543	apoptosis
+TR40	Regulation 500 508	involved
+TR36	Planned_process 1174 1186	radiotherapy
+TR37	Planned_process 1214 1223	treatment
+TR32	Positive_regulation 934 944	activation
+TR20	Planned_process 128 139	irradiation
+TR21	Planned_process 187 196	treatment
+TR23	Positive_regulation 448 457	induction
+TR27	Positive_regulation 645 658	up-regulation
+TR28	Regulation 667 675	mediated
+TR29	Cell_death 701 710	apoptosis
+TR30	Positive_regulation 763 773	activation
+TR31	Pathway 814 832	apoptotic pathways
+TR41	Positive_regulation 667 675	mediated
+TR42	Cell_proliferation 676 689	proliferation
+TR43	Negative_regulation 690 696	arrest
+TR44	Pathway 824 832	pathways
+E1	Positive_regulation:TR33 Theme:T14 Cause:T15
+E2	Cell_death:TR35 Theme:T15
+E3	Cell_differentiation:TR34 Theme:T14
+E4	Planned_process:TR19 Theme:T2
+E5	Cell_death:TR39 
+E6	Cell_death:TR38 
+E7	Planned_process:TR22 Theme:T5
+E8	Pathway:TR24 Theme:T9
+E9	Negative_regulation:TR25 Theme:T9
+E10	Cell_death:TR26 
+E11	Regulation:TR40 Cause:T8 Theme:E10
+E12	Planned_process:TR37 Theme:T16
+E13	Positive_regulation:TR32 Theme:T12
+E14	Planned_process:TR20 Theme:T3
+E15	Planned_process:TR21 Theme:T3
+E16	Positive_regulation:TR23 Theme:T7
+E17	Cell_death:TR29 
+E18	Positive_regulation:TR27 Theme:T10
+E19	Regulation:TR28 Cause:T11 Theme:E17
+E20	Regulation:TR28 Cause:T11 Theme:T10

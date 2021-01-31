@@ -1,0 +1,64 @@
+T53	Regulation 272 279	effects
+T54	Blood_vessel_development 283 295	angiogenesis
+T55	Development 304 313	formation
+T56	Regulation 356 367	involvement
+T57	Development 377 388	progression
+T69	Planned_process 1016 1030	administration
+T70	Positive_regulation 1038 1046	resulted
+T71	Positive_regulation 1059 1067	increase
+T72	Negative_regulation 1114 1121	inhibit
+T73	Development 1158 1167	formation
+T74	Positive_regulation 1180 1189	stimulate
+T83	Positive_regulation 1198 1206	mediated
+T66	Negative_regulation 871 880	inhibited
+T67	Growth 881 887	growth
+T59	Planned_process 537 548	Inoculation
+T60	Negative_regulation 580 589	decreases
+T61	Planned_process 654 664	injections
+T62	Planned_process 707 718	inoculation
+T63	Negative_regulation 734 744	suppressed
+T64	Metastasis 775 785	metastases
+T65	Regulation 847 853	effect
+T82	Protein_domain_or_region 829 833	12H5
+T68	Planned_process 957 964	treated
+T49	Negative_regulation 54 61	inhibit
+T50	Carcinogenesis 81 95	tumorigenicity
+T51	Positive_regulation 100 108	increase
+T78	Regulation 1506 1510	role
+T79	Development 1542 1553	progression
+T84	Negative_regulation 1579 1590	suppressing
+T58	Negative_regulation 444 455	neutralizes
+T75	Negative_regulation 1311 1320	inhibited
+T52	Development 249 260	progression
+T80	Regulation 180 184	role
+T81	Binding 213 225	interactions
+T76	Negative_regulation 1375 1385	inhibition
+T77	Negative_regulation 1390 1397	blocked
+E1	Development:T57 Theme:T12
+E2	Development:T57 Theme:T11
+E3	Blood_vessel_development:T54 
+E4	Regulation:T56 Theme:E1 Cause:T10
+E5	Regulation:T56 Theme:E2 Cause:T10
+E6	Development:T55 Theme:T11
+E7	Regulation:T53 Theme:E3 Cause:T10
+E8	Regulation:T53 Cause:T10 Theme:E6
+E9	Positive_regulation:T71 Theme:T34
+E10	Positive_regulation:T74 Theme:T37
+E11	Growth:T67 Theme:T30
+E12	Negative_regulation:T66 Theme:E11
+E13	Planned_process:T59 Instrument:T20 Theme:T21
+E14	Negative_regulation:T60 Cause:E13 Theme:T23
+E15	Planned_process:T61 Theme:T24
+E16	Metastasis:T64 ToLoc:T28 Theme:T26
+E17	Negative_regulation:T63 Theme:E16 Cause:E15
+E18	Negative_regulation:T63 Theme:T27 Cause:E15
+E19	Regulation:T65 Theme:E16 Cause:E17
+E20	Regulation:T65 Theme:E16 Cause:E18
+E21	Planned_process:T68 Theme:T31
+E22	Positive_regulation:T51 Theme:T4
+E23	Carcinogenesis:T50 AtLoc:T2
+E24	Negative_regulation:T49 Theme:E23 Cause:T1
+E25	Development:T79 Theme:T48
+E26	Regulation:T78 Theme:E25 Cause:T47
+E27	Negative_regulation:T75 Theme:T41
+E28	Development:T52 Theme:T9

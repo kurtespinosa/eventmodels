@@ -1,0 +1,36 @@
+T25	Positive_regulation 34 41	nurture
+T26	Regulation 101 105	role
+T27	Development 119 130	development
+T28	Regulation 177 195	active participant
+T29	Development 206 217	development
+T30	Development 219 230	progression
+T31	Metastasis 236 246	metastasis
+T32	Regulation 604 613	influence
+T33	Positive_regulation 723 730	nurture
+T34	Positive_regulation 781 788	amplify
+T35	Positive_regulation 853 861	promotes
+T36	Development 868 879	progression
+T37	Regulation 1055 1059	role
+T38	Development 1154 1165	development
+T39	Development 1167 1178	progression
+T40	Metastasis 1184 1194	metastasis
+T41	Planned_process 1484 1491	therapy
+E1	Positive_regulation:T25 Theme:T2
+E2	Regulation:T26 Theme:E3 Cause:T4
+E3	Development:T27 Theme:T3
+E4	Regulation:T28 Cause:T4 Theme:E5
+E5	Development:T29 Theme:T5
+E6	Development:T30 Theme:T5
+E7	Metastasis:T31 Theme:T5
+E8	Regulation:T32 Cause:T10 Theme:T11
+E9	Positive_regulation:T33 Theme:T14
+E10	Positive_regulation:T34 Theme:T15
+E11	Positive_regulation:T35 Theme:E12
+E12	Development:T36 Theme:T16
+E13	Regulation:T37 Cause:T18 Theme:T19
+E14	Development:T38 Theme:T20
+E15	Development:T39 Theme:T20
+E16	Metastasis:T40 Theme:T20
+E17	Planned_process:T41 Theme:T23
+E18	Regulation:T28 Cause:T4 Theme:E6
+E19	Regulation:T28 Cause:T4 Theme:E7

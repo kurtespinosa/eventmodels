@@ -1,0 +1,43 @@
+TR46	Localization 1040 1051	deprivation
+TR47	Planned_process 1078 1087	treatment
+TR28	Binding 247 258	connections
+TR29	Metabolism 275 285	metabolism
+TR30	Cell_death 304 313	apoptosis
+TR31	Remodeling 369 376	changes
+TR32	Negative_regulation 483 489	reduce
+TR33	Metabolism 498 509	consumption
+TR34	Regulation 513 523	regulating
+TR35	Localization 524 536	localization
+TR36	Gene_expression 541 551	expression
+TR23	Regulation 0 9	Targeting
+TR24	Metabolism 18 29	consumption
+TR48	Death 1205 1209	kill
+TR49	Positive_regulation 1214 1223	sensitize
+TR25	Regulation 183 190	altered
+TR26	Metabolism 200 210	metabolism
+TR27	Cell_death 229 238	apoptosis
+TR43	Metabolism 749 760	consumption
+TR44	Positive_regulation 849 859	activation
+TR39	Planned_process 654 666	Co-treatment
+TR40	Positive_regulation 696 703	results
+TR41	Positive_regulation 714 725	enhancement
+TR42	Death 734 739	death
+TR45	Planned_process 915 925	sensitized
+E1	Planned_process:TR47 Theme:T20 Instrument:T21
+E2	Cell_death:TR30 
+E3	Binding:TR28 Theme:T7
+E4	Metabolism:TR29 Theme:T7
+E5	Metabolism:TR33 Theme:T10
+E6	Localization:TR35 Theme:T11
+E7	Gene_expression:TR36 Theme:T11
+E8	Regulation:TR34 Theme:E7 Cause:T9
+E9	Regulation:TR34 Cause:T9 Theme:E6
+E10	Negative_regulation:TR32 Cause:T9 Theme:E5
+E11	Metabolism:TR24 Theme:T1
+E12	Regulation:TR23 Theme:E11
+E13	Positive_regulation:TR49 Theme:T22
+E14	Cell_death:TR27 
+E15	Metabolism:TR43 Theme:T14
+E16	Death:TR42 Theme:T13
+E17	Positive_regulation:TR41 Theme:E16
+E18	Planned_process:TR45 Theme:T17 Instrument:T18

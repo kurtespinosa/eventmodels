@@ -1,0 +1,51 @@
+T38	Negative_regulation 0 8	Decrease
+T39	Positive_regulation 27 35	enhances
+T40	Regulation 48 59	sensitivity
+T41	Regulation 133 141	involved
+T42	Cell_proliferation 177 190	proliferation
+T43	Cell_differentiation 192 207	differentiation
+T44	Cell_death 212 221	apoptosis
+T45	Regulation 367 371	role
+T46	Regulation 396 407	sensitivity
+T47	Planned_process 479 490	transfected
+T48	Cell_death 594 606	cytotoxicity
+T49	Positive_regulation 594 606	cytotoxicity
+T50	Positive_regulation 629 637	increase
+T51	Regulation 645 656	sensitivity
+T52	Cell_death 723 732	apoptosis
+T53	Breakdown 912 922	disruption
+T54	Cell_death 1011 1038	apoptotic signaling pathway
+T55	Cell_death 1053 1062	apoptosis
+T56	Negative_regulation 1090 1098	decrease
+T57	Positive_regulation 1109 1117	increase
+T58	Negative_regulation 1138 1146	decrease
+T59	Gene_expression 1156 1166	expression
+T60	Positive_regulation 1197 1207	triggering
+T61	Cell_death 1216 1225	apoptosis
+T62	Positive_regulation 1282 1291	induction
+T63	Regulation 1403 1413	responsive
+T64	Planned_process 1433 1442	treatment
+T65	Negative_regulation 1458 1472	downregulation
+E2	Positive_regulation:T39 Theme:E3 Cause:E1
+E4	Regulation:T41 Cause:T4 Theme:E5
+E8	Regulation:T45 Cause:T9 Theme:E9
+E12	Positive_regulation:T49 Theme:E11 Cause:T19
+E13	Positive_regulation:T50 Theme:E14
+E21	Negative_regulation:T58 Theme:E22
+E23	Positive_regulation:T60 Cause:E21 Theme:E24
+E26	Regulation:T63 Cause:E27 Theme:T34
+E29	Regulation:T41 Cause:T4 Theme:E6
+E30	Regulation:T41 Cause:T4 Theme:E7
+E31	Regulation:T45 Cause:T9 Theme:E32
+E24	Cell_death:T61
+E5	Cell_proliferation:T42 Theme:T5
+E1	Negative_regulation:T38 Theme:T1
+E6	Cell_differentiation:T43 Theme:T5
+E14	Regulation:T51 Cause:T20 Theme:T21
+E32	Regulation:T46 Cause:T12 Theme:T10
+E7	Cell_death:T44 Theme:T5
+E11	Cell_death:T48 Theme:T21
+E9	Regulation:T46 Cause:T11 Theme:T10
+E22	Gene_expression:T59 Theme:T31
+E3	Regulation:T40 Cause:T3 Theme:T2
+E27	Planned_process:T64 Instrument:T36

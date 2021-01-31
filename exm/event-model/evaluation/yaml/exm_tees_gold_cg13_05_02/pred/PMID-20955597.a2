@@ -1,0 +1,87 @@
+T51	Negative_regulation 459 468	silencing
+T52	Positive_regulation 473 477	over
+T53	Gene_expression 478 488	expression
+T54	Regulation 513 521	modulate
+T55	Gene_expression 530 540	expression
+T58	Localization 777 785	invasion
+T59	Cell_death 790 799	apoptosis
+T56	Positive_regulation 633 637	over
+T57	Gene_expression 638 648	expressing
+T65	Positive_regulation 1108 1112	over
+T66	Gene_expression 1113 1123	expression
+T67	Positive_regulation 1179 1187	resulted
+T68	Positive_regulation 1199 1207	increase
+T69	Cell_proliferation 1216 1229	proliferation
+T71	Negative_regulation 1464 1479	down-regulation
+T72	Gene_expression 1497 1511	overexpression
+T73	Positive_regulation 1497 1511	overexpression
+T74	Cell_death 1571 1580	apoptosis
+T75	Positive_regulation 1581 1589	inducing
+T90	Negative_regulation 1523 1530	reduces
+T91	Regulation 1552 1563	sensitivity
+T61	Negative_regulation 951 960	silencing
+T62	Positive_regulation 1023 1029	caused
+T63	Negative_regulation 1054 1062	decrease
+T64	Cell_proliferation 1071 1084	proliferation
+T76	Positive_regulation 1643 1647	over
+T77	Gene_expression 1648 1658	expression
+T78	Positive_regulation 1659 1667	enhances
+T79	Localization 1678 1686	invasion
+T80	Localization 1687 1696	migration
+T60	Gene_expression 896 906	expression
+T85	Regulation 879 887	altering
+T81	Regulation 1823 1834	play a role
+T82	Positive_regulation 1838 1849	stimulating
+T83	Metastasis 1850 1860	metastasis
+T84	Death 1865 1873	survival
+T92	Negative_regulation 1795 1805	suppressor
+T93	Regulation 1830 1834	role
+T70	Cell_death 1334 1343	apoptotic
+T86	Negative_regulation 1307 1321	down-regulates
+T87	Positive_regulation 1375 1387	up-regulates
+T88	Cell_proliferation 1396 1402	growth
+T89	Positive_regulation 1403 1412	promoting
+T46	Positive_regulation 41 49	promotes
+T47	Localization 69 78	migration
+T48	Negative_regulation 83 93	attenuates
+T49	Cell_death 94 103	apoptosis
+T50	Cell_transformation 426 437	transformed
+E1	Negative_regulation:T51 Theme:T12
+E2	Gene_expression:T53 Theme:T12
+E3	Gene_expression:T55 Theme:T12
+E4	Positive_regulation:T52 Theme:E2
+E5	Cell_death:T59 Theme:T18
+E6	Localization:T58 Theme:T18
+E7	Gene_expression:T57 Theme:T16
+E8	Positive_regulation:T56 Theme:E7
+E9	Cell_proliferation:T69 Theme:T31
+E10	Gene_expression:T72 Theme:T37
+E11	Cell_death:T74 
+E12	Positive_regulation:T75 Theme:E11 Cause:T39
+E13	Positive_regulation:T73 Theme:E10
+E14	Negative_regulation:T71 Cause:E13 Theme:T36
+E15	Negative_regulation:T61 Theme:T22
+E16	Cell_proliferation:T64 Theme:T26
+E17	Negative_regulation:T63 Theme:E16
+E18	Positive_regulation:T62 Theme:T22 Cause:E15
+E19	Positive_regulation:T62 Theme:E17 Cause:E15
+E20	Localization:T80 Theme:T41
+E21	Localization:T79 Theme:T41
+E22	Gene_expression:T77 Theme:T40
+E23	Positive_regulation:T76 Theme:E22
+E24	Positive_regulation:T78 Theme:E22 Cause:E23
+E25	Positive_regulation:T78 Cause:E23 Theme:E21
+E26	Positive_regulation:T78 Cause:E23 Theme:E20
+E27	Gene_expression:T60 Theme:T19
+E28	Negative_regulation:T92 Cause:T42 Theme:T44
+E29	Metastasis:T83 
+E30	Death:T84 Theme:T45
+E31	Cell_death:T70 
+E32	Cell_proliferation:T88 Theme:T35
+E33	Positive_regulation:T87 Theme:E32 Cause:T33
+E34	Positive_regulation:T89 Theme:E32
+E35	Localization:T47 Theme:T2
+E36	Cell_death:T49 
+E37	Negative_regulation:T48 Cause:T1 Theme:E36
+E38	Positive_regulation:T46 Cause:T1 Theme:E35
+E39	Cell_transformation:T50 Theme:T11

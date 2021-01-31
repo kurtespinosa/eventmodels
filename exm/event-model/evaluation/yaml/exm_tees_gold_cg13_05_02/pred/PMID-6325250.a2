@@ -1,0 +1,61 @@
+T39	Positive_regulation 566 575	increased
+T40	Localization 592 601	transport
+T41	Positive_regulation 605 614	dependent
+T57	Cell_transformation 647 659	transforming
+T49	Infection 1190 1198	infected
+T50	Infection 1314 1322	infected
+T61	Planned_process 1190 1198	infected
+T62	Mutation 1209 1215	mutant
+T63	Phosphorylation 1256 1270	phosphorylated
+T64	Planned_process 1314 1322	infected
+T43	Positive_regulation 986 995	increases
+T44	Localization 1016 1025	transport
+T45	Infection 1064 1072	infected
+T46	Carcinogenesis 1110 1121	tumorigenic
+T47	Cell_transformation 1138 1152	transformation
+T48	Positive_regulation 1174 1181	induced
+T38	Cell_transformation 344 355	transformed
+T56	Positive_regulation 304 313	increased
+T51	Positive_regulation 1445 1454	necessary
+T52	Positive_regulation 1463 1472	increased
+T53	Localization 1481 1490	transport
+T65	Phosphorylation 1426 1441	phosphorylation
+T30	Positive_regulation 28 36	enhanced
+T31	Localization 45 54	transport
+T32	Cell_transformation 77 88	transformed
+T33	Positive_regulation 77 88	transformed
+T42	Infection 880 888	infected
+T58	Phosphorylation 814 829	phosphorylation
+T59	Planned_process 880 888	infected
+T60	Cell_transformation 915 927	transforming
+T34	Cell_transformation 97 111	Transformation
+T35	Positive_regulation 97 111	Transformation
+T36	Cell_transformation 190 201	transformed
+T37	Localization 208 217	transport
+T54	Positive_regulation 134 141	results
+T55	Positive_regulation 156 164	increase
+E1	Localization:T40 Theme:T14
+E2	Positive_regulation:T39 Theme:E1
+E3	Positive_regulation:T41 Theme:E2 Cause:T15
+E4	Planned_process:T61 Theme:T24
+E5	Planned_process:T64 Theme:T25
+E6	Infection:T50 Theme:T25 Participant:T26
+E7	Infection:T49 Theme:T24
+E8	Infection:T45 Participant:T21 Theme:T23
+E9	Cell_transformation:T47 Theme:T23
+E10	Carcinogenesis:T46 AtLoc:T23
+E11	Positive_regulation:T48 Theme:E9
+E12	Cell_transformation:T38 Theme:T8
+E13	Localization:T53 Theme:T29
+E14	Phosphorylation:T65 Theme:T28
+E15	Phosphorylation:T65 Theme:T29
+E16	Positive_regulation:T51 Theme:E13
+E17	Positive_regulation:T52 Theme:E13
+E18	Cell_transformation:T32 Theme:T3
+E19	Localization:T31 Theme:T1
+E20	Positive_regulation:T30 Theme:E19
+E21	Positive_regulation:T33 Cause:T2 Theme:E18
+E22	Planned_process:T59 Theme:T19
+E23	Infection:T42 Theme:T19 Participant:T20
+E24	Cell_transformation:T36 Theme:T5
+E25	Localization:T37 Theme:T6 ToLoc:T5

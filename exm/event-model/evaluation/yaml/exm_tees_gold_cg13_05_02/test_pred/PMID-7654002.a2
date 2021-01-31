@@ -1,0 +1,41 @@
+TR51	Carcinogenesis 403 414	tumorigenic
+TR52	Metastasis 416 426	metastatic
+TR59	Regulation 1200 1210	regulation
+TR53	Gene_expression 464 474	expression
+TR54	Metastasis 565 575	metastatic
+TR55	Metastasis 831 841	metastatic
+TR56	Gene_expression 850 859	expressed
+TR60	Regulation 1556 1562	change
+TR61	Metastasis 1570 1580	metastatic
+TR62	Metastasis 1606 1616	metastatic
+TR63	Positive_regulation 1640 1649	induction
+TR64	Gene_expression 1653 1663	expression
+TR57	Metastasis 987 997	metastatic
+TR58	Gene_expression 1043 1053	expression
+TR48	Carcinogenesis 264 275	tumorigenic
+TR49	Metastasis 310 320	metastatic
+TR50	Planned_process 326 337	transfected
+TR45	Carcinogenesis 142 153	tumorigenic
+TR46	Metastasis 162 172	metastatic
+TR47	Planned_process 201 212	transfected
+TR43	Metastasis 0 10	Metastatic
+TR44	Gene_expression 38 45	express
+E1	Carcinogenesis:TR51 AtLoc:T9
+E2	Metastasis:TR52 Theme:T9
+E3	Regulation:TR59 Theme:T34
+E4	Gene_expression:TR53 Theme:T13
+E5	Metastasis:TR54 
+E6	Gene_expression:TR56 Theme:T26
+E7	Metastasis:TR55 
+E8	Metastasis:TR62 
+E9	Metastasis:TR61 
+E10	Gene_expression:TR64 Theme:T42
+E11	Metastasis:TR57 
+E12	Gene_expression:TR58 Theme:T30
+E13	Planned_process:TR50 Theme:T6 Instrument:T8
+E14	Carcinogenesis:TR48 AtLoc:T6
+E15	Metastasis:TR49 Theme:T6
+E16	Carcinogenesis:TR45 AtLoc:T4
+E17	Metastasis:TR46 
+E18	Gene_expression:TR44 Theme:T2
+E19	Metastasis:TR43 

@@ -1,0 +1,45 @@
+TR31	Mutation 4 17	amplification
+TR32	Development 28 39	progression
+TR33	Gene_expression 50 59	deficient
+TR35	Gene_expression 276 286	expression
+TR36	Positive_regulation 322 332	activation
+TR37	Pathway 383 400	signaling pathway
+TR52	Pathway 393 400	pathway
+TR43	Planned_process 711 727	RNA interference
+TR44	Negative_regulation 789 794	delay
+TR45	Growth 804 810	growth
+TR54	Planned_process 728 737	targeting
+TR55	Positive_regulation 763 771	resulted
+TR46	Gene_expression 856 866	expression
+TR47	Regulation 985 989	role
+TR48	Positive_regulation 998 1008	activation
+TR49	Development 1027 1038	progression
+TR50	Gene_expression 1064 1074	deficiency
+TR34	Mutation 85 104	genetic alterations
+TR51	Mutation 93 104	alterations
+TR38	Gene_expression 434 443	deficient
+TR39	Development 528 539	progression
+TR40	Mutation 578 596	gene amplification
+TR41	Development 655 666	progression
+TR42	Gene_expression 693 702	deficient
+TR53	Mutation 583 596	amplification
+E1	Development:TR32 Theme:T2
+E2	Gene_expression:TR33 Theme:T3
+E3	Mutation:TR31 Theme:T1
+E4	Pathway:TR52 Participant:T9
+E5	Pathway:TR37 Participant:T9
+E6	Gene_expression:TR35 Theme:T8
+E7	Positive_regulation:TR36 Theme:E5
+E8	Growth:TR45 Theme:T22
+E9	Planned_process:TR54 Theme:T20
+E10	Negative_regulation:TR44 Theme:T22
+E11	Gene_expression:TR46 Theme:T24
+E12	Gene_expression:TR50 Theme:T30
+E13	Positive_regulation:TR48 Theme:T29
+E14	Development:TR49 Theme:T29
+E15	Regulation:TR47 Cause:E13 Theme:T28
+E16	Regulation:TR47 Cause:E13 Theme:E14
+E17	Development:TR39 Theme:T13
+E18	Gene_expression:TR38 Theme:T10
+E19	Development:TR41 Theme:T17
+E20	Gene_expression:TR42 Theme:T18

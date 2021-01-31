@@ -1,0 +1,26 @@
+T29	Infection 120 129	Infection
+T30	Positive_regulation 192 201	increases
+T31	Gene_expression 206 216	expression
+T32	Positive_regulation 317 327	activation
+T38	Regulation 292 300	involved
+T36	Positive_regulation 1213 1218	cause
+T37	Positive_regulation 89 99	activation
+T33	Positive_regulation 521 528	induces
+T34	Transcription 529 542	transcription
+T35	Gene_expression 547 557	expression
+T41	Positive_regulation 1584 1591	induced
+T42	Positive_regulation 1592 1602	activation
+T43	Carcinogenesis 1660 1674	leukemogenesis
+T40	Transcription 982 995	transcription
+T39	Mutation 706 715	deletions
+E1	Positive_regulation:T32 Theme:T9
+E2	Positive_regulation:T32 Theme:T10
+E3	Positive_regulation:T32 Theme:T8
+E4	Regulation:T38 Theme:T10
+E5	Infection:T29 Theme:T6 Participant:T7
+E6	Positive_regulation:T36 Theme:T24 Cause:T23
+E7	Positive_regulation:T37 Theme:T3
+E8	Transcription:T34 Theme:T15
+E9	Transcription:T34 Theme:T14
+E10	Carcinogenesis:T43 
+E11	Transcription:T40 Theme:T18

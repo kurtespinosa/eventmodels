@@ -1,0 +1,36 @@
+TR45	Gene_expression 1122 1132	expression
+TR46	Positive_regulation 1177 1187	contribute
+TR47	Cell_transformation 1196 1221	neoplastic transformation
+TR51	Cell_transformation 1207 1221	transformation
+TR44	Gene_expression 1049 1057	produced
+TR41	Gene_expression 429 439	synthesise
+TR50	Regulation 476 480	role
+TR34	Carcinogenesis 0 25	Neoplastic transformation
+TR35	Gene_expression 88 98	expression
+TR48	Carcinogenesis 11 25	transformation
+TR49	Cell_transformation 11 25	transformation
+TR42	Localization 687 702	immunolocalised
+TR43	Localization 961 968	stained
+TR36	Gene_expression 211 222	synthesised
+TR37	Localization 227 235	secreted
+TR38	Positive_regulation 282 292	initiation
+TR39	Development 300 311	development
+TR40	Gene_expression 331 341	production
+E1	Cell_transformation:TR51 
+E2	Gene_expression:TR45 Theme:T32
+E3	Cell_transformation:TR47 
+E4	Positive_regulation:TR46 Theme:T32 Cause:E2
+E5	Positive_regulation:TR46 Cause:E2 Theme:E3
+E6	Gene_expression:TR44 Theme:T30
+E7	Regulation:TR50 Cause:T10 Theme:T11
+E8	Gene_expression:TR41 Theme:T10
+E9	Gene_expression:TR35 Theme:T2
+E10	Carcinogenesis:TR48 
+E11	Carcinogenesis:TR34 AtLoc:T1
+E12	Cell_transformation:TR49 
+E13	Localization:TR42 Theme:T17 AtLoc:T19
+E14	Localization:TR42 Theme:T17 AtLoc:T24
+E15	Localization:TR42 Theme:T17 AtLoc:T18
+E16	Localization:TR43 AtLoc:T26 Theme:T29
+E17	Localization:TR43 Theme:T29 AtLoc:T27
+E18	Development:TR39 Theme:T7

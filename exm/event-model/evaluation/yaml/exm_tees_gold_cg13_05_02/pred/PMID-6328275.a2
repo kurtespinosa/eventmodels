@@ -1,0 +1,59 @@
+T54	Planned_process 62 73	established
+T55	Gene_expression 142 149	express
+T62	Transcription 697 707	expressing
+T86	DNA_methylation 662 672	methylated
+T83	Gene_expression 1729 1739	expression
+T84	Regulation 1767 1776	modulated
+T85	Transcription 1782 1799	transcriptionally
+T59	Transcription 499 509	expressing
+T60	DNA_domain_or_region 552 557	sites
+T61	DNA_methylation 599 609	methylated
+T74	Planned_process 1323 1333	Uncultured
+T75	Infection 1401 1409	infected
+T76	Gene_expression 1422 1431	expressed
+T77	DNA_methylation 1497 1509	unmethylated
+T52	DNA_methylation 4 15	methylation
+T53	Gene_expression 20 30	expression
+T58	Planned_process 325 331	cloned
+T69	Planned_process 951 962	established
+T70	Gene_expression 1100 1109	expressed
+T71	Transcription 1100 1109	expressed
+T72	Infection 1250 1258	positive
+T73	DNA_methylation 1309 1321	unmethylated
+T56	Gene_expression 216 226	expression
+T57	Transcription 253 263	detectable
+T78	Gene_expression 1545 1555	expression
+T79	Positive_regulation 1574 1583	increased
+T80	Regulation 1604 1611	changes
+T81	DNA_methylation 1629 1640	methylation
+T82	Transcription 1673 1679	amount
+T63	Planned_process 738 747	Treatment
+T64	Positive_regulation 784 792	resulted
+T65	Positive_regulation 800 809	induction
+T66	Gene_expression 832 842	expression
+T67	Transcription 848 858	appearance
+T68	DNA_demethylation 893 906	demethylation
+T87	DNA_methylation 893 906	demethylation
+E1	Gene_expression:T55 Theme:T6
+E2	Planned_process:T54 Theme:T3
+E3	Transcription:T62 Theme:T21
+E4	Gene_expression:T83 Theme:T51
+E5	Transcription:T85 Theme:T51
+E6	Regulation:T84 Theme:E4
+E7	Transcription:T59 Theme:T15
+E8	DNA_methylation:T61 Theme:T13
+E9	Infection:T75 Theme:T43 Participant:T42
+E10	Gene_expression:T76 Theme:T44
+E11	Gene_expression:T53 Theme:T2
+E12	Planned_process:T58 Theme:T11
+E13	DNA_methylation:T73 Theme:T38
+E14	DNA_methylation:T73 Theme:T36
+E15	Planned_process:T69 Theme:T28
+E16	Gene_expression:T70 Theme:T32 Theme:T33
+E17	Gene_expression:T70 Theme:T32
+E18	Gene_expression:T70 Theme:T33
+E19	Infection:T72 Participant:T39 Theme:T40
+E20	Transcription:T57 Theme:T8
+E21	DNA_methylation:T81 Theme:T49
+E22	DNA_demethylation:T68 Theme:T26
+E23	DNA_methylation:T87 Theme:T26

@@ -1,0 +1,51 @@
+TR56	Cell_death 134 143	Apoptosis
+TR57	Regulation 149 158	regulated
+TR58	Death 172 177	death
+TR59	Positive_regulation 190 199	triggered
+TR60	Positive_regulation 251 257	effect
+TR61	Breakdown 270 275	lysis
+TR73	Regulation 251 257	effect
+TR74	Dissociation 270 275	lysis
+TR62	Death 548 553	death
+TR75	Gene_expression 421 431	expression
+TR66	Gene_expression 1041 1050	expressed
+TR67	Gene_expression 1094 1103	expressed
+TR70	Death 1437 1442	death
+TR63	Gene_expression 571 581	Expression
+TR71	Regulation 1630 1636	effect
+TR72	Cell_death 1656 1665	apoptosis
+TR76	Negative_regulation 1637 1644	massive
+TR68	Gene_expression 1258 1266	positive
+TR69	Death 1294 1299	death
+TR54	Regulation 101 110	mediating
+TR55	Cell_death 122 131	apoptosis
+TR64	Gene_expression 920 929	expressed
+TR65	Gene_expression 957 966	expressed
+E1	Cell_death:TR56 
+E2	Breakdown:TR61 Theme:T8
+E3	Positive_regulation:TR60 Cause:E1 Theme:E2
+E4	Regulation:TR73 Theme:E3
+E5	Death:TR62 Theme:T11
+E6	Gene_expression:TR67 Theme:T35
+E7	Death:TR70 Theme:T43
+E8	Gene_expression:TR63 Theme:T14 Theme:T13
+E9	Gene_expression:TR63 Theme:T14 Theme:T16
+E10	Gene_expression:TR63 Theme:T14
+E11	Gene_expression:TR63 Theme:T13 Theme:T16
+E12	Gene_expression:TR63 Theme:T13
+E13	Gene_expression:TR63 Theme:T16
+E14	Cell_death:TR72 Theme:T48
+E15	Regulation:TR71 Theme:E14
+E16	Gene_expression:TR68 Theme:T39
+E17	Death:TR69 Theme:T41
+E18	Death:TR69 Theme:T40
+E19	Cell_death:TR55 Theme:T3
+E20	Regulation:TR54 Theme:E19
+E21	Gene_expression:TR65 Theme:T28 Theme:T29 Theme:T27
+E22	Gene_expression:TR65 Theme:T28 Theme:T29
+E23	Gene_expression:TR65 Theme:T28 Theme:T27
+E24	Gene_expression:TR65 Theme:T28
+E25	Gene_expression:TR65 Theme:T29 Theme:T27
+E26	Gene_expression:TR65 Theme:T29
+E27	Gene_expression:TR65 Theme:T27
+E28	Gene_expression:TR64 Theme:T27

@@ -1,0 +1,57 @@
+TR58	Regulation 943 950	changes
+TR59	Blood_vessel_development 954 966	angiogenesis
+TR60	Regulation 971 982	responsible
+TR61	Negative_regulation 991 999	decrease
+TR62	Synthesis 1016 1025	synthesis
+TR63	Development 1069 1079	luteinized
+TR77	Planned_process 1098 1107	injection
+TR56	Regulation 810 816	effect
+TR57	Synthesis 870 879	synthesis
+TR76	Gene_expression 870 879	synthesis
+TR67	Negative_regulation 1508 1517	inhibited
+TR68	Development 1522 1535	establishment
+TR69	Planned_process 1578 1587	injection
+TR70	Regulation 1674 1684	associated
+TR71	Development 1694 1703	formation
+TR72	Positive_regulation 1729 1740	stimulation
+TR73	Blood_vessel_development 1744 1756	angiogenesis
+TR64	Regulation 1351 1358	changes
+TR65	Regulation 1382 1393	responsible
+TR66	Negative_regulation 1402 1410	decrease
+TR74	Regulation 9 13	role
+TR44	Development 97 108	development
+TR45	Blood_vessel_development 151 163	angiogenesis
+TR75	Positive_regulation 168 177	essential
+TR52	Planned_process 475 484	Injection
+TR53	Negative_regulation 578 587	decreased
+TR54	Planned_process 625 634	injection
+TR55	Regulation 734 740	effect
+TR46	Regulation 240 245	roles
+TR47	Blood_vessel_development 314 326	angiogenesis
+TR48	Synthesis 344 354	production
+TR49	Development 368 374	formed
+TR50	Positive_regulation 436 443	induced
+TR51	Planned_process 444 458	pseudopregnant
+E1	Blood_vessel_development:TR59 
+E2	Synthesis:TR62 Theme:T26
+E3	Planned_process:TR77 Theme:T29
+E4	Negative_regulation:TR61 Theme:E2
+E5	Development:TR63 Theme:T29
+E6	Synthesis:TR57 Theme:T24
+E7	Regulation:TR56 Theme:T23
+E8	Planned_process:TR69 Instrument:T41
+E9	Development:TR71 Theme:T43
+E10	Blood_vessel_development:TR73 Theme:T43
+E11	Positive_regulation:TR72 Cause:T42 Theme:E10
+E12	Regulation:TR70 Theme:E9 Cause:E11
+E13	Negative_regulation:TR66 Theme:T37
+E14	Regulation:TR74 Cause:T1 Theme:T2
+E15	Development:TR44 Theme:T4
+E16	Development:TR44 Theme:T3
+E17	Blood_vessel_development:TR45 Theme:T4
+E18	Blood_vessel_development:TR45 Theme:T3
+E19	Blood_vessel_development:TR45 
+E20	Planned_process:TR52 Instrument:T13
+E21	Negative_regulation:TR53 Theme:T16
+E22	Blood_vessel_development:TR47 
+E23	Development:TR49 Theme:T9

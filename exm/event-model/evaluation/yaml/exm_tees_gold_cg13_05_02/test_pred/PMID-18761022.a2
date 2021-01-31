@@ -1,0 +1,70 @@
+TR92	Cell_proliferation 1186 1191	grown
+TR93	Planned_process 1212 1222	transgenic
+TR94	Gene_expression 1240 1250	expression
+TR95	Gene_expression 1279 1289	expressing
+TR96	Gene_expression 1322 1330	positive
+TR75	Gene_expression 374 383	expressed
+TR76	Development 408 421	embryogenesis
+TR77	Carcinogenesis 426 439	tumorigenesis
+TR97	Gene_expression 1429 1439	expression
+TR88	Planned_process 992 1002	Transgenic
+TR89	Gene_expression 1022 1029	express
+TR90	Planned_process 1047 1051	bred
+TR91	Growth 1099 1105	growth
+TR87	Positive_regulation 960 969	essential
+TR74	Development 265 276	development
+TR72	Development 91 100	formation
+TR73	Binding 152 163	interaction
+TR71	Blood_vessel_development 67 85	neovascularization
+TR98	Gene_expression 1500 1509	expressed
+TR99	Blood_vessel_development 1548 1560	angiogenesis
+TR100	Development 1588 1599	development
+TR78	Development 485 494	developed
+TR79	Planned_process 485 494	developed
+TR80	Gene_expression 551 561	expression
+TR81	Localization 623 631	residing
+TR101	Growth 1773 1779	growth
+TR102	Development 1793 1804	development
+TR82	Positive_regulation 663 670	capable
+TR83	Negative_regulation 674 684	preventing
+TR84	Development 699 708	formation
+TR85	Negative_regulation 724 733	inhibited
+TR86	Localization 734 743	migration
+E1	Gene_expression:TR96 Theme:T54
+E2	Gene_expression:TR95 Theme:T52
+E3	Planned_process:TR93 Instrument:T49 Theme:T50
+E4	Gene_expression:TR94 Theme:T51
+E5	Gene_expression:TR75 Theme:T12 Theme:T13
+E6	Gene_expression:TR75 Theme:T12
+E7	Gene_expression:TR75 Theme:T13
+E8	Carcinogenesis:TR77 AtLoc:T16
+E9	Gene_expression:TR97 Theme:T59
+E10	Growth:TR91 Theme:T44
+E11	Planned_process:TR90 Instrument:T42 Theme:T40
+E12	Gene_expression:TR89 Theme:T42
+E13	Planned_process:TR88 Theme:T40
+E14	Positive_regulation:TR87 Theme:T39
+E15	Development:TR74 Theme:T11
+E16	Development:TR74 Theme:T10
+E17	Development:TR72 Theme:T7
+E18	Binding:TR73 Theme:T9 Theme2:T8
+E19	Binding:TR73 Theme:T8 Theme2:T9
+E20	Blood_vessel_development:TR71 AtLoc:T6
+E21	Development:TR100 Theme:T64
+E22	Development:TR100 Theme:T63
+E23	Blood_vessel_development:TR99 
+E24	Gene_expression:TR98 Theme:T61
+E25	Gene_expression:TR80 Theme:T19
+E26	Localization:TR81 Theme:T22
+E27	Planned_process:TR79 Theme:T18
+E28	Development:TR102 Theme:T70
+E29	Growth:TR101 Theme:T69
+E30	Localization:TR86 Theme:T27
+E31	Development:TR84 Theme:T25
+E32	Development:TR84 Theme:T26
+E33	Negative_regulation:TR83 Theme:E31
+E34	Negative_regulation:TR83 Theme:E32
+E35	Negative_regulation:TR85 Theme:E30 Cause:T24
+E36	Negative_regulation:TR85 Theme:E30
+E37	Positive_regulation:TR82 Cause:T24 Theme:E33
+E38	Positive_regulation:TR82 Cause:T24 Theme:E34

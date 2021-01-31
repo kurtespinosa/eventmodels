@@ -1,0 +1,67 @@
+TR56	Positive_regulation 685 694	induction
+TR57	Planned_process 717 727	denudation
+TR58	Regulation 732 741	regulated
+TR59	Localization 781 789	released
+TR43	Positive_regulation 0 9	Induction
+TR44	Blood_vessel_development 47 67	reendothelialization
+TR45	Positive_regulation 125 132	induced
+TR46	Blood_vessel_development 167 179	angiogenesis
+TR53	Positive_regulation 571 580	induction
+TR54	Positive_regulation 599 609	reproduced
+TR55	Planned_process 621 631	denudation
+TR51	Positive_regulation 445 456	accumulated
+TR52	Blood_vessel_development 527 547	reendothelialization
+TR49	Planned_process 342 349	denuded
+TR50	Gene_expression 376 385	expressed
+TR61	Positive_regulation 1062 1071	activated
+TR62	Positive_regulation 1094 1104	activation
+TR72	Planned_process 1078 1088	denudation
+TR67	Positive_regulation 1374 1381	induced
+TR68	Planned_process 1395 1405	denudation
+TR69	Positive_regulation 1414 1424	activation
+TR47	Gene_expression 207 217	expression
+TR48	Blood_vessel_development 234 254	reendothelialization
+TR63	Regulation 1214 1220	affect
+TR64	Positive_regulation 1225 1234	induction
+TR65	Negative_regulation 1312 1321	abrogated
+TR66	Positive_regulation 1326 1335	induction
+TR73	Negative_regulation 1301 1311	completely
+TR70	Positive_regulation 1438 1447	induction
+TR71	Blood_vessel_development 1477 1497	reendothelialization
+E1	Planned_process:TR57 Theme:T20
+E2	Positive_regulation:TR56 Theme:T20
+E3	Positive_regulation:TR56 Theme:T19
+E4	Localization:TR59 Theme:T21 FromLoc:T22
+E5	Blood_vessel_development:TR44 
+E6	Positive_regulation:TR43 Theme:T1
+E7	Positive_regulation:TR45 Theme:T3
+E8	Blood_vessel_development:TR46 
+E9	Positive_regulation:TR53 Theme:T16
+E10	Planned_process:TR55 Theme:T18
+E11	Positive_regulation:TR54 Cause:E10 Theme:T18
+E12	Positive_regulation:TR54 Cause:E10 Theme:E9
+E13	Positive_regulation:TR51 Theme:T13
+E14	Blood_vessel_development:TR52 
+E15	Gene_expression:TR50 Theme:T12
+E16	Planned_process:TR72 
+E17	Positive_regulation:TR62 Theme:T32
+E18	Positive_regulation:TR62 Theme:T33
+E19	Positive_regulation:TR61 Theme:T31
+E20	Positive_regulation:TR61 Theme:T30
+E21	Positive_regulation:TR61 Theme:T25
+E22	Positive_regulation:TR61 Theme:T27
+E23	Positive_regulation:TR61 Theme:T29
+E24	Positive_regulation:TR61 Theme:T28
+E25	Positive_regulation:TR61 Theme:T26
+E26	Positive_regulation:TR69 Theme:T41
+E27	Positive_regulation:TR69 Theme:T40
+E28	Positive_regulation:TR67 Theme:T39 Cause:E26
+E29	Positive_regulation:TR67 Theme:T39 Cause:E27
+E30	Gene_expression:TR47 Theme:T6
+E31	Blood_vessel_development:TR48 
+E32	Positive_regulation:TR66 Theme:T38 Cause:T37
+E33	Positive_regulation:TR64 Theme:T36
+E34	Regulation:TR63 Theme:E33 Cause:T34
+E35	Negative_regulation:TR65 Cause:T37 Theme:E32
+E36	Blood_vessel_development:TR71 
+E37	Positive_regulation:TR70 Theme:T42

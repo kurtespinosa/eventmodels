@@ -1,0 +1,88 @@
+TR58	Gene_expression 572 582	expressing
+TR59	Growth 600 604	grew
+TR85	Cell_proliferation 600 604	grew
+TR76	Negative_regulation 1417 1427	suppressor
+TR77	Transcription 1441 1456	transcriptional
+TR78	Negative_regulation 1457 1467	repression
+TR46	Regulation 34 43	modulates
+TR47	Cell_proliferation 49 55	growth
+TR48	Planned_process 83 94	transformed
+TR49	Negative_regulation 107 117	repressing
+TR50	Transcription 122 135	transcription
+TR79	Positive_regulation 83 94	transformed
+TR66	Binding 992 999	binding
+TR67	Negative_regulation 1070 1077	repress
+TR87	Mutation 962 969	Mutants
+TR88	Protein_domain_or_region 1053 1059	domain
+TR68	Planned_process 1147 1152	added
+TR69	Gene_expression 1182 1192	expressing
+TR70	Positive_regulation 1203 1209	caused
+TR71	Binding 1217 1228	aggregation
+TR72	Positive_regulation 1255 1261	caused
+TR73	Gene_expression 1269 1279	expression
+TR54	Gene_expression 443 453	expression
+TR55	Planned_process 468 479	transformed
+TR56	Negative_regulation 494 502	inhibits
+TR57	Cell_proliferation 508 514	growth
+TR83	Cell_transformation 468 479	transformed
+TR84	Positive_regulation 468 479	transformed
+TR74	Negative_regulation 1298 1307	inhibited
+TR75	Planned_process 1332 1343	transformed
+TR89	Localization 1312 1324	invasiveness
+TR90	Cell_transformation 1332 1343	transformed
+TR91	Positive_regulation 1332 1343	transformed
+TR60	Gene_expression 671 681	expressing
+TR61	Negative_regulation 768 777	repressed
+TR52	Mutation 314 323	disrupted
+TR53	Mutation 347 369	loss of heterozygosity
+TR82	Mutation 355 369	heterozygosity
+TR62	Binding 790 795	bound
+TR63	DNA_domain_or_region 827 835	promoter
+TR64	Negative_regulation 840 849	repressed
+TR65	Gene_expression 876 886	expression
+TR86	Regulation 950 960	regulation
+TR51	Binding 219 228	interacts
+TR80	Regulation 269 277	regulate
+TR81	Transcription 278 291	transcription
+E1	Growth:TR59 Theme:T20
+E2	Cell_proliferation:TR85 Theme:T20
+E3	Gene_expression:TR58 Theme:T22
+E4	Gene_expression:TR58 Theme:T21
+E5	Transcription:TR77 Theme:T45
+E6	Negative_regulation:TR78 Theme:E5 Cause:T43
+E7	Negative_regulation:TR76 Cause:E6 Theme:T44
+E8	Cell_proliferation:TR47 Theme:T6
+E9	Cell_proliferation:TR47 Theme:T3
+E10	Regulation:TR46 Cause:T1 Theme:E8
+E11	Regulation:TR46 Cause:T1 Theme:E9
+E12	Negative_regulation:TR67 Theme:T33
+E13	Binding:TR66 Theme:T31
+E14	Binding:TR71 Theme:T38
+E15	Gene_expression:TR73 Theme:T39
+E16	Planned_process:TR68 Theme:T37 Instrument:T34
+E17	Gene_expression:TR69 Theme:T36
+E18	Positive_regulation:TR72 Theme:E14 Cause:E15
+E19	Positive_regulation:TR70 Theme:E14 Cause:T34
+E20	Cell_proliferation:TR57 Theme:T19
+E21	Cell_transformation:TR83 Theme:T18
+E22	Planned_process:TR55 Instrument:T17 Theme:T18
+E23	Gene_expression:TR54 Theme:T16
+E24	Negative_regulation:TR56 Theme:E20 Cause:E23
+E25	Planned_process:TR75 Theme:T42 Instrument:T41
+E26	Cell_transformation:TR90 Theme:T42
+E27	Localization:TR89 Theme:T42
+E28	Negative_regulation:TR74 Cause:T40 Theme:T42
+E29	Gene_expression:TR60 Theme:T24 Theme:T23
+E30	Gene_expression:TR60 Theme:T24
+E31	Gene_expression:TR60 Theme:T23
+E32	Negative_regulation:TR61 Cause:T27 Theme:T26
+E33	Gene_expression:TR65 Theme:T29
+E34	Negative_regulation:TR64 Theme:E33 Cause:T28
+E35	Transcription:TR81 Theme:T9
+E36	Transcription:TR81 Theme:T11
+E37	Transcription:TR81 Theme:T10
+E38	Transcription:TR81 Theme:T8
+E39	Regulation:TR80 Cause:T8 Theme:E35
+E40	Regulation:TR80 Cause:T8 Theme:E36
+E41	Regulation:TR80 Cause:T8 Theme:E37
+E42	Regulation:TR80 Cause:T8 Theme:E38

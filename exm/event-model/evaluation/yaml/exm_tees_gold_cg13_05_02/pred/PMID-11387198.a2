@@ -1,0 +1,101 @@
+T28	Blood_vessel_development 117 127	angiogenic
+T29	Carcinogenesis 142 155	tumorigenesis
+T30	Positive_regulation 173 180	induced
+T31	Blood_vessel_development 216 226	angiogenic
+T32	Blood_vessel_development 236 246	angiogenic
+T62	Blood_vessel_development 1210 1222	angiogenesis
+T63	Carcinogenesis 1251 1264	tumorigenesis
+T64	Positive_regulation 1278 1286	enhanced
+T65	Gene_expression 1301 1311	expression
+T66	Negative_regulation 1339 1346	defense
+T72	Positive_regulation 1180 1192	upregulation
+T41	Gene_expression 499 509	expression
+T42	Positive_regulation 523 534	upregulated
+T43	Carcinogenesis 616 629	tumorigenesis
+T44	Blood_vessel_development 642 654	angiogenesis
+T45	Positive_regulation 703 710	induced
+T68	Mutation 564 573	wild-type
+T46	Gene_expression 747 757	deficiency
+T47	Positive_regulation 771 779	enhanced
+T48	Carcinogenesis 803 817	carcinogenesis
+T49	Positive_regulation 850 859	increased
+T50	Development 866 875	formation
+T69	Positive_regulation 822 830	resulted
+T70	Positive_regulation 834 845	accelerated
+T25	Negative_regulation 17 40	plays a protective role
+T26	Carcinogenesis 54 68	carcinogenesis
+T27	Negative_regulation 94 101	defense
+T67	Regulation 36 40	role
+T33	Regulation 284 288	role
+T34	Blood_vessel_development 307 319	angiogenesis
+T35	Negative_regulation 320 329	inhibitor
+T36	Carcinogenesis 372 386	carcinogenesis
+T37	Planned_process 391 400	subjected
+T38	Gene_expression 407 416	deficient
+T39	Mutation 421 430	wild-type
+T40	Carcinogenesis 455 469	carcinogenesis
+T51	Blood_vessel_development 881 891	angiogenic
+T52	Development 947 956	formation
+T53	Blood_vessel_development 968 980	angiogenesis
+T54	Positive_regulation 999 1007	enhanced
+T55	Gene_expression 1017 1026	deficient
+T56	Gene_expression 1045 1055	deficiency
+T57	Regulation 1064 1070	affect
+T58	Cell_differentiation 1077 1092	differentiation
+T59	Growth 1096 1109	proliferation
+T60	Cell_death 1122 1131	apoptosis
+T61	Negative_regulation 1150 1157	reduced
+T71	Cell_proliferation 1096 1109	proliferation
+E1	Blood_vessel_development:T32 
+E2	Blood_vessel_development:T31 
+E3	Carcinogenesis:T29 
+E4	Blood_vessel_development:T28 
+E5	Positive_regulation:T30 Theme:E4
+E6	Positive_regulation:T30 Theme:E3
+E7	Carcinogenesis:T63 
+E8	Blood_vessel_development:T62 
+E9	Gene_expression:T65 Theme:T23
+E10	Positive_regulation:T64 Theme:E9
+E11	Negative_regulation:T66 Theme:T24 Cause:E10
+E12	Positive_regulation:T45 Theme:T11
+E13	Gene_expression:T41 Theme:T11
+E14	Gene_expression:T41 Theme:T8
+E15	Blood_vessel_development:T44 
+E16	Positive_regulation:T42 Theme:E13
+E17	Positive_regulation:T42 Theme:E14
+E18	Development:T50 Theme:T15
+E19	Carcinogenesis:T48 AtLoc:T14
+E20	Carcinogenesis:T48 Theme:T15
+E21	Gene_expression:T46 Theme:T13
+E22	Positive_regulation:T47 Theme:E19 Cause:E21
+E23	Positive_regulation:T47 Theme:E20 Cause:E21
+E24	Positive_regulation:T49 Theme:E18 Cause:E21
+E25	Carcinogenesis:T26 
+E26	Negative_regulation:T27 Theme:T2
+E27	Negative_regulation:T27 Theme:E25
+E28	Regulation:T67 Cause:T1 Theme:E25
+E29	Negative_regulation:T25 Cause:T1 Theme:E25
+E30	Carcinogenesis:T36 
+E31	Gene_expression:T38 Theme:T5
+E32	Blood_vessel_development:T34 
+E33	Carcinogenesis:T40 AtLoc:T7
+E34	Regulation:T33 Cause:T3 Theme:E30
+E35	Regulation:T33 Cause:T4 Theme:E30
+E36	Negative_regulation:T35 Theme:E32 Cause:T4
+E37	Negative_regulation:T35 Theme:E32 Cause:T3
+E38	Blood_vessel_development:T51 AtLoc:T17
+E39	Blood_vessel_development:T53 AtLoc:T17
+E40	Development:T52 Theme:T16
+E41	Positive_regulation:T54 Theme:E40
+E42	Positive_regulation:T54 Theme:E39
+E43	Growth:T59 Theme:T22
+E44	Growth:T59 Theme:T21
+E45	Gene_expression:T56 Theme:T20
+E46	Cell_differentiation:T58 AtLoc:T21
+E47	Regulation:T57 Theme:E46 Cause:E45
+E48	Regulation:T57 Theme:E43 Cause:E45
+E49	Regulation:T57 Theme:E44 Cause:E45
+E50	Cell_death:T60 Theme:T22
+E51	Cell_death:T60 
+E52	Negative_regulation:T61 Cause:E45 Theme:E50
+E53	Negative_regulation:T61 Cause:E45 Theme:E51

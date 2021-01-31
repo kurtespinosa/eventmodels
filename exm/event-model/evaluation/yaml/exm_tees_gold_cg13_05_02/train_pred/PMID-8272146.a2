@@ -1,0 +1,27 @@
+TR19	Synthesis 207 216	producing
+TR29	Regulation 139 145	effect
+TR24	Planned_process 595 603	addition
+TR25	Negative_regulation 655 664	decreased
+TR26	Negative_regulation 815 823	decrease
+TR33	Binding 868 879	interaction
+TR34	Remodeling 922 931	integrity
+TR27	Regulation 0 6	Effect
+TR28	Metabolism 48 58	metabolism
+TR20	Metabolism 309 320	consumption
+TR21	Metabolism 334 343	formation
+TR22	Metabolism 418 429	respiration
+TR23	Planned_process 466 475	incubated
+TR30	Regulation 283 289	effect
+TR31	Synthesis 334 343	formation
+TR32	Protein_domain_or_region 363 367	T-SH
+E1	Regulation:TR29 Cause:T3 Theme:T5
+E2	Synthesis:TR19 Theme:T4
+E3	Negative_regulation:TR25 Theme:T14
+E4	Binding:TR33 Theme:T17
+E5	Negative_regulation:TR26 Theme:T16
+E6	Remodeling:TR34 Theme:T18
+E7	Planned_process:TR23 Theme:T10
+E8	Metabolism:TR22 Theme:T9
+E9	Metabolism:TR20 Theme:T7
+E10	Metabolism:TR21 Theme:T8
+E11	Synthesis:TR31 Theme:T8

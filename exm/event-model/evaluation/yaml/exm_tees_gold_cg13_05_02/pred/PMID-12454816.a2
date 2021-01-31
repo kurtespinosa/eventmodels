@@ -1,0 +1,38 @@
+T60	Gene_expression 253 263	expression
+T61	Gene_expression 350 360	expression
+T62	Gene_expression 467 477	expression
+T79	Binding 432 443	association
+T66	Gene_expression 1056 1066	expression
+T77	Gene_expression 2142 2152	expression
+T78	Planned_process 2191 2201	undergoing
+T80	Regulation 2249 2253	role
+T74	Regulation 2019 2028	influence
+T75	Gene_expression 2036 2046	expression
+T76	Metastasis 2113 2123	metastatic
+T73	Metastasis 1800 1810	metastases
+T72	Gene_expression 1635 1645	expression
+T63	Gene_expression 632 642	expression
+T58	Gene_expression 24 34	expression
+T69	Gene_expression 1171 1181	expression
+T67	Gene_expression 1075 1085	expression
+T68	Metastasis 1115 1125	metastases
+T64	Gene_expression 734 744	expression
+T65	Localization 845 857	localization
+T71	Gene_expression 1524 1534	expression
+T70	Gene_expression 1372 1382	expressing
+T59	Planned_process 148 157	treatment
+E1	Gene_expression:T60 Theme:T8
+E2	Gene_expression:T62 Theme:T13
+E3	Gene_expression:T61 Theme:T10
+E4	Gene_expression:T66 Theme:T26
+E5	Planned_process:T78 Theme:T56
+E6	Gene_expression:T77 Theme:T55
+E7	Metastasis:T73 ToLoc:T47
+E8	Gene_expression:T72 Theme:T42
+E9	Gene_expression:T63 Theme:T17
+E10	Gene_expression:T58 Theme:T1
+E11	Gene_expression:T69 Theme:T29
+E12	Gene_expression:T67 Theme:T27
+E13	Gene_expression:T64 Theme:T21
+E14	Gene_expression:T71 Theme:T40
+E15	Gene_expression:T70 Theme:T36

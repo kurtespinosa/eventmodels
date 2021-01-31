@@ -1,0 +1,27 @@
+T37	Synthesis 167 177	production
+T38	Glycolysis 239 258	glycolytic sequence
+T39	Pathway 282 287	cycle
+T40	Planned_process 442 451	incubated
+T53	Glycolysis 250 258	sequence
+T54	Localization 471 479	presence
+T45	Glycolysis 923 933	glycolysis
+T46	Pathway 958 963	cycle
+T47	Localization 974 983	transport
+T48	Pathway 1010 1017	shuttle
+T50	Synthesis 1317 1326	synthesis
+T51	Synthesis 1418 1427	generated
+T52	Pathway 1502 1509	shuttle
+T36	Pathway 72 79	shuttle
+T49	Pathway 1133 1140	shuttle
+T55	Negative_regulation 1204 1212	reducing
+E1	Synthesis:T37 Theme:T4
+E2	Synthesis:T37 Theme:T3
+E3	Glycolysis:T53 
+E4	Glycolysis:T38 
+E5	Glycolysis:T45 
+E6	Pathway:T46 Participant:T19
+E7	Synthesis:T50 Theme:T29
+E8	Pathway:T52 Participant:T34 Participant2:T35
+E9	Synthesis:T51 Theme:T30
+E10	Pathway:T36 Participant:T1
+E11	Pathway:T49 Participant:T26

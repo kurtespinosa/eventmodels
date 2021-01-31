@@ -1,0 +1,97 @@
+TR78	Planned_process 1491 1500	Targeting
+TR79	Localization 1581 1590	migration
+TR47	Planned_process 301 309	cultured
+TR48	Gene_expression 315 325	expression
+TR55	Positive_regulation 695 705	activation
+TR56	Negative_regulation 706 715	decreased
+TR57	Localization 723 732	migration
+TR58	Negative_regulation 733 739	slowed
+TR59	Positive_regulation 768 778	activation
+TR60	Transcription 780 795	mRNA expression
+TR61	Positive_regulation 906 915	increased
+TR62	Localization 919 928	migrating
+TR63	Localization 978 987	Migration
+TR64	Positive_regulation 988 995	induced
+TR65	Positive_regulation 1002 1012	activation
+TR66	Negative_regulation 1024 1033	inhibited
+TR67	Negative_regulation 1115 1125	Inhibition
+TR68	Positive_regulation 1135 1138	led
+TR69	Negative_regulation 1142 1151	decreased
+TR70	Localization 1156 1165	migration
+TR71	Gene_expression 1207 1216	deficient
+TR72	Negative_regulation 1310 1320	inhibition
+TR73	Negative_regulation 1328 1338	suppressed
+TR74	Localization 1398 1406	motility
+TR82	Transcription 785 795	expression
+TR83	Negative_regulation 1280 1288	impaired
+TR49	Localization 502 511	migration
+TR81	Cell_proliferation 427 433	growth
+TR44	Positive_regulation 132 142	activation
+TR45	Regulation 204 217	critical role
+TR46	Localization 238 247	migration
+TR80	Regulation 213 217	role
+TR41	Positive_regulation 1 11	Activation
+TR42	Regulation 65 76	involvement
+TR43	Localization 97 106	migration
+TR75	Positive_regulation 1430 1439	activated
+TR76	Regulation 1451 1472	plays a critical role
+TR77	Localization 1480 1489	migration
+TR84	Regulation 1468 1472	role
+TR50	Positive_regulation 536 545	activated
+TR51	Localization 557 566	migration
+TR52	Positive_regulation 603 612	increased
+TR53	Localization 634 643	migrating
+TR54	Localization 659 672	non-migrating
+E1	Localization:TR79 Theme:T39
+E2	Localization:TR79 Theme:T40
+E3	Planned_process:TR78 Theme:T39
+E4	Planned_process:TR47 Theme:T7 Theme2:T8
+E5	Gene_expression:TR48 Theme:T9 Theme:T10
+E6	Gene_expression:TR48 Theme:T9
+E7	Gene_expression:TR48 Theme:T10
+E8	Localization:TR57 Theme:T17
+E9	Transcription:TR60 Theme:T20
+E10	Transcription:TR60 Theme:T19
+E11	Transcription:TR60 Theme:T21
+E12	Transcription:TR82 Theme:T20
+E13	Transcription:TR82 Theme:T19
+E14	Transcription:TR82 Theme:T21
+E15	Positive_regulation:TR65 Theme:T23
+E16	Localization:TR70 Theme:T28
+E17	Localization:TR63 Theme:T24
+E18	Positive_regulation:TR55 Theme:T16
+E19	Positive_regulation:TR59 Theme:T18
+E20	Gene_expression:TR71 Theme:T32
+E21	Gene_expression:TR71 Theme:T31
+E22	Gene_expression:TR71 Theme:T30
+E23	Negative_regulation:TR67 Theme:T27
+E24	Localization:TR62 Theme:T22
+E25	Negative_regulation:TR72 Theme:T33
+E26	Negative_regulation:TR66 Cause:T26 Theme:E17
+E27	Negative_regulation:TR66 Theme:E17 Cause:T25
+E28	Negative_regulation:TR73 Theme:T35 Cause:E25
+E29	Negative_regulation:TR73 Cause:E25 Theme:T33
+E30	Positive_regulation:TR64 Cause:E17 Theme:E15
+E31	Negative_regulation:TR69 Theme:E16
+E32	Negative_regulation:TR56 Theme:E18
+E33	Negative_regulation:TR58 Theme:E8
+E34	Positive_regulation:TR68 Theme:E31 Cause:E23
+E35	Localization:TR49 Theme:T11
+E36	Positive_regulation:TR44 Theme:T4
+E37	Positive_regulation:TR44 Theme:T3
+E38	Localization:TR46 Theme:T5
+E39	Regulation:TR45 Cause:T3 Theme:E38
+E40	Regulation:TR45 Theme:E38 Cause:T4
+E41	Regulation:TR80 Cause:E36 Theme:E38
+E42	Regulation:TR80 Cause:E37 Theme:E38
+E43	Regulation:TR80 Theme:E38 Cause:T4
+E44	Positive_regulation:TR41 Theme:T1
+E45	Localization:TR43 Theme:T2
+E46	Regulation:TR42 Cause:T1 Theme:E45
+E47	Positive_regulation:TR75 Theme:T37
+E48	Localization:TR77 Theme:T38
+E49	Positive_regulation:TR50 Theme:T12
+E50	Localization:TR51 Theme:T12
+E51	Localization:TR51 Theme:T13
+E52	Positive_regulation:TR52 Theme:T14
+E53	Localization:TR53 Theme:T15

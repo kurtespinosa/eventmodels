@@ -1,0 +1,76 @@
+TR53	Negative_regulation 469 477	decrease
+TR54	Development 518 522	form
+TR74	Negative_regulation 1372 1381	decreased
+TR63	Planned_process 1112 1115	fed
+TR64	Localization 1140 1152	infiltrating
+TR65	Development 1166 1172	formed
+TR66	Breakdown 1236 1245	collapsed
+TR67	Negative_regulation 1430 1439	decreased
+TR57	Planned_process 748 754	placed
+TR58	Blood_vessel_development 821 831	angiogenic
+TR59	Planned_process 845 859	s.c. injection
+TR60	Blood_vessel_development 868 878	angiogenic
+TR73	Planned_process 850 859	injection
+TR55	Negative_regulation 673 680	inhibit
+TR56	Blood_vessel_development 681 693	angiogenesis
+TR43	Negative_regulation 157 164	inhibit
+TR44	Carcinogenesis 177 191	carcinogenesis
+TR41	Negative_regulation 0 10	Inhibition
+TR42	Blood_vessel_development 14 26	angiogenesis
+TR61	Positive_regulation 998 1006	abundant
+TR62	Development 1007 1016	branching
+TR45	Regulation 215 222	effects
+TR46	Negative_regulation 261 270	decreased
+TR47	Cell_proliferation 271 284	proliferation
+TR48	Positive_regulation 289 298	induction
+TR49	Cell_death 302 311	apoptosis
+TR50	Regulation 331 338	effects
+TR51	Negative_regulation 353 363	inhibiting
+TR52	Cell_differentiation 368 383	differentiation
+TR68	Regulation 1620 1629	effective
+TR69	Negative_regulation 1633 1643	inhibiting
+TR70	Blood_vessel_development 1644 1656	angiogenesis
+TR71	Negative_regulation 1717 1724	inhibit
+TR72	Blood_vessel_development 1725 1737	angiogenesis
+E1	Development:TR54 Theme:T13
+E2	Negative_regulation:TR53 Theme:E1 Cause:T11
+E3	Negative_regulation:TR74 Theme:T28
+E4	Planned_process:TR63 Theme:T22 Instrument:T21
+E5	Development:TR65 Theme:T25
+E6	Development:TR65 Theme:T23
+E7	Breakdown:TR66 Theme:T24
+E8	Localization:TR64 Theme:T22
+E9	Localization:TR64 Theme:T23
+E10	Negative_regulation:TR67 Theme:T31 Cause:T29
+E11	Negative_regulation:TR67 Theme:T34 Cause:T29
+E12	Negative_regulation:TR67 Cause:T29 Theme:T32
+E13	Negative_regulation:TR67 Cause:T29 Theme:T35
+E14	Planned_process:TR57 Instrument:T17 Theme:T16
+E15	Planned_process:TR73 Theme:T16
+E16	Blood_vessel_development:TR60 
+E17	Planned_process:TR59 Theme:T16
+E18	Blood_vessel_development:TR58 
+E19	Blood_vessel_development:TR56 
+E20	Negative_regulation:TR55 Cause:T15 Theme:E19
+E21	Carcinogenesis:TR44 AtLoc:T6
+E22	Negative_regulation:TR43 Cause:T3 Theme:E21
+E23	Negative_regulation:TR43 Cause:T4 Theme:E21
+E24	Blood_vessel_development:TR42 
+E25	Negative_regulation:TR41 Cause:T2 Theme:E24
+E26	Development:TR62 Theme:T18
+E27	Cell_differentiation:TR52 Theme:T9
+E28	Cell_proliferation:TR47 Theme:T7
+E29	Cell_death:TR49 Theme:T7
+E30	Negative_regulation:TR51 Theme:E27 Cause:T8
+E31	Positive_regulation:TR48 Theme:E29
+E32	Negative_regulation:TR46 Theme:E28
+E33	Regulation:TR50 Cause:T8 Theme:T7
+E34	Regulation:TR50 Theme:T7 Cause:E30
+E35	Blood_vessel_development:TR70 
+E36	Negative_regulation:TR69 Theme:E35
+E37	Regulation:TR68 Cause:T38 Theme:E36
+E38	Regulation:TR68 Cause:T37 Theme:E36
+E39	Regulation:TR68 Cause:T39 Theme:E36
+E40	Regulation:TR68 Theme:E36 Cause:T36
+E41	Blood_vessel_development:TR72 
+E42	Negative_regulation:TR71 Theme:E41 Cause:T40

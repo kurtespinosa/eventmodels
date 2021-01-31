@@ -1,0 +1,40 @@
+TR27	Positive_regulation 36 43	induces
+TR28	Cell_death 58 67	apoptosis
+TR47	Negative_regulation 47 53	arrest
+TR29	Gene_expression 178 188	expression
+TR46	Gene_expression 905 914	expressed
+TR48	Regulation 826 830	role
+TR30	Negative_regulation 258 269	suppression
+TR31	Gene_expression 277 287	expression
+TR32	Negative_regulation 322 330	inhibits
+TR33	Cell_proliferation 331 344	proliferation
+TR34	Positive_regulation 387 396	important
+TR35	Cell_proliferation 407 420	proliferation
+TR36	Cell_proliferation 495 501	growth
+TR37	Gene_expression 506 519	overexpressed
+TR38	Positive_regulation 506 519	overexpressed
+TR39	Regulation 625 635	controlled
+TR40	Gene_expression 636 646	expression
+TR41	Positive_regulation 669 678	induction
+TR42	Positive_regulation 743 750	induces
+TR43	Pathway 756 761	cycle
+TR44	Negative_regulation 762 768	arrest
+TR45	Death 788 793	death
+E1	Cell_death:TR28 
+E2	Positive_regulation:TR27 Cause:T2 Theme:E1
+E3	Gene_expression:TR29 Theme:T7
+E4	Regulation:TR48 Theme:T25 Cause:T25
+E5	Regulation:TR48 Theme:T26 Cause:T25
+E6	Gene_expression:TR46 Theme:T25
+E7	Cell_proliferation:TR35 Theme:T11
+E8	Positive_regulation:TR34 Cause:T12 Theme:T11
+E9	Positive_regulation:TR34 Cause:T12 Theme:E7
+E10	Cell_proliferation:TR36 Theme:T14
+E11	Gene_expression:TR37 Theme:T15
+E12	Gene_expression:TR40 Theme:T15
+E13	Positive_regulation:TR38 Theme:E11
+E14	Regulation:TR39 Cause:T18 Theme:E12
+E15	Regulation:TR39 Cause:T18 Theme:E13
+E16	Regulation:TR39 Theme:E12 Cause:T19
+E17	Regulation:TR39 Theme:E13 Cause:T19
+E18	Positive_regulation:TR41 Theme:T21

@@ -1,0 +1,63 @@
+TR64	Regulation 477 484	effects
+TR65	Development 510 521	development
+TR66	Gene_expression 564 568	null
+TR67	Gene_expression 581 585	null
+TR60	Gene_expression 339 348	deficient
+TR61	Gene_expression 355 359	null
+TR62	Gene_expression 372 376	null
+TR63	Development 398 405	develop
+TR68	Gene_expression 606 610	null
+TR69	Gene_expression 623 627	null
+TR70	Planned_process 653 660	receive
+TR79	Regulation 1892 1898	effect
+TR80	Carcinogenesis 1948 1962	carcinogenesis
+TR86	Gene_expression 1827 1836	deficient
+TR87	Localization 1909 1919	deficiency
+TR55	Regulation 0 7	Effects
+TR56	Carcinogenesis 70 84	carcinogenesis
+TR57	Gene_expression 133 142	deficient
+TR58	Planned_process 157 172	supplementation
+TR59	Negative_regulation 177 183	reduce
+TR81	Carcinogenesis 188 192	risk
+TR77	Negative_regulation 1727 1734	inhibit
+TR78	Carcinogenesis 1746 1760	carcinogenesis
+TR85	Gene_expression 1712 1722	deficiency
+TR72	Planned_process 1518 1533	supplementation
+TR73	Negative_regulation 1584 1594	suppresses
+TR74	Carcinogenesis 1620 1634	carcinogenesis
+TR75	Gene_expression 1647 1651	null
+TR76	Gene_expression 1664 1668	null
+TR71	Planned_process 1025 1037	supplemented
+TR82	Localization 986 994	invasive
+E1	Gene_expression:TR67 Theme:T24 Theme:T23
+E2	Gene_expression:TR67 Theme:T24
+E3	Gene_expression:TR67 Theme:T23
+E4	Gene_expression:TR66 Theme:T23
+E5	Development:TR63 Theme:T18
+E6	Gene_expression:TR60 Theme:T12
+E7	Gene_expression:TR60 Theme:T14
+E8	Gene_expression:TR60 Theme:T13
+E9	Gene_expression:TR62 Theme:T15 Theme:T16
+E10	Gene_expression:TR62 Theme:T15
+E11	Gene_expression:TR62 Theme:T16
+E12	Gene_expression:TR68 Theme:T26
+E13	Gene_expression:TR69 Theme:T26 Theme:T27
+E14	Gene_expression:TR69 Theme:T26
+E15	Gene_expression:TR69 Theme:T27
+E16	Carcinogenesis:TR80 AtLoc:T54
+E17	Regulation:TR79 Theme:E16
+E18	Carcinogenesis:TR56 AtLoc:T3
+E19	Regulation:TR55 Cause:T1 Theme:E18
+E20	Carcinogenesis:TR81 Theme:T9
+E21	Planned_process:TR58 Instrument:T7
+E22	Negative_regulation:TR59 Theme:T9 Cause:E21
+E23	Negative_regulation:TR59 Theme:E20 Cause:E21
+E24	Negative_regulation:TR59 Cause:E21 Theme:T8
+E25	Carcinogenesis:TR78 AtLoc:T49
+E26	Negative_regulation:TR77 Theme:E25
+E27	Planned_process:TR72 Instrument:T42
+E28	Gene_expression:TR75 Theme:T45
+E29	Carcinogenesis:TR74 AtLoc:T44
+E30	Negative_regulation:TR73 Theme:E29 Cause:E27
+E31	Planned_process:TR71 Instrument:T37
+E32	Localization:TR82 Theme:T36

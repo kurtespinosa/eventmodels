@@ -1,0 +1,39 @@
+TR43	Mutation 687 698	aberrations
+TR44	Mutation 706 714	mutation
+TR45	DNA_domain_or_region 723 729	region
+TR46	DNA_domain_or_region 731 734	MCR
+TR47	DNA_domain_or_region 756 760	exon
+TR48	DNA_domain_or_region 858 866	PCR-SSCP
+TR49	Protein_domain_or_region 858 866	PCR-SSCP
+TR41	Regulation 420 424	role
+TR42	Mutation 428 439	aberrations
+TR34	Mutation 22 33	aberrations
+TR35	Pathway 41 48	pathway
+TR52	Mutation 1026 1034	mutation
+TR53	DNA_domain_or_region 1116 1124	Promoter
+TR54	DNA_methylation 1125 1141	hypermethylation
+TR50	DNA_domain_or_region 910 918	promoter
+TR51	DNA_methylation 919 935	hypermethylation
+TR55	Binding 1237 1248	association
+TR56	DNA_methylation 1311 1322	methylation
+TR57	Mutation 1382 1391	mutations
+TR58	Regulation 1480 1484	role
+TR59	Negative_regulation 1504 1513	silencing
+TR60	Pathway 1566 1573	pathway
+TR61	Development 1581 1592	development
+TR36	Development 114 125	development
+TR37	Development 130 141	progression
+TR38	Pathway 206 214	pathways
+TR39	Regulation 318 322	role
+TR40	Cell_transformation 326 338	transforming
+E1	Pathway:TR35 Participant:T1
+E2	Mutation:TR52 Theme:T21
+E3	DNA_methylation:TR54 Theme:T23
+E4	DNA_methylation:TR51 Theme:T20
+E5	DNA_methylation:TR56 Theme:T27
+E6	Development:TR61 Theme:T33
+E7	Development:TR36 Theme:T4
+E8	Development:TR36 Theme:T3
+E9	Pathway:TR38 Participant:T5
+E10	Development:TR37 Theme:T4
+E11	Development:TR37 Theme:T3

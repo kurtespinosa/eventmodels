@@ -1,0 +1,74 @@
+TR53	Gene_expression 771 781	expressing
+TR54	Positive_regulation 782 790	elevated
+TR55	Cell_death 829 838	apoptosis
+TR56	Planned_process 857 869	supplemented
+TR59	Cell_death 976 985	apoptosis
+TR60	Gene_expression 1015 1025	expression
+TR61	Positive_regulation 1073 1081	activate
+TR62	Death 1091 1096	death
+TR47	Regulation 538 546	mediates
+TR48	Cell_death 547 556	apoptosis
+TR63	Planned_process 1135 1147	transfection
+TR64	Positive_regulation 1176 1184	resulted
+TR65	Negative_regulation 1204 1211	reduced
+TR66	Cell_death 1220 1229	apoptosis
+TR67	Localization 1242 1249	absence
+TR38	Positive_regulation 4 12	mediated
+TR39	Cell_death 13 22	apoptosis
+TR40	Negative_regulation 49 58	inhibited
+TR41	Gene_expression 62 72	expression
+TR49	Regulation 613 619	effect
+TR50	Gene_expression 627 637	expression
+TR51	Planned_process 648 659	transfected
+TR52	Gene_expression 717 727	expression
+TR72	Gene_expression 709 716	lacking
+TR43	Positive_regulation 309 316	support
+TR44	Death 317 325	survival
+TR45	Cell_differentiation 330 345	differentiation
+TR46	Positive_regulation 377 387	activation
+TR68	Gene_expression 1277 1287	expression
+TR69	Negative_regulation 1316 1324	inhibits
+TR70	Positive_regulation 1329 1337	mediated
+TR71	Cell_death 1338 1347	apoptosis
+TR57	Pathway 878 897	Apoptotic signaling
+TR58	Positive_regulation 952 961	dependent
+TR73	Pathway 888 897	signaling
+TR42	Binding 134 141	binding
+E1	Gene_expression:TR53 Theme:T24
+E2	Planned_process:TR56 Instrument:T25
+E3	Cell_death:TR55 
+E4	Positive_regulation:TR54 Theme:E1
+E5	Cell_death:TR59 
+E6	Death:TR62 Theme:T29
+E7	Positive_regulation:TR61 Theme:E6 Cause:T28
+E8	Cell_death:TR48 Theme:T15
+E9	Cell_death:TR48 Theme:T14
+E10	Cell_death:TR48 
+E11	Regulation:TR47 Cause:T11 Theme:E8
+E12	Regulation:TR47 Cause:T11 Theme:E9
+E13	Regulation:TR47 Cause:T11 Theme:E10
+E14	Localization:TR67 Theme:T34
+E15	Localization:TR67 Theme:T32
+E16	Planned_process:TR63 Theme:T32 Instrument:T30
+E17	Cell_death:TR66 
+E18	Gene_expression:TR41 Theme:T3
+E19	Cell_death:TR39 Theme:T2
+E20	Positive_regulation:TR38 Cause:T1 Theme:E19
+E21	Negative_regulation:TR40 Cause:E18 Theme:E19
+E22	Gene_expression:TR50 Theme:T16
+E23	Gene_expression:TR52 Theme:T22 Theme:T21
+E24	Regulation:TR49 Theme:T17 Cause:E22
+E25	Death:TR44 Theme:T9
+E26	Cell_differentiation:TR45 Theme:T9
+E27	Positive_regulation:TR46 Cause:T7 Theme:T10
+E28	Positive_regulation:TR46 Cause:T8 Theme:T10
+E29	Cell_death:TR71 Theme:T37
+E30	Gene_expression:TR68 Theme:T35
+E31	Negative_regulation:TR69 Cause:E30 Theme:E29
+E32	Negative_regulation:TR69 Cause:E30 Theme:T35
+E33	Positive_regulation:TR70 Theme:E29 Cause:T36
+E34	Positive_regulation:TR70 Theme:E29 Cause:E31
+E35	Positive_regulation:TR70 Theme:E29 Cause:E32
+E36	Pathway:TR57 Participant:T26
+E37	Pathway:TR73 Participant:T26
+E38	Positive_regulation:TR58 Theme:E36 Cause:T27

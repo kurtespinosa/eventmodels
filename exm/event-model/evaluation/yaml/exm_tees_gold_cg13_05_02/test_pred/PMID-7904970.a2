@@ -1,0 +1,27 @@
+TR42	Development 46 57	development
+TR51	Mutation 722 733	alterations
+TR52	Cell_proliferation 859 865	growth
+TR45	Cell_transformation 172 186	transformation
+TR46	Cell_transformation 283 295	transforming
+TR49	Cell_proliferation 650 656	growth
+TR50	Pathway 668 676	pathways
+TR47	Carcinogenesis 486 501	non-transformed
+TR48	Cell_transformation 486 501	non-transformed
+TR43	Cell_transformation 130 142	transforming
+TR44	Carcinogenesis 147 159	tumourigenic
+TR53	Positive_regulation 1014 1023	increased
+TR54	Death 1137 1145	survival
+TR55	Death 1158 1166	survival
+E1	Development:TR42 Theme:T2
+E2	Cell_proliferation:TR52 Theme:T16
+E3	Cell_transformation:TR46 
+E4	Cell_proliferation:TR49 Theme:T14
+E5	Carcinogenesis:TR47 
+E6	Cell_transformation:TR48 Theme:T12
+E7	Carcinogenesis:TR44 
+E8	Positive_regulation:TR53 Theme:T25
+E9	Positive_regulation:TR53 Theme:T26
+E10	Positive_regulation:TR53 Theme:T27
+E11	Death:TR55 Theme:T30
+E12	Death:TR54 Theme:T34
+E13	Death:TR54 Theme:T30

@@ -1,0 +1,62 @@
+TR71	Regulation 1230 1237	utilize
+TR72	Pathway 1265 1272	pathway
+TR46	Localization 268 276	invasive
+TR44	Localization 158 166	invasion
+TR45	Metastasis 171 181	metastasis
+TR41	Pathway 27 44	signaling pathway
+TR42	Localization 71 79	invasion
+TR43	Metastasis 84 94	metastasis
+TR76	Pathway 37 44	pathway
+TR58	Regulation 788 799	responsible
+TR59	Positive_regulation 813 823	activation
+TR60	Positive_regulation 827 833	induce
+TR61	Localization 834 842	invasion
+TR62	Metastasis 847 857	metastasis
+TR63	Binding 871 878	binding
+TR64	Positive_regulation 889 898	activated
+TR47	Regulation 352 361	regulates
+TR48	Remodeling 362 371	recycling
+TR75	Planned_process 1681 1693	therapeutics
+TR65	Positive_regulation 982 992	activation
+TR66	Pathway 1000 1016	invasion pathway
+TR67	Positive_regulation 1032 1044	prerequisite
+TR68	Gene_expression 1081 1094	overexpressed
+TR69	Positive_regulation 1081 1094	overexpressed
+TR70	Positive_regulation 1113 1122	activated
+TR77	Pathway 1009 1016	pathway
+TR49	Gene_expression 506 519	overexpressed
+TR50	Positive_regulation 506 519	overexpressed
+TR51	Localization 562 570	invasion
+TR52	Metastasis 575 585	metastasis
+TR53	Positive_regulation 587 601	Overexpression
+TR54	Gene_expression 587 601	Overexpression
+TR55	Regulation 623 634	independent
+TR56	Transcription 642 657	transcriptional
+TR57	Positive_regulation 658 670	upregulation
+TR73	Localization 1481 1493	invasiveness
+TR74	Regulation 1532 1543	alterations
+E1	Localization:TR46 Theme:T8
+E2	Localization:TR44 Theme:T6
+E3	Metastasis:TR45 Theme:T6
+E4	Metastasis:TR43 Theme:T5
+E5	Localization:TR42 Theme:T5
+E6	Positive_regulation:TR64 Theme:T24
+E7	Positive_regulation:TR64 Theme:T23
+E8	Positive_regulation:TR59 Theme:T22
+E9	Metastasis:TR62 
+E10	Regulation:TR58 Theme:T20 Cause:E8
+E11	Regulation:TR58 Theme:E8 Cause:E8
+E12	Regulation:TR58 Theme:T21 Cause:E8
+E13	Remodeling:TR48 Theme:T11
+E14	Regulation:TR47 Theme:E13 Cause:T9
+E15	Gene_expression:TR68 Theme:T26 Theme:T27
+E16	Gene_expression:TR68 Theme:T26
+E17	Gene_expression:TR68 Theme:T27
+E18	Positive_regulation:TR70 Theme:T28
+E19	Positive_regulation:TR69 Theme:E15
+E20	Positive_regulation:TR69 Theme:E16
+E21	Positive_regulation:TR69 Theme:E17
+E22	Localization:TR51 Theme:T18
+E23	Metastasis:TR52 Theme:T18
+E24	Localization:TR73 Theme:T36
+E25	Regulation:TR74 Theme:T38

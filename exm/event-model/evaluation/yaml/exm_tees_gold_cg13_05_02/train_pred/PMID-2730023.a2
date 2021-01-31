@@ -1,0 +1,55 @@
+TR35	Metastasis 7 17	metastasis
+TR61	Planned_process 608 615	excised
+TR53	Positive_regulation 1095 1103	elevated
+TR54	Localization 1127 1137	deposition
+TR55	Planned_process 1187 1199	chemotherapy
+TR45	Development 489 498	formation
+TR46	Negative_regulation 519 528	prevented
+TR47	Localization 535 543	invasion
+TR48	Metastasis 548 558	metastasis
+TR60	Development 559 568	formation
+TR49	Localization 874 885	disappeared
+TR62	Negative_regulation 874 885	disappeared
+TR40	Negative_regulation 289 298	decreased
+TR41	Growth 317 323	growth
+TR42	Metastasis 338 348	metastasis
+TR43	Positive_regulation 402 411	increased
+TR44	Metastasis 426 436	metastatic
+TR58	Negative_regulation 249 259	inhibition
+TR59	Positive_regulation 362 372	activation
+TR64	Positive_regulation 1237 1246	increased
+TR37	Regulation 153 157	role
+TR38	Growth 177 183	growth
+TR39	Metastasis 188 198	metastasis
+TR50	Regulation 962 974	plays a role
+TR51	Localization 984 992	invasion
+TR52	Metastasis 997 1007	metastasis
+TR63	Regulation 970 974	role
+TR36	Metastasis 49 66	Metastatic spread
+TR56	Metastasis 49 59	Metastatic
+TR57	Positive_regulation 112 122	activation
+E1	Metastasis:TR35 Theme:T1
+E2	Planned_process:TR61 Theme:T12
+E3	Positive_regulation:TR53 Theme:T26
+E4	Planned_process:TR55 Theme:T29
+E5	Localization:TR54 ToLoc:T28 Theme:T27
+E6	Development:TR45 Theme:T8
+E7	Localization:TR47 Theme:T9
+E8	Metastasis:TR48 Theme:T9
+E9	Negative_regulation:TR46 Cause:E6 Theme:E8
+E10	Negative_regulation:TR46 Cause:E6 Theme:E7
+E11	Negative_regulation:TR62 Theme:T19
+E12	Negative_regulation:TR62 Theme:T18
+E13	Metastasis:TR44 Theme:T5 ToLoc:T7
+E14	Metastasis:TR44 Theme:T5 ToLoc:T6
+E15	Growth:TR41 Theme:T5
+E16	Positive_regulation:TR43 Theme:T5
+E17	Positive_regulation:TR64 Theme:T32
+E18	Metastasis:TR39 Theme:T3
+E19	Growth:TR38 Theme:T3
+E20	Localization:TR51 Theme:T23
+E21	Metastasis:TR52 Theme:T23
+E22	Regulation:TR50 Theme:E21 Cause:T22
+E23	Regulation:TR50 Theme:E20 Cause:T22
+E24	Metastasis:TR56 Theme:T2
+E25	Metastasis:TR36 Theme:T2

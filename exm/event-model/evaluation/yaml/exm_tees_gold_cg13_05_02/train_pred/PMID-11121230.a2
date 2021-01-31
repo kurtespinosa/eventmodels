@@ -1,0 +1,51 @@
+TR34	Positive_regulation 243 252	necessary
+TR35	Growth 261 267	growth
+TR36	Metastasis 272 282	metastasis
+TR37	Blood_vessel_development 364 376	angiogenesis
+TR39	Blood_vessel_development 503 513	angiogenic
+TR40	Regulation 583 590	effects
+TR41	Cell_proliferation 611 624	proliferation
+TR42	Planned_process 698 710	immortalized
+TR43	Planned_process 767 778	transformed
+TR51	Positive_regulation 767 778	transformed
+TR52	Carcinogenesis 812 826	Carcinogenesis
+TR30	Blood_vessel_development 111 123	Angiogenesis
+TR31	Growth 163 169	growth
+TR32	Localization 174 183	migration
+TR33	Development 204 211	derived
+TR50	Regulation 147 155	involved
+TR28	Negative_regulation 15 25	inhibition
+TR29	Cell_proliferation 57 63	growth
+TR48	Cell_proliferation 1207 1220	proliferation
+TR49	Blood_vessel_development 1253 1263	angiogenic
+TR38	Blood_vessel_development 428 438	angiogenic
+TR44	Negative_regulation 885 894	inhibited
+TR45	Cell_proliferation 895 908	proliferation
+TR46	Positive_regulation 984 993	effective
+TR47	Planned_process 997 1009	immortalized
+TR53	Cell_transformation 997 1009	immortalized
+E1	Metastasis:TR36 Theme:T6
+E2	Blood_vessel_development:TR37 AtLoc:T7
+E3	Blood_vessel_development:TR37 
+E4	Growth:TR35 Theme:T6
+E5	Positive_regulation:TR34 Theme:E1
+E6	Positive_regulation:TR34 Theme:E4
+E7	Carcinogenesis:TR52 
+E8	Positive_regulation:TR51 Theme:T20 Cause:T17
+E9	Blood_vessel_development:TR39 
+E10	Blood_vessel_development:TR30 
+E11	Localization:TR32 Theme:T5
+E12	Development:TR33 Theme:T5
+E13	Growth:TR31 Theme:T5
+E14	Regulation:TR50 Theme:E12 Cause:E10
+E15	Cell_proliferation:TR29 Theme:T1
+E16	Negative_regulation:TR28 Theme:E15
+E17	Cell_proliferation:TR48 Theme:T27
+E18	Blood_vessel_development:TR49 
+E19	Blood_vessel_development:TR38 
+E20	Cell_proliferation:TR45 Theme:T23
+E21	Planned_process:TR47 Theme:T25
+E22	Cell_transformation:TR53 Theme:T25
+E23	Positive_regulation:TR46 Theme:T25 Cause:T24
+E24	Positive_regulation:TR46 Theme:T26 Cause:T24
+E25	Negative_regulation:TR44 Cause:T22 Theme:E20

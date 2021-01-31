@@ -1,0 +1,45 @@
+TR55	Planned_process 547 556	injection
+TR56	Positive_regulation 654 662	resulted
+TR57	Positive_regulation 666 675	increased
+TR58	Localization 685 695	entrapment
+TR59	Blood_vessel_development 699 716	hypervascularized
+TR60	Positive_regulation 735 740	boost
+TR61	Gene_expression 752 762	expression
+TR62	Localization 789 797	delivery
+TR63	Positive_regulation 807 817	sufficient
+TR64	Planned_process 848 859	lipofection
+TR65	Planned_process 887 895	injected
+TR66	Localization 907 915	migrated
+TR67	Planned_process 1024 1035	lipofection
+TR75	Binding 985 992	contact
+TR46	Blood_vessel_development 18 33	vascularization
+TR47	Planned_process 91 102	lipofection
+TR72	Regulation 4 8	role
+TR73	Binding 61 68	contact
+TR68	Binding 1339 1348	aggregate
+TR76	Binding 1159 1170	interaction
+TR69	Binding 1367 1378	aggregation
+TR70	Planned_process 1518 1529	lipofection
+TR71	Dissociation 1783 1795	dissociation
+TR78	Gene_expression 1690 1700	expression
+TR79	Binding 1783 1795	dissociation
+TR50	Planned_process 369 380	lipofection
+TR51	Positive_regulation 406 414	enhanced
+TR52	Positive_regulation 418 428	increasing
+TR53	Blood_vessel_development 443 458	vascularization
+TR54	Blood_vessel_development 514 526	angiogenesis
+TR74	Planned_process 470 480	transgenic
+TR80	Binding 1909 1920	interaction
+TR48	Planned_process 126 140	administration
+TR49	Localization 287 297	entrapment
+E1	Localization:TR62 Theme:T22 AtLoc:T20
+E2	Localization:TR66 Theme:T25 ToLoc:T26
+E3	Planned_process:TR65 Instrument:T25
+E4	Binding:TR73 Theme:T2
+E5	Blood_vessel_development:TR46 AtLoc:T1
+E6	Dissociation:TR71 Theme:T42
+E7	Planned_process:TR50 Theme:T13
+E8	Planned_process:TR74 Theme:T14
+E9	Blood_vessel_development:TR54 AtLoc:T16
+E10	Planned_process:TR48 Theme:T9 Instrument:T8
+E11	Localization:TR49 Theme:T11 AtLoc:T12

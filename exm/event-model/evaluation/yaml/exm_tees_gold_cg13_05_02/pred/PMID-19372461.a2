@@ -1,0 +1,75 @@
+T81	Regulation 1182 1190	mediated
+T82	Regulation 1191 1201	regulation
+T83	Positive_regulation 1229 1238	dependent
+T84	Regulation 1269 1277	mediated
+T85	Catabolism 1282 1292	hydrolysis
+T89	Positive_regulation 1302 1310	required
+T40	Regulation 11 21	regulation
+T41	Localization 32 43	trafficking
+T86	Pathway 48 57	signaling
+T43	Pathway 250 259	signaling
+T44	Localization 264 275	trafficking
+T87	Regulation 279 290	coordinated
+T68	Negative_regulation 858 867	Depletion
+T69	Negative_regulation 877 886	decreased
+T70	Protein_domain_or_region 894 899	Y1175
+T71	Phosphorylation 900 915	phosphorylation
+T72	Positive_regulation 920 929	increased
+T73	Phosphorylation 952 967	phosphorylation
+T42	Regulation 181 190	regulates
+T50	Localization 495 507	localization
+T51	Localization 512 526	colocalization
+T88	Cell_proliferation 459 468	Quiescent
+T79	Regulation 1092 1100	regulate
+T80	Localization 1108 1119	trafficking
+T52	Gene_expression 586 596	Expression
+T53	Binding 611 616	bound
+T54	Mutation 623 630	mutants
+T55	Negative_regulation 631 636	block
+T56	Positive_regulation 637 646	activated
+T57	Localization 654 665	trafficking
+T58	Catabolism 670 681	degradation
+T74	Localization 986 995	migration
+T75	Positive_regulation 1000 1009	increased
+T76	Negative_regulation 1019 1028	depletion
+T77	Negative_regulation 1033 1042	decreased
+T78	Negative_regulation 1052 1061	depletion
+T45	Regulation 353 363	regulation
+T46	Localization 374 385	trafficking
+T47	Pathway 390 399	signaling
+T48	Regulation 400 406	linked
+T49	Localization 427 436	migration
+T59	Regulation 683 695	Manipulation
+T60	Gene_expression 758 772	overexpression
+T61	Positive_regulation 758 772	overexpression
+T62	Mutation 776 785	wild-type
+T63	Mutation 789 795	mutant
+T64	Negative_regulation 805 811	blocks
+T65	Positive_regulation 812 821	activated
+T66	Localization 829 840	trafficking
+T67	Catabolism 845 856	degradation
+E1	Positive_regulation:T89 Theme:T39
+E2	Localization:T41 Theme:T2
+E3	Pathway:T86 Participant:T2
+E4	Regulation:T40 Cause:T1 Theme:E3
+E5	Regulation:T40 Cause:T1 Theme:E2
+E6	Pathway:T43 Participant:T7
+E7	Phosphorylation:T71 Theme:T22
+E8	Phosphorylation:T71 Theme:T23
+E9	Phosphorylation:T73 Theme:T26
+E10	Phosphorylation:T73 Theme:T24
+E11	Phosphorylation:T73 Theme:T25
+E12	Localization:T51 Theme:T13 Theme:T11
+E13	Localization:T80 Theme:T32
+E14	Regulation:T79 Cause:T30 Theme:E13
+E15	Regulation:T79 Theme:E13 Cause:T31
+E16	Gene_expression:T52 Theme:T17
+E17	Localization:T57 Theme:T17 Theme:T18
+E18	Mutation:T54 Theme:T17
+E19	Negative_regulation:T76 Theme:T28
+E20	Localization:T74 Theme:T27
+E21	Positive_regulation:T75 Theme:E20 Cause:E19
+E22	Positive_regulation:T75 Cause:E19 Theme:E19
+E23	Localization:T46 Theme:T9
+E24	Gene_expression:T60 Theme:T19
+E25	Positive_regulation:T61 Theme:E24

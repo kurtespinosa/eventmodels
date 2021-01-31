@@ -1,0 +1,20 @@
+TR36	Positive_regulation 1957 1965	activity
+TR37	Regulation 2041 2047	effect
+TR38	Remodeling 2058 2068	remodeling
+TR43	Positive_regulation 1947 1956	increased
+TR41	Positive_regulation 1353 1363	stimulated
+TR42	Positive_regulation 1378 1387	increased
+TR40	Development 795 803	creation
+TR34	Positive_regulation 1784 1793	promoting
+TR35	Blood_vessel_development 1794 1806	angiogenesis
+TR33	Gene_expression 1292 1302	expression
+E1	Positive_regulation:TR36 Theme:T26
+E2	Positive_regulation:TR36 Theme:T27
+E3	Remodeling:TR38 Theme:T28
+E4	Positive_regulation:TR43 Theme:T26
+E5	Regulation:TR37 Cause:T26 Theme:E3
+E6	Regulation:TR37 Cause:T27 Theme:E3
+E7	Positive_regulation:TR41 Theme:T21
+E8	Development:TR40 Theme:T10
+E9	Blood_vessel_development:TR35 
+E10	Positive_regulation:TR34 Theme:E9

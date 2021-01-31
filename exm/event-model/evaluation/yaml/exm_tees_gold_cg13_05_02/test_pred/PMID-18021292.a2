@@ -1,0 +1,93 @@
+TR72	Positive_regulation 212 224	up-regulates
+TR73	Gene_expression 271 281	expression
+TR74	Positive_regulation 287 297	activation
+TR75	Regulation 306 316	regulating
+TR76	Pathway 609 617	pathways
+TR77	Planned_process 625 636	transfected
+TR100	Pathway 1583 1591	pathways
+TR101	Positive_regulation 1661 1674	up-regulation
+TR102	Positive_regulation 1679 1689	activation
+TR103	Positive_regulation 1761 1769	increase
+TR104	Transcription 1775 1788	transcription
+TR105	Blood_vessel_development 1793 1805	angiogenesis
+TR68	Gene_expression 16 26	expression
+TR69	Positive_regulation 27 39	up-regulates
+TR70	Gene_expression 45 55	expression
+TR71	Positive_regulation 96 106	activation
+TR78	Positive_regulation 758 767	induction
+TR79	Positive_regulation 772 782	activation
+TR80	Localization 837 849	localization
+TR81	Binding 854 861	binding
+TR82	DNA_domain_or_region 899 907	promoter
+TR83	Positive_regulation 912 918	induce
+TR84	Gene_expression 924 934	expression
+TR85	Gene_expression 1046 1058	synthesizing
+TR86	Synthesis 1046 1058	synthesizing
+TR92	Positive_regulation 1256 1265	Induction
+TR93	Planned_process 1385 1397	transfection
+TR94	Positive_regulation 1411 1416	leads
+TR95	Catabolism 1434 1445	proteolysis
+TR96	Localization 1453 1460	release
+TR97	Binding 1471 1476	bound
+TR98	Positive_regulation 1486 1496	activation
+TR99	Blood_vessel_development 1500 1512	angiogenesis
+TR87	Negative_regulation 1107 1115	protects
+TR88	Catabolism 1150 1161	degradation
+TR89	Regulation 1195 1199	role
+TR90	Regulation 1207 1217	regulation
+TR91	Planned_process 1233 1244	transfected
+E1	Gene_expression:TR73 Theme:T11 Theme:T10
+E2	Gene_expression:TR73 Theme:T11
+E3	Gene_expression:TR73 Theme:T10
+E4	Planned_process:TR77 Theme:T26
+E5	Positive_regulation:TR74 Theme:T17 Cause:T18
+E6	Positive_regulation:TR74 Theme:T17 Cause:T21
+E7	Positive_regulation:TR74 Theme:T17 Cause:T19
+E8	Positive_regulation:TR74 Theme:T17
+E9	Positive_regulation:TR74 Cause:T18 Theme:T16
+E10	Positive_regulation:TR74 Cause:T18 Theme:T12
+E11	Positive_regulation:TR74 Theme:T16 Cause:T21
+E12	Positive_regulation:TR74 Theme:T16 Cause:T19
+E13	Positive_regulation:TR74 Theme:T16
+E14	Positive_regulation:TR74 Theme:T12 Cause:T21
+E15	Positive_regulation:TR74 Theme:T12 Cause:T19
+E16	Positive_regulation:TR74 Theme:T12
+E17	Regulation:TR75 Theme:T15 Cause:T12
+E18	Regulation:TR75 Theme:T14 Cause:T12
+E19	Positive_regulation:TR72 Cause:T8 Theme:E1
+E20	Positive_regulation:TR72 Cause:T8 Theme:E2
+E21	Positive_regulation:TR72 Cause:T8 Theme:E3
+E22	Positive_regulation:TR72 Cause:T9 Theme:E1
+E23	Positive_regulation:TR72 Cause:T9 Theme:E2
+E24	Positive_regulation:TR72 Cause:T9 Theme:E3
+E25	Positive_regulation:TR102 Theme:T64
+E26	Positive_regulation:TR102 Theme:T62
+E27	Positive_regulation:TR102 Theme:T63
+E28	Positive_regulation:TR102 Theme:T65
+E29	Pathway:TR100 Participant:T55
+E30	Blood_vessel_development:TR105 
+E31	Transcription:TR104 Theme:T66
+E32	Positive_regulation:TR103 Theme:E30 Cause:E29
+E33	Positive_regulation:TR71 Theme:T6
+E34	Positive_regulation:TR71 Theme:T5
+E35	Positive_regulation:TR71 Theme:T7
+E36	Gene_expression:TR68 Theme:T1
+E37	Gene_expression:TR70 Theme:T2
+E38	Positive_regulation:TR69 Cause:E36 Theme:E37
+E39	Positive_regulation:TR69 Theme:E37 Cause:E33
+E40	Positive_regulation:TR69 Theme:E37 Cause:E34
+E41	Positive_regulation:TR69 Theme:E37 Cause:E35
+E42	Gene_expression:TR85 Theme:T39
+E43	Positive_regulation:TR79 Theme:T28
+E44	Positive_regulation:TR79 Theme:T29
+E45	Positive_regulation:TR79 Theme:T27
+E46	Gene_expression:TR84 Theme:T31
+E47	Localization:TR96 Theme:T54
+E48	Blood_vessel_development:TR99 
+E49	Binding:TR97 Theme:T54
+E50	Positive_regulation:TR98 Theme:E48
+E51	Regulation:TR90 Theme:T44
+E52	Planned_process:TR91 Theme:T46
+E53	Negative_regulation:TR87 Theme:T43
+E54	Negative_regulation:TR87 Theme:T42
+E55	Regulation:TR89 Theme:E51

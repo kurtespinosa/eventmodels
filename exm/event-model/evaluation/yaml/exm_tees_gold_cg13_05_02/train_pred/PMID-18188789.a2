@@ -1,0 +1,18 @@
+TR24	Planned_process 1050 1063	PDT treatment
+TR25	Blood_vessel_development 1081 1099	neovascularization
+TR29	Planned_process 1054 1063	treatment
+TR28	Breakdown 1456 1462	damage
+TR22	Positive_regulation 813 821	improved
+TR20	Planned_process 276 283	treated
+TR23	Breakdown 981 991	detachment
+TR27	Breakdown 1321 1331	detachment
+TR26	Positive_regulation 1104 1112	increase
+TR21	Planned_process 516 527	angiography
+E1	Planned_process:TR24 Theme:T11
+E2	Blood_vessel_development:TR25 AtLoc:T12
+E3	Planned_process:TR29 Theme:T11
+E4	Breakdown:TR28 Theme:T19
+E5	Positive_regulation:TR22 Theme:T8
+E6	Planned_process:TR20 Theme:T3
+E7	Breakdown:TR23 Theme:T10
+E8	Breakdown:TR27 Theme:T17

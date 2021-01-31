@@ -1,0 +1,40 @@
+TR21	Negative_regulation 774 787	down-regulate
+TR22	Negative_regulation 806 814	suppress
+TR23	Synthesis 819 828	synthesis
+TR24	Regulation 883 891	modulate
+TR25	Metabolism 905 915	metabolism
+TR26	Negative_regulation 919 929	inhibiting
+TR27	Negative_regulation 973 983	antagonize
+TR28	Positive_regulation 988 998	activation
+TR29	Positive_regulation 1030 1037	promote
+TR30	Positive_regulation 1042 1052	activation
+TR31	Negative_regulation 1099 1107	suppress
+TR32	Blood_vessel_development 1108 1120	angiogenesis
+TR17	Planned_process 158 165	culture
+TR18	Growth 179 185	growth
+TR19	Localization 190 196	spread
+TR20	Negative_regulation 214 220	slowed
+TR33	Negative_regulation 1204 1214	prevention
+TR15	Regulation 22 33	controlling
+TR16	Growth 41 47	growth
+E1	Synthesis:TR23 Theme:T7
+E2	Blood_vessel_development:TR32 
+E3	Negative_regulation:TR26 Theme:T9
+E4	Negative_regulation:TR26 Theme:T11
+E5	Negative_regulation:TR26 Theme:T10
+E6	Positive_regulation:TR28 Theme:T12
+E7	Negative_regulation:TR21 Theme:T6
+E8	Positive_regulation:TR30 Theme:T13
+E9	Metabolism:TR25 Theme:T8
+E10	Positive_regulation:TR29 Theme:E8
+E11	Negative_regulation:TR22 Theme:E1
+E12	Negative_regulation:TR27 Theme:E6
+E13	Negative_regulation:TR31 Theme:E2
+E14	Growth:TR18 Theme:T3
+E15	Planned_process:TR17 Theme:T2
+E16	Localization:TR19 Theme:T3
+E17	Negative_regulation:TR20 Theme:E16
+E18	Negative_regulation:TR20 Theme:E14
+E19	Negative_regulation:TR33 Theme:T14
+E20	Growth:TR16 Theme:T1
+E21	Regulation:TR15 Theme:E20

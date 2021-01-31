@@ -1,0 +1,59 @@
+TR49	Localization 804 810	spread
+TR50	Remodeling 898 910	organization
+TR64	Positive_regulation 859 867	increase
+TR51	Negative_regulation 976 983	reduced
+TR52	Localization 984 992	motility
+TR56	Pathway 1193 1202	signaling
+TR57	Regulation 1215 1223	involved
+TR58	Death 1230 1238	survival
+TR59	Regulation 1268 1276	controls
+TR60	Localization 1277 1286	migration
+TR53	Negative_regulation 1077 1084	reduced
+TR54	Gene_expression 1085 1095	expression
+TR55	Localization 1138 1147	migration
+TR65	Negative_regulation 1034 1043	decreased
+TR38	Localization 265 274	migration
+TR61	Positive_regulation 357 365	initiate
+TR32	Pathway 10 19	signaling
+TR33	Regulation 20 29	modulates
+TR34	Localization 47 56	migration
+TR39	Gene_expression 452 462	deficiency
+TR40	Positive_regulation 475 482	results
+TR41	Negative_regulation 494 501	defects
+TR42	Regulation 544 550	impact
+TR43	Pathway 568 585	signaling pathway
+TR44	Localization 592 601	migration
+TR62	Pathway 578 585	pathway
+TR35	Development 89 98	formation
+TR36	Positive_regulation 143 151	requires
+TR37	Remodeling 171 184	restructuring
+E1	Remodeling:TR50 Theme:T24
+E2	Localization:TR49 Theme:T21
+E3	Positive_regulation:TR64 Theme:T22
+E4	Localization:TR52 Theme:T25
+E5	Negative_regulation:TR51 Theme:E4
+E6	Pathway:TR56 Participant:T29
+E7	Localization:TR60 Theme:T31
+E8	Death:TR58 Theme:T30
+E9	Regulation:TR57 Theme:E8 Cause:E6
+E10	Regulation:TR59 Theme:T31 Cause:E6
+E11	Regulation:TR59 Cause:E6 Theme:E7
+E12	Localization:TR55 Theme:T28
+E13	Negative_regulation:TR65 Theme:T26
+E14	Gene_expression:TR54 Theme:T27
+E15	Negative_regulation:TR53 Theme:E14
+E16	Localization:TR38 Theme:T9
+E17	Localization:TR34 Theme:T3
+E18	Localization:TR44 Theme:T17
+E19	Gene_expression:TR39 Theme:T11
+E20	Pathway:TR62 Participant:T15 Participant2:T16
+E21	Pathway:TR43 Participant:T15 Participant2:T16
+E22	Regulation:TR42 Cause:E21 Theme:E18
+E23	Development:TR35 Theme:T5
+E24	Remodeling:TR37 Theme:T6
+E25	Remodeling:TR37 Theme:T7
+E26	Remodeling:TR37 Theme:T8
+E27	Positive_regulation:TR36 Cause:E23 Theme:E23
+E28	Positive_regulation:TR36 Cause:E24 Theme:E23
+E29	Positive_regulation:TR36 Cause:E25 Theme:E23
+E30	Positive_regulation:TR36 Cause:E26 Theme:E23

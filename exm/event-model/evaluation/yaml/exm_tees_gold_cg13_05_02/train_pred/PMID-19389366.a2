@@ -1,0 +1,91 @@
+TR66	Gene_expression 1437 1452	over-expression
+TR67	Positive_regulation 1542 1548	induce
+TR68	Carcinogenesis 1549 1562	tumorigenesis
+TR78	Positive_regulation 1437 1452	over-expression
+TR48	Planned_process 663 673	transgenic
+TR49	Cell_division 735 744	divisions
+TR74	Gene_expression 607 617	expression
+TR61	Regulation 1197 1204	effects
+TR62	Gene_expression 1214 1229	over-expression
+TR63	Negative_regulation 1274 1284	attenuated
+TR64	Positive_regulation 1285 1294	induction
+TR65	Gene_expression 1366 1375	expressed
+TR77	Positive_regulation 1214 1229	over-expression
+TR42	Gene_expression 300 310	expression
+TR43	Positive_regulation 314 322	elevated
+TR44	Gene_expression 407 422	over-expression
+TR45	Positive_regulation 440 447	promote
+TR46	Carcinogenesis 464 477	tumorigenesis
+TR71	Positive_regulation 407 422	over-expression
+TR72	Positive_regulation 426 436	sufficient
+TR73	Cell_differentiation 448 460	self-renewal
+TR38	Gene_expression 6 21	over-expression
+TR39	Positive_regulation 54 63	increases
+TR40	Cell_proliferation 64 77	proliferation
+TR41	Planned_process 98 105	culture
+TR69	Positive_regulation 6 21	over-expression
+TR47	Planned_process 551 561	transgenic
+TR50	Gene_expression 799 814	over-expression
+TR51	Regulation 826 832	effect
+TR52	Cell_proliferation 881 894	proliferation
+TR53	Cell_differentiation 911 923	neurogenesis
+TR54	Cell_differentiation 928 940	neurogenesis
+TR55	Cell_differentiation 941 952	gliogenesis
+TR56	Development 960 971	development
+TR75	Positive_regulation 799 814	over-expression
+TR76	Development 911 923	neurogenesis
+TR57	Planned_process 979 989	transgenic
+TR58	Reproduction 1000 1004	born
+TR59	Planned_process 1115 1125	transgenic
+TR60	Development 1131 1137	formed
+E1	Gene_expression:TR66 Theme:T37
+E2	Carcinogenesis:TR68 
+E3	Positive_regulation:TR78 Theme:T37
+E4	Positive_regulation:TR67 Cause:E1 Theme:E2
+E5	Planned_process:TR48 Theme:T19
+E6	Cell_division:TR49 Theme:T19
+E7	Gene_expression:TR62 Theme:T30
+E8	Positive_regulation:TR77 Theme:T30
+E9	Gene_expression:TR65 Theme:T32
+E10	Gene_expression:TR65 Theme:T31
+E11	Gene_expression:TR65 Theme:T34
+E12	Gene_expression:TR65 Theme:T33
+E13	Positive_regulation:TR64 Theme:T32
+E14	Positive_regulation:TR64 Theme:T31
+E15	Positive_regulation:TR64 Theme:T34
+E16	Positive_regulation:TR64 Theme:T33
+E17	Negative_regulation:TR63 Theme:E13
+E18	Negative_regulation:TR63 Theme:E14
+E19	Negative_regulation:TR63 Theme:E15
+E20	Negative_regulation:TR63 Theme:E16
+E21	Regulation:TR61 Theme:E13 Cause:E7
+E22	Regulation:TR61 Theme:E14 Cause:E7
+E23	Regulation:TR61 Theme:E15 Cause:E7
+E24	Regulation:TR61 Theme:E16 Cause:E7
+E25	Carcinogenesis:TR46 
+E26	Gene_expression:TR42 Theme:T8
+E27	Planned_process:TR41 Theme:T2
+E28	Gene_expression:TR38 Theme:T1
+E29	Positive_regulation:TR69 Theme:E28
+E30	Cell_proliferation:TR40 Theme:T2
+E31	Positive_regulation:TR39 Cause:E28 Theme:E30
+E32	Positive_regulation:TR39 Theme:E30
+E33	Planned_process:TR47 Instrument:T15 Instrument:T14 Instrument:T13 Theme:T16
+E34	Development:TR76 Theme:T24
+E35	Cell_differentiation:TR55 Theme:T22
+E36	Cell_differentiation:TR55 
+E37	Cell_proliferation:TR52 Theme:T22
+E38	Cell_differentiation:TR53 Theme:T22
+E39	Development:TR56 Theme:T24
+E40	Cell_differentiation:TR54 Theme:T22
+E41	Gene_expression:TR50 Theme:T21
+E42	Regulation:TR51 Theme:E35 Cause:E41
+E43	Regulation:TR51 Theme:E36 Cause:E41
+E44	Regulation:TR51 Theme:E38 Cause:E41
+E45	Regulation:TR51 Theme:E37 Cause:E41
+E46	Regulation:TR51 Cause:E41 Theme:E40
+E47	Positive_regulation:TR75 Theme:E35
+E48	Positive_regulation:TR75 Theme:E36
+E49	Planned_process:TR59 Theme:T28
+E50	Development:TR60 Theme:T29
+E51	Reproduction:TR58 Theme:T26

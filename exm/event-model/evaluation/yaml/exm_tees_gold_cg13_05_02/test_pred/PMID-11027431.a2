@@ -1,0 +1,61 @@
+TR67	Negative_regulation 1111 1117	effect
+TR68	Planned_process 1151 1156	added
+TR69	Positive_regulation 1220 1229	increased
+TR58	Negative_regulation 442 448	effect
+TR73	Negative_regulation 1372 1378	effect
+TR64	Negative_regulation 868 875	reduced
+TR65	Growth 883 889	growth
+TR50	Regulation 203 213	regulating
+TR51	Positive_regulation 236 247	stimulating
+TR52	Blood_vessel_development 255 267	angiogenesis
+TR60	Planned_process 741 750	treatment
+TR61	Negative_regulation 763 772	inhibited
+TR62	Growth 773 779	growth
+TR63	Negative_regulation 835 843	impaired
+TR59	Planned_process 579 593	administration
+TR47	Negative_regulation 22 32	inhibition
+TR48	Positive_regulation 33 40	results
+TR49	Negative_regulation 68 76	activity
+TR70	Negative_regulation 1248 1258	Inhibition
+TR71	Negative_regulation 1274 1281	reduces
+TR72	Growth 1289 1295	growth
+TR74	Regulation 1487 1491	role
+TR75	Planned_process 1510 1519	treatment
+TR53	Negative_regulation 269 279	Inhibition
+TR54	Positive_regulation 311 317	induce
+TR55	Negative_regulation 333 339	effect
+TR56	Regulation 399 408	affecting
+TR57	Growth 418 424	growth
+E1	Negative_regulation:TR67 Theme:T35
+E2	Negative_regulation:TR58 Theme:T17 Cause:T18
+E3	Negative_regulation:TR73 Cause:T42 Theme:T41
+E4	Growth:TR65 Theme:T29
+E5	Negative_regulation:TR64 Theme:E4
+E6	Blood_vessel_development:TR52 AtLoc:T10
+E7	Regulation:TR50 Cause:T7 Theme:E6
+E8	Regulation:TR50 Cause:T7 Theme:T8
+E9	Regulation:TR50 Theme:E6 Cause:T6
+E10	Regulation:TR50 Theme:T8 Cause:T6
+E11	Positive_regulation:TR51 Theme:E6
+E12	Planned_process:TR60 Instrument:T26
+E13	Growth:TR62 Theme:T27
+E14	Negative_regulation:TR63 Theme:T28 Cause:E12
+E15	Negative_regulation:TR61 Cause:E12 Theme:E13
+E16	Planned_process:TR59 Instrument:T21
+E17	Negative_regulation:TR47 Theme:T1
+E18	Negative_regulation:TR49 Cause:T3 Theme:T2
+E19	Negative_regulation:TR49 Theme:T2 Cause:T4
+E20	Positive_regulation:TR48 Theme:E18 Cause:E17
+E21	Positive_regulation:TR48 Theme:E19 Cause:E17
+E22	Growth:TR72 Theme:T40
+E23	Negative_regulation:TR70 Theme:T39
+E24	Negative_regulation:TR71 Theme:E22 Cause:E23
+E25	Planned_process:TR75 Theme:T46
+E26	Growth:TR57 Theme:T16
+E27	Negative_regulation:TR53 Cause:T12 Theme:T11
+E28	Negative_regulation:TR55 Theme:T13
+E29	Regulation:TR56 Theme:E26 Cause:E27
+E30	Regulation:TR56 Theme:E26 Cause:T14
+E31	Positive_regulation:TR54 Cause:E27 Theme:E28
+E32	Positive_regulation:TR54 Cause:E29 Theme:E28
+E33	Positive_regulation:TR54 Cause:E30 Theme:E28

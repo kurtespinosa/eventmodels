@@ -1,0 +1,42 @@
+T44	Metastasis 172 182	metastasis
+T45	Regulation 203 207	role
+T46	Metastasis 211 224	premetastatic
+T47	Localization 245 256	circulating
+T52	Gene_expression 1349 1359	expression
+T53	Metastasis 1429 1439	metastases
+T60	Gene_expression 1317 1325	negative
+T41	Metastasis 13 23	metastasis
+T42	Positive_regulation 42 50	requires
+T43	Gene_expression 76 86	expression
+T48	Regulation 335 347	significance
+T49	Gene_expression 469 478	expressed
+T50	Metastasis 1219 1231	metastasized
+T51	Localization 1263 1271	presence
+T59	Gene_expression 1711 1721	expression
+T62	Localization 1683 1691	presence
+T63	Development 1783 1794	progression
+T54	Localization 1477 1486	circulate
+T55	Gene_expression 1542 1552	expression
+T56	Positive_regulation 1564 1575	facilitates
+T57	Positive_regulation 1580 1593	establishment
+T58	Metastasis 1610 1620	metastases
+T61	Positive_regulation 1533 1541	elevated
+E1	Metastasis:T44 Theme:T4
+E2	Localization:T47 Theme:T5
+E3	Metastasis:T46 
+E4	Regulation:T45 Cause:E2 Theme:E1
+E5	Gene_expression:T52 Theme:T34
+E6	Metastasis:T53 
+E7	Metastasis:T41 Theme:T1
+E8	Gene_expression:T43 Theme:T3
+E9	Regulation:T48 Cause:T7 Theme:T6
+E10	Regulation:T48 Cause:T8 Theme:T6
+E11	Gene_expression:T49 Theme:T9 Theme:T10
+E12	Gene_expression:T49 Theme:T9
+E13	Gene_expression:T49 Theme:T10
+E14	Metastasis:T50 Theme:T29
+E15	Localization:T51 Theme:T31
+E16	Gene_expression:T59 Theme:T39
+E17	Localization:T54 Theme:T35
+E18	Gene_expression:T55 Theme:T36
+E19	Metastasis:T58 Theme:T37

@@ -1,0 +1,39 @@
+T44	Gene_expression 11 21	expression
+T45	Positive_regulation 70 79	dependent
+T46	Positive_regulation 105 114	dependent
+T47	Binding 125 133	adhesion
+T48	Gene_expression 160 169	expressed
+T49	Regulation 233 254	has an important role
+T50	Binding 438 446	adhesion
+T51	Negative_regulation 531 542	suppression
+T52	Regulation 569 579	associated
+T53	Cell_transformation 585 609	malignant transformation
+T54	Regulation 677 687	regulation
+T55	Binding 717 729	interactions
+T56	Cell_transformation 737 761	malignant transformation
+T57	Gene_expression 783 793	expression
+T58	Regulation 853 864	manipulated
+T59	Gene_expression 880 890	expression
+T60	Localization 895 903	invasive
+T61	Negative_regulation 956 969	downregulated
+T62	Gene_expression 1008 1018	expression
+T63	Negative_regulation 1023 1033	suppressed
+T64	Planned_process 1048 1060	transfection
+T65	Positive_regulation 1112 1120	resulted
+T66	Positive_regulation 1128 1140	upregulation
+T67	Gene_expression 1155 1165	expression
+T68	Negative_regulation 1186 1195	decreased
+T69	Localization 1196 1208	invasiveness
+T70	Regulation 1225 1235	regulation
+T71	Transcription 1264 1281	transcriptionally
+T72	Translation 1404 1421	protein synthesis
+T73	Positive_regulation 1437 1446	dependent
+T74	Binding 1461 1469	adhesion
+T75	Regulation 1503 1511	affected
+T76	Gene_expression 1526 1536	expression
+T77	Gene_expression 1596 1606	expression
+T78	Cell_transformation 1688 1702	transformation
+E21	Planned_process:T64 Instrument:T30 Theme:T31
+E26	Localization:T69 Theme:T31
+E27	Regulation:T70 Theme:T33
+E28	Transcription:T71 Theme:T33

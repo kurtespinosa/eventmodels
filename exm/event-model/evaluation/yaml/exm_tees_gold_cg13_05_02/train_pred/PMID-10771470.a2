@@ -1,0 +1,63 @@
+TR46	Blood_vessel_development 1229 1241	angiogenesis
+TR47	Positive_regulation 1312 1320	dictated
+TR54	Development 1388 1399	development
+TR33	Blood_vessel_development 614 626	angiogenesis
+TR34	Growth 739 746	resting
+TR35	Growth 767 773	growth
+TR23	Growth 12 18	growth
+TR24	Regulation 31 41	associated
+TR25	Blood_vessel_development 47 59	angiogenesis
+TR26	Development 90 101	development
+TR27	Blood_vessel_development 103 115	angiogenesis
+TR28	Growth 127 133	growth
+TR29	Development 301 308	cycling
+TR30	Regulation 312 322	associated
+TR31	Blood_vessel_development 424 434	angiogenic
+TR32	Blood_vessel_development 498 508	angiogenic
+TR52	Development 354 363	perfusion
+TR53	Negative_regulation 435 445	properties
+TR36	Cell_proliferation 902 915	proliferating
+TR37	Development 975 982	cycling
+TR38	Regulation 1013 1023	associated
+TR39	Blood_vessel_development 1041 1053	angiogenesis
+TR40	Negative_regulation 1064 1074	inhibiting
+TR41	Blood_vessel_development 1075 1087	angiogenesis
+TR42	Planned_process 1119 1130	application
+TR43	Negative_regulation 1158 1165	retards
+TR44	Positive_regulation 1181 1188	induced
+TR45	Development 1196 1207	development
+TR48	Regulation 1408 1418	associated
+TR49	Blood_vessel_development 1419 1431	angiogenesis
+TR50	Blood_vessel_development 1513 1525	angiogenesis
+TR51	Blood_vessel_development 1596 1606	angiogenic
+E1	Blood_vessel_development:TR46 AtLoc:T20
+E2	Development:TR54 Theme:T21
+E3	Positive_regulation:TR47 Cause:T21 Theme:E1
+E4	Blood_vessel_development:TR33 
+E5	Growth:TR35 Theme:T11
+E6	Growth:TR34 Theme:T11
+E7	Growth:TR23 Theme:T1
+E8	Blood_vessel_development:TR25 
+E9	Regulation:TR24 Theme:E8 Cause:E7
+E10	Blood_vessel_development:TR27 AtLoc:T5
+E11	Blood_vessel_development:TR27 Theme:T3
+E12	Blood_vessel_development:TR27 
+E13	Development:TR26 Theme:T2
+E14	Growth:TR28 Theme:T3
+E15	Development:TR52 Theme:T7
+E16	Blood_vessel_development:TR32 
+E17	Blood_vessel_development:TR31 AtLoc:T8
+E18	Blood_vessel_development:TR31 
+E19	Negative_regulation:TR53 Theme:E17
+E20	Negative_regulation:TR53 Theme:E18
+E21	Development:TR29 Theme:T6
+E22	Regulation:TR30 Theme:E21
+E23	Development:TR45 Theme:T17
+E24	Cell_proliferation:TR36 Theme:T12
+E25	Development:TR37 Theme:T12
+E26	Development:TR37 Theme:T13
+E27	Planned_process:TR42 Instrument:T16 Theme:T15
+E28	Blood_vessel_development:TR50 AtLoc:T22
+E29	Blood_vessel_development:TR51 AtLoc:T22
+E30	Blood_vessel_development:TR49 
+E31	Regulation:TR48 Theme:E30

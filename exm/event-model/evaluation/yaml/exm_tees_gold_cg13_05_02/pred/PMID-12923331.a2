@@ -1,0 +1,53 @@
+T62	Negative_regulation 471 479	inhibits
+T63	Development 491 502	development
+T53	Gene_expression 0 10	Expression
+T54	Metastasis 68 78	metastasis
+T55	Breakdown 86 97	destruction
+T56	Positive_regulation 170 179	stimulate
+T57	Development 184 193	formation
+T58	Positive_regulation 198 208	activation
+T59	Metastasis 232 242	metastatic
+T79	Regulation 111 119	mediated
+T76	Binding 1344 1356	interactions
+T77	Regulation 1456 1466	modulating
+T78	Gene_expression 1473 1483	expression
+T84	Positive_regulation 1413 1419	induce
+T70	Transcription 1140 1147	express
+T68	Planned_process 952 962	co-culture
+T69	Positive_regulation 1018 1025	induced
+T81	Positive_regulation 1029 1037	increase
+T64	Positive_regulation 549 556	induced
+T65	Cell_differentiation 557 575	osteoclastogenesis
+T66	Planned_process 642 653	co-cultured
+T71	Planned_process 1169 1179	co-culture
+T72	Positive_regulation 1237 1244	induced
+T73	Transcription 1251 1266	mRNA expression
+T74	Negative_regulation 1271 1280	decreased
+T75	Transcription 1285 1300	mRNA expression
+T82	Transcription 1256 1266	expression
+T83	Transcription 1290 1300	expression
+T60	Positive_regulation 373 383	stimulates
+T61	Cell_differentiation 395 410	differentiation
+T67	Transcription 895 906	expressions
+T80	Translation 895 906	expressions
+E1	Development:T63 Theme:T18
+E2	Metastasis:T54 Theme:T3 ToLoc:T4
+E3	Metastasis:T59 Theme:T9
+E4	Metastasis:T59 Theme:T10
+E5	Breakdown:T55 Theme:T5
+E6	Positive_regulation:T58 Theme:T9
+E7	Development:T57 Theme:T9
+E8	Gene_expression:T78 Theme:T52
+E9	Transcription:T70 Theme:T43
+E10	Positive_regulation:T81 Theme:T40
+E11	Planned_process:T71 Theme:T44 Theme2:T46
+E12	Planned_process:T71 Theme:T44 Theme2:T45
+E13	Planned_process:T71 Theme:T46 Theme2:T45
+E14	Transcription:T73 Theme:T47
+E15	Transcription:T82 Theme:T47
+E16	Transcription:T83 Theme:T48
+E17	Positive_regulation:T72 Cause:E11 Theme:E14
+E18	Positive_regulation:T72 Cause:E12 Theme:E14
+E19	Positive_regulation:T72 Cause:E13 Theme:E14
+E20	Transcription:T67 Theme:T34
+E21	Transcription:T67 Theme:T35

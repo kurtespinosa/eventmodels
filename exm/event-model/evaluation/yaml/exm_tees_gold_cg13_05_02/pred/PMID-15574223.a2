@@ -1,0 +1,90 @@
+T65	Gene_expression 1098 1107	expressed
+T66	Gene_expression 1213 1222	expressed
+T50	Synthesis 267 275	generate
+T51	Localization 299 307	effluxed
+T49	Glycolysis 190 200	glycolysis
+T59	Planned_process 815 823	targeted
+T60	Negative_regulation 940 950	inhibition
+T61	Localization 962 968	efflux
+T62	Negative_regulation 996 1003	reduced
+T63	Cell_proliferation 1004 1017	proliferation
+T64	Death 1044 1049	death
+T85	Negative_regulation 915 924	silencing
+T86	Positive_regulation 1026 1035	induction
+T71	Negative_regulation 1577 1586	silencing
+T72	Negative_regulation 1600 1607	reduced
+T73	Death 1608 1617	viability
+T67	Negative_regulation 1308 1315	reduced
+T68	Gene_expression 1316 1326	expression
+T69	Negative_regulation 1394 1401	reduced
+T70	Localization 1410 1416	efflux
+T87	Negative_regulation 1480 1488	decrease
+T88	Positive_regulation 1534 1542	increase
+T52	Gene_expression 387 397	expression
+T53	Negative_regulation 486 495	silencing
+T54	Gene_expression 500 510	expression
+T55	Negative_regulation 566 575	decreased
+T56	Cell_proliferation 576 589	proliferation
+T57	Positive_regulation 597 606	increased
+T58	Death 612 617	death
+T81	Positive_regulation 517 523	induce
+T82	Localization 538 551	acidification
+T83	Positive_regulation 553 562	resulting
+T44	Negative_regulation 0 9	Silencing
+T45	Negative_regulation 81 89	inhibits
+T46	Glycolysis 90 100	glycolysis
+T47	Positive_regulation 105 112	induces
+T48	Death 118 123	death
+T80	Planned_process 1915 1924	treatment
+T84	Gene_expression 642 652	expression
+T74	Planned_process 1739 1748	targeting
+T75	Negative_regulation 1763 1770	reduced
+T76	Death 1775 1784	viability
+T77	Regulation 1802 1810	mediated
+T78	Cell_death 1819 1828	apoptosis
+T79	Cell_death 1833 1841	necrosis
+E1	Gene_expression:T65 Theme:T26 Theme:T27
+E2	Gene_expression:T65 Theme:T26
+E3	Gene_expression:T65 Theme:T27
+E4	Gene_expression:T66 Theme:T31
+E5	Synthesis:T50 Theme:T6
+E6	Localization:T51 FromLoc:T7 Theme:T6
+E7	Glycolysis:T49 
+E8	Localization:T61 Theme:T23
+E9	Death:T64 Theme:T25
+E10	Cell_proliferation:T63 Theme:T25
+E11	Planned_process:T59 Theme:T20
+E12	Negative_regulation:T60 Theme:E8
+E13	Negative_regulation:T62 Theme:E9
+E14	Negative_regulation:T62 Theme:E10
+E15	Gene_expression:T68 Theme:T34 Theme:T33
+E16	Gene_expression:T68 Theme:T34
+E17	Gene_expression:T68 Theme:T33
+E18	Negative_regulation:T87 Theme:T37
+E19	Localization:T70 Theme:T36
+E20	Positive_regulation:T88 Theme:T38
+E21	Negative_regulation:T67 Theme:E15
+E22	Negative_regulation:T67 Theme:E16
+E23	Negative_regulation:T67 Theme:E17
+E24	Negative_regulation:T69 Theme:E19
+E25	Gene_expression:T54 Theme:T13
+E26	Gene_expression:T52 Theme:T10
+E27	Cell_proliferation:T56 Theme:T15
+E28	Death:T58 Theme:T15
+E29	Negative_regulation:T53 Theme:E25
+E30	Positive_regulation:T57 Theme:E28 Cause:E29
+E31	Negative_regulation:T55 Cause:E29 Theme:E27
+E32	Negative_regulation:T44 Theme:T1
+E33	Death:T48 Theme:T2
+E34	Glycolysis:T46 
+E35	Negative_regulation:T45 Cause:E32 Theme:E34
+E36	Positive_regulation:T47 Cause:E32 Theme:E33
+E37	Planned_process:T80 Theme:T42
+E38	Gene_expression:T84 Theme:T16
+E39	Cell_death:T79 
+E40	Death:T76 Theme:T41
+E41	Cell_death:T78 
+E42	Planned_process:T74 Theme:T40
+E43	Negative_regulation:T75 Cause:E42 Theme:E40
+E44	Regulation:T77 Cause:E41 Theme:E40
+E45	Regulation:T77 Cause:E39 Theme:E40

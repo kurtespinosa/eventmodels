@@ -1,0 +1,38 @@
+TR44	Localization 888 894	uptake
+TR45	Localization 932 938	uptake
+TR48	Localization 1195 1201	uptake
+TR49	Localization 1223 1229	uptake
+TR53	Cell_differentiation 1288 1303	differentiating
+TR40	Metabolism 347 357	metabolism
+TR41	Localization 395 401	uptake
+TR52	Planned_process 1868 1890	therapeutic management
+TR54	Planned_process 1880 1890	management
+TR50	Metabolism 1601 1611	metabolism
+TR51	Localization 1666 1672	uptake
+TR39	Localization 244 253	transport
+TR42	Metabolism 618 628	metabolism
+TR43	Localization 761 767	uptake
+TR46	Metabolism 1001 1011	metabolism
+TR47	Localization 1027 1033	uptake
+E1	Localization:TR44 Theme:T20 Theme:T19
+E2	Localization:TR44 Theme:T20 ToLoc:T21
+E3	Localization:TR44 Theme:T19 ToLoc:T21
+E4	Localization:TR45 Theme:T20 Theme:T19
+E5	Localization:TR45 Theme:T20 ToLoc:T21
+E6	Localization:TR45 Theme:T19 ToLoc:T21
+E7	Localization:TR48 Theme:T27
+E8	Localization:TR49 Theme:T28
+E9	Localization:TR41 Theme:T9
+E10	Metabolism:TR40 Theme:T8
+E11	Planned_process:TR52 Theme:T37
+E12	Planned_process:TR54 Theme:T37 Instrument:T36
+E13	Metabolism:TR50 Theme:T33
+E14	Localization:TR51 Theme:T34 Theme:T33
+E15	Localization:TR51 Theme:T34
+E16	Localization:TR51 Theme:T33
+E17	Localization:TR39 Theme:T6
+E18	Localization:TR43 Theme:T18
+E19	Metabolism:TR42 Theme:T15
+E20	Localization:TR47 ToLoc:T24 Theme:T23
+E21	Localization:TR47 Theme:T23
+E22	Metabolism:TR46 Theme:T22

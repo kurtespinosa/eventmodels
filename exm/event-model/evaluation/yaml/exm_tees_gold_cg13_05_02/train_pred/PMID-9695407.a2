@@ -1,0 +1,34 @@
+TR31	Positive_regulation 368 375	Induced
+TR32	Gene_expression 392 402	expression
+TR33	Regulation 453 459	affect
+TR34	Carcinogenesis 497 511	leukemogenesis
+TR39	Mutation 888 910	t(10;14) translocation
+TR40	Regulation 931 942	deregulated
+TR50	Mutation 897 910	translocation
+TR38	Mutation 781 802	t(1;19) translocation
+TR49	Mutation 789 802	translocation
+TR29	Carcinogenesis 36 50	leukemogenesis
+TR36	Gene_expression 673 683	expression
+TR37	Positive_regulation 703 710	causing
+TR43	Regulation 1064 1073	functions
+TR44	Cell_differentiation 1174 1189	differentiation
+TR45	Carcinogenesis 1199 1211	leukemogenic
+TR46	Mutation 1222 1229	altered
+TR47	Protein_domain_or_region 110 118	sequence
+TR48	Binding 133 140	binding
+TR30	Gene_expression 339 346	express
+TR35	Planned_process 523 532	knock-out
+TR41	Mutation 981 1002	t(7;11) translocation
+TR42	Mutation 1023 1033	rearranged
+TR51	Mutation 989 1002	translocation
+E1	Carcinogenesis:TR34 
+E2	Regulation:TR33 Theme:E1
+E3	Carcinogenesis:TR29 
+E4	Gene_expression:TR36 Theme:T13
+E5	Positive_regulation:TR37 Cause:E4 Theme:T14
+E6	Cell_differentiation:TR44 Theme:T27
+E7	Carcinogenesis:TR45 
+E8	Mutation:TR46 Theme:T28
+E9	Regulation:TR43 Cause:T26 Theme:T28
+E10	Regulation:TR43 Cause:T26 Theme:E6
+E11	Gene_expression:TR30 Theme:T10

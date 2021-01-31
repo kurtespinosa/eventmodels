@@ -1,0 +1,42 @@
+TR27	Gene_expression 346 356	expression
+TR28	DNA_domain_or_region 372 379	exon 11
+TR29	Mutation 380 388	mutation
+TR40	DNA_domain_or_region 377 379	11
+TR32	Gene_expression 618 628	expression
+TR33	Mutation 644 652	mutation
+TR38	Mutation 1006 1014	mutation
+TR39	Regulation 1019 1042	play a significant role
+TR41	Regulation 1038 1042	role
+TR30	Gene_expression 451 461	expression
+TR31	Mutation 477 485	mutation
+TR24	Regulation 106 112	effect
+TR25	Gene_expression 120 130	expression
+TR26	Mutation 135 143	mutation
+TR34	Mutation 757 765	Mutation
+TR35	Localization 823 831	invasion
+TR36	Metastasis 833 843	metastasis
+TR37	Mutation 876 884	mutation
+TR22	Gene_expression 1 11	Expression
+TR23	Mutation 16 24	mutation
+E1	Gene_expression:TR27 Theme:T6
+E2	Mutation:TR29 Theme:T7 AtLoc:T9
+E3	Mutation:TR29 Theme:T7
+E4	Mutation:TR29 AtLoc:T9
+E5	Gene_expression:TR32 Theme:T12
+E6	Mutation:TR33 AtLoc:T14 Theme:T13
+E7	Mutation:TR33 AtLoc:T14
+E8	Mutation:TR33 AtLoc:T15 Theme:T13
+E9	Mutation:TR33 AtLoc:T15
+E10	Mutation:TR33 Theme:T13
+E11	Mutation:TR38 Theme:T20
+E12	Regulation:TR41 Cause:E11 Theme:T21
+E13	Regulation:TR39 Cause:E11 Theme:T21
+E14	Gene_expression:TR30 Theme:T10
+E15	Mutation:TR31 Theme:T11
+E16	Mutation:TR26 Theme:T3
+E17	Gene_expression:TR25 Theme:T3
+E18	Regulation:TR24 Theme:T4 Cause:E17
+E19	Regulation:TR24 Cause:E17 Theme:T5
+E20	Localization:TR35 ToLoc:T17 Theme:T16
+E21	Metastasis:TR36 Theme:T16
+E22	Gene_expression:TR22 Theme:T1

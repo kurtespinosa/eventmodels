@@ -1,0 +1,74 @@
+T38	Negative_regulation 715 730	down-regulation
+T39	Protein_processing 757 765	cleavage
+T40	Binding 778 785	binding
+T41	Protein_processing 793 800	cleaved
+T42	Protein_domain_or_region 806 823	45 kDa endodomain
+T61	Catabolism 757 765	cleavage
+T62	Protein_domain_or_region 813 823	endodomain
+T23	Transcription 0 15	Transcriptional
+T24	Protein_processing 20 36	post-translation
+T25	Regulation 37 47	regulation
+T43	Protein_processing 843 851	cleavage
+T44	Transcription 877 892	transcriptional
+T45	Negative_regulation 893 908	down-regulation
+T63	Catabolism 843 851	cleavage
+T46	DNA_domain_or_region 963 971	promoter
+T47	Negative_regulation 975 985	suppressed
+T53	Negative_regulation 1215 1230	down-regulation
+T54	Binding 1277 1284	binding
+T55	Positive_regulation 1300 1308	required
+T56	Negative_regulation 1313 1328	destabilization
+T57	Positive_regulation 1362 1370	initiate
+T58	Remodeling 1395 1408	restructuring
+T35	Gene_expression 590 600	expression
+T36	Negative_regulation 612 626	down-regulated
+T37	Planned_process 648 655	exposed
+T31	Gene_expression 434 443	expressed
+T32	Positive_regulation 491 499	required
+T33	Development 520 531	development
+T34	Regulation 536 547	maintenance
+T26	Regulation 277 295	plays a major role
+T27	Remodeling 308 318	remodeling
+T28	Development 344 353	formation
+T29	Regulation 354 357	via
+T30	Blood_vessel_development 375 389	arteriogenesis
+T59	Binding 134 145	interaction
+T60	Regulation 291 295	role
+T48	Positive_regulation 1051 1058	induced
+T49	Transcription 1059 1074	transcriptional
+T50	Negative_regulation 1075 1086	suppression
+T51	Regulation 1098 1106	mediated
+T52	DNA_domain_or_region 1112 1150	negative shear stress response element
+T64	DNA_domain_or_region 1143 1150	element
+E1	Catabolism:T61 Theme:T12
+E2	Protein_processing:T41 Theme:T14
+E3	Protein_processing:T41 Theme:T13
+E4	Protein_processing:T39 Theme:T12
+E5	Transcription:T23 Theme:T1
+E6	Protein_processing:T24 Theme:T1
+E7	Regulation:T25 Theme:E6
+E8	Regulation:T25 Theme:E5
+E9	Transcription:T44 Theme:T15
+E10	Protein_processing:T43 Theme:T15
+E11	Catabolism:T63 Theme:T15
+E12	Negative_regulation:T45 Theme:E9
+E13	Negative_regulation:T47 Cause:T17 Theme:T16
+E14	Negative_regulation:T53 Theme:T19
+E15	Negative_regulation:T56 Theme:T20
+E16	Negative_regulation:T56 Theme:T19
+E17	Negative_regulation:T56 Theme:T21
+E18	Remodeling:T58 Theme:T22
+E19	Remodeling:T58 Theme:T21
+E20	Gene_expression:T35 Theme:T10
+E21	Planned_process:T37 Theme:T11
+E22	Negative_regulation:T36 Theme:E20
+E23	Development:T33 Theme:T9
+E24	Regulation:T34 Theme:T9
+E25	Gene_expression:T31 Theme:T7
+E26	Positive_regulation:T32 Cause:T7 Theme:E24
+E27	Positive_regulation:T32 Cause:T7 Theme:E23
+E28	Remodeling:T27 Theme:T5
+E29	Blood_vessel_development:T30 
+E30	Development:T28 Theme:T6
+E31	Development:T28 Theme:T5
+E32	Transcription:T49 Theme:T18

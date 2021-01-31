@@ -1,0 +1,41 @@
+T40	Blood_vessel_development 365 375	angiogenic
+T41	Positive_regulation 412 419	improve
+T42	Regulation 426 433	control
+T33	Blood_vessel_development 68 80	Angiogenesis
+T34	Regulation 81 102	has an essential role
+T35	Positive_regulation 106 115	promoting
+T36	Positive_regulation 120 130	supporting
+T37	Growth 137 143	growth
+T51	Regulation 98 102	role
+T43	Blood_vessel_development 516 526	angiogenic
+T38	Blood_vessel_development 235 245	angiogenic
+T39	Binding 287 298	interaction
+T32	Breakdown 50 60	disrupting
+T45	Regulation 868 874	target
+T46	Breakdown 879 886	destroy
+T47	Development 892 903	established
+T48	Breakdown 936 947	destruction
+T49	Cell_death 989 997	necrosis
+T50	Death 1002 1010	survival
+T44	Blood_vessel_development 637 647	angiogenic
+T52	Negative_regulation 578 585	inhibit
+T53	Positive_regulation 615 621	induce
+T54	Protein_domain_or_region 821 827	domain
+E1	Regulation:T42 Theme:T8
+E2	Blood_vessel_development:T40 
+E3	Positive_regulation:T41 Cause:T10 Theme:E1
+E4	Positive_regulation:T41 Theme:E1 Cause:T9
+E5	Blood_vessel_development:T33 
+E6	Growth:T37 Theme:T4
+E7	Positive_regulation:T35 Theme:E6
+E8	Positive_regulation:T36 Theme:E6
+E9	Blood_vessel_development:T43 
+E10	Blood_vessel_development:T38 
+E11	Breakdown:T32 Theme:T3
+E12	Development:T47 Theme:T20
+E13	Breakdown:T48 Theme:T20
+E14	Breakdown:T48 Theme:T21
+E15	Regulation:T45 Theme:T20 Cause:T19
+E16	Breakdown:T46 Theme:T20
+E17	Death:T50 Theme:T22
+E18	Blood_vessel_development:T44 

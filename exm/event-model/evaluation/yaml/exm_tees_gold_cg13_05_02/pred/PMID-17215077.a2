@@ -1,0 +1,31 @@
+T33	Positive_regulation 115 124	dependent
+T34	Metastasis 133 143	metastases
+T35	Planned_process 144 151	treated
+T39	Positive_regulation 473 482	dependent
+T40	Metastasis 491 501	metastases
+T41	Planned_process 502 509	treated
+T42	Planned_process 545 566	cyclic administration
+T49	Planned_process 552 566	administration
+T47	Positive_regulation 1183 1191	increase
+T48	Negative_regulation 1229 1237	decrease
+T36	Planned_process 230 243	immunotherapy
+T37	Positive_regulation 280 289	dependent
+T38	Metastasis 316 326	metastases
+T44	Planned_process 860 874	administration
+T45	Positive_regulation 905 913	increase
+T46	Regulation 1019 1028	no change
+T50	Regulation 1022 1028	change
+T43	Metastasis 773 783	metastases
+E1	Planned_process:T35 Theme:T4
+E2	Metastasis:T34 Theme:T3
+E3	Positive_regulation:T33 Theme:E2 Cause:T5
+E4	Planned_process:T41 Theme:T10
+E5	Positive_regulation:T47 Theme:T28
+E6	Negative_regulation:T48 Theme:T29
+E7	Metastasis:T38 Theme:T8
+E8	Positive_regulation:T37 Cause:T7 Theme:T8
+E9	Planned_process:T44 Instrument:T16
+E10	Positive_regulation:T45 Theme:T17 Cause:E9
+E11	Regulation:T46 Cause:E9 Theme:T26
+E12	Regulation:T46 Cause:E9 Theme:T27
+E13	Metastasis:T43 

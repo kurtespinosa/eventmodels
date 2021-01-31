@@ -1,0 +1,34 @@
+TR31	Gene_expression 513 522	expressed
+TR42	Remodeling 965 974	integrity
+TR27	Remodeling 105 126	morphological changes
+TR36	Remodeling 119 126	changes
+TR32	Remodeling 613 634	morphological changes
+TR39	Remodeling 627 634	changes
+TR29	Positive_regulation 358 365	promote
+TR30	Synthesis 366 375	formation
+TR38	Development 366 375	formation
+TR33	Regulation 724 744	plays a pivotal role
+TR34	Breakdown 748 765	structural damage
+TR35	Blood_vessel_development 786 801	neoangiogenesis
+TR40	Regulation 740 744	role
+TR41	Breakdown 759 765	damage
+TR28	Positive_regulation 179 187	promoted
+TR37	Synthesis 249 258	generated
+TR26	Breakdown 48 54	damage
+E1	Remodeling:TR42 Theme:T23
+E2	Remodeling:TR27 Theme:T5
+E3	Remodeling:TR36 Theme:T5
+E4	Remodeling:TR32 Theme:T17
+E5	Synthesis:TR30 Theme:T11
+E6	Synthesis:TR30 Theme:T10
+E7	Positive_regulation:TR29 Theme:E5 Cause:T9
+E8	Positive_regulation:TR29 Theme:E6 Cause:T9
+E9	Blood_vessel_development:TR35 AtLoc:T21
+E10	Breakdown:TR34 Theme:T21
+E11	Breakdown:TR41 Theme:T21
+E12	Regulation:TR33 Theme:E10 Cause:T20
+E13	Regulation:TR33 Cause:T20 Theme:E9
+E14	Regulation:TR40 Cause:T20 Theme:E11
+E15	Synthesis:TR37 Theme:T6
+E16	Synthesis:TR37 Theme:T7
+E17	Breakdown:TR26 Theme:T3

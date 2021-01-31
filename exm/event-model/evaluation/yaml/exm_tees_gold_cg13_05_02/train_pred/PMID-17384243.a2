@@ -1,0 +1,57 @@
+TR51	Gene_expression 595 605	expression
+TR47	Cell_death 143 152	apoptosis
+TR48	Development 190 201	development
+TR49	Positive_regulation 206 217	progression
+TR64	Development 206 217	progression
+TR52	Metastasis 1164 1174	metastases
+TR53	Gene_expression 1379 1389	expression
+TR54	Gene_expression 1422 1432	expression
+TR55	Metastasis 1447 1457	metastases
+TR56	Positive_regulation 1478 1487	increased
+TR57	Gene_expression 1488 1498	expression
+TR58	Metastasis 1526 1536	metastatic
+TR59	Positive_regulation 1637 1648	progression
+TR60	Positive_regulation 1653 1664	development
+TR61	Metastasis 1668 1678	metastases
+TR65	Development 1653 1664	development
+TR62	Metastasis 1756 1766	metastatic
+TR63	Positive_regulation 1824 1835	progression
+TR66	Development 1824 1835	progression
+TR45	Gene_expression 0 10	Expression
+TR46	Metastasis 68 78	metastases
+TR50	Cell_death 330 339	apoptosis
+E1	Gene_expression:TR51 Theme:T17
+E2	Gene_expression:TR51 Theme:T18
+E3	Gene_expression:TR51 Theme:T16
+E4	Cell_death:TR47 
+E5	Development:TR48 Theme:T8
+E6	Positive_regulation:TR49 Theme:T8
+E7	Development:TR64 Theme:T8
+E8	Metastasis:TR52 Theme:T29 ToLoc:T30
+E9	Metastasis:TR52 ToLoc:T30
+E10	Gene_expression:TR57 Theme:T39 Theme:T38 Theme:T40
+E11	Gene_expression:TR57 Theme:T39 Theme:T38
+E12	Gene_expression:TR57 Theme:T39 Theme:T40
+E13	Gene_expression:TR57 Theme:T39
+E14	Gene_expression:TR57 Theme:T38 Theme:T40
+E15	Gene_expression:TR57 Theme:T38
+E16	Gene_expression:TR57 Theme:T40
+E17	Metastasis:TR61 Theme:T42
+E18	Metastasis:TR55 ToLoc:T37
+E19	Positive_regulation:TR59 Theme:T42
+E20	Gene_expression:TR53 Theme:T34
+E21	Metastasis:TR58 
+E22	Gene_expression:TR54 Theme:T34
+E23	Positive_regulation:TR56 Theme:E10
+E24	Positive_regulation:TR56 Theme:E11
+E25	Positive_regulation:TR56 Theme:E12
+E26	Positive_regulation:TR56 Theme:E13
+E27	Positive_regulation:TR56 Theme:E14
+E28	Positive_regulation:TR56 Theme:E15
+E29	Positive_regulation:TR56 Theme:E16
+E30	Positive_regulation:TR60 Theme:E17
+E31	Positive_regulation:TR63 Theme:T44
+E32	Metastasis:TR62 Theme:T43
+E33	Development:TR66 Theme:T44
+E34	Metastasis:TR46 Theme:T6 ToLoc:T5
+E35	Cell_death:TR50 

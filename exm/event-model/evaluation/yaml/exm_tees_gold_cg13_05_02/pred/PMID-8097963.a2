@@ -1,0 +1,99 @@
+T67	Positive_regulation 618 627	activated
+T68	Planned_process 645 655	introduced
+T69	Cell_transformation 664 676	immortalized
+T70	Carcinogenesis 677 691	nontumorigenic
+T98	Positive_regulation 1896 1904	increase
+T99	Gene_expression 1912 1922	expression
+T100	Positive_regulation 1953 1961	increase
+T101	Gene_expression 1969 1979	expression
+T109	Positive_regulation 1888 1895	induced
+T71	Positive_regulation 766 774	increase
+T72	Gene_expression 786 796	expression
+T73	Positive_regulation 804 807	led
+T74	Development 815 824	formation
+T75	Planned_process 883 893	inoculated
+T108	Growth 842 849	growing
+T88	Positive_regulation 1468 1476	elevated
+T89	Gene_expression 1481 1491	expression
+T90	Positive_regulation 1497 1504	induced
+T91	Positive_regulation 1523 1531	elevated
+T92	Gene_expression 1543 1553	expression
+T93	Gene_expression 1616 1626	expression
+T94	Positive_regulation 1656 1663	induced
+T95	Gene_expression 1679 1689	expression
+T96	Regulation 1717 1727	correlated
+T97	Gene_expression 1750 1760	expression
+T58	Positive_regulation 0 9	Increased
+T59	Gene_expression 10 20	expression
+T60	Cell_transformation 111 122	transformed
+T64	Regulation 440 444	role
+T65	Cell_transformation 519 532	tumorigenesis
+T66	Regulation 538 542	role
+T107	Carcinogenesis 519 532	tumorigenesis
+T102	Gene_expression 2065 2075	expression
+T103	Gene_expression 2096 2106	expression
+T104	Regulation 2111 2131	play a critical role
+T105	Carcinogenesis 2148 2161	tumorigenesis
+T110	Regulation 2127 2131	role
+T61	Regulation 230 240	regulation
+T62	Cell_proliferation 249 262	proliferation
+T63	Cell_transformation 278 292	transformation
+T106	Regulation 320 329	modulated
+T80	Gene_expression 1169 1179	expression
+T81	Positive_regulation 1198 1207	increased
+T82	Planned_process 1221 1232	transformed
+T83	Gene_expression 1247 1257	expression
+T84	Gene_expression 1304 1314	expression
+T85	Gene_expression 1344 1354	expression
+T86	Regulation 1395 1405	correlated
+T87	Carcinogenesis 1411 1425	tumorigenicity
+T76	Positive_regulation 942 950	increase
+T77	Gene_expression 958 968	expression
+T78	Planned_process 1041 1052	transformed
+T79	Development 1074 1081	derived
+E1	Positive_regulation:T67 Theme:T14
+E2	Carcinogenesis:T70 AtLoc:T17
+E3	Carcinogenesis:T70 
+E4	Gene_expression:T101 Theme:T52
+E5	Positive_regulation:T100 Theme:E4
+E6	Gene_expression:T99 Theme:T51
+E7	Positive_regulation:T109 Theme:E6
+E8	Positive_regulation:T98 Theme:E6
+E9	Planned_process:T75 Instrument:T20 Theme:T21
+E10	Growth:T108 Theme:T19
+E11	Positive_regulation:T94 Cause:T44 Theme:T43
+E12	Positive_regulation:T94 Cause:T44 Theme:T42
+E13	Gene_expression:T97 Theme:T46
+E14	Positive_regulation:T90 Theme:T37 Cause:T39
+E15	Gene_expression:T93 Theme:T43 Theme:T40
+E16	Gene_expression:T93 Theme:T43
+E17	Gene_expression:T93 Theme:T40
+E18	Gene_expression:T92 Theme:T40
+E19	Gene_expression:T95 Theme:T45
+E20	Gene_expression:T89 Theme:T38
+E21	Regulation:T96 Cause:E19 Theme:E13
+E22	Positive_regulation:T91 Cause:T39 Theme:E18
+E23	Positive_regulation:T88 Theme:E20
+E24	Gene_expression:T59 Theme:T1
+E25	Positive_regulation:T58 Theme:E24
+E26	Carcinogenesis:T107 AtLoc:T12
+E27	Gene_expression:T102 Theme:T53 Theme:T54
+E28	Gene_expression:T102 Theme:T53
+E29	Gene_expression:T102 Theme:T54
+E30	Carcinogenesis:T105 AtLoc:T57
+E31	Cell_transformation:T63 Theme:T6
+E32	Cell_proliferation:T62 Theme:T6
+E33	Regulation:T61 Theme:E32
+E34	Regulation:T61 Theme:E31
+E35	Gene_expression:T80 Theme:T28
+E36	Planned_process:T82 Theme:T30 Instrument:T29
+E37	Gene_expression:T83 Theme:T31
+E38	Positive_regulation:T81 Theme:E35
+E39	Gene_expression:T84 Theme:T32
+E40	Development:T79 Theme:T27
+E41	Gene_expression:T77 Theme:T24 Theme:T23
+E42	Gene_expression:T77 Theme:T24
+E43	Gene_expression:T77 Theme:T23
+E44	Positive_regulation:T76 Theme:E41
+E45	Positive_regulation:T76 Theme:E42
+E46	Positive_regulation:T76 Theme:E43

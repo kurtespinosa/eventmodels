@@ -1,0 +1,44 @@
+T41	Blood_vessel_development 959 969	angiogenic
+T42	Regulation 1003 1011	mediated
+T38	Negative_regulation 820 833	function loss
+T39	Mutation 837 845	mutation
+T40	Gene_expression 849 863	overexpression
+T49	Negative_regulation 829 833	loss
+T50	Positive_regulation 849 863	overexpression
+T28	Blood_vessel_development 138 148	angiogenic
+T44	Negative_regulation 149 159	properties
+T33	Negative_regulation 530 541	Attenuation
+T34	Blood_vessel_development 552 562	angiogenic
+T35	Positive_regulation 563 570	effects
+T36	Regulation 617 632	play a key role
+T37	Blood_vessel_development 659 669	angiogenic
+T46	Positive_regulation 530 541	Attenuation
+T47	Negative_regulation 563 570	effects
+T48	Regulation 628 632	role
+T29	Positive_regulation 210 229	Stimulatory effects
+T30	Cell_proliferation 233 246	proliferation
+T31	Localization 251 260	migration
+T32	Blood_vessel_development 329 339	angiogenic
+T27	Blood_vessel_development 30 40	angiogenic
+T43	Negative_regulation 41 51	properties
+T45	Localization 429 437	presence
+E1	Blood_vessel_development:T41 
+E2	Mutation:T39 Theme:T21
+E3	Gene_expression:T40 Theme:T22
+E4	Negative_regulation:T38 Theme:T21 Cause:E3
+E5	Blood_vessel_development:T28 
+E6	Blood_vessel_development:T37 
+E7	Blood_vessel_development:T34 
+E8	Positive_regulation:T35 Theme:E7
+E9	Negative_regulation:T33 Cause:T13 Theme:E8
+E10	Cell_proliferation:T30 Theme:T4
+E11	Cell_proliferation:T30 Theme:T5
+E12	Blood_vessel_development:T32 
+E13	Localization:T31 Theme:T4
+E14	Localization:T31 Theme:T5
+E15	Positive_regulation:T29 Theme:E10
+E16	Positive_regulation:T29 Theme:E11
+E17	Positive_regulation:T29 Theme:E13
+E18	Positive_regulation:T29 Theme:E14
+E19	Blood_vessel_development:T27 
+E20	Negative_regulation:T43 Theme:E19

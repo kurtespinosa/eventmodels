@@ -1,0 +1,49 @@
+T54	Planned_process 503 511	received
+T55	Planned_process 524 534	transduced
+T56	Development 553 562	developed
+T48	Pathway 354 361	pathway
+T49	Positive_regulation 377 384	induced
+T50	Carcinogenesis 385 399	leukemogenesis
+T51	Planned_process 412 435	insertional mutagenesis
+T52	Positive_regulation 465 473	mediated
+T53	Planned_process 474 487	gene transfer
+T70	Planned_process 424 435	mutagenesis
+T71	Planned_process 479 487	transfer
+T57	Positive_regulation 764 776	up-regulated
+T58	Planned_process 795 805	insertions
+T59	Gene_expression 811 823	coexpression
+T60	Positive_regulation 853 864	accelerated
+T61	Development 869 874	onset
+T62	Positive_regulation 890 897	induced
+T40	Regulation 15 24	cooperate
+T41	Carcinogenesis 56 70	leukemogenesis
+T68	Carcinogenesis 1176 1190	leukemogenesis
+T63	Positive_regulation 1019 1028	enhancing
+T64	Phosphorylation 1029 1044	phosphorylation
+T65	Positive_regulation 1053 1062	resulting
+T66	Negative_regulation 1066 1076	inhibition
+T67	Cell_death 1080 1089	apoptosis
+T42	Positive_regulation 85 95	activation
+T43	Regulation 115 123	perturbs
+T44	Cell_differentiation 132 147	differentiation
+T45	Development 163 168	leads
+T46	Positive_regulation 163 168	leads
+T47	Development 295 306	development
+T69	Positive_regulation 282 290	required
+E1	Development:T56 Theme:T20
+E2	Development:T56 Theme:T21
+E3	Development:T56 Theme:T19
+E4	Planned_process:T54 Instrument:T19 Theme:T16
+E5	Planned_process:T54 Instrument:T19
+E6	Planned_process:T51 Instrument:T14
+E7	Planned_process:T70 Instrument:T14
+E8	Positive_regulation:T62 Cause:T32 Theme:T33
+E9	Positive_regulation:T62 Cause:T31 Theme:T33
+E10	Development:T61 Theme:T33
+E11	Carcinogenesis:T41 AtLoc:T5
+E12	Carcinogenesis:T68 AtLoc:T39
+E13	Cell_death:T67 
+E14	Negative_regulation:T66 Theme:E13
+E15	Development:T47 Theme:T11
+E16	Cell_differentiation:T44 Theme:T8
+E17	Development:T45 Theme:T10

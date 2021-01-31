@@ -1,0 +1,78 @@
+TR52	Gene_expression 322 326	null
+TR53	Regulation 354 365	involvement
+TR54	Development 393 402	formation
+TR55	Blood_vessel_development 404 419	Vascularization
+TR56	Blood_vessel_development 471 483	angiogenesis
+TR57	Negative_regulation 494 503	inhibited
+TR58	Gene_expression 515 519	null
+TR76	Development 1238 1248	developing
+TR77	Blood_vessel_development 1356 1366	angiogenic
+TR78	Gene_expression 1450 1454	null
+TR89	Mutation 1393 1402	wild-type
+TR66	Development 859 868	formation
+TR67	Negative_regulation 901 910	inhibited
+TR68	Planned_process 983 990	treated
+TR79	Regulation 1504 1515	involvement
+TR80	Blood_vessel_development 1542 1554	angiogenesis
+TR81	Positive_regulation 1594 1603	stimulate
+TR82	Localization 1621 1629	motility
+TR83	Positive_regulation 1633 1642	promoting
+TR84	Development 1647 1656	formation
+TR69	Gene_expression 1060 1070	expression
+TR70	Positive_regulation 1082 1090	promoted
+TR71	Development 1101 1110	formation
+TR72	Positive_regulation 1115 1124	increased
+TR73	Gene_expression 1137 1147	expression
+TR74	Positive_regulation 1195 1202	promote
+TR75	Development 1207 1216	formation
+TR59	Planned_process 549 560	transplants
+TR60	Mutation 580 589	wild-type
+TR61	Gene_expression 602 611	deficient
+TR62	Negative_regulation 635 643	impaired
+TR63	Blood_vessel_development 644 654	angiogenic
+TR64	Localization 680 684	loss
+TR86	Positive_regulation 664 672	resulted
+TR87	Negative_regulation 680 684	loss
+TR47	Blood_vessel_development 0 12	Angiogenesis
+TR48	Gene_expression 62 66	null
+TR65	Localization 770 778	motility
+TR88	Localization 744 753	migration
+TR49	Localization 178 187	migration
+TR50	Negative_regulation 246 253	inhibit
+TR51	Blood_vessel_development 262 274	angiogenesis
+TR85	Regulation 147 157	implicated
+E1	Development:TR54 Theme:T9
+E2	Regulation:TR53 Theme:E1 Cause:T8
+E3	Regulation:TR53 Cause:T8 Theme:T9
+E4	Blood_vessel_development:TR56 AtLoc:T10
+E5	Blood_vessel_development:TR55 AtLoc:T10
+E6	Gene_expression:TR58 Theme:T11
+E7	Negative_regulation:TR57 Theme:E5
+E8	Negative_regulation:TR57 Theme:E4
+E9	Development:TR76 Theme:T39
+E10	Development:TR76 Theme:T36
+E11	Gene_expression:TR78 Theme:T40
+E12	Blood_vessel_development:TR77 Theme:T39
+E13	Blood_vessel_development:TR77 
+E14	Development:TR66 Theme:T23
+E15	Development:TR84 Theme:T46
+E16	Positive_regulation:TR83 Cause:T44 Theme:E15
+E17	Development:TR75 Theme:T35
+E18	Positive_regulation:TR74 Cause:T33 Theme:E17
+E19	Mutation:TR60 Theme:T14
+E20	Gene_expression:TR61 Theme:T14
+E21	Localization:TR64 AtLoc:T17 Theme:T18
+E22	Localization:TR64 AtLoc:T16 Theme:T18
+E23	Localization:TR64 Theme:T18
+E24	Blood_vessel_development:TR63 
+E25	Negative_regulation:TR87 Theme:T18
+E26	Negative_regulation:TR62 Cause:E21 Theme:E24
+E27	Negative_regulation:TR62 Cause:E22 Theme:E24
+E28	Negative_regulation:TR62 Cause:E23 Theme:E24
+E29	Blood_vessel_development:TR47 AtLoc:T2
+E30	Blood_vessel_development:TR47 
+E31	Gene_expression:TR48 Theme:T1
+E32	Localization:TR65 Theme:T20
+E33	Blood_vessel_development:TR51 
+E34	Localization:TR49 Theme:T4
+E35	Negative_regulation:TR50 Theme:E33 Cause:T5

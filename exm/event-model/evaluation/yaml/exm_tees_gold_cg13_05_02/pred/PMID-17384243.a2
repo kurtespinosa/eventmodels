@@ -1,0 +1,57 @@
+T51	Gene_expression 595 605	expression
+T47	Cell_death 143 152	apoptosis
+T48	Development 190 201	development
+T49	Positive_regulation 206 217	progression
+T64	Development 206 217	progression
+T52	Metastasis 1164 1174	metastases
+T53	Gene_expression 1379 1389	expression
+T54	Gene_expression 1422 1432	expression
+T55	Metastasis 1447 1457	metastases
+T56	Positive_regulation 1478 1487	increased
+T57	Gene_expression 1488 1498	expression
+T58	Metastasis 1526 1536	metastatic
+T59	Positive_regulation 1637 1648	progression
+T60	Positive_regulation 1653 1664	development
+T61	Metastasis 1668 1678	metastases
+T65	Development 1653 1664	development
+T62	Metastasis 1756 1766	metastatic
+T63	Positive_regulation 1824 1835	progression
+T66	Development 1824 1835	progression
+T45	Gene_expression 0 10	Expression
+T46	Metastasis 68 78	metastases
+T50	Cell_death 330 339	apoptosis
+E1	Gene_expression:T51 Theme:T17
+E2	Gene_expression:T51 Theme:T18
+E3	Gene_expression:T51 Theme:T16
+E4	Cell_death:T47 
+E5	Development:T48 Theme:T8
+E6	Positive_regulation:T49 Theme:T8
+E7	Development:T64 Theme:T8
+E8	Metastasis:T52 Theme:T29 ToLoc:T30
+E9	Metastasis:T52 ToLoc:T30
+E10	Gene_expression:T57 Theme:T39 Theme:T38 Theme:T40
+E11	Gene_expression:T57 Theme:T39 Theme:T38
+E12	Gene_expression:T57 Theme:T39 Theme:T40
+E13	Gene_expression:T57 Theme:T39
+E14	Gene_expression:T57 Theme:T38 Theme:T40
+E15	Gene_expression:T57 Theme:T38
+E16	Gene_expression:T57 Theme:T40
+E17	Metastasis:T61 Theme:T42
+E18	Metastasis:T55 ToLoc:T37
+E19	Positive_regulation:T59 Theme:T42
+E20	Gene_expression:T53 Theme:T34
+E21	Metastasis:T58 
+E22	Gene_expression:T54 Theme:T34
+E23	Positive_regulation:T56 Theme:E10
+E24	Positive_regulation:T56 Theme:E11
+E25	Positive_regulation:T56 Theme:E12
+E26	Positive_regulation:T56 Theme:E13
+E27	Positive_regulation:T56 Theme:E14
+E28	Positive_regulation:T56 Theme:E15
+E29	Positive_regulation:T56 Theme:E16
+E30	Positive_regulation:T60 Theme:E17
+E31	Positive_regulation:T63 Theme:T44
+E32	Metastasis:T62 Theme:T43
+E33	Development:T66 Theme:T44
+E34	Metastasis:T46 Theme:T6 ToLoc:T5
+E35	Cell_death:T50 

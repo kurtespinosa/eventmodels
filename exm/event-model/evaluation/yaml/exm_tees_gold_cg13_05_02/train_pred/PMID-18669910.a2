@@ -1,0 +1,51 @@
+TR59	Planned_process 1420 1429	injection
+TR60	Localization 1496 1508	infiltration
+TR61	Planned_process 1528 1537	injection
+TR54	Localization 685 693	secreted
+TR58	Planned_process 1347 1355	observed
+TR69	Development 1168 1177	perfusion
+TR62	Planned_process 1606 1615	injection
+TR63	Positive_regulation 1624 1630	elicit
+TR64	Cell_proliferation 1644 1666	proliferative response
+TR70	Cell_proliferation 1644 1657	proliferative
+TR71	Cell_proliferation 1658 1666	response
+TR55	Cell_proliferation 955 968	proliferation
+TR66	Gene_expression 827 836	expressed
+TR67	Positive_regulation 926 932	elicit
+TR68	Planned_process 989 996	culture
+TR52	Planned_process 350 365	transplantation
+TR53	Planned_process 535 543	obtained
+TR65	Planned_process 1797 1806	injection
+TR72	Planned_process 1859 1868	treatment
+TR47	Planned_process 11 20	injection
+TR48	Positive_regulation 70 77	induces
+TR49	Blood_vessel_development 90 102	angiogenesis
+TR56	Planned_process 1015 1023	obtained
+TR57	Planned_process 1045 1053	injected
+TR50	Development 271 283	regeneration
+TR51	Remodeling 288 294	repair
+E1	Planned_process:TR59 Instrument:T36 Instrument:T37
+E2	Localization:TR60 Theme:T38
+E3	Planned_process:TR61 Instrument:T39
+E4	Localization:TR54 Theme:T17 FromLoc:T16
+E5	Localization:TR54 Theme:T18 FromLoc:T16
+E6	Planned_process:TR58 Theme:T34 Theme2:T33
+E7	Cell_proliferation:TR71 Theme:T41
+E8	Planned_process:TR62 Instrument:T40
+E9	Cell_proliferation:TR70 Theme:T41
+E10	Cell_proliferation:TR64 Theme:T41
+E11	Positive_regulation:TR63 Theme:E10 Cause:E8
+E12	Cell_proliferation:TR55 Theme:T21
+E13	Planned_process:TR68 Theme:T22
+E14	Planned_process:TR52 Instrument:T9 Instrument:T8
+E15	Planned_process:TR53 Theme:T12
+E16	Planned_process:TR72 Theme:T46
+E17	Planned_process:TR65 Instrument:T45
+E18	Planned_process:TR47 Instrument:T1
+E19	Blood_vessel_development:TR49 
+E20	Positive_regulation:TR48 Theme:E19 Cause:E18
+E21	Planned_process:TR57 Instrument:T24 Instrument:T23 Theme:T26
+E22	Planned_process:TR56 Theme:T24 Theme2:T23
+E23	Development:TR50 Theme:T7
+E24	Remodeling:TR51 Theme:T5
+E25	Remodeling:TR51 Theme:T7

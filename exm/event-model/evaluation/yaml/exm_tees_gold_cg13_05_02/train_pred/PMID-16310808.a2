@@ -1,0 +1,106 @@
+TR54	Blood_vessel_development 604 616	angiogenesis
+TR55	Negative_regulation 643 660	inhibitory action
+TR58	Regulation 840 846	effect
+TR59	Localization 870 879	secretion
+TR60	Localization 881 895	cell migration
+TR61	Binding 897 905	adhesion
+TR62	Development 930 939	formation
+TR88	Localization 886 895	migration
+TR42	Blood_vessel_development 140 152	Angiogenesis
+TR43	Development 171 180	formation
+TR44	Regulation 216 225	regulated
+TR45	Blood_vessel_development 233 243	angiogenic
+TR46	Positive_regulation 261 270	stimulate
+TR47	Localization 292 299	migrate
+TR48	Cell_proliferation 301 312	proliferate
+TR49	Cell_differentiation 317 330	differentiate
+TR50	Development 334 338	form
+TR63	Negative_regulation 1045 1054	inhibited
+TR64	Localization 1060 1069	secretion
+TR65	Negative_regulation 1089 1098	decreased
+TR66	Development 1113 1119	formed
+TR67	Positive_regulation 1140 1149	increased
+TR68	Binding 1155 1163	adhesion
+TR74	Regulation 1385 1391	change
+TR75	Cell_proliferation 1397 1410	proliferation
+TR76	Blood_vessel_development 1456 1466	angiogenic
+TR77	Negative_regulation 1467 1473	action
+TR78	Positive_regulation 1492 1495	due
+TR79	Negative_regulation 1506 1523	inhibitory action
+TR80	Localization 1532 1541	secretion
+TR81	Development 1568 1577	formation
+TR82	Regulation 1606 1615	influence
+TR83	Localization 1635 1644	migration
+TR84	Binding 1649 1657	adhesion
+TR89	Negative_regulation 1517 1523	action
+TR37	Regulation 22 31	affecting
+TR38	Localization 37 46	secretion
+TR39	Localization 48 62	cell migration
+TR40	Binding 64 72	adhesion
+TR41	Development 92 101	formation
+TR85	Regulation 0 6	Effect
+TR86	Localization 53 62	migration
+TR51	Development 386 397	development
+TR52	Remodeling 415 425	remodeling
+TR53	Development 508 517	formation
+TR87	Positive_regulation 367 376	Excessive
+TR56	Regulation 732 741	influence
+TR57	Blood_vessel_development 781 793	angiogenesis
+TR69	Planned_process 1177 1191	Administration
+TR70	Positive_regulation 1243 1252	increased
+TR71	Localization 1258 1267	migration
+TR72	Negative_regulation 1292 1301	decreased
+TR73	Localization 1307 1316	migration
+E1	Blood_vessel_development:TR54 
+E2	Negative_regulation:TR55 Theme:E1 Cause:T13
+E3	Negative_regulation:TR55 Theme:E1 Cause:T14
+E4	Localization:TR60 Theme:T17
+E5	Localization:TR60 Theme:T21
+E6	Development:TR62 Theme:T19
+E7	Binding:TR61 Theme:T21
+E8	Localization:TR88 Theme:T18
+E9	Cell_proliferation:TR48 Theme:T8
+E10	Development:TR43 Theme:T7
+E11	Blood_vessel_development:TR42 
+E12	Development:TR50 Theme:T9
+E13	Cell_differentiation:TR49 Theme:T8
+E14	Regulation:TR44 Theme:E11
+E15	Regulation:TR44 Theme:T7
+E16	Development:TR66 Theme:T24
+E17	Negative_regulation:TR65 Cause:T22 Theme:E16
+E18	Negative_regulation:TR65 Cause:T22 Theme:T23
+E19	Cell_proliferation:TR75 Theme:T31
+E20	Regulation:TR74 Theme:E19 Cause:T30
+E21	Blood_vessel_development:TR76 
+E22	Development:TR81 Theme:T35
+E23	Localization:TR83 Theme:T36
+E24	Localization:TR80 Theme:T34
+E25	Binding:TR84 Theme:T36
+E26	Regulation:TR82 Theme:E25 Cause:T33
+E27	Regulation:TR82 Cause:T33 Theme:E23
+E28	Negative_regulation:TR89 Theme:E22
+E29	Negative_regulation:TR89 Theme:E24
+E30	Negative_regulation:TR79 Theme:E22
+E31	Negative_regulation:TR79 Theme:E24
+E32	Negative_regulation:TR77 Cause:T33 Theme:E21
+E33	Positive_regulation:TR78 Cause:E30 Theme:E32
+E34	Positive_regulation:TR78 Cause:E31 Theme:E32
+E35	Positive_regulation:TR78 Theme:E32 Cause:T33
+E36	Localization:TR86 Theme:T3
+E37	Binding:TR40 Theme:T6
+E38	Development:TR41 Theme:T4
+E39	Development:TR41 Theme:T6
+E40	Localization:TR39 Theme:T6
+E41	Localization:TR39 Theme:T2
+E42	Development:TR51 Theme:T10
+E43	Remodeling:TR52 Theme:T11
+E44	Development:TR53 Theme:T12
+E45	Development:TR53 Theme:T10
+E46	Positive_regulation:TR87 Theme:E44
+E47	Positive_regulation:TR87 Theme:E45
+E48	Blood_vessel_development:TR57 
+E49	Regulation:TR56 Theme:E48 Cause:T15
+E50	Localization:TR73 Theme:T29
+E51	Planned_process:TR69 Instrument:T27
+E52	Negative_regulation:TR72 Theme:T28 Cause:E51
+E53	Negative_regulation:TR72 Theme:E50 Cause:E51

@@ -1,0 +1,62 @@
+TR45	Negative_regulation 688 695	inhibit
+TR46	Localization 707 715	invasion
+TR47	Negative_regulation 724 739	down-regulation
+TR48	Positive_regulation 776 783	promote
+TR49	Cell_death 784 793	apoptosis
+TR50	Positive_regulation 802 811	induction
+TR51	Gene_expression 819 829	expression
+TR52	Negative_regulation 834 844	inhibition
+TR42	Gene_expression 567 577	expression
+TR43	Negative_regulation 613 622	decreased
+TR44	Positive_regulation 644 652	elevated
+TR28	Regulation 1 7	Effect
+TR29	Negative_regulation 23 32	silencing
+TR30	Localization 89 97	invasion
+TR31	Cell_death 102 111	apoptosis
+TR55	Positive_regulation 47 55	mediated
+TR56	Localization 56 64	delivery
+TR53	Regulation 890 913	plays an important role
+TR54	Positive_regulation 930 941	progression
+TR58	Regulation 909 913	role
+TR59	Development 930 941	progression
+TR32	Regulation 145 151	effect
+TR33	Negative_regulation 167 176	silencing
+TR34	Localization 184 192	invasion
+TR35	Cell_death 197 206	apoptosis
+TR37	Negative_regulation 464 473	inhibited
+TR38	Gene_expression 486 496	expression
+TR39	Localization 506 514	invasion
+TR40	Positive_regulation 516 524	promoted
+TR41	Cell_death 525 534	apoptosis
+TR36	Cell_death 245 254	apoptosis
+TR57	Localization 235 243	invasion
+E1	Negative_regulation:TR52 Theme:T24
+E2	Negative_regulation:TR47 Theme:T20
+E3	Negative_regulation:TR47 Theme:T22
+E4	Cell_death:TR49 Theme:T19
+E5	Positive_regulation:TR48 Cause:E1 Theme:E4
+E6	Positive_regulation:TR44 Theme:T17
+E7	Localization:TR30 Theme:T3
+E8	Cell_death:TR31 Theme:T3
+E9	Negative_regulation:TR29 Theme:T1
+E10	Regulation:TR28 Theme:E7 Cause:E9
+E11	Regulation:TR28 Theme:E8 Cause:E9
+E12	Development:TR59 Theme:T27
+E13	Positive_regulation:TR54 Theme:T27
+E14	Regulation:TR53 Theme:E13 Cause:T25
+E15	Regulation:TR58 Theme:E12 Cause:T25
+E16	Negative_regulation:TR33 Theme:T4
+E17	Cell_death:TR35 Theme:T5
+E18	Cell_death:TR35 
+E19	Localization:TR34 Theme:T5
+E20	Regulation:TR32 Theme:E19 Cause:E16
+E21	Regulation:TR32 Cause:E16 Theme:E17
+E22	Regulation:TR32 Cause:E16 Theme:E18
+E23	Localization:TR39 Theme:T11
+E24	Cell_death:TR41 Theme:T12
+E25	Cell_death:TR41 
+E26	Gene_expression:TR38 Theme:T10
+E27	Negative_regulation:TR37 Theme:E23
+E28	Positive_regulation:TR40 Theme:E24
+E29	Positive_regulation:TR40 Theme:E25
+E30	Cell_death:TR36 

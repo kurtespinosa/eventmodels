@@ -1,0 +1,37 @@
+T39	Regulation 8 20	contribution
+T40	Development 137 146	originate
+T41	Localization 220 229	existence
+T42	Regulation 327 338	have a role
+T43	Blood_vessel_development 348 366	neovascularization
+T44	Cell_differentiation 724 744	transdifferentiation
+T45	Development 787 793	fusion
+T46	Planned_process 807 818	transplants
+T47	Regulation 850 861	contributes
+T48	Positive_regulation 1004 1013	increased
+T49	Localization 1058 1067	secretion
+T50	Positive_regulation 1095 1105	activation
+T51	Localization 1182 1195	incorporation
+T52	Development 1474 1480	fusion
+T53	Localization 1509 1518	existence
+T54	Cell_differentiation 1554 1569	differentiation
+T55	Positive_regulation 1683 1694	stimulation
+E1	Regulation:T39 Cause:T1 Theme:T2
+E2	Development:T40 Theme:T4
+E3	Localization:T41 Theme:T6
+M1	Speculation E3
+E4	Regulation:T42 Cause:T6 Theme:E5
+E5	Blood_vessel_development:T43 AtLoc:T8
+E6	Cell_differentiation:T44 Theme:T15
+E7	Development:T45 Theme:T16
+E8	Planned_process:T46 Theme:T17
+E9	Regulation:T47 Theme:T18
+E10	Positive_regulation:T48 Theme:E11
+E11	Localization:T49 Theme:T21 FromLoc:T22
+E12	Positive_regulation:T50 Theme:T23
+E13	Localization:T51 Theme:T25 ToLoc:T26
+E14	Development:T52 Theme:T33
+E15	Localization:T53 Theme:T34
+E16	Cell_differentiation:T54 Theme:T35
+E17	Positive_regulation:T55 Cause:T37 Theme:T38
+E18	Development:T40 Theme:T3
+E19	Regulation:T47 Theme:T19

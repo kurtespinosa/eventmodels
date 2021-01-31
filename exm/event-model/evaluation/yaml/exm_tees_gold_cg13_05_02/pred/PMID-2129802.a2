@@ -1,0 +1,31 @@
+T40	Positive_regulation 68 75	induced
+T44	Positive_regulation 428 437	increased
+T45	Positive_regulation 443 452	increased
+T46	Growth 459 465	growth
+T41	Localization 162 170	presence
+T42	Positive_regulation 225 232	induced
+T43	Planned_process 254 265	transformed
+T53	Cell_transformation 254 265	transformed
+T47	Positive_regulation 516 525	activated
+T48	Localization 560 566	levels
+T49	Planned_process 724 736	chemotherapy
+T50	Positive_regulation 762 770	elevated
+T51	Gene_expression 771 777	levels
+T52	Regulation 849 855	change
+T54	Planned_process 714 723	receiving
+E1	Positive_regulation:T40 Theme:T4
+E2	Positive_regulation:T44 Theme:T16
+E3	Growth:T46 Theme:T18
+E4	Positive_regulation:T45 Theme:E3
+E5	Cell_transformation:T53 Theme:T13
+E6	Localization:T41 AtLoc:T9 Theme:T8
+E7	Planned_process:T43 Theme:T13 Instrument:T14 Instrument:T15
+E8	Positive_regulation:T42 Cause:T13 Theme:T11
+E9	Positive_regulation:T47 Theme:T19
+E10	Localization:T48 Theme:T22 AtLoc:T23
+E11	Localization:T48 Theme:T22
+E12	Gene_expression:T51 Theme:T30
+E13	Regulation:T52 Theme:T34
+E14	Planned_process:T49 Theme:T27
+E15	Planned_process:T54 Theme:T29
+E16	Positive_regulation:T50 Theme:E12

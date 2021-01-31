@@ -1,0 +1,42 @@
+TR32	Regulation 1175 1185	regulation
+TR33	Glycolysis 1189 1199	glycolysis
+TR34	Glycolysis 1300 1318	aerobic glycolysis
+TR35	Regulation 1430 1441	contributes
+TR36	Mutation 1445 1456	mutagenesis
+TR37	Positive_regulation 1474 1480	boosts
+TR38	Carcinogenesis 1485 1499	carcinogenesis
+TR46	Glycolysis 1218 1229	respiration
+TR47	Metabolism 1265 1276	respiration
+TR48	Glycolysis 1308 1318	glycolysis
+TR30	Negative_regulation 1042 1050	reducing
+TR31	Mutation 1070 1079	mutations
+TR45	Positive_regulation 1080 1086	caused
+TR39	Negative_regulation 39 49	suppressor
+TR40	Metabolism 72 82	metabolism
+TR26	Negative_regulation 683 693	prevention
+TR42	Positive_regulation 669 678	important
+TR27	Regulation 813 821	maintain
+TR28	Metabolism 846 856	metabolism
+TR29	Localization 936 946	deficiency
+TR43	Cell_proliferation 777 790	proliferation
+TR44	Gene_expression 936 946	deficiency
+TR23	Negative_regulation 398 406	removing
+TR24	Positive_regulation 434 444	initiating
+TR25	Death 454 459	death
+E1	Glycolysis:TR48 
+E2	Glycolysis:TR33 
+E3	Carcinogenesis:TR38 
+E4	Glycolysis:TR34 
+E5	Glycolysis:TR46 
+E6	Regulation:TR32 Theme:E2 Cause:T19
+E7	Positive_regulation:TR37 Theme:E3
+E8	Negative_regulation:TR39 Theme:T2
+E9	Negative_regulation:TR26 Theme:T11
+E10	Metabolism:TR28 Theme:T13
+E11	Localization:TR29 Theme:T15
+E12	Regulation:TR27 Theme:E10 Cause:T12
+E13	Death:TR25 Theme:T9
+E14	Positive_regulation:TR24 Theme:E13 Cause:T6
+E15	Positive_regulation:TR24 Theme:E13
+E16	Negative_regulation:TR23 Cause:E14 Theme:T8
+E17	Negative_regulation:TR23 Cause:E15 Theme:T8

@@ -1,0 +1,76 @@
+TR39	Blood_vessel_development 485 503	neovascularization
+TR40	Blood_vessel_development 533 543	angiogenic
+TR41	Negative_regulation 544 552	activity
+TR42	Positive_regulation 557 565	elevated
+TR43	Negative_regulation 586 593	removal
+TR34	Planned_process 351 360	resection
+TR35	Positive_regulation 395 403	enhances
+TR36	Development 404 415	progression
+TR37	Positive_regulation 404 415	progression
+TR38	Metastasis 429 439	metastasis
+TR22	Development 14 25	progression
+TR23	Positive_regulation 14 25	progression
+TR24	Metastasis 39 49	metastasis
+TR47	Planned_process 806 815	Treatment
+TR48	Blood_vessel_development 829 839	angiogenic
+TR49	Negative_regulation 856 866	suppressed
+TR50	Development 881 892	progression
+TR51	Positive_regulation 881 892	progression
+TR52	Metastasis 906 916	metastasis
+TR27	Planned_process 207 216	resection
+TR28	Positive_regulation 238 245	induces
+TR29	Positive_regulation 246 256	activation
+TR30	Blood_vessel_development 269 281	angiogenesis
+TR31	Positive_regulation 286 294	enhances
+TR32	Development 295 306	progression
+TR33	Metastasis 317 327	metastasis
+TR53	Positive_regulation 962 972	activation
+TR54	Blood_vessel_development 976 986	angiogenic
+TR55	Planned_process 1002 1011	resection
+TR56	Positive_regulation 1035 1043	enhances
+TR57	Development 1044 1055	progression
+TR58	Positive_regulation 1044 1055	progression
+TR59	Metastasis 1069 1079	metastasis
+TR25	Metastasis 94 104	metastasis
+TR26	Planned_process 153 162	resection
+TR60	Blood_vessel_development 1138 1148	angiogenic
+TR61	Negative_regulation 1162 1169	prevent
+TR62	Development 1170 1181	progression
+TR63	Positive_regulation 1170 1181	progression
+TR64	Metastasis 1195 1205	metastasis
+TR44	Blood_vessel_development 717 729	angiogenesis
+TR45	Negative_regulation 753 762	decreased
+TR46	Negative_regulation 797 804	removal
+E1	Blood_vessel_development:TR39 
+E2	Negative_regulation:TR43 Theme:T10
+E3	Blood_vessel_development:TR40 
+E4	Negative_regulation:TR41 Theme:E3
+E5	Positive_regulation:TR42 Theme:E4
+E6	Metastasis:TR38 ToLoc:T8
+E7	Planned_process:TR34 Theme:T7
+E8	Positive_regulation:TR37 Theme:E6
+E9	Positive_regulation:TR35 Theme:E8 Cause:E7
+E10	Metastasis:TR24 ToLoc:T1
+E11	Positive_regulation:TR23 Theme:E10
+E12	Metastasis:TR52 ToLoc:T17
+E13	Planned_process:TR47 Instrument:T16
+E14	Blood_vessel_development:TR48 
+E15	Positive_regulation:TR51 Theme:E12
+E16	Negative_regulation:TR49 Cause:E13 Theme:E15
+E17	Planned_process:TR27 Theme:T6
+E18	Blood_vessel_development:TR30 
+E19	Metastasis:TR33 
+E20	Positive_regulation:TR29 Theme:E18
+E21	Positive_regulation:TR28 Theme:E20 Cause:E17
+E22	Metastasis:TR59 ToLoc:T19
+E23	Planned_process:TR55 Theme:T18
+E24	Blood_vessel_development:TR54 
+E25	Positive_regulation:TR53 Theme:E24
+E26	Positive_regulation:TR58 Theme:E22
+E27	Positive_regulation:TR56 Theme:E26 Cause:E25
+E28	Metastasis:TR25 
+E29	Blood_vessel_development:TR60 
+E30	Metastasis:TR64 ToLoc:T20
+E31	Positive_regulation:TR63 Theme:E30
+E32	Blood_vessel_development:TR44 
+E33	Negative_regulation:TR46 Theme:T15

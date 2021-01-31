@@ -1,0 +1,45 @@
+TR46	Positive_regulation 183 191	Elevated
+TR54	Gene_expression 905 910	level
+TR55	Negative_regulation 982 991	decreased
+TR56	Development 1005 1016	progression
+TR57	Localization 1038 1046	invasion
+TR58	Metastasis 1059 1069	metastasis
+TR59	Gene_expression 1161 1166	level
+TR64	Gene_expression 1522 1528	levels
+TR65	Metastasis 1585 1595	metastasis
+TR53	Gene_expression 822 828	levels
+TR60	Metastasis 1231 1241	metastasis
+TR52	Gene_expression 643 649	levels
+TR51	Gene_expression 516 526	expression
+TR61	Gene_expression 1270 1276	levels
+TR62	Positive_regulation 1340 1348	elevated
+TR47	Gene_expression 342 352	expression
+TR48	Negative_regulation 408 417	decreased
+TR49	Gene_expression 418 428	expression
+TR50	Metastasis 488 498	metastasis
+TR44	Regulation 142 151	regulates
+TR45	Localization 169 181	infiltration
+TR63	Gene_expression 1442 1448	levels
+E1	Positive_regulation:TR46 Theme:T9
+E2	Positive_regulation:TR46 Theme:T8
+E3	Development:TR56 Theme:T26
+E4	Gene_expression:TR54 Theme:T23
+E5	Localization:TR57 ToLoc:T28 Theme:T27
+E6	Gene_expression:TR59 Theme:T31
+E7	Metastasis:TR58 ToLoc:T29
+E8	Metastasis:TR65 ToLoc:T43
+E9	Gene_expression:TR53 Theme:T22
+E10	Metastasis:TR60 ToLoc:T33
+E11	Gene_expression:TR52 Theme:T17
+E12	Gene_expression:TR51 Theme:T14
+E13	Positive_regulation:TR62 Theme:T37
+E14	Gene_expression:TR61 Theme:T35 Theme:T37
+E15	Gene_expression:TR61 Theme:T35
+E16	Gene_expression:TR61 Theme:T37
+E17	Gene_expression:TR47 Theme:T11
+E18	Gene_expression:TR49 Theme:T11
+E19	Negative_regulation:TR48 Theme:E18
+E20	Localization:TR45 Theme:T6
+E21	Regulation:TR44 Cause:T4 Theme:E20
+E22	Regulation:TR44 Theme:E20 Cause:T5
+E23	Gene_expression:TR63 Theme:T40

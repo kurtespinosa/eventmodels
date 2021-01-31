@@ -1,0 +1,9 @@
+TR42	Cell_proliferation 1054 1067	proliferation
+TR41	Growth 542 554	proliferated
+TR40	Blood_vessel_development 341 352	angiomatoid
+TR39	Planned_process 113 124	Hepatectomy
+E1	Cell_proliferation:TR42 Theme:T35
+E2	Growth:TR41 Theme:T12
+E3	Growth:TR41 Theme:T13
+E4	Blood_vessel_development:TR40 
+E5	Planned_process:TR39 Theme:T5

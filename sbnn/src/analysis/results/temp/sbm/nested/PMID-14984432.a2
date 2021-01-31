@@ -1,0 +1,20 @@
+T21	Blood_vessel_development 35 47	angiogenesis
+T22	Blood_vessel_development 85 95	Angiogenic
+T23	Blood_vessel_development 283 295	angiogenesis
+T24	Blood_vessel_development 534 546	angiogenesis
+T25	Localization 601 609	presence
+T26	Blood_vessel_development 665 675	angiogenic
+T27	Development 765 774	formation
+T28	Positive_regulation 782 793	accelerated
+T29	Growth 801 807	growth
+T30	Blood_vessel_development 878 888	angiogenic
+T31	Regulation 947 956	translate
+T32	Development 973 982	formation
+T33	Regulation 1031 1038	reflect
+T34	Breakdown 1039 1051	disturbances
+E8	Positive_regulation:T28 Theme:E9
+E11	Regulation:T31 Theme:E12 Cause:T17
+E13	Regulation:T33 Cause:T17 Theme:E14
+E14	Breakdown:T34 Theme:T20
+E9	Growth:T29 Theme:T16
+E12	Development:T32 Theme:T18

@@ -1,0 +1,85 @@
+TR84	Negative_regulation 1020 1029	inhibitor
+TR85	Negative_regulation 1033 1044	suppressing
+TR94	Negative_regulation 1317 1326	inhibited
+TR95	Negative_regulation 1354 1361	reduced
+TR96	Binding 1400 1409	formation
+TR97	Negative_regulation 1414 1423	decreased
+TR98	Binding 1454 1464	assemblies
+TR122	Development 1400 1409	formation
+TR76	Planned_process 247 259	therapeutics
+TR78	Planned_process 496 512	chemotherapeutic
+TR79	Negative_regulation 545 555	inhibition
+TR117	Planned_process 2265 2277	chemotherapy
+TR109	Pathway 1899 1926	intrinsic apoptotic pathway
+TR110	Regulation 1931 1938	involve
+TR111	Growth 1953 1959	growth
+TR112	Negative_regulation 1960 1967	effects
+TR124	Protein_domain_or_region 1844 1868	CONCLUSIONS/SIGNIFICANCE
+TR125	Pathway 1919 1926	pathway
+TR81	Metastasis 894 904	metastasis
+TR82	Growth 950 956	growth
+TR83	Metastasis 961 971	metastasis
+TR119	Regulation 933 940	effects
+TR86	Planned_process 1138 1147	treatment
+TR87	Pathway 1154 1159	cycle
+TR88	Negative_regulation 1160 1166	arrest
+TR89	Positive_regulation 1171 1178	induced
+TR90	Regulation 1216 1224	mediated
+TR91	Cell_death 1225 1234	apoptosis
+TR120	Positive_regulation 1196 1199	led
+TR121	Positive_regulation 1216 1224	mediated
+TR92	Negative_regulation 1241 1250	disrupted
+TR93	Negative_regulation 1272 1286	downregulating
+TR105	Acetylation 1675 1686	Acetylation
+TR106	Cell_death 1737 1746	apoptotic
+TR107	Dephosphorylation 1768 1786	de-phosphorylation
+TR108	Planned_process 1830 1837	treated
+TR123	Positive_regulation 1724 1733	induction
+TR77	Planned_process 304 313	treatment
+TR80	Cell_proliferation 691 704	proliferation
+TR118	Binding 774 788	polymerization
+TR99	Planned_process 1491 1500	injection
+TR100	Planned_process 1509 1523	administration
+TR101	Negative_regulation 1544 1553	inhibited
+TR102	Growth 1575 1581	growth
+TR72	Cell_death 14 23	apoptosis
+TR73	Pathway 32 41	signaling
+TR74	Negative_regulation 42 52	disruption
+TR75	Metastasis 122 132	metastatic
+TR113	Negative_regulation 2017 2027	suppresses
+TR114	Metastasis 2034 2044	metastasis
+TR115	Negative_regulation 2060 2070	inhibition
+TR116	Pathway 2110 2118	pathways
+E1	Negative_regulation:TR84 Theme:T31 Cause:T30
+E2	Negative_regulation:TR85 Theme:T34 Cause:T30
+E3	Negative_regulation:TR85 Theme:T31 Cause:T30
+E4	Negative_regulation:TR85 Theme:T33 Cause:T30
+E5	Negative_regulation:TR94 Cause:T41 Theme:T43
+E6	Negative_regulation:TR94 Cause:T41 Theme:T42
+E7	Planned_process:TR76 Theme:T9
+E8	Planned_process:TR78 Theme:T15 Instrument:T14 Instrument:T13
+E9	Negative_regulation:TR79 Cause:T17 Theme:T16
+E10	Planned_process:TR117 Theme:T71
+E11	Growth:TR111 Theme:T59
+E12	Negative_regulation:TR112 Cause:T60 Theme:E11
+E13	Growth:TR82 Theme:T29
+E14	Metastasis:TR81 
+E15	Metastasis:TR83 Theme:T29
+E16	Regulation:TR119 Theme:E15
+E17	Planned_process:TR86 Instrument:T35
+E18	Cell_death:TR91 
+E19	Negative_regulation:TR93 Cause:T38 Theme:T40
+E20	Negative_regulation:TR92 Theme:T39 Cause:E19
+E21	Dephosphorylation:TR107 Theme:T57
+E22	Acetylation:TR105 Theme:T55
+E23	Cell_death:TR106 
+E24	Planned_process:TR77 Theme:T11
+E25	Cell_proliferation:TR80 Theme:T20
+E26	Growth:TR102 Theme:T50
+E27	Planned_process:TR99 Instrument:T49 Theme:T47
+E28	Cell_death:TR72 
+E29	Pathway:TR73 Participant:T2
+E30	Metastasis:TR75 
+E31	Negative_regulation:TR74 Cause:T4 Theme:E29
+E32	Metastasis:TR114 Theme:T63
+E33	Negative_regulation:TR113 Theme:E32 Cause:T62

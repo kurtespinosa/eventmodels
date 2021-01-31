@@ -1,0 +1,9 @@
+T21	Glycolysis 0 10	Glycolysis
+T22	Amino_acid_catabolism 15 29	glutaminolysis
+T23	Planned_process 33 42	perifused
+T24	Metabolism 146 156	metabolism
+T25	Planned_process 168 177	harvested
+T26	Planned_process 246 255	perifused
+T27	Localization 463 472	excreting
+T28	Metabolism 607 618	consumption
+T29	Localization 626 634	presence

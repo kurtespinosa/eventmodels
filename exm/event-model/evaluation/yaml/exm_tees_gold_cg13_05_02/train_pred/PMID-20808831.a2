@@ -1,0 +1,107 @@
+TR89	Planned_process 1203 1212	knockdown
+TR90	Gene_expression 1234 1244	expression
+TR91	Negative_regulation 1245 1252	reduced
+TR77	Localization 791 803	accumulation
+TR116	Positive_regulation 791 803	accumulation
+TR71	Pathway 143 157	signal pathway
+TR72	Regulation 158 174	plays a key role
+TR73	Carcinogenesis 178 191	tumorigenesis
+TR114	Pathway 150 157	pathway
+TR115	Regulation 170 174	role
+TR102	Metastasis 1825 1835	metastasis
+TR103	Pathway 1936 1945	signaling
+TR120	Protein_domain_or_region 1755 1779	CONCLUSIONS/SIGNIFICANCE
+TR121	Pathway 1946 1950	axis
+TR95	Positive_regulation 1474 1483	induction
+TR96	Regulation 1495 1501	effect
+TR97	Cell_proliferation 1510 1523	proliferation
+TR119	Negative_regulation 1578 1589	deregulated
+TR68	Localization 30 42	localization
+TR69	Positive_regulation 70 78	promotes
+TR70	Phosphorylation 83 98	phosphorylation
+TR92	Positive_regulation 1328 1335	induced
+TR93	Positive_regulation 1381 1390	induction
+TR94	Positive_regulation 1391 1403	up-regulates
+TR118	Positive_regulation 1426 1434	enhanced
+TR98	Positive_regulation 1691 1701	activation
+TR99	Positive_regulation 1706 1713	enhance
+TR100	Positive_regulation 1714 1729	hyperactivation
+TR101	Pathway 1746 1753	pathway
+TR74	Phosphorylation 385 399	phosphorylated
+TR75	Gene_expression 412 422	expression
+TR76	Gene_expression 574 584	expression
+TR78	Planned_process 945 954	treatment
+TR79	Positive_regulation 955 962	induces
+TR80	Cell_proliferation 963 976	proliferation
+TR81	Negative_regulation 977 983	arrest
+TR82	Localization 1003 1013	relocation
+TR83	Positive_regulation 1048 1057	Induction
+TR84	Positive_regulation 1118 1128	sufficient
+TR85	Positive_regulation 1132 1139	promote
+TR86	Phosphorylation 1144 1159	phosphorylation
+TR87	Negative_regulation 1164 1170	arrest
+TR88	Cell_proliferation 1176 1189	proliferation
+TR117	Regulation 1092 1101	sensitive
+TR112	Gene_expression 2162 2172	expression
+TR113	Development 2214 2225	progression
+TR122	Development 2234 2245	development
+TR104	Positive_regulation 1976 1985	activated
+TR105	Negative_regulation 1999 2009	inactivate
+TR106	Localization 2014 2025	re-localize
+TR107	Localization 2063 2071	targeted
+TR108	Positive_regulation 2088 2094	induce
+TR109	Death 2100 2105	death
+TR110	Pathway 2114 2119	cycle
+TR111	Negative_regulation 2120 2126	arrest
+E1	Gene_expression:TR90 Theme:T34
+E2	Planned_process:TR89 Theme:T34
+E3	Negative_regulation:TR91 Theme:T34 Cause:E2
+E4	Negative_regulation:TR91 Theme:T35 Cause:E2
+E5	Negative_regulation:TR91 Theme:T36 Cause:E2
+E6	Positive_regulation:TR116 Theme:T22 Cause:T20
+E7	Carcinogenesis:TR73 
+E8	Positive_regulation:TR95 Theme:T44
+E9	Cell_proliferation:TR97 Theme:T45
+E10	Negative_regulation:TR119 Theme:T46
+E11	Regulation:TR96 Cause:E8 Theme:E9
+E12	Phosphorylation:TR70 Theme:T3
+E13	Positive_regulation:TR92 Theme:T38 Cause:T39
+E14	Positive_regulation:TR118 Theme:T43
+E15	Positive_regulation:TR93 Theme:T38 Cause:T39
+E16	Positive_regulation:TR93 Cause:T39 Theme:T40
+E17	Positive_regulation:TR94 Theme:T41 Cause:E15
+E18	Positive_regulation:TR94 Theme:T41 Cause:E16
+E19	Positive_regulation:TR94 Theme:T42 Cause:E15
+E20	Positive_regulation:TR94 Theme:T42 Cause:E16
+E21	Positive_regulation:TR94 Cause:E15 Theme:T40
+E22	Positive_regulation:TR94 Cause:E16 Theme:T40
+E23	Gene_expression:TR76 Theme:T14
+E24	Phosphorylation:TR74 Theme:T9
+E25	Phosphorylation:TR74 Theme:T7
+E26	Phosphorylation:TR74 Theme:T8
+E27	Cell_proliferation:TR80 Theme:T28
+E28	Localization:TR82 ToLoc:T27 Theme:T26
+E29	Planned_process:TR78 Instrument:T25
+E30	Negative_regulation:TR81 Theme:E27
+E31	Positive_regulation:TR79 Theme:E30 Cause:E29
+E32	Positive_regulation:TR79 Cause:E29 Theme:T26
+E33	Positive_regulation:TR79 Cause:E29 Theme:E27
+E34	Regulation:TR117 Theme:T31 Cause:T30
+E35	Positive_regulation:TR83 Theme:T29
+E36	Cell_proliferation:TR88 Theme:T33
+E37	Negative_regulation:TR87 Theme:E36
+E38	Phosphorylation:TR86 Theme:T32
+E39	Positive_regulation:TR85 Theme:E36 Cause:E35
+E40	Positive_regulation:TR85 Cause:E35 Theme:E38
+E41	Positive_regulation:TR84 Theme:E37 Cause:E35
+E42	Positive_regulation:TR84 Cause:E35 Theme:E39
+E43	Positive_regulation:TR84 Cause:E35 Theme:E40
+E44	Development:TR122 Theme:T66
+E45	Development:TR113 Theme:T66
+E46	Gene_expression:TR112 Theme:T64
+E47	Death:TR109 Theme:T61
+E48	Localization:TR107 Theme:T60 AtLoc:T59
+E49	Positive_regulation:TR104 Theme:T56
+E50	Localization:TR106 Theme:T57 ToLoc:T58
+E51	Negative_regulation:TR105 Theme:E50 Cause:T56
+E52	Positive_regulation:TR108 Theme:E47 Cause:T60

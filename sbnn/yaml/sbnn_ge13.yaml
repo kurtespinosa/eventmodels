@@ -1,0 +1,354 @@
+# NER config 
+SHARE:
+    input:
+    output:
+NER: 
+    # Paths to Datasets
+    brat_train : ../../dataset/input/train/
+    brat_dev : ../../dataset/input/dev/
+    brat_test : ../../dataset/input/test/
+    eval_result : ../evaluation/
+
+    # Result path for saving predictions
+    brat_folder : ../../dataset/outpput/dev/
+
+    # Dataset Format
+    tag_scheme : iob
+
+    # Early stopping
+    early_stopping_eps : 0
+    early_stopping : 5
+
+
+    # Model Settings
+    model_type : 0
+    epoch : 20
+    replace_digit : true
+    lowercase : false
+    use_singletons : true
+    # Train and predict gold : train+dev
+    merge_train : true
+    predict_train : true
+
+    # Using Pretrained Embeddings
+    #pre_emb : ../src/dataset/PubMed-shuffle-win-2.txt
+    pre_emb :
+
+    # Network Structure
+    word_embedding_dim : 200
+    char_embedding_dim : 15
+    tag_embedding_dim : 5
+    batch_size : 10
+
+    # Hyperparameters
+    dropout_ratio : 0.5
+    lr_method : Adam
+    lr_param : 0.01
+    threshold : 5
+    decay_rate : 0.00001
+
+    # Tweak parameters
+    bias : -0.5
+    beta : 2
+
+    # For Training and Tuning
+    multi_gpus : {'main': -1}
+    # training/tuning, mode: 'train', otherwise, mode:'test'
+    mode : 'train'
+    mappings_path : ../evaluation/mappings_0_cg.pkl
+
+    # Evaluation
+    path_model : ../result/model_iter_1382
+    script_folder : ../script/
+    result_folder : ../result/
+
+
+
+
+# ================== Relation Extraction ====================== #
+RE: 
+    # model based
+    model: re_model_base
+    batchsize: 10
+    epoch: 50
+    bilstm_layers: 1
+    word_dim: 200
+    lstm_dim: 100
+    out_dim: 100
+    etype_dim: 10
+    beta: 0.9
+    pos_dim: 10
+    dropi: 0.5
+    dropm: 0.0
+    dropo: 0.3
+    learn: 0.001
+    gradc: 10
+    reg: 0.0001
+    opt: adam
+    patience: 5
+    unk_w_prob: 0.01
+    min_w_freq: 1
+    
+    # data based
+    train_data: ../data/cg2013/train/
+    test_data: ../data/cg2013/dev/
+    embeds: ../../pre-train-embeds/PubMed-shuffle-win-2.txt
+    save_fold: ../results
+    name: sample_train
+    pred_data: false
+    save_pred: false
+    
+    # options (must be choosen from parse input)
+    gpu: -1
+    train: false
+    tune: false
+    test: false
+    lowercase: false
+    include_nested: true
+    stats: false
+    plot: false
+    show_macro: false
+    param_avg: false
+    
+    # extra
+    datatype: document
+    lab2ign: 1:Other:2
+    early_metric: micro_f
+    direction: l2r+r2l
+
+EVENT:
+    description: ''
+    use_filter: False # filter invalid candidate structures or make the false candidates as negative examples
+    is_emo: True #True if .txt files contains sentence boundary information, EventMineOutput (EMO)
+
+    evaluation_script: "/evaluation/ge13/"
+    interpreter: "perl "
+    dataset: GE13
+
+    incl_intersen_events: True
+    model: "/Users/kurt/Desktop/events/teesmodels/sbm/sbm_ge13_model_43"
+    scenario: 0
+    post_filter: True # will filter predictions using the templates, can lower recall, should be false and remove manually illegal structures, if false can introduce issues in the evaluation script
+
+    excl_train: {}
+    excl_dev: {}
+    excl_test: {}
+
+    # stats
+    only_stats: False
+    event_arg_counts: False
+    level_rec_analysis: False #if True, there is no training
+    max_nbest: False
+    argcnt_eventctr: False
+
+    #for running experiments and saving outputs at every epoch
+    starting_epoch_for_output: 1
+    root_output_copy_folder : "../../"
+    epoch_output_folder : "epoch-output-folder/"
+    copy_dir: True
+
+    gpu: -1
+
+    log_level: info
+
+    embed_path : "../../embedding/PubMed-shuffle-win-2.txt"
+
+#    # -- debugging on gold+pred relations-- #
+#    train_dir : "../../dataset/tees/CG13/temp/"
+#    dev_dir : "../../dataset/tees/CG13/temp/"
+#    test_dir : "../../dataset/tees/CG13/temp/"
+#
+#    #train
+#    train_ner : "../../dataset/tees/CG13/temp/"
+#    train_rel : "../../dataset/tees/CG13/temp/"
+#    #dev
+#    dev_ner : "../../dataset/tees/CG13/temp/"
+#    dev_rel : "../../dataset/tees/CG13/temp/"
+#    #test
+#    test_ner : "../../dataset/tees/CG13/temp/"
+#    test_rel : "../../dataset/tees/CG13/temp/"
+
+# -- debugging on gold relations-- #
+#    # recall at threshold=0 should be 100% in both since each has recall 100%
+#    train_dir : "../../dataset/gold/train1/"
+#    dev_dir : "../../dataset/gold/train4/"
+#    test_dir : "../../dataset/gold/train1/"
+#    #train
+#    train_ner : "../../dataset/gold/train1/"
+#    train_rel : "../../dataset/gold/train1/"
+#    #dev
+#    dev_ner : "../../dataset/gold/train4/"
+#    dev_rel : "../../dataset/gold/train4/"
+#    #test
+#    test_ner : "../../dataset/gold/train1/"
+#    test_rel : "../../dataset/gold/train1/"
+
+    # -- debugging on gold relations-- #
+#    # recall at threshold=0 should be 100%
+#    train_dir : "../../dataset/gold/train1/"
+#    dev_dir : "../../dataset/gold/train1/"
+#    test_dir : "../../dataset/gold/train1/"
+#    #train
+#    train_ner : "../../dataset/gold/train1/"
+#    train_rel : "../../dataset/gold/train1/"
+#    #dev
+#    dev_ner : "../../dataset/gold/train1/"
+#    dev_rel : "../../dataset/gold/train1/"
+#    #test
+#    test_ner : "../../dataset/gold/train1/"
+#    test_rel : "../../dataset/gold/train1/"
+
+    # -- debugging on gold relations-- #
+#    # recall at threshold=0 should be 100
+#    train_dir : "../../dataset/gold/train4/"
+#    dev_dir : "../../dataset/gold/train4/"
+#    #train
+#    train_ner : "../../dataset/gold/train4/"
+#    train_rel : "../../dataset/gold/train4/"
+#    #dev
+#    dev_ner : "../../dataset/gold/train4/"
+#    dev_rel : "../../dataset/gold/train4/"
+
+
+    # -- debugging on gold relations ALL train and ALL dev-- #
+    # recall at threshold=0 should be?
+#    train_dir : "../../dataset/gold/alltrain/"
+#    dev_dir : "../../dataset/gold/alldev/"
+#
+#    #train
+#    train_ner : "../../dataset/gold/alltrain/"
+#    train_rel : "../../dataset/gold/alltrain/"
+#    #dev
+#    dev_ner : "../../dataset/gold/alldev/"
+#    dev_rel : "../../dataset/gold/alldev/"
+
+    # -- debug on ALL train subsets-- #
+#    train_dir : "../../dataset/gold/alltrain/"
+#    dev_dir : "../../dataset/gold/alltrain/"
+#
+#    #train
+#    train_ner : "../../dataset/gold/alltrain/"
+#    train_rel : "../../dataset/gold/alltrain/"
+#    #dev
+#    dev_ner : "../../dataset/gold/alltrain/"
+#    dev_rel : "../../dataset/gold/alltrain/"
+
+    # -- debug on ALL dev subsets-- #
+#    train_dir : "../../dataset/gold/alldev/"
+#    dev_dir : "../../dataset/gold/alldev/"
+#
+#    #train
+#    train_ner : "../../dataset/gold/alldev/"
+#    train_rel : "../../dataset/gold/alldev/"
+#    #dev
+#    dev_ner : "../../dataset/gold/alldev/"
+#    dev_rel : "../../dataset/gold/alldev/"
+
+    # -- debug on ALL dev subsets-- #
+#    train_dir : "../../dataset/gold/tempdev/"
+#    dev_dir : "../../dataset/gold/tempdev/"
+#
+#    #train
+#    train_ner : "../../dataset/gold/tempdev/"
+#    train_rel : "../../dataset/gold/tempdev/"
+#    #dev
+#    dev_ner : "../../dataset/gold/tempdev/"
+#    dev_rel : "../../dataset/gold/tempdev/"
+
+
+    # -- debugging on gold relations-- #
+    # recall at threshold=0 should be 88% as 3 are intersentence events
+#    train_dir : "../../dataset/gold/train3/"
+#    dev_dir : "../../dataset/gold/train3/"
+#    test_dir : "../../dataset/gold/train3/"
+#    #train
+#    train_ner : "../../dataset/gold/train3/"
+#    train_rel : "../../dataset/gold/train3/"
+#    #dev
+#    dev_ner : "../../dataset/gold/train3/"
+#    dev_rel : "../../dataset/gold/train3/"
+#    #test
+#    test_ner : "../../dataset/gold/train3/"
+#    test_rel : "../../dataset/gold/train3/"
+
+#    SCENARIO 0
+    train_dir : "../../dataset/tees/GE13/train/"
+    dev_dir : "../../dataset/tees/GE13/dev/"
+    test_dir : "../../dataset/tees/GE13/test/"
+
+    #train
+    train_ner : "../../dataset/tees/GE13/traingoldpred/"
+    train_rel : "../../dataset/tees/GE13/traingoldpred/"
+    #dev
+    dev_ner : "../../dataset/tees/devrelationpreds/GE13-devel/devrels/"
+    dev_rel : "../../dataset/tees/devrelationpreds/GE13-devel/devrels/"
+    #test
+    test_ner : "../../dataset/tees/testrelationpreds/GE13/test/"
+    test_rel : "../../dataset/tees/testrelationpreds/GE13/test/"
+
+
+    #SCENARIO 1
+    # #NER
+    # TRAIN_NER : "../dataset/input/train/"
+    # TRAIN_REL : "../dataset/input/train/"
+    # #REL
+    # TEST_NER : "../dataset/output/dev/ner/recall/"
+    # TEST_REL : "../dataset/output/dev/re/sc1_base/"
+
+    #SCENARIO 2
+    # #NER
+    # TRAIN_NER : "../dataset/output/train/ner/recall/"
+    # TRAIN_REL : "../dataset/output/train/re/sc2_ner-rec_re-base/"
+    # #REL
+    # TEST_NER : "../dataset/output/dev/ner/recall/"
+    # TEST_REL : "../dataset/output/dev/re/sc2_ner-rec_re-base/"
+
+    # input representation params
+    input_rep: ['word'] # word, pos_abs
+    add_rel_pos: False
+    level1_type_gen: False
+    level2_type_gen: False
+
+    # relation aggregation method
+    rel_agg_attn: False # if False, it is sum by default
+
+    # structure attn
+    struct_attn: False
+    max_num_rels: 13
+
+    batch_size : 20
+    max_epoch : 500
+    patience : 50
+    optimiser: "Adam"
+    dropout : 0.2
+    lr: 0.001
+    weight_decay_rate: 0.0001
+
+
+    generalisation : 0 # Options: [0,1,2], 2 being Entity or Event
+
+    unk_min_freq: 1 # determined from dataset
+    unk_assign_prob : 0.2
+    max_pos: 130 #cg train data max is 122, last one is for the NONE position
+
+    incl_mention : False
+    partial_arg_matching : False
+    threshold : 0.5
+    replace_type : False
+    n_best : 100  # the maximum number of states to keep at every timestep, must disable early_update to make this run thru all timesteps, this can be tweake to increase recall aside from threshold
+    margin : 0.1
+    early_update: True # if one of the gold actions is out of the beam, do early update
+
+    dim_pos : 20 #so that same with types, same dim for pos_abs and pos_rel
+    dim_embed : 200
+    dim_event : 100
+    dim_bilstm : 50
+    dim_role_type : 10
+    dim_arg_type : 20 #also used for trigger type as trigger can also be arguments
+    dim_io : 2
+    dim_action: 10
+    dim_level1_types: 7
+    dim_level2_types: 3
+
+    events_with_numbered_roles : ['Binding', 'Planned_process', 'Pathway']
+    special_entities : ['Protein_domain_or_region', 'DNA_domain_or_region']

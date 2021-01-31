@@ -1,0 +1,36 @@
+T28	Carcinogenesis 0 11	Tumorigenic
+T38	Positive_regulation 1117 1124	induced
+T49	Cell_differentiation 1144 1158	differentiated
+T33	Gene_expression 659 674	Over-expression
+T44	Positive_regulation 659 674	Over-expression
+T45	Cell_proliferation 719 729	anchorage-
+T46	Regulation 740 751	independent
+T47	Growth 752 758	growth
+T29	Regulation 348 356	involved
+T39	Regulation 1275 1286	have a role
+T40	Regulation 1294 1304	regulation
+T41	Cell_proliferation 1308 1321	proliferation
+T50	Regulation 1282 1286	role
+T37	Development 975 984	generated
+T34	Planned_process 775 785	introduced
+T35	Development 858 864	induce
+T36	Mutation 901 908	mutated
+T48	Positive_regulation 858 864	induce
+T30	Carcinogenesis 586 595	oncogenic
+T31	Protein_domain_or_region 596 602	Val-12
+T32	Mutation 603 611	mutation
+T42	Cell_transformation 502 514	transforming
+T43	Mutation 537 546	wild-type
+E1	Carcinogenesis:T28 
+E2	Positive_regulation:T38 Theme:T24 Cause:T23
+E3	Gene_expression:T33 Theme:T15
+E4	Regulation:T29 Cause:T7 Theme:T6
+E5	Cell_proliferation:T41 Theme:T27
+E6	Regulation:T40 Theme:E5
+E7	Regulation:T39 Cause:T26 Theme:E6
+E8	Development:T37 Theme:T19
+E9	Development:T35 Theme:T18
+E10	Positive_regulation:T48 Theme:T18
+E11	Planned_process:T34 Theme:T17
+E12	Mutation:T32 Theme:T12
+E13	Carcinogenesis:T30 

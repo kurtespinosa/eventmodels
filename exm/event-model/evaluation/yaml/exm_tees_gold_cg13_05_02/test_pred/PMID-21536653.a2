@@ -1,0 +1,69 @@
+TR50	Mutation 158 167	amplified
+TR55	Gene_expression 549 559	expression
+TR56	Regulation 569 578	modulates
+TR57	Gene_expression 583 593	expression
+TR58	Positive_regulation 604 613	resulting
+TR59	Positive_regulation 628 636	enhanced
+TR60	Positive_regulation 663 672	increased
+TR78	Carcinogenesis 1372 1383	tumorigenic
+TR79	Cell_transformation 1384 1398	transformation
+TR80	Gene_expression 1494 1504	expression
+TR81	Positive_regulation 1523 1534	upregulated
+TR82	Positive_regulation 1591 1600	essential
+TR83	Carcinogenesis 1605 1618	tumorigenesis
+TR61	Planned_process 690 699	Treatment
+TR62	Positive_regulation 781 787	causes
+TR63	Positive_regulation 818 828	activation
+TR64	Gene_expression 846 860	overexpression
+TR65	Positive_regulation 846 860	overexpression
+TR73	Negative_regulation 1094 1103	knockdown
+TR74	Positive_regulation 1142 1147	leads
+TR75	Breakdown 1172 1182	shortening
+TR76	Negative_regulation 1200 1208	decrease
+TR77	Negative_regulation 1244 1255	attenuating
+TR46	Regulation 31 40	modulates
+TR47	Transcription 47 60	transcription
+TR48	Positive_regulation 64 71	promote
+TR49	Carcinogenesis 72 85	tumorigenesis
+TR51	Carcinogenesis 223 236	tumorigenesis
+TR66	Binding 865 876	interacting
+TR67	Localization 913 924	recruitment
+TR68	DNA_domain_or_region 956 964	promoter
+TR69	Positive_regulation 966 975	enhancing
+TR70	Acetylation 1000 1011	acetylation
+TR71	Positive_regulation 1024 1035	stimulating
+TR72	Gene_expression 1042 1052	expression
+TR52	Regulation 371 381	regulation
+TR53	Regulation 515 526	contributes
+TR54	Carcinogenesis 530 543	tumorigenesis
+E1	Gene_expression:TR57 Theme:T16
+E2	Positive_regulation:TR60 Theme:T19
+E3	Gene_expression:TR55 Theme:T15
+E4	Positive_regulation:TR59 Theme:T18
+E5	Regulation:TR56 Cause:E3 Theme:E1
+E6	Carcinogenesis:TR78 
+E7	Cell_transformation:TR79 Theme:T41
+E8	Gene_expression:TR80 Theme:T42
+E9	Carcinogenesis:TR83 
+E10	Positive_regulation:TR82 Cause:E8 Theme:E9
+E11	Positive_regulation:TR81 Theme:E8
+E12	Positive_regulation:TR63 Theme:T24
+E13	Gene_expression:TR64 Theme:T25
+E14	Positive_regulation:TR65 Theme:E13
+E15	Positive_regulation:TR65 Theme:T25
+E16	Breakdown:TR75 Theme:T36
+E17	Negative_regulation:TR73 Cause:T34 Theme:T33
+E18	Negative_regulation:TR76 Theme:T37
+E19	Positive_regulation:TR74 Cause:E17 Theme:E18
+E20	Transcription:TR47 Theme:T2
+E21	Carcinogenesis:TR49 
+E22	Positive_regulation:TR48 Theme:E21
+E23	Regulation:TR46 Cause:T1 Theme:E20
+E24	Carcinogenesis:TR51 
+E25	Acetylation:TR70 Theme:T30
+E26	Localization:TR67 Theme:T28
+E27	Gene_expression:TR72 Theme:T31
+E28	Carcinogenesis:TR54 
+E29	Regulation:TR53 Theme:E28 Cause:T11
+E30	Regulation:TR53 Theme:E28 Cause:T12
+E31	Regulation:TR53 Theme:E28 Cause:T14

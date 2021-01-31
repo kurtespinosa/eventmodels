@@ -1,0 +1,44 @@
+TR40	Blood_vessel_development 188 206	Neovascularization
+TR41	Regulation 220 227	effects
+TR42	Growth 237 243	growth
+TR43	Metastasis 248 258	metastasis
+TR45	Regulation 363 368	roles
+TR46	Gene_expression 413 423	expression
+TR47	Development 431 442	progression
+TR44	Regulation 320 324	acts
+TR53	Blood_vessel_development 1670 1682	angiogenesis
+TR54	Planned_process 1683 1690	therapy
+TR55	Negative_regulation 1712 1720	reducing
+TR56	Metastasis 1730 1740	metastasis
+TR52	Development 1600 1611	progression
+TR51	Death 1334 1342	survival
+TR48	Gene_expression 572 582	expression
+TR49	Localization 618 628	associated
+TR38	Metastasis 115 125	metastasis
+TR39	Localization 137 147	associated
+TR50	Metastasis 1208 1218	metastasis
+TR58	Protein_domain_or_region 1130 1135	h-MVD
+E1	Metastasis:TR43 Theme:T6
+E2	Growth:TR42 Theme:T6
+E3	Blood_vessel_development:TR40 
+E4	Regulation:TR41 Theme:E2 Cause:E3
+E5	Regulation:TR41 Theme:E1 Cause:E3
+E6	Development:TR47 Theme:T12
+E7	Development:TR47 Theme:T13
+E8	Gene_expression:TR46 Theme:T11
+E9	Regulation:TR45 Cause:E8 Theme:E6
+E10	Regulation:TR45 Cause:E8 Theme:E7
+E11	Regulation:TR44 Cause:T7 Theme:T9
+E12	Regulation:TR44 Cause:T8 Theme:T9
+E13	Blood_vessel_development:TR53 
+E14	Metastasis:TR56 
+E15	Planned_process:TR54 Theme:E13
+E16	Negative_regulation:TR55 Cause:E15 Theme:E14
+E17	Development:TR52 Theme:T36
+E18	Death:TR51 Theme:T30
+E19	Gene_expression:TR48 Theme:T14
+E20	Localization:TR49 Theme:T17 AtLoc:T16
+E21	Localization:TR49 Theme:T17
+E22	Localization:TR39 Theme:T5 AtLoc:T4
+E23	Metastasis:TR38 Theme:T5 ToLoc:T3
+E24	Metastasis:TR50 ToLoc:T29

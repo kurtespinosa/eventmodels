@@ -1,0 +1,55 @@
+T47	Negative_regulation 22 32	inhibition
+T48	Positive_regulation 33 40	results
+T49	Negative_regulation 68 76	activity
+T50	Positive_regulation 236 247	stimulating
+T51	Blood_vessel_development 255 267	angiogenesis
+T52	Negative_regulation 269 279	Inhibition
+T53	Positive_regulation 311 317	induce
+T54	Negative_regulation 333 339	effect
+T55	Negative_regulation 343 351	limiting
+T56	Localization 376 381	reach
+T57	Regulation 399 408	affecting
+T58	Growth 418 424	growth
+T59	Negative_regulation 442 448	effect
+T60	Planned_process 474 488	administration
+T61	Planned_process 579 593	administration
+T62	Planned_process 741 750	treatment
+T63	Negative_regulation 763 772	inhibited
+T64	Growth 773 779	growth
+T65	Negative_regulation 835 843	impaired
+T66	Negative_regulation 868 875	reduced
+T67	Growth 883 889	growth
+T68	Negative_regulation 1111 1117	effect
+T69	Positive_regulation 1151 1156	added
+T70	Negative_regulation 1248 1258	Inhibition
+T71	Negative_regulation 1274 1281	reduces
+T72	Growth 1289 1295	growth
+T73	Negative_regulation 1372 1378	effect
+T74	Regulation 1487 1491	role
+T75	Planned_process 1510 1519	treatment
+E2	Positive_regulation:T48 Cause:E1 Theme:E3
+E4	Positive_regulation:T50 Cause:T6 Theme:E5
+E7	Positive_regulation:T53 Theme:E8 Cause:E9
+E9	Negative_regulation:T55 Theme:E10 Cause:E6
+E11	Regulation:T57 Theme:E12 Cause:E6
+E17	Negative_regulation:T63 Cause:E16 Theme:E18
+E20	Negative_regulation:T66 Theme:E21
+E22	Negative_regulation:T68 Theme:T35 Cause:E23
+E25	Negative_regulation:T71 Cause:E24 Theme:E26
+E28	Regulation:T74 Cause:T45 Theme:E29
+E30	Positive_regulation:T50 Cause:T7 Theme:E5
+E31	Positive_regulation:T53 Theme:E8 Cause:E11
+E24	Negative_regulation:T70 Theme:T39
+E5	Blood_vessel_development:T51 AtLoc:T10
+E1	Negative_regulation:T47 Theme:T1
+E23	Positive_regulation:T69 Theme:T36
+E29	Planned_process:T75 Theme:T46
+E6	Negative_regulation:T52 Theme:T11 Cause:T12
+E12	Growth:T58 Theme:T16
+E21	Growth:T67 Theme:T29
+E18	Growth:T64 Theme:T27
+E26	Growth:T72 Theme:T40
+E8	Negative_regulation:T54 Theme:T13
+E10	Localization:T56 Theme:T14 ToLoc:T15
+E16	Planned_process:T62 Instrument:T26
+E3	Negative_regulation:T49 Theme:T2 Cause:T3

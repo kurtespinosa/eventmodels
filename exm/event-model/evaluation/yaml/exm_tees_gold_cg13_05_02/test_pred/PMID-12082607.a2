@@ -1,0 +1,67 @@
+TR63	Cell_transformation 1057 1069	immortalized
+TR64	Planned_process 1057 1069	immortalized
+TR65	Development 1081 1087	formed
+TR58	Planned_process 701 712	transfected
+TR73	Negative_regulation 1578 1585	curtail
+TR74	Cell_proliferation 1598 1604	growth
+TR57	Planned_process 621 632	transfected
+TR46	Cell_transformation 217 231	transformation
+TR47	Gene_expression 268 282	overexpressing
+TR48	Carcinogenesis 375 384	oncogenic
+TR49	Planned_process 392 404	Transfection
+TR50	Positive_regulation 423 426	led
+TR51	Cell_transformation 434 449	immortalization
+TR52	Planned_process 470 478	cultures
+TR53	Planned_process 525 535	transduced
+TR54	Planned_process 541 548	culture
+TR55	Cell_proliferation 566 579	proliferative
+TR56	Cell_proliferation 600 613	proliferation
+TR59	Pathway 964 976	Transduction
+TR60	Planned_process 964 976	Transduction
+TR61	Positive_regulation 998 1006	resulted
+TR62	Cell_transformation 1010 1025	immortalization
+TR43	Cell_transformation 29 43	transformation
+TR44	Gene_expression 83 96	co-expression
+TR45	Carcinogenesis 153 162	oncogenic
+TR66	Gene_expression 1155 1168	co-expressing
+TR67	Cell_transformation 1213 1224	transformed
+TR68	Development 1236 1243	forming
+TR69	Regulation 1272 1279	altered
+TR70	Development 1295 1305	generating
+TR71	Growth 1314 1321	growing
+TR72	Cell_transformation 1372 1386	transformation
+E1	Cell_transformation:TR63 Theme:T30
+E2	Development:TR65 Theme:T32
+E3	Development:TR65 Theme:T30
+E4	Planned_process:TR64 Theme:T30
+E5	Cell_proliferation:TR74 Theme:T42
+E6	Negative_regulation:TR73 Theme:E5
+E7	Planned_process:TR57 Theme:T21 Instrument:T22
+E8	Carcinogenesis:TR48 
+E9	Cell_transformation:TR46 Theme:T7
+E10	Cell_transformation:TR46 Theme:T8
+E11	Cell_transformation:TR51 Theme:T17
+E12	Cell_transformation:TR51 Theme:T18
+E13	Planned_process:TR52 Theme:T17 Theme2:T18
+E14	Planned_process:TR49 Instrument:T16
+E15	Positive_regulation:TR50 Theme:E11 Cause:E14
+E16	Positive_regulation:TR50 Theme:E12 Cause:E14
+E17	Planned_process:TR53 Instrument:T19
+E18	Cell_proliferation:TR56 Theme:T20
+E19	Planned_process:TR54 Theme:T20
+E20	Pathway:TR59 Theme:T27
+E21	Planned_process:TR60 Theme:T27
+E22	Cell_transformation:TR62 Theme:T29
+E23	Positive_regulation:TR61 Theme:E22 Cause:E21
+E24	Positive_regulation:TR61 Theme:E22 Cause:E20
+E25	Gene_expression:TR44 Theme:T4 Theme:T3
+E26	Gene_expression:TR44 Theme:T4
+E27	Gene_expression:TR44 Theme:T3
+E28	Cell_transformation:TR43 Theme:T2
+E29	Carcinogenesis:TR45 
+E30	Gene_expression:TR66 Theme:T34 Theme:T35 Theme:T36
+E31	Development:TR70 Theme:T37
+E32	Growth:TR71 Theme:T37
+E33	Cell_transformation:TR67 Theme:T33
+E34	Development:TR68 Theme:T37
+E35	Cell_transformation:TR72 Theme:T39

@@ -1,0 +1,11 @@
+TR15	Positive_regulation 181 186	cause
+TR16	Infection 410 419	infection
+TR17	Positive_regulation 470 477	induced
+TR18	Carcinogenesis 478 492	leukemogenesis
+TR19	Planned_process 564 571	therapy
+TR20	Regulation 498 502	role
+E1	Regulation:TR20 Cause:T13 Theme:T14
+E2	Carcinogenesis:TR18 
+E3	Infection:TR16 Participant:T10
+E4	Planned_process:TR19 Theme:T14
+E5	Positive_regulation:TR17 Cause:T12 Theme:E2

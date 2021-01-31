@@ -1,0 +1,74 @@
+TR60	Positive_regulation 1081 1101	important integrator
+TR61	Cell_death 1109 1126	apoptotic process
+TR62	Positive_regulation 1170 1188	essential function
+TR63	Protein_processing 1219 1229	processing
+TR70	Cell_death 1119 1126	process
+TR71	Regulation 1180 1188	function
+TR34	Positive_regulation 13 22	essential
+TR35	Protein_processing 40 50	processing
+TR36	Positive_regulation 65 72	induced
+TR37	Cell_death 73 82	apoptosis
+TR49	Planned_process 549 563	Reconstitution
+TR50	Planned_process 589 601	transfection
+TR51	Positive_regulation 648 658	results in
+TR52	Cell_death 672 681	apoptosis
+TR53	Planned_process 698 707	treatment
+TR66	Negative_regulation 617 625	restores
+TR67	Positive_regulation 648 655	results
+TR54	Protein_processing 793 803	processing
+TR55	Negative_regulation 816 824	impaired
+TR56	Positive_regulation 831 842	stimulation
+TR41	Cell_death 307 316	apoptosis
+TR42	Negative_regulation 369 378	defective
+TR43	Regulation 382 390	response
+TR44	Planned_process 404 413	treatment
+TR45	Breakdown 442 454	condensation
+TR46	Breakdown 464 477	fragmentation
+TR47	Breakdown 483 496	fragmentation
+TR48	Localization 502 509	release
+TR38	Regulation 173 177	role
+TR39	Cell_death 194 213	apoptotic processes
+TR40	Planned_process 217 225	cultured
+TR64	Cell_death 194 203	apoptotic
+TR65	Cell_death 204 213	processes
+TR57	Planned_process 894 908	Reconstitution
+TR58	Negative_regulation 964 970	defect
+TR59	Positive_regulation 972 984	resulting in
+TR68	Positive_regulation 972 981	resulting
+TR69	Protein_processing 1011 1021	processing
+E1	Protein_processing:TR63 Theme:T33
+E2	Cell_death:TR61 
+E3	Cell_death:TR70 
+E4	Positive_regulation:TR60 Theme:E2 Cause:T30
+E5	Positive_regulation:TR62 Cause:T32 Theme:E1
+E6	Protein_processing:TR35 Theme:T2
+E7	Cell_death:TR37 Theme:T4
+E8	Positive_regulation:TR36 Cause:T3 Theme:E7
+E9	Positive_regulation:TR34 Cause:T1 Theme:E6
+E10	Positive_regulation:TR34 Cause:T1 Theme:E7
+E11	Planned_process:TR53 Instrument:T20
+E12	Planned_process:TR49 Theme:T18
+E13	Cell_death:TR52 
+E14	Positive_regulation:TR51 Theme:E13
+E15	Protein_processing:TR54 Theme:T24
+E16	Negative_regulation:TR55 Theme:E15
+E17	Positive_regulation:TR56 Theme:E16 Cause:T25
+E18	Positive_regulation:TR56 Cause:T25 Theme:T23
+E19	Breakdown:TR47 Theme:T15
+E20	Localization:TR48 FromLoc:T17 Theme:T16
+E21	Breakdown:TR45 Theme:T13
+E22	Breakdown:TR46 Theme:T14
+E23	Cell_death:TR41 Theme:T11
+E24	Cell_death:TR39 Theme:T9
+E25	Cell_death:TR39 Theme:T6
+E26	Cell_death:TR39 
+E27	Cell_death:TR65 
+E28	Planned_process:TR40 Theme:T6
+E29	Cell_death:TR64 
+E30	Regulation:TR38 Theme:E24 Cause:T5
+E31	Regulation:TR38 Theme:E25 Cause:T5
+E32	Regulation:TR38 Theme:E26 Cause:T5
+E33	Regulation:TR38 Theme:E27 Cause:T5
+E34	Planned_process:TR57 Instrument:T28 Theme:T27
+E35	Positive_regulation:TR59 Theme:T29
+E36	Protein_processing:TR69 Theme:T29

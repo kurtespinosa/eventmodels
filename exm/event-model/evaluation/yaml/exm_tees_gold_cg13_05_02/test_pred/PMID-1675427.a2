@@ -1,0 +1,115 @@
+TR98	Positive_regulation 1779 1790	stimulation
+TR99	Pathway 1826 1833	pathway
+TR100	Positive_regulation 1855 1862	induced
+TR101	Cell_proliferation 1863 1876	proliferation
+TR102	Negative_regulation 1890 1900	suppresses
+TR103	Positive_regulation 1905 1914	induction
+TR104	Regulation 1953 1961	involved
+TR105	Cell_proliferation 1970 1976	growth
+TR106	Cell_differentiation 1981 1996	differentiation
+TR64	Positive_regulation 940 947	induced
+TR65	Carcinogenesis 951 965	nontransformed
+TR66	Planned_process 992 1001	treatment
+TR67	Gene_expression 1007 1016	expressed
+TR68	Cell_transformation 1026 1037	transformed
+TR69	Planned_process 1026 1037	transformed
+TR70	Positive_regulation 1026 1037	transformed
+TR71	Planned_process 1069 1078	treatment
+TR75	Planned_process 1239 1250	transfected
+TR76	Regulation 1274 1281	control
+TR77	Positive_regulation 1312 1317	leads
+TR78	Cell_differentiation 1321 1335	differentiated
+TR79	Positive_regulation 1378 1385	induced
+TR80	Negative_regulation 1400 1408	restores
+TR81	Cell_proliferation 1413 1419	growth
+TR82	Negative_regulation 1420 1430	inhibitory
+TR83	Negative_regulation 1431 1438	effects
+TR84	Cell_transformation 1454 1465	transformed
+TR85	Planned_process 1454 1465	transformed
+TR86	Positive_regulation 1454 1465	transformed
+TR59	Planned_process 819 830	transformed
+TR60	Positive_regulation 819 830	transformed
+TR61	Positive_regulation 847 854	induced
+TR62	Gene_expression 855 865	expression
+TR63	Negative_regulation 893 900	delayed
+TR46	Regulation 0 10	Alteration
+TR47	Gene_expression 28 38	expression
+TR48	Cell_transformation 48 62	transformation
+TR49	Regulation 192 198	effect
+TR50	Cell_transformation 202 216	transformation
+TR51	Positive_regulation 223 232	activated
+TR52	Gene_expression 255 265	expression
+TR53	Positive_regulation 306 313	induced
+TR54	Cell_differentiation 314 329	differentiation
+TR55	Cell_proliferation 334 340	growth
+TR56	Regulation 341 351	regulation
+TR58	Positive_regulation 705 712	induced
+TR87	Positive_regulation 1514 1522	enhanced
+TR88	Cell_proliferation 1523 1536	proliferation
+TR89	Cell_transformation 1546 1557	transformed
+TR90	Planned_process 1546 1557	transformed
+TR91	Positive_regulation 1546 1557	transformed
+TR92	Cell_differentiation 1597 1612	differentiation
+TR93	Negative_regulation 1645 1655	suppresses
+TR94	Positive_regulation 1670 1679	induction
+TR95	Regulation 1702 1706	role
+TR96	Positive_regulation 1732 1739	induced
+TR97	Cell_differentiation 1745 1760	differentiation
+TR72	Cell_proliferation 1105 1111	growth
+TR73	Negative_regulation 1115 1123	arrested
+TR74	Cell_differentiation 1153 1167	differentiated
+TR57	Positive_regulation 434 443	activated
+E1	Cell_proliferation:TR105 Theme:T45
+E2	Cell_differentiation:TR106 Theme:T45
+E3	Planned_process:TR66 Instrument:T25
+E4	Planned_process:TR69 Instrument:T26 Theme:T27
+E5	Planned_process:TR71 Instrument:T28
+E6	Gene_expression:TR67 Theme:T22 Theme:T23
+E7	Gene_expression:TR67 Theme:T22
+E8	Gene_expression:TR67 Theme:T23
+E9	Cell_transformation:TR68 Theme:T27
+E10	Carcinogenesis:TR65 AtLoc:T24
+E11	Positive_regulation:TR70 Theme:E4
+E12	Positive_regulation:TR70 Theme:E9
+E13	Positive_regulation:TR70 Theme:T27
+E14	Cell_differentiation:TR78 Theme:T32
+E15	Cell_proliferation:TR81 Theme:T36
+E16	Planned_process:TR85 Theme:T36
+E17	Cell_transformation:TR84 Theme:T36
+E18	Positive_regulation:TR86 Theme:E17
+E19	Positive_regulation:TR86 Theme:E16
+E20	Positive_regulation:TR86 Theme:T36
+E21	Positive_regulation:TR77 Theme:T32
+E22	Positive_regulation:TR77 Theme:E14
+E23	Planned_process:TR59 Theme:T19
+E24	Gene_expression:TR62 Theme:T21
+E25	Negative_regulation:TR63 Theme:E24
+E26	Positive_regulation:TR60 Theme:E23
+E27	Positive_regulation:TR60 Theme:T19
+E28	Positive_regulation:TR61 Cause:T20 Theme:E24
+E29	Gene_expression:TR47 Theme:T1
+E30	Cell_transformation:TR48 Theme:T3
+E31	Regulation:TR46 Theme:E29
+E32	Positive_regulation:TR51 Theme:T8
+E33	Cell_differentiation:TR54 
+E34	Cell_transformation:TR50 Theme:T7
+E35	Positive_regulation:TR53 Theme:E33 Cause:T10
+E36	Positive_regulation:TR53 Theme:E33 Cause:T9
+E37	Positive_regulation:TR58 Cause:T17 Theme:T16
+E38	Cell_transformation:TR89 Theme:T38
+E39	Cell_differentiation:TR92 Theme:T39
+E40	Cell_proliferation:TR88 Theme:T38
+E41	Cell_differentiation:TR97 Theme:T43
+E42	Positive_regulation:TR94 Theme:T40
+E43	Planned_process:TR90 Theme:T38
+E44	Positive_regulation:TR96 Cause:T42 Theme:E41
+E45	Regulation:TR95 Cause:T41 Theme:E41
+E46	Negative_regulation:TR93 Theme:E42
+E47	Positive_regulation:TR87 Theme:E40
+E48	Positive_regulation:TR91 Theme:E43
+E49	Positive_regulation:TR91 Theme:E38
+E50	Positive_regulation:TR91 Theme:T38
+E51	Cell_proliferation:TR72 Theme:T29
+E52	Negative_regulation:TR73 Theme:E51
+E53	Positive_regulation:TR57 Theme:T12 Cause:T13
+E54	Positive_regulation:TR57 Theme:T12

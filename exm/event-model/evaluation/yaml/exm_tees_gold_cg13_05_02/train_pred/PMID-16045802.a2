@@ -1,0 +1,33 @@
+TR44	Planned_process 725 735	euthanized
+TR39	Growth 96 102	growth
+TR40	Blood_vessel_development 104 116	angiogenesis
+TR41	Metastasis 121 131	metastasis
+TR57	Planned_process 51 62	irradiation
+TR46	Blood_vessel_development 1106 1121	vascularization
+TR45	Blood_vessel_development 1028 1040	vascularized
+TR58	Planned_process 835 842	stained
+TR47	Planned_process 1276 1283	treated
+TR48	Negative_regulation 1329 1338	decreased
+TR49	Planned_process 1492 1500	received
+TR50	Metastasis 1548 1558	metastatic
+TR51	Growth 1582 1588	growth
+TR52	Planned_process 1598 1607	untreated
+TR53	Negative_regulation 1714 1723	retarding
+TR54	Blood_vessel_development 1730 1745	vascularization
+TR55	Growth 1747 1753	growth
+TR56	Metastasis 1758 1768	metastasis
+TR42	Planned_process 429 440	transfected
+TR43	Planned_process 459 467	injected
+E1	Planned_process:TR44 Theme:T11
+E2	Planned_process:TR57 
+E3	Growth:TR39 Theme:T2
+E4	Blood_vessel_development:TR40 AtLoc:T2
+E5	Blood_vessel_development:TR46 AtLoc:T21
+E6	Blood_vessel_development:TR45 AtLoc:T20
+E7	Planned_process:TR47 Theme:T28
+E8	Negative_regulation:TR48 Theme:T29
+E9	Metastasis:TR50 ToLoc:T35
+E10	Planned_process:TR52 Theme:T37
+E11	Growth:TR51 Theme:T36
+E12	Planned_process:TR49 Theme:T34
+E13	Blood_vessel_development:TR54 AtLoc:T38

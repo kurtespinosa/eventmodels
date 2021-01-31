@@ -1,0 +1,63 @@
+T84	Negative_regulation 243 251	inhibits
+T85	Remodeling 273 279	repair
+T69	Positive_regulation 1335 1343	enhanced
+T70	Positive_regulation 1358 1365	induced
+T71	Death 1371 1376	death
+T72	Positive_regulation 1418 1426	increase
+T59	Development 445 452	develop
+T60	Planned_process 788 805	radiomodification
+T61	Regulation 911 918	effects
+T81	Positive_regulation 2023 2029	induce
+T82	Negative_regulation 2055 2060	delay
+T83	Negative_regulation 2099 2104	delay
+T88	Pathway 2049 2054	cycle
+T62	Metabolism 962 973	consumption
+T63	Synthesis 1006 1016	production
+T64	Localization 1133 1141	Presence
+T65	Negative_regulation 1167 1176	inhibited
+T66	Metabolism 1189 1194	usage
+T67	Synthesis 1207 1217	production
+T68	Negative_regulation 1251 1260	reduction
+T79	Localization 1886 1894	presence
+T80	Planned_process 1914 1925	irradiation
+T87	Breakdown 1872 1878	breaks
+T73	Planned_process 1460 1478	Radiosensitization
+T74	Positive_regulation 1530 1538	increase
+T75	Death 1542 1555	mitotic death
+T76	Breakdown 1584 1590	damage
+T77	Positive_regulation 1625 1634	induction
+T78	Cell_death 1638 1647	apoptosis
+T86	Death 1550 1555	death
+E1	Remodeling:T85 Theme:T10
+E2	Death:T71 Theme:T39
+E3	Death:T71 Theme:T40
+E4	Positive_regulation:T72 Theme:E2 Cause:T37
+E5	Positive_regulation:T72 Theme:E3 Cause:T37
+E6	Positive_regulation:T69 Theme:E2 Cause:T37
+E7	Positive_regulation:T69 Theme:E3 Cause:T37
+E8	Positive_regulation:T70 Theme:E2
+E9	Positive_regulation:T70 Theme:E3
+E10	Development:T59 Theme:T15
+E11	Development:T59 Theme:T16
+E12	Planned_process:T60 Instrument:T21
+E13	Regulation:T61 Cause:E12 Theme:T27
+E14	Negative_regulation:T82 Theme:T57
+E15	Negative_regulation:T83 Theme:T58 Cause:T55
+E16	Pathway:T88 Theme:T56
+E17	Positive_regulation:T81 Theme:E14 Cause:T55
+E18	Synthesis:T63 Theme:T30
+E19	Metabolism:T62 Theme:T29
+E20	Metabolism:T66 Theme:T32
+E21	Metabolism:T66 Theme:T33
+E22	Localization:T64 Theme:T32
+E23	Planned_process:T80 Theme:T54
+E24	Breakdown:T87 Theme:T52
+E25	Localization:T79 Theme:T53
+E26	Death:T75 Theme:T42
+E27	Planned_process:T73 Theme:T42 Instrument:T41
+E28	Planned_process:T73 Instrument:T41
+E29	Death:T86 Theme:T42
+E30	Cell_death:T78 
+E31	Breakdown:T76 Theme:T43
+E32	Positive_regulation:T77 Theme:E30
+E33	Positive_regulation:T74 Theme:E26

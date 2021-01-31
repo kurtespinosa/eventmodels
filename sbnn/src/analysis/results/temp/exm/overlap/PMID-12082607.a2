@@ -1,0 +1,41 @@
+T43	Cell_transformation 29 43	transformation
+T44	Gene_expression 83 96	co-expression
+T45	Cell_transformation 217 231	transformation
+T46	Gene_expression 268 282	overexpressing
+T47	Positive_regulation 268 282	overexpressing
+T48	Planned_process 392 404	Transfection
+T49	Positive_regulation 423 426	led
+T50	Cell_transformation 434 449	immortalization
+T51	Planned_process 525 535	transduced
+T52	Positive_regulation 549 558	underwent
+T53	Cell_proliferation 566 583	proliferative lag
+T54	Cell_proliferation 600 613	proliferation
+T55	Planned_process 621 632	transfected
+T56	Planned_process 701 712	transfected
+T57	Cell_transformation 824 835	transformed
+T58	Planned_process 964 976	Transduction
+T59	Positive_regulation 998 1006	resulted
+T60	Cell_transformation 1010 1025	immortalization
+T61	Planned_process 1057 1069	immortalized
+T62	Development 1081 1087	formed
+T63	Gene_expression 1155 1168	co-expressing
+T64	Cell_transformation 1213 1224	transformed
+T65	Growth 1314 1321	growing
+T66	Cell_transformation 1372 1386	transformation
+T67	Regulation 1586 1594	aberrant
+T68	Cell_proliferation 1598 1604	growth
+E4	Gene_expression:T46 Theme:T10 Theme2:T13 Theme3:T15
+E6	Planned_process:T48 Instrument:T16 Theme:T17
+E7	Positive_regulation:T49 Cause:E6 Theme:E8
+E8	Cell_transformation:T50 Theme:T17
+E9	Planned_process:T51 Instrument:T19 Theme:T20
+E11	Cell_proliferation:T53 Theme:T20
+E12	Cell_proliferation:T54 Theme:T20
+E28	Gene_expression:T46 Theme:T10 Theme2:T14 Theme3:T15
+E29	Gene_expression:T46 Theme:T11 Theme2:T13 Theme3:T15
+E30	Gene_expression:T46 Theme:T11 Theme2:T14 Theme3:T15
+E35	Planned_process:T48 Instrument:T16 Theme:T18
+E37	Positive_regulation:T49 Cause:E6 Theme:E40
+E38	Positive_regulation:T49 Cause:E35 Theme:E8
+E39	Positive_regulation:T49 Cause:E35 Theme:E40
+E40	Cell_transformation:T50 Theme:T18

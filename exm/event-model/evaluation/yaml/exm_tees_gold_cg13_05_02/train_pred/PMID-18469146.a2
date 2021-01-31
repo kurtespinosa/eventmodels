@@ -1,0 +1,104 @@
+TR66	Planned_process 774 782	exposure
+TR67	Positive_regulation 783 791	resulted
+TR68	Negative_regulation 795 802	reduced
+TR69	Positive_regulation 808 815	induced
+TR70	Development 821 830	formation
+TR71	Negative_regulation 847 854	reduced
+TR55	Negative_regulation 356 363	impairs
+TR56	Blood_vessel_development 364 376	angiogenesis
+TR57	Regulation 446 453	effects
+TR58	Pathway 485 494	signaling
+TR93	Planned_process 1815 1823	exposure
+TR94	Negative_regulation 1838 1845	impairs
+TR95	Blood_vessel_development 1846 1858	angiogenesis
+TR96	Regulation 1891 1899	mediated
+TR97	Regulation 1903 1910	changes
+TR98	Regulation 1931 1945	responsiveness
+TR81	Planned_process 1186 1193	treated
+TR82	Metabolism 1225 1236	metabolized
+TR83	Positive_regulation 1225 1236	metabolized
+TR100	Regulation 1276 1282	change
+TR101	Blood_vessel_development 1292 1303	vascularity
+TR53	Blood_vessel_development 97 109	angiogenesis
+TR54	Regulation 113 122	regulated
+TR76	Negative_regulation 1041 1051	Inhibition
+TR77	Metabolism 1063 1073	metabolism
+TR78	Negative_regulation 1104 1113	abrogated
+TR79	Regulation 1118 1124	effect
+TR80	Development 1161 1170	formation
+TR59	Regulation 543 553	influences
+TR60	Blood_vessel_development 554 566	angiogenesis
+TR61	Blood_vessel_development 613 625	angiogenesis
+TR62	Planned_process 668 676	exposure
+TR63	Regulation 713 720	effects
+TR64	Positive_regulation 729 736	induced
+TR65	Development 755 764	formation
+TR84	Metabolism 1352 1362	metabolism
+TR85	Positive_regulation 1367 1376	important
+TR86	Positive_regulation 1415 1422	induced
+TR87	Regulation 1423 1430	changes
+TR88	Regulation 1451 1465	responsiveness
+TR102	Development 1392 1403	development
+TR92	Negative_regulation 1700 1710	diminished
+TR105	Regulation 1622 1628	effect
+TR106	Regulation 1647 1655	response
+TR50	Planned_process 14 22	exposure
+TR51	Negative_regulation 23 31	disrupts
+TR52	Pathway 46 60	cell signaling
+TR99	Pathway 51 60	signaling
+TR89	Planned_process 1492 1500	exposure
+TR90	Negative_regulation 1513 1522	decreased
+TR91	Blood_vessel_development 1523 1535	angiogenesis
+TR103	Positive_regulation 1501 1507	caused
+TR104	Positive_regulation 1540 1549	increased
+TR72	Planned_process 926 934	exposure
+TR73	Negative_regulation 935 944	decreased
+TR74	Gene_expression 945 955	expression
+TR75	Phosphorylation 1015 1030	phosphorylation
+E1	Negative_regulation:TR71 Theme:T23
+E2	Planned_process:TR66 Instrument:T19
+E3	Development:TR70 Theme:T21
+E4	Negative_regulation:TR68 Theme:E3
+E5	Positive_regulation:TR69 Theme:E3 Cause:T20
+E6	Positive_regulation:TR67 Theme:E1 Cause:E2
+E7	Positive_regulation:TR67 Cause:E2 Theme:E4
+E8	Blood_vessel_development:TR56 AtLoc:T10
+E9	Negative_regulation:TR55 Cause:T6 Theme:E8
+E10	Blood_vessel_development:TR95 
+E11	Regulation:TR98 Cause:T49 Theme:T48
+E12	Planned_process:TR93 Instrument:T47
+E13	Negative_regulation:TR94 Theme:E10 Cause:E12
+E14	Regulation:TR97 Theme:E11
+E15	Regulation:TR96 Cause:E14 Theme:E13
+E16	Blood_vessel_development:TR101 AtLoc:T36
+E17	Regulation:TR100 Theme:E16
+E18	Blood_vessel_development:TR53 
+E19	Regulation:TR54 Theme:E18 Cause:T5
+E20	Development:TR80 Theme:T31
+E21	Metabolism:TR77 Theme:T28
+E22	Negative_regulation:TR76 Theme:E21 Cause:T29
+E23	Regulation:TR79 Theme:E20 Cause:T30
+E24	Negative_regulation:TR78 Cause:E22 Theme:E23
+E25	Blood_vessel_development:TR61 
+E26	Blood_vessel_development:TR60 AtLoc:T15
+E27	Planned_process:TR62 Instrument:T16
+E28	Development:TR65 Theme:T18
+E29	Regulation:TR59 Cause:T14 Theme:E26
+E30	Regulation:TR63 Cause:E27 Theme:E28
+E31	Positive_regulation:TR64 Cause:T17 Theme:E28
+E32	Metabolism:TR84 Theme:T37
+E33	Regulation:TR88 Theme:T39 Cause:T40
+E34	Regulation:TR87 Theme:E33 Cause:T38
+E35	Positive_regulation:TR86 Cause:T38 Theme:E34
+E36	Negative_regulation:TR92 Cause:T45 Theme:T46
+E37	Planned_process:TR50 Instrument:T1
+E38	Pathway:TR52 Participant:T2
+E39	Pathway:TR99 Participant:T2
+E40	Negative_regulation:TR51 Theme:E38 Cause:E37
+E41	Negative_regulation:TR51 Theme:E39 Cause:E37
+E42	Blood_vessel_development:TR91 AtLoc:T42
+E43	Planned_process:TR89 Instrument:T41
+E44	Negative_regulation:TR90 Theme:E42 Cause:E43
+E45	Planned_process:TR72 Instrument:T24
+E46	Phosphorylation:TR75 Theme:T27
+E47	Gene_expression:TR74 Theme:T26

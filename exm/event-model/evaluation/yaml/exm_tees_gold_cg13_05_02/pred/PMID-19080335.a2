@@ -1,0 +1,67 @@
+T76	Positive_regulation 2510 2517	improve
+T77	Regulation 2510 2517	improve
+T78	Blood_vessel_development 2555 2567	angiogenesis
+T79	Negative_regulation 2572 2582	decreasing
+T80	Cell_death 2597 2606	apoptosis
+T81	Planned_process 2612 2624	transplanted
+T70	Planned_process 1948 1963	transplantation
+T71	Negative_regulation 1990 2000	attenuated
+T72	Cell_death 2001 2010	apoptosis
+T73	Regulation 2096 2102	effect
+T74	Positive_regulation 2107 2115	elevated
+T62	Planned_process 1143 1158	transplantation
+T63	Cell_death 1377 1386	apoptosis
+T65	Planned_process 1665 1674	Engrafted
+T66	Death 1680 1688	survived
+T67	Cell_proliferation 1690 1702	proliferated
+T68	Cell_differentiation 1707 1721	differentiated
+T58	Cell_death 736 745	apoptosis
+T59	Planned_process 871 880	injection
+T83	Planned_process 846 854	received
+T50	Regulation 0 6	Effect
+T51	Planned_process 10 22	transplanted
+T52	Positive_regulation 81 92	improvement
+T69	Gene_expression 1760 1770	expression
+T56	Planned_process 700 708	isolated
+T57	Planned_process 713 721	cultured
+T60	Cell_differentiation 1063 1078	differentiation
+T61	Planned_process 1086 1093	grafted
+T75	Positive_regulation 2437 2445	improved
+T54	Planned_process 458 470	transplanted
+T53	Planned_process 188 203	transplantation
+T55	Planned_process 557 569	transplanted
+T82	Regulation 547 553	effect
+T64	Cell_death 1479 1488	apoptosis
+E1	Cell_death:T80 Theme:T49
+E2	Planned_process:T81 Instrument:T47
+E3	Blood_vessel_development:T78 
+E4	Negative_regulation:T79 Cause:T47 Theme:E1
+E5	Regulation:T77 Theme:E3 Cause:T47
+E6	Positive_regulation:T76 Theme:T48 Cause:E5
+E7	Regulation:T73 Theme:T39
+E8	Regulation:T73 Theme:T40
+E9	Planned_process:T70 Instrument:T38
+E10	Positive_regulation:T74 Theme:E7
+E11	Positive_regulation:T74 Theme:E8
+E12	Cell_death:T63 Theme:T30
+E13	Cell_death:T63 
+E14	Planned_process:T62 Instrument:T24
+E15	Cell_proliferation:T67 Theme:T34
+E16	Death:T66 Theme:T34
+E17	Cell_differentiation:T68 Theme:T34
+E18	Planned_process:T65 Instrument:T34
+E19	Cell_death:T58 Theme:T16
+E20	Planned_process:T59 Instrument:T19 Theme:T18
+E21	Planned_process:T83 Theme:T17
+E22	Planned_process:T51 Instrument:T1
+E23	Gene_expression:T69 Theme:T36
+E24	Planned_process:T57 Theme:T14
+E25	Cell_differentiation:T60 Theme:T22
+E26	Planned_process:T61 Theme:T22 Instrument:T22
+E27	Positive_regulation:T75 Theme:T45
+E28	Planned_process:T54 Instrument:T9 Theme:T10
+E29	Planned_process:T53 Instrument:T6 Instrument:T5
+E30	Planned_process:T55 Instrument:T11
+E31	Cell_death:T64 Theme:T32
+E32	Cell_death:T64 Theme:T33
+E33	Cell_death:T64 

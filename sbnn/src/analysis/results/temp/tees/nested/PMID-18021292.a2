@@ -1,0 +1,186 @@
+T68	Gene_expression 16 26	expression
+T69	Positive_regulation 27 39	up-regulates
+T70	Gene_expression 45 55	expression
+T71	Positive_regulation 96 106	activation
+T72	Positive_regulation 212 224	up-regulates
+T73	Regulation 212 224	up-regulates
+T74	Gene_expression 271 281	expression
+T75	Positive_regulation 287 297	activation
+T76	Regulation 287 297	activation
+T77	Regulation 306 316	regulating
+T78	Pathway 609 617	pathways
+T79	Planned_process 625 636	transfected
+T80	Positive_regulation 758 767	induction
+T81	Positive_regulation 772 782	activation
+T82	Localization 837 849	localization
+T83	Binding 854 861	binding
+T84	DNA_domain_or_region 899 907	promoter
+T85	Positive_regulation 912 918	induce
+T86	Gene_expression 924 934	expression
+T87	Pathway 955 963	pathways
+T88	Gene_expression 1046 1058	synthesizing
+T89	Negative_regulation 1107 1115	protects
+T90	Catabolism 1150 1161	degradation
+T91	Regulation 1207 1217	regulation
+T92	Planned_process 1233 1244	transfected
+T93	Positive_regulation 1256 1265	Induction
+T94	Planned_process 1385 1397	transfection
+T95	Positive_regulation 1411 1416	leads
+T96	Dissociation 1453 1460	release
+T97	Binding 1471 1476	bound
+T98	Positive_regulation 1486 1496	activation
+T99	Blood_vessel_development 1500 1512	angiogenesis
+T100	Pathway 1576 1591	signal pathways
+T101	Regulation 1653 1660	mediate
+T102	Positive_regulation 1661 1674	up-regulation
+T103	Positive_regulation 1679 1689	activation
+T104	Positive_regulation 1761 1769	increase
+T105	Transcription 1775 1788	transcription
+T106	Blood_vessel_development 1793 1805	angiogenesis
+E2	Positive_regulation:T69 Theme:E3 Cause:E4
+E4	Positive_regulation:T71 Cause:E1 Theme:T5
+E5	Positive_regulation:T72 Theme:E7 Cause:E11
+E6	Regulation:T73 Cause:T8 Theme:E11
+E8	Positive_regulation:T75 Theme:T13 Cause:E11
+E9	Regulation:T76 Cause:T8 Theme:E11
+E13	Positive_regulation:T80 Theme:T27 Cause:E138
+E14	Positive_regulation:T81 Theme:T27 Cause:E138
+E17	Positive_regulation:T85 Theme:E18 Cause:E19
+E21	Negative_regulation:T89 Theme:E22
+E25	Positive_regulation:T93 Cause:E26 Theme:T47
+E27	Positive_regulation:T95 Theme:E28 Cause:E25
+E30	Positive_regulation:T98 Theme:E31
+E33	Regulation:T101 Cause:E151 Theme:E36
+E36	Positive_regulation:T104 Theme:E37
+E39	Positive_regulation:T69 Theme:E3 Cause:E41
+E40	Positive_regulation:T69 Theme:E3 Cause:E42
+E41	Positive_regulation:T71 Cause:E1 Theme:T6
+E42	Positive_regulation:T71 Cause:E1 Theme:T7
+E43	Positive_regulation:T72 Theme:E7 Cause:E112
+E44	Positive_regulation:T72 Theme:E66 Cause:E11
+E45	Positive_regulation:T72 Theme:E66 Cause:E112
+E46	Regulation:T73 Cause:T8 Theme:E112
+E47	Regulation:T73 Cause:T9 Theme:E11
+E48	Regulation:T73 Cause:T9 Theme:E112
+E49	Positive_regulation:T72 Theme:E7 Cause:E115
+E50	Positive_regulation:T72 Theme:E7 Cause:E116
+E51	Positive_regulation:T72 Theme:E66 Cause:E115
+E52	Positive_regulation:T72 Theme:E66 Cause:E116
+E53	Positive_regulation:T72 Theme:E7 Cause:E119
+E54	Positive_regulation:T72 Theme:E7 Cause:E120
+E55	Positive_regulation:T72 Theme:E66 Cause:E119
+E56	Positive_regulation:T72 Theme:E66 Cause:E120
+E57	Regulation:T73 Cause:T8 Theme:E115
+E58	Regulation:T73 Cause:T8 Theme:E116
+E59	Regulation:T73 Cause:T9 Theme:E115
+E60	Regulation:T73 Cause:T9 Theme:E116
+E61	Regulation:T73 Cause:T8 Theme:E119
+E62	Regulation:T73 Cause:T8 Theme:E120
+E63	Regulation:T73 Cause:T9 Theme:E119
+E64	Regulation:T73 Cause:T9 Theme:E120
+E68	Positive_regulation:T75 Theme:T13 Cause:E112
+E69	Regulation:T76 Cause:T8 Theme:E112
+E70	Regulation:T76 Cause:T9 Theme:E11
+E71	Regulation:T76 Cause:T9 Theme:E112
+E72	Positive_regulation:T75 Theme:T14 Cause:E11
+E73	Positive_regulation:T75 Theme:T14 Cause:E112
+E74	Positive_regulation:T75 Theme:T15 Cause:E11
+E75	Positive_regulation:T75 Theme:T15 Cause:E112
+E76	Positive_regulation:T75 Theme:T16 Cause:E11
+E77	Positive_regulation:T75 Theme:T16 Cause:E112
+E78	Positive_regulation:T75 Theme:T17 Cause:E11
+E79	Positive_regulation:T75 Theme:T17 Cause:E112
+E80	Positive_regulation:T75 Theme:T16 Cause:E115
+E81	Positive_regulation:T75 Theme:T16 Cause:E116
+E82	Positive_regulation:T75 Theme:T17 Cause:E115
+E83	Positive_regulation:T75 Theme:T17 Cause:E116
+E84	Positive_regulation:T75 Theme:T16 Cause:E119
+E85	Positive_regulation:T75 Theme:T16 Cause:E120
+E86	Positive_regulation:T75 Theme:T17 Cause:E119
+E87	Positive_regulation:T75 Theme:T17 Cause:E120
+E88	Regulation:T76 Cause:T8 Theme:E115
+E89	Regulation:T76 Cause:T8 Theme:E116
+E90	Regulation:T76 Cause:T9 Theme:E115
+E91	Regulation:T76 Cause:T9 Theme:E116
+E92	Regulation:T76 Cause:T8 Theme:E119
+E93	Regulation:T76 Cause:T8 Theme:E120
+E94	Regulation:T76 Cause:T9 Theme:E119
+E95	Regulation:T76 Cause:T9 Theme:E120
+E96	Positive_regulation:T75 Theme:T13 Cause:E115
+E97	Positive_regulation:T75 Theme:T13 Cause:E116
+E98	Positive_regulation:T75 Theme:T13 Cause:E119
+E99	Positive_regulation:T75 Theme:T13 Cause:E120
+E100	Positive_regulation:T75 Theme:T14 Cause:E115
+E101	Positive_regulation:T75 Theme:T14 Cause:E116
+E102	Positive_regulation:T75 Theme:T15 Cause:E115
+E103	Positive_regulation:T75 Theme:T15 Cause:E116
+E104	Positive_regulation:T75 Theme:T14 Cause:E119
+E105	Positive_regulation:T75 Theme:T14 Cause:E120
+E106	Positive_regulation:T75 Theme:T15 Cause:E119
+E107	Positive_regulation:T75 Theme:T15 Cause:E120
+E123	Positive_regulation:T80 Theme:T28 Cause:E138
+E124	Positive_regulation:T80 Theme:T29 Cause:E138
+E125	Positive_regulation:T80 Theme:T29 Cause:E19
+E126	Positive_regulation:T80 Theme:T27 Cause:E19
+E127	Positive_regulation:T80 Theme:T28 Cause:E19
+E128	Positive_regulation:T81 Theme:T28 Cause:E138
+E129	Positive_regulation:T81 Theme:T29 Cause:E138
+E130	Positive_regulation:T81 Theme:T29 Cause:E19
+E131	Positive_regulation:T81 Theme:T28 Cause:E19
+E132	Positive_regulation:T81 Theme:T27 Cause:E19
+E137	Positive_regulation:T85 Theme:E18 Cause:E138
+E139	Negative_regulation:T89 Theme:E140
+E141	Positive_regulation:T93 Cause:E26 Theme:T48
+E142	Positive_regulation:T93 Cause:E26 Theme:T49
+E143	Positive_regulation:T93 Cause:E26 Theme:T50
+E144	Positive_regulation:T95 Theme:E30 Cause:E25
+E145	Positive_regulation:T95 Theme:E28 Cause:E141
+E146	Positive_regulation:T95 Theme:E30 Cause:E141
+E147	Positive_regulation:T95 Theme:E28 Cause:E142
+E148	Positive_regulation:T95 Theme:E30 Cause:E142
+E149	Positive_regulation:T95 Theme:E28 Cause:E143
+E150	Positive_regulation:T95 Theme:E30 Cause:E143
+E152	Regulation:T101 Cause:E32 Theme:E36
+E153	Regulation:T101 Cause:E151 Theme:E171
+E154	Regulation:T101 Cause:E32 Theme:E171
+E155	Regulation:T101 Cause:E151 Theme:E35
+E156	Regulation:T101 Cause:E32 Theme:E35
+E157	Regulation:T101 Cause:E151 Theme:E169
+E158	Regulation:T101 Cause:E32 Theme:E169
+E159	Regulation:T101 Cause:E151 Theme:E170
+E160	Regulation:T101 Cause:E32 Theme:E170
+E161	Regulation:T101 Cause:E151 Theme:E34
+E162	Regulation:T101 Cause:E32 Theme:E34
+E163	Regulation:T101 Cause:E151 Theme:E167
+E164	Regulation:T101 Cause:E32 Theme:E167
+E165	Regulation:T101 Cause:E151 Theme:E168
+E166	Regulation:T101 Cause:E32 Theme:E168
+E171	Positive_regulation:T104 Theme:E38
+E37	Transcription:T105 Theme:T66
+E151	Pathway:T100 Participant:T58 Participant2:T59 Participant3:T60 Participant4:T61
+E120	Pathway:T78 Participant:T19
+E11	Pathway:T78 Participant:T22
+E35	Positive_regulation:T103 Theme:T63
+E66	Gene_expression:T74 Theme:T11
+E140	Catabolism:T90 Theme:T42
+E168	Positive_regulation:T102 Theme:T65
+E31	Blood_vessel_development:T99
+E116	Pathway:T78 Participant:T21
+E32	Pathway:T100 Participant:T55 Participant2:T56 Participant3:T57
+E115	Pathway:T78 Participant:T20
+E26	Planned_process:T94 Instrument:T51 Theme:T52
+E119	Pathway:T78 Participant:T18
+E3	Gene_expression:T70 Theme:T2
+E1	Gene_expression:T68 Theme:T1
+E18	Gene_expression:T86 Theme:T31
+E28	Dissociation:T96 Theme:T54
+E22	Catabolism:T90 Theme:T43
+E138	Pathway:T87 Participant:T36 Participant2:T37 Participant3:T38
+E34	Positive_regulation:T102 Theme:T63
+E170	Positive_regulation:T103 Theme:T65
+E38	Blood_vessel_development:T106
+E169	Positive_regulation:T103 Theme:T64
+E7	Gene_expression:T74 Theme:T10
+E19	Pathway:T87 Participant:T32 Participant2:T33 Participant3:T34 Participant4:T35
+E112	Pathway:T78 Participant:T23
+E167	Positive_regulation:T102 Theme:T64

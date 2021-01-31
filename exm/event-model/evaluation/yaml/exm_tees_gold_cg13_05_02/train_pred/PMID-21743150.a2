@@ -1,0 +1,24 @@
+TR27	Gene_expression 688 698	expression
+TR28	Cell_differentiation 785 800	differentiation
+TR29	Metastasis 816 826	metastasis
+TR21	Gene_expression 124 134	expression
+TR20	Gene_expression 1 11	Expression
+TR30	Regulation 870 880	contribute
+TR31	Development 888 898	initiation
+TR32	Metastasis 902 912	metastasis
+TR33	Positive_regulation 888 898	initiation
+TR23	Gene_expression 395 405	expression
+TR24	Cell_differentiation 492 507	differentiation
+TR25	Metastasis 523 533	metastasis
+TR26	Gene_expression 561 571	expression
+TR22	Gene_expression 231 241	expression
+E1	Gene_expression:TR27 Theme:T16
+E2	Metastasis:TR29 ToLoc:T17
+E3	Gene_expression:TR21 Theme:T3
+E4	Gene_expression:TR20 Theme:T1
+E5	Metastasis:TR32 Theme:T19
+E6	Development:TR31 Theme:T19
+E7	Gene_expression:TR23 Theme:T11
+E8	Metastasis:TR25 ToLoc:T12
+E9	Gene_expression:TR26 Theme:T13
+E10	Gene_expression:TR22 Theme:T6

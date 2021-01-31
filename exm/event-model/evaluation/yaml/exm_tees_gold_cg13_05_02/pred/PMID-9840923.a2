@@ -1,0 +1,49 @@
+T63	Planned_process 508 518	transgenic
+T64	Cell_proliferation 538 550	proliferated
+T58	Positive_regulation 233 242	essential
+T59	Development 260 271	development
+T65	Positive_regulation 614 622	resulted
+T66	Development 626 635	formation
+T73	Metastasis 1184 1195	metastasize
+T67	Localization 737 745	detected
+T57	Metastasis 41 52	metastasize
+T69	Planned_process 967 978	established
+T70	Metastasis 994 1004	metastases
+T71	Planned_process 1017 1024	culture
+T74	Metastasis 1241 1251	metastasis
+T75	Metastasis 1361 1371	metastasis
+T76	Development 1382 1389	derived
+T60	Planned_process 298 308	transgenic
+T61	Planned_process 453 462	targeting
+T62	Gene_expression 463 473	expression
+T77	Gene_expression 325 334	expresses
+T78	Cell_transformation 355 367	transforming
+T79	Regulation 384 391	control
+T72	Gene_expression 1086 1096	expression
+T68	Gene_expression 829 838	expressed
+E1	Planned_process:T63 Theme:T21
+E2	Cell_proliferation:T64 Theme:T22
+E3	Development:T59 Theme:T12
+E4	Positive_regulation:T58 Theme:T12 Cause:T8
+E5	Positive_regulation:T58 Theme:T12 Cause:T10
+E6	Positive_regulation:T58 Theme:E3 Cause:T8
+E7	Positive_regulation:T58 Theme:E3 Cause:T10
+E8	Development:T66 Theme:T26
+E9	Positive_regulation:T65 Theme:E8
+E10	Metastasis:T73 ToLoc:T49 Theme:T47
+E11	Metastasis:T73 Theme:T47 ToLoc:T48
+E12	Localization:T67 AtLoc:T30 Theme:T29
+E13	Localization:T67 Theme:T29 AtLoc:T31
+E14	Planned_process:T71 Theme:T40
+E15	Planned_process:T69 Theme:T40
+E16	Metastasis:T70 
+E17	Metastasis:T75 Theme:T55
+E18	Development:T76 Theme:T55
+E19	Metastasis:T74 ToLoc:T53 Theme:T51
+E20	Metastasis:T74 ToLoc:T54 Theme:T51
+E21	Planned_process:T60 Theme:T13
+E22	Planned_process:T61 Instrument:T18 Instrument:T19
+E23	Gene_expression:T62 Theme:T19 Theme:T18
+E24	Gene_expression:T62 Theme:T19
+E25	Gene_expression:T62 Theme:T18
+E26	Regulation:T79 Theme:T16

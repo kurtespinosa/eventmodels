@@ -1,0 +1,24 @@
+TR50	Localization 253 261	invasion
+TR51	Metastasis 271 275	node
+TR58	Positive_regulation 1957 1966	increased
+TR59	Localization 2007 2015	invasion
+TR56	Planned_process 1140 1148	staining
+TR52	Metastasis 362 372	metastases
+TR53	Protein_domain_or_region 374 378	ALNM
+TR54	Localization 643 651	invasive
+TR55	Metastasis 705 709	node
+TR60	Regulation 2202 2206	role
+TR47	Localization 28 36	invasion
+TR48	Metastasis 117 125	axillary
+TR49	Metastasis 137 147	metastases
+TR57	Gene_expression 1653 1661	negative
+E1	Metastasis:TR51 Theme:T8
+E2	Planned_process:TR56 Instrument:T23
+E3	Metastasis:TR52 ToLoc:T9
+E4	Metastasis:TR55 Theme:T17
+E5	Localization:TR54 Theme:T15
+E6	Regulation:TR60 Cause:T44 Theme:T45
+E7	Localization:TR47 Theme:T1
+E8	Metastasis:TR48 ToLoc:T5
+E9	Metastasis:TR49 ToLoc:T5
+E10	Gene_expression:TR57 Theme:T38 Theme:T37 Theme:T36

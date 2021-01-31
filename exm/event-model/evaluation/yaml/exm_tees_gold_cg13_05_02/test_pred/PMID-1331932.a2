@@ -1,0 +1,11 @@
+TR39	Regulation 563 569	change
+TR40	Positive_regulation 614 623	resulting
+TR41	DNA_domain_or_region 655 659	exon
+TR45	Cell_transformation 1480 1491	transformed
+TR46	Carcinogenesis 1517 1528	tumorigenic
+TR43	Planned_process 1282 1290	passaged
+TR44	Planned_process 1366 1374	passaged
+E1	Positive_regulation:TR40 Theme:T13
+E2	Cell_transformation:TR45 Theme:T35
+E3	Carcinogenesis:TR46 AtLoc:T32
+E4	Planned_process:TR43 Theme:T28 Theme2:T29

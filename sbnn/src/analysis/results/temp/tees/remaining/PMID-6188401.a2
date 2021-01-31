@@ -1,0 +1,68 @@
+T30	Blood_vessel_development 0 12	Angiogenesis
+T31	Positive_regulation 14 24	initiation
+T32	Regulation 29 36	control
+T33	Growth 142 148	growth
+T34	Regulation 164 172	involves
+T35	Breakdown 217 222	lysis
+T36	Localization 280 289	migration
+T37	Blood_vessel_development 332 342	angiogenic
+T38	Development 359 368	formation
+T39	Development 370 381	development
+T40	Development 399 410	anastomosis
+T41	Blood_vessel_development 496 506	angiogenic
+T42	Positive_regulation 629 638	activated
+T43	Positive_regulation 722 731	stimulate
+T44	Blood_vessel_development 732 744	angiogenesis
+T45	Blood_vessel_development 786 796	angiogenic
+T46	Blood_vessel_development 836 846	angiogenic
+T47	Positive_regulation 847 858	stimulation
+T48	Planned_process 896 901	clone
+T49	Planned_process 961 968	culture
+T50	Growth 1039 1045	growth
+T51	Positive_regulation 1172 1183	speeding up
+T52	Localization 1210 1219	migration
+T53	Regulation 1312 1318	effect
+T54	Development 1402 1409	prepare
+T55	Localization 1438 1445	release
+T56	Localization 1500 1504	move
+T57	Blood_vessel_development 1529 1539	angiogenic
+T58	Blood_vessel_development 1567 1579	angiogenesis
+T59	Positive_regulation 1741 1751	initiation
+T60	Regulation 1756 1763	control
+T61	Growth 1777 1783	growth
+E1	Blood_vessel_development:T30
+E2	Positive_regulation:T31 Theme:E1
+E3	Regulation:T32 Theme:E1
+E4	Growth:T33 Theme:T3
+E5	Regulation:T34 Cause:E4 Theme:E6
+E6	Breakdown:T35 Theme:T4
+E7	Localization:T36 Theme:T6
+E8	Blood_vessel_development:T37
+E9	Development:T38 Theme:T7
+E10	Development:T39 Theme:T8
+E11	Development:T40 Theme:T9
+E12	Blood_vessel_development:T41
+E13	Positive_regulation:T42 Theme:T12
+E14	Positive_regulation:T43 Cause:T15 Theme:E15
+E15	Blood_vessel_development:T44
+E16	Blood_vessel_development:T45
+E17	Blood_vessel_development:T46
+E18	Positive_regulation:T47 Theme:E17
+E19	Planned_process:T48 Theme:T17
+E20	Planned_process:T49 Theme:T17
+E21	Growth:T50 Theme:T18
+E22	Positive_regulation:T51 Theme:E23 Cause:T19
+E23	Localization:T52 Theme:T21
+E24	Regulation:T53 Theme:T24
+E25	Development:T54 Theme:T26
+E26	Localization:T55 Theme:T27 FromLoc:T25
+E27	Localization:T56 Theme:T28
+E28	Blood_vessel_development:T57 Theme:T28
+E29	Blood_vessel_development:T58
+E30	Positive_regulation:T59 Theme:E32
+E31	Regulation:T60 Theme:E32
+E32	Growth:T61 Theme:T29
+E33	Regulation:T34 Cause:E4 Theme:E7
+E34	Regulation:T34 Cause:E4 Theme:E9
+E35	Regulation:T34 Cause:E4 Theme:E10
+E36	Regulation:T34 Cause:E4 Theme:E11

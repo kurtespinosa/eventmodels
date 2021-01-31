@@ -1,0 +1,60 @@
+T80	Gene_expression 78 88	expression
+T81	Blood_vessel_development 169 181	Angiogenesis
+T82	Positive_regulation 185 194	essential
+T83	Growth 205 211	growth
+T84	Metastasis 216 226	metastasis
+T85	Blood_vessel_development 256 266	angiogenic
+T86	Binding 434 438	bind
+T87	Positive_regulation 869 882	up-regulation
+T88	Positive_regulation 1084 1097	up-regulation
+T89	Positive_regulation 1370 1378	increase
+T90	Gene_expression 1508 1518	expression
+T91	Regulation 1746 1752	effect
+T92	Gene_expression 1818 1828	expression
+T93	Planned_process 1868 1879	transfected
+T94	Mutation 1885 1894	wild-type
+T95	Mutation 1899 1905	mutant
+T96	Cell_proliferation 1928 1935	growing
+T97	Mutation 1972 1981	wild-type
+T98	Positive_regulation 2026 2038	up-regulated
+T99	Gene_expression 2110 2120	expression
+T100	Negative_regulation 2135 2142	reduced
+T101	Negative_regulation 2184 2194	repression
+T102	Mutation 2217 2223	mutant
+T103	Regulation 2281 2290	regulated
+T104	Positive_regulation 2312 2325	up-regulation
+T105	Regulation 2429 2439	regulating
+T106	Blood_vessel_development 2440 2452	angiogenesis
+T107	Blood_vessel_development 2460 2477	lymphangiogenesis
+T108	Blood_vessel_development 2542 2552	angiogenic
+T109	Regulation 2685 2693	regulate
+T110	Blood_vessel_development 2694 2706	angiogenesis
+E3	Positive_regulation:T82 Cause:E2 Theme:E4
+E10	Positive_regulation:T89 Theme:E11
+E12	Regulation:T91 Cause:T55 Theme:E59
+E21	Negative_regulation:T100 Theme:E20
+E26	Regulation:T105 Theme:E27
+E30	Regulation:T109 Theme:E31
+E33	Positive_regulation:T82 Cause:E2 Theme:E5
+E48	Positive_regulation:T89 Theme:E52
+E49	Positive_regulation:T89 Theme:E53
+E50	Positive_regulation:T89 Theme:E54
+E51	Positive_regulation:T89 Theme:E55
+E56	Regulation:T91 Cause:T56 Theme:E59
+E57	Regulation:T91 Cause:T55 Theme:E13
+E58	Regulation:T91 Cause:T56 Theme:E13
+E60	Regulation:T105 Theme:E28
+E5	Metastasis:T84 Theme:T5
+E31	Blood_vessel_development:T110
+E20	Gene_expression:T99 Theme:T65
+E4	Growth:T83 Theme:T5
+E54	Gene_expression:T90 Theme:T41
+E55	Gene_expression:T90 Theme:T40
+E11	Gene_expression:T90 Theme:T44
+E59	Gene_expression:T92 Theme:T57
+E52	Gene_expression:T90 Theme:T43
+E13	Gene_expression:T92 Theme:T58
+E28	Blood_vessel_development:T107
+E2	Blood_vessel_development:T81
+E53	Gene_expression:T90 Theme:T42
+E27	Blood_vessel_development:T106

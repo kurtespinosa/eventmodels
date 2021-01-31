@@ -1,0 +1,51 @@
+T37	Development 586 597	development
+T38	Planned_process 617 624	treated
+T39	Planned_process 637 647	transgenic
+T40	Positive_regulation 679 689	activation
+T50	Positive_regulation 571 579	promotes
+T26	Positive_regulation 14 22	promotes
+T27	Carcinogenesis 28 41	tumorigenesis
+T28	Positive_regulation 45 55	triggering
+T29	Positive_regulation 74 83	dependent
+T30	Positive_regulation 163 173	initiating
+T31	Carcinogenesis 174 185	carcinogens
+T32	Development 216 227	development
+T41	Positive_regulation 722 731	promotion
+T42	Positive_regulation 742 751	induction
+T43	Positive_regulation 773 780	results
+T44	Positive_regulation 784 792	enhanced
+T45	Cell_proliferation 804 817	proliferation
+T46	Negative_regulation 825 834	abrogated
+T47	Negative_regulation 846 854	ablation
+T48	Negative_regulation 875 887	inactivation
+T51	Mutation 846 854	ablation
+T33	Positive_regulation 364 373	initiator
+T34	Positive_regulation 420 428	promoter
+T35	Positive_regulation 464 470	caused
+T36	Positive_regulation 480 490	activation
+T49	Carcinogenesis 444 454	initiation
+E1	Development:T37 Theme:T15
+E2	Planned_process:T38 Theme:T16
+E3	Positive_regulation:T40 Theme:T18
+E4	Positive_regulation:T40 Theme:T16
+E5	Carcinogenesis:T27 AtLoc:T2
+E6	Development:T32 Theme:T8
+E7	Carcinogenesis:T31 
+E8	Positive_regulation:T30 Theme:T7 Cause:E7
+E9	Cell_proliferation:T45 Theme:T22
+E10	Negative_regulation:T47 Theme:T22
+E11	Negative_regulation:T47 Theme:T23
+E12	Positive_regulation:T42 Theme:T21
+E13	Positive_regulation:T44 Theme:T21
+E14	Positive_regulation:T44 Theme:E9
+E15	Positive_regulation:T41 Theme:T20 Cause:E12
+E16	Positive_regulation:T43 Cause:T21 Theme:E9
+E17	Negative_regulation:T46 Cause:E10 Theme:E15
+E18	Negative_regulation:T46 Cause:E11 Theme:E15
+E19	Positive_regulation:T33 Theme:T11
+E20	Positive_regulation:T34 Theme:T12
+E21	Carcinogenesis:T49 
+E22	Positive_regulation:T36 Theme:E21
+E23	Positive_regulation:T36 Theme:T13
+E24	Positive_regulation:T35 Theme:T12 Cause:E22
+E25	Positive_regulation:T35 Theme:T12 Cause:E23

@@ -1,0 +1,42 @@
+T65	Positive_regulation 1494 1501	capable
+T66	Positive_regulation 1505 1513	inducing
+T67	Gene_expression 1538 1547	expressed
+T68	Cell_transformation 1657 1669	transforming
+T69	Positive_regulation 1687 1695	enhanced
+T64	Cell_proliferation 1452 1458	growth
+T60	Planned_process 869 877	injected
+T61	Positive_regulation 945 952	induced
+T50	Positive_regulation 60 66	induce
+T70	Regulation 90 100	co-operate
+T51	Positive_regulation 168 174	induce
+T52	Cell_proliferation 179 192	proliferation
+T53	Planned_process 304 314	engineered
+T62	Positive_regulation 1031 1039	observed
+T55	Cell_transformation 626 637	transformed
+T56	Positive_regulation 626 637	transformed
+T57	Infection 660 669	infection
+T63	Positive_regulation 1263 1272	induction
+T58	Cell_transformation 762 773	transformed
+T59	Positive_regulation 762 773	transformed
+E1	Gene_expression:T67 Theme:T47
+E2	Positive_regulation:T66 Theme:T48
+E3	Positive_regulation:T65 Cause:T47 Theme:E2
+E4	Positive_regulation:T65 Cause:T47 Theme:T48
+E5	Cell_proliferation:T64 Theme:T46
+E6	Planned_process:T60 Theme:T27
+E7	Positive_regulation:T61 Theme:T28
+E8	Positive_regulation:T50 Cause:T1 Theme:T2
+E9	Cell_proliferation:T52 Theme:T6
+E10	Positive_regulation:T51 Theme:E9 Cause:T4
+E11	Positive_regulation:T51 Theme:E9 Cause:T5
+E12	Positive_regulation:T62 Cause:T36 Theme:T29
+E13	Positive_regulation:T62 Theme:T29 Cause:T38
+E14	Positive_regulation:T62 Theme:T29 Cause:T31
+E15	Cell_transformation:T55 Theme:T17
+E16	Positive_regulation:T56 Cause:T13 Theme:E15
+E17	Positive_regulation:T56 Theme:E15 Cause:T15
+E18	Positive_regulation:T63 Cause:T42 Theme:T40
+E19	Positive_regulation:T63 Cause:T45 Theme:T40
+E20	Cell_transformation:T58 Theme:T25
+E21	Positive_regulation:T59 Theme:E20 Cause:T21
+E22	Positive_regulation:T59 Theme:E20 Cause:T24

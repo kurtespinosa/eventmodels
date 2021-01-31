@@ -1,0 +1,55 @@
+TR45	Positive_regulation 778 785	induced
+TR46	Glycolysis 834 844	glycolytic
+TR47	Negative_regulation 859 869	attenuated
+TR48	Cell_death 878 887	apoptotic
+TR49	Negative_regulation 888 894	effect
+TR43	Negative_regulation 588 597	protected
+TR44	Death 615 620	death
+TR32	Cell_death 199 208	apoptotic
+TR33	Negative_regulation 209 219	mechanisms
+TR34	Negative_regulation 269 279	antagonize
+TR35	Cell_death 284 296	proapoptotic
+TR31	Cell_death 120 132	proapoptotic
+TR50	Negative_regulation 948 959	antagonized
+TR51	Cell_proliferation 964 970	growth
+TR52	Negative_regulation 971 982	suppressive
+TR53	Localization 1043 1054	deprivation
+TR36	Positive_regulation 332 341	activated
+TR37	Localization 430 441	deprivation
+TR38	Regulation 448 456	changing
+TR39	Gene_expression 461 471	expression
+TR40	Cell_death 508 517	apoptotic
+TR41	Gene_expression 534 547	overexpressed
+TR42	Positive_regulation 534 547	overexpressed
+TR27	Positive_regulation 6 14	augments
+TR28	Death 15 20	death
+TR29	Negative_regulation 25 35	attenuates
+TR30	Negative_regulation 36 46	protective
+E1	Cell_death:TR48 
+E2	Glycolysis:TR46 
+E3	Negative_regulation:TR49 Theme:E1 Cause:T19
+E4	Negative_regulation:TR47 Theme:E3
+E5	Death:TR44 Theme:T16
+E6	Cell_death:TR32 
+E7	Cell_death:TR35 
+E8	Negative_regulation:TR33 Theme:E6
+E9	Negative_regulation:TR34 Theme:E7
+E10	Cell_death:TR31 
+E11	Cell_proliferation:TR51 Theme:T22
+E12	Localization:TR53 Theme:T23
+E13	Negative_regulation:TR52 Cause:T21 Theme:E11
+E14	Negative_regulation:TR50 Theme:E13 Cause:T20
+E15	Negative_regulation:TR50 Theme:E11 Cause:T20
+E16	Localization:TR37 Theme:T10
+E17	Positive_regulation:TR36 Theme:T8
+E18	Cell_death:TR40 
+E19	Gene_expression:TR39 Theme:T12 Theme:T11
+E20	Gene_expression:TR39 Theme:T12
+E21	Gene_expression:TR39 Theme:T11
+E22	Regulation:TR38 Theme:E19
+E23	Regulation:TR38 Theme:E20
+E24	Regulation:TR38 Theme:E21
+E25	Death:TR28 Theme:T3
+E26	Positive_regulation:TR27 Cause:T1 Theme:E25
+E27	Positive_regulation:TR27 Theme:E25
+E28	Negative_regulation:TR29 Cause:T1 Theme:T2

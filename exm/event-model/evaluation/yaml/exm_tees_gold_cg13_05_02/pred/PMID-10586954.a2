@@ -1,0 +1,58 @@
+T57	Positive_regulation 8 15	induced
+T58	Gene_expression 51 61	expression
+T62	Regulation 485 491	effect
+T63	Gene_expression 524 534	expression
+T76	Positive_regulation 1292 1301	increased
+T77	Positive_regulation 1342 1350	enhanced
+T78	DNA_domain_or_region 1356 1364	promoter
+T59	Planned_process 140 147	therapy
+T60	Positive_regulation 239 246	induced
+T61	Breakdown 247 260	deterioration
+T85	Positive_regulation 1758 1767	increases
+T86	Positive_regulation 1827 1835	enhanced
+T87	Transcription 1836 1849	transcription
+T91	Localization 1782 1790	secreted
+T72	Positive_regulation 1060 1069	stimulate
+T73	DNA_domain_or_region 1079 1087	promoter
+T74	Planned_process 1088 1094	linked
+T79	Planned_process 1422 1431	treatment
+T80	Positive_regulation 1437 1446	increased
+T88	Planned_process 1886 1893	therapy
+T89	Positive_regulation 1975 1984	increased
+T90	Gene_expression 2003 2013	expression
+T69	Planned_process 939 946	treated
+T70	Planned_process 962 969	assayed
+T71	Cell_proliferation 1018 1031	proliferation
+T75	Positive_regulation 1194 1203	increased
+T66	Regulation 737 746	regulates
+T67	Gene_expression 752 762	expression
+T68	Planned_process 814 821	exposed
+T64	Regulation 570 576	effect
+T65	Gene_expression 596 606	expression
+E1	Gene_expression:T58 Theme:T2
+E2	Positive_regulation:T57 Theme:E1 Cause:T1
+E3	Gene_expression:T63 Theme:T12
+E4	Regulation:T62 Cause:T10 Theme:E3
+E5	Positive_regulation:T76 Theme:T38 Cause:T37
+E6	Positive_regulation:T76 Theme:T41 Cause:T37
+E7	Positive_regulation:T77 Theme:T41 Cause:T37
+E8	Planned_process:T59 Instrument:T4
+E9	Breakdown:T61 Theme:T6
+E10	Positive_regulation:T60 Theme:E9 Cause:T5
+E11	Transcription:T87 Theme:T52
+E12	Localization:T91 Theme:T50
+E13	Positive_regulation:T86 Theme:E11 Cause:T49
+E14	Positive_regulation:T85 Cause:E13 Theme:T50
+E15	Positive_regulation:T72 Theme:T30 Cause:T29
+E16	Planned_process:T74 Instrument:T31
+E17	Gene_expression:T90 Theme:T56
+E18	Planned_process:T88 Theme:T54 Instrument:T53
+E19	Positive_regulation:T89 Theme:E17 Cause:E18
+E20	Cell_proliferation:T71 Theme:T28
+E21	Planned_process:T69 Instrument:T25 Theme:T26
+E22	Planned_process:T70 Theme:T28 Theme2:T26
+E23	Planned_process:T70 Theme:T26
+E24	Positive_regulation:T75 Cause:T32 Theme:T33
+E25	Gene_expression:T67 Theme:T19
+E26	Regulation:T66 Theme:E25 Cause:T18
+E27	Gene_expression:T65 Theme:T14

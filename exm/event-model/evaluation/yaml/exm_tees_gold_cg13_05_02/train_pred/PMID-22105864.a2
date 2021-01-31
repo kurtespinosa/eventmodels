@@ -1,0 +1,33 @@
+TR60	Gene_expression 931 940	expressed
+TR52	Regulation 216 220	role
+TR53	Carcinogenesis 238 252	carcinogenesis
+TR58	Gene_expression 825 834	expressed
+TR59	Gene_expression 861 871	expression
+TR65	Regulation 1360 1371	play a role
+TR66	Carcinogenesis 1388 1402	carcinogenesis
+TR69	Regulation 1367 1371	role
+TR49	Carcinogenesis 69 83	carcinogenesis
+TR67	Regulation 54 65	involvement
+TR61	Gene_expression 1054 1063	expressed
+TR50	Regulation 148 168	play important roles
+TR51	Localization 191 200	transport
+TR68	Regulation 163 168	roles
+TR54	Gene_expression 412 422	expression
+TR62	Gene_expression 1159 1169	Expression
+TR63	Cell_differentiation 1207 1222	differentiation
+TR64	Localization 1235 1243	invasion
+TR55	Gene_expression 524 534	expression
+TR56	Gene_expression 701 710	expressed
+TR57	Gene_expression 804 814	expression
+E1	Gene_expression:TR60 Theme:T35
+E2	Gene_expression:TR59 Theme:T31
+E3	Gene_expression:TR58 Theme:T31
+E4	Carcinogenesis:TR66 AtLoc:T48
+E5	Regulation:TR65 Theme:E4 Cause:T46
+E6	Carcinogenesis:TR49 Theme:T4
+E7	Gene_expression:TR61 Theme:T39
+E8	Gene_expression:TR54 Theme:T14
+E9	Cell_differentiation:TR63 Theme:T44
+E10	Gene_expression:TR62 Theme:T43
+E11	Localization:TR64 Theme:T44
+E12	Gene_expression:TR55 Theme:T17

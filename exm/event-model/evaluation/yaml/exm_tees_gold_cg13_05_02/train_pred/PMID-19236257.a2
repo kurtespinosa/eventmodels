@@ -1,0 +1,26 @@
+TR26	Regulation 134 142	Aberrant
+TR27	Blood_vessel_development 143 155	angiogenesis
+TR28	Positive_regulation 198 207	important
+TR29	Growth 227 233	growth
+TR30	Metastasis 238 248	metastasis
+TR31	Regulation 257 265	mediated
+TR32	Blood_vessel_development 281 291	angiogenic
+TR39	Cell_proliferation 212 225	proliferation
+TR24	Negative_regulation 51 61	inhibiting
+TR25	Blood_vessel_development 69 81	angiogenesis
+TR36	Negative_regulation 488 495	inhibit
+TR37	Pathway 505 512	pathway
+TR33	Pathway 310 317	pathway
+TR34	Blood_vessel_development 364 374	angiogenic
+E1	Metastasis:TR30 Theme:T5
+E2	Blood_vessel_development:TR27 
+E3	Growth:TR29 Theme:T5
+E4	Blood_vessel_development:TR32 
+E5	Regulation:TR26 Theme:E2
+E6	Regulation:TR31 Theme:E2
+E7	Regulation:TR31 Theme:T5
+E8	Positive_regulation:TR28 Cause:E2 Theme:E1
+E9	Positive_regulation:TR28 Cause:E2 Theme:E3
+E10	Blood_vessel_development:TR25 AtLoc:T3
+E11	Negative_regulation:TR24 Cause:T2 Theme:E10
+E12	Negative_regulation:TR24 Cause:T4 Theme:E10

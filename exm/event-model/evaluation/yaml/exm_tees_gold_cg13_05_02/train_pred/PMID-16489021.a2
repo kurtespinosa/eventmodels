@@ -1,0 +1,55 @@
+TR58	Regulation 920 924	role
+TR59	Pathway 936 943	pathway
+TR52	Gene_expression 628 638	expressing
+TR53	Cell_death 684 693	apoptosis
+TR54	Cell_death 755 764	apoptotic
+TR55	Cell_death 774 783	apoptosis
+TR56	Death 866 874	survival
+TR57	Gene_expression 892 902	expressing
+TR62	Positive_regulation 1410 1421	requirement
+TR63	Negative_regulation 1434 1446	inactivation
+TR64	Pathway 1458 1465	pathway
+TR45	Gene_expression 498 512	overexpression
+TR46	Positive_regulation 498 512	overexpression
+TR47	Positive_regulation 516 526	sufficient
+TR48	Cell_proliferation 537 550	proliferation
+TR49	Negative_regulation 558 565	release
+TR50	Cell_differentiation 570 585	differentiation
+TR51	Negative_regulation 586 591	block
+TR67	Negative_regulation 530 536	rescue
+TR60	Planned_process 1098 1107	explanted
+TR61	Mutation 1136 1147	allele loss
+TR68	Mutation 1143 1147	loss
+TR43	Gene_expression 317 327	expression
+TR44	Cell_proliferation 455 468	proliferative
+TR66	Positive_regulation 351 356	leads
+TR38	Regulation 14 25	collaborate
+TR39	Development 38 49	development
+TR40	Negative_regulation 53 64	suppressing
+TR41	Cell_death 65 74	apoptotic
+TR42	Pathway 79 101	growth arrest pathways
+TR65	Pathway 93 101	pathways
+TR69	Negative_regulation 1309 1319	neutralize
+TR70	Cell_proliferation 1342 1348	growth
+E1	Pathway:TR59 Participant:T25
+E2	Regulation:TR58 Cause:E1 Theme:T27
+E3	Gene_expression:TR52 Theme:T14
+E4	Cell_death:TR54 
+E5	Cell_death:TR53 
+E6	Gene_expression:TR57 Theme:T23
+E7	Death:TR56 Theme:T24
+E8	Cell_death:TR55 
+E9	Pathway:TR64 Participant:T37
+E10	Negative_regulation:TR63 Theme:E9
+E11	Positive_regulation:TR62 Theme:E10
+E12	Gene_expression:TR45 Theme:T12
+E13	Positive_regulation:TR46 Theme:E12
+E14	Positive_regulation:TR47 Theme:T12 Cause:E12
+E15	Positive_regulation:TR47 Cause:E12 Theme:E13
+E16	Mutation:TR68 Theme:T31
+E17	Mutation:TR61 Theme:T31
+E18	Planned_process:TR60 Theme:T32
+E19	Cell_proliferation:TR44 Theme:T11
+E20	Gene_expression:TR43 Theme:T9
+E21	Cell_death:TR41 
+E22	Development:TR39 Theme:T3

@@ -1,0 +1,82 @@
+TR56	Planned_process 1085 1093	injected
+TR57	Negative_regulation 1112 1122	suppressed
+TR58	Cell_proliferation 1140 1146	growth
+TR59	Metastasis 1179 1189	metastasis
+TR53	Negative_regulation 996 1005	prevented
+TR54	Positive_regulation 1018 1025	induced
+TR55	Pathway 1026 1040	collagenolysis
+TR46	Negative_regulation 702 711	inhibited
+TR47	Localization 718 727	migration
+TR73	Negative_regulation 782 789	decline
+TR37	Blood_vessel_development 143 155	angiogenesis
+TR38	Planned_process 183 191	purified
+TR39	Localization 438 447	migration
+TR40	Cell_proliferation 452 465	proliferation
+TR41	Blood_vessel_development 479 491	angiogenesis
+TR42	Positive_regulation 492 499	induced
+TR48	Planned_process 862 867	added
+TR49	Positive_regulation 881 888	induced
+TR50	Blood_vessel_development 889 901	angiogenesis
+TR51	Positive_regulation 902 908	caused
+TR52	Breakdown 927 936	disrupted
+TR43	Negative_regulation 607 617	inhibiting
+TR44	Cell_proliferation 629 635	growth
+TR45	Metastasis 640 650	metastasis
+TR72	Regulation 587 594	ability
+TR60	Blood_vessel_development 1248 1258	angiogenic
+TR61	Negative_regulation 1259 1266	effects
+TR62	Positive_regulation 1286 1289	due
+TR63	Negative_regulation 1293 1305	interference
+TR64	Cell_proliferation 1315 1328	proliferation
+TR65	Localization 1333 1342	migration
+TR66	Negative_regulation 1364 1374	inhibition
+TR67	Pathway 1378 1392	collagenolysis
+TR68	Negative_regulation 1413 1423	inhibition
+TR69	Blood_vessel_development 1432 1444	angiogenesis
+TR70	Cell_proliferation 1460 1466	growth
+TR74	Positive_regulation 1402 1409	leading
+TR34	Blood_vessel_development 50 62	angiogenesis
+TR35	Blood_vessel_development 82 94	angiogenesis
+TR36	Negative_regulation 110 120	activities
+TR71	Regulation 0 6	Effect
+E1	Metastasis:TR59 Theme:T30
+E2	Cell_proliferation:TR58 Theme:T29
+E3	Negative_regulation:TR57 Theme:E2 Cause:T27
+E4	Negative_regulation:TR57 Theme:E1 Cause:T27
+E5	Negative_regulation:TR73 Theme:T21
+E6	Localization:TR47 Theme:T20
+E7	Negative_regulation:TR46 Cause:T19 Theme:E6
+E8	Blood_vessel_development:TR37 
+E9	Planned_process:TR38 Theme:T5
+E10	Blood_vessel_development:TR41 
+E11	Localization:TR39 Theme:T12
+E12	Localization:TR39 Theme:T11
+E13	Cell_proliferation:TR40 Theme:T12
+E14	Cell_proliferation:TR40 Theme:T11
+E15	Positive_regulation:TR42 Cause:T13 Theme:E10
+E16	Breakdown:TR52 Theme:T24
+E17	Blood_vessel_development:TR50 
+E18	Planned_process:TR48 Theme:E17 Instrument:T22
+E19	Positive_regulation:TR49 Theme:E17 Cause:T23
+E20	Positive_regulation:TR51 Cause:E18 Theme:E16
+E21	Positive_regulation:TR51 Theme:E16 Cause:T23
+E22	Metastasis:TR45 Theme:T18
+E23	Regulation:TR72 Cause:T17 Theme:E22
+E24	Cell_proliferation:TR44 Theme:T18
+E25	Negative_regulation:TR43 Theme:E22 Cause:T17
+E26	Negative_regulation:TR43 Cause:T17 Theme:E24
+E27	Blood_vessel_development:TR60 
+E28	Localization:TR65 Theme:T32
+E29	Blood_vessel_development:TR69 
+E30	Cell_proliferation:TR70 Theme:T33
+E31	Negative_regulation:TR61 Cause:T31 Theme:E27
+E32	Positive_regulation:TR74 Theme:E30
+E33	Negative_regulation:TR68 Theme:E29 Cause:E31
+E34	Negative_regulation:TR68 Theme:E30 Cause:E31
+E35	Cell_proliferation:TR64 Theme:T32
+E36	Blood_vessel_development:TR35 
+E37	Blood_vessel_development:TR34 
+E38	Negative_regulation:TR36 Theme:T4 Cause:T1
+E39	Negative_regulation:TR36 Cause:T1 Theme:E36
+E40	Regulation:TR71 Cause:T1 Theme:E38
+E41	Regulation:TR71 Cause:T1 Theme:E39

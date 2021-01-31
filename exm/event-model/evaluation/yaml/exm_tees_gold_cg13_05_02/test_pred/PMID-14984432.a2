@@ -1,0 +1,31 @@
+TR25	Blood_vessel_development 283 295	angiogenesis
+TR26	Breakdown 466 473	failure
+TR29	Blood_vessel_development 665 675	angiogenic
+TR30	Development 765 774	formation
+TR31	Positive_regulation 782 793	accelerated
+TR32	Growth 801 807	growth
+TR21	Blood_vessel_development 35 47	angiogenesis
+TR22	Regulation 51 55	role
+TR23	Breakdown 76 83	failure
+TR27	Blood_vessel_development 534 546	angiogenesis
+TR28	Localization 601 609	presence
+TR24	Blood_vessel_development 85 95	Angiogenic
+TR33	Blood_vessel_development 878 888	angiogenic
+TR34	Development 973 982	formation
+TR35	Breakdown 1003 1010	failure
+E1	Breakdown:TR26 Theme:T11
+E2	Blood_vessel_development:TR25 
+E3	Development:TR30 Theme:T15
+E4	Growth:TR32 Theme:T16
+E5	Blood_vessel_development:TR29 
+E6	Positive_regulation:TR31 Theme:E4
+E7	Breakdown:TR23 Theme:T3
+E8	Blood_vessel_development:TR21 
+E9	Regulation:TR22 Cause:T2 Theme:E7
+E10	Regulation:TR22 Cause:T1 Theme:E7
+E11	Blood_vessel_development:TR27 
+E12	Localization:TR28 Theme:T12 Theme:T13
+E13	Blood_vessel_development:TR24 
+E14	Blood_vessel_development:TR33 
+E15	Breakdown:TR35 Theme:T19
+E16	Development:TR34 Theme:T18

@@ -1,0 +1,82 @@
+TR61	Binding 743 751	adhesion
+TR62	Binding 780 788	adhesive
+TR72	Localization 1469 1477	invasion
+TR73	Localization 1482 1491	migration
+TR63	Regulation 819 826	effects
+TR64	Localization 842 850	invasion
+TR65	Localization 855 864	migration
+TR70	Binding 1234 1242	adhesion
+TR71	Binding 1265 1273	adhesive
+TR68	Positive_regulation 1134 1143	increased
+TR69	Gene_expression 1144 1154	expression
+TR53	Positive_regulation 265 271	induce
+TR54	Gene_expression 276 286	expression
+TR55	Metastasis 410 420	metastasis
+TR86	Regulation 369 375	effect
+TR74	Planned_process 1572 1584	transfection
+TR75	Positive_regulation 1597 1605	increase
+TR76	Gene_expression 1610 1620	expression
+TR56	Gene_expression 474 484	Expression
+TR57	Planned_process 530 538	cultured
+TR58	Cell_differentiation 560 574	differentiated
+TR59	Planned_process 621 632	transfected
+TR60	Gene_expression 657 667	expression
+TR52	Metastasis 89 99	metastasis
+TR77	Binding 1658 1666	adhesion
+TR78	Localization 1668 1677	migration
+TR79	Localization 1683 1691	invasion
+TR80	Positive_regulation 1710 1717	induced
+TR67	Gene_expression 1038 1048	expression
+TR66	Gene_expression 938 947	expressed
+TR81	Regulation 1765 1769	role
+TR82	Positive_regulation 1782 1789	induced
+TR83	Positive_regulation 1790 1802	acceleration
+TR84	Localization 1806 1814	invasion
+TR85	Metastasis 1819 1829	metastasis
+TR87	Negative_regulation 1790 1802	acceleration
+E1	Localization:TR72 Theme:T43
+E2	Localization:TR72 Theme:T42
+E3	Localization:TR73 Theme:T43
+E4	Localization:TR73 Theme:T42
+E5	Localization:TR65 Theme:T29
+E6	Localization:TR64 Theme:T29
+E7	Regulation:TR63 Theme:E6 Cause:T28
+E8	Regulation:TR63 Theme:E5 Cause:T28
+E9	Binding:TR70 Theme:T37 Theme2:T38
+E10	Binding:TR70 Theme:T38 Theme2:T37
+E11	Gene_expression:TR69 Theme:T35
+E12	Positive_regulation:TR68 Theme:E11
+E13	Gene_expression:TR54 Theme:T12 Theme:T11
+E14	Gene_expression:TR54 Theme:T12
+E15	Gene_expression:TR54 Theme:T11
+E16	Positive_regulation:TR53 Cause:T7 Theme:E13
+E17	Positive_regulation:TR53 Cause:T7 Theme:E14
+E18	Positive_regulation:TR53 Cause:T7 Theme:E15
+E19	Positive_regulation:TR53 Cause:T8 Theme:E13
+E20	Positive_regulation:TR53 Cause:T8 Theme:E14
+E21	Positive_regulation:TR53 Cause:T8 Theme:E15
+E22	Positive_regulation:TR53 Cause:T6 Theme:E13
+E23	Positive_regulation:TR53 Cause:T6 Theme:E14
+E24	Positive_regulation:TR53 Cause:T6 Theme:E15
+E25	Positive_regulation:TR53 Theme:E13 Cause:T10
+E26	Positive_regulation:TR53 Theme:E14 Cause:T10
+E27	Positive_regulation:TR53 Theme:E15 Cause:T10
+E28	Metastasis:TR55 
+E29	Planned_process:TR74 Instrument:T44 Theme:T46
+E30	Planned_process:TR59 Theme:T20 Theme2:T21
+E31	Planned_process:TR59 Theme:T20 Theme2:T23
+E32	Planned_process:TR59 Theme:T21 Theme2:T23
+E33	Gene_expression:TR56 Theme:T16
+E34	Cell_differentiation:TR58 Theme:T21
+E35	Cell_differentiation:TR58 Theme:T18
+E36	Metastasis:TR52 Theme:T5
+E37	Localization:TR79 Theme:T47
+E38	Localization:TR78 Theme:T47
+E39	Binding:TR77 Theme:T47
+E40	Positive_regulation:TR80 Theme:T47 Cause:T48
+E41	Positive_regulation:TR80 Theme:E37 Cause:T48
+E42	Positive_regulation:TR80 Cause:T48 Theme:E39
+E43	Positive_regulation:TR80 Cause:T48 Theme:E38
+E44	Gene_expression:TR67 Theme:T32
+E45	Gene_expression:TR66 Theme:T30
+E46	Localization:TR84 Theme:T51

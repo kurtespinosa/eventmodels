@@ -1,0 +1,85 @@
+TR37	Positive_regulation 10 21	upregulated
+TR38	Planned_process 84 98	overexpression
+TR39	Carcinogenesis 131 140	oncogenic
+TR40	Development 171 181	initiation
+TR72	Localization 37 45	invasive
+TR73	Planned_process 75 83	targeted
+TR74	Gene_expression 84 98	overexpression
+TR65	Development 1523 1532	formation
+TR66	Development 1550 1560	occurrence
+TR67	Carcinogenesis 1641 1650	oncogenic
+TR46	Carcinogenesis 431 440	oncogenic
+TR60	Gene_expression 1258 1268	expressing
+TR61	Pathway 1320 1338	reproductive cycle
+TR80	Positive_regulation 1189 1199	activation
+TR81	Development 1286 1295	developed
+TR82	Pathway 1333 1338	cycle
+TR62	Planned_process 1362 1376	overexpression
+TR63	Positive_regulation 1397 1405	increase
+TR64	Cell_transformation 1453 1477	malignant transformation
+TR83	Gene_expression 1362 1376	overexpression
+TR84	Cell_transformation 1463 1477	transformation
+TR47	Gene_expression 586 595	expressed
+TR75	Localization 611 619	invasive
+TR68	Development 1681 1691	initiation
+TR69	Regulation 1728 1757	plays a more predominant role
+TR70	Development 1765 1776	progression
+TR71	Development 1806 1813	arising
+TR85	Regulation 1753 1757	role
+TR41	Positive_regulation 261 272	upregulated
+TR42	Gene_expression 313 323	expression
+TR43	Cell_transformation 361 370	transform
+TR44	Positive_regulation 361 370	transform
+TR45	Cell_transformation 371 383	immortalized
+TR48	Planned_process 692 702	transgenic
+TR49	Planned_process 731 745	overexpression
+TR50	Development 763 773	developing
+TR51	Positive_regulation 824 831	capable
+TR52	Positive_regulation 835 845	initiating
+TR53	Carcinogenesis 846 859	tumorigenesis
+TR54	Death 929 937	survival
+TR55	Planned_process 998 1006	knockout
+TR76	Gene_expression 948 957	deficient
+TR56	Planned_process 1017 1031	overexpression
+TR57	Positive_regulation 1054 1063	increased
+TR58	Phosphorylation 1064 1079	phosphorylation
+TR59	Positive_regulation 1135 1145	activation
+TR77	Gene_expression 1017 1031	overexpression
+TR78	Positive_regulation 1017 1031	overexpression
+TR79	Positive_regulation 1042 1050	resulted
+E1	Positive_regulation:TR37 Theme:T1
+E2	Planned_process:TR38 Theme:T4 Instrument:T1
+E3	Development:TR40 Theme:T5
+E4	Localization:TR72 Theme:T3
+E5	Carcinogenesis:TR39 
+E6	Carcinogenesis:TR67 
+E7	Development:TR66 Theme:T32
+E8	Development:TR65 Theme:T31
+E9	Carcinogenesis:TR46 
+E10	Gene_expression:TR60 Theme:T28
+E11	Development:TR81 Theme:T27
+E12	Gene_expression:TR83 Theme:T29
+E13	Planned_process:TR62 Instrument:T29
+E14	Cell_transformation:TR64 AtLoc:T30
+E15	Positive_regulation:TR63 Theme:E14 Cause:E13
+E16	Localization:TR75 Theme:T15
+E17	Gene_expression:TR47 Theme:T13
+E18	Development:TR71 Theme:T36
+E19	Development:TR68 Theme:T34
+E20	Development:TR70 Theme:T36
+E21	Regulation:TR69 Theme:E20 Cause:T35
+E22	Cell_transformation:TR45 Theme:T11
+E23	Positive_regulation:TR41 Theme:T6
+E24	Positive_regulation:TR41 Theme:T7
+E25	Cell_transformation:TR43 AtLoc:T11
+E26	Gene_expression:TR42 Theme:T10
+E27	Positive_regulation:TR44 Theme:T6 Cause:E26
+E28	Positive_regulation:TR44 Theme:T7 Cause:E26
+E29	Positive_regulation:TR44 Theme:E25 Cause:E26
+E30	Development:TR50 Theme:T18
+E31	Planned_process:TR48 Theme:T16
+E32	Planned_process:TR49 Instrument:T17
+E33	Gene_expression:TR76 Theme:T21
+E34	Planned_process:TR55 Theme:T23
+E35	Death:TR54 Theme:T22
+E36	Phosphorylation:TR58 Theme:T25

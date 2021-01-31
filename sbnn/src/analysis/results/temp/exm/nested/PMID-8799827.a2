@@ -1,0 +1,61 @@
+T44	Gene_expression 11 21	expression
+T45	Positive_regulation 70 79	dependent
+T46	Positive_regulation 105 114	dependent
+T47	Binding 125 133	adhesion
+T48	Gene_expression 160 169	expressed
+T49	Regulation 233 254	has an important role
+T50	Binding 438 446	adhesion
+T51	Negative_regulation 531 542	suppression
+T52	Regulation 569 579	associated
+T53	Cell_transformation 585 609	malignant transformation
+T54	Regulation 677 687	regulation
+T55	Binding 717 729	interactions
+T56	Cell_transformation 737 761	malignant transformation
+T57	Gene_expression 783 793	expression
+T58	Regulation 853 864	manipulated
+T59	Gene_expression 880 890	expression
+T60	Localization 895 903	invasive
+T61	Negative_regulation 956 969	downregulated
+T62	Gene_expression 1008 1018	expression
+T63	Negative_regulation 1023 1033	suppressed
+T64	Planned_process 1048 1060	transfection
+T65	Positive_regulation 1112 1120	resulted
+T66	Positive_regulation 1128 1140	upregulation
+T67	Gene_expression 1155 1165	expression
+T68	Negative_regulation 1186 1195	decreased
+T69	Localization 1196 1208	invasiveness
+T70	Regulation 1225 1235	regulation
+T71	Transcription 1264 1281	transcriptionally
+T72	Translation 1404 1421	protein synthesis
+T73	Positive_regulation 1437 1446	dependent
+T74	Binding 1461 1469	adhesion
+T75	Regulation 1503 1511	affected
+T76	Gene_expression 1526 1536	expression
+T77	Gene_expression 1596 1606	expression
+T78	Cell_transformation 1688 1702	transformation
+E2	Positive_regulation:T45 Cause:T3 Theme:E1
+E3	Positive_regulation:T46 Cause:T5 Theme:E4
+E9	Regulation:T52 Theme:E10 Cause:E8
+E11	Regulation:T54 Theme:E37
+E15	Regulation:T58 Theme:E16 Cause:E14
+E20	Negative_regulation:T63 Theme:E19
+E22	Positive_regulation:T65 Cause:E21 Theme:E23
+E23	Positive_regulation:T66 Theme:E24
+E25	Negative_regulation:T68 Theme:E26
+E30	Positive_regulation:T73 Cause:T36 Theme:E29
+E32	Regulation:T75 Cause:E33 Theme:T38
+E36	Regulation:T54 Theme:E12
+E24	Gene_expression:T67 Theme:T32
+E37	Binding:T55 Theme:T21 Theme2:T20
+E1	Gene_expression:T44 Theme:T1
+E33	Gene_expression:T76 Theme:T39
+E29	Translation:T72 Theme:T35
+E14	Gene_expression:T57 Theme:T24
+E12	Binding:T55 Theme:T23 Theme2:T22
+E4	Binding:T47 Theme:T7 Theme2:T6
+E21	Planned_process:T64 Instrument:T30 Theme:T31
+E26	Localization:T69 Theme:T31
+E8	Negative_regulation:T51 Theme:T11
+E10	Cell_transformation:T53 Theme:T19
+E16	Gene_expression:T59 Theme:T26
+E19	Gene_expression:T62 Theme:T29

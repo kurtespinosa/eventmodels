@@ -1,0 +1,49 @@
+T61	Gene_expression 0 14	Overexpression
+T62	Positive_regulation 0 14	Overexpression
+T63	Metabolism 158 168	metabolism
+T64	Localization 199 204	entry
+T65	Gene_expression 260 270	expression
+T66	Gene_expression 604 611	express
+T67	Gene_expression 737 745	positive
+T68	Gene_expression 779 788	expressed
+T69	Gene_expression 1115 1124	expressed
+T70	Gene_expression 1260 1268	positive
+T71	Gene_expression 1386 1395	expressed
+T72	Gene_expression 1434 1444	expression
+T73	Regulation 1606 1616	contribute
+T74	Positive_regulation 1624 1633	increased
+T75	Localization 1634 1640	uptake
+E1	Gene_expression:T61 Theme:T1
+E2	Positive_regulation:T62 Theme:E1
+E3	Metabolism:T63 Theme:T6
+E4	Localization:T64 Theme:T7 ToLoc:T8
+E5	Gene_expression:T65 Theme:T10
+M1	Speculation E5
+E6	Gene_expression:T66 Theme:T10
+E7	Gene_expression:T67 Theme:T32
+E8	Gene_expression:T68 Theme:T32
+E9	Gene_expression:T69 Theme:T42
+E10	Gene_expression:T70 Theme:T45
+E11	Gene_expression:T71 Theme:T51
+E12	Gene_expression:T72 Theme:T54
+E13	Regulation:T73 Theme:E14
+M2	Speculation E13
+E14	Positive_regulation:T74 Theme:E15
+E15	Localization:T75 Theme:T58 ToLoc:T60
+E16	Gene_expression:T65 Theme:T12
+M3	Speculation E16
+E17	Gene_expression:T65 Theme:T14
+M4	Speculation E17
+E18	Gene_expression:T65 Theme:T16
+M5	Speculation E18
+E19	Gene_expression:T65 Theme:T19
+M6	Speculation E19
+E20	Gene_expression:T66 Theme:T12
+E21	Gene_expression:T66 Theme:T14
+E22	Gene_expression:T66 Theme:T16
+E23	Gene_expression:T66 Theme:T19
+E24	Gene_expression:T71 Theme:T52
+E25	Regulation:T73 Theme:E26
+M7	Speculation E25
+E26	Positive_regulation:T74 Theme:E27
+E27	Localization:T75 Theme:T59 ToLoc:T60

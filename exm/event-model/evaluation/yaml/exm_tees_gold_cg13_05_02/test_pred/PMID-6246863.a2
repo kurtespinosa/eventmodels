@@ -1,0 +1,14 @@
+TR18	Development 561 570	developed
+TR19	Infection 630 639	challenge
+TR20	Blood_vessel_development 728 746	neovascularization
+TR16	Blood_vessel_development 454 472	neovascularization
+TR17	Development 487 496	developed
+TR13	Planned_process 161 171	suspension
+TR14	Planned_process 297 307	challenged
+TR15	Planned_process 324 335	inoculation
+E1	Development:TR18 Theme:T11
+E2	Blood_vessel_development:TR20 AtLoc:T12
+E3	Development:TR17 Theme:T9
+E4	Development:TR17 Theme:T8
+E5	Blood_vessel_development:TR16 AtLoc:T9
+E6	Planned_process:TR15 Instrument:T6

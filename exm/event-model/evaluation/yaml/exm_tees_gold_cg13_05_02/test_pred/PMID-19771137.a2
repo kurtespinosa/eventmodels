@@ -1,0 +1,55 @@
+TR55	Positive_regulation 667 674	induced
+TR56	Planned_process 714 722	received
+TR41	Regulation 32 41	modulates
+TR42	Blood_vessel_development 42 54	angiogenesis
+TR59	Gene_expression 1235 1245	expression
+TR60	Positive_regulation 1277 1286	increased
+TR58	Gene_expression 929 939	expression
+TR52	Regulation 473 479	effect
+TR53	Gene_expression 488 498	deficiency
+TR54	Blood_vessel_development 513 525	angiogenesis
+TR64	Positive_regulation 1444 1451	induces
+TR65	Gene_expression 1452 1462	expression
+TR49	Positive_regulation 370 377	promote
+TR50	Death 378 386	survival
+TR51	Blood_vessel_development 414 426	angiogenesis
+TR43	Blood_vessel_development 96 108	Angiogenesis
+TR44	Regulation 128 132	role
+TR45	Localization 164 172	delivery
+TR46	Regulation 211 220	regulator
+TR47	Blood_vessel_development 224 236	angiogenesis
+TR61	Negative_regulation 1338 1348	inhibition
+TR62	Negative_regulation 1366 1374	inhibits
+TR63	Blood_vessel_development 1375 1387	angiogenesis
+TR57	Planned_process 789 797	received
+TR48	Gene_expression 244 255	synthesized
+E1	Blood_vessel_development:TR42 AtLoc:T2
+E2	Regulation:TR41 Cause:T1 Theme:E1
+E3	Regulation:TR41 Theme:E1
+E4	Gene_expression:TR59 Theme:T34
+E5	Positive_regulation:TR60 Theme:E4
+E6	Gene_expression:TR58 Theme:T27
+E7	Gene_expression:TR53 Theme:T14
+E8	Blood_vessel_development:TR54 
+E9	Regulation:TR52 Theme:E8 Cause:E7
+E10	Gene_expression:TR65 Theme:T39
+E11	Positive_regulation:TR64 Theme:E10
+E12	Death:TR50 Theme:T13
+E13	Blood_vessel_development:TR51 
+E14	Positive_regulation:TR49 Cause:T10 Theme:E12
+E15	Positive_regulation:TR49 Cause:T10 Theme:E13
+E16	Positive_regulation:TR49 Theme:E12 Cause:T12
+E17	Positive_regulation:TR49 Cause:T12 Theme:E13
+E18	Localization:TR45 Theme:T4
+E19	Blood_vessel_development:TR47 
+E20	Blood_vessel_development:TR43 
+E21	Regulation:TR46 Theme:E19 Cause:T6
+E22	Regulation:TR46 Theme:E19 Cause:T5
+E23	Blood_vessel_development:TR63 AtLoc:T37
+E24	Blood_vessel_development:TR63 AtLoc:T38
+E25	Negative_regulation:TR61 Theme:T35 Cause:T36
+E26	Negative_regulation:TR62 Theme:E23 Cause:E25
+E27	Negative_regulation:TR62 Theme:E24 Cause:E25
+E28	Gene_expression:TR48 Theme:T9 Theme:T8
+E29	Gene_expression:TR48 Theme:T9
+E30	Gene_expression:TR48 Theme:T8

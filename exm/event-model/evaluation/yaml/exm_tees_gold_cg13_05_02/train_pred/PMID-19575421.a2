@@ -1,0 +1,106 @@
+TR90	Planned_process 1361 1373	Pretreatment
+TR106	Negative_regulation 1421 1430	decreased
+TR107	Transcription 1443 1456	transcription
+TR80	Positive_regulation 1053 1060	induced
+TR81	Positive_regulation 1064 1072	mediated
+TR82	Transcription 1073 1086	transcription
+TR83	Planned_process 1102 1113	transfected
+TR84	Regulation 1156 1163	control
+TR85	DNA_domain_or_region 1167 1198	glucocorticoid response element
+TR86	DNA_domain_or_region 1200 1203	GRE
+TR87	Regulation 1228 1234	affect
+TR88	Positive_regulation 1238 1246	mediated
+TR89	Transcription 1247 1260	transcription
+TR102	DNA_domain_or_region 1191 1198	element
+TR103	Negative_regulation 1275 1284	inhibited
+TR104	Positive_regulation 1288 1295	induced
+TR105	Transcription 1309 1322	transcription
+TR76	Negative_regulation 901 910	inhibited
+TR77	Cell_proliferation 916 929	proliferation
+TR78	Localization 962 975	translocation
+TR79	Positive_regulation 986 993	induced
+TR96	Negative_regulation 1708 1715	inhibit
+TR97	Cell_proliferation 1720 1726	growth
+TR108	Transcription 1768 1781	transcription
+TR91	Gene_expression 1493 1503	expression
+TR92	Regulation 1547 1556	regulated
+TR93	Positive_regulation 1568 1575	induced
+TR94	Positive_regulation 1628 1636	enhanced
+TR95	Planned_process 1654 1666	pretreatment
+TR62	Regulation 188 194	effect
+TR63	Growth 248 254	growth
+TR64	Negative_regulation 255 265	inhibition
+TR65	Localization 270 283	translocation
+TR100	Regulation 403 409	effect
+TR101	Transcription 432 445	transcription
+TR70	Cell_proliferation 651 657	growth
+TR71	Negative_regulation 686 696	suppressed
+TR72	Negative_regulation 717 726	effective
+TR66	Carcinogenesis 447 461	Nontumorigenic
+TR67	Cell_transformation 463 475	immortalized
+TR68	Cell_proliferation 611 617	growth
+TR69	Negative_regulation 618 628	inhibition
+TR73	Regulation 775 781	effect
+TR74	Cell_proliferation 818 824	growth
+TR75	Negative_regulation 825 835	inhibition
+TR60	Negative_regulation 12 20	inhibits
+TR61	Growth 25 31	growth
+TR98	Cell_proliferation 25 31	growth
+TR99	Transcription 127 140	transcription
+E1	Transcription:TR107 Theme:T48
+E2	Planned_process:TR90 Instrument:T45
+E3	Negative_regulation:TR106 Theme:E1
+E4	Cell_proliferation:TR77 Theme:T32
+E5	Negative_regulation:TR76 Theme:E4 Cause:T31
+E6	Localization:TR78 Theme:T33
+E7	Positive_regulation:TR79 Cause:T35 Theme:E6
+E8	Transcription:TR108 Theme:T59
+E9	Cell_proliferation:TR97 Theme:T58
+E10	Negative_regulation:TR96 Cause:T57 Theme:E9
+E11	Gene_expression:TR91 Theme:T51 Theme:T50
+E12	Gene_expression:TR91 Theme:T51
+E13	Gene_expression:TR91 Theme:T50
+E14	Regulation:TR92 Theme:E11 Cause:T52
+E15	Regulation:TR92 Theme:E12 Cause:T52
+E16	Regulation:TR92 Theme:E13 Cause:T52
+E17	Positive_regulation:TR93 Cause:T54 Theme:E11
+E18	Positive_regulation:TR93 Cause:T54 Theme:E12
+E19	Positive_regulation:TR93 Cause:T54 Theme:E13
+E20	Positive_regulation:TR93 Theme:E11 Cause:T53
+E21	Positive_regulation:TR93 Theme:E12 Cause:T53
+E22	Positive_regulation:TR93 Theme:E13 Cause:T53
+E23	Transcription:TR101 Theme:T14
+E24	Localization:TR65 Theme:T7 Theme:T8
+E25	Localization:TR65 Theme:T7 FromLoc:T9 ToLoc:T10
+E26	Localization:TR65 Theme:T7 ToLoc:T10
+E27	Localization:TR65 Theme:T8 FromLoc:T9 ToLoc:T10
+E28	Localization:TR65 Theme:T8 ToLoc:T10
+E29	Localization:TR65 Theme:T12
+E30	Regulation:TR100 Cause:T13 Theme:E23
+E31	Regulation:TR62 Theme:E24 Cause:T6
+E32	Regulation:TR62 Theme:E25 Cause:T6
+E33	Regulation:TR62 Theme:E26 Cause:T6
+E34	Regulation:TR62 Theme:E27 Cause:T6
+E35	Regulation:TR62 Theme:E28 Cause:T6
+E36	Regulation:TR62 Theme:E29 Cause:T6
+E37	Regulation:TR62 Theme:E24 Cause:T5
+E38	Regulation:TR62 Theme:E25 Cause:T5
+E39	Regulation:TR62 Theme:E26 Cause:T5
+E40	Regulation:TR62 Theme:E27 Cause:T5
+E41	Regulation:TR62 Theme:E28 Cause:T5
+E42	Regulation:TR62 Theme:E29 Cause:T5
+E43	Negative_regulation:TR72 Theme:T26 Cause:T25
+E44	Cell_proliferation:TR70 Theme:T24
+E45	Negative_regulation:TR71 Theme:E44 Cause:T25
+E46	Cell_transformation:TR67 Theme:T15
+E47	Carcinogenesis:TR66 
+E48	Cell_proliferation:TR68 Theme:T22
+E49	Negative_regulation:TR69 Cause:T23 Theme:E48
+E50	Cell_proliferation:TR74 Theme:T28
+E51	Negative_regulation:TR75 Theme:E50 Cause:T30
+E52	Negative_regulation:TR75 Theme:E50 Cause:T29
+E53	Transcription:TR99 Theme:T4
+E54	Growth:TR61 Theme:T3
+E55	Cell_proliferation:TR98 Theme:T3
+E56	Negative_regulation:TR60 Theme:E55 Cause:T1
+E57	Negative_regulation:TR60 Cause:T1 Theme:E54

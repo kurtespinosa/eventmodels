@@ -1,0 +1,24 @@
+TR33	Regulation 803 807	role
+TR34	Localization 815 824	migration
+TR35	Planned_process 941 950	therapies
+TR23	Development 74 85	progression
+TR24	Protein_domain_or_region 124 128	EMTs
+TR25	Development 166 179	morphogenesis
+TR26	Development 211 222	progression
+TR27	Metastasis 249 259	metastases
+TR28	Development 381 392	progression
+TR32	Negative_regulation 545 555	Repression
+TR29	Pathway 422 431	signaling
+TR30	Positive_regulation 493 502	dependent
+TR31	Pathway 503 511	pathways
+E1	Planned_process:TR35 Theme:T22
+E2	Localization:TR34 Theme:T20
+E3	Localization:TR34 Theme:T21
+E4	Regulation:TR33 Theme:E2
+E5	Regulation:TR33 Theme:E3
+E6	Development:TR23 Theme:T3
+E7	Development:TR26 Theme:T7
+E8	Development:TR25 Theme:T6
+E9	Metastasis:TR27 
+E10	Development:TR28 Theme:T8
+E11	Negative_regulation:TR32 Theme:T17 Cause:T18

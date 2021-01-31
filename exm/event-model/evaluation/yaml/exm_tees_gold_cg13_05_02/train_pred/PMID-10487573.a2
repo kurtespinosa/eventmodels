@@ -1,0 +1,32 @@
+TR33	Planned_process 1356 1366	irradiated
+TR34	Planned_process 1386 1395	untreated
+TR27	Planned_process 617 624	treated
+TR19	Blood_vessel_development 42 60	neovascularization
+TR20	Breakdown 84 96	degeneration
+TR30	Blood_vessel_development 1197 1201	SRNV
+TR31	Planned_process 1211 1223	radiotherapy
+TR32	Planned_process 1275 1285	irradiated
+TR21	Regulation 136 143	Control
+TR22	Blood_vessel_development 180 198	neovascularization
+TR23	Blood_vessel_development 200 204	SRNV
+TR24	Breakdown 229 241	degeneration
+TR28	Planned_process 677 685	received
+TR29	Planned_process 1024 1031	therapy
+TR25	Blood_vessel_development 521 539	neovascularization
+TR26	Planned_process 585 596	angiography
+E1	Planned_process:TR33 Theme:T17
+E2	Planned_process:TR34 Theme:T17
+E3	Planned_process:TR27 Theme:T8
+E4	Breakdown:TR20 Theme:T2
+E5	Blood_vessel_development:TR19 AtLoc:T1
+E6	Blood_vessel_development:TR19 
+E7	Blood_vessel_development:TR30 
+E8	Planned_process:TR32 Theme:T16
+E9	Breakdown:TR24 Theme:T4
+E10	Blood_vessel_development:TR22 AtLoc:T3
+E11	Blood_vessel_development:TR23 Theme:T4
+E12	Regulation:TR21 Theme:E10
+E13	Planned_process:TR28 Theme:T9
+E14	Planned_process:TR29 Theme:T14
+E15	Planned_process:TR26 Instrument:T7
+E16	Blood_vessel_development:TR25 

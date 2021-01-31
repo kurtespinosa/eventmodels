@@ -1,0 +1,39 @@
+T26	Regulation 84 95	involvement
+T27	Blood_vessel_development 110 122	angiogenesis
+T28	Regulation 289 296	engaged
+T29	Transcription 304 317	transcription
+T30	DNA_domain_or_region 334 336	p1
+T31	DNA_domain_or_region 341 353	p2 promoters
+T32	Cell_death 379 388	apoptotic
+T50	DNA_domain_or_region 344 353	promoters
+T33	Gene_expression 450 458	produces
+T34	Planned_process 624 636	transfection
+T35	Gene_expression 641 656	superexpression
+T36	Positive_regulation 661 669	increase
+T37	Positive_regulation 710 717	leading
+T38	Cell_death 721 730	apoptosis
+T39	Negative_regulation 731 741	protection
+T42	Regulation 923 941	mechanisms linking
+T43	Carcinogenesis 952 966	carcinogenesis
+T44	Regulation 983 987	role
+T45	Regulation 1020 1031	influencing
+T46	Negative_regulation 1042 1052	antagonism
+T47	Positive_regulation 1068 1077	induction
+T48	Blood_vessel_development 1087 1099	angiogenesis
+T49	Carcinogenesis 1148 1157	oncogenic
+E1	Blood_vessel_development:T27 
+E2	Regulation:T26 Cause:T1 Theme:T3
+E3	Regulation:T26 Cause:T1 Theme:E1
+E4	Transcription:T29 Theme:T9
+E5	Cell_death:T32 
+E6	Regulation:T28 Theme:T9 Cause:T4
+E7	Regulation:T28 Theme:E4 Cause:T4
+E8	Gene_expression:T33 Theme:T10
+E9	Cell_death:T38 Theme:T12
+E10	Negative_regulation:T39 Theme:E9
+E11	Blood_vessel_development:T48 AtLoc:T24
+E12	Carcinogenesis:T49 
+E13	Negative_regulation:T46 Theme:T20
+E14	Negative_regulation:T46 Theme:T21
+E15	Positive_regulation:T47 Cause:T23 Theme:E11
+E16	Positive_regulation:T47 Theme:E11 Cause:T22

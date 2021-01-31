@@ -1,0 +1,33 @@
+TR33	Positive_regulation 573 582	promoting
+TR34	Metabolism 614 624	metabolism
+TR23	Growth 498 505	growing
+TR31	Remodeling 451 458	changes
+TR32	Cell_proliferation 498 505	growing
+TR28	Cell_proliferation 1139 1145	growth
+TR29	Death 1150 1158	survival
+TR30	Planned_process 1221 1228	therapy
+TR27	Planned_process 1021 1026	treat
+TR36	Metabolism 866 876	metabolism
+TR24	Positive_regulation 735 744	increased
+TR25	Glycolysis 745 755	glycolysis
+TR26	Regulation 756 779	plays an important role
+TR35	Regulation 775 779	role
+TR19	Planned_process 37 44	therapy
+TR20	Regulation 235 241	depend
+TR21	Glycolysis 252 262	glycolysis
+TR22	Catabolism 276 285	breakdown
+E1	Positive_regulation:TR33 Theme:T12
+E2	Growth:TR23 Theme:T11
+E3	Remodeling:TR31 Theme:T10
+E4	Planned_process:TR30 Theme:T18
+E5	Cell_proliferation:TR28 Theme:T17
+E6	Death:TR29 Theme:T17
+E7	Planned_process:TR27 Theme:T16
+E8	Glycolysis:TR25 
+E9	Positive_regulation:TR24 Theme:E8
+E10	Regulation:TR26 Cause:E8 Theme:T13
+E11	Planned_process:TR19 Theme:T1
+E12	Glycolysis:TR21 
+E13	Catabolism:TR22 Theme:T7
+E14	Regulation:TR20 Cause:E13 Theme:T6
+E15	Regulation:TR20 Theme:T6 Cause:E12

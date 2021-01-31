@@ -1,0 +1,39 @@
+TR42	Gene_expression 613 621	produced
+TR43	Growth 622 626	grew
+TR35	Cell_transformation 302 313	transformed
+TR36	Cell_proliferation 339 350	clonability
+TR37	Carcinogenesis 377 388	tumorigenic
+TR44	Carcinogenesis 928 942	carcinogenesis
+TR45	Mutation 992 1003	aberrations
+TR46	Regulation 1054 1058	role
+TR47	Development 1066 1077	progression
+TR48	Cell_transformation 1085 1095	immortally
+TR49	Cell_transformation 1096 1107	transformed
+TR50	Positive_regulation 1152 1160	enhanced
+TR51	Carcinogenesis 1195 1209	tumorigenicity
+TR31	Cell_transformation 22 36	transformation
+TR32	Positive_regulation 22 36	transformation
+TR38	Planned_process 402 411	treatment
+TR39	Positive_regulation 528 536	elevated
+TR40	Cell_proliferation 537 548	clonability
+TR41	Carcinogenesis 566 583	transplantability
+TR33	Cell_transformation 196 207	transformed
+TR34	Planned_process 272 283	irradiation
+E1	Growth:TR43 Theme:T16
+E2	Cell_transformation:TR35 Theme:T9
+E3	Cell_transformation:TR35 Theme:T10
+E4	Carcinogenesis:TR37 AtLoc:T9
+E5	Carcinogenesis:TR37 AtLoc:T10
+E6	Cell_proliferation:TR36 Theme:T9
+E7	Cell_proliferation:TR36 Theme:T10
+E8	Development:TR47 Theme:T29
+E9	Carcinogenesis:TR44 AtLoc:T26
+E10	Carcinogenesis:TR51 
+E11	Regulation:TR46 Theme:E9 Cause:T28
+E12	Regulation:TR46 Cause:T28 Theme:E8
+E13	Carcinogenesis:TR41 AtLoc:T14
+E14	Planned_process:TR38 Theme:T14
+E15	Cell_proliferation:TR40 Theme:T14
+E16	Positive_regulation:TR39 Theme:E15
+E17	Cell_transformation:TR33 Theme:T6
+E18	Planned_process:TR34 Instrument:T8

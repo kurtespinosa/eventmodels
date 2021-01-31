@@ -1,0 +1,102 @@
+TR64	Positive_regulation 834 847	Up-regulation
+TR65	Gene_expression 858 868	expression
+TR66	Regulation 873 881	mediated
+TR67	Binding 896 903	binding
+TR68	DNA_domain_or_region 956 964	promoter
+TR53	Positive_regulation 357 366	increases
+TR54	Metabolism 375 386	utilization
+TR55	Positive_regulation 438 448	activation
+TR56	Positive_regulation 475 485	activation
+TR69	Positive_regulation 970 979	activated
+TR70	Pathway 1028 1035	pathway
+TR71	Regulation 1051 1062	contributes
+TR72	Phosphorylation 1070 1085	phosphorylation
+TR73	Positive_regulation 1118 1127	resulting
+TR74	Positive_regulation 1148 1158	activation
+TR57	Positive_regulation 575 585	Activation
+TR58	Positive_regulation 637 646	increased
+TR59	Phosphorylation 647 662	phosphorylation
+TR60	Binding 732 737	bound
+TR61	DNA_domain_or_region 752 760	promoter
+TR62	Transcription 790 805	transcriptional
+TR63	Positive_regulation 806 816	activation
+TR80	Positive_regulation 1426 1435	induction
+TR81	Synthesis 1453 1462	synthesis
+TR82	Positive_regulation 1475 1483	requires
+TR83	Transcription 1488 1503	transcriptional
+TR84	Positive_regulation 1504 1517	up-regulation
+TR85	Phosphorylation 1541 1556	phosphorylation
+TR86	Pathway 1604 1611	pathway
+TR75	Localization 1213 1219	uptake
+TR76	Negative_regulation 1250 1257	blocked
+TR77	Negative_regulation 1261 1274	knocking-down
+TR78	Negative_regulation 1327 1337	inhibition
+TR79	Planned_process 1370 1379	treatment
+TR48	Positive_regulation 9 19	stimulates
+TR49	Glycolysis 20 30	glycolysis
+TR50	Synthesis 49 58	synthesis
+TR51	Positive_regulation 62 72	increasing
+E1	Gene_expression:TR65 Theme:T23
+E2	Positive_regulation:TR64 Theme:E1
+E3	Positive_regulation:TR56 Theme:T15
+E4	Positive_regulation:TR56 Theme:T14
+E5	Positive_regulation:TR56 Theme:T13
+E6	Positive_regulation:TR55 Theme:T12
+E7	Positive_regulation:TR55 Theme:T11
+E8	Metabolism:TR54 Theme:T9
+E9	Positive_regulation:TR53 Theme:E8
+E10	Phosphorylation:TR72 Theme:T30 Site:T31
+E11	Phosphorylation:TR72 Theme:T30
+E12	Positive_regulation:TR74 Theme:T34
+E13	Positive_regulation:TR74 Theme:T33
+E14	Positive_regulation:TR73 Theme:E12
+E15	Positive_regulation:TR73 Theme:E13
+E16	Positive_regulation:TR57 Theme:T17 Cause:T18
+E17	Positive_regulation:TR57 Theme:T17
+E18	Positive_regulation:TR57 Cause:T18 Theme:T16
+E19	Positive_regulation:TR57 Theme:T16
+E20	Phosphorylation:TR59 Theme:T20
+E21	Phosphorylation:TR59 Theme:T19
+E22	Transcription:TR62 Theme:T22
+E23	Positive_regulation:TR63 Theme:T22
+E24	Positive_regulation:TR63 Theme:E22
+E25	Positive_regulation:TR58 Theme:E20 Cause:E16
+E26	Positive_regulation:TR58 Theme:E20 Cause:E17
+E27	Positive_regulation:TR58 Theme:E20 Cause:E18
+E28	Positive_regulation:TR58 Theme:E20 Cause:E19
+E29	Positive_regulation:TR58 Theme:E21 Cause:E16
+E30	Positive_regulation:TR58 Theme:E21 Cause:E17
+E31	Positive_regulation:TR58 Theme:E21 Cause:E18
+E32	Positive_regulation:TR58 Theme:E21 Cause:E19
+E33	Transcription:TR83 Theme:T42
+E34	Transcription:TR83 Theme:T41
+E35	Synthesis:TR81 Theme:T39
+E36	Phosphorylation:TR85 Theme:T43
+E37	Positive_regulation:TR80 Cause:T40 Theme:E35
+E38	Positive_regulation:TR80 Theme:E35
+E39	Positive_regulation:TR84 Theme:T42
+E40	Positive_regulation:TR84 Theme:T41
+E41	Positive_regulation:TR84 Theme:E33
+E42	Positive_regulation:TR84 Theme:E34
+E43	Positive_regulation:TR82 Theme:E39 Cause:E37
+E44	Positive_regulation:TR82 Theme:E39 Cause:E38
+E45	Positive_regulation:TR82 Theme:E40 Cause:E37
+E46	Positive_regulation:TR82 Theme:E40 Cause:E38
+E47	Positive_regulation:TR82 Theme:E41 Cause:E37
+E48	Positive_regulation:TR82 Theme:E41 Cause:E38
+E49	Positive_regulation:TR82 Theme:E42 Cause:E37
+E50	Positive_regulation:TR82 Theme:E42 Cause:E38
+E51	Positive_regulation:TR82 Cause:E37 Theme:E36
+E52	Positive_regulation:TR82 Cause:E38 Theme:E36
+E53	Localization:TR75 Theme:T35
+E54	Planned_process:TR79 Instrument:T38
+E55	Negative_regulation:TR77 Theme:T36
+E56	Negative_regulation:TR78 Theme:T37 Cause:E54
+E57	Negative_regulation:TR76 Cause:E56 Theme:E53
+E58	Negative_regulation:TR76 Theme:E53 Cause:E55
+E59	Synthesis:TR50 Theme:T2
+E60	Positive_regulation:TR51 Theme:T4 Cause:T1
+E61	Positive_regulation:TR51 Cause:T1 Theme:T3
+E62	Positive_regulation:TR51 Theme:T3
+E63	Glycolysis:TR49 
+E64	Positive_regulation:TR48 Cause:T1 Theme:E63

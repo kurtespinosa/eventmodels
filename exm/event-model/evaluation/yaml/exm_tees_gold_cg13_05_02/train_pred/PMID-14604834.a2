@@ -1,0 +1,30 @@
+TR30	Pathway 148 154	system
+TR40	Regulation 1051 1055	role
+TR41	Blood_vessel_development 1153 1165	angiogenesis
+TR48	Blood_vessel_development 1141 1151	restenosis
+TR28	Gene_expression 0 10	Expression
+TR29	Regulation 12 22	regulation
+TR38	Pathway 755 761	system
+TR46	Gene_expression 715 725	expression
+TR47	Regulation 766 775	regulated
+TR31	Regulation 399 407	mediated
+TR32	Binding 468 480	interactions
+TR33	Regulation 536 545	regulated
+TR34	Phosphorylation 549 564	phosphorylation
+TR35	Catabolism 566 577	proteolysis
+TR36	Binding 579 593	polymerization
+TR37	Binding 614 625	association
+TR44	Regulation 378 385	effects
+TR45	Regulation 447 456	modulated
+TR42	Regulation 1227 1237	regulation
+TR43	Gene_expression 1241 1251	expression
+TR49	Regulation 1349 1360	involvement
+TR39	Pathway 937 943	system
+E1	Pathway:TR30 Participant:T6
+E2	Blood_vessel_development:TR41 
+E3	Blood_vessel_development:TR48 
+E4	Regulation:TR40 Cause:T20 Theme:E2
+E5	Binding:TR36 Theme:T13
+E6	Phosphorylation:TR34 Theme:T13
+E7	Regulation:TR31 Theme:T11
+E8	Regulation:TR49 Theme:T27

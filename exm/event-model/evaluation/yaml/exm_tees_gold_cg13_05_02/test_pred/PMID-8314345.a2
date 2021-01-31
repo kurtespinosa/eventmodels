@@ -1,0 +1,28 @@
+TR60	Binding 1161 1168	binding
+TR61	Gene_expression 1247 1257	expression
+TR59	Localization 1053 1062	localized
+TR53	Regulation 81 85	role
+TR54	Binding 100 111	interaction
+TR58	Gene_expression 973 982	expressed
+TR57	Cell_differentiation 718 732	differentiated
+TR64	Regulation 1647 1651	role
+TR65	Binding 1679 1691	interactions
+TR66	Development 1725 1735	generation
+TR67	Gene_expression 1725 1735	generation
+TR68	Synthesis 1725 1735	generation
+TR69	Blood_vessel_development 1756 1768	angiogenesis
+TR70	Cell_differentiation 1816 1830	differentiated
+TR55	Gene_expression 488 497	expressed
+TR56	Gene_expression 590 598	negative
+TR62	Positive_regulation 1423 1432	increased
+TR63	Gene_expression 1455 1465	expression
+E1	Gene_expression:TR61 Theme:T37
+E2	Binding:TR54 Theme:T5
+E3	Regulation:TR53 Theme:E2 Cause:T1
+E4	Gene_expression:TR58 Theme:T30
+E5	Development:TR66 Theme:T49
+E6	Blood_vessel_development:TR69 
+E7	Cell_differentiation:TR70 
+E8	Gene_expression:TR55 Theme:T19
+E9	Gene_expression:TR63 Theme:T44
+E10	Positive_regulation:TR62 Theme:E9

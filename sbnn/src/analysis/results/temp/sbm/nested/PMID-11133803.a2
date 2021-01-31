@@ -1,0 +1,58 @@
+T27	Cell_death 0 9	Apoptosis
+T28	Positive_regulation 10 17	induced
+T29	Regulation 98 108	modulation
+T30	Positive_regulation 147 157	activation
+T31	Negative_regulation 190 198	activity
+T32	Negative_regulation 253 263	suppressor
+T33	Positive_regulation 278 285	induced
+T34	Carcinogenesis 286 300	carcinogenesis
+T35	Planned_process 352 361	treatment
+T36	Positive_regulation 362 370	resulted
+T37	Regulation 374 381	changes
+T38	Negative_regulation 417 428	suppression
+T39	Cell_death 448 457	Apoptosis
+T40	Breakdown 484 496	condensation
+T41	Breakdown 507 515	blebbing
+T42	Breakdown 522 531	shrinkage
+T43	Positive_regulation 550 559	induction
+T44	Development 641 650	Formation
+T45	Negative_regulation 784 794	inhibitory
+T46	Positive_regulation 799 809	activation
+T47	Negative_regulation 965 974	prevented
+T48	Positive_regulation 979 986	induced
+T49	Cell_death 987 996	apoptosis
+T50	Negative_regulation 1014 1023	reduction
+T51	Negative_regulation 1074 1083	reduction
+T52	Positive_regulation 1091 1098	induced
+T53	Carcinogenesis 1176 1188	carcinogenic
+T54	Negative_regulation 1189 1196	effects
+T55	Regulation 1227 1239	perturbation
+T56	Pathway 1247 1274	polyamine metabolic pathway
+T57	Positive_regulation 1279 1289	triggering
+T58	Positive_regulation 1324 1330	result
+T59	Cell_death 1334 1343	apoptosis
+E2	Positive_regulation:T28 Cause:T1 Theme:E1
+E3	Regulation:T29 Theme:E4
+E6	Negative_regulation:T32 Cause:T5 Theme:E8
+E7	Positive_regulation:T33 Theme:E8
+E10	Positive_regulation:T36 Cause:E9 Theme:E11
+E11	Regulation:T37 Theme:E12
+E17	Positive_regulation:T43 Cause:E13 Theme:T13
+E21	Negative_regulation:T47 Theme:E23
+E22	Positive_regulation:T48 Cause:T22 Theme:E23
+E28	Negative_regulation:T54 Cause:T25 Theme:E27
+E29	Regulation:T55 Theme:E30
+E32	Positive_regulation:T58 Theme:E33 Cause:E31
+E35	Negative_regulation:T32 Cause:T6 Theme:E8
+E38	Positive_regulation:T58 Theme:E33 Cause:E29
+E30	Pathway:T56
+E1	Cell_death:T27 Theme:T2
+E23	Cell_death:T49
+E33	Cell_death:T59
+E12	Negative_regulation:T38 Theme:T9
+E31	Positive_regulation:T57 Theme:T26
+E4	Positive_regulation:T30 Theme:T3
+E8	Carcinogenesis:T34
+E9	Planned_process:T35 Instrument:T8
+E13	Cell_death:T39
+E27	Carcinogenesis:T53

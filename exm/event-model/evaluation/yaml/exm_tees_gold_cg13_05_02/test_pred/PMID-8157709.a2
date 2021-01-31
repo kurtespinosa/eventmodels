@@ -1,0 +1,39 @@
+TR48	Mutation 760 769	mutations
+TR49	Mutation 788 800	substitution
+TR50	Mutation 827 839	substitution
+TR51	Positive_regulation 853 862	resulting
+TR38	Carcinogenesis 92 105	tumorigenesis
+TR39	Mutation 237 246	mutations
+TR45	Mutation 561 570	mutations
+TR46	Metastasis 622 632	metastatic
+TR47	Localization 730 738	invasive
+TR36	Mutation 6 15	mutations
+TR37	Metastasis 45 55	metastases
+TR40	Mutation 354 364	Sequencing
+TR41	DNA_domain_or_region 368 373	exons
+TR42	Mutation 414 423	mutations
+TR43	Mutation 434 443	mutations
+TR44	Metastasis 534 544	metastatic
+TR60	Mutation 1364 1375	instability
+TR61	Metastasis 1421 1431	metastatic
+TR55	Mutation 1152 1161	mutations
+TR56	Carcinogenesis 1211 1224	tumorigenesis
+TR57	Mutation 1241 1250	mutations
+TR58	Development 1293 1302	formation
+TR59	Growth 1310 1316	growth
+TR52	Mutation 968 976	mutation
+TR53	Mutation 1015 1023	deletion
+TR54	Positive_regulation 1050 1056	causes
+E1	Carcinogenesis:TR38 AtLoc:T4
+E2	Localization:TR47 Theme:T18
+E3	Mutation:TR36 Theme:T1
+E4	Metastasis:TR37 Theme:T3
+E5	Metastasis:TR44 Theme:T14
+E6	Mutation:TR40 Theme:T10
+E7	Metastasis:TR61 Theme:T35
+E8	Mutation:TR57 Theme:T33
+E9	Growth:TR59 Theme:T34
+E10	Carcinogenesis:TR56 AtLoc:T32
+E11	Development:TR58 Theme:T34
+E12	Mutation:TR52 Theme:T29
+E13	Mutation:TR53 Theme:T29

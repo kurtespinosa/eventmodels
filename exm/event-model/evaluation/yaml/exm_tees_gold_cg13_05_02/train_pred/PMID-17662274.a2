@@ -1,0 +1,75 @@
+TR70	Positive_regulation 679 687	enhanced
+TR71	Positive_regulation 692 707	transactivation
+TR72	Localization 858 870	localisation
+TR61	Regulation 275 284	regulates
+TR62	Cell_proliferation 294 300	growth
+TR63	Cell_differentiation 302 317	differentiation
+TR64	Death 322 330	survival
+TR65	Binding 339 351	interactions
+TR66	Regulation 421 430	regulator
+TR67	Cell_proliferation 447 453	growth
+TR68	Cell_differentiation 458 473	differentiation
+TR73	Protein_domain_or_region 894 925	nucleolar localisation sequence
+TR74	Mutation 952 960	mutation
+TR75	Negative_regulation 986 993	prevent
+TR76	Positive_regulation 1006 1018	potentiating
+TR91	Negative_regulation 1006 1018	potentiating
+TR77	Positive_regulation 1045 1056	potentiated
+TR78	Positive_regulation 1057 1072	transactivation
+TR79	Positive_regulation 1155 1163	enhanced
+TR80	Positive_regulation 1168 1177	dependent
+TR81	Transcription 1178 1191	transcription
+TR82	Translation 1196 1214	protein expression
+TR83	Cell_differentiation 1235 1250	differentiation
+TR92	Negative_regulation 1045 1056	potentiated
+TR93	Gene_expression 1204 1214	expression
+TR94	Translation 1204 1214	expression
+TR69	Gene_expression 484 493	expressed
+TR55	Localization 12 24	localisation
+TR56	Regulation 42 52	regulation
+TR57	Gene_expression 115 125	expression
+TR58	Carcinogenesis 171 185	carcinogenesis
+TR90	Positive_regulation 75 83	mediated
+TR84	Positive_regulation 1337 1349	potentiating
+TR85	Regulation 1398 1402	role
+TR86	Regulation 1432 1442	regulation
+TR87	Metabolism 1456 1466	metabolism
+TR95	Regulation 1313 1323	regulation
+TR59	Gene_expression 223 237	overexpression
+TR60	Positive_regulation 223 237	overexpression
+TR88	Negative_regulation 1614 1622	suppress
+TR89	Carcinogenesis 1623 1636	tumorigenesis
+E1	Positive_regulation:TR71 Cause:T21 Theme:T24
+E2	Positive_regulation:TR71 Theme:T24 Cause:T23
+E3	Positive_regulation:TR71 Theme:T24 Cause:T22
+E4	Positive_regulation:TR70 Cause:T21 Theme:E1
+E5	Positive_regulation:TR70 Cause:T21 Theme:E2
+E6	Positive_regulation:TR70 Cause:T21 Theme:E3
+E7	Positive_regulation:TR70 Theme:E1 Cause:T23
+E8	Positive_regulation:TR70 Theme:E2 Cause:T23
+E9	Positive_regulation:TR70 Theme:E3 Cause:T23
+E10	Positive_regulation:TR70 Theme:E1 Cause:T22
+E11	Positive_regulation:TR70 Theme:E2 Cause:T22
+E12	Positive_regulation:TR70 Theme:E3 Cause:T22
+E13	Cell_differentiation:TR63 Theme:T10
+E14	Cell_differentiation:TR68 Theme:T13
+E15	Death:TR64 Theme:T10
+E16	Positive_regulation:TR76 Cause:T35 Theme:T36
+E17	Negative_regulation:TR91 Theme:T36
+E18	Cell_differentiation:TR83 Theme:T42
+E19	Gene_expression:TR93 Theme:T43
+E20	Positive_regulation:TR78 Theme:T39
+E21	Positive_regulation:TR78 Theme:T40
+E22	Positive_regulation:TR77 Theme:E20 Cause:T37
+E23	Positive_regulation:TR77 Theme:E21 Cause:T37
+E24	Gene_expression:TR69 Theme:T14
+E25	Gene_expression:TR57 Theme:T3
+E26	Localization:TR55 Theme:T1
+E27	Carcinogenesis:TR58 AtLoc:T5
+E28	Regulation:TR56 Theme:E27 Cause:T1
+E29	Regulation:TR56 Cause:T1 Theme:T2
+E30	Regulation:TR56 Cause:T1 Theme:E25
+E31	Positive_regulation:TR84 Cause:T44 Theme:T45
+E32	Gene_expression:TR59 Theme:T8
+E33	Carcinogenesis:TR89 
+E34	Negative_regulation:TR88 Cause:T54 Theme:E33

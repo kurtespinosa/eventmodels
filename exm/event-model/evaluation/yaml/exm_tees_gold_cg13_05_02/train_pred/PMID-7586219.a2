@@ -1,0 +1,88 @@
+TR107	Planned_process 1796 1824	Immunohistochemical staining
+TR108	Planned_process 1934 1943	injection
+TR112	Localization 2518 2526	delivery
+TR80	Gene_expression 8 17	expressed
+TR81	Positive_regulation 75 82	induces
+TR82	Blood_vessel_development 83 95	angiogenesis
+TR89	Localization 894 902	secreted
+TR90	Planned_process 924 934	uninfected
+TR91	Planned_process 964 972	infected
+TR114	Infection 964 972	infected
+TR85	Planned_process 613 621	infected
+TR86	Transcription 711 721	expression
+TR87	Localization 734 743	secretion
+TR83	Blood_vessel_development 156 166	angiogenic
+TR84	Blood_vessel_development 479 489	angiogenic
+TR113	Localization 444 452	secreted
+TR109	Blood_vessel_development 2075 2093	neovascularization
+TR110	Blood_vessel_development 2183 2195	angiogenesis
+TR111	Regulation 2212 2220	response
+TR95	Cell_proliferation 1236 1249	proliferation
+TR96	Regulation 1254 1264	unaffected
+TR97	Planned_process 1268 1277	infection
+TR118	Infection 1268 1277	infection
+TR88	Positive_regulation 819 827	enhanced
+TR102	Planned_process 1522 1532	uninfected
+TR103	Planned_process 1551 1559	infected
+TR104	Cell_differentiation 1588 1601	differentiate
+TR119	Infection 1522 1532	uninfected
+TR105	Planned_process 1726 1737	resuspended
+TR106	Planned_process 1761 1769	injected
+TR92	Planned_process 1142 1150	infected
+TR93	Planned_process 1192 1200	infected
+TR94	Planned_process 1204 1214	uninfected
+TR115	Infection 1142 1150	infected
+TR116	Infection 1192 1200	infected
+TR117	Infection 1204 1214	uninfected
+TR98	Planned_process 1303 1309	plated
+TR99	Planned_process 1332 1341	precoated
+TR100	Planned_process 1398 1406	infected
+TR101	Cell_differentiation 1444 1458	differentiated
+E1	Planned_process:TR108 Instrument:T63
+E2	Planned_process:TR107 Theme:T61
+E3	Localization:TR112 Theme:T79
+E4	Gene_expression:TR80 Theme:T1
+E5	Blood_vessel_development:TR82 
+E6	Planned_process:TR91 Theme:T28 Instrument:T29
+E7	Planned_process:TR91 Theme:T26 Instrument:T29
+E8	Planned_process:TR90 Theme:T26 Theme2:T27
+E9	Localization:TR89 Theme:T25
+E10	Infection:TR114 Theme:T28 Participant:T29
+E11	Transcription:TR86 Theme:T22
+E12	Localization:TR87 Theme:T22
+E13	Planned_process:TR85 Theme:T17 Instrument:T19
+E14	Planned_process:TR85 Theme:T18 Instrument:T19
+E15	Planned_process:TR85 Theme:T16 Instrument:T19
+E16	Planned_process:TR85 Theme:T15 Instrument:T19
+E17	Blood_vessel_development:TR83 
+E18	Blood_vessel_development:TR84 
+E19	Localization:TR113 FromLoc:T14 Theme:T13
+E20	Blood_vessel_development:TR109 AtLoc:T68
+E21	Blood_vessel_development:TR110 AtLoc:T68
+E22	Blood_vessel_development:TR110 
+E23	Regulation:TR111 Cause:T71 Theme:E21
+E24	Regulation:TR111 Cause:T71 Theme:E22
+E25	Cell_proliferation:TR95 Theme:T40
+E26	Infection:TR118 Participant:T41
+E27	Planned_process:TR97 Instrument:T41
+E28	Regulation:TR96 Cause:E27 Theme:E25
+E29	Positive_regulation:TR88 Theme:T24
+E30	Planned_process:TR102 Theme:T50
+E31	Planned_process:TR103 Instrument:T52 Theme:T51
+E32	Planned_process:TR103 Instrument:T52
+E33	Cell_differentiation:TR104 Theme:T51
+E34	Infection:TR119 Theme:T50
+E35	Planned_process:TR106 Instrument:T58 Theme:T60
+E36	Planned_process:TR106 Instrument:T58
+E37	Planned_process:TR105 Theme:T58
+E38	Infection:TR117 Theme:T39
+E39	Infection:TR116 Theme:T39
+E40	Planned_process:TR92 Theme:T37 Instrument:T35
+E41	Planned_process:TR92 Instrument:T35
+E42	Infection:TR115 Theme:T37 Participant:T35
+E43	Planned_process:TR93 Theme:T39
+E44	Planned_process:TR94 Theme:T39
+E45	Planned_process:TR100 Theme:T45 Instrument:T46
+E46	Planned_process:TR99 Instrument:T44
+E47	Planned_process:TR98 Theme:T45
+E48	Cell_differentiation:TR101 Theme:T45

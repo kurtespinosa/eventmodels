@@ -1,0 +1,83 @@
+T43	Regulation 542 549	changes
+T44	Positive_regulation 570 580	activation
+T63	Remodeling 542 549	changes
+T59	Negative_regulation 1716 1724	inhibits
+T60	Cell_proliferation 1736 1749	proliferation
+T61	Positive_regulation 1760 1767	induced
+T62	Blood_vessel_development 1768 1780	angiogenesis
+T50	Cell_proliferation 982 995	proliferation
+T51	Positive_regulation 1079 1090	stimulation
+T66	Positive_regulation 954 961	crucial
+T45	Metabolism 724 734	metabolism
+T46	Pathway 814 832	metabolic pathways
+T47	Synthesis 853 862	synthesis
+T48	Pathway 876 881	cycle
+T49	Glycolysis 890 909	glycolytic pathways
+T64	Pathway 824 832	pathways
+T65	Glycolysis 901 909	pathways
+T32	Blood_vessel_development 67 77	angiogenic
+T33	Positive_regulation 78 88	activation
+T42	Cell_transformation 501 515	transformation
+T34	Blood_vessel_development 143 155	Angiogenesis
+T35	Growth 211 217	growth
+T36	Remodeling 222 228	repair
+T37	Localization 248 258	recruiting
+T38	Blood_vessel_development 287 297	angiogenic
+T39	Cell_proliferation 331 342	proliferate
+T40	Cell_differentiation 347 360	differentiate
+T41	Development 364 368	form
+T52	Metabolism 1169 1179	metabolism
+T53	Pathway 1192 1205	cycle pathway
+T67	Regulation 1146 1156	importance
+T68	Pathway 1198 1205	pathway
+T55	Metabolism 1397 1407	metabolism
+T56	Pathway 1420 1438	phosphate pathways
+T57	Negative_regulation 1439 1446	reduced
+T58	Localization 1467 1476	migration
+T69	Negative_regulation 1359 1369	inhibition
+T70	Pathway 1430 1438	pathways
+T54	Catabolism 1248 1256	depleted
+E1	Positive_regulation:T44 Theme:T7
+E2	Regulation:T43 Theme:E1
+E3	Blood_vessel_development:T62 
+E4	Positive_regulation:T61 Theme:E3 Cause:T31
+E5	Cell_proliferation:T60 Theme:T30
+E6	Negative_regulation:T59 Theme:E3
+E7	Negative_regulation:T59 Theme:E5
+E8	Cell_proliferation:T50 Theme:T16
+E9	Positive_regulation:T51 Theme:T20
+E10	Positive_regulation:T51 Theme:T19
+E11	Positive_regulation:T51 Theme:T17
+E12	Positive_regulation:T51 Theme:T18
+E13	Positive_regulation:T66 Theme:E8
+E14	Synthesis:T47 Theme:T14
+E15	Pathway:T48 Participant:T15
+E16	Pathway:T64 Participant:T13
+E17	Metabolism:T45 Theme:T14
+E18	Metabolism:T45 Theme:T11
+E19	Pathway:T46 Participant:T13 Participant2:T15
+E20	Glycolysis:T65 
+E21	Glycolysis:T49 
+E22	Blood_vessel_development:T32 
+E23	Positive_regulation:T33 Theme:E22
+E24	Cell_transformation:T42 Theme:T6
+E25	Growth:T35 Theme:T2
+E26	Growth:T35 Theme:T1
+E27	Localization:T37 Theme:T2
+E28	Remodeling:T36 Theme:T1
+E29	Blood_vessel_development:T38 
+E30	Blood_vessel_development:T34 Theme:T1
+E31	Blood_vessel_development:T34 
+E32	Development:T41 Theme:T4
+E33	Development:T41 Theme:T5
+E34	Cell_proliferation:T39 Theme:T3
+E35	Cell_differentiation:T40 Theme:T3
+E36	Metabolism:T52 Theme:T22
+E37	Pathway:T53 Participant:T23
+E38	Pathway:T68 Participant:T23
+E39	Regulation:T67 Theme:E38
+E40	Metabolism:T55 Theme:T26
+E41	Pathway:T70 Participant:T27
+E42	Localization:T58 Theme:T28
+E43	Negative_regulation:T57 Theme:E42
+E44	Catabolism:T54 Theme:T24

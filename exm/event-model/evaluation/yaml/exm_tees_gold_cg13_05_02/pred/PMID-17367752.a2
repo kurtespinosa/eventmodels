@@ -1,0 +1,72 @@
+T50	Cell_transformation 374 385	transformed
+T51	Positive_regulation 374 385	transformed
+T52	Cell_proliferation 412 418	growth
+T53	Cell_transformation 426 437	transformed
+T54	Planned_process 485 497	supplemented
+T55	Cell_transformation 532 543	transformed
+T56	Positive_regulation 532 543	transformed
+T57	Localization 549 558	deficient
+T58	Cell_proliferation 585 589	grow
+T59	Gene_expression 615 625	expressing
+T60	Development 641 647	formed
+T61	Positive_regulation 685 693	required
+T62	Regulation 708 719	independent
+T63	Cell_proliferation 720 726	growth
+T64	Cell_transformation 736 747	transformed
+T65	Positive_regulation 736 747	transformed
+T83	Gene_expression 549 558	deficient
+T66	Planned_process 759 771	transplanted
+T67	Development 793 799	formed
+T68	Development 867 873	formed
+T69	Gene_expression 883 893	expressing
+T44	Binding 156 163	binding
+T45	Regulation 179 183	acts
+T78	Development 195 208	rearrangement
+T79	Mutation 195 208	rearrangement
+T70	Positive_regulation 955 963	required
+T71	Cell_transformation 968 992	oncogenic transformation
+T72	Regulation 997 1008	contributes
+T73	Cell_proliferation 1017 1023	growth
+T74	Cell_transformation 1032 1043	transformed
+T75	Positive_regulation 1032 1043	transformed
+T84	Cell_transformation 978 992	transformation
+T46	Regulation 214 218	role
+T47	Cell_transformation 233 257	oncogenic transformation
+T48	Positive_regulation 233 257	oncogenic transformation
+T49	Localization 330 339	defective
+T80	Cell_transformation 243 257	transformation
+T81	Positive_regulation 243 257	transformation
+T82	Negative_regulation 330 339	defective
+T41	Positive_regulation 11 19	required
+T42	Cell_transformation 24 48	oncogenic transformation
+T43	Positive_regulation 24 48	oncogenic transformation
+T76	Cell_transformation 34 48	transformation
+T77	Positive_regulation 34 48	transformation
+E1	Cell_transformation:T50 Theme:T17
+E2	Cell_proliferation:T52 Theme:T19
+E3	Cell_transformation:T53 Theme:T19
+E4	Positive_regulation:T51 Theme:E1 Cause:T16
+E5	Localization:T57 Theme:T24 AtLoc:T23
+E6	Development:T60 Theme:T26
+E7	Cell_proliferation:T63 Theme:T29
+E8	Cell_proliferation:T63 Theme:T26
+E9	Cell_transformation:T55 Theme:T23
+E10	Gene_expression:T83 Theme:T24
+E11	Cell_proliferation:T58 Theme:T23
+E12	Positive_regulation:T61 Cause:T27 Theme:E7
+E13	Positive_regulation:T61 Cause:T27 Theme:E8
+E14	Positive_regulation:T61 Cause:T27 Theme:T23
+E15	Positive_regulation:T56 Theme:E9 Cause:T22
+E16	Regulation:T62 Theme:E7
+E17	Regulation:T62 Theme:E8
+E18	Development:T67 Theme:T31
+E19	Planned_process:T66 Instrument:T34 Theme:T30 Instrument:T35
+E20	Planned_process:T66 Instrument:T34 Instrument:T35
+E21	Development:T68 Theme:T31
+E22	Mutation:T79 Theme:T8
+E23	Cell_transformation:T74 Theme:T39
+E24	Regulation:T72 Theme:E23 Cause:T37
+E25	Negative_regulation:T82 Theme:T15
+E26	Localization:T49 AtLoc:T14 Theme:T15
+E27	Cell_transformation:T42 AtLoc:T4
+E28	Positive_regulation:T43 Cause:T2 Theme:E27

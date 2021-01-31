@@ -1,0 +1,68 @@
+T46	Negative_regulation 4 10	delays
+T47	Development 17 22	onset
+T48	Negative_regulation 82 92	suppresses
+T49	Carcinogenesis 93 106	tumorigenesis
+T50	Positive_regulation 110 120	initiating
+T51	Pathway 153 158	cycle
+T52	Negative_regulation 159 165	arrest
+T53	Cell_death 170 179	apoptosis
+T54	Regulation 183 191	response
+T55	Breakdown 199 205	damage
+T56	Regulation 240 249	deficient
+T57	Cell_death 254 263	apoptosis
+T58	Pathway 291 296	cycle
+T59	Negative_regulation 297 303	arrest
+T60	Negative_regulation 314 320	delays
+T61	Development 327 332	onset
+T62	Regulation 459 463	role
+T63	Pathway 483 488	cycle
+T64	Regulation 489 496	control
+T65	Planned_process 501 508	crossed
+T66	Positive_regulation 587 595	required
+T67	Negative_regulation 638 646	delaying
+T68	Development 653 658	onset
+T69	Localization 660 664	Loss
+T70	Negative_regulation 683 692	abolished
+T71	Pathway 702 707	cycle
+T72	Negative_regulation 708 714	arrest
+T73	Positive_regulation 740 751	accelerated
+T74	Development 758 763	onset
+T75	Regulation 1063 1073	cooperated
+T76	Cell_death 1079 1088	apoptosis
+T77	Negative_regulation 1092 1103	suppressing
+T78	Development 1110 1115	onset
+E1	Negative_regulation:T46 Cause:T1 Theme:E2
+E3	Negative_regulation:T48 Theme:E4 Cause:E5
+E5	Positive_regulation:T50 Cause:T4 Theme:E7
+E7	Negative_regulation:T52 Theme:E6
+E9	Regulation:T54 Theme:E34 Cause:E10
+E11	Regulation:T56 Cause:T9 Theme:E12
+E14	Negative_regulation:T59 Theme:E13 Cause:T9
+E15	Negative_regulation:T60 Theme:E16 Cause:T9
+E17	Regulation:T62 Theme:E19 Cause:T17
+E19	Regulation:T64 Theme:E18 Cause:T18
+E21	Positive_regulation:T66 Cause:T24 Theme:E22
+E22	Negative_regulation:T67 Theme:E23
+E25	Negative_regulation:T70 Cause:E24 Theme:E27
+E27	Negative_regulation:T72 Theme:E26 Cause:T29
+E28	Positive_regulation:T73 Theme:E29
+E30	Regulation:T75 Theme:E32 Cause:E31
+E32	Negative_regulation:T77 Theme:E33
+E34	Negative_regulation:T48 Theme:E4 Cause:E35
+E35	Positive_regulation:T50 Cause:T4 Theme:E8
+E36	Regulation:T54 Theme:E3 Cause:E10
+E16	Development:T61 Theme:T11
+E13	Pathway:T58 Theme:T10
+E31	Cell_death:T76
+E26	Pathway:T71 Participant:T28
+E8	Cell_death:T53 Theme:T6
+E24	Localization:T69 Theme:T27
+E23	Development:T68 Theme:T26
+E33	Development:T78 Theme:T44
+E29	Development:T74 Theme:T30
+E6	Pathway:T51 Theme:T6
+E4	Carcinogenesis:T49
+E18	Pathway:T63 Theme:T19
+E10	Breakdown:T55 Theme:T7
+E2	Development:T47 Theme:T2
+E12	Cell_death:T57

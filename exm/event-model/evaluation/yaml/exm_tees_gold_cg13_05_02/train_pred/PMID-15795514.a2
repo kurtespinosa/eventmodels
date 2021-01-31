@@ -1,0 +1,13 @@
+TR33	Pathway 220 225	cycle
+TR37	Mutation 927 936	mutations
+TR38	Pathway 980 985	cycle
+TR39	Regulation 1096 1110	potential role
+TR40	Pathway 1122 1127	cycle
+TR41	Mutation 918 926	germline
+TR42	Regulation 1106 1110	role
+TR35	Mutation 459 468	Mutations
+TR36	Regulation 595 603	affected
+TR34	Mutation 354 363	mutations
+E1	Pathway:TR33 Participant:T7 Participant2:T8
+E2	Mutation:TR37 Theme:T25
+E3	Pathway:TR40 Theme:T30

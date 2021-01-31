@@ -1,0 +1,19 @@
+TR12	Cell_transformation 16 30	transformation
+TR15	Cell_transformation 271 283	immortalized
+TR16	Positive_regulation 297 305	mediated
+TR21	Regulation 297 305	mediated
+TR17	Gene_expression 339 348	synthesis
+TR18	Localization 360 369	excretion
+TR19	Regulation 400 410	controlled
+TR13	Positive_regulation 159 167	required
+TR14	Cell_transformation 177 192	immortalization
+TR20	Positive_regulation 197 206	induction
+E1	Cell_transformation:TR12 
+E2	Cell_transformation:TR15 
+E3	Positive_regulation:TR16 Theme:E2 Cause:T9
+E4	Localization:TR18 Theme:T10
+E5	Gene_expression:TR17 Theme:T10
+E6	Regulation:TR19 Cause:T11 Theme:E5
+E7	Regulation:TR19 Cause:T11 Theme:E4
+E8	Cell_transformation:TR14 Theme:T7
+E9	Positive_regulation:TR13 Theme:E8 Cause:T6

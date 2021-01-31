@@ -1,0 +1,74 @@
+T52	Breakdown 326 333	damaged
+T53	Positive_regulation 361 370	functions
+T54	Blood_vessel_development 409 419	angiogenic
+T55	Positive_regulation 459 469	potentiate
+T56	Development 476 487	progression
+T77	Development 1753 1764	progression
+T58	Gene_expression 665 675	Expression
+T59	Localization 697 706	localized
+T57	Regulation 623 630	effects
+T49	Regulation 149 153	role
+T50	Development 273 284	development
+T51	Development 289 300	progression
+T60	Gene_expression 852 862	expression
+T69	Gene_expression 1441 1454	overexpressed
+T70	Regulation 1495 1505	contribute
+T71	Carcinogenesis 1517 1530	tumorigenesis
+T72	Positive_regulation 1546 1557	stimulation
+T73	Positive_regulation 1574 1584	initiation
+T74	Blood_vessel_development 1588 1600	angiogenesis
+T75	Localization 1605 1616	recruitment
+T76	Positive_regulation 1605 1616	recruitment
+T79	Positive_regulation 1441 1454	overexpressed
+T45	Gene_expression 16 27	overexpress
+T46	Positive_regulation 87 96	increases
+T47	Cell_proliferation 117 130	proliferation
+T48	Localization 135 143	invasion
+T61	Localization 979 991	infiltration
+T78	Gene_expression 912 922	expression
+T63	Planned_process 1213 1222	Treatment
+T64	Positive_regulation 1275 1285	stimulated
+T65	Cell_proliferation 1286 1299	proliferation
+T66	Localization 1301 1311	chemotaxis
+T67	Localization 1313 1321	invasion
+T68	Gene_expression 1351 1361	expression
+T62	Gene_expression 1190 1197	express
+E1	Breakdown:T52 Theme:T9
+E2	Development:T56 Theme:T11
+E3	Positive_regulation:T55 Cause:T10 Theme:T11
+E4	Positive_regulation:T55 Cause:T10 Theme:E2
+E5	Development:T77 Theme:T44
+E6	Regulation:T57 Cause:T15 Theme:T16
+E7	Development:T50 Theme:T8
+E8	Development:T51 Theme:T8
+E9	Gene_expression:T60 Theme:T24 Theme:T23
+E10	Gene_expression:T60 Theme:T24
+E11	Gene_expression:T60 Theme:T23
+E12	Positive_regulation:T72 Cause:T40 Theme:T42
+E13	Localization:T75 Theme:T43
+E14	Gene_expression:T69 Theme:T37 Theme:T38
+E15	Gene_expression:T69 Theme:T37
+E16	Gene_expression:T69 Theme:T38
+E17	Positive_regulation:T76 Theme:T43 Cause:T40
+E18	Positive_regulation:T76 Cause:T40 Theme:E13
+E19	Blood_vessel_development:T74 
+E20	Positive_regulation:T73 Theme:E19 Cause:T40
+E21	Positive_regulation:T73 Cause:T40 Theme:T42
+E22	Gene_expression:T45 Theme:T2
+E23	Cell_proliferation:T47 Theme:T4
+E24	Localization:T48 Theme:T4
+E25	Positive_regulation:T46 Cause:T3 Theme:E24
+E26	Positive_regulation:T46 Cause:T3 Theme:E23
+E27	Localization:T61 Theme:T27
+E28	Localization:T66 Theme:T34
+E29	Planned_process:T63 Theme:T34 Instrument:T35
+E30	Localization:T67 Theme:T34
+E31	Gene_expression:T68 Theme:T36
+E32	Cell_proliferation:T65 Theme:T34
+E33	Positive_regulation:T64 Theme:E30 Cause:E29
+E34	Positive_regulation:T64 Theme:E31 Cause:E29
+E35	Positive_regulation:T64 Theme:E28 Cause:E29
+E36	Positive_regulation:T64 Cause:E29 Theme:E32
+E37	Gene_expression:T62 Theme:T32 Theme:T33
+E38	Gene_expression:T62 Theme:T32
+E39	Gene_expression:T62 Theme:T33

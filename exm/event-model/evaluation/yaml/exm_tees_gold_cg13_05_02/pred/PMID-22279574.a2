@@ -1,0 +1,85 @@
+T84	Negative_regulation 1020 1029	inhibitor
+T85	Negative_regulation 1033 1044	suppressing
+T94	Negative_regulation 1317 1326	inhibited
+T95	Negative_regulation 1354 1361	reduced
+T96	Binding 1400 1409	formation
+T97	Negative_regulation 1414 1423	decreased
+T98	Binding 1454 1464	assemblies
+T122	Development 1400 1409	formation
+T76	Planned_process 247 259	therapeutics
+T78	Planned_process 496 512	chemotherapeutic
+T79	Negative_regulation 545 555	inhibition
+T117	Planned_process 2265 2277	chemotherapy
+T109	Pathway 1899 1926	intrinsic apoptotic pathway
+T110	Regulation 1931 1938	involve
+T111	Growth 1953 1959	growth
+T112	Negative_regulation 1960 1967	effects
+T124	Protein_domain_or_region 1844 1868	CONCLUSIONS/SIGNIFICANCE
+T125	Pathway 1919 1926	pathway
+T81	Metastasis 894 904	metastasis
+T82	Growth 950 956	growth
+T83	Metastasis 961 971	metastasis
+T119	Regulation 933 940	effects
+T86	Planned_process 1138 1147	treatment
+T87	Pathway 1154 1159	cycle
+T88	Negative_regulation 1160 1166	arrest
+T89	Positive_regulation 1171 1178	induced
+T90	Regulation 1216 1224	mediated
+T91	Cell_death 1225 1234	apoptosis
+T120	Positive_regulation 1196 1199	led
+T121	Positive_regulation 1216 1224	mediated
+T92	Negative_regulation 1241 1250	disrupted
+T93	Negative_regulation 1272 1286	downregulating
+T105	Acetylation 1675 1686	Acetylation
+T106	Cell_death 1737 1746	apoptotic
+T107	Dephosphorylation 1768 1786	de-phosphorylation
+T108	Planned_process 1830 1837	treated
+T123	Positive_regulation 1724 1733	induction
+T77	Planned_process 304 313	treatment
+T80	Cell_proliferation 691 704	proliferation
+T118	Binding 774 788	polymerization
+T99	Planned_process 1491 1500	injection
+T100	Planned_process 1509 1523	administration
+T101	Negative_regulation 1544 1553	inhibited
+T102	Growth 1575 1581	growth
+T72	Cell_death 14 23	apoptosis
+T73	Pathway 32 41	signaling
+T74	Negative_regulation 42 52	disruption
+T75	Metastasis 122 132	metastatic
+T113	Negative_regulation 2017 2027	suppresses
+T114	Metastasis 2034 2044	metastasis
+T115	Negative_regulation 2060 2070	inhibition
+T116	Pathway 2110 2118	pathways
+E1	Negative_regulation:T84 Theme:T31 Cause:T30
+E2	Negative_regulation:T85 Theme:T34 Cause:T30
+E3	Negative_regulation:T85 Theme:T31 Cause:T30
+E4	Negative_regulation:T85 Theme:T33 Cause:T30
+E5	Negative_regulation:T94 Cause:T41 Theme:T43
+E6	Negative_regulation:T94 Cause:T41 Theme:T42
+E7	Planned_process:T76 Theme:T9
+E8	Planned_process:T78 Theme:T15 Instrument:T14 Instrument:T13
+E9	Negative_regulation:T79 Cause:T17 Theme:T16
+E10	Planned_process:T117 Theme:T71
+E11	Growth:T111 Theme:T59
+E12	Negative_regulation:T112 Cause:T60 Theme:E11
+E13	Growth:T82 Theme:T29
+E14	Metastasis:T81 
+E15	Metastasis:T83 Theme:T29
+E16	Regulation:T119 Theme:E15
+E17	Planned_process:T86 Instrument:T35
+E18	Cell_death:T91 
+E19	Negative_regulation:T93 Cause:T38 Theme:T40
+E20	Negative_regulation:T92 Theme:T39 Cause:E19
+E21	Dephosphorylation:T107 Theme:T57
+E22	Acetylation:T105 Theme:T55
+E23	Cell_death:T106 
+E24	Planned_process:T77 Theme:T11
+E25	Cell_proliferation:T80 Theme:T20
+E26	Growth:T102 Theme:T50
+E27	Planned_process:T99 Instrument:T49 Theme:T47
+E28	Cell_death:T72 
+E29	Pathway:T73 Participant:T2
+E30	Metastasis:T75 
+E31	Negative_regulation:T74 Cause:T4 Theme:E29
+E32	Metastasis:T114 Theme:T63
+E33	Negative_regulation:T113 Theme:E32 Cause:T62

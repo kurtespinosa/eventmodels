@@ -1,0 +1,61 @@
+TR38	Positive_regulation 319 328	induction
+TR39	Blood_vessel_development 332 344	angiogenesis
+TR40	Positive_regulation 384 398	necessary part
+TR41	Carcinogenesis 402 423	malignant progression
+TR42	Regulation 482 492	regulation
+TR43	Growth 509 515	growth
+TR44	Blood_vessel_development 520 532	angiogenesis
+TR60	Carcinogenesis 412 423	progression
+TR45	Regulation 629 639	regulating
+TR46	Growth 653 659	growth
+TR47	Blood_vessel_development 664 676	angiogenesis
+TR61	Regulation 617 625	involved
+TR58	Regulation 1297 1318	has an important role
+TR59	Development 1335 1347	pathogenesis
+TR63	Regulation 1314 1318	role
+TR55	Binding 1085 1094	interacts
+TR56	Regulation 1162 1171	regulates
+TR57	Blood_vessel_development 1185 1197	angiogenesis
+TR62	Negative_regulation 1222 1232	repression
+TR52	Negative_regulation 936 945	decreased
+TR53	Gene_expression 946 956	expression
+TR54	Growth 966 970	grow
+TR34	Negative_regulation 21 31	suppressor
+TR35	Regulation 45 54	regulates
+TR36	Growth 68 74	growth
+TR37	Blood_vessel_development 79 91	angiogenesis
+TR48	Gene_expression 678 688	Expression
+TR49	Negative_regulation 714 721	reduced
+TR50	Negative_regulation 795 804	reduction
+TR51	Development 825 836	progression
+E1	Carcinogenesis:TR60 
+E2	Blood_vessel_development:TR44 AtLoc:T9
+E3	Growth:TR43 Theme:T9
+E4	Carcinogenesis:TR41 Theme:T9
+E5	Blood_vessel_development:TR39 AtLoc:T8
+E6	Positive_regulation:TR38 Theme:E5
+E7	Regulation:TR42 Theme:E3
+E8	Regulation:TR42 Theme:E2
+E9	Positive_regulation:TR40 Cause:E5 Theme:T9
+E10	Positive_regulation:TR40 Cause:E5 Theme:E4
+E11	Blood_vessel_development:TR47 AtLoc:T12
+E12	Growth:TR46 Theme:T12
+E13	Regulation:TR45 Theme:T12
+E14	Development:TR59 Theme:T33
+E15	Regulation:TR63 Theme:E14 Cause:T32
+E16	Regulation:TR58 Theme:E14 Cause:T32
+E17	Blood_vessel_development:TR57 AtLoc:T30
+E18	Regulation:TR56 Theme:E17 Cause:T29
+E19	Gene_expression:TR53 Theme:T22
+E20	Growth:TR54 Theme:T23
+E21	Negative_regulation:TR52 Theme:E19
+E22	Growth:TR36 Theme:T3
+E23	Blood_vessel_development:TR37 AtLoc:T3
+E24	Regulation:TR35 Cause:T2 Theme:E23
+E25	Regulation:TR35 Cause:T2 Theme:T3
+E26	Regulation:TR35 Cause:T2 Theme:E22
+E27	Negative_regulation:TR34 Cause:T2 Theme:E22
+E28	Negative_regulation:TR34 Cause:T2 Theme:T1
+E29	Gene_expression:TR48 Theme:T13
+E30	Development:TR51 Theme:T17
+E31	Negative_regulation:TR49 Cause:E29 Theme:T14

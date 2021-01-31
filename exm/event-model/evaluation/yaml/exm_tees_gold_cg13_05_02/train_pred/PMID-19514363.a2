@@ -1,0 +1,27 @@
+TR17	Regulation 110 114	role
+TR18	Carcinogenesis 146 157	oncogenesis
+TR15	Regulation 1 5	Role
+TR16	Carcinogenesis 37 48	oncogenesis
+TR23	Regulation 430 440	regulation
+TR24	Cell_death 458 467	apoptosis
+TR30	Regulation 411 415	role
+TR25	Positive_regulation 488 498	importance
+TR26	Carcinogenesis 545 559	carcinogenesis
+TR27	Negative_regulation 586 598	inactivation
+TR28	Positive_regulation 626 631	leads
+TR29	Growth 645 651	growth
+TR21	Regulation 333 344	implication
+TR22	Blood_vessel_development 355 367	angiogenesis
+E1	Carcinogenesis:TR18 
+E2	Regulation:TR17 Cause:T4 Theme:E1
+E3	Carcinogenesis:TR16 
+E4	Regulation:TR15 Cause:T2 Theme:E3
+E5	Cell_death:TR24 
+E6	Regulation:TR23 Theme:E5
+E7	Negative_regulation:TR27 Theme:T12
+E8	Carcinogenesis:TR26 
+E9	Growth:TR29 Theme:T13
+E10	Positive_regulation:TR25 Theme:E8
+E11	Positive_regulation:TR28 Theme:E9 Cause:E7
+E12	Blood_vessel_development:TR22 
+E13	Regulation:TR21 Cause:T8 Theme:E12

@@ -1,0 +1,74 @@
+TR74	Negative_regulation 955 965	inhibition
+TR75	Gene_expression 1006 1016	expressing
+TR89	Gene_expression 1651 1665	overexpressing
+TR90	Positive_regulation 1651 1665	overexpressing
+TR67	Negative_regulation 775 784	repressed
+TR68	Negative_regulation 825 834	inhibited
+TR69	Cell_proliferation 840 859	anchorage-dependent
+TR70	Cell_proliferation 864 885	anchorage-independent
+TR71	Cell_proliferation 886 892	growth
+TR72	Gene_expression 906 920	overexpressing
+TR73	Positive_regulation 906 920	overexpressing
+TR62	Negative_regulation 532 542	suppresses
+TR63	Phosphorylation 543 562	autophosphorylation
+TR64	Positive_regulation 629 638	resulting
+TR65	Gene_expression 695 709	overexpressing
+TR66	Positive_regulation 695 709	overexpressing
+TR59	Mutation 118 131	amplification
+TR60	Gene_expression 136 150	overexpression
+TR61	Positive_regulation 136 150	overexpression
+TR82	Negative_regulation 1410 1418	inhibits
+TR83	Negative_regulation 1473 1483	suppresses
+TR84	Cell_proliferation 1484 1490	growth
+TR85	Positive_regulation 1495 1502	induces
+TR86	Cell_differentiation 1503 1518	differentiation
+TR87	Gene_expression 1532 1546	overexpressing
+TR88	Positive_regulation 1532 1546	overexpressing
+TR53	Negative_regulation 0 10	Suppressed
+TR54	Cell_transformation 11 25	transformation
+TR55	Positive_regulation 30 37	induced
+TR56	Cell_differentiation 38 53	differentiation
+TR57	Gene_expression 67 81	overexpressing
+TR58	Positive_regulation 67 81	overexpressing
+TR76	Positive_regulation 1080 1087	induced
+TR77	Cell_differentiation 1088 1103	differentiation
+TR78	Gene_expression 1117 1131	overexpressing
+TR79	Positive_regulation 1117 1131	overexpressing
+TR80	Development 1182 1192	maturation
+TR81	Synthesis 1288 1298	production
+E1	Gene_expression:TR75 Theme:T33
+E2	Cell_proliferation:TR69 Theme:T31
+E3	Cell_proliferation:TR70 Theme:T31
+E4	Cell_proliferation:TR71 Theme:T31
+E5	Negative_regulation:TR67 Cause:T26 Theme:T28
+E6	Negative_regulation:TR68 Cause:T26 Theme:E4
+E7	Negative_regulation:TR68 Cause:T26 Theme:E2
+E8	Phosphorylation:TR63 Theme:T19
+E9	Phosphorylation:TR63 Theme:T18
+E10	Positive_regulation:TR64 Theme:T22
+E11	Negative_regulation:TR62 Cause:T16 Theme:E8
+E12	Negative_regulation:TR62 Cause:T16 Theme:E9
+E13	Negative_regulation:TR62 Cause:T15 Theme:E8
+E14	Negative_regulation:TR62 Cause:T15 Theme:E9
+E15	Mutation:TR59 Theme:T5 AtLoc:T9
+E16	Gene_expression:TR60 Theme:T5
+E17	Positive_regulation:TR61 Theme:T5
+E18	Positive_regulation:TR61 Theme:E16
+E19	Negative_regulation:TR82 Cause:T42 Theme:T43
+E20	Negative_regulation:TR82 Cause:T42 Theme:T44
+E21	Cell_differentiation:TR86 Theme:T48
+E22	Cell_proliferation:TR84 Theme:T48
+E23	Negative_regulation:TR83 Cause:T42 Theme:E22
+E24	Positive_regulation:TR85 Theme:E21
+E25	Gene_expression:TR57 Theme:T2
+E26	Cell_differentiation:TR56 Theme:T3
+E27	Positive_regulation:TR55 Theme:E26
+E28	Positive_regulation:TR58 Theme:E25
+E29	Positive_regulation:TR58 Theme:T2
+E30	Development:TR80 Theme:T38
+E31	Synthesis:TR81 Theme:T40
+E32	Gene_expression:TR78 Theme:T36
+E33	Cell_differentiation:TR77 Theme:T37
+E34	Positive_regulation:TR76 Theme:E33 Cause:T34
+E35	Positive_regulation:TR76 Theme:E33
+E36	Positive_regulation:TR79 Theme:E32

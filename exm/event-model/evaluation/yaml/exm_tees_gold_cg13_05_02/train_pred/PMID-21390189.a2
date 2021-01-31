@@ -1,0 +1,35 @@
+TR44	Negative_regulation 579 588	inhibited
+TR45	Planned_process 650 657	culture
+TR46	Positive_regulation 680 689	dependent
+TR57	Positive_regulation 629 641	accumulation
+TR42	Planned_process 260 267	therapy
+TR43	Planned_process 332 344	therapeutics
+TR47	Negative_regulation 710 719	inhibited
+TR48	Planned_process 777 786	treatment
+TR53	Negative_regulation 1299 1308	decreases
+TR54	Metabolism 1317 1327	metabolism
+TR55	Planned_process 1373 1380	culture
+TR49	Planned_process 879 886	treated
+TR50	Metabolism 990 1000	metabolism
+TR51	Cell_death 1025 1034	apoptotic
+TR52	Planned_process 1186 1193	therapy
+TR58	Negative_regulation 927 936	decreased
+TR59	Regulation 957 967	regulating
+TR60	Regulation 1014 1021	changes
+E1	Positive_regulation:TR57 Theme:T13
+E2	Negative_regulation:TR44 Theme:T13 Cause:T12
+E3	Negative_regulation:TR44 Theme:T14 Cause:T12
+E4	Positive_regulation:TR46 Theme:E2
+E5	Positive_regulation:TR46 Theme:E3
+E6	Planned_process:TR43 Theme:T6
+E7	Planned_process:TR42 Theme:T5
+E8	Negative_regulation:TR47 Theme:T17 Cause:T16
+E9	Planned_process:TR48 Theme:T18
+E10	Planned_process:TR55 Theme:T33
+E11	Metabolism:TR54 Theme:T31
+E12	Negative_regulation:TR53 Theme:E11
+E13	Cell_death:TR51 
+E14	Planned_process:TR52 Instrument:T26
+E15	Metabolism:TR50 Theme:T22
+E16	Metabolism:TR50 Theme:T21
+E17	Planned_process:TR49 Theme:T20

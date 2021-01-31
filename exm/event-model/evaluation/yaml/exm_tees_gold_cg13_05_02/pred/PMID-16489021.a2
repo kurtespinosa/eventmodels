@@ -1,0 +1,55 @@
+T58	Regulation 920 924	role
+T59	Pathway 936 943	pathway
+T52	Gene_expression 628 638	expressing
+T53	Cell_death 684 693	apoptosis
+T54	Cell_death 755 764	apoptotic
+T55	Cell_death 774 783	apoptosis
+T56	Death 866 874	survival
+T57	Gene_expression 892 902	expressing
+T62	Positive_regulation 1410 1421	requirement
+T63	Negative_regulation 1434 1446	inactivation
+T64	Pathway 1458 1465	pathway
+T45	Gene_expression 498 512	overexpression
+T46	Positive_regulation 498 512	overexpression
+T47	Positive_regulation 516 526	sufficient
+T48	Cell_proliferation 537 550	proliferation
+T49	Negative_regulation 558 565	release
+T50	Cell_differentiation 570 585	differentiation
+T51	Negative_regulation 586 591	block
+T67	Negative_regulation 530 536	rescue
+T60	Planned_process 1098 1107	explanted
+T61	Mutation 1136 1147	allele loss
+T68	Mutation 1143 1147	loss
+T43	Gene_expression 317 327	expression
+T44	Cell_proliferation 455 468	proliferative
+T66	Positive_regulation 351 356	leads
+T38	Regulation 14 25	collaborate
+T39	Development 38 49	development
+T40	Negative_regulation 53 64	suppressing
+T41	Cell_death 65 74	apoptotic
+T42	Pathway 79 101	growth arrest pathways
+T65	Pathway 93 101	pathways
+T69	Negative_regulation 1309 1319	neutralize
+T70	Cell_proliferation 1342 1348	growth
+E1	Pathway:T59 Participant:T25
+E2	Regulation:T58 Cause:E1 Theme:T27
+E3	Gene_expression:T52 Theme:T14
+E4	Cell_death:T54 
+E5	Cell_death:T53 
+E6	Gene_expression:T57 Theme:T23
+E7	Death:T56 Theme:T24
+E8	Cell_death:T55 
+E9	Pathway:T64 Participant:T37
+E10	Negative_regulation:T63 Theme:E9
+E11	Positive_regulation:T62 Theme:E10
+E12	Gene_expression:T45 Theme:T12
+E13	Positive_regulation:T46 Theme:E12
+E14	Positive_regulation:T47 Theme:T12 Cause:E12
+E15	Positive_regulation:T47 Cause:E12 Theme:E13
+E16	Mutation:T68 Theme:T31
+E17	Mutation:T61 Theme:T31
+E18	Planned_process:T60 Theme:T32
+E19	Cell_proliferation:T44 Theme:T11
+E20	Gene_expression:T43 Theme:T9
+E21	Cell_death:T41 
+E22	Development:T39 Theme:T3

@@ -1,0 +1,64 @@
+T50	Localization 362 370	invasion
+T51	Localization 384 392	invasion
+T52	Regulation 422 432	controlled
+T48	Cell_transformation 9 23	transformation
+T72	Localization 38 46	invasive
+T73	Positive_regulation 59 66	results
+T58	Cell_transformation 1097 1109	immortalized
+T70	Positive_regulation 2126 2136	upregulate
+T71	Positive_regulation 2189 2201	upregulation
+T81	Negative_regulation 2065 2071	action
+T82	Positive_regulation 2181 2188	induced
+T61	Cell_proliferation 1465 1483	hyperproliferative
+T62	Localization 1488 1501	hyperinvasive
+T63	Carcinogenesis 1681 1696	non-tumorigenic
+T49	Localization 196 204	Invasion
+T57	Planned_process 983 994	transformed
+T77	Positive_regulation 983 994	transformed
+T53	Carcinogenesis 571 585	nontumorigenic
+T54	Development 735 746	progression
+T75	Positive_regulation 608 614	induce
+T59	Cell_proliferation 1230 1243	proliferative
+T60	Localization 1248 1256	invasive
+T78	Regulation 1215 1226	alterations
+T79	Localization 1285 1293	invasion
+T80	Regulation 1349 1356	changes
+T64	Negative_regulation 1805 1812	reduced
+T65	Gene_expression 1813 1823	expression
+T66	Gene_expression 1931 1941	expression
+T67	Negative_regulation 1955 1962	reduced
+T68	Regulation 1986 1998	contributing
+T69	Localization 2008 2025	hyperinvasiveness
+T55	Planned_process 795 805	introduced
+T56	Planned_process 872 883	established
+T76	Localization 842 850	invasive
+E1	Localization:T50 Theme:T9
+E2	Localization:T51 Theme:T10 ToLoc:T11
+E3	Localization:T51 Theme:T10
+E4	Regulation:T52 Theme:E2 Cause:T12
+E5	Regulation:T52 Theme:E3 Cause:T12
+E6	Localization:T72 Theme:T3
+E7	Cell_transformation:T48 Theme:T3
+E8	Cell_transformation:T58 Theme:T29
+E9	Positive_regulation:T71 Theme:T47 Cause:T46
+E10	Positive_regulation:T70 Theme:T45 Cause:T43
+E11	Positive_regulation:T70 Theme:T44 Cause:T43
+E12	Localization:T62 Theme:T32
+E13	Localization:T62 Theme:T31
+E14	Cell_proliferation:T61 Theme:T32
+E15	Cell_proliferation:T61 Theme:T31
+E16	Carcinogenesis:T63 AtLoc:T35
+E17	Localization:T49 ToLoc:T5 Theme:T7
+E18	Localization:T49 Theme:T7
+E19	Planned_process:T57 Instrument:T25 Theme:T26
+E20	Planned_process:T57 Instrument:T25
+E21	Positive_regulation:T77 Theme:T26 Cause:T25
+E22	Carcinogenesis:T53 
+E23	Development:T54 Theme:T15
+E24	Regulation:T78 Theme:T30
+E25	Gene_expression:T65 Theme:T38
+E26	Localization:T69 Theme:T37
+E27	Regulation:T68 Theme:E26 Cause:T37
+E28	Negative_regulation:T64 Theme:E25
+E29	Planned_process:T56 Theme:T22 Theme2:T21
+E30	Localization:T76 Theme:T22

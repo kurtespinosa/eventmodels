@@ -1,0 +1,33 @@
+T42	Development 46 57	development
+T43	Cell_transformation 130 142	transforming
+T44	Carcinogenesis 147 159	tumourigenic
+T45	Cell_transformation 172 186	transformation
+T46	Cell_transformation 283 295	transforming
+T47	Cell_transformation 486 501	non-transformed
+T48	Cell_proliferation 650 656	growth
+T49	Regulation 657 667	regulatory
+T50	Mutation 714 733	genetic alterations
+T51	Cell_proliferation 859 865	growth
+T52	Positive_regulation 1014 1023	increased
+T53	Death 1137 1145	survival
+T54	Death 1158 1166	survival
+T55	Planned_process 1362 1384	therapeutic approaches
+E1	Development:T42 Theme:T2
+E2	Cell_transformation:T43
+E3	Carcinogenesis:T44
+E4	Cell_transformation:T45
+E5	Cell_transformation:T46
+E6	Cell_transformation:T47 Theme:T12
+M1	Negation E6
+E7	Cell_proliferation:T48 Theme:T14
+E8	Regulation:T49 Theme:E7
+E9	Mutation:T50
+E10	Cell_proliferation:T51 Theme:T16
+E11	Positive_regulation:T52 Theme:T25
+E12	Death:T53 Theme:T30
+M2	Negation E12
+E13	Death:T54 Theme:T30
+M3	Negation E13
+E14	Planned_process:T55 Theme:T36
+E15	Positive_regulation:T52 Theme:T26
+E16	Positive_regulation:T52 Theme:T27

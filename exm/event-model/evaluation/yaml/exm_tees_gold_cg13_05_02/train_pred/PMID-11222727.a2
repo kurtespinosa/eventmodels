@@ -1,0 +1,51 @@
+TR42	Protein_domain_or_region 334 338	TES2
+TR43	Binding 352 363	interaction
+TR44	Regulation 444 460	plays a key role
+TR45	Positive_regulation 464 479	transactivating
+TR64	Regulation 339 347	mediates
+TR65	Regulation 456 460	role
+TR51	Mutation 660 668	mutation
+TR52	Protein_domain_or_region 672 676	TES2
+TR53	Positive_regulation 701 711	stimulates
+TR54	Cell_proliferation 717 723	growth
+TR55	Cell_transformation 810 825	immortalization
+TR56	Cell_proliferation 877 883	growth
+TR57	Negative_regulation 884 890	arrest
+TR36	Mutation 162 170	Mutation
+TR37	Positive_regulation 244 251	induced
+TR38	Cell_transformation 259 274	immortalization
+TR39	Cell_transformation 288 302	transformation
+TR40	Protein_domain_or_region 319 323	TES1
+TR41	Protein_domain_or_region 328 332	TES2
+TR33	Cell_transformation 35 47	transforming
+TR34	Positive_regulation 78 86	inducing
+TR35	Cell_transformation 87 102	immortalization
+TR62	Positive_regulation 64 73	essential
+TR63	Negative_regulation 107 118	suppressing
+TR58	Positive_regulation 943 951	promotes
+TR59	Cell_proliferation 957 963	growth
+TR60	Negative_regulation 977 984	prevent
+TR61	Gene_expression 1026 1036	expression
+TR46	Protein_domain_or_region 538 542	TES2
+TR47	Mutation 543 550	deleted
+TR48	Positive_regulation 551 558	induces
+TR49	Negative_regulation 561 568	limited
+TR50	Cell_proliferation 569 582	proliferation
+E1	Positive_regulation:TR45 Theme:T14
+E2	Positive_regulation:TR45 Theme:T13
+E3	Regulation:TR44 Theme:E1
+E4	Regulation:TR44 Theme:E2
+E5	Cell_proliferation:TR54 Theme:T21
+E6	Cell_transformation:TR55 Theme:T24
+E7	Cell_transformation:TR55 Theme:T23
+E8	Cell_transformation:TR38 Theme:T10
+E9	Positive_regulation:TR37 Cause:T8 Theme:E8
+E10	Positive_regulation:TR37 Theme:E8 Cause:T9
+E11	Cell_transformation:TR35 Theme:T5
+E12	Positive_regulation:TR34 Cause:T3 Theme:E11
+E13	Cell_proliferation:TR59 Theme:T29
+E14	Positive_regulation:TR58 Theme:E13 Cause:T27
+E15	Positive_regulation:TR58 Theme:E13 Cause:T28
+E16	Cell_proliferation:TR50 Theme:T17
+E17	Negative_regulation:TR49 Theme:E16
+E18	Positive_regulation:TR48 Theme:E17 Cause:T15

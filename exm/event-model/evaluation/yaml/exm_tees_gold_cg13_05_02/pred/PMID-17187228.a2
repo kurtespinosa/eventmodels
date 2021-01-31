@@ -1,0 +1,82 @@
+T71	Negative_regulation 1158 1168	diminished
+T72	Gene_expression 1173 1183	expression
+T73	Positive_regulation 1245 1252	induces
+T74	Metastasis 1259 1269	metastasis
+T75	Blood_vessel_development 1274 1286	angiogenesis
+T45	Blood_vessel_development 171 183	Angiogenesis
+T46	Cell_proliferation 238 251	proliferation
+T47	Binding 253 261	adhesion
+T48	Localization 263 272	migration
+T49	Breakdown 301 312	degradation
+T50	Positive_regulation 317 326	essential
+T51	Metastasis 337 347	metastasis
+T83	Regulation 212 220	involves
+T84	Catabolism 301 312	degradation
+T63	Metastasis 784 794	metastatic
+T64	Negative_regulation 830 839	decreased
+T65	Metastasis 916 926	metastasis
+T66	Planned_process 959 968	treatment
+T67	Negative_regulation 1008 1015	reduced
+T68	Gene_expression 1016 1026	expression
+T69	Blood_vessel_development 1084 1094	angiogenic
+T70	Blood_vessel_development 1109 1127	neovascularization
+T52	Negative_regulation 414 423	inhibited
+T53	Localization 458 467	migration
+T54	Negative_regulation 540 549	inhibited
+T55	Binding 550 558	adhesion
+T85	Negative_regulation 515 525	inhibition
+T56	Metastasis 613 623	metastasis
+T57	Positive_regulation 624 632	requires
+T58	Blood_vessel_development 633 645	angiogenesis
+T59	Negative_regulation 678 685	inhibit
+T60	Metastasis 686 696	metastases
+T61	Positive_regulation 697 704	induced
+T62	Planned_process 708 717	injection
+T76	Negative_regulation 1312 1322	inhibition
+T77	Metastasis 1342 1352	metastasis
+T78	Positive_regulation 1365 1371	caused
+T79	Negative_regulation 1375 1385	inhibition
+T80	Blood_vessel_development 1389 1407	neovascularization
+T81	Negative_regulation 1412 1421	reduction
+T82	Gene_expression 1450 1460	expression
+T39	Negative_regulation 40 48	inhibits
+T40	Metastasis 65 75	metastasis
+T41	Negative_regulation 84 94	inhibition
+T42	Blood_vessel_development 98 116	neovascularization
+T43	Negative_regulation 121 130	reduction
+T44	Gene_expression 159 169	expression
+E1	Gene_expression:T72 Theme:T32 Theme:T31
+E2	Gene_expression:T72 Theme:T32
+E3	Gene_expression:T72 Theme:T31
+E4	Blood_vessel_development:T75 
+E5	Negative_regulation:T71 Theme:E1 Cause:T30
+E6	Negative_regulation:T71 Theme:E2 Cause:T30
+E7	Negative_regulation:T71 Theme:E3 Cause:T30
+E8	Binding:T47 Theme:T5
+E9	Localization:T48 Theme:T5
+E10	Blood_vessel_development:T45 
+E11	Cell_proliferation:T46 Theme:T5
+E12	Metastasis:T51 Theme:T8
+E13	Breakdown:T49 Theme:T6
+E14	Breakdown:T49 Theme:T5
+E15	Breakdown:T49 Theme:T7
+E16	Positive_regulation:T50 Theme:E12 Cause:E10
+E17	Metastasis:T63 Theme:T20 ToLoc:T22
+E18	Metastasis:T63 ToLoc:T22
+E19	Metastasis:T65 Theme:T24
+E20	Gene_expression:T68 Theme:T27
+E21	Blood_vessel_development:T69 
+E22	Blood_vessel_development:T70 
+E23	Negative_regulation:T67 Cause:T26 Theme:E20
+E24	Localization:T53 Theme:T13
+E25	Metastasis:T56 Theme:T16
+E26	Blood_vessel_development:T58 
+E27	Positive_regulation:T57 Theme:E26 Cause:E26
+E28	Positive_regulation:T57 Cause:E26 Theme:E25
+E29	Gene_expression:T82 Theme:T38
+E30	Metastasis:T77 Theme:T36
+E31	Gene_expression:T44 Theme:T4
+E32	Blood_vessel_development:T42 
+E33	Metastasis:T40 Theme:T3
+E34	Negative_regulation:T41 Cause:T2 Theme:E32
+E35	Negative_regulation:T43 Cause:T2 Theme:E31

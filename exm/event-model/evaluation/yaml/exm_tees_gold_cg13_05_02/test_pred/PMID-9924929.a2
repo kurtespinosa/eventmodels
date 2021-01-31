@@ -1,0 +1,33 @@
+TR44	Regulation 1206 1210	role
+TR45	Development 1222 1235	morphogenesis
+TR46	Binding 1328 1340	interactions
+TR42	Localization 1147 1156	migration
+TR43	Localization 1161 1173	invasiveness
+TR32	Binding 471 480	interacts
+TR33	Positive_regulation 526 534	activate
+TR34	Binding 588 596	adhesion
+TR40	Development 861 874	morphogenesis
+TR41	Gene_expression 895 904	expressed
+TR27	Regulation 10 15	roles
+TR28	Development 45 56	development
+TR35	Gene_expression 611 621	expression
+TR36	Phosphorylation 646 661	phosphorylation
+TR37	Localization 734 743	spreading
+TR38	Cell_differentiation 750 765	differentiation
+TR39	Death 792 797	death
+TR30	Planned_process 301 309	cultured
+TR31	Binding 440 448	adhesion
+E1	Binding:TR46 Theme:T25
+E2	Localization:TR43 Theme:T24
+E3	Localization:TR42 Theme:T24
+E4	Binding:TR32 Theme:T13
+E5	Binding:TR34 Theme:T15
+E6	Positive_regulation:TR33 Theme:E5
+E7	Gene_expression:TR41 Theme:T21
+E8	Gene_expression:TR35 Theme:T16
+E9	Localization:TR37 Theme:T17
+E10	Phosphorylation:TR36 Theme:T16
+E11	Cell_differentiation:TR38 Theme:T18
+E12	Death:TR39 Theme:T20
+E13	Planned_process:TR30 Theme:T10
+E14	Binding:TR31 Theme:T12

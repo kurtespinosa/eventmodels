@@ -1,0 +1,103 @@
+TR68	Binding 725 732	binding
+TR69	Regulation 747 756	cooperate
+TR70	Cell_transformation 769 783	transformation
+TR99	Negative_regulation 652 661	abrogates
+TR100	Negative_regulation 708 717	defective
+TR54	Positive_regulation 303 312	stimulate
+TR55	Synthesis 317 326	synthesis
+TR56	Cell_proliferation 336 349	proliferation
+TR57	Positive_regulation 370 375	cause
+TR58	Death 387 392	death
+TR59	Positive_regulation 400 409	dependent
+TR60	Regulation 418 429	independent
+TR61	Cell_death 430 439	apoptosis
+TR72	Planned_process 963 973	Conversion
+TR73	Negative_regulation 1017 1024	reduced
+TR74	Cell_transformation 1025 1037	transforming
+TR75	Binding 1100 1108	interact
+TR76	Negative_regulation 1152 1161	defective
+TR77	Negative_regulation 1166 1177	suppression
+TR78	Cell_transformation 1185 1200	transactivation
+TR79	Positive_regulation 1185 1200	transactivation
+TR102	Mutation 1065 1071	mutant
+TR81	Negative_regulation 1361 1366	block
+TR82	Positive_regulation 1371 1378	induced
+TR83	Positive_regulation 1383 1392	dependent
+TR84	Cell_death 1393 1402	apoptosis
+TR85	Infection 1418 1426	infected
+TR86	Phosphorylation 1494 1509	phosphorylation
+TR87	Breakdown 1541 1554	fragmentation
+TR88	Death 1582 1587	death
+TR103	Mutation 1325 1334	wild-type
+TR62	Cell_transformation 498 512	transformation
+TR63	Negative_regulation 519 526	protect
+TR64	Positive_regulation 539 548	dependent
+TR65	Cell_death 549 558	apoptosis
+TR66	Binding 562 569	binding
+TR67	Negative_regulation 577 589	inactivating
+TR98	Regulation 465 469	role
+TR46	Regulation 0 10	Regulation
+TR47	Positive_regulation 18 27	dependent
+TR48	Cell_death 28 37	apoptosis
+TR49	Cell_transformation 76 90	transformation
+TR50	Positive_regulation 76 90	transformation
+TR51	Phosphorylation 94 109	phosphorylation
+TR97	Negative_regulation 55 65	repression
+TR89	Planned_process 1723 1729	fusion
+TR90	Gene_expression 1776 1783	absence
+TR104	Negative_regulation 1663 1673	repression
+TR105	Binding 1748 1755	binding
+TR106	Localization 1776 1783	absence
+TR71	Phosphorylation 811 826	phosphorylation
+TR101	Protein_domain_or_region 850 858	terminus
+TR91	Negative_regulation 1886 1896	inhibition
+TR92	Positive_regulation 1904 1913	dependent
+TR93	Cell_death 1914 1923	apoptosis
+TR94	Regulation 2021 2030	regulated
+TR95	Phosphorylation 2034 2049	phosphorylation
+TR96	Protein_domain_or_region 2057 2073	carboxy terminus
+TR107	Transcription 1942 1957	transcriptional
+TR108	Negative_regulation 1958 1968	repression
+TR109	Protein_domain_or_region 2065 2073	terminus
+TR52	Positive_regulation 262 268	induce
+TR53	Cell_transformation 274 288	transformation
+E1	Cell_proliferation:TR56 Theme:T12
+E2	Death:TR58 Theme:T13
+E3	Synthesis:TR55 Theme:T11
+E4	Positive_regulation:TR54 Cause:T10 Theme:E3
+E5	Positive_regulation:TR54 Cause:T10 Theme:E1
+E6	Mutation:TR102 Theme:T28
+E7	Cell_transformation:TR74 
+E8	Cell_transformation:TR78 
+E9	Positive_regulation:TR79 Theme:E8 Cause:T30
+E10	Negative_regulation:TR77 Theme:T30
+E11	Negative_regulation:TR77 Theme:E8
+E12	Negative_regulation:TR76 Theme:E10 Cause:T28
+E13	Negative_regulation:TR76 Theme:E11 Cause:T28
+E14	Phosphorylation:TR86 Theme:T32 Site:T37
+E15	Phosphorylation:TR86 Theme:T32
+E16	Infection:TR85 Theme:T35 Participant:T36
+E17	Death:TR88 Theme:T39
+E18	Breakdown:TR87 Theme:T38
+E19	Cell_death:TR84 
+E20	Positive_regulation:TR83 Theme:E19 Cause:T34
+E21	Positive_regulation:TR82 Theme:E19 Cause:T33
+E22	Positive_regulation:TR82 Cause:T33 Theme:E20
+E23	Negative_regulation:TR81 Theme:E19 Cause:T32
+E24	Negative_regulation:TR81 Cause:T32 Theme:E21
+E25	Negative_regulation:TR81 Cause:T32 Theme:E22
+E26	Negative_regulation:TR67 Cause:T16 Theme:T18
+E27	Cell_death:TR48 
+E28	Cell_transformation:TR49 Theme:T2
+E29	Positive_regulation:TR47 Cause:T1 Theme:E27
+E30	Gene_expression:TR90 Theme:T43
+E31	Localization:TR106 Theme:T43
+E32	Phosphorylation:TR71 Site:T24 Theme:T23
+E33	Phosphorylation:TR71 Site:T25 Theme:T23
+E34	Phosphorylation:TR71 Theme:T23
+E35	Transcription:TR107 Theme:T45
+E36	Phosphorylation:TR95 Theme:T45
+E37	Cell_death:TR93 
+E38	Regulation:TR94 Theme:E36
+E39	Positive_regulation:TR92 Theme:E37 Cause:T44
+E40	Negative_regulation:TR91 Theme:E37

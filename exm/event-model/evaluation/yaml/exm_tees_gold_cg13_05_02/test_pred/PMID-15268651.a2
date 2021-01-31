@@ -1,0 +1,28 @@
+TR23	Planned_process 26 35	treatment
+TR24	Breakdown 117 129	degeneration
+TR35	Planned_process 1092 1106	administration
+TR36	Positive_regulation 1188 1197	essential
+TR40	Planned_process 1768 1777	treatment
+TR30	Binding 838 846	affinity
+TR31	Dissociation 929 944	photoactivation
+TR32	Positive_regulation 945 952	results
+TR33	Breakdown 979 985	damage
+TR34	Development 999 1008	formation
+TR26	Blood_vessel_development 381 391	angiogenic
+TR27	Negative_regulation 392 402	properties
+TR28	Planned_process 432 441	treatment
+TR29	Breakdown 537 549	degeneration
+TR25	Breakdown 360 371	destruction
+TR37	Planned_process 1358 1372	administration
+E1	Breakdown:TR24 Theme:T3
+E2	Planned_process:TR40 Instrument:T22
+E3	Breakdown:TR33 Theme:T11
+E4	Development:TR34 Theme:T12
+E5	Positive_regulation:TR32 Theme:E4 Cause:T9
+E6	Positive_regulation:TR32 Cause:T9 Theme:E3
+E7	Blood_vessel_development:TR26 
+E8	Planned_process:TR28 Theme:T5
+E9	Breakdown:TR29 Theme:T6
+E10	Negative_regulation:TR27 Theme:E7 Cause:E8
+E11	Breakdown:TR25 Theme:T4
+E12	Planned_process:TR37 Instrument:T17

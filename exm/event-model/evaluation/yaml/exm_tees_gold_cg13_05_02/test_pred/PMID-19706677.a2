@@ -1,0 +1,79 @@
+TR72	Regulation 1401 1405	role
+TR73	Positive_regulation 1444 1452	mediated
+TR74	Regulation 1453 1463	regulation
+TR75	Phosphorylation 1475 1490	phosphorylation
+TR39	Phosphorylation 190 205	phosphorylation
+TR40	Pathway 262 270	pathways
+TR41	Blood_vessel_development 284 296	angiogenesis
+TR37	Regulation 9 18	regulates
+TR38	Phosphorylation 19 34	phosphorylation
+TR51	Planned_process 780 792	pretreatment
+TR52	Positive_regulation 793 802	increases
+TR53	Localization 825 839	colocalization
+TR42	Negative_regulation 410 417	inhibit
+TR43	Positive_regulation 423 430	induced
+TR44	Phosphorylation 431 446	phosphorylation
+TR45	Cell_proliferation 494 507	proliferation
+TR46	Localization 509 518	migration
+TR47	Blood_vessel_development 558 570	angiogenesis
+TR62	Phosphorylation 1133 1149	dephosphorylates
+TR63	Protein_domain_or_region 1161 1165	Y951
+TR64	Protein_domain_or_region 1167 1171	Y996
+TR65	Protein_domain_or_region 1176 1181	Y1059
+TR50	Localization 725 736	colocalizes
+TR54	Planned_process 953 967	administration
+TR55	Positive_regulation 968 973	leads
+TR56	Positive_regulation 977 986	increased
+TR57	Positive_regulation 992 999	induced
+TR58	Phosphorylation 1000 1015	phosphorylation
+TR59	Positive_regulation 1034 1043	increased
+TR60	Phosphorylation 1044 1059	phosphorylation
+TR61	Positive_regulation 1074 1083	increased
+TR48	Phosphorylation 629 644	phosphorylation
+TR49	Regulation 648 657	regulated
+TR66	Negative_regulation 1235 1242	impairs
+TR67	Negative_regulation 1266 1276	inhibition
+TR68	Positive_regulation 1285 1292	induced
+TR69	Phosphorylation 1293 1308	phosphorylation
+TR70	Phosphorylation 1343 1358	phosphorylation
+TR71	Localization 1363 1372	migration
+E1	Phosphorylation:TR75 Theme:T36
+E2	Regulation:TR74 Theme:E1
+E3	Regulation:TR72 Theme:E2 Cause:T34
+E4	Positive_regulation:TR73 Theme:E2 Cause:T35
+E5	Blood_vessel_development:TR41 
+E6	Phosphorylation:TR39 Theme:T4
+E7	Phosphorylation:TR39 Theme:T5
+E8	Phosphorylation:TR38 Theme:T2
+E9	Regulation:TR37 Theme:E8
+E10	Planned_process:TR51 Instrument:T18
+E11	Phosphorylation:TR44 Theme:T9
+E12	Phosphorylation:TR44 Theme:T8
+E13	Blood_vessel_development:TR47 
+E14	Cell_proliferation:TR45 Theme:T10
+E15	Positive_regulation:TR43 Cause:T7 Theme:E11
+E16	Positive_regulation:TR43 Cause:T7 Theme:E12
+E17	Positive_regulation:TR43 Theme:E11
+E18	Positive_regulation:TR43 Theme:E12
+E19	Negative_regulation:TR42 Cause:T6 Theme:E11
+E20	Negative_regulation:TR42 Cause:T6 Theme:E12
+E21	Negative_regulation:TR42 Cause:T6 Theme:E14
+E22	Negative_regulation:TR42 Cause:T6 Theme:E13
+E23	Phosphorylation:TR62 Theme:T28
+E24	Phosphorylation:TR62 Theme:T27
+E25	Positive_regulation:TR61 Theme:T26
+E26	Phosphorylation:TR60 Theme:T26
+E27	Phosphorylation:TR58 Theme:T25
+E28	Planned_process:TR54 Instrument:T23
+E29	Positive_regulation:TR57 Theme:E27 Cause:T24
+E30	Positive_regulation:TR57 Theme:E27
+E31	Positive_regulation:TR56 Theme:E27
+E32	Positive_regulation:TR59 Theme:E26
+E33	Phosphorylation:TR48 Theme:T12
+E34	Regulation:TR49 Cause:T13 Theme:E33
+E35	Localization:TR71 Theme:T33
+E36	Phosphorylation:TR69 Theme:T32
+E37	Phosphorylation:TR70 Theme:T33
+E38	Negative_regulation:TR67 Theme:E36 Cause:T30
+E39	Positive_regulation:TR68 Theme:E36 Cause:T31
+E40	Positive_regulation:TR68 Theme:E36

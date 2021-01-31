@@ -1,0 +1,53 @@
+T56	Planned_process 881 889	passages
+T57	Planned_process 921 928	culture
+T58	Planned_process 938 946	grafting
+T69	Positive_regulation 790 799	dependent
+T70	Positive_regulation 847 856	dependent
+T60	Death 1470 1477	survive
+T61	Planned_process 1523 1535	implantation
+T62	Gene_expression 1552 1562	synthesize
+T49	Planned_process 260 268	isolated
+T50	Planned_process 365 373	grafting
+T68	Cell_proliferation 292 302	maintained
+T59	Blood_vessel_development 1256 1268	vascularized
+T64	Blood_vessel_development 1876 1888	angiogenesis
+T65	Planned_process 1974 1981	grafted
+T72	Binding 1767 1779	interactions
+T73	Localization 1802 1811	migration
+T74	Localization 1840 1852	infiltration
+T55	Planned_process 598 610	implantation
+T51	Planned_process 456 464	cultured
+T52	Cell_proliferation 499 510	proliferate
+T53	Binding 560 567	contact
+T54	Negative_regulation 568 577	inhibited
+T48	Planned_process 0 22	Intracerebral grafting
+T66	Planned_process 14 22	grafting
+T67	Planned_process 26 34	cultured
+T71	Localization 1206 1213	present
+T63	Development 1720 1727	produce
+E1	Planned_process:T57 Theme:T21
+E2	Positive_regulation:T69 Theme:T19
+E3	Planned_process:T56 Theme:T21
+E4	Planned_process:T58 Instrument:T21
+E5	Death:T60 Theme:T36
+E6	Gene_expression:T62 Theme:T39 Theme:T38
+E7	Gene_expression:T62 Theme:T39
+E8	Gene_expression:T62 Theme:T38
+E9	Planned_process:T61 Theme:T37 Instrument:T36
+E10	Planned_process:T61 Instrument:T36
+E11	Cell_proliferation:T68 Theme:T9
+E12	Cell_proliferation:T68 Theme:T7
+E13	Planned_process:T49 Theme:T7
+E14	Blood_vessel_development:T59 AtLoc:T30
+E15	Blood_vessel_development:T64 
+E16	Localization:T74 Theme:T44
+E17	Planned_process:T65 Theme:T47 Instrument:T45
+E18	Planned_process:T55 Instrument:T17 Theme:T16
+E19	Planned_process:T51 Theme:T14
+E20	Cell_proliferation:T52 Theme:T14
+E21	Planned_process:T67 Theme:T1
+E22	Planned_process:T66 Instrument:T1
+E23	Planned_process:T48 Instrument:T1 Theme:T3
+E24	Localization:T71 Theme:T28
+E25	Localization:T71 Theme:T27
+E26	Development:T63 Theme:T42

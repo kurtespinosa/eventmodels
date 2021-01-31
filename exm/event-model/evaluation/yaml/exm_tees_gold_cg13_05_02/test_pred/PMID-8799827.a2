@@ -1,0 +1,70 @@
+TR53	Regulation 677 687	regulation
+TR54	Binding 717 729	interactions
+TR55	Cell_transformation 747 761	transformation
+TR56	Gene_expression 783 793	expression
+TR57	Gene_expression 880 890	expression
+TR69	Regulation 1225 1235	regulation
+TR70	Transcription 1264 1281	transcriptionally
+TR58	Localization 895 903	invasive
+TR59	Negative_regulation 956 969	downregulated
+TR60	Gene_expression 1008 1018	expression
+TR61	Negative_regulation 1023 1033	suppressed
+TR75	Binding 1461 1469	adhesion
+TR76	Regulation 1503 1511	affected
+TR77	Gene_expression 1526 1536	expression
+TR51	Negative_regulation 531 542	suppression
+TR52	Cell_transformation 595 609	transformation
+TR50	Binding 438 446	adhesion
+TR46	Positive_regulation 105 114	dependent
+TR47	Binding 125 133	adhesion
+TR48	Gene_expression 160 169	expressed
+TR71	Translation 1343 1356	translational
+TR72	Gene_expression 1412 1421	synthesis
+TR73	Translation 1412 1421	synthesis
+TR74	Positive_regulation 1437 1446	dependent
+TR78	Regulation 1581 1588	changes
+TR79	Gene_expression 1596 1606	expression
+TR80	Binding 1619 1627	adhesion
+TR81	Cell_transformation 1688 1702	transformation
+TR44	Gene_expression 11 21	expression
+TR45	Positive_regulation 70 79	dependent
+TR62	Planned_process 1048 1060	transfection
+TR63	Localization 1085 1093	invasive
+TR64	Positive_regulation 1112 1120	resulted
+TR65	Positive_regulation 1128 1140	upregulation
+TR66	Gene_expression 1155 1165	expression
+TR67	Negative_regulation 1186 1195	decreased
+TR68	Localization 1196 1208	invasiveness
+E1	Gene_expression:TR57 Theme:T26
+E2	Gene_expression:TR56 Theme:T24
+E3	Regulation:TR69 Theme:T33
+E4	Transcription:TR70 Theme:T34
+E5	Transcription:TR70 Theme:T33
+E6	Negative_regulation:TR59 Theme:T28
+E7	Gene_expression:TR60 Theme:T29
+E8	Localization:TR58 Theme:T27
+E9	Negative_regulation:TR61 Theme:E7
+E10	Gene_expression:TR77 Theme:T39
+E11	Cell_transformation:TR52 Theme:T19
+E12	Binding:TR50 Theme:T15 Theme2:T14
+E13	Binding:TR50 Theme:T14 Theme2:T15
+E14	Gene_expression:TR48 Theme:T4
+E15	Gene_expression:TR72 Theme:T35
+E16	Translation:TR73 Theme:T35
+E17	Positive_regulation:TR74 Theme:E15 Cause:E15
+E18	Positive_regulation:TR74 Theme:T36 Cause:E15
+E19	Cell_transformation:TR81 Theme:T43
+E20	Gene_expression:TR79 Theme:T42 Theme:T41
+E21	Gene_expression:TR79 Theme:T42
+E22	Gene_expression:TR79 Theme:T41
+E23	Regulation:TR78 Theme:E20
+E24	Regulation:TR78 Theme:E21
+E25	Regulation:TR78 Theme:E22
+E26	Gene_expression:TR44 Theme:T1
+E27	Positive_regulation:TR45 Cause:T3 Theme:E26
+E28	Positive_regulation:TR45 Theme:E26
+E29	Localization:TR63 Theme:T31
+E30	Planned_process:TR62 Theme:T31 Instrument:T30
+E31	Gene_expression:TR66 Theme:T32
+E32	Positive_regulation:TR65 Theme:E31
+E33	Positive_regulation:TR64 Cause:E30 Theme:E32

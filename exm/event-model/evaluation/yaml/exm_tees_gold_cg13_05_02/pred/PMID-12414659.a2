@@ -1,0 +1,88 @@
+T107	Growth 2122 2128	raised
+T77	Regulation 130 135	Roles
+T78	Binding 144 152	adhesion
+T79	Regulation 163 172	mediating
+T80	Binding 177 188	interaction
+T81	Blood_vessel_development 230 242	angiogenesis
+T82	Planned_process 313 321	cultured
+T83	Planned_process 367 375	cultured
+T97	Development 1381 1387	formed
+T98	Planned_process 1453 1467	cotransplanted
+T88	Planned_process 725 737	implantation
+T120	Positive_regulation 714 717	led
+T121	Regulation 801 809	mediated
+T99	Planned_process 1520 1532	supplemented
+T100	Blood_vessel_development 1564 1576	vascularized
+T101	Development 1614 1620	formed
+T89	Planned_process 856 864	cultured
+T90	Development 897 906	formation
+T91	Planned_process 912 921	coculture
+T122	Positive_regulation 951 954	led
+T123	Development 962 971	formation
+T85	Binding 514 522	adhesion
+T86	Positive_regulation 527 535	mediated
+T87	Gene_expression 657 666	expressed
+T118	Regulation 527 535	mediated
+T119	Gene_expression 611 620	expressed
+T72	Regulation 0 5	Roles
+T73	Binding 14 22	adhesion
+T74	Blood_vessel_development 42 54	angiogenesis
+T75	Positive_regulation 55 62	induced
+T76	Planned_process 66 83	cotransplantation
+T92	Development 1074 1087	morphogenesis
+T93	Negative_regulation 1092 1101	inhibited
+T94	Positive_regulation 1188 1191	led
+T95	Development 1199 1208	formation
+T96	Regulation 1245 1256	independent
+T104	Positive_regulation 1881 1889	produced
+T105	Negative_regulation 1899 1908	reduction
+T106	Blood_vessel_development 1952 1964	vascularized
+T84	Binding 455 463	adhesion
+T108	Binding 2180 2191	interaction
+T109	Blood_vessel_development 2246 2264	angiomorphogenesis
+T110	Positive_regulation 2275 2284	dependent
+T111	Binding 2307 2315	adhesion
+T112	Regulation 2326 2335	mediating
+T113	Binding 2340 2348	adhesion
+T114	Negative_regulation 2387 2397	inhibition
+T115	Negative_regulation 2418 2425	retards
+T116	Growth 2432 2438	growth
+T117	Blood_vessel_development 2443 2455	angiogenesis
+T102	Development 1710 1716	formed
+T103	Growth 1783 1788	grown
+E1	Growth:T107 Theme:T63
+E2	Planned_process:T82 Theme:T12 Theme2:T15
+E3	Planned_process:T82 Theme:T12 Theme2:T11
+E4	Planned_process:T82 Theme:T15 Theme2:T11
+E5	Blood_vessel_development:T81 AtLoc:T9
+E6	Planned_process:T83 Theme:T15 Theme2:T14
+E7	Binding:T78 Theme:T6
+E8	Regulation:T77 Theme:E5
+E9	Development:T97 Theme:T41
+E10	Planned_process:T98 Instrument:T43 Theme:T44 Instrument:T42
+E11	Regulation:T121 Cause:T28 Theme:T27
+E12	Planned_process:T88 Instrument:T25 Theme:T26
+E13	Blood_vessel_development:T100 AtLoc:T46
+E14	Development:T101 Theme:T49
+E15	Planned_process:T99 Theme:T46 Instrument:T48
+E16	Development:T123 Theme:T33
+E17	Planned_process:T91 Instrument:T31 Instrument:T32
+E18	Development:T90 Theme:T30
+E19	Planned_process:T89 Instrument:T29
+E20	Positive_regulation:T122 Theme:E16
+E21	Gene_expression:T87 Theme:T23
+E22	Binding:T73 Theme:T1
+E23	Planned_process:T76 Instrument:T4 Theme:T5 Instrument:T3
+E24	Blood_vessel_development:T74 AtLoc:T2
+E25	Regulation:T72 Theme:E24
+E26	Positive_regulation:T75 Theme:E24 Cause:E23
+E27	Development:T95 Theme:T39
+E28	Regulation:T96 Cause:T40 Theme:E27
+E29	Blood_vessel_development:T106 AtLoc:T60
+E30	Negative_regulation:T105 Theme:T60
+E31	Positive_regulation:T104 Theme:E30
+E32	Blood_vessel_development:T117 AtLoc:T71
+E33	Binding:T111 Theme:T68
+E34	Growth:T116 Theme:T71
+E35	Development:T102 Theme:T54
+E36	Growth:T103 Theme:T55

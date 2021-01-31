@@ -1,0 +1,42 @@
+TR60	Localization 675 681	uptake
+TR74	Metabolism 1556 1559	use
+TR61	Localization 815 821	uptake
+TR73	Metabolism 859 862	use
+TR62	Localization 1043 1049	uptake
+TR63	Localization 1209 1215	uptake
+TR64	Positive_regulation 1239 1248	increased
+TR58	Positive_regulation 274 282	critical
+TR59	Planned_process 292 302	treatments
+TR70	Localization 1991 1997	uptake
+TR75	Negative_regulation 1892 1899	reduced
+TR71	Regulation 372 379	effects
+TR72	Metabolism 409 419	metabolism
+TR67	Positive_regulation 1772 1778	induce
+TR68	Regulation 1785 1792	changes
+TR69	Localization 1804 1810	uptake
+TR65	Positive_regulation 1391 1401	stimulated
+TR66	Localization 1474 1480	uptake
+TR56	Regulation 8 15	effects
+TR57	Metabolism 64 74	metabolism
+E1	Localization:TR60 Theme:T21
+E2	Metabolism:TR74 Theme:T39
+E3	Metabolism:TR73 Theme:T28
+E4	Localization:TR61 Theme:T25 ToLoc:T26
+E5	Localization:TR63 Theme:T31 ToLoc:T32
+E6	Localization:TR62 Theme:T30
+E7	Positive_regulation:TR64 Cause:T33 Theme:E5
+E8	Planned_process:TR59 Theme:T9
+E9	Positive_regulation:TR58 Cause:T10 Theme:E8
+E10	Localization:TR70 ToLoc:T53 Theme:T52
+E11	Metabolism:TR72 Theme:T15
+E12	Metabolism:TR72 Theme:T16
+E13	Regulation:TR71 Theme:E11 Cause:T12
+E14	Regulation:TR71 Theme:E12 Cause:T12
+E15	Localization:TR69 ToLoc:T46 Theme:T45
+E16	Regulation:TR68 Theme:E15
+E17	Positive_regulation:TR67 Cause:T44 Theme:E16
+E18	Localization:TR66 ToLoc:T35 Theme:T36
+E19	Positive_regulation:TR65 Cause:T34 Theme:E18
+E20	Metabolism:TR57 Theme:T4
+E21	Regulation:TR56 Cause:T1 Theme:T2
+E22	Regulation:TR56 Cause:T1 Theme:E20

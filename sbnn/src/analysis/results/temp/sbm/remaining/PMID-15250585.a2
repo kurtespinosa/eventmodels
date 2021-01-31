@@ -1,0 +1,25 @@
+T33	Positive_regulation 153 160	induces
+T34	Blood_vessel_development 161 173	angiogenesis
+T35	Development 179 190	development
+T36	Positive_regulation 356 367	upregulated
+T37	Breakdown 519 528	breakdown
+T38	Breakdown 750 759	breakdown
+T39	Positive_regulation 964 973	increases
+T40	Positive_regulation 1074 1083	Increases
+T41	Positive_regulation 1098 1108	contribute
+T42	Breakdown 1136 1145	breakdown
+T43	Negative_regulation 1311 1318	protect
+T44	Breakdown 1341 1347	damage
+E1	Positive_regulation:T33 Cause:T3 Theme:E2
+E2	Blood_vessel_development:T34
+E3	Development:T35 Theme:T5
+E4	Positive_regulation:T36 Theme:T12
+E5	Breakdown:T37 Theme:T16
+E6	Breakdown:T38 Theme:T19
+E7	Positive_regulation:T39 Theme:T21
+E8	Positive_regulation:T40 Theme:T26
+E9	Positive_regulation:T41 Cause:E8 Theme:E10
+E10	Breakdown:T42 Theme:T27
+E11	Negative_regulation:T43 Theme:E12
+E12	Breakdown:T44 Theme:T29
+E13	Positive_regulation:T33 Cause:T4 Theme:E2

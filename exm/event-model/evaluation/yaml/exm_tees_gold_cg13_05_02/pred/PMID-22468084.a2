@@ -1,0 +1,35 @@
+T64	Positive_regulation 1097 1110	up-regulation
+T65	Mutation 1202 1220	gene amplification
+T71	Mutation 1207 1220	amplification
+T63	Cell_proliferation 1068 1081	proliferation
+T59	Gene_expression 571 581	expression
+T56	Gene_expression 117 127	expression
+T57	Pathway 287 295	pathways
+T66	Gene_expression 1709 1719	expression
+T62	Gene_expression 787 793	absent
+T67	Positive_regulation 1772 1785	up-regulation
+T68	Regulation 1931 1941	modulation
+T69	Cell_proliferation 1950 1963	proliferation
+T70	Carcinogenesis 1979 1993	carcinogenesis
+T55	Gene_expression 0 10	Expression
+T60	Cell_proliferation 669 682	proliferation
+T61	Cell_proliferation 730 743	proliferation
+E1	Mutation:T71 Theme:T31 AtLoc:T28
+E2	Mutation:T65 Theme:T31 AtLoc:T28
+E3	Positive_regulation:T64 Theme:T27
+E4	Cell_proliferation:T63 Theme:T23
+E5	Gene_expression:T59 Theme:T15
+E6	Gene_expression:T66 Theme:T47 Theme:T46
+E7	Gene_expression:T66 Theme:T47
+E8	Gene_expression:T66 Theme:T46
+E9	Gene_expression:T62 Theme:T18
+E10	Positive_regulation:T67 Theme:T50
+E11	Positive_regulation:T67 Theme:T49
+E12	Cell_proliferation:T69 Theme:T53
+E13	Carcinogenesis:T70 AtLoc:T54
+E14	Regulation:T68 Theme:E12
+E15	Gene_expression:T55 Theme:T2 Theme:T1
+E16	Gene_expression:T55 Theme:T2
+E17	Gene_expression:T55 Theme:T1
+E18	Cell_proliferation:T60 Theme:T17
+E19	Cell_proliferation:T61 Theme:T17

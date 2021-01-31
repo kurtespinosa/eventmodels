@@ -1,0 +1,50 @@
+TR41	Negative_regulation 781 798	inhibitory effect
+TR42	Gene_expression 806 816	expression
+TR43	Synthesis 852 861	synthesis
+TR48	Negative_regulation 792 798	effect
+TR49	Gene_expression 852 861	synthesis
+TR47	Negative_regulation 1004 1010	effect
+TR31	Positive_regulation 10 17	induces
+TR32	Cell_death 18 27	apoptosis
+TR33	Negative_regulation 32 40	inhibits
+TR34	Transcription 41 51	expression
+TR44	Transcription 863 873	Expression
+TR45	Synthesis 892 901	synthesis
+TR46	Negative_regulation 917 926	inhibited
+TR50	Translation 863 873	Expression
+TR39	Planned_process 572 579	treated
+TR40	Cell_death 616 625	apoptosis
+TR35	Positive_regulation 158 165	induces
+TR36	Cell_death 166 175	apoptosis
+TR37	Breakdown 400 413	fragmentation
+TR38	Planned_process 466 473	treated
+E1	Gene_expression:TR49 Theme:T22
+E2	Gene_expression:TR49 Theme:T21
+E3	Synthesis:TR43 Theme:T23
+E4	Gene_expression:TR42 Theme:T22
+E5	Gene_expression:TR42 Theme:T21
+E6	Negative_regulation:TR41 Theme:E4 Cause:T20
+E7	Negative_regulation:TR41 Theme:E5 Cause:T20
+E8	Negative_regulation:TR41 Cause:T20 Theme:E3
+E9	Negative_regulation:TR48 Theme:E1 Cause:T20
+E10	Negative_regulation:TR48 Theme:E2 Cause:T20
+E11	Negative_regulation:TR48 Theme:E4 Cause:T20
+E12	Negative_regulation:TR48 Theme:E5 Cause:T20
+E13	Negative_regulation:TR47 Theme:T28 Cause:T27
+E14	Cell_death:TR32 
+E15	Transcription:TR34 Theme:T3
+E16	Negative_regulation:TR33 Cause:T2 Theme:E15
+E17	Positive_regulation:TR31 Cause:T2 Theme:E14
+E18	Translation:TR50 Theme:T24
+E19	Transcription:TR44 Theme:T24
+E20	Synthesis:TR45 Theme:T25
+E21	Negative_regulation:TR46 Cause:T26 Theme:E20
+E22	Negative_regulation:TR46 Cause:T26 Theme:E19
+E23	Planned_process:TR39 Instrument:T17 Theme:T16
+E24	Cell_death:TR40 Theme:T16
+E25	Breakdown:TR37 Theme:T13
+E26	Planned_process:TR38 Theme:T14 Instrument:T15
+E27	Planned_process:TR38 Instrument:T15
+E28	Cell_death:TR36 
+E29	Positive_regulation:TR35 Cause:T7 Theme:E28
+E30	Positive_regulation:TR35 Cause:T8 Theme:E28

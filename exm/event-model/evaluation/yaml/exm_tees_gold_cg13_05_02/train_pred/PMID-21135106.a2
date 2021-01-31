@@ -1,0 +1,55 @@
+TR56	Gene_expression 525 534	expressed
+TR57	Binding 605 617	interactions
+TR49	Regulation 57 64	mediate
+TR50	Binding 65 77	interactions
+TR72	Negative_regulation 1382 1390	Ablation
+TR73	Negative_regulation 1434 1443	abolished
+TR74	Binding 1459 1471	interactions
+TR75	Localization 1490 1498	invasion
+TR86	Mutation 1382 1390	Ablation
+TR76	Gene_expression 1555 1565	expression
+TR77	Regulation 1593 1602	mediating
+TR78	Binding 1613 1621	contacts
+TR79	Binding 1676 1688	interactions
+TR80	Positive_regulation 1689 1699	contribute
+TR81	Localization 1742 1750	invasion
+TR87	Regulation 1585 1589	role
+TR65	Binding 1150 1161	interaction
+TR66	Positive_regulation 1240 1248	resulted
+TR67	Positive_regulation 1252 1260	enhanced
+TR68	Gene_expression 1261 1271	expression
+TR58	Regulation 676 680	role
+TR59	Binding 699 710	interaction
+TR60	Planned_process 762 770	produced
+TR83	Protein_domain_or_region 840 844	DC-9
+TR63	Binding 1014 1022	adhesion
+TR64	Regulation 1042 1050	mediated
+TR85	Regulation 1087 1098	independent
+TR51	Localization 176 182	invade
+TR52	Metastasis 208 219	metastasize
+TR69	Negative_regulation 1292 1301	Silencing
+TR70	Negative_regulation 1344 1351	reduced
+TR71	Binding 1357 1365	adhesion
+TR53	Regulation 313 319	modify
+TR54	Cell_proliferation 394 400	growth
+TR55	Localization 405 414	migration
+TR61	Binding 884 891	adhered
+TR62	Positive_regulation 924 933	dependent
+TR84	Positive_regulation 965 973	mediated
+E1	Gene_expression:TR56 Theme:T12
+E2	Mutation:TR86 Theme:T39
+E3	Binding:TR74 Theme:T41 Theme2:T40
+E4	Binding:TR74 Theme:T40 Theme2:T41
+E5	Localization:TR75 Theme:T39
+E6	Localization:TR75 Theme:T42
+E7	Binding:TR78 Theme:T47 Theme2:T46
+E8	Binding:TR78 Theme:T46 Theme2:T47
+E9	Planned_process:TR60 Theme:T23
+E10	Binding:TR63 Theme:T29
+E11	Localization:TR51 Theme:T6 ToLoc:T7
+E12	Localization:TR51 Theme:T6
+E13	Metastasis:TR52 ToLoc:T7
+E14	Localization:TR55 Theme:T9
+E15	Localization:TR55 Theme:T8
+E16	Cell_proliferation:TR54 Theme:T9
+E17	Cell_proliferation:TR54 Theme:T8

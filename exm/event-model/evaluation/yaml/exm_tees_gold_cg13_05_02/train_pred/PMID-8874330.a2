@@ -1,0 +1,47 @@
+TR50	Binding 1423 1434	interaction
+TR62	Planned_process 1189 1197	Addition
+TR51	Binding 1598 1609	interaction
+TR38	Gene_expression 9 23	overexpression
+TR39	Positive_regulation 9 23	overexpression
+TR40	Negative_regulation 24 33	decreases
+TR41	Metastasis 125 135	metastases
+TR54	Gene_expression 1822 1836	overexpression
+TR55	Positive_regulation 1822 1836	overexpression
+TR44	Gene_expression 522 535	overexpressed
+TR45	Positive_regulation 522 535	overexpressed
+TR48	Gene_expression 1048 1062	overexpression
+TR49	Positive_regulation 1048 1062	overexpression
+TR59	Negative_regulation 1142 1150	reducing
+TR60	Carcinogenesis 1155 1159	risk
+TR61	Metastasis 1163 1173	recurrence
+TR46	Gene_expression 888 901	overexpressed
+TR47	Positive_regulation 888 901	overexpressed
+TR42	Gene_expression 206 220	overexpression
+TR43	Positive_regulation 206 220	overexpression
+TR56	Binding 178 189	interaction
+TR57	Gene_expression 252 260	negative
+TR58	Localization 252 260	negative
+TR52	Gene_expression 1685 1693	negative
+TR53	Gene_expression 1752 1760	positive
+TR63	Regulation 1719 1725	effect
+E1	Planned_process:TR62 Instrument:T22
+E2	Metastasis:TR41 Theme:T3 ToLoc:T4
+E3	Metastasis:TR41 ToLoc:T4
+E4	Gene_expression:TR38 Theme:T1
+E5	Positive_regulation:TR39 Theme:E4
+E6	Negative_regulation:TR40 Cause:E4 Theme:T2
+E7	Gene_expression:TR54 Theme:T36
+E8	Positive_regulation:TR55 Theme:E7
+E9	Gene_expression:TR44 Theme:T10
+E10	Positive_regulation:TR45 Theme:E9
+E11	Carcinogenesis:TR60 
+E12	Gene_expression:TR48 Theme:T20
+E13	Metastasis:TR61 
+E14	Negative_regulation:TR59 Cause:T21 Theme:E11
+E15	Positive_regulation:TR49 Theme:E12
+E16	Gene_expression:TR46 Theme:T15
+E17	Positive_regulation:TR47 Theme:E16
+E18	Gene_expression:TR42 Theme:T5
+E19	Positive_regulation:TR43 Theme:E18
+E20	Gene_expression:TR52 Theme:T31
+E21	Gene_expression:TR53 Theme:T32

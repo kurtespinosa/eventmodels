@@ -1,0 +1,62 @@
+T51	Transcription 1250 1265	transcriptional
+T52	Negative_regulation 1266 1276	repression
+T53	DNA_domain_or_region 1297 1305	promoter
+T54	DNA_methylation 1306 1322	hypermethylation
+T55	Gene_expression 1346 1350	loss
+T56	Regulation 1440 1450	modulation
+T57	Death 1463 1468	death
+T58	Cell_death 1472 1481	apoptosis
+T59	Carcinogenesis 1495 1508	tumorigenesis
+T65	Positive_regulation 1287 1293	caused
+T66	DNA_methylation 1378 1389	methylation
+T39	DNA_methylation 538 554	hypermethylation
+T40	DNA_domain_or_region 569 577	promoter
+T41	DNA_domain_or_region 581 587	exon 1
+T42	Gene_expression 601 611	expression
+T43	DNA_domain_or_region 697 705	promoter
+T44	DNA_methylation 706 717	methylation
+T62	DNA_domain_or_region 581 585	exon
+T45	Cell_death 739 748	apoptotic
+T36	DNA_methylation 389 405	hypermethylation
+T37	Gene_expression 417 427	expression
+T38	Mutation 444 474	12q13.1 loss of heterozygosity
+T60	Mutation 452 456	loss
+T61	Mutation 460 474	heterozygosity
+T46	DNA_methylation 809 820	methylation
+T47	DNA_methylation 833 844	methylation
+T35	Regulation 282 293	alterations
+T48	Death 1041 1049	survival
+T63	DNA_methylation 962 973	methylation
+T64	Metastasis 1062 1072	recurrence
+T32	Gene_expression 162 172	expression
+T33	Negative_regulation 207 214	reduced
+T34	DNA_methylation 218 234	hypermethylation
+T49	DNA_methylation 1074 1090	Hypermethylation
+T50	DNA_domain_or_region 1102 1110	promoter
+T28	Negative_regulation 0 9	Defective
+T29	Gene_expression 10 20	expression
+T30	DNA_domain_or_region 47 55	promoter
+T31	DNA_methylation 56 67	methylation
+E1	Death:T57 Theme:T26
+E2	Carcinogenesis:T59 Theme:T27
+E3	Cell_death:T58 
+E4	Transcription:T51 Theme:T23
+E5	Regulation:T56 Theme:E1 Cause:E3
+E6	Gene_expression:T42 Theme:T10
+E7	Cell_death:T45 
+E8	DNA_methylation:T47 Theme:T17
+E9	DNA_methylation:T47 Theme:T14
+E10	DNA_methylation:T47 Theme:T18
+E11	DNA_methylation:T47 Theme:T16
+E12	DNA_methylation:T47 Theme:T15
+E13	DNA_methylation:T47 Theme:T19
+E14	Regulation:T35 Theme:T5
+E15	Death:T48 Theme:T20
+E16	Metastasis:T64 
+E17	Gene_expression:T32 Theme:T3
+E18	DNA_methylation:T34 Theme:T3
+E19	Negative_regulation:T33 Cause:E18 Theme:E17
+E20	DNA_methylation:T49 Theme:T22
+E21	DNA_methylation:T31 Theme:T1
+E22	Gene_expression:T29 Theme:T1
+E23	Negative_regulation:T28 Theme:E22

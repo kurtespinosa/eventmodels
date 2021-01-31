@@ -1,0 +1,97 @@
+T37	Regulation 9 18	regulates
+T38	Phosphorylation 19 34	phosphorylation
+T39	Regulation 57 65	engaging
+T40	Positive_regulation 276 280	lead
+T41	Blood_vessel_development 284 296	angiogenesis
+T42	Negative_regulation 410 417	inhibit
+T43	Positive_regulation 423 430	induced
+T44	Phosphorylation 431 446	phosphorylation
+T45	Cell_proliferation 494 507	proliferation
+T46	Localization 509 518	migration
+T47	Blood_vessel_development 558 570	angiogenesis
+T48	Phosphorylation 629 644	phosphorylation
+T49	Regulation 648 657	regulated
+T50	Localization 725 736	colocalizes
+T51	Planned_process 780 792	pretreatment
+T52	Positive_regulation 793 802	increases
+T53	Localization 807 820	translocation
+T54	Localization 825 839	colocalization
+T55	Planned_process 953 967	administration
+T56	Positive_regulation 968 973	leads
+T57	Positive_regulation 977 986	increased
+T58	Positive_regulation 992 999	induced
+T59	Phosphorylation 1000 1015	phosphorylation
+T60	Positive_regulation 1034 1043	increased
+T61	Phosphorylation 1044 1059	phosphorylation
+T62	Positive_regulation 1074 1083	increased
+T63	Dephosphorylation 1133 1149	dephosphorylates
+T64	Positive_regulation 1133 1149	dephosphorylates
+T65	Protein_domain_or_region 1161 1165	Y951
+T66	Protein_domain_or_region 1167 1171	Y996
+T67	Protein_domain_or_region 1176 1181	Y1059
+T68	Protein_domain_or_region 1191 1196	Y1175
+T69	Planned_process 1225 1234	knockdown
+T70	Negative_regulation 1235 1242	impairs
+T71	Negative_regulation 1266 1276	inhibition
+T72	Positive_regulation 1285 1292	induced
+T73	Phosphorylation 1293 1308	phosphorylation
+T74	Phosphorylation 1343 1358	phosphorylation
+T75	Localization 1363 1372	migration
+T76	Regulation 1401 1405	role
+T77	Regulation 1453 1463	regulation
+T78	Phosphorylation 1475 1490	phosphorylation
+E1	Regulation:T37 Cause:E3 Theme:E2
+E4	Positive_regulation:T40 Theme:E5
+E6	Negative_regulation:T42 Cause:T6 Theme:E8
+E7	Positive_regulation:T43 Cause:T7 Theme:E8
+E13	Regulation:T49 Cause:T13 Theme:E12
+E16	Positive_regulation:T52 Cause:E15 Theme:E17
+E20	Positive_regulation:T56 Cause:E19 Theme:E21
+E21	Positive_regulation:T57 Theme:E23
+E22	Positive_regulation:T58 Cause:T24 Theme:E23
+E24	Positive_regulation:T60 Theme:E25
+E28	Positive_regulation:T64 Cause:T27 Theme:E27
+E30	Negative_regulation:T70 Cause:E29 Theme:E31
+E31	Negative_regulation:T71 Cause:T30 Theme:E33
+E32	Positive_regulation:T72 Cause:T31 Theme:E33
+E36	Regulation:T76 Cause:T34 Theme:E37
+E37	Regulation:T77 Cause:T35 Theme:E38
+E39	Negative_regulation:T42 Cause:T6 Theme:E45
+E40	Negative_regulation:T42 Cause:T6 Theme:E9
+E41	Negative_regulation:T42 Cause:T6 Theme:E10
+E42	Negative_regulation:T42 Cause:T6 Theme:E11
+E44	Positive_regulation:T43 Cause:T7 Theme:E45
+E47	Positive_regulation:T52 Cause:E15 Theme:E50
+E48	Positive_regulation:T52 Cause:E15 Theme:E18
+E49	Positive_regulation:T52 Cause:E15 Theme:E51
+E55	Positive_regulation:T64 Cause:T27 Theme:E52
+E56	Positive_regulation:T64 Cause:T27 Theme:E53
+E57	Positive_regulation:T64 Cause:T27 Theme:E54
+E58	Negative_regulation:T70 Cause:E29 Theme:E34
+E59	Negative_regulation:T70 Cause:E29 Theme:E35
+E25	Phosphorylation:T61 Theme:T25
+E45	Phosphorylation:T44 Theme:T9
+E11	Blood_vessel_development:T47
+E35	Localization:T75 Theme:T33
+E9	Cell_proliferation:T45 Theme:T10
+E52	Dephosphorylation:T63 Theme:T28 Site:T66
+E50	Localization:T53 Theme:T20
+E27	Dephosphorylation:T63 Theme:T28 Site:T65
+E17	Localization:T53 Theme:T19
+E8	Phosphorylation:T44 Theme:T8
+E3	Regulation:T39 Theme:T3 Cause:T1
+E51	Localization:T54 Theme:T20 Theme2:T21 AtLoc:T22
+E5	Blood_vessel_development:T41
+E23	Phosphorylation:T59 Theme:T25
+E33	Phosphorylation:T73 Theme:T32
+E29	Planned_process:T69 Theme:T29
+E15	Planned_process:T51 Instrument:T18
+E18	Localization:T54 Theme:T19 Theme2:T21 AtLoc:T22
+E10	Localization:T46 Theme:T10
+E2	Phosphorylation:T38 Theme:T2
+E38	Phosphorylation:T78 Theme:T36
+E34	Phosphorylation:T74 Theme:T33
+E12	Phosphorylation:T48 Theme:T12
+E54	Dephosphorylation:T63 Theme:T28 Site:T68
+E19	Planned_process:T55 Instrument:T23
+E53	Dephosphorylation:T63 Theme:T28 Site:T67

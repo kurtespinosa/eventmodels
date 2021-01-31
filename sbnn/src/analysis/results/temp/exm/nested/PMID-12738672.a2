@@ -1,0 +1,95 @@
+T47	Cell_death 4 13	apoptotic
+T48	Negative_regulation 14 20	effect
+T49	Binding 49 56	Binding
+T50	Positive_regulation 148 154	induce
+T51	Positive_regulation 239 247	mediated
+T52	Blood_vessel_development 276 288	angiogenesis
+T53	Metastasis 296 306	metastasis
+T54	Regulation 398 404	effect
+T55	Cell_death 417 426	apoptosis
+T56	Positive_regulation 446 453	induced
+T57	Cell_death 454 463	apoptosis
+T58	Cell_death 503 512	apoptotic
+T59	Breakdown 564 575	degradation
+T60	Positive_regulation 581 591	activation
+T61	Negative_regulation 621 630	decreased
+T62	Cell_death 656 665	apoptotic
+T63	Breakdown 699 710	degradation
+T64	Cell_death 788 797	apoptotic
+T65	Negative_regulation 798 804	effect
+T66	Negative_regulation 858 868	attenuated
+T67	Positive_regulation 879 889	activation
+T68	Positive_regulation 897 904	induced
+T69	Cell_death 909 918	apoptotic
+T70	Negative_regulation 919 925	effect
+T71	Positive_regulation 930 939	dependent
+T72	Regulation 979 990	independent
+T73	Positive_regulation 1024 1031	induced
+T74	Death 1037 1045	survival
+T75	Positive_regulation 1066 1076	activation
+T76	Negative_regulation 1092 1101	inhibited
+T77	Negative_regulation 1159 1167	Blocking
+T78	Positive_regulation 1172 1182	activation
+T79	Negative_regulation 1310 1318	impaired
+T80	Positive_regulation 1352 1359	promote
+T81	Death 1365 1373	survival
+T82	Binding 1396 1403	binding
+T83	Negative_regulation 1419 1437	protection against
+T84	Cell_death 1438 1447	apoptosis
+T85	Positive_regulation 1448 1455	induced
+T86	Positive_regulation 1504 1514	activation
+T87	Pathway 1533 1540	pathway
+T88	Pathway 1578 1585	pathway
+E2	Negative_regulation:T48 Cause:T1 Theme:E1
+E4	Positive_regulation:T50 Cause:E3 Theme:E6
+E5	Positive_regulation:T51 Cause:T8 Theme:E6
+E8	Regulation:T54 Cause:T10 Theme:E9
+E10	Positive_regulation:T56 Theme:E11
+E15	Negative_regulation:T61 Cause:T18 Theme:E16
+E19	Negative_regulation:T65 Cause:T23 Theme:E18
+E20	Negative_regulation:T66 Theme:E21 Cause:T24
+E22	Positive_regulation:T68 Cause:T26 Theme:E24
+E24	Negative_regulation:T70 Theme:E23
+E25	Positive_regulation:T71 Cause:T27 Theme:E24
+E26	Regulation:T72 Theme:E24 Cause:T28
+E27	Positive_regulation:T73 Cause:T30 Theme:E28
+E30	Negative_regulation:T76 Theme:E28 Cause:T34
+E31	Negative_regulation:T77 Theme:E32 Cause:T39
+E33	Negative_regulation:T79 Cause:E31 Theme:E34
+E34	Positive_regulation:T80 Cause:T40 Theme:E35
+E37	Negative_regulation:T83 Theme:E38 Cause:E36
+E39	Positive_regulation:T85 Theme:E38
+E40	Positive_regulation:T86 Theme:E41
+E46	Positive_regulation:T50 Cause:E43 Theme:E6
+E47	Positive_regulation:T50 Cause:E44 Theme:E6
+E48	Positive_regulation:T50 Cause:E45 Theme:E6
+E49	Positive_regulation:T50 Cause:E3 Theme:E7
+E50	Positive_regulation:T50 Cause:E43 Theme:E7
+E51	Positive_regulation:T50 Cause:E44 Theme:E7
+E52	Positive_regulation:T50 Cause:E45 Theme:E7
+E53	Positive_regulation:T51 Cause:T8 Theme:E7
+E54	Regulation:T72 Theme:E24 Cause:T29
+E55	Negative_regulation:T77 Theme:E56 Cause:T39
+E57	Negative_regulation:T79 Cause:E55 Theme:E34
+E58	Positive_regulation:T86 Theme:E42
+E45	Binding:T49 Theme:T3 Theme2:T6
+E44	Binding:T49 Theme:T3 Theme2:T5
+E11	Cell_death:T57 Theme:T12
+E35	Death:T81 Theme:T41
+E9	Cell_death:T55
+E16	Cell_death:T62 Theme:T19
+E56	Positive_regulation:T78 Theme:T36
+E32	Positive_regulation:T78 Theme:T35
+E3	Binding:T49 Theme:T2 Theme2:T5
+E42	Pathway:T88 Participant:T46
+E1	Cell_death:T47
+E23	Cell_death:T69
+E6	Blood_vessel_development:T52
+E21	Positive_regulation:T67 Theme:T25
+E18	Cell_death:T64
+E28	Death:T74 Theme:T31
+E38	Cell_death:T84
+E41	Pathway:T87 Participant:T44 Participant2:T45
+E43	Binding:T49 Theme:T2 Theme2:T6
+E36	Binding:T82 Theme:T42 Theme2:T43
+E7	Metastasis:T53 Theme:T9

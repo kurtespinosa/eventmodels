@@ -1,0 +1,62 @@
+T53	Negative_regulation 0 10	Suppressed
+T54	Cell_transformation 11 25	transformation
+T55	Positive_regulation 30 37	induced
+T56	Cell_differentiation 38 53	differentiation
+T57	Gene_expression 67 81	overexpressing
+T58	Positive_regulation 67 81	overexpressing
+T59	Mutation 118 131	amplification
+T60	Gene_expression 136 150	overexpression
+T61	Positive_regulation 136 150	overexpression
+T62	Negative_regulation 532 542	suppresses
+T63	Positive_regulation 543 562	autophosphorylation
+T64	Positive_regulation 629 638	resulting
+T65	Phosphorylation 651 670	hypophosphorylation
+T66	Gene_expression 695 709	overexpressing
+T67	Positive_regulation 695 709	overexpressing
+T68	Negative_regulation 775 784	repressed
+T69	Negative_regulation 825 834	inhibited
+T70	Cell_proliferation 886 892	growth
+T71	Gene_expression 906 920	overexpressing
+T72	Positive_regulation 906 920	overexpressing
+T73	Negative_regulation 955 965	inhibition
+T74	Positive_regulation 1080 1087	induced
+T75	Cell_differentiation 1088 1103	differentiation
+T76	Gene_expression 1117 1131	overexpressing
+T77	Positive_regulation 1117 1131	overexpressing
+T78	Negative_regulation 1410 1418	inhibits
+T79	Negative_regulation 1473 1483	suppresses
+T80	Cell_proliferation 1484 1490	growth
+T81	Positive_regulation 1495 1502	induces
+T82	Cell_differentiation 1503 1518	differentiation
+T83	Gene_expression 1532 1546	overexpressing
+T84	Positive_regulation 1532 1546	overexpressing
+T85	Gene_expression 1651 1665	overexpressing
+T86	Positive_regulation 1651 1665	overexpressing
+E1	Negative_regulation:T53 Theme:E2 Cause:T4
+E2	Cell_transformation:T54 AtLoc:T3
+E3	Positive_regulation:T55 Theme:E4 Cause:T4
+E4	Cell_differentiation:T56 Theme:T3
+E7	Mutation:T59 Theme:T5
+E8	Gene_expression:T60 Theme:T5
+E10	Negative_regulation:T62 Theme:E11 Cause:T16
+E11	Positive_regulation:T63 Theme:T18
+E12	Positive_regulation:T64 Cause:E10 Theme:E13
+E13	Phosphorylation:T65 Theme:T22 Site:T21
+E16	Negative_regulation:T68 Cause:T26 Theme:T28
+E17	Negative_regulation:T69 Cause:T26 Theme:E18
+E18	Cell_proliferation:T70 Theme:T31
+E26	Negative_regulation:T78 Cause:T42 Theme:T43
+E27	Negative_regulation:T79 Cause:T42 Theme:E28
+E28	Cell_proliferation:T80 Theme:T48
+E29	Positive_regulation:T81 Cause:T42 Theme:E30
+E30	Cell_differentiation:T82 Theme:T48
+E37	Mutation:T59 Theme:T6
+E38	Gene_expression:T60 Theme:T6
+E40	Negative_regulation:T62 Theme:E11 Cause:T15
+E41	Negative_regulation:T62 Theme:E44 Cause:T16
+E42	Negative_regulation:T62 Theme:E44 Cause:T15
+E44	Positive_regulation:T63 Theme:T19
+E46	Positive_regulation:T64 Cause:E40 Theme:E13
+E47	Positive_regulation:T64 Cause:E41 Theme:E13
+E48	Positive_regulation:T64 Cause:E42 Theme:E13
+E55	Negative_regulation:T78 Cause:T42 Theme:T44

@@ -1,0 +1,31 @@
+TR23	Positive_regulation 12 19	Induced
+TR24	Blood_vessel_development 20 32	angiogenesis
+TR39	Blood_vessel_development 1746 1756	angiogenic
+TR40	Planned_process 1793 1798	treat
+TR31	Regulation 689 693	role
+TR32	Metastasis 810 823	node-positive
+TR28	Planned_process 426 435	untreated
+TR33	Blood_vessel_development 884 896	angiogenesis
+TR34	Planned_process 938 945	surgery
+TR35	Metastasis 984 997	node-positive
+TR25	Planned_process 237 248	extirpation
+TR26	Positive_regulation 294 305	accelerates
+TR27	Metastasis 337 350	node-positive
+TR29	Positive_regulation 474 485	stimulation
+TR30	Blood_vessel_development 489 501	angiogenesis
+TR36	Positive_regulation 1317 1328	Stimulation
+TR37	Negative_regulation 1373 1380	removal
+TR38	Planned_process 1373 1380	removal
+E1	Blood_vessel_development:TR24 
+E2	Positive_regulation:TR23 Theme:E1
+E3	Blood_vessel_development:TR39 
+E4	Planned_process:TR40 Theme:T18
+E5	Metastasis:TR32 
+E6	Planned_process:TR28 Theme:T6
+E7	Blood_vessel_development:TR33 AtLoc:T10
+E8	Metastasis:TR35 
+E9	Metastasis:TR27 
+E10	Blood_vessel_development:TR30 AtLoc:T7
+E11	Positive_regulation:TR29 Theme:E10
+E12	Positive_regulation:TR29 Theme:T7
+E13	Planned_process:TR38 Theme:T16

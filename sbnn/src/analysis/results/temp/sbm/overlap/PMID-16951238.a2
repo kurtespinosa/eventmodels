@@ -1,0 +1,36 @@
+T34	Planned_process 88 95	therapy
+T35	Blood_vessel_development 191 203	Angiogenesis
+T36	Positive_regulation 207 216	increased
+T37	Negative_regulation 316 326	inhibition
+T38	Planned_process 342 354	chemotherapy
+T39	Blood_vessel_development 427 439	angiogenesis
+T40	Planned_process 824 834	pretreated
+T41	Planned_process 982 992	transplant
+T42	Planned_process 1504 1514	pretreated
+T43	Planned_process 1534 1543	treatment
+T44	Planned_process 1624 1631	therapy
+T45	Negative_regulation 1786 1793	decline
+T46	Positive_regulation 1821 1829	increase
+T47	Negative_regulation 1872 1880	achieved
+T48	Blood_vessel_development 1895 1905	angiogenic
+T49	Planned_process 2010 2020	pretreated
+T50	Negative_regulation 2137 2144	decline
+T51	Negative_regulation 2248 2258	inhibiting
+T52	Blood_vessel_development 2259 2271	angiogenesis
+E1	Planned_process:T34 Instrument:T2 Theme:T3
+E2	Blood_vessel_development:T35
+E3	Positive_regulation:T36 Theme:E2
+E4	Negative_regulation:T37 Theme:E2 Cause:T6
+E7	Planned_process:T40 Theme:T12
+E8	Planned_process:T41 Instrument:T14 Theme:T12
+E9	Planned_process:T42 Theme:T19
+E10	Planned_process:T43 Theme:T19
+E11	Planned_process:T44 Theme:T19
+E12	Negative_regulation:T45 Theme:T24
+E13	Positive_regulation:T46 Theme:T24
+E16	Planned_process:T49 Theme:T29 Instrument:T28
+E18	Negative_regulation:T51 Theme:E19 Cause:T27
+E19	Blood_vessel_development:T52
+E20	Planned_process:T34 Instrument:T1 Theme:T3
+E21	Planned_process:T49 Theme:T29 Instrument:T27
+E22	Negative_regulation:T51 Theme:E19 Cause:T28

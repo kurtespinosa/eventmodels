@@ -1,0 +1,49 @@
+TR34	Carcinogenesis 507 521	carcinogenesis
+TR35	Carcinogenesis 603 617	carcinogenesis
+TR36	Regulation 700 710	regulating
+TR37	Cell_proliferation 716 729	proliferation
+TR39	Positive_regulation 992 1000	activate
+TR40	Transcription 1001 1014	transcription
+TR41	DNA_domain_or_region 1043 1050	element
+TR38	Pathway 857 863	system
+TR29	Carcinogenesis 97 111	carcinogenesis
+TR42	Regulation 1114 1123	regulated
+TR43	Negative_regulation 1164 1174	protection
+TR44	Negative_regulation 1251 1261	preventing
+TR45	Carcinogenesis 1262 1276	carcinogenesis
+TR30	Mutation 248 259	dysfunction
+TR31	Mutation 314 325	dysfunction
+TR32	Carcinogenesis 336 348	carcinogenic
+TR47	Positive_regulation 1398 1408	activation
+TR48	Mutation 1424 1433	mutations
+TR49	Positive_regulation 1521 1528	induced
+TR50	Gene_expression 1529 1539	expression
+TR51	Positive_regulation 1561 1567	favors
+TR33	Positive_regulation 453 463	initiating
+TR27	Carcinogenesis 0 14	Carcinogenesis
+TR28	Regulation 35 45	regulation
+TR46	Positive_regulation 1296 1305	enhancing
+E1	Cell_proliferation:TR37 Theme:T9
+E2	Carcinogenesis:TR34 
+E3	Carcinogenesis:TR35 
+E4	Regulation:TR36 Theme:E1
+E5	Transcription:TR40 Theme:T15
+E6	Transcription:TR40 Theme:T14
+E7	Transcription:TR40 Theme:T13
+E8	Transcription:TR40 Theme:T16
+E9	Positive_regulation:TR39 Theme:E5
+E10	Positive_regulation:TR39 Theme:E6
+E11	Positive_regulation:TR39 Theme:E7
+E12	Positive_regulation:TR39 Theme:E8
+E13	Carcinogenesis:TR29 
+E14	Carcinogenesis:TR45 
+E15	Negative_regulation:TR43 Theme:T19
+E16	Negative_regulation:TR43 Theme:T18
+E17	Negative_regulation:TR44 Theme:E14
+E18	Carcinogenesis:TR32 AtLoc:T3
+E19	Gene_expression:TR50 Theme:T25
+E20	Positive_regulation:TR51 Theme:E19 Cause:E19
+E21	Positive_regulation:TR49 Theme:E19
+E22	Positive_regulation:TR33 Theme:T7
+E23	Carcinogenesis:TR27 
+E24	Positive_regulation:TR46 Theme:T20

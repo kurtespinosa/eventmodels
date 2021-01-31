@@ -1,0 +1,33 @@
+TR47	Planned_process 1999 2010	distraction
+TR39	Development 855 861	formed
+TR37	Growth 189 195	growth
+TR38	Planned_process 235 268	vertical distraction osteogenesis
+TR49	Regulation 146 152	effect
+TR50	Planned_process 256 268	osteogenesis
+TR42	Negative_regulation 1577 1587	disruption
+TR43	Blood_vessel_development 1591 1603	angiogenesis
+TR44	Positive_regulation 1677 1688	stimulation
+TR45	Blood_vessel_development 1710 1722	angiogenesis
+TR51	Regulation 1698 1706	involved
+TR40	Negative_regulation 1141 1146	delay
+TR41	Blood_vessel_development 1150 1162	angiogenesis
+TR46	Development 1976 1985	formation
+TR35	Development 0 9	Formation
+TR36	Planned_process 29 62	vertical distraction osteogenesis
+TR48	Planned_process 50 62	osteogenesis
+E1	Planned_process:TR47 Theme:T33
+E2	Development:TR39 Theme:T15
+E3	Planned_process:TR50 Theme:T7
+E4	Growth:TR37 Theme:T5
+E5	Positive_regulation:TR44 Theme:T29
+E6	Blood_vessel_development:TR45 
+E7	Blood_vessel_development:TR43 AtLoc:T28
+E8	Blood_vessel_development:TR43 
+E9	Negative_regulation:TR42 Theme:E7
+E10	Negative_regulation:TR42 Theme:E8
+E11	Blood_vessel_development:TR41 
+E12	Negative_regulation:TR40 Theme:E11
+E13	Development:TR46 Theme:T31
+E14	Development:TR35 Theme:T1
+E15	Planned_process:TR48 Theme:T3
+E16	Planned_process:TR36 Theme:T3

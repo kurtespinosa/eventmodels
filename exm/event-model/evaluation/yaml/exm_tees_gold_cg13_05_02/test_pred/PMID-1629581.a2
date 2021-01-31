@@ -1,0 +1,27 @@
+TR26	Development 18 29	development
+TR27	Positive_regulation 48 55	induced
+TR35	Binding 744 751	binding
+TR36	Cell_proliferation 824 837	proliferation
+TR28	Development 110 121	development
+TR29	Planned_process 178 185	exposed
+TR32	Regulation 447 454	Changes
+TR33	Development 540 551	development
+TR30	Planned_process 299 313	administration
+TR31	Binding 432 439	binding
+TR34	Development 628 637	developed
+TR37	Development 913 924	development
+TR38	Binding 986 993	binding
+TR39	Growth 1048 1054	growth
+E1	Development:TR26 Theme:T1
+E2	Positive_regulation:TR27 Cause:T2 Theme:E1
+E3	Positive_regulation:TR27 Theme:E1
+E4	Binding:TR35 Theme:T20
+E5	Cell_proliferation:TR36 Theme:T21
+E6	Development:TR28 Theme:T4
+E7	Development:TR33 Theme:T15
+E8	Planned_process:TR30 Instrument:T9 Theme:T10
+E9	Binding:TR31 Theme:T12
+E10	Development:TR34 Theme:T16
+E11	Growth:TR39 Theme:T25
+E12	Development:TR37 Theme:T22
+E13	Binding:TR38 Theme:T24

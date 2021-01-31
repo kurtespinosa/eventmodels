@@ -1,0 +1,110 @@
+TR101	Positive_regulation 1639 1646	induced
+TR102	Positive_regulation 1653 1663	activation
+TR103	Positive_regulation 1664 1673	increases
+TR104	Carcinogenesis 1679 1692	tumorigenesis
+TR105	Negative_regulation 1701 1711	inhibitory
+TR106	Phosphorylation 1712 1727	phosphorylation
+TR107	Regulation 1744 1755	maintenance
+TR117	Negative_regulation 1761 1772	suppression
+TR118	Positive_regulation 1806 1815	dependent
+TR59	Positive_regulation 122 131	activated
+TR60	Positive_regulation 163 168	cause
+TR81	Gene_expression 921 931	expression
+TR82	Regulation 1038 1049	maintenance
+TR83	Negative_regulation 1069 1079	suppresses
+TR84	Pathway 1085 1090	cycle
+TR85	Negative_regulation 1091 1097	arrest
+TR113	Negative_regulation 942 951	prevented
+TR90	Phosphorylation 1350 1364	phosphorylates
+TR91	Positive_regulation 1350 1364	phosphorylates
+TR92	Regulation 1384 1390	effect
+TR93	Pathway 1445 1454	signaling
+TR94	Pathway 1478 1483	cycle
+TR95	Negative_regulation 1484 1490	arrest
+TR55	Negative_regulation 6 16	suppresses
+TR56	Breakdown 21 27	damage
+TR57	Positive_regulation 65 72	induced
+TR58	Carcinogenesis 84 97	tumorigenesis
+TR108	Positive_regulation 28 35	induced
+TR96	Mutation 1513 1521	ablation
+TR97	Negative_regulation 1522 1529	reduced
+TR98	Positive_regulation 1537 1544	induced
+TR99	Positive_regulation 1545 1555	activation
+TR100	Negative_regulation 1570 1580	inhibition
+TR115	Negative_regulation 1513 1521	ablation
+TR116	Positive_regulation 1593 1602	increased
+TR61	Positive_regulation 225 235	activation
+TR62	Regulation 236 247	contributes
+TR63	Carcinogenesis 267 280	tumorigenesis
+TR64	Negative_regulation 284 295	suppressing
+TR65	Pathway 301 306	cycle
+TR66	Negative_regulation 307 313	arrest
+TR67	Negative_regulation 348 358	inhibition
+TR109	Positive_regulation 416 424	resulted
+TR68	Negative_regulation 489 499	Inhibition
+TR69	Positive_regulation 510 517	induced
+TR70	Positive_regulation 518 528	activation
+TR71	Positive_regulation 543 551	resulted
+TR72	Negative_regulation 611 620	decreased
+TR73	Pathway 640 645	cycle
+TR74	Regulation 675 682	altered
+TR75	Pathway 688 693	cycle
+TR76	Regulation 694 704	regulation
+TR77	Negative_regulation 708 718	inhibition
+TR78	Negative_regulation 757 767	inhibition
+TR79	Mutation 771 787	genetic deletion
+TR80	Negative_regulation 815 822	reduced
+TR110	Mutation 779 787	deletion
+TR111	Positive_regulation 841 850	increased
+TR112	Negative_regulation 859 865	arrest
+TR86	Positive_regulation 1178 1188	activation
+TR87	Positive_regulation 1285 1294	increased
+TR88	Negative_regulation 1295 1305	inhibitory
+TR89	Phosphorylation 1306 1321	phosphorylation
+TR114	Mutation 1264 1271	Mutated
+E1	Positive_regulation:TR102 Theme:T49
+E2	Regulation:TR107 Theme:T52
+E3	Phosphorylation:TR106 Theme:T51
+E4	Positive_regulation:TR101 Theme:E1
+E5	Negative_regulation:TR105 Theme:T51 Cause:E3
+E6	Positive_regulation:TR59 Theme:T5
+E7	Positive_regulation:TR60 Theme:T6 Cause:E6
+E8	Positive_regulation:TR60 Theme:T5 Cause:E6
+E9	Regulation:TR82 Theme:T29 Cause:T30
+E10	Gene_expression:TR81 Theme:T26
+E11	Pathway:TR84 Theme:T31
+E12	Negative_regulation:TR85 Theme:E11
+E13	Negative_regulation:TR85 Theme:T26
+E14	Negative_regulation:TR83 Theme:E12 Cause:E9
+E15	Negative_regulation:TR83 Theme:E13 Cause:E9
+E16	Phosphorylation:TR90 Site:T39 Theme:T38
+E17	Phosphorylation:TR90 Theme:T38
+E18	Positive_regulation:TR91 Theme:E16 Cause:T37
+E19	Positive_regulation:TR91 Theme:E17 Cause:T37
+E20	Breakdown:TR56 Theme:T2
+E21	Carcinogenesis:TR58 AtLoc:T4
+E22	Positive_regulation:TR57 Theme:E21
+E23	Negative_regulation:TR55 Cause:T1 Theme:E20
+E24	Mutation:TR96 Theme:T45
+E25	Negative_regulation:TR100 Theme:T47
+E26	Negative_regulation:TR100 Theme:T48
+E27	Positive_regulation:TR99 Theme:T46
+E28	Negative_regulation:TR115 Theme:T45
+E29	Negative_regulation:TR97 Theme:E27 Cause:E24
+E30	Positive_regulation:TR98 Theme:E27
+E31	Positive_regulation:TR61 Theme:T7
+E32	Negative_regulation:TR67 Theme:T10
+E33	Negative_regulation:TR77 Theme:T20
+E34	Regulation:TR74 Theme:T19 Cause:E33
+E35	Mutation:TR79 Theme:T22
+E36	Mutation:TR110 Theme:T22
+E37	Negative_regulation:TR78 Theme:T22
+E38	Positive_regulation:TR86 Theme:T33
+E39	Phosphorylation:TR89 Theme:T35 Site:T36
+E40	Phosphorylation:TR89 Theme:T35
+E41	Positive_regulation:TR87 Cause:E38 Theme:E39
+E42	Positive_regulation:TR87 Cause:E38 Theme:E40
+E43	Negative_regulation:TR88 Theme:T35 Cause:E41
+E44	Negative_regulation:TR88 Theme:T35 Cause:E42
+E45	Negative_regulation:TR88 Theme:T35 Cause:E39
+E46	Negative_regulation:TR88 Theme:T35 Cause:E40

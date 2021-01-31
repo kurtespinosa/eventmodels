@@ -1,0 +1,71 @@
+T80	Positive_regulation 1547 1557	activation
+T81	Protein_processing 1596 1604	cleavage
+T91	Catabolism 1596 1604	cleavage
+T78	Localization 1467 1479	translocated
+T79	Planned_process 1521 1530	treatment
+T66	Negative_regulation 492 500	activity
+T89	Cell_proliferation 684 690	growth
+T90	Negative_regulation 691 701	inhibition
+T68	Positive_regulation 903 910	induces
+T69	Death 926 931	death
+T70	Localization 1015 1028	translocation
+T71	Breakdown 1038 1050	condensation
+T72	Breakdown 1051 1064	fragmentation
+T73	Development 1085 1094	formation
+T65	Negative_regulation 250 259	inhibited
+T64	Negative_regulation 171 180	functions
+T61	Positive_regulation 8 15	induces
+T62	Localization 43 50	release
+T63	Cell_death 62 71	apoptosis
+T67	Negative_regulation 816 824	activity
+T82	Negative_regulation 1714 1728	downregulation
+T83	Negative_regulation 1783 1790	reduced
+T84	Protein_processing 1796 1804	cleavage
+T85	Positive_regulation 1819 1829	activation
+T92	Catabolism 1796 1804	cleavage
+T86	Positive_regulation 1894 1902	triggers
+T87	Cell_death 1903 1912	apoptosis
+T88	Pathway 1947 1974	intrinsic apoptotic pathway
+T93	Pathway 1967 1974	pathway
+T74	Localization 1191 1198	release
+T75	Planned_process 1263 1272	treatment
+T76	Positive_regulation 1360 1367	trigger
+T77	Localization 1395 1402	release
+E1	Positive_regulation:T80 Theme:T47
+E2	Positive_regulation:T80 Theme:T48
+E3	Positive_regulation:T80 Theme:T49
+E4	Protein_processing:T81 Theme:T51
+E5	Protein_processing:T81 Theme:T50
+E6	Catabolism:T91 Theme:T51
+E7	Catabolism:T91 Theme:T50
+E8	Planned_process:T79 Instrument:T46
+E9	Negative_regulation:T66 Theme:T17 Cause:T16
+E10	Cell_proliferation:T89 Theme:T24
+E11	Negative_regulation:T90 Theme:E10 Cause:T16
+E12	Breakdown:T71 Theme:T32
+E13	Breakdown:T71 Theme:T29
+E14	Development:T73 Theme:T32
+E15	Development:T73 Theme:T33
+E16	Death:T69 Theme:T29
+E17	Breakdown:T72 Theme:T32
+E18	Positive_regulation:T68 Theme:E16 Cause:T28
+E19	Localization:T70 Theme:T31 ToLoc:T30
+E20	Negative_regulation:T64 Theme:T7 Cause:T6
+E21	Cell_death:T63 Theme:T5
+E22	Localization:T62 FromLoc:T2 Theme:T3
+E23	Localization:T62 Theme:T3
+E24	Positive_regulation:T61 Cause:T1 Theme:E22
+E25	Positive_regulation:T61 Cause:T1 Theme:E23
+E26	Positive_regulation:T61 Cause:T1 Theme:E21
+E27	Negative_regulation:T67 Cause:T26 Theme:T25
+E28	Catabolism:T92 Theme:T56
+E29	Protein_processing:T84 Theme:T56
+E30	Positive_regulation:T85 Theme:T53
+E31	Positive_regulation:T85 Theme:T55
+E32	Positive_regulation:T85 Theme:T57
+E33	Positive_regulation:T85 Theme:T54
+E34	Cell_death:T87 Theme:T60
+E35	Planned_process:T75 Instrument:T37
+E36	Localization:T74 FromLoc:T35 Theme:T36
+E37	Localization:T77 Theme:T41 FromLoc:T40
+E38	Positive_regulation:T76 Cause:T38 Theme:E37

@@ -1,0 +1,45 @@
+T39	Death 0 7	Killing
+T40	Planned_process 120 151	Targeted antibody-based therapy
+T41	Planned_process 182 187	treat
+T42	Planned_process 247 254	treated
+T43	Positive_regulation 377 384	undergo
+T44	Cell_death 385 394	apoptosis
+T45	Positive_regulation 475 481	induce
+T46	Cell_death 493 502	apoptosis
+T47	Localization 509 519	recruiting
+T48	Positive_regulation 561 571	activating
+T49	Positive_regulation 640 649	dependent
+T50	Pathway 674 691	signaling pathway
+T51	Localization 699 708	expelling
+T52	Negative_regulation 789 799	inhibiting
+T53	Positive_regulation 831 838	induced
+T54	Positive_regulation 839 849	activation
+T55	Pathway 931 939	pathways
+T56	Negative_regulation 982 993	compromised
+T57	Pathway 1023 1030	cascade
+T58	Positive_regulation 1034 1043	activated
+T59	Planned_process 1047 1054	treated
+T60	Gene_expression 1115 1124	expressed
+T61	Breakdown 1261 1267	damage
+T62	Planned_process 1349 1358	targeting
+T63	Planned_process 1438 1458	therapeutic approach
+E2	Planned_process:T40 Theme:T4
+E3	Planned_process:T41 Theme:T4
+E7	Positive_regulation:T45 Theme:E8 Cause:E10
+E8	Cell_death:T46
+E9	Localization:T47 Theme:T13 ToLoc:T14
+E10	Positive_regulation:T48 Theme:T15
+E11	Positive_regulation:T49 Cause:T16 Theme:E12
+E12	Pathway:T50 Participant:T17
+E13	Localization:T51 FromLoc:T20 Theme:T18
+E14	Negative_regulation:T52 Theme:E16
+E15	Positive_regulation:T53 Theme:E16
+E16	Positive_regulation:T54 Theme:E17
+E17	Pathway:T55 Participant:T21 Participant2:T22 Participant3:T23
+E26	Positive_regulation:T45 Theme:E8 Cause:E9
+E27	Positive_regulation:T45 Theme:E8 Cause:E31
+E28	Positive_regulation:T45 Theme:E8 Cause:E13
+E29	Positive_regulation:T45 Theme:E8 Cause:E14
+E30	Positive_regulation:T45 Theme:E8 Cause:E32
+E31	Positive_regulation:T48 Theme:E12
+E32	Localization:T51 FromLoc:T20 Theme:T19

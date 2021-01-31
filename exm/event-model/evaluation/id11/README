@@ -1,0 +1,76 @@
+This package contains the evaluation tools for the BioNLP Shared Task 2011
+Infectious Diseases (ID) main task.
+
+For a description of the task, please see the task homepage
+
+    http://2011.bionlp-st.org/home/infectious-diseases
+
+There are three scripts in this package:
+
+- evaluation.py : evaluation script
+- config.py     : evaluation settings
+- subset.py     : script for generating an annotation subset
+
+This is a beta release of these scripts, which have been developed and
+tested only on a single architecture. Please allow for possible remaining
+problems and report any errors, surprising results or other issues to
+sampo.pyysalo@gmail.com.
+
+----------
+
+Usage:
+
+Given the reference (gold) annotations in the directory gold/ and
+predicted annotations in the directory submission/, evaluation using
+the primary ID full task criteria can be performed as
+
+    python evaluation.py -s -p -r gold submission/*.a2
+
+where "-s" specifies "soft" (approximate) boundary matching, "-p"
+partial recursive matching, and "-r" identifies the directory with the
+reference data.
+
+To perform evaluation of the "core" ID task under the same criteria,
+it is necessary to first prepare the core subset of both the reference
+data and (if any non-core annotations are predicted) the predicted
+annotations, e.g. as follows (assuming bash shell)
+
+    cp -r gold gold-core
+    cp -r submission submission-core
+    for d in gold-core submission-core; do
+        python subset.py -s core -m -a Site,AtLoc,ToLoc,CSite $d/*.a2   
+    done
+
+this will create for each .a2 file in the directories gold-core/ and
+submission-core/ a corresponding .a2.core file where events have been
+stripped of extra arguments (Site,AtLoc,ToLoc and CSite) and
+modifications (Negation and Speculation).
+
+The original .a2 files can then be replaced with the core ones in these
+directories with e.g.
+
+    for d in gold-core submission-core; do
+        for f in $d/*.a2.core; do
+            mv $f ${f%.core};
+        done
+    done
+
+and evaluation can then be run normally
+
+    python evaluation.py -s -p -r gold-core submission-core/*.a2
+
+the script also supports the "single partial penalty" evaluation
+criterion ("-1" option) as well as an experimental feature for
+generating a merge of the submission and gold annotations for visual
+comparison ("-o" option). Files generated with the -o option can be
+visualized with the BioNLP Shared Task annotation visualization tool
+stav:
+
+    http://github.com/TsujiiLaboratory/stav
+
+----------
+
+This software is copyright (c) 2010-2011 BioNLP Shared Task organizers
+and distributed under the open source MIT license:
+
+    http://www.opensource.org/licenses/mit-license

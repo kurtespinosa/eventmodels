@@ -1,0 +1,72 @@
+TR35	Positive_regulation 456 464	Elevated
+TR36	Localization 507 516	secretion
+TR37	Positive_regulation 536 544	enhanced
+TR38	Localization 545 556	recruitment
+TR39	Development 625 645	phenotypic reversion
+TR40	Gene_expression 669 681	reexpression
+TR41	Negative_regulation 702 706	lost
+TR42	Carcinogenesis 710 731	malignant progression
+TR43	Negative_regulation 747 757	attenuated
+TR44	Gene_expression 763 773	expression
+TR45	Regulation 811 822	independent
+TR46	Negative_regulation 835 842	reduced
+TR47	Localization 846 855	migration
+TR64	Negative_regulation 636 645	reversion
+TR65	Carcinogenesis 720 731	progression
+TR60	Carcinogenesis 1432 1453	malignant progression
+TR71	Remodeling 1420 1428	polarity
+TR72	Carcinogenesis 1442 1453	progression
+TR73	Development 1442 1453	progression
+TR33	Carcinogenesis 242 256	carcinogenesis
+TR34	Cell_transformation 286 297	transformed
+TR61	Cell_proliferation 272 285	proliferative
+TR62	Gene_expression 322 329	express
+TR63	Blood_vessel_development 365 375	angiogenic
+TR29	Localization 17 26	migration
+TR30	Gene_expression 66 76	expression
+TR48	Positive_regulation 903 909	forced
+TR49	Cell_proliferation 910 923	proliferation
+TR50	Positive_regulation 965 971	induce
+TR51	Gene_expression 977 987	expression
+TR52	Localization 995 1006	recruitment
+TR53	Negative_regulation 1064 1072	reverted
+TR66	Localization 927 936	polarized
+TR67	Cell_proliferation 1047 1062	growth-arrested
+TR54	Negative_regulation 1105 1115	disrupting
+TR55	Positive_regulation 1130 1139	activates
+TR56	Blood_vessel_development 1144 1154	angiogenic
+TR57	Negative_regulation 1263 1270	reduces
+TR58	Gene_expression 1276 1286	expression
+TR59	Positive_regulation 1294 1304	activation
+TR68	Localization 1174 1181	absence
+TR69	Cell_proliferation 1185 1198	proliferation
+TR70	Remodeling 1228 1240	organization
+TR31	Localization 127 137	Recruiting
+TR32	Development 190 201	progression
+E1	Localization:TR38 Theme:T12
+E2	Localization:TR38 Theme:T13
+E3	Localization:TR47 Theme:T18
+E4	Localization:TR47 Theme:T16
+E5	Development:TR39 Theme:T14
+E6	Carcinogenesis:TR65 
+E7	Carcinogenesis:TR42 
+E8	Negative_regulation:TR41 Theme:E5 Cause:E7
+E9	Remodeling:TR71 Theme:T28
+E10	Carcinogenesis:TR60 
+E11	Carcinogenesis:TR72 
+E12	Cell_proliferation:TR61 Theme:T7
+E13	Carcinogenesis:TR33 AtLoc:T6
+E14	Blood_vessel_development:TR63 
+E15	Cell_transformation:TR34 Theme:T7
+E16	Gene_expression:TR30 Theme:T2
+E17	Localization:TR29 Theme:T1
+E18	Localization:TR52 Theme:T19
+E19	Localization:TR52 Theme:T21
+E20	Negative_regulation:TR53 Theme:T22
+E21	Cell_proliferation:TR67 Theme:T22
+E22	Localization:TR66 Theme:T19
+E23	Gene_expression:TR51 Theme:T20
+E24	Blood_vessel_development:TR56 
+E25	Gene_expression:TR58 Theme:T25
+E26	Development:TR32 Theme:T5
+E27	Localization:TR31 Theme:T4

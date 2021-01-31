@@ -1,0 +1,31 @@
+T58	Mutation 234 243	mutations
+T59	Mutation 259 273	translocations
+T67	Mutation 1264 1273	mutations
+T68	Mutation 1291 1297	fusion
+T65	Mutation 1027 1040	translocation
+T66	Planned_process 1200 1207	therapy
+T62	Mutation 772 780	mutation
+T63	Mutation 849 858	mutations
+T64	Mutation 914 921	trisomy
+T75	Development 940 951	progression
+T60	Mutation 557 564	trisomy
+T61	Mutation 629 644	point mutations
+T73	Mutation 635 644	mutations
+T74	Binding 726 733	binding
+T53	Binding 10 17	binding
+T54	Mutation 18 27	mutations
+T55	Mutation 45 60	cryptic fusions
+T56	Mutation 124 131	trisomy
+T57	Development 164 173	evolution
+T72	Mutation 53 60	fusions
+T69	Death 1340 1348	survival
+T70	Mutation 1429 1442	abnormalities
+T71	Development 1499 1510	progression
+T76	Regulation 1390 1396	effect
+T77	Negative_regulation 1466 1472	arrest
+E1	Mutation:T67 Theme:T43
+E2	Planned_process:T66 Theme:T39
+E3	Mutation:T63 Theme:T31
+E4	Development:T57 Theme:T9
+E5	Development:T71 Theme:T50
+E6	Development:T71 Theme:T49

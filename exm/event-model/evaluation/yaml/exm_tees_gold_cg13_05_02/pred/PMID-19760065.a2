@@ -1,0 +1,38 @@
+T33	Regulation 453 466	major players
+T34	Positive_regulation 476 486	initiation
+T35	Growth 488 501	proliferation
+T36	Localization 503 511	invasion
+T37	Blood_vessel_development 513 525	angiogenesis
+T38	Metastasis 530 540	metastasis
+T46	Regulation 459 466	players
+T47	Development 476 486	initiation
+T28	Death 184 188	kill
+T29	Positive_regulation 184 188	kill
+T30	Positive_regulation 223 232	essential
+T31	Negative_regulation 303 313	protection
+T32	Infection 329 338	infection
+T44	Positive_regulation 271 279	required
+T45	Positive_regulation 359 367	mediated
+T39	Planned_process 989 998	treatment
+T40	Negative_regulation 1342 1350	suppress
+T41	Gene_expression 1355 1365	expression
+T42	Pathway 1374 1383	signaling
+T27	Planned_process 18 27	Treatment
+T43	Planned_process 0 9	Targeting
+E1	Growth:T35 Theme:T9
+E2	Blood_vessel_development:T37 AtLoc:T9
+E3	Blood_vessel_development:T37 
+E4	Development:T47 Theme:T9
+E5	Localization:T36 Theme:T9
+E6	Metastasis:T38 Theme:T9
+E7	Positive_regulation:T34 Theme:T9
+E8	Regulation:T33 Cause:T8 Theme:E5
+E9	Regulation:T33 Cause:T8 Theme:E1
+E10	Death:T28 Theme:T5
+E11	Positive_regulation:T29 Theme:E10 Cause:T4
+E12	Positive_regulation:T29 Theme:E10 Cause:T3
+E13	Positive_regulation:T29 Theme:T5 Cause:T4
+E14	Positive_regulation:T29 Theme:T5 Cause:T3
+E15	Gene_expression:T41 Theme:T25
+E16	Pathway:T42 Participant:T26
+E17	Negative_regulation:T40 Theme:E15

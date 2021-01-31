@@ -1,0 +1,46 @@
+T32	Regulation 699 707	involves
+T33	Positive_regulation 725 735	activation
+T34	Breakdown 752 763	degradation
+T35	Localization 775 783	invasion
+T36	Cell_proliferation 785 798	proliferation
+T37	Development 828 837	formation
+T38	Regulation 869 876	changes
+T44	Catabolism 752 763	degradation
+T41	Development 1105 1109	form
+T22	Blood_vessel_development 0 14	Arteriogenesis
+T23	Development 20 31	development
+T24	Growth 36 42	growth
+T39	Blood_vessel_development 938 952	arteriogenesis
+T40	Blood_vessel_development 975 989	arteriogenesis
+T25	Blood_vessel_development 298 312	arteriogenesis
+T26	Development 350 359	formation
+T27	Blood_vessel_development 388 400	angiogenesis
+T28	Positive_regulation 455 464	dependent
+T43	Cell_differentiation 332 345	differentiate
+T29	Remodeling 544 554	remodeling
+T30	Development 627 636	formation
+T42	Blood_vessel_development 1193 1207	arteriogenesis
+T45	Planned_process 1278 1287	treatment
+E1	Localization:T35 Theme:T14
+E2	Development:T37 Theme:T15
+E3	Development:T37 Theme:T16
+E4	Positive_regulation:T33 Theme:T12
+E5	Cell_proliferation:T36 Theme:T15
+E6	Cell_proliferation:T36 Theme:T14
+E7	Regulation:T38 Theme:T17
+E8	Regulation:T38 Theme:T16
+E9	Breakdown:T34 Theme:T13
+E10	Development:T41 Theme:T18
+E11	Development:T23 Theme:T1
+E12	Blood_vessel_development:T22 Theme:T1
+E13	Growth:T24 Theme:T1
+E14	Blood_vessel_development:T39 
+E15	Blood_vessel_development:T40 
+E16	Development:T26 Theme:T7
+E17	Blood_vessel_development:T27 Theme:T7
+E18	Blood_vessel_development:T25 Theme:T7
+E19	Development:T30 Theme:T10
+E20	Development:T30 Theme:T11
+E21	Remodeling:T29 Theme:T10
+E22	Planned_process:T45 Theme:T20
+E23	Blood_vessel_development:T42 

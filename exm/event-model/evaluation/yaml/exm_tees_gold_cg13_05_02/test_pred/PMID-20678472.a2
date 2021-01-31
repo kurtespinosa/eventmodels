@@ -1,0 +1,32 @@
+TR40	Planned_process 543 553	Incubation
+TR41	Planned_process 660 670	incubation
+TR48	Planned_process 1127 1134	therapy
+TR35	Negative_regulation 166 174	inhibits
+TR36	Cell_proliferation 179 192	proliferation
+TR37	Regulation 310 317	effects
+TR38	Regulation 400 406	alters
+TR39	Negative_regulation 426 433	reduces
+TR46	Positive_regulation 937 946	activated
+TR47	Positive_regulation 966 975	increased
+TR32	Positive_regulation 13 20	induces
+TR33	Cell_death 21 30	apoptosis
+TR34	Pathway 95 103	pathways
+TR42	Regulation 778 785	changed
+TR43	Positive_regulation 865 871	caused
+TR44	Breakdown 882 894	condensation
+TR45	Development 903 912	formation
+E1	Planned_process:TR48 Theme:T31 Instrument:T30
+E2	Cell_proliferation:TR36 Theme:T6
+E3	Regulation:TR37 Theme:T12
+E4	Regulation:TR37 Theme:T11
+E5	Negative_regulation:TR35 Theme:E2 Cause:T4
+E6	Negative_regulation:TR35 Theme:E2 Cause:T5
+E7	Negative_regulation:TR39 Cause:T13 Theme:T14
+E8	Positive_regulation:TR47 Theme:T26
+E9	Positive_regulation:TR47 Theme:T27
+E10	Cell_death:TR33 Theme:T3
+E11	Positive_regulation:TR32 Theme:E10
+E12	Breakdown:TR44 Theme:T24
+E13	Development:TR45 Theme:T25
+E14	Regulation:TR42 Theme:T21
+E15	Positive_regulation:TR43 Theme:E12

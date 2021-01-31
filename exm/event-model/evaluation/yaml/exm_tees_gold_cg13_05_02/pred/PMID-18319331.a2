@@ -1,0 +1,68 @@
+T53	Negative_regulation 479 490	inactivates
+T77	Negative_regulation 1746 1756	inhibition
+T78	Regulation 1801 1810	targeting
+T79	Blood_vessel_development 1811 1829	neovascularization
+T63	Negative_regulation 1097 1106	decreased
+T64	Negative_regulation 1125 1132	blocked
+T65	Growth 1146 1152	growth
+T60	Negative_regulation 793 802	inhibited
+T61	Localization 821 828	release
+T62	Blood_vessel_development 832 850	angioproliferative
+T49	Pathway 204 212	pathways
+T50	Positive_regulation 216 225	essential
+T51	Growth 234 240	growth
+T52	Blood_vessel_development 245 260	vascularization
+T80	Development 313 320	derived
+T72	Regulation 1488 1495	effects
+T73	Development 1513 1522	perfusion
+T74	Positive_regulation 1567 1575	resulted
+T75	Negative_regulation 1588 1597	reduction
+T76	Development 1601 1610	perfusion
+T66	Growth 1154 1160	Growth
+T67	Negative_regulation 1161 1171	inhibition
+T68	Cell_proliferation 1207 1220	proliferation
+T69	Cell_death 1235 1243	necrosis
+T70	Negative_regulation 1273 1281	decrease
+T71	Blood_vessel_development 1357 1375	angioproliferative
+T82	Negative_regulation 1188 1197	decreased
+T83	Negative_regulation 1324 1333	reduction
+T54	Planned_process 531 540	treatment
+T55	Negative_regulation 541 548	reduced
+T56	Phosphorylation 563 577	phosphorylated
+T45	Pathway 40 49	signaling
+T46	Positive_regulation 50 58	promotes
+T47	Growth 59 65	growth
+T48	Blood_vessel_development 70 85	vascularization
+T57	Planned_process 654 664	treatments
+T58	Regulation 689 697	affected
+T59	Cell_proliferation 703 716	proliferation
+T81	Negative_regulation 747 754	reduced
+E1	Negative_regulation:T53 Cause:T13 Theme:T14
+E2	Negative_regulation:T53 Theme:T14 Cause:T12
+E3	Blood_vessel_development:T79 AtLoc:T43
+E4	Blood_vessel_development:T79 AtLoc:T44
+E5	Negative_regulation:T77 Cause:T42 Theme:T41
+E6	Regulation:T78 Theme:E3 Cause:E5
+E7	Regulation:T78 Theme:E4 Cause:E5
+E8	Negative_regulation:T63 Theme:T31 Cause:T30
+E9	Growth:T65 Theme:T32
+E10	Negative_regulation:T64 Theme:E9 Cause:T30
+E11	Blood_vessel_development:T62 
+E12	Growth:T51 Theme:T5
+E13	Blood_vessel_development:T52 AtLoc:T5
+E14	Development:T80 Theme:T6
+E15	Development:T73 Theme:T38
+E16	Development:T76 Theme:T39
+E17	Negative_regulation:T75 Theme:E16
+E18	Positive_regulation:T74 Theme:E17
+E19	Cell_proliferation:T68 Theme:T33
+E20	Negative_regulation:T70 Theme:T35
+E21	Cell_death:T69 
+E22	Planned_process:T54 Instrument:T15
+E23	Pathway:T45 Participant:T1
+E24	Growth:T47 Theme:T2
+E25	Blood_vessel_development:T48 AtLoc:T2
+E26	Positive_regulation:T46 Cause:E23 Theme:E25
+E27	Positive_regulation:T46 Cause:E23 Theme:E24
+E28	Planned_process:T57 Instrument:T18
+E29	Negative_regulation:T81 Theme:T20

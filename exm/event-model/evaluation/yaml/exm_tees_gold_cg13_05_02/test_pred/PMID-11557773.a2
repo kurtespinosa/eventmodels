@@ -1,0 +1,37 @@
+TR37	Planned_process 817 827	subjecting
+TR38	Planned_process 828 839	transfected
+TR39	Positive_regulation 877 886	activates
+TR40	Localization 972 980	presence
+TR42	Mutation 1135 1143	deletion
+TR43	Mutation 1144 1151	mutants
+TR44	Positive_regulation 1242 1252	activation
+TR45	Localization 1287 1296	localizes
+TR47	Positive_regulation 1602 1612	activation
+TR48	Glycolysis 1689 1699	glycolytic
+TR49	Death 1785 1793	survival
+TR32	Metabolism 8 18	catabolism
+TR33	Positive_regulation 84 94	activation
+TR35	Positive_regulation 350 359	dependent
+TR36	Gene_expression 372 382	expression
+TR46	Binding 1480 1487	binding
+TR34	Metabolism 241 251	metabolize
+E1	Planned_process:TR37 Theme:T18
+E2	Planned_process:TR38 Theme:T18
+E3	Localization:TR40 Theme:T20
+E4	Positive_regulation:TR39 Theme:T19 Cause:E1
+E5	Localization:TR45 Theme:T23
+E6	Mutation:TR43 Theme:T23
+E7	Mutation:TR42 Theme:T23
+E8	Positive_regulation:TR47 Theme:T28 Cause:T27
+E9	Positive_regulation:TR47 Theme:T28
+E10	Glycolysis:TR48 
+E11	Death:TR49 Theme:T30
+E12	Death:TR49 Theme:T29
+E13	Death:TR49 Theme:T31
+E14	Metabolism:TR32 Theme:T1
+E15	Positive_regulation:TR33 Theme:T3
+E16	Gene_expression:TR36 Theme:T9
+E17	Positive_regulation:TR35 Theme:T8
+E18	Positive_regulation:TR35 Theme:E16
+E19	Metabolism:TR34 Theme:T6
+E20	Metabolism:TR34 Theme:T5

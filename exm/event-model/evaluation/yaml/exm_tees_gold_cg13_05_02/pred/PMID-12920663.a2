@@ -1,0 +1,47 @@
+T43	Blood_vessel_development 1353 1363	Angiogenic
+T44	Negative_regulation 1433 1443	inhibitory
+T45	Negative_regulation 1461 1471	inhibition
+T46	Negative_regulation 1476 1483	blocked
+T54	Negative_regulation 1364 1372	activity
+T31	Blood_vessel_development 93 103	angiogenic
+T50	Negative_regulation 1792 1810	negative regulator
+T51	Blood_vessel_development 1814 1824	angiogenic
+T55	Negative_regulation 1825 1833	activity
+T49	Blood_vessel_development 1693 1703	angiogenic
+T32	Blood_vessel_development 361 371	angiogenic
+T42	Negative_regulation 1191 1199	decrease
+T53	Cell_proliferation 1308 1321	proliferation
+T40	Positive_regulation 888 897	increased
+T47	Blood_vessel_development 1566 1576	angiogenic
+T48	Negative_regulation 1595 1602	blocked
+T41	Negative_regulation 998 1007	decreased
+T37	Blood_vessel_development 720 730	Angiogenic
+T38	Regulation 793 799	effect
+T39	Localization 807 816	migration
+T52	Negative_regulation 731 739	activity
+T34	Blood_vessel_development 584 594	angiogenic
+T35	Blood_vessel_development 641 651	angiogenic
+T36	Negative_regulation 652 661	inhibitor
+T33	Planned_process 457 466	collected
+E1	Blood_vessel_development:T43 
+E2	Negative_regulation:T44 Theme:E1 Cause:T25
+E3	Negative_regulation:T45 Theme:E1
+E4	Negative_regulation:T54 Theme:E2
+E5	Negative_regulation:T46 Theme:E4 Cause:T25
+E6	Negative_regulation:T46 Theme:E3 Cause:T25
+E7	Blood_vessel_development:T31 AtLoc:T1
+E8	Blood_vessel_development:T51 
+E9	Negative_regulation:T50 Theme:E8 Cause:T29
+E10	Blood_vessel_development:T49 
+E11	Blood_vessel_development:T32 
+E12	Negative_regulation:T42 Theme:T21
+E13	Positive_regulation:T40 Theme:T18
+E14	Blood_vessel_development:T47 
+E15	Negative_regulation:T48 Theme:E14
+E16	Negative_regulation:T41 Theme:T19
+E17	Blood_vessel_development:T37 
+E18	Localization:T39 Theme:T16
+E19	Regulation:T38 Theme:E18 Cause:T15
+E20	Blood_vessel_development:T35 
+E21	Blood_vessel_development:T34 
+E22	Planned_process:T33 Theme:T8

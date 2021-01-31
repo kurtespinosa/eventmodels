@@ -1,0 +1,25 @@
+T25	Planned_process 286 296	enrichment
+T26	Planned_process 342 352	incubation
+T27	Planned_process 443 451	labelled
+T29	Metabolism 758 778	oxidative metabolism
+T30	Glycolysis 822 832	glycolysis
+T33	Metabolism 768 778	metabolism
+T34	Metabolism 865 875	metabolism
+T24	Metabolism 220 230	metabolism
+T28	Metabolism 575 595	oxidative metabolism
+T32	Metabolism 585 595	metabolism
+T22	Metabolism 20 30	metabolism
+T23	Metabolism 81 92	utilization
+T31	Metabolism 123 133	metabolism
+E1	Planned_process:T25 Instrument:T11
+E2	Glycolysis:T30 
+E3	Metabolism:T33 Theme:T20
+E4	Metabolism:T34 Theme:T19
+E5	Metabolism:T29 Theme:T20
+E6	Metabolism:T24 Theme:T9
+E7	Metabolism:T24 Theme:T8
+E8	Metabolism:T32 Theme:T17
+E9	Metabolism:T28 Theme:T17
+E10	Metabolism:T23 Theme:T4
+E11	Metabolism:T22 Theme:T2
+E12	Metabolism:T22 Theme:T1

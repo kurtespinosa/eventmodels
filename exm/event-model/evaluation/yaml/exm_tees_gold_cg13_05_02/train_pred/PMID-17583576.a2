@@ -1,0 +1,80 @@
+TR60	Planned_process 1428 1435	induced
+TR61	Gene_expression 1436 1450	overexpression
+TR62	Positive_regulation 1436 1450	overexpression
+TR63	Positive_regulation 1471 1479	enhanced
+TR64	Blood_vessel_development 1486 1503	lymphangiogenesis
+TR65	Positive_regulation 1504 1511	leading
+TR66	Development 1519 1530	development
+TR76	Positive_regulation 1428 1435	induced
+TR70	Regulation 1802 1817	play a key role
+TR71	Metastasis 1837 1847	metastasis
+TR78	Regulation 1813 1817	role
+TR45	Planned_process 663 675	implantation
+TR46	Metastasis 753 763	metastases
+TR47	Blood_vessel_development 842 852	angiogenic
+TR48	Blood_vessel_development 857 872	lymphangiogenic
+TR35	Regulation 0 10	Modulating
+TR36	Metastasis 11 21	metastasis
+TR37	Blood_vessel_development 27 42	lymphangiogenic
+TR40	Blood_vessel_development 258 275	lymphangiogenesis
+TR41	Metastasis 283 293	metastasis
+TR72	Regulation 244 248	role
+TR57	Metastasis 1266 1276	metastatic
+TR58	Gene_expression 1318 1328	production
+TR59	Blood_vessel_development 1339 1354	lymphangiogenic
+TR75	Localization 1384 1392	presence
+TR43	Metastasis 421 431	metastatic
+TR44	Planned_process 558 565	labeled
+TR38	Development 87 100	dissemination
+TR39	Planned_process 147 156	treatment
+TR67	Metastasis 1655 1670	micrometastases
+TR68	Regulation 1684 1698	important role
+TR69	Metastasis 1726 1736	metastatic
+TR77	Regulation 1694 1698	role
+TR49	Regulation 931 935	role
+TR50	Blood_vessel_development 939 956	lymphangiogenesis
+TR51	Regulation 960 969	mediating
+TR52	Metastasis 970 980	metastasis
+TR53	Metastasis 990 1000	metastatic
+TR54	Planned_process 1039 1050	overexpress
+TR55	Development 1067 1078	development
+TR73	Planned_process 1025 1035	engineered
+TR74	Gene_expression 1039 1050	overexpress
+TR56	Metastasis 1171 1181	metastatic
+TR42	Metastasis 397 407	metastatic
+E1	Development:TR66 Theme:T29
+E2	Planned_process:TR60 Instrument:T26 Theme:T27
+E3	Planned_process:TR60 Instrument:T26
+E4	Gene_expression:TR61 Theme:T26
+E5	Positive_regulation:TR62 Theme:E4
+E6	Metastasis:TR71 Theme:T34
+E7	Regulation:TR70 Theme:E6 Cause:T33
+E8	Planned_process:TR45 Theme:T14 Instrument:T13
+E9	Metastasis:TR46 
+E10	Blood_vessel_development:TR47 
+E11	Blood_vessel_development:TR48 
+E12	Blood_vessel_development:TR37 AtLoc:T1
+E13	Metastasis:TR36 
+E14	Regulation:TR35 Theme:E13
+E15	Metastasis:TR41 
+E16	Blood_vessel_development:TR40 AtLoc:T4
+E17	Regulation:TR72 Theme:E15 Cause:E16
+E18	Blood_vessel_development:TR59 
+E19	Metastasis:TR57 
+E20	Gene_expression:TR58 Theme:T24
+E21	Metastasis:TR43 Theme:T6
+E22	Planned_process:TR44 Instrument:T12 Theme:T11
+E23	Planned_process:TR39 Theme:T3
+E24	Development:TR38 Theme:T2
+E25	Metastasis:TR69 Theme:T32
+E26	Regulation:TR68 Theme:E25 Cause:T30
+E27	Planned_process:TR73 Instrument:T17
+E28	Development:TR55 Theme:T19
+E29	Gene_expression:TR74 Theme:T18
+E30	Metastasis:TR52 
+E31	Metastasis:TR53 
+E32	Regulation:TR51 Theme:E30
+E33	Blood_vessel_development:TR50 
+E34	Regulation:TR49 Theme:E32 Cause:E33
+E35	Metastasis:TR56 
+E36	Metastasis:TR42 
